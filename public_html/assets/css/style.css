@@ -6255,24 +6255,222 @@ body.modal {
         bottom: 80px;
     }
     .s-banner:before {
-    .slider-categ-bicycle .categ-bicycle-item {
+        top: -1px;
+    }
+}
+.slider-categ-bicycle .categ-bicycle-item {
     padding: 40px 42px 20px;
     height: 260px;
 }
 .news-post-thumbnail img {
     height: 220px;
 }
-    .s-category-bicycle {
-        padding: 75px 0;
-    }
-    .s-gallery {
-        padding: 105px 0;
-    }
-    .s-our-advantages {
-        padding: 110px 0;
-    }
-    .s-dark-advantages,
-    .s-single-product,
+.s-category-bicycle {
+    padding: 75px 0;
+}
+.s-gallery {
+    padding: 105px 0;
+}
+.s-our-advantages {
+    padding: 110px 0;
+}
+.s-dark-advantages,
+.s-single-product,
+.s-shop,
+.s-about-advantages,
+.s-contacts,
+.s-news {
+    padding: 120px 0;
+}
+.s-our-advantages {
+    padding: 110px 0 115px;
+}
+.s-related-products,
+.s-top-sale,
+.s-products {
+    padding: 118px 0 60px;
+}
+.s-banner,
+.s-our-news,
+.s-feedback {
+    padding: 118px 0 105px;
+}
+.s-our-team,
+.s-about-count {
+    padding: 120px 0 112px;
+}
+.s-dark-category,
+.s-category-bicycle.page-services,
+.s-clients.about-clients,
+.contacts-top {
+    padding-top: 120px;
+}
+.s-products.s-dark-product,
+.s-clients {
+    padding-bottom: 120px;
+}
+.nice-select .current {
+    font-size: 14px;
+}
+.page-error .name {
+    font-size: 110px;
+    margin-bottom: 10px;
+}
+.our-advantages-wrap.advantages-wrap-about {
+    margin-top: 120px;
+}
+.baner-shop {
+    margin-bottom: 120px;
+}
+.s-products.s-dark-product .products-title-cover,
+.s-dark-advantages .title,
+.s-related-products .title,
+.single-shop-tabs .reviews-form .title,
+.s-our-team .container > .title,
+.s-about-advantages .container > .title,
+.s-contacts .title,
+.s-our-news .container > .title,
+.s-top-sale .title,
+.products-title-cover {
+    margin-bottom: 52px;
+}
+.product-item {
+    margin-bottom: 60px;
+}
+.news-item .btn-news {
+    margin-top: 30px;
+}
+.s-contacts-block {
+    margin-top: 120px;
+}
+.s-feedback h2.title {
+    margin-bottom: 36px;
+}
+.sort-by .nice-select .option {
+    padding: 0 10px;
+}
+.single-shop-left .wheel-size ul li,
+.single-shop-left .frame-size ul li {
+    line-height: 36px;
+}
+.page-error p {
+    font-size: 18px;
+}
+.single-shop-tabs .product-tabs {
+    margin-bottom: 40px;
+}
+.page-error {
+    padding: 230px 0;
+}
+.s-header-title {
+    min-height: 170px;
+}
+.s-header-title:after {
+    height: 24px;
+}
+.team-item .title,
+.about-count-item h5,
+.about-adv-item .title {
+    font-size: 24px;
+}
+.widget-instagram li img {
+    height: 80px;
+}
+blockquote p {
+    font-size: 18px;
+}
+.post-item-cover {
+    margin-top: 83px;
+}
+.post-item-cover .post-thumbnail img {
+    height: 400px;
+}
+.pagination-cover {
+    margin-top: 83px;
+}
+.widget {
+    margin-top: 65px;
+}
+.widget-tags ul li {
+    margin-right: 7px;
+    margin-top: 7px;
+}
+.contact-info p {
+    margin-top: 15px;
+}
+.contact-info .title {
+    margin-bottom: 20px;
+}
+.cont-map {
+    height: 350px;
+}
+.checkbox-cover p:before {
+    width: 22px;
+    height: 22px;
+    line-height: 18px;
+    font-size: 12px;
+}
+.checkbox-cover p {
+    padding-left: 30px;
+}
+.about-adv-item img {
+    height: 260px;
+}
+.about-services-item h5 {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 0;
+    max-width: 240px;
+}
+.s-our-advantages:before,
+.s-about-count:before {
+    height: 25px;
+    top: -1px;
+}
+.s-subscribe:before,
+.s-our-advantages:after,
+.s-feedback:after,
+.s-about-count:after {
+    height: 34px;
+}
+.s-subscribe:before,
+.s-our-advantages:after {
+    bottom: -1px;
+}
+.banner-sale {
+    font-size: 40px;
+}
+.about-count-item .number {
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-bottom: 18px;
+}
+.team-item .social-list {
+    margin-top: 14px;
+}
+.team-item img {
+    height: 184px;
+    margin-bottom: 28px;
+}
+.social-list li,
+.footer-soc li {
+    margin-right: 15px;
+}
+.s-feedback:before {
+    top: -1px;
+}
+.slick-arrow {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    background-color: #ffd910;
+}
+.social-list {
+    font-size: 18px;
+}
+.gallery-item .title {
+    padding-bottom: 16px;
+    margin-bottom: 15px;
     .s-shop,
     .s-about-advantages,
     .s-contacts,
