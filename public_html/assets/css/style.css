@@ -8207,17 +8207,15 @@ body.modal {
     padding: 5px 10px;
 
 }
-.btn-more: hover{
+.btn-more:hover {
     color: #000 !important;
 }
 
-@media  (max-width:500px) {
+@media (max-width:500px) {
     .card a {
-    width: 80px;3
-
-
-}
-.card{
-    margin: 20px auto;
-}
+        width: 80px;
+    }
+    .card {
+        margin: 20px auto;
+    }
 }
