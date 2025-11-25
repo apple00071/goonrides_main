@@ -1927,7 +1927,7 @@ footer .social-list {
     transition: 0.3s ease-in;
 }
 .main-slider .main-slide .container {
-    min-height: 828px;
+    min-height: 600px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1980,8 +1980,8 @@ footer .social-list {
 }
 .main-slider .main-slide .slide-img-cover {
     position: relative;
-    max-height: 478px;
-    height: 478px;
+    max-height: 350px;
+    height: 350px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5517,7 +5517,7 @@ body.modal {
     right: 5%;
 }
 .dark-slider .dark-slide .container {
-    min-height: 965px;
+    min-height: 650px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
