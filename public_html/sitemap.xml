@@ -4,44 +4,41 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 
 <url>
-  <loc>https://go-onriders.com/</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
+  <loc>https://www.go-onriders.com/</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://go-onriders.com/index</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
+  <loc>https://www.go-onriders.com/index.html</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.go-onriders.com/bikes.html</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://go-onriders.com/bike-rentals-hyderabad</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
+  <loc>https://www.go-onriders.com/contact.html</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://go-onriders.com/contact</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
+  <loc>https://www.go-onriders.com/about.html</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://go-onriders.com/about</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
+  <loc>https://www.go-onriders.com/terms.html</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://go-onriders.com/terms</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://go-onriders.com/index.php</loc>
-  <lastmod>2024-03-28T09:11:06+00:00</lastmod>
+  <loc>https://www.go-onriders.com/404.html</loc>
+  <lastmod>2023-11-25T12:00:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 
 </urlset>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /*.zip$
+Disallow: /*.rar$
+Disallow: /*.pdf$
+
+Sitemap: https://www.go-onriders.com/sitemap.xml
