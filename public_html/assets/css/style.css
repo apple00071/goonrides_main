@@ -172,6 +172,7 @@ button,
 input[type="button"],
 input[type="submit"] {
     -webkit-appearance: button;
+    appearance: button;
     cursor: pointer;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -931,7 +932,7 @@ background-color: #fbb533;
 .s-header-title {
     background-color: #02044b;
     min-height: 200px;
-    padding: 30px 0 45px;
+    padding: 150px 0 45px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1844,6 +1845,7 @@ footer .social-list {
     position: relative;
     background-color: #fff;
     overflow: hidden;
+    padding-top: 150px;
 }
 /*.s-main-slider:before {
     content: "";
@@ -6253,22 +6255,13 @@ body.modal {
         bottom: 80px;
     }
     .s-banner:before {
-        top: -1px;
-    }
     .slider-categ-bicycle .categ-bicycle-item {
-        padding: 40px 42px 20px;
-        height: 260px;
-    }
-    .news-item,
-    .feedback-slider .feedback-item {
-        /*padding-left: 42px;
-        padding-right: 42px;*/
-    }
-    .news-post-thumbnail img {
-        height: 220px;
-    }
+    padding: 40px 42px 20px;
+    height: 260px;
 }
-@media (max-width: 1199px) {
+.news-post-thumbnail img {
+    height: 220px;
+}
     .s-category-bicycle {
         padding: 75px 0;
     }
@@ -7020,6 +7013,9 @@ body.modal {
     .contacts-top {
         padding-top: 100px;
     }
+    .s-main-slider {
+        padding-top: 100px;
+    }
     .s-products.s-dark-product,
     .s-clients {
         padding-bottom: 0px;
@@ -7056,6 +7052,7 @@ body.modal {
     }
     .s-header-title {
         min-height: 140px;
+        padding-top: 100px;
     }
     .s-contacts-block {
         margin-top: 100px;
@@ -7508,6 +7505,12 @@ body.modal {
     .navigation-item.navigation-right:before {
         content: "\f105";
         right: 0;
+    }
+    .s-main-slider {
+        padding-top: 80px;
+    }
+    .s-header-title {
+        padding-top: 80px;
     }
     .our-advantages-item {
         width: calc(50% - 10px);
