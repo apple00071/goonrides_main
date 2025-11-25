@@ -1,0 +1,181 @@
+Return-Path: <heavenlopez784@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yAEhKVO2lGL2OwAAQ+45pw
+	(envelope-from <heavenlopez784@gmail.com>)
+	for <info@go-onriders.com>; Mon, 30 May 2022 08:19:31 -0400
+Return-path: <heavenlopez784@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 30 May 2022 08:19:31 -0400
+Received: from mail-io1-f49.google.com ([209.85.166.49]:42638)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <heavenlopez784@gmail.com>)
+	id 1nveMs-0004vl-5w
+	for info@go-onriders.com; Mon, 30 May 2022 08:19:31 -0400
+Received: by mail-io1-f49.google.com with SMTP id a10so11127240ioe.9
+        for <info@go-onriders.com>; Mon, 30 May 2022 05:19:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=TPZPXtmWEDJIT9kDeCdD1YGYxnxskYG1rJP8VcnIaVk=;
+        b=YWRRqfObI3ig6s3DYY6K+Pa0wTiii+x1Ni6Yu7EbHLcISpmk9m582D2Uv7sO2ieCM6
+         346yt6RJW8ftLz7vpibGZqinxdBFunmshrwcjHonWpsIdDIdwDFaS4NLvL25YgwVQxDl
+         /mPYsLDyxJwX1K9RCteomqS5fBRln5Np40Tqf0wWVrAiIVpaunYcKe34TfVi4IbbC2TP
+         zWEEFhXhYUGEp9g+dr11+Jz4z6BUW+S3M2icCQFKzd2Odn7yyUpfNXaar9+N6Ot/oSZB
+         Rz/dfwVykes2NHcmZMHfnGkNAZwSwt0nBVf9KaD4d+o99mpHDGarndP9PVoL6pePW2l4
+         3SKg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=TPZPXtmWEDJIT9kDeCdD1YGYxnxskYG1rJP8VcnIaVk=;
+        b=SsK/W0rmOiDf2PzySL3VM/Fe/a/E8I+IKGVzZGj/cdRid7Lyav6OXx26twlsFqCVBZ
+         hBYh1k9btPj8YPDfEOvlrcqosgpLc45Fnx9FM6TsIW+OhueNSnzQuXDDyM9+uLl2Ohm9
+         faGjPHCoh+MT4eVgTgABLStOo1qTEkDEaffXCgxMchetAaqAWJxEv2uIOMdwKczZ31bc
+         3BOa1KIGLYnsGvkUlgHj7upBtrPYGoi0uxy0Twq10HdaH6xUEUCd/EfIFEs4D36SDBLO
+         H7cM/xbAGEgbfVophlu2jeCNjjEEpj+ESgBH6Gxc/LYOvzO/z1gLCOk/9uvH6RTdDJ0Z
+         0WOw==
+X-Gm-Message-State: AOAM533ykt9Q8Jkx1ng1Lv9W6xdPl8LKJnH4MkDzhPec+Ck1qrxKEXgw
+	tolSxNpg4bKK7C1WMeYQGkhPVk6ZE0PiyAMJoc8VaEDR
+X-Google-Smtp-Source: ABdhPJzADN96/CzqDBDGQAmYjpuCdo1NL+gqve+W9ZC0uJ/Ml655GgJjGPeWnS6llCCyXV8tCGdp30gEtLyKMJlHnOI=
+X-Received: by 2002:a05:6638:d94:b0:32e:c8c8:2747 with SMTP id
+ l20-20020a0566380d9400b0032ec8c82747mr20305260jaj.32.1653913129366; Mon, 30
+ May 2022 05:18:49 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 30 May 2022 05:18:48 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 30 May 2022 05:18:48 -0700
+MIME-Version: 1.0
+Sender: heavenlopez784@gmail.com
+From: heavenlopez784@gmail.com
+Date: Mon, 30 May 2022 05:18:48 -0700
+X-Google-Sender-Auth: YXkMC6eONZN3K7Ojd335znPosqE
+Message-ID: <CAEsaSo+YAMD9HR1i6t4DHfukm+oQq2SGpOOpfB-RmecYVn9Mjg@mail.gmail.com>
+Subject: Grow Your Business
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="00000000000090b8ca05e039a829"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi *go-onriders.com <http://go-onriders.com>*, Have a business
+    is great especially for first time owners but having a business that can
+   profit is another matter altogether... Whether you are a small business or
+    large corporation but are struggling to acquire any new leads then look no
+    further. Web Marketing Vendors specializes in making your business stand
+   out in the searc [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.166.49 listed in list.dnswl.org]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [heavenlopez784[at]gmail.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [heavenlopez784[at]gmail.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.166.49 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of
+                             words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--00000000000090b8ca05e039a829
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *go-onriders.com <http://go-onriders.com>*,
+
+Have a business is great especially for first time owners but having a
+business that can profit is another matter altogether...
+
+Whether you are a small business or large corporation but are struggling to
+acquire any new leads then look no further. Web Marketing Vendors
+specializes in making your business stand out in the search engines
+ensuring that potential clients find you first.
+
+We custom tailor our service to your business methods with services such as:
+
+   1. SEO, SMO and PPC
+   2. Web Design
+   3. Content Marketing
+   4. Link Removal Services
+   5. Video Production Services
+
+and so much more...
+
+Looking forward to your reply.
+
+Best Regards,
+*Tami Milton  *
+DM Consultant
+[image: beacon]
+
+--00000000000090b8ca05e039a829
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><font face=3D"verdana, sans-serif" style=3D"font-family:ve=
+rdana,sans-serif"><span style=3D"color:rgb(38,50,56);font-size:13px">Hi=C2=
+=A0</span></font><b><a href=3D"http://go-onriders.com">go-onriders.com</a><=
+/b><font face=3D"verdana, sans-serif" style=3D"font-family:verdana,sans-ser=
+if"><span style=3D"color:rgb(38,50,56);font-size:13px">,</span><br style=3D=
+"color:rgb(38,50,56);font-size:13px"><br style=3D"color:rgb(38,50,56);font-=
+size:13px"><span style=3D"color:rgb(38,50,56);font-size:13px">Have a busine=
+ss is great especially for first time owners but having a business that can=
+ profit is another matter altogether...</span><br style=3D"color:rgb(38,50,=
+56);font-size:13px"><br style=3D"color:rgb(38,50,56);font-size:13px"><span =
+style=3D"color:rgb(38,50,56);font-size:13px">Whether you are a small busine=
+ss or large corporation but are struggling to acquire any new leads then lo=
+ok no further. Web Marketing Vendors specializes in making your business st=
+and out in the search engines ensuring that potential clients find you firs=
+t.</span><br style=3D"color:rgb(38,50,56);font-size:13px"><br style=3D"colo=
+r:rgb(38,50,56);font-size:13px"><span style=3D"color:rgb(38,50,56);font-siz=
+e:13px">We custom tailor our service to your business methods with services=
+ such as:</span><br style=3D"color:rgb(38,50,56);font-size:13px"></font><ol=
+ style=3D"font-family:arial,sans-serif"><li><font face=3D"verdana, sans-ser=
+if">SEO, SMO and PPC<br></font></li><li><font face=3D"verdana, sans-serif">=
+Web Design<br></font></li><li><font face=3D"verdana, sans-serif">Content Ma=
+rketing<br></font></li><li><font face=3D"verdana, sans-serif">Link Removal =
+Services<br></font></li><li><font face=3D"verdana, sans-serif">Video Produc=
+tion Services<br></font></li></ol><font face=3D"verdana, sans-serif" style=
+=3D"font-family:verdana,sans-serif"><span style=3D"color:rgb(38,50,56);font=
+-size:13px">and so much more...</span></font><div><font color=3D"#263238" f=
+ace=3D"verdana, sans-serif"><br></font></div><div><div dir=3D"ltr"><p style=
+=3D"margin-bottom:0.0001pt"><span lang=3D"EN-US" style=3D"font-family:Verda=
+na,sans-serif"><font color=3D"#073763">Looking forward to your reply.</font=
+></span></p><p style=3D"margin-bottom:0.0001pt"><font size=3D"2" color=3D"#=
+073763"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">Best =
+Regards,</span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif">=
+</span></font></p><b><span style=3D"color:rgb(32,33,36);font-family:&quot;G=
+oogle Sans&quot;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;letter-spaci=
+ng:0.29px;text-align:center;white-space:nowrap">Tami Milton</span>=C2=A0=C2=
+=A0</b><font color=3D"#073763"><span lang=3D"EN-US" style=3D"font-family:Ve=
+rdana,sans-serif"><font size=3D"2"><br></font></span></font></div><div dir=
+=3D"ltr"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif"><fon=
+t size=3D"2" color=3D"#073763">DM Consultant</font></span></div></div></div=
+>
+<img src=3D"https://heavenlopez784-dot-yamm-track.appspot.com/16rXq7y24oRLQ=
+_pfuZPjQketmBfSLdySaHlJ1_4taeoEPjucUgQFg-I4za5FVAaCkFtPw1FqNYKgQYFU9Cx4npPM=
+FVMu5K8HmgIl_o0n3mAecY2pQrsQOMS8" width=3D"1" height=3D"1" alt=3D"beacon" s=
+tyle=3D"display:none; display:none!important;">
+
+--00000000000090b8ca05e039a829--

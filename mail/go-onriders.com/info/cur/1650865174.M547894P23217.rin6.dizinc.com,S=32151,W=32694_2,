@@ -1,0 +1,543 @@
+Return-Path: <bipulp@thrillophilia.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id qKQaIBY0ZmKxWgAAQ+45pw
+	(envelope-from <bipulp@thrillophilia.com>)
+	for <info@go-onriders.com>; Mon, 25 Apr 2022 01:39:34 -0400
+Return-path: <bipulp@thrillophilia.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 25 Apr 2022 01:39:34 -0400
+Received: from mail-io1-f51.google.com ([209.85.166.51]:41921)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bipulp@thrillophilia.com>)
+	id 1nirRc-0000hs-Um
+	for info@go-onriders.com; Mon, 25 Apr 2022 01:39:34 -0400
+Received: by mail-io1-f51.google.com with SMTP id h83so14710743iof.8
+        for <info@go-onriders.com>; Sun, 24 Apr 2022 22:39:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=thrillophilia-com.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=/DwtLGh9H1aJ0HJF4b5B3IJaBFk2HldRPXfkt+Yogoo=;
+        b=zDEFiO9M64hA4Ib5kDHr8TCDF6bWMpbtD0218Z8G40FwNBBC1aDRzl2PJ2iOIt+TPO
+         Gi5DMs0Kpu6xgxrWUEhDBc3mK0VHCBxNIwuBwRhs0TXKAC2Ccv+wZyAlJsduzEzw7pTQ
+         a4hxvcoOjMDUNBckLGR9qqPUSVS9/AtaL1YOtgjU17nMyBlPfvvbI8XmBnW8vZOAi5Pp
+         3lKG4mZGiCGbiJKCNHmAmUjtvoks+6U0pkaEe7QijslM+o6Cc45SwyaJrq1EYroOvhoK
+         0RFtZJbJOf62LgKszNfLcS3392tSaXMp2MHP3RIUXs45yC703QMzbDuvy+8a/CZkLGNC
+         lVYA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=/DwtLGh9H1aJ0HJF4b5B3IJaBFk2HldRPXfkt+Yogoo=;
+        b=xMl7GAb9uoWcHdhihExfTCA3XPtY8uLAxlUlqi+eZGZvOsvXAr+yNrAZlgYjruVI9S
+         0mLAXvsD8S7VMcChEpa8S/1mPpmzAlc8sttHpqEUbFWXS0UrZj2mID/PFvS4arHK4kPB
+         ZxmW3a0d4DRgTt+qdqWroIo2h4wZoq/1LrOaWRd7szf2+QfqP1vaTzBI/9Jo8kbzymIU
+         ixAL2YrgHh7i5QomY++z0mWkpGz90DJ8Fb1eobFO/Tl23YUiT0nfnoq7T3IAqYUoAWkZ
+         L4ABHEtv+3Lj4ZUNSuszoKbII71IhzB82W/+FxZQAfG2bglPEHWbHewqLreCcIVkXP/+
+         M5kQ==
+X-Gm-Message-State: AOAM531WqhrVflbma0rW3C1OlsWKWNC0079XEp0wt/UO5hrNrAd9/RH/
+	o66m/BaWEoTduX1huxd4tEX+RhI/6vWtOi6suMWnEtD1StLe7A==
+X-Google-Smtp-Source: ABdhPJznJp0hlea4yOXtu6ryPPnuiZkvKg0KM31hyekwEK0OS4HiYXVyN/KcLxyN02NmdkHbOXJdyxx00cMcF1Ss+dM=
+X-Received: by 2002:a05:6638:d87:b0:32a:c87e:eea6 with SMTP id
+ l7-20020a0566380d8700b0032ac87eeea6mr3822442jaj.194.1650865131369; Sun, 24
+ Apr 2022 22:38:51 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAKyeSYH6e-S-vHo7t9WBPoaH_E3TxmsPo66ZRRPgUnY=D+zj=w@mail.gmail.com>
+ <CAKyeSYHjRjuMU8FgktS6XgGYz=d+FAfgpjMdtnRS8kYTTWsoJQ@mail.gmail.com>
+In-Reply-To: <CAKyeSYHjRjuMU8FgktS6XgGYz=d+FAfgpjMdtnRS8kYTTWsoJQ@mail.gmail.com>
+From: Bipul Parmar <bipulp@thrillophilia.com>
+Date: Mon, 25 Apr 2022 11:08:32 +0530
+Message-ID: <CAKyeSYF+C7Cyrm9AiupNyKqRSovnx4MmV4MV9MvAHC5eYPZu9w@mail.gmail.com>
+Subject: Re: Thrillophilia Partnership Mail || Rental B2B Rates
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="000000000000ba51d705dd73fd43"
+X-Spam-Status: No, score=4.0
+X-Spam-Score: 40
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Good Morning Team *Please share the B2B Tariff for Vehile
+   Triff.* *> Vechile types & B2B Tariff> Inclusion Exclusion * 
+ Content analysis details:   (4.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.166.51 listed in list.dnswl.org]
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+--000000000000ba51d705dd73fd43
+Content-Type: text/plain; charset="UTF-8"
+
+Good Morning Team
+
+
+
+*Please share the B2B Tariff for Vehile Triff.*
+
+
+
+*> Vechile types & B2B Tariff> Inclusion Exclusion   *
+
+Team , we are Looking forward to working with you . Kindly revert with
+details requested.
+
+Looking Forward For Reply ASAP
+
+
+
+
+
+Thanks and Regards
+
+
+
+*Bipul Parmar || Product Development*
+
+Thrillophilia Adventure Tours Pvt. Ltd.
+
+*E:**  bipulp@thrillophilia.com <bipulp@thrillophilia.com>* | *W**:*
+ www.thrillophilia.com <http://www.thrillophilia.com/>
+
+*M: +91 9773326133*
+
+On Sat, Apr 16, 2022 at 11:50 AM Bipul Parmar <bipulp@thrillophilia.com>
+wrote:
+
+> Hi Team,
+>
+> Hope you are doing well!
+>
+> *Just wanted to know when can I expect the B2B rates to be sent from your
+> end For Vehicle Rental B2B Tariff /Bike/ Scooty *
+>
+>
+> Looking Forward for Best Response Soon Possible.
+>
+>
+>
+> Thanks and Regards
+>
+> Bipul Parmar || Product Development
+>
+> Thrillophilia Adventure Tours Pvt. Ltd.
+>
+> Riico Building, Sitapura Ind. Area,
+>
+> Jaipur -302017, Rajasthan.
+>
+> E:  bipulp@thrillophilia.com | *W*: www.thrillophilia.com
+>
+> M: +91 9773326133
+>
+>
+> On Fri, Apr 15, 2022 at 11:51 AM Bipul Parmar <bipulp@thrillophilia.com>
+> wrote:
+>
+>> Hi Team,
+>>
+>> Greetings from Thrillophilia !!!
+>>
+>> Hope you are doing well.
+>>
+>> I am Bipul , I manage brand partnerships at Thrillophilia
+>> <https://www.thrillophilia.com/>- India's biggest platform to discover
+>> and book travel experiences with a database of 70+ million travellers with
+>> over *10000+ activities* and tours listed on our platform. We get 7* million
+>> unique visitor*s on the platform every month who come to discover and
+>> book outdoor activities and tours. We also work with *900+ corporates* for
+>> their team outings.
+>>
+>>
+>> Thrillophilia.com are looking forward to beginning a mutually rewarding
+>> relationship with Go-Onriders, Hyderabad.
+>>
+>> .
+>>
+>> Request you to revert with the following information :
+>>
+>>
+>> *Thrillophilia want to List your Services on our website* ||
+>> www.thrillophilia.com to generate Bookings.
+>>
+>> We will share you online Booking in the Future.
+>>
+>>
+>> > Full Booking Payment in Advance from our end.
+>>
+>> > Display Your Rentals online on website for Web-Marketing & Social Media
+>> Promotions
+>>
+>> * Kindly Help Us Provide Below Highlighted Details : *
+>>
+>>    -
+>>
+>>    *Bike/Scooty Rental In Hydrabad*
+>>
+>> *- Documents / Security deposite required (If Any)- Various Rentals
+>>    Types(Vehicles) Available- Good Discounted OTA B2B rates *
+>>
+>>
+>> We are already getting a good number of leads and hope to convert maximum
+>> numbers into positive bookings. Request you to revert ASAP so we can start
+>> with the process.
+>>
+>>
+>> Feel Free to call anytime for any clarifications.
+>>
+>>
+>>  Warm Regards
+>>
+>> Bipul Parmar || Product Development
+>>
+>> Thrillophilia Adventure Tours Pvt. Ltd.
+>>
+>> Riico Building, Sitapura Ind. Area,
+>>
+>> Jaipur -302017, Rajasthan.
+>>
+>> E:  bipulp@thrillophilia.com | *W*: www.thrillophilia.com
+>>
+>> M: +91 9773326133
+>>
+>
+
+--000000000000ba51d705dd73fd43
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div id=3D"gmail-:1em" class=3D"gmail-Am gmail-aO9 gmail-A=
+l editable gmail-LW-avf gmail-tS-tW gmail-tS-tY" aria-label=3D"Message Body=
+" role=3D"textbox" aria-multiline=3D"true" tabindex=3D"1" style=3D"directio=
+n:ltr;min-height:85px" aria-controls=3D":1hd"><p style=3D"margin:0cm 0cm 0.=
+0001pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&q=
+uot;"><span style=3D"font-size:10pt;font-family:Verdana,&quot;sans-serif&qu=
+ot;;color:black">Good Morning Team</span><u></u><u></u></p><p style=3D"marg=
+in:0cm 0cm 0.0001pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,=
+&quot;serif&quot;"><u></u>=C2=A0<u></u></p><p style=3D"margin:0cm 0cm 0.000=
+1pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot=
+;"><b>Please share the B2B Tariff for Vehile Triff.</b></p><p style=3D"marg=
+in:0cm 0cm 0.0001pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,=
+&quot;serif&quot;"><b>&gt; Vechile types &amp;=C2=A0B2B Tariff<br>&gt; Incl=
+usion Exclusion=C2=A0<br>=C2=A0=C2=A0</b><u></u><u></u></p><p style=3D"marg=
+in:0cm 0cm 0.0001pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,=
+&quot;serif&quot;">Team , we are Looking forward to working with you . Kind=
+ly revert with details requested.<u></u></p><p style=3D"margin:0cm 0cm 0.00=
+01pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quo=
+t;"><span style=3D"font-size:10pt;font-family:Verdana,&quot;sans-serif&quot=
+;;color:black">Looking Forward For Reply ASAP</span><u></u><u></u></p><p st=
+yle=3D"margin:0cm 0cm 0.0001pt;font-size:12pt;font-family:&quot;Times New R=
+oman&quot;,&quot;serif&quot;"><u></u>=C2=A0<u></u></p><p style=3D"margin:0c=
+m 0cm 0.0001pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,&quot=
+;serif&quot;"><u></u>=C2=A0<u></u></p><p style=3D"margin:0cm 0cm 0.0001pt;f=
+ont-size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><s=
+pan style=3D"font-size:10pt;font-family:Verdana,&quot;sans-serif&quot;;colo=
+r:black">Thanks and Regards</span><u></u><u></u></p><p class=3D"MsoNormal" =
+style=3D"margin-right:0cm;margin-left:0cm;font-size:12pt;font-family:&quot;=
+Times New Roman&quot;,&quot;serif&quot;"><u></u>=C2=A0<u></u></p><div><tabl=
+e border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse=
+:collapse"><tbody><tr style=3D"height:16.5pt"><td valign=3D"top" style=3D"p=
+adding:0cm 0cm 4pt 8pt;height:16.5pt;overflow:hidden"><p style=3D"margin:0c=
+m 0cm 0.0001pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,&quot=
+;serif&quot;"><b><span style=3D"font-size:11pt;font-family:Verdana,&quot;sa=
+ns-serif&quot;;color:rgb(31,30,11)">Bipul Parmar || Product Development</sp=
+an></b><span style=3D"color:rgb(80,0,80)"><u></u><u></u></span></p></td></t=
+r><tr style=3D"height:69pt"><td valign=3D"top" style=3D"padding:4pt 0cm 4pt=
+ 8pt;height:69pt;overflow:hidden"><p style=3D"margin:0cm 0cm 0.0001pt;font-=
+size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><span =
+style=3D"font-size:7.5pt;font-family:Verdana,&quot;sans-serif&quot;;color:b=
+lack">Thrillophilia Adventure Tours Pvt. Ltd.</span><span style=3D"color:rg=
+b(80,0,80)"><u></u><u></u></span></p><p style=3D"margin:0cm 0cm 0.0001pt;fo=
+nt-size:12pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;"><b>=
+<span style=3D"font-size:7.5pt;font-family:Verdana,&quot;sans-serif&quot;;c=
+olor:rgb(31,30,11)">E:</span></b><b><span style=3D"font-size:7.5pt;font-fam=
+ily:Verdana,&quot;sans-serif&quot;;color:black">=C2=A0=C2=A0<a href=3D"mail=
+to:bipulp@thrillophilia.com" target=3D"_blank">bipulp@thrillophilia.com</a>=
+</span></b><span style=3D"font-size:7.5pt;font-family:Verdana,&quot;sans-se=
+rif&quot;;color:rgb(80,0,80)">=C2=A0|=C2=A0<b>W</b></span><b><span style=3D=
+"font-size:7.5pt;font-family:Verdana,&quot;sans-serif&quot;;color:rgb(31,30=
+,11)">:</span></b><span style=3D"font-size:7.5pt;color:rgb(80,0,80)"><a hre=
+f=3D"http://www.thrillophilia.com/" target=3D"_blank"><span style=3D"font-f=
+amily:Verdana,&quot;sans-serif&quot;;color:rgb(51,122,183)">=C2=A0www.thril=
+lophilia.com</span></a></span><span style=3D"color:rgb(80,0,80)"><u></u><u>=
+</u></span></p><p style=3D"margin:0cm 0cm 0.0001pt;font-size:12pt;font-fami=
+ly:&quot;Times New Roman&quot;,&quot;serif&quot;"><b><span style=3D"font-si=
+ze:7.5pt;font-family:Verdana,&quot;sans-serif&quot;;color:rgb(80,0,80)">M: =
++91 9773326133</span></b></p></td></tr></tbody></table></div></div></div><b=
+r><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Sat, =
+Apr 16, 2022 at 11:50 AM Bipul Parmar &lt;<a href=3D"mailto:bipulp@thrillop=
+hilia.com">bipulp@thrillophilia.com</a>&gt; wrote:<br></div><blockquote cla=
+ss=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px solid =
+rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr"><p dir=3D"ltr" style=3D=
+"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-siz=
+e:10pt;font-family:Verdana;color:rgb(0,0,0);background-color:transparent;fo=
+nt-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:bas=
+eline;white-space:pre-wrap">Hi Team,</span></p><p dir=3D"ltr" style=3D"line=
+-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10p=
+t;font-family:Verdana;color:rgb(0,0,0);background-color:transparent;font-va=
+riant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline=
+;white-space:pre-wrap">Hope you are doing well!</span></p><b><br></b><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);background-col=
+or:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;v=
+ertical-align:baseline;white-space:pre-wrap"><b>Just wanted to know when ca=
+n I expect the B2B rates to be sent from your end For  Vehicle Rental B2B T=
+ariff  /Bike/ Scooty </b></span></p><p dir=3D"ltr" style=3D"line-height:1.3=
+8;margin-top:0pt;margin-bottom:0pt"><br></p><p style=3D"line-height:1.38;ma=
+rgin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:V=
+erdana;color:rgb(0,0,0);background-color:transparent;font-variant-numeric:n=
+ormal;font-variant-east-asian:normal;vertical-align:baseline;white-space:pr=
+e-wrap">Looking Forward for Best Response Soon Possible.</span></p><p style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-=
+size:10pt;font-family:Verdana;color:rgb(0,0,0);background-color:transparent=
+;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:=
+baseline;white-space:pre-wrap"><br></span></p><p style=3D"line-height:1.38;=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family=
+:Verdana;color:rgb(0,0,0);background-color:transparent;font-variant-numeric=
+:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:=
+pre-wrap"><br></span></p><p style=3D"line-height:1.38;margin-top:0pt;margin=
+-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;color:rgb(0,=
+0,0);background-color:transparent;font-variant-numeric:normal;font-variant-=
+east-asian:normal;vertical-align:baseline;white-space:pre-wrap">Thanks and =
+Regards</span></p><br><div><table style=3D"color:rgb(80,0,80);border:none;b=
+order-collapse:collapse"><tbody><tr style=3D"height:16.5pt"><td style=3D"ve=
+rtical-align:top;padding:0pt 0pt 4pt 8pt;overflow:hidden"><p dir=3D"ltr" st=
+yle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"fo=
+nt-size:11pt;font-family:Verdana;color:rgb(31,30,11);background-color:trans=
+parent;font-weight:700;font-variant-numeric:normal;font-variant-east-asian:=
+normal;vertical-align:baseline;white-space:pre-wrap">Bipul Parmar || Produc=
+t Development</span></p></td></tr><tr style=3D"height:69pt"><td style=3D"ve=
+rtical-align:top;padding:4pt 0pt 4pt 8pt;overflow:hidden"><p dir=3D"ltr" st=
+yle=3D"line-height:1.53;margin-top:0pt;margin-bottom:0pt"><span style=3D"fo=
+nt-family:Verdana;color:rgb(0,0,0);background-color:transparent;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;whi=
+te-space:pre-wrap"><font size=3D"1">Thrillophilia Adventure Tours Pvt. Ltd.=
+</font></span></p><p dir=3D"ltr" style=3D"line-height:1.53;margin-top:0pt;m=
+argin-bottom:0pt"><span style=3D"font-family:Verdana;color:rgb(0,0,0);backg=
+round-color:transparent;font-variant-numeric:normal;font-variant-east-asian=
+:normal;vertical-align:baseline;white-space:pre-wrap"><font size=3D"1">Riic=
+o Building, Sitapura Ind. Area,</font></span></p><p dir=3D"ltr" style=3D"li=
+ne-height:1.53;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-family=
+:Verdana;color:rgb(0,0,0);background-color:transparent;font-variant-numeric=
+:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:=
+pre-wrap"><font size=3D"1">Jaipur -302017, Rajasthan.</font></span></p><p d=
+ir=3D"ltr" style=3D"line-height:1.53;margin-top:0pt;margin-bottom:0pt"><fon=
+t size=3D"1"><span style=3D"font-family:Verdana;color:rgb(31,30,11);backgro=
+und-color:transparent;font-weight:700;font-variant-numeric:normal;font-vari=
+ant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">E:</spa=
+n><span style=3D"font-family:Verdana;color:rgb(0,0,0);background-color:tran=
+sparent;font-weight:700;font-variant-numeric:normal;font-variant-east-asian=
+:normal;vertical-align:baseline;white-space:pre-wrap">=C2=A0 <a href=3D"mai=
+lto:bipulp@thrillophilia.com" target=3D"_blank">bipulp@thrillophilia.com</a=
+></span><span style=3D"font-family:Verdana;background-color:transparent;fon=
+t-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:base=
+line;white-space:pre-wrap"> | <b>W</b></span><span style=3D"font-family:Ver=
+dana;color:rgb(31,30,11);background-color:transparent;font-weight:700;font-=
+variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseli=
+ne;white-space:pre-wrap">:</span><a href=3D"http://www.thrillophilia.com/" =
+style=3D"text-decoration-line:none" target=3D"_blank"><span style=3D"font-f=
+amily:Verdana;color:rgb(51,122,183);background-color:transparent;font-varia=
+nt-numeric:normal;font-variant-east-asian:normal;text-decoration-line:under=
+line;vertical-align:baseline;white-space:pre-wrap"> www.thrillophilia.com</=
+span></a></font></p><p dir=3D"ltr" style=3D"line-height:1.53;margin-top:0pt=
+;margin-bottom:0pt"><span style=3D"font-family:Verdana;background-color:tra=
+nsparent;font-weight:700;font-variant-numeric:normal;font-variant-east-asia=
+n:normal;vertical-align:baseline;white-space:pre-wrap"><font size=3D"1">M: =
++91 9773326133</font></span></p></td></tr></tbody></table><br></div></div><=
+br><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail_attr">On Fri,=
+ Apr 15, 2022 at 11:51 AM Bipul Parmar &lt;<a href=3D"mailto:bipulp@thrillo=
+philia.com" target=3D"_blank">bipulp@thrillophilia.com</a>&gt; wrote:<br></=
+div><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;bor=
+der-left:1px solid rgb(204,204,204);padding-left:1ex"><div dir=3D"ltr"><spa=
+n id=3D"gmail-m_503190781807982779gmail-m_-3102118306003603398gmail-m_-5796=
+702972425974545gmail-m_-3077893173214616232gmail-m_1731702060846231615gmail=
+-m_-3086069542241247588gmail-m_-8932386205941718618gmail-m_5060292680035996=
+32gmail-m_8275124310075589050gmail-m_5071615341615457028gmail-m_-1790677641=
+709187273gmail-m_1734492820159876832gmail-m_2594114364684371205gmail-m_-486=
+1980577336483147gmail-m_274338231996095086gmail-m_-1255312733798257665gmail=
+-m_5572065955380707555gmail-m_6399728485186713146gmail-m_-81740024403158598=
+31gmail-m_-6507298308664551068gmail-m_-3052127325375772172gmail-docs-intern=
+al-guid-af062866-7fff-a745-457c-8176e1e1203e"><span style=3D"color:rgb(80,0=
+,80)"><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom=
+:0pt"><span style=3D"font-size:12pt;font-family:Verdana;color:rgb(0,0,0);ba=
+ckground-color:transparent;font-variant-numeric:normal;font-variant-east-as=
+ian:normal;vertical-align:baseline;white-space:pre-wrap">Hi Team,</span></p=
+><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:=
+0pt"><span style=3D"font-size:12pt;font-family:Verdana;color:rgb(0,0,0);bac=
+kground-color:transparent;font-weight:700;font-variant-numeric:normal;font-=
+variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">Gre=
+etings from Thrillophilia !!!</span></p><br></span><p dir=3D"ltr" style=3D"=
+line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size=
+:10pt;font-family:Verdana;color:rgb(0,0,0);background-color:transparent;fon=
+t-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:base=
+line;white-space:pre-wrap">Hope you are doing well.</span></p><p dir=3D"ltr=
+" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);background-color:tr=
+ansparent;font-variant-numeric:normal;font-variant-east-asian:normal;vertic=
+al-align:baseline;white-space:pre-wrap">
+
+</span></p><div>I am Bipul , I manage brand partnerships at=C2=A0<a href=3D=
+"https://www.thrillophilia.com/" rel=3D"noreferrer noreferrer noreferrer" t=
+arget=3D"_blank">Thrillophilia</a>- India&#39;s biggest platform to discove=
+r and book travel experiences with a database of 70+ million travellers wit=
+h over=C2=A0<b>10000+ activities</b>=C2=A0and tours listed on our platform.=
+ We get 7<b>=C2=A0million unique visitor</b>s on the platform every month w=
+ho come to discover and book outdoor activities and tours. We also work wit=
+h=C2=A0<b>900+ corporates</b>=C2=A0for their team outings.=C2=A0=C2=A0</div=
+><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"=
+><span style=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);backgro=
+und-color:transparent;font-variant-numeric:normal;font-variant-east-asian:n=
+ormal;vertical-align:baseline;white-space:pre-wrap"><br></span></p><p dir=
+=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span =
+style=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);background-col=
+or:transparent;font-variant-numeric:normal;font-variant-east-asian:normal;v=
+ertical-align:baseline;white-space:pre-wrap">Thrillophilia.com are looking =
+forward to beginning a mutually rewarding relationship with</span><span sty=
+le=3D"font-size:10pt;font-family:Verdana;background-color:transparent;font-=
+variant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseli=
+ne;white-space:pre-wrap"><font color=3D"#ff0000"> Go-Onriders, Hyderabad.</=
+font></span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;mar=
+gin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;backgroun=
+d-color:transparent;font-variant-numeric:normal;font-variant-east-asian:nor=
+mal;vertical-align:baseline;white-space:pre-wrap"><font color=3D"#ff0000">.=
+</font></span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;color:r=
+gb(0,0,0);background-color:transparent;font-variant-numeric:normal;font-var=
+iant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">Reques=
+t you to revert with the following information :</span></p><p dir=3D"ltr" s=
+tyle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"f=
+ont-size:10pt;font-family:Verdana;color:rgb(0,0,0);background-color:transpa=
+rent;font-variant-numeric:normal;font-variant-east-asian:normal;vertical-al=
+ign:baseline;white-space:pre-wrap"><br></span></p><p style=3D"line-height:1=
+.38;margin-top:0pt;margin-bottom:0pt"><font color=3D"#000000" face=3D"Verda=
+na"><span style=3D"font-size:13.3333px;white-space:pre-wrap"><b>Thrillophil=
+ia want to List your Services  on our website</b> || <a href=3D"http://www.=
+thrillophilia.com/" target=3D"_blank">www.thrillophilia.com</a>  to generat=
+e Bookings.</span></font></p><p style=3D"line-height:1.38;margin-top:0pt;ma=
+rgin-bottom:0pt"><font color=3D"#000000" face=3D"Verdana"><span style=3D"fo=
+nt-size:13.3333px;white-space:pre-wrap">We will share you online Booking in=
+ the Future.</span></font></p><p style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><font color=3D"#000000" face=3D"Verdana"><span style=3D"f=
+ont-size:13.3333px;white-space:pre-wrap"><br></span></font></p><p style=3D"=
+line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font color=3D"#000000" =
+face=3D"Verdana"><span style=3D"font-size:13.3333px;white-space:pre-wrap">&=
+gt; Full Booking Payment in Advance from our end.</span></font></p><p style=
+=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font color=3D"#0000=
+00" face=3D"Verdana"><span style=3D"font-size:13.3333px;white-space:pre-wra=
+p">&gt; Display Your Rentals online on website for Web-Marketing &amp; Soci=
+al Media Promotions </span></font></p><i><font color=3D"#000000"><br></font=
+></i><p style=3D"line-height:1.9872;margin-top:0pt;margin-bottom:0pt"><span=
+ style=3D"font-size:11pt;font-family:Verdana;background-color:transparent;f=
+ont-variant-numeric:normal;font-variant-east-asian:normal;vertical-align:ba=
+seline;white-space:pre-wrap"><b><font color=3D"#000000"><i>=C2=A0Kindly Hel=
+p Us Provide Below Highlighted Details :</i> </font></b></span></p><ul styl=
+e=3D"margin-top:0px;margin-bottom:0px"><li style=3D"margin-left:11pt;list-s=
+tyle-type:disc;font-family:Verdana;background-color:transparent;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;whi=
+te-space:pre-wrap"><p role=3D"presentation" style=3D"line-height:1.38;margi=
+n-top:0pt;margin-bottom:0pt"><span style=3D"font-size:13.3333px"><i><font c=
+olor=3D"#444444">Bike/Scooty <span>Rental</span> In Hydrabad</font></i></sp=
+an></p></li><i><font color=3D"#444444"><li style=3D"margin-left:11pt;list-s=
+tyle-type:disc;font-family:Verdana;background-color:transparent;font-varian=
+t-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;whi=
+te-space:pre-wrap"><p role=3D"presentation" style=3D"line-height:1.38;margi=
+n-top:0pt;margin-bottom:0pt"><span style=3D"font-size:13.3333px">Documents =
+/ Security deposite required (If Any)</span></p></li><li style=3D"margin-le=
+ft:11pt;list-style-type:disc;font-size:11pt;font-family:Verdana;background-=
+color:transparent;font-variant-numeric:normal;font-variant-east-asian:norma=
+l;vertical-align:baseline;white-space:pre-wrap"><p role=3D"presentation" st=
+yle=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=3D"fo=
+nt-size:10pt;background-color:transparent;font-variant-numeric:normal;font-=
+variant-east-asian:normal;vertical-align:baseline">Various Rentals Types(Ve=
+hicles) Available</span></p></li><li style=3D"margin-left:11pt;list-style-t=
+ype:disc;font-family:Verdana;background-color:transparent;font-variant-nume=
+ric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-spa=
+ce:pre-wrap"><p role=3D"presentation" style=3D"line-height:1.38;margin-top:=
+0pt;margin-bottom:0pt"><span style=3D"background-color:transparent;font-var=
+iant-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline"=
+><font size=3D"4">Good Discounted OTA B2B rates </font></span></p></li></fo=
+nt></i></ul><br><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;mar=
+gin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;color:rgb=
+(0,0,0);background-color:transparent;font-variant-numeric:normal;font-varia=
+nt-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">We are a=
+lready getting a good number of leads and hope to convert maximum numbers i=
+nto positive bookings. Request you to revert ASAP so we can start with the =
+process.</span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;=
+margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;color:=
+rgb(0,0,0);background-color:transparent;font-variant-numeric:normal;font-va=
+riant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"><br><=
+/span></p><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><s=
+pan style=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);background=
+-color:transparent;font-variant-numeric:normal;font-variant-east-asian:norm=
+al;vertical-align:baseline;white-space:pre-wrap">Feel Free to call anytime =
+for any clarifications.</span></p><p dir=3D"ltr" style=3D"line-height:1.38;=
+margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family=
+:Verdana;color:rgb(0,0,0);background-color:transparent;font-variant-numeric=
+:normal;font-variant-east-asian:normal;vertical-align:baseline;white-space:=
+pre-wrap"><br></span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-to=
+p:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;=
+color:rgb(0,0,0);background-color:transparent;font-variant-numeric:normal;f=
+ont-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"=
+>=C2=A0</span>Warm Regards</p></span><span style=3D"color:rgb(80,0,80)"><di=
+v><br><table style=3D"border:none;border-collapse:collapse"><tbody><tr styl=
+e=3D"height:16.5pt"><td style=3D"vertical-align:top;padding:0pt 0pt 4pt 8pt=
+;overflow:hidden"><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;m=
+argin-bottom:0pt"><span style=3D"font-size:11pt;font-family:Verdana;color:r=
+gb(31,30,11);background-color:transparent;font-weight:700;font-variant-nume=
+ric:normal;font-variant-east-asian:normal;vertical-align:baseline;white-spa=
+ce:pre-wrap">Bipul Parmar || Product Development</span></p></td></tr><tr st=
+yle=3D"height:69pt"><td style=3D"vertical-align:top;padding:4pt 0pt 4pt 8pt=
+;overflow:hidden"><p dir=3D"ltr" style=3D"line-height:1.53;margin-top:0pt;m=
+argin-bottom:0pt"><span style=3D"font-size:10pt;font-family:Verdana;color:r=
+gb(0,0,0);background-color:transparent;font-variant-numeric:normal;font-var=
+iant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">Thrill=
+ophilia Adventure Tours Pvt. Ltd.</span></p><p dir=3D"ltr" style=3D"line-he=
+ight:1.53;margin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:10pt;f=
+ont-family:Verdana;color:rgb(0,0,0);background-color:transparent;font-varia=
+nt-numeric:normal;font-variant-east-asian:normal;vertical-align:baseline;wh=
+ite-space:pre-wrap">Riico Building, Sitapura Ind. Area,</span></p><p dir=3D=
+"ltr" style=3D"line-height:1.53;margin-top:0pt;margin-bottom:0pt"><span sty=
+le=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);background-color:=
+transparent;font-variant-numeric:normal;font-variant-east-asian:normal;vert=
+ical-align:baseline;white-space:pre-wrap">Jaipur -302017, Rajasthan.</span>=
+</p><p dir=3D"ltr" style=3D"line-height:1.53;margin-top:0pt;margin-bottom:0=
+pt"><span style=3D"font-size:10pt;font-family:Verdana;color:rgb(31,30,11);b=
+ackground-color:transparent;font-weight:700;font-variant-numeric:normal;fon=
+t-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">E=
+:</span><span style=3D"font-size:10pt;font-family:Verdana;color:rgb(0,0,0);=
+background-color:transparent;font-weight:700;font-variant-numeric:normal;fo=
+nt-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap">=
+=C2=A0 <a href=3D"mailto:bipulp@thrillophilia.com" target=3D"_blank">bipulp=
+@thrillophilia.com</a></span><span style=3D"font-size:10pt;font-family:Verd=
+ana;background-color:transparent;font-variant-numeric:normal;font-variant-e=
+ast-asian:normal;vertical-align:baseline;white-space:pre-wrap"> | <b>W</b><=
+/span><span style=3D"font-size:10pt;font-family:Verdana;color:rgb(31,30,11)=
+;background-color:transparent;font-weight:700;font-variant-numeric:normal;f=
+ont-variant-east-asian:normal;vertical-align:baseline;white-space:pre-wrap"=
+>:</span><a href=3D"http://www.thrillophilia.com/" style=3D"text-decoration=
+-line:none" target=3D"_blank"><span style=3D"font-size:10pt;font-family:Ver=
+dana;color:rgb(51,122,183);background-color:transparent;font-variant-numeri=
+c:normal;font-variant-east-asian:normal;text-decoration-line:underline;vert=
+ical-align:baseline;white-space:pre-wrap"> www.thrillophilia.com</span></a>=
+</p><p dir=3D"ltr" style=3D"line-height:1.53;margin-top:0pt;margin-bottom:0=
+pt"><span style=3D"font-size:10pt;font-family:Verdana;background-color:tran=
+sparent;font-weight:700;font-variant-numeric:normal;font-variant-east-asian=
+:normal;vertical-align:baseline;white-space:pre-wrap">M: +91 9773326133</sp=
+an></p></td></tr></tbody></table></div></span></div>
+</blockquote></div>
+</blockquote></div>
+
+--000000000000ba51d705dd73fd43--

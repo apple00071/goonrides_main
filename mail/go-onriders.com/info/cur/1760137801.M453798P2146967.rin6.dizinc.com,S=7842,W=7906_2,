@@ -1,0 +1,64 @@
+Return-Path: <17601219635735723-85735-0-go-onriders.com@delivery.royalenfield.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id YKVDFkmS6WiXwiAAQ+45pw
+	(envelope-from <17601219635735723-85735-0-go-onriders.com@delivery.royalenfield.com>)
+	for <info@go-onriders.com>; Fri, 10 Oct 2025 19:10:01 -0400
+Return-path: <17601219635735723-85735-0-go-onriders.com@delivery.royalenfield.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 10 Oct 2025 19:10:01 -0400
+Received: from fallbackmta-66.53.ptransmail.com ([175.158.66.53]:54160)
+	by rin6.dizinc.com with esmtp (Exim 4.98.2)
+	(envelope-from <17601219635735723-85735-0-go-onriders.com@delivery.royalenfield.com>)
+	id 1v7MFL-00000008zvH-3SJL
+	for info@go-onriders.com;
+	Fri, 10 Oct 2025 19:10:00 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=pepipost; d=royalenfield.com;
+ h=Message-ID:From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe:Date;
+ bh=Sj6TLyMccM00YJeET8a8djoJhBQslJyxXpVJs/RWtF8=;
+ b=SWPpw11y0zWM8GVNBRFXjtvPVbZf5X25PJnM8pyFZeQPODzbRyGhsLGWx6Nh/hV+nRj4BayFrUXF
+   R1j3XWJnqdCQD1kToPRWvBqIu3NSfM7brA+LOP1kV59W9x964yQ62gSaDuXlRR4Zd7vHJYOFpXNG
+   SBQo3wjtAEucDdbMM6Q=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fnc; d=env.etransmail.com;
+ h=Message-ID:From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe:Date;
+ bh=Sj6TLyMccM00YJeET8a8djoJhBQslJyxXpVJs/RWtF8=;
+ b=YUZBCMIQenicyzTGFqMEoXHuZFePKPAHix5tdFvywG4stCyRFpibHcyBjInQC0/34JYDdu2oBJst
+   1M33Z5GdU4BS2iaCQCUFEJPZwPLLgWLM0Hy4FOZsHbCnvg/30OsqJjy9cm0AkusJu3Gch7P2hwOj
+   //f9m5OfTI+73X1p5eQ=
+Message-ID: <4F674E3C13F849FBA11010344F6FAD851DC3A0AD1F70@PUREMOTORCYCLING.ROYALENFIELD.COM>
+Thread-Topic: Complaint Registered - IM - Complaint
+Thread-Index: Ab6RakQ1bEMMuyHRkrcjkcLcOgrR9w==
+From: RE Service Account # <puremotorcycling@royalenfield.com>
+To: Athif <info@go-onriders.com>
+Subject: Complaint Registered - IM - Complaint
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-InjTime: 1760137064
+List-Unsubscribe: <mailto:17601219635735723@usub.ftrans03.com?subject=Unsubscribe>, <https://delivery.royalenfield.com/CGTBDMKREA?id=85735=ZRgFCQ0MUgtUTQBVAlYBUQECUkk=W1lUX3NTXR8OV0ddVAFHShtaClUdAAdTAlcDUAgEUQAFBAcHAQc=>
+X-FNCID: 85735-17601219635735723-0
+X-Traffic-Type: 85735-2
+Date: Sat, 11 Oct 2025 04:39:59 +0530
+X-MagicSpam-TUUID: c824e5ae-187f-4127-a345-8b4e2d12adf1
+X-MagicSpam-SUUID: 7d6ab141-3850-45ef-9aae-22d1c909f72c
+X-Spam-Status: No, score=2.4
+X-Spam-Score: 24
+X-Spam-Bar: ++
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22rin6=2Edizinc=2Ec?= =?ISO-8859-1?Q?om=22=2C=0A_has_NOT_identified_this_incoming_email_as?= =?ISO-8859-1?Q?_spam=2E__The_original=0A_message_has_been_attached_t?= =?ISO-8859-1?Q?o_this_so_you_can_view_it_or_label=0A_similar_future_?= =?ISO-8859-1?Q?email=2E__If_you_have_any_questions=2C_see=0A_root=5C=40?= =?ISO-8859-1?Q?localhost_for_details=2E=0A_Content_preview=3A__Dear_?= =?ISO-8859-1?Q?Rider=2C_The_complaint_about_your_Royal_Enfield_produ?= =?ISO-8859-1?Q?ct/service=0A____at_Company_Showroom_Hyderabad_-_Serv?= =?ISO-8859-1?Q?ice_has_been_registered_with_the_ID_=3ACAS-95134826-W?= =?ISO-8859-1?Q?2R3R2=2C=0A____Dated_10-10-2025_22=3A55=2E_You'll_hea?= =?ISO-8859-1?Q?r_fr_=5B=2E=2E=2E=5D_=0A_Content_analysis_details=3A_?= =?ISO-8859-1?Q?__=282=2E4_points=2C_5=2E0_required=29=0A__pts_rule_n?= =?ISO-8859-1?Q?ame______________description=0A_----_----------------?= =?ISO-8859-1?Q?------_----------------------------------------------?= =?ISO-8859-1?Q?----=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL=5FBLOCKED_?= =?ISO-8859-1?Q?RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_______?= =?ISO-8859-1?Q?_______________________Validity_was_blocked=2E__See=0A_?= =?ISO-8859-1?Q?____________________________https=3A//knowledge=2Eval?= =?ISO-8859-1?Q?idity=2Ecom/hc/en-us/articles/20961730681243=0A______?= =?ISO-8859-1?Q?________________________for_more_information=2E=0A___?= =?ISO-8859-1?Q?__________________________=5B175=2E158=2E66=2E53_list?= =?ISO-8859-1?Q?ed_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A__0=2E0_RCV?= =?ISO-8859-1?Q?D=5FIN=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RBL=3A_ADMINI?= =?ISO-8859-1?Q?STRATOR_NOTICE=3A_The=0A_____________________________?= =?ISO-8859-1?Q?query_to_Validity_was_blocked=2E__See=0A_____________?= =?ISO-8859-1?Q?________________https=3A//knowledge=2Evalidity=2Ecom/?= =?ISO-8859-1?Q?hc/en-us/articles/20961730681243=0A__________________?= =?ISO-8859-1?Q?____________for_more_information=2E=0A_______________?= =?ISO-8859-1?Q?___________=5B175=2E158=2E66=2E53_listed_in_sa-truste?= =?ISO-8859-1?Q?d=2Ebondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FVALID?= =?ISO-8859-1?Q?ITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_T?= =?ISO-8859-1?Q?he_query_to=0A______________________________Validity_?= =?ISO-8859-1?Q?was_blocked=2E__See=0A_____________________________ht?= =?ISO-8859-1?Q?tps=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/?= =?ISO-8859-1?Q?20961730681243=0A______________________________for_mo?= =?ISO-8859-1?Q?re_information=2E=0A_____________________________=5B1?= =?ISO-8859-1?Q?75=2E158=2E66=2E53_listed_in_sa-accredit=2Ehabeas=2Ec?= =?ISO-8859-1?Q?om=5D=0A__0=2E0_URIBL=5FBLOCKED__________ADMINISTRATO?= =?ISO-8859-1?Q?R_NOTICE=3A_The_query_to_URIBL_was_blocked=2E=0A_____?= =?ISO-8859-1?Q?________________________See=0A_______________________?= =?ISO-8859-1?Q?______http=3A//wiki=2Eapache=2Eorg/spamassassin/DnsBl?= =?ISO-8859-1?Q?ocklists#dnsbl-block=0A______________________________?= =?ISO-8859-1?Q?for_more_information=2E=0A___________________________?= =?ISO-8859-1?Q?__=5BURI=3A_etransmail=2Ecom=5D=0A_-0=2E0_SPF=5FPASS_?= =?ISO-8859-1?Q?______________SPF=3A_sender_matches_SPF_record=0A_-0=2E1?= =?ISO-8859-1?Q?_DKIM=5FVALID_____________Message_has_at_least_one_va?= =?ISO-8859-1?Q?lid_DKIM_or_DK_signature=0A_-0=2E1_DKIM=5FVALID=5FAU_?= =?ISO-8859-1?Q?_________Message_has_a_valid_DKIM_or_DK_signature_fro?= =?ISO-8859-1?Q?m_author's=0A_____________________________domain=0A__?= =?ISO-8859-1?Q?0=2E1_DKIM=5FSIGNED____________Message_has_a_DKIM_or_?= =?ISO-8859-1?Q?DK_signature=2C_not_necessarily_valid=0A__1=2E6_HTML=5FI?= =?ISO-8859-1?Q?MAGE=5FONLY=5F12_____BODY=3A_HTML=3A_images_with_800-?= =?ISO-8859-1?Q?1200_bytes_of_words=0A__0=2E0_HTML=5FMESSAGE_________?= =?ISO-8859-1?Q?__BODY=3A_HTML_included_in_message=0A__0=2E1_MIME=5FH?= =?ISO-8859-1?Q?TML=5FONLY_________BODY=3A_Message_only_has_text/html?= =?ISO-8859-1?Q?_MIME_parts=0A__0=2E1_KAM=5FUNSUB1_____________Unsubs?= =?ISO-8859-1?Q?cription_Spams=0A__0=2E6_HTML=5FMIME=5FNO=5FHTML=5FTA?= =?ISO-8859-1?Q?G__HTML-only_message=2C_but_there_is_no_HTML_tag?=
+X-Spam-Flag: NO
+
+<span><span><span><span><span><span><span><span><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"1523" style=3D"border-collapse: colla=
+pse;width:1142pt"><tbody><tr height=3D"20" style=3D"height:15.0pt">  <td he=
+ight=3D"20" class=3D"xl65" width=3D"1523" style=3D"height:15.0pt;width:1142=
+pt">Dear  Rider, The complaint about your Royal Enfield product/service at&=
+nbsp;Company Showroom Hyderabad - Service=E2=80=89has been registered with =
+the ID :CAS-95134826-W2R3R2, Dated&nbsp;10-10-2025 22:55. You'll  hear from=
+ us shortly. For further queries, call:  =E2=80=898686099601=E2=80=89 .</td=
+></tr></tbody></table></span></span></span></span></span></span></span></sp=
+an><p>&nbsp;<br></p>Click <a href=3D"https://delivery.royalenfield.com/CGTB=
+DMKREA?id=3D85735=3DZRgFCQ0MUgtUTQBVAlYBUQECUkk=3DW1lUX3NTXR8OV0ddVAFHShtaC=
+lUdAAdTAlcDUAgEUQAFBAcHAQc=3D">here</a> to unsubscribe<img src=3D'https://d=
+elivery.royalenfield.com/CGTBDMKREA?id=3D85735=3DfxgFCQ0MUgtUTQBVAlYBUQECUk=
+k=3DW1lUX3NTXR8OV0ddVAFHShtaClUdAAdTAlcDUAgEUQAFBAcHAQc=3D' />=

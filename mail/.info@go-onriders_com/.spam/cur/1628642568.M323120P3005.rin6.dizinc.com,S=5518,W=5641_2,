@@ -1,0 +1,123 @@
+Return-Path: <ldpxkhq@gmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id eEF3EAgdE2G9CwAAQ+45pw
+	(envelope-from <ldpxkhq@gmail.com>)
+	for <info+spam@go-onriders.com>; Tue, 10 Aug 2021 20:42:48 -0400
+Return-path: <ldpxkhq@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 10 Aug 2021 20:42:48 -0400
+Received: from [171.8.64.182] (port=48920 helo=mail.ysy.com.cn)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <ldpxkhq@gmail.com>)
+	id 1mDcKN-0000nS-Im
+	for info@go-onriders.com; Tue, 10 Aug 2021 20:42:48 -0400
+Received: from localhost (localhost [127.0.0.1])
+	by mail.ysy.com.cn (Postfix) with ESMTP id 1FBF1AF93BDC;
+	Wed, 11 Aug 2021 01:46:53 +0800 (CST)
+Received: from mail.ysy.com.cn ([127.0.0.1])
+	by localhost (mail.ysy.com.cn [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id hntOuoHDq8-l; Wed, 11 Aug 2021 01:46:47 +0800 (CST)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.ysy.com.cn (Postfix) with ESMTP id EFCB3B13FA7D;
+	Tue, 10 Aug 2021 03:38:28 +0800 (CST)
+X-Virus-Scanned: amavisd-new at ysy.com.cn
+Received: from mail.ysy.com.cn ([127.0.0.1])
+	by localhost (mail.ysy.com.cn [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id hLkW5Mb4vw_a; Tue, 10 Aug 2021 03:38:28 +0800 (CST)
+Received: from mail.ysy.com.cn (gateway [10.20.2.1])
+	by mail.ysy.com.cn (Postfix) with ESMTP id 15730A082586;
+	Mon,  9 Aug 2021 11:14:56 +0800 (CST)
+From: "NSW Injury Claims" <ldpxkhq@gmail.com>
+To: info@go-onriders.com
+Content-Type: text/plain
+Reply-To: Support@nswinjuryclaims.com
+Date: Sun, 8 Aug 2021 20:42:36 -0700
+Message-Id: <20210809031458.15730A082586@mail.ysy.com.cn>
+X-Spam-Status: Yes, score=18.4
+X-Spam-Score: 184
+X-Spam-Bar: ++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi there, Have you ever been injured at work, on the road
+   or in public? If so, we can help you make a claim for compensation for any
+    ongoing pain, suffering or discomfort. 
+ Content analysis details:   (18.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 HK_RANDOM_ENVFROM      Envelope sender username looks random
+  0.0 HK_RANDOM_FROM         From username looks random
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nswinjuryclaims.com]
+  0.0 T_SPF_HELO_TEMPERROR   SPF: test of HELO record failed (temperror)
+  0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+                              CUSTOM_MED
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [ldpxkhq[at]gmail.com]
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  1.0 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  3.0 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  1.5 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  0.0 HK_SCAM                No description available.
+  2.5 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit, and not from a mailing
+                             list
+  0.7 SPOOFED_FREEMAIL       No description available.
+  1.5 SPOOF_GMAIL_MID        From Gmail but it doesn't seem to be...
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Important 2021 Announcement to all NSW residents
+
+
+Hi there, 
+
+Have you ever been injured at work, on the road or in public? 
+
+If so, we can help you make a claim for compensation for any ongoing pain, suffering or discomfort. 
+
+We cover all new and old injuries. If you have ever been injured in the past, you should find out if you have obtained all your compensation entitlements.
+
+Contact us now on (02) 8880 5766 or visit our website: www.NSWInjuryClaims.com
+
+We also help people claim compensation for any injury and pain they have suffered from:
+
+Road, car, bike and pedestrian accidents
+Medical negligence
+Accidents in public such as slip, trip and falls
+Work injuries sustained in the workplace
+Any other injuries
+
+If you have been injured at work in the past, even prior to 2012, we can still help you. Find out how by contact us via the following methods:
+
+Phone: (02) 8880 5766
+
+Enquiry Form 24/7: https://nswinjuryclaims.com/injury-advice-form/
+
+Email: Support@nswinjuryclaims.com 
+
+Make 2021 a better year than last year and get the compensation you deserve. 
+
+We look forward to helping you.
+
+Best regards, 
+
+The Team
+NSW Injury Claims
+Phone: (02) 8880 5766
+Email: Support@nswinjuryclaims.com 
+
+Reply ‘Unsibscribe’ to cease receiving this communication. 
+

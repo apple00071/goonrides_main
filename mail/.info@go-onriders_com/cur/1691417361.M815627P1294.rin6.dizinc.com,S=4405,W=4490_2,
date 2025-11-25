@@ -1,0 +1,85 @@
+Return-Path: <sarah@mailleadstree.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id OSHrLxH70GQOBQAAQ+45pw
+	(envelope-from <sarah@mailleadstree.com>)
+	for <info@go-onriders.com>; Mon, 07 Aug 2023 10:09:21 -0400
+Return-path: <sarah@mailleadstree.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 07 Aug 2023 10:09:21 -0400
+Received: from mailleadstree.com ([185.39.207.46]:60567)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <sarah@mailleadstree.com>)
+	id 1qT0vB-0000A6-8h
+	for info@go-onriders.com;
+	Mon, 07 Aug 2023 10:09:21 -0400
+Received: from authenticated-user (mailleadstree.com [185.39.207.46])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by mailleadstree.com (Postfix) with ESMTPSA id C235D426E0
+	for <info@go-onriders.com>; Mon,  7 Aug 2023 17:08:37 +0300 (EEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=mailleadstree.com;
+	s=mail; t=1691417318;
+	bh=tidSzvDAVFq8y4hQl7U28ci5UDsIuc/GTyCnyFydo2M=;
+	h=Date:To:From:Reply-To:Subject:From;
+	b=HjNLnYnJvpJ8HPCPQLSJfL4S4QUC7PCOyXZQU0wxcnUvO3EOFIpEXyyaPpaWZ51zI
+	 5+Ivsz/rOo3ZGnrVp7Z70aP9fYJV2Xj6SnMaHP+vPjWN1NtBNhxkwffFaJgkhKWPmP
+	 kik3tJv+INwQ47ahr8UEo5Vt63hV6OP3lx9MnX9EwnuQeSV+feAe0LPdKL50ZY9F9N
+	 fIrBaTdUyYoy3qGNQcZa3BAoJaCMdO5DK6LoMpAKdHn/fYdNH827acIwzwtkK1xEhv
+	 Or58AODaETYjhrlJXUyR6ie80RVYNgWxQbLAcLgIurJPduqrfyPs2OHPFC0cspldiS
+	 ZSe9iyx4b+c3g==
+Date: Mon, 7 Aug 2023 16:08:36 +0200
+To: info@go-onriders.com
+From: Sarah Johnson <sarah@mailleadstree.com>
+Reply-To: Our Data Leads <sarah@mailleadstree.com>
+Subject: Leads for your business
+Message-ID: <jTDBnnv2IXCO3jgV3Evlaj3mfGpvYWBCRxweiACRc@localhost>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, Thank you for taking time to read my email, we are a lead
+    provider and provide some of the best leads in the world. We have setup a
+    landing page with country level specific data for you to have a look at. 
+ Content analysis details:   (0.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [185.39.207.46 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+X-Spam-Flag: NO
+
+SGksIDxici8+PGJyLz4NCg0KVGhhbmsgeW91IGZvciB0YWtpbmcgdGltZSB0byByZWFkIG15IGVt
+YWlsLCB3ZSBhcmUgYSBsZWFkIHByb3ZpZGVyIGFuZCBwcm92aWRlIHNvbWUgb2YgdGhlIGJlc3Qg
+bGVhZHMgaW4gdGhlIHdvcmxkLjxici8+PGJyLz4NCg0KV2UgaGF2ZSBzZXR1cCBhIGxhbmRpbmcg
+cGFnZSB3aXRoIGNvdW50cnkgbGV2ZWwgc3BlY2lmaWMgZGF0YSBmb3IgeW91IHRvIGhhdmUgYSBs
+b29rIGF0LiA8YnIvPjxici8+DQoNClBsZWFzZSBlbnF1aXJlIG9uIHRoZSBvbmxpbmUgY2hhdCBp
+ZiB0aGUgY291bnJ0eSB5b3UgYXJlIGxvb2tpbmcgZm9yIGlzIG5vdCBkaXJlY3RseSBsaXN0ZWQg
+b24gdGhlIGxhbmRpbmcgcGFnZS48YnIvPjxici8+DQoNCldlIGhhdmUgbWFkZSBhbGwgb3VyIGRh
+dGEgYXZhaWxhYmxlIGF0IGEgb25lLXRpbWUgZmVlLjxici8+PGJyLz4NCg0KUGxlYXNlIHZpc2l0
+IHVzIG9uIG91ciB3ZWJzaXRlIERhdGFMaXN0MjAyMy5jb20gdG8gZmluZCBvdXIgbW9yZS48YnIv
+Pjxici8+DQoNClJlZ2FyZHMsPGJyLz4NClNhcmFoIEpvaG5zb248YnIvPjxici8+DQpFbWFpbCBJ
+RDogN2M5NWNl
+

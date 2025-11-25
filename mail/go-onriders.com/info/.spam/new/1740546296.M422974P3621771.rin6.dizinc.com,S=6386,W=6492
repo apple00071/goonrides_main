@@ -1,0 +1,106 @@
+Return-Path: <export@globalgoodsproship.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id MEKxGPigvmeLQzcAQ+45pw
+	(envelope-from <export@globalgoodsproship.com>)
+	for <info+spam@go-onriders.com>; Wed, 26 Feb 2025 00:04:56 -0500
+Return-path: <export@globalgoodsproship.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 26 Feb 2025 00:04:56 -0500
+Received: from static30-5.uszonea.dm.aliyun.com ([8.221.30.5]:53362)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <export@globalgoodsproship.com>)
+	id 1tn9bK-0000000FFAZ-1WPQ
+	for info@go-onriders.com;
+	Wed, 26 Feb 2025 00:04:56 -0500
+X-AliDM-RcptTo: aW5mb0Bnby1vbnJpZGVycy5jb20=
+Feedback-ID: default:export@globalgoodsproship.com:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=globalgoodsproship.com; s=aliyun-cn-hangzhou;
+	t=1740546250; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=1RAfhclGeFLNGw30ctPisr1R8NNxmCrirmFrjK/ej5k=;
+	b=XZ7YhqcgAG/lnVDuQWQQn58XVmzLq67ZgQOVJH/lLHmO0j475hEKqKksu/CrFoy/8yagDDNMJvcm6pKLthyHbEHUdGF2b3M67jtJfMJsppmVOl8BywUY1OhQubFchAdDkzHobaxYM86ee+LnsOWUP4EscE6kjt5J/4lzIjxjbsY=
+Received: from msgdactuatorserv-78c457ff8c-drkfm(mailfrom:export@globalgoodsproship.com fp:SMTPD_-VHcDXwdKK4 cluster:AY35D)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Wed, 26 Feb 2025 13:04:09 +0800
+X-EnvId: 600000166621439372
+Date: Wed, 26 Feb 2025 13:04:09 +0800 (CST)
+From: NanouAutomobile <export@globalgoodsproship.com>
+Reply-To: liu546972482@gmail.com
+To: info@go-onriders.com
+Message-ID: <28990100552000025021721245107_28990100539003625022654739197_XTransfer@globalgoodsproship.com>
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-MagicSpam-TUUID: d23ec392-5475-42c5-8c99-fa85aad9b8f9
+X-MagicSpam-SUUID: 3ef3fe52-0ebc-444c-a287-680f196a9d88
+X-Spam-Status: Yes, score=12.5
+X-Spam-Score: 125
+X-Spam-Bar: ++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I'm NanouAutomobile from ShanDong NanouAutomobile,
+    dedicated to delivering durable and efficient trailers tailored to meet your
+    unique needs. Our products ensure reliability and excellence, helping op
+   [...] 
+ Content analysis details:   (12.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.221.30.5 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.221.30.5 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.221.30.5 listed in sa-trusted.bondedsender.org]
+  9.0 KAM_BODY_URIBL_PCCC    Body contains URI listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [URI: edmautopro.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
+                             [liu546972482(at)gmail.com]
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_OBFUSCATE_05_10   BODY: Message is 5% to 10% HTML obfuscation
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+  1.8 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  High-Performance Trailer Manufacturer for Your Business
+
+<html><body><p>Hello,</p><p>I'm NanouAutomobile from ShanDong NanouAutomobi=
+le, dedicated to delivering durable and efficient trailers tailored to meet=
+ your unique needs. Our products ensure reliability and excellence, helping=
+ optimize your operations.</p><p>Curious to explore how our trailers can en=
+hance your business? Drop me a message at liu546972482@gmail.com. I'm eager=
+ to assist you!</p><p>Best regards,<br/>NanouAutomobile</p></body></html><i=
+mg height=3D"1" src=3D"https://xtrfr.com/t/1/m3yvgA?p=3D1kpU6Qo2X-6UIR9For_=
+1kpU72q8p-7b3yuIZB" width=3D"1"><div style=3D"text-align: center; font-size=
+: 12px"><div>=E5=A6=82=E6=9E=9C=E4=BD=A0=E4=B8=8D=E6=83=B3=E5=86=8D=E6=94=
+=B6=E5=88=B0=E6=88=91=E4=BB=AC=E7=9A=84=E9=82=AE=E4=BB=B6=EF=BC=8C=E8=AF=B7=
+=E7=82=B9=E5=87=BB<a href=3D"https://unsubscribe.edmautopro.com/unsubscribe=
+?p=3D1kpU6Qo2X-6UIR9For_1kpU72q8p-7b3yuIZB" style=3D"color: #faac58" target=
+=3D"_blank" rel=3D"noopener">=E3=80=8C=E8=BF=99=E9=87=8C=E9=80=80=E8=AE=A2=
+=E3=80=8D</a></div><div>If you do not wish to receive further email message=
+s from us, please click<a href=3D"https://unsubscribe.edmautopro.com/unsubs=
+cribe?p=3D1kpU6Qo2X-6UIR9For_1kpU72q8p-7b3yuIZB" style=3D"color: #faac58" t=
+arget=3D"_blank" rel=3D"noopener">here</a></div></div>

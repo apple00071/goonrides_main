@@ -1,0 +1,931 @@
+Return-Path: <sowmiya@nobuy.in>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id QAQAILwDMGj2bRUAQ+45pw
+	(envelope-from <sowmiya@nobuy.in>)
+	for <info+spam@go-onriders.com>; Fri, 23 May 2025 01:12:28 -0400
+Return-path: <sowmiya@nobuy.in>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 23 May 2025 01:12:28 -0400
+Received: from mail-qv1-f42.google.com ([209.85.219.42]:57411)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <sowmiya@nobuy.in>)
+	id 1uIKhm-00000005uKp-3diR
+	for info@go-onriders.com;
+	Fri, 23 May 2025 01:12:28 -0400
+Received: by mail-qv1-f42.google.com with SMTP id 6a1803df08f44-6f2c45ecaffso78879576d6.2
+        for <info@go-onriders.com>; Thu, 22 May 2025 22:12:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=nobuy-in.20230601.gappssmtp.com; s=20230601; t=1747977103; x=1748581903; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=b+XJFCOitN+YFNuIRoRmf+XRw8znl2cBjtLKhs5vLa0=;
+        b=F66WdH0UEmkAN38yqljKOwKmW0awkUJNWd+LZB0dlYk3k1GPsi5eEEg0pkiEj9ECen
+         tDLrJdyVn10iEbHNlYy0M1zSKw3KKf4wfDh1C/bSJIKKnSbpnDln6ClwOEtP8y6YUrWn
+         r7RIzaFAxiYUnd87ssrtrjNzCmMfHKvpS2V8TQmJVO2pb5BY9kGP5KBIa54NiCOpKph5
+         ChVUnoaXnBr9L+Tfuouu+bNXmraARfnIXELQfxKpxrjoY0FHp0hB3e1TK2aKC/Q5Vj8x
+         FWlarK5auKEWDo+uzsv5fSFCCBkNFDFtNNv0Sb/so7/ddSlcVzMtkTI/4nYhO3wZhY9y
+         gQeA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1747977103; x=1748581903;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=b+XJFCOitN+YFNuIRoRmf+XRw8znl2cBjtLKhs5vLa0=;
+        b=evTKOfHopbYzZdysPIzngMhAYYBQnKwZS0WNIEzH9VeNwtORMw8iIOU1SXZFOBCFeS
+         uObzSLFvO3ZBM+OVjDD1GJJw6BWtnuj1vSje1eBZmtAX9QZ2PS+1EB1hHHiDGC72qVkV
+         HK62i5xN82HEGeZnSk3pDZNwPUTr957d/wVRpNLvFErtg8xleRV/EtYFJNMpEqZgD7Ea
+         vHzRmoV9ge5LX3nTtMFriz+xNhBNS4K0r7+FJqj2Jb02oAS90oX/JRlP2oShff8166iA
+         iEfHdtXSq6c5TCnM0C3RecvU4fWHZE8f51KAyWDEdVS7cH1ljTnYMK9bIwmlsaAplKGD
+         HHgQ==
+X-Gm-Message-State: AOJu0YxUj91NWy+WMVyz4ie4O8/7nBIrA1cCPRhtBbfheGZhm0evtO/f
+	oWH5Gzrw2s+z21rCn5tu6hCYqA0pTwyTOMzXpVzYGA7Sbl+mf5yXizhzh9QS5TvUcRu4bJi/cfP
+	UMwGz6TYKKxTG5Ud5ehyakBy6r1fWJL/o71Uzd8rfqy0I4aJLFNp0vr0=
+X-Gm-Gg: ASbGncvh/I2W660m7IdmYRqhsJP2rh5UyiWcXCxvtSxD+bihKzKvwJ2uf0iTayykkxY
+	RdWwZ+tRc8gWXpUMFTLe4TJINv8v42D83W4mosqXB2F631YZR84UAOL5wh9vJ3gN7kDCCKG8mo3
+	UknfTp9DzTeklbVW2LdNoBwX9M51dIAI0=
+X-Google-Smtp-Source: AGHT+IH7BU74RmOa7+xfZ4K2JHLwPrR2r68Q30g9+OyIfjtkMxVtWS/wETQrMcRLpNapQwiNU4HmSWtLjZhXwdqzOLw=
+X-Received: by 2002:a05:6214:29e1:b0:6f5:ea0:3c07 with SMTP id
+ 6a1803df08f44-6fa93a29f74mr26775516d6.8.1747977103279; Thu, 22 May 2025
+ 22:11:43 -0700 (PDT)
+Received: from 776393159873 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 23 May 2025 05:11:43 +0000
+Received: from 776393159873 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 23 May 2025 05:11:43 +0000
+MIME-Version: 1.0
+From: Sowmiya Vadana <sowmiya@nobuy.in>
+Date: Fri, 23 May 2025 05:11:43 +0000
+X-Gm-Features: AX0GCFtQxmdYzjyTWqk4kWzLOHLnm1niHxw6nGk0N8q3hd2QqC5cVUk7n-yNTcc
+Message-ID: <CABioC+8dh_90sF0S-AYc_hiheFxYZNgEN4x8h5msShHQAXYjcw@mail.gmail.com>
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="0000000000005119360635c6a290"
+X-MagicSpam-TUUID: ae9bc67e-8376-4a44-b397-8a10bfff392b
+X-MagicSpam-SUUID: 77358055-c968-403c-a3d4-99474eaf6cf8
+X-Spam-Status: Yes, score=12.0
+X-Spam-Score: 120
+X-Spam-Bar: ++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  From electronics to event supplies – rent what you need,
+    when you need it!"͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌
+    ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏‌ ͏� [...] 
+ Content analysis details:   (12.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.219.42 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.219.42 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.219.42 listed in sa-trusted.bondedsender.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: qmailroute.net]
+                             [URI: nobuyrent.com]
+  8.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URI: emailroute.net]
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or identical to
+                             background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Discover interesting Rental Items from NobuyRent! Browse www.nobuyrent.com
+
+--0000000000005119360635c6a290
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+From electronics to event supplies =E2=80=93 rent what you need, when you n=
+eed
+it!"=CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=
+=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =
+=CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=
+=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=
+=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C
+=CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=
+=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=
+=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=
+=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=
+=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C
+=CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=
+=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=
+=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=
+=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=
+=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C
+=CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=
+=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C =CD=8F=E2=80=8C
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D2595db17-fc73-446b-88=
+6c-c6e08766a9e8&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Dc2e3047a-7d40-4111-ac=
+93-2205aa3d5fb4&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+Explore and Rent from
+NobuyRent
+Visit Now
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D99ba7012-9618-462f-83=
+91-d255fefe0532&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image: cars]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Da327c495-5013-486e-8a=
+72-1d2b5ea658a9&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image: bike]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Df0abb005-181a-4297-88=
+f4-34c0cad7e689&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image: bus]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Dc5ed775b-8d38-4616-b6=
+5e-39893d7a5184&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+a
+[image: van]
+a
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D91928b9f-58ef-4bd3-a5=
+98-445a50d0f613&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image: jcb]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D58443fc6-12ef-46ab-a6=
+a7-77311e8acec4&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image: crane]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Dd7f93f99-7b2d-40de-bf=
+ec-e61db2305f93&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+
+www.nobuyrent.com
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D99ba7012-9618-462f-83=
+91-d255fefe0532&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+
++91 75502 22760
+
+Stay Connected with us
+[image: Fb]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D1962cedc-26d0-4eb1-b5=
+85-b743da0758f0&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image:
+X]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Dfc683d96-b01f-45ba-bd=
+03-e110c05a83b9&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image:
+Inst]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3D1ee24aa0-902d-4c67-b0=
+82-f0a4fe695583&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+[image:
+Yt]
+<https://nobuy-in.qmailroute.net/x/d?c=3D46324713&l=3Dff8da812-84f3-404d-a1=
+13-13fb25763c26&r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f>
+You may unsubscribe
+<https://nobuy-in.qmailroute.net/x/u?u=3De636d88f-91f9-41ff-a1a1-8092b2d896=
+2f>
+to stop receiving our emails
+
+--0000000000005119360635c6a290
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D"display:none;max-height:0px;overflow:hidden">From electronics=
+ to event supplies =E2=80=93 rent what you need, when you need it!&quot;=CD=
+=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=
+=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=
+=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=
+=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=
+=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=
+=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=
+=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=
+=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=
+=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=
+=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=
+=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=
+=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=
+=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=
+=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=
+=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=
+=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=
+=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=
+=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=
+=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=
+=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=
+=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=8F=E2=80=8C=C2=A0=CD=
+=8F=E2=80=8C=C2=A0</div><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr">=
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div di=
+r=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr">
+ =20
+    <meta charset=3D"UTF-8">
+    <meta content=3D"width=3Ddevice-width, initial-scale=3D1" name=3D"viewp=
+ort">
+    <meta name=3D"x-apple-disable-message-reformatting">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta content=3D"telephone=3Dno" name=3D"format-detection">
+    <title></title>
+   =20
+   =20
+   =20
+   =20
+ =20
+ =20
+ =20
+    <div dir=3D"ltr" class=3D"es-wrapper-color">
+     =20
+      <table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" style=3D"ba=
+ckground-color:#f8f9fd" class=3D"es-wrapper-rk">
+        <tbody>
+          <tr>
+            <td valign=3D"top" style=3D"padding:0;Margin:0">
+              <table cellspacing=3D"0" cellpadding=3D"0" align=3D"center" r=
+ole=3D"none" style=3D"border-collapse:collapse;border-spacing:0px;width:600=
+px;table-layout:fixed!important;background-color:transparent;background-rep=
+eat:repeat;background-position:center top">
+                <tbody>
+                  <tr>
+                    <td align=3D"center" bgcolor=3D"#f5f4f4" style=3D"paddi=
+ng:0;Margin:0;background-color:#f5f4f4">
+                      <table cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D=
+"#f5f4f4" align=3D"center" role=3D"none" style=3D"border-collapse:collapse;=
+border-spacing:0px;background-color:transparent;width:600px">
+                        <tbody>
+                          <tr>
+                            <td align=3D"left" style=3D"Margin:0;padding-to=
+p:5px;padding-right:20px;padding-bottom:15px;padding-left:20px">
+                             <table cellpadding=3D"0" cellspacing=3D"0" ali=
+gn=3D"left" role=3D"none" style=3D"border-collapse:collapse;border-spacing:=
+0px;float:left">
+                               <tbody><tr>
+                                <td align=3D"left" style=3D"padding:0;Margi=
+n:0;width:50%">
+                                 <table cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" role=3D"presentation" style=3D"border-collapse:collapse;bor=
+der-spacing:0px">
+                                   <tbody><tr>
+                                    <td align=3D"left" style=3D"padding:0;M=
+argin:0;font-size:0"><img width=3D"60" height=3D"65" src=3D"https://drive.g=
+oogle.com/thumbnail?id=3D1owM_fFwdbpIL670QuLwzhePe0fJWJKUO" alt=3D"" style=
+=3D"display:block;font-size:16px;border:0;outline:none;text-decoration:none=
+;border-radius:0"></td>
+                                   </tr>
+                                 </tbody></table></td>
+                               </tr>
+                             </tbody></table>
+                             <table cellpadding=3D"0" cellspacing=3D"0" ali=
+gn=3D"left" role=3D"none" style=3D"border-collapse:collapse;border-spacing:=
+0px;float:left">
+                             </table>
+                             <table cellspacing=3D"0" align=3D"right" cellp=
+adding=3D"0" role=3D"none" style=3D"border-collapse:collapse;border-spacing=
+:0px;float:right">
+                               <tbody><tr>
+                                <td align=3D"left" style=3D"padding:0;Margi=
+n:0;width:224px">
+                                 <table role=3D"presentation" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"border-collapse:collapse;b=
+order-spacing:0px">
+                                   <tbody>
+                                   <tr>
+                                    <td align=3D"center" style=3D"padding:0=
+;Margin:0">
+                                     <table cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;border-spaci=
+ng:0px;border-color:#f5f4f4">
+                                       <tbody><tr>
+                                        <td align=3D"center" valign=3D"top"=
+ width=3D"50.00%" style=3D"padding:0;Margin:0;border:0;padding-top:22px"><a=
+ href=3D"https://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3D2595db17-=
+fc73-446b-886c-c6e08766a9e8&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" s=
+tyle=3D"text-decoration:none;font-family:roboto,&#39;helvetica neue&#39;,he=
+lvetica,arial,sans-serif;display:block;color:#1376c8;font-size:14px" target=
+=3D"_blank"><img title=3D"Nobuy rent playstore" alt=3D"" width=3D"125" src=
+=3D"https://lh3.googleusercontent.com/d/1_u4DqlZtrNAl2Qo-hcJ0pGaJEK81hk00" =
+style=3D"display:inline!important;font-size:16px;border:0;outline:none;text=
+-decoration:none;vertical-align:middle"></a></td>
+                                        <td valign=3D"top" width=3D"50.00%"=
+ align=3D"center" style=3D"padding:0;Margin:0;border:0;padding-top:21px;bor=
+der-left:5px solid #f5f4f4"><a href=3D"https://nobuy-in.qmailroute.net/x/d?=
+c=3D46324713&amp;l=3Dc2e3047a-7d40-4111-ac93-2205aa3d5fb4&amp;r=3De636d88f-=
+91f9-41ff-a1a1-8092b2d8962f" style=3D"text-decoration:none;font-family:robo=
+to,&#39;helvetica neue&#39;,helvetica,arial,sans-serif;display:block;color:=
+#1376c8;font-size:14px" target=3D"_blank"><img alt=3D"" width=3D"122" src=
+=3D"https://lh3.googleusercontent.com/d/1gZq8w4Da1G4qcNeQz8ivC4L9-ecFbJCl" =
+title=3D"Nobuy rent applestore" style=3D"display:inline!important;font-size=
+:16px;border:0;outline:none;text-decoration:none;vertical-align:middle"></a=
+></td>
+                                       </tr>
+                                     </tbody></table></td>
+                                   </tr>
+                                 </tbody></table></td>
+                               </tr>
+                             </tbody></table></td>
+                           </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table cellspacing=3D"0" cellpadding=3D"0" align=3D"center" r=
+ole=3D"none" style=3D"border-collapse:collapse;border-spacing:0px;width:600=
+px;table-layout:fixed!important">
+                <tbody>
+                  <tr>
+                    <td align=3D"center" bgcolor=3D"#0084AA" style=3D"paddi=
+ng:0;Margin:0;background-color:#0084aa">
+                      <table cellspacing=3D"0" cellpadding=3D"0" bgcolor=3D=
+"transparent" align=3D"center" role=3D"none" style=3D"border-collapse:colla=
+pse;border-spacing:0px;background-color:transparent;width:600px">
+                        <tbody>
+                          <tr>
+                            <td align=3D"left" style=3D"Margin:0;padding-ri=
+ght:20px;padding-left:20px;padding:0">
+                              <table width=3D"100%" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"none" style=3D"border-spacing:0px;border-collapse:coll=
+apse">
+                                <tbody>
+                                  <tr>
+                                    <td align=3D"left" style=3D"width:560px=
+;padding:0;Margin:0">
+                                      <table width=3D"100%" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation" style=3D"border-spacing:0px;bord=
+er-collapse:collapse">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" style=3D"p=
+adding:50px 0 20px;Margin:0">
+                                              <h2 style=3D"letter-spacing:0=
+;font-size:43px;font-style:normal;font-weight:500;line-height:28.8px;color:=
+#ffffff;Margin:0;font-family:roboto,&#39;helvetica neue&#39;,helvetica,aria=
+l,sans-serif;text-align:center">
+                                                Explore and Rent from
+                                              </h2>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align=3D"left" style=3D"padding:0;Margin:0;=
+padding-right:20px;padding-left:20px">
+                              <table role=3D"none" width=3D"100%" cellpaddi=
+ng=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;border-spacing=
+:0px">
+                                <tbody>
+                                  <tr>
+                                    <td align=3D"left" style=3D"padding:0;M=
+argin:0;width:560px">
+                                      <table cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%" style=3D"border-collapse:collap=
+se;border-spacing:0px">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" style=3D"p=
+adding:10px 0;padding-bottom:25px;Margin:0">
+                                              <h2 style=3D"letter-spacing:0=
+;font-size:45px;font-style:normal;font-weight:bold;line-height:36.8px;color=
+:#ffffff;Margin:0;font-family:roboto,&#39;helvetica neue&#39;,helvetica,ari=
+al,sans-serif;text-align:center">
+                                                NobuyRent
+                                              </h2>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align=3D"left" style=3D"padding:0;Margin:0"=
+>
+                              <table cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"none" width=3D"100%" style=3D"border-spacing:0px;border-collapse:coll=
+apse">
+                                <tbody>
+                                  <tr>
+                                    <td align=3D"left" style=3D"width:560px=
+;padding:0;Margin:0">
+                                      <table cellspacing=3D"0" role=3D"pres=
+entation" width=3D"100%" cellpadding=3D"0" style=3D"border-collapse:collaps=
+e;border-spacing:0px">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" style=3D"p=
+adding:0;padding-bottom:20px;Margin:0">
+                                              <span style=3D"border-style:s=
+olid;border-color:#ff2c85;background:#ff2c85;border-width:0px;display:inlin=
+e-block;border-radius:30px;width:auto">
+                                                <a href=3D"https://nobuy-in=
+.qmailroute.net/x/d?c=3D46324713&amp;l=3D99ba7012-9618-462f-8391-d255fefe05=
+32&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" target=3D"_blank" style=3D=
+"letter-spacing:0;width:auto;line-height:19.2px;display:inline-block;font-s=
+tyle:normal;text-decoration:none!important;color:#ffffff;padding:10px 20px;=
+font-weight:bold;text-align:center;border-radius:0;background:#ff2c85;font-=
+size:16px;font-family:roboto,&#39;helvetica neue&#39;,helvetica,arial,sans-=
+serif">
+                                                  Visit Now
+                                                </a>
+                                              </span>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+
+                          <tr style=3D"padding:0 20px">
+                            <td align=3D"left" bgcolor=3D"#0084aa" class=3D=
+"esd-structure es-p20t es-p20r es-p20l" style=3D"background-color:#0084aa">
+                             =20
+                              <table cellpadding=3D"0" cellspacing=3D"0" al=
+ign=3D"left" class=3D"es-left">
+                                <tbody>
+                                  <tr>
+                                    <td width=3D"270" align=3D"left" style=
+=3D"padding-left:165px;padding-bottom:20px" class=3D"esd-container-frame le=
+ft-image es-m-p20b">
+                                      <table cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" class=3D"e=
+sd-block-image" style=3D"font-size:0">
+                                              <a target=3D"_blank" title=3D=
+"cars" href=3D"https://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3Da32=
+7c495-5013-486e-8a72-1d2b5ea658a9&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d89=
+62f">
+                                                <img src=3D"https://lh3.goo=
+gleusercontent.com/d/1ud1Tu6KYxZ2229bhFZ0_M6fC82ZqQ5Ab" alt=3D"cars" width=
+=3D"270" class=3D"adapt-img">
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                             =20
+                             =20
+                             =20
+                            </td>
+                          </tr>
+
+                          <tr style=3D"padding:0 20px">
+                            <td align=3D"left" bgcolor=3D"#0084aa" class=3D=
+"esd-structure es-p20t es-p20r es-p20l" style=3D"background-color:#0084aa">
+                             =20
+                             =20
+                             =20
+                              <table cellpadding=3D"0" cellspacing=3D"0" al=
+ign=3D"right" class=3D"es-right">
+                                <tbody>
+                                  <tr>
+                                    <td width=3D"270" align=3D"left" style=
+=3D"padding-right:165px" class=3D"esd-container-frame right-image">
+                                      <table cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" class=3D"e=
+sd-block-image" style=3D"font-size:0">
+                                              <a target=3D"_blank" title=3D=
+"bikes" href=3D"https://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3Df0=
+abb005-181a-4297-88f4-34c0cad7e689&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8=
+962f">
+                                                <img src=3D"https://lh3.goo=
+gleusercontent.com/d/1Ai_kWMisiqbRsWV7CUB2orLEZz6t4z1F" alt=3D"bike" width=
+=3D"270" class=3D"adapt-img">
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                             =20
+                            </td>
+                          </tr>
+
+                         =20
+
+
+                        =20
+
+                          <tr>
+                            <td align=3D"left" style=3D"padding:0;Margin:0;=
+padding-right:20px;padding-left:20px;padding-top:20px">
+                              <table role=3D"none" align=3D"left" cellpaddi=
+ng=3D"0" cellspacing=3D"0" style=3D"border-spacing:0px;float:left;border-co=
+llapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align=3D"left" style=3D"padding:0;M=
+argin:0;width:270px">
+                                      <table cellspacing=3D"0" role=3D"pres=
+entation" width=3D"100%" cellpadding=3D"0" style=3D"border-collapse:collaps=
+e;border-spacing:0px">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" style=3D"f=
+ont-size:0;padding:0;Margin:0;padding-left:146px;padding-bottom:15px">
+                                              <a title=3D"bus" href=3D"http=
+s://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3Dc5ed775b-8d38-4616-b65=
+e-39893d7a5184&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" target=3D"_bla=
+nk" width=3D"270" style=3D"display:block">
+                                                <img alt=3D"bus" src=3D"htt=
+ps://lh3.googleusercontent.com/d/1wj6yM0T0w_maneE5NW8k-IGweRGEpCyM" tabinde=
+x=3D"0" width=3D"270" class=3D"CToWUd a6T" style=3D"font-size:16px;border:0=
+;outline:none;text-decoration:none;display:block">
+                                                <div dir=3D"ltr" class=3D"a=
+6S esd-text extra-block" style=3D"opacity:0.0">
+                                                  <span class=3D"a5q">
+                                                    <button aria-label=3D"D=
+ownload attachment " id=3D"" class=3D"VYBDae-JX-I VYBDae-JX-I-ql-ay5-ays VY=
+BDae-JX-I-ql-ay5-YYd4I-aw2 CgzRE">
+                                                      <span class=3D"OiePBf=
+-zPjgPe VYBDae-JX-UHGRz"></span>
+                                                      <span class=3D"bHC-Q"=
+></span>
+                                                      <span aria-hidden=3D"=
+true" class=3D"VYBDae-JX-ank-Rtc0Jf">
+                                                        <span aria-hidden=
+=3D"true" class=3D"notranslate bzc-ank">
+                                                         =20
+                                                            </span></span><=
+/button></span></div></a></td><td></td>
+                                                         =20
+                                                       =20
+                                                     =20
+                                                      <td><div class=3D"VYB=
+Dae-JX-ano"></div>
+                                                    </td>
+                                                    <td><div style=3D"color=
+:#0084aa" role=3D"tooltip" aria-hidden=3D"true" id=3D"tt-c27" class=3D"ne2P=
+le-oshW8e-J9 esd-text">
+                                                      a
+                                                    </div>
+                                                  </td>
+                                               =20
+                                             =20
+                                           =20
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table align=3D"right" cellpadding=3D"0" cell=
+spacing=3D"0" role=3D"none" style=3D"border-spacing:0px;float:right;border-=
+collapse:collapse">
+                                <tbody>
+                                  <tr>
+                                    <td align=3D"left" style=3D"padding:0;M=
+argin:0;width:270px">
+                                      <table cellspacing=3D"0" role=3D"pres=
+entation" width=3D"100%" cellpadding=3D"0" style=3D"border-collapse:collaps=
+e;border-spacing:0px">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" style=3D"f=
+ont-size:0;padding:0;Margin:0;padding-right:146px;padding-bottom:15px">
+                                              <a width=3D"270" title=3D"van=
+" href=3D"https://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3D91928b9f=
+-58ef-4bd3-a598-445a50d0f613&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" =
+target=3D"_blank" style=3D"display:block">
+                                                <img alt=3D"van" src=3D"htt=
+ps://lh3.googleusercontent.com/d/1r-AKmvul4niZtSNRvwqqaZUglfcGKPmN" tabinde=
+x=3D"0" width=3D"270" class=3D"CToWUd a6T" style=3D"outline:none;text-decor=
+ation:none;display:block;font-size:16px;border:0">
+                                                <div dir=3D"ltr" class=3D"a=
+6S esd-text extra-block" style=3D"opacity:0.0">
+                                                  <span class=3D"a5q">
+                                                    <button aria-label=3D"D=
+ownload attachment " id=3D"" class=3D"VYBDae-JX-I VYBDae-JX-I-ql-ay5-ays VY=
+BDae-JX-I-ql-ay5-YYd4I-aw2 CgzRE">
+                                                      <span class=3D"OiePBf=
+-zPjgPe VYBDae-JX-UHGRz"></span>
+                                                      <span class=3D"bHC-Q"=
+></span>
+                                                      <span aria-hidden=3D"=
+true" class=3D"VYBDae-JX-ank-Rtc0Jf">
+                                                        <span aria-hidden=
+=3D"true" class=3D"notranslate bzc-ank">
+                                                         =20
+                                                           =20
+                                                         =20
+                                                        </span>
+                                                      </span>
+                                                      <div class=3D"VYBDae-=
+JX-ano"></div>
+                                                    </button>
+                                                    <div style=3D"color:#00=
+84aa" id=3D"tt-c28" role=3D"tooltip" aria-hidden=3D"true" class=3D"ne2Ple-o=
+shW8e-J9 esd-text">
+                                                      a
+                                                    </div>
+                                                  </span>
+                                                </div>
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+
+                          <tr style=3D"padding:0 20px">
+                            <td align=3D"left" bgcolor=3D"#0084aa" class=3D=
+"esd-structure es-p20t es-p20r es-p20l" style=3D"background-color:#0084aa">
+                             =20
+                              <table cellpadding=3D"0" cellspacing=3D"0" al=
+ign=3D"left" class=3D"es-left">
+                                <tbody>
+                                  <tr>
+                                    <td width=3D"270" align=3D"left" style=
+=3D"padding-left:165px;padding-bottom:20px" class=3D"esd-container-frame le=
+ft-image es-m-p20b">
+                                      <table cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" class=3D"e=
+sd-block-image" style=3D"font-size:0">
+                                              <a target=3D"_blank" title=3D=
+"jcb" href=3D"https://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3D5844=
+3fc6-12ef-46ab-a6a7-77311e8acec4&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d896=
+2f">
+                                                <img src=3D"https://lh3.goo=
+gleusercontent.com/d/1zESbLMFTtYxRzP6kN2RRNIZXCxPi56sD" alt=3D"jcb" width=
+=3D"270" class=3D"adapt-img">
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                             =20
+                             =20
+                             =20
+                            </td>
+                          </tr>
+
+                          <tr style=3D"padding:0 20px">
+                            <td align=3D"left" bgcolor=3D"#0084aa" class=3D=
+"esd-structure es-p20t es-p20r es-p20l" style=3D"background-color:#0084aa">
+                             =20
+                             =20
+                             =20
+                              <table cellpadding=3D"0" cellspacing=3D"0" al=
+ign=3D"right" class=3D"es-right">
+                                <tbody>
+                                  <tr>
+                                    <td width=3D"270" align=3D"left" style=
+=3D"padding-right:165px;padding-bottom:20px" class=3D"esd-container-frame r=
+ight-image">
+                                      <table cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" role=3D"presentation">
+                                        <tbody>
+                                          <tr>
+                                            <td align=3D"center" class=3D"e=
+sd-block-image" style=3D"font-size:0">
+                                              <a target=3D"_blank" title=3D=
+"crane" href=3D"https://nobuy-in.qmailroute.net/x/d?c=3D46324713&amp;l=3Dd7=
+f93f99-7b2d-40de-bfec-e61db2305f93&amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8=
+962f">
+                                                <img src=3D"https://lh3.goo=
+gleusercontent.com/d/1t40AZ153W1ly7HfT8cySM3NWb122yb9g" alt=3D"crane" width=
+=3D"270" class=3D"adapt-img">
+                                              </a>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                             =20
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table cellspacing=3D"0" cellpadding=3D"0" align=3D"center" r=
+ole=3D"none" style=3D"border-collapse:collapse;border-spacing:0px;width:600=
+px;table-layout:fixed!important;background-color:transparent;background-rep=
+eat:repeat;background-position:center top">
+                <tbody>
+                  <tr>
+                    <td align=3D"center" bgcolor=3D"#FFFFFF" style=3D"paddi=
+ng:0;Margin:0;background-color:#f5f4f4">
+                     <table cellspacing=3D"0" bgcolor=3D"#ffffff" align=3D"=
+center" cellpadding=3D"0" role=3D"none" style=3D"border-collapse:collapse;b=
+order-spacing:0px;background-color:transparent;width:600px">
+                       <tbody><tr>
+                        <td align=3D"left" style=3D"Margin:0;padding-right:=
+20px;padding-bottom:5px;padding-left:20px;padding-top:15px">
+                         <table cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"left" role=3D"none" style=3D"border-collapse:collapse;border-spacing:0p=
+x;float:left">
+                           <tbody><tr>
+                            <td align=3D"left" style=3D"padding:0;Margin:0;=
+width:323px">
+                             <table cellpadding=3D"0" cellspacing=3D"0" wid=
+th=3D"100%" role=3D"presentation" style=3D"border-collapse:collapse;border-=
+spacing:0px">
+                               <tbody><tr>
+                                <td align=3D"left" valign=3D"top" style=3D"=
+padding:0;Margin:0;padding-bottom:5px;width:20px;font-size:0px"><img width=
+=3D"16" alt=3D"" src=3D"https://lh3.googleusercontent.com/d/1H1vMib8E3pVVHh=
+CGtjnspjVGF1lBDLNB" style=3D"display:block;font-size:16px;border:0;outline:=
+none;text-decoration:none"></td>
+                                <td align=3D"left" style=3D"padding:0;Margi=
+n:0">
+                                 <table width=3D"100%" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" style=3D"border-collapse:collapse;bor=
+der-spacing:0px">
+                                   <tbody><tr>
+                                    <td align=3D"left" style=3D"padding:0;M=
+argin:0;padding-bottom:5px"><p style=3D"Margin:0;font-family:roboto,&#39;he=
+lvetica neue&#39;,helvetica,arial,sans-serif;line-height:21px;letter-spacin=
+g:0;color:#333333;font-size:14px"><a href=3D"https://nobuy-in.qmailroute.ne=
+t/x/d?c=3D46324713&amp;l=3D99ba7012-9618-462f-8391-d255fefe0532&amp;r=3De63=
+6d88f-91f9-41ff-a1a1-8092b2d8962f" style=3D"text-decoration:none;color:#333=
+333;font-size:14px" target=3D"_blank">  www.nobuyrent.com</a></p></td>
+                                   </tr>
+                                 </tbody></table></td>
+                               </tr>
+                               <tr>
+                                <td align=3D"left" valign=3D"top" style=3D"=
+padding:0;Margin:0;width:20px;font-size:0px"><img width=3D"20" alt=3D"" src=
+=3D"https://lh3.googleusercontent.com/d/1rNc0OzmTxP8IVVY0ehhAysgGuiGXdmsI" =
+style=3D"display:block;font-size:16px;border:0;outline:none;text-decoration=
+:none"></td>
+                                <td align=3D"left" style=3D"padding:0;Margi=
+n:0">
+                                 <table cellpadding=3D"0" cellspacing=3D"0"=
+ width=3D"100%" role=3D"presentation" style=3D"border-collapse:collapse;bor=
+der-spacing:0px">
+                                   <tbody><tr>
+                                    <td align=3D"left" style=3D"padding:0;M=
+argin:0"><p style=3D"Margin:0;font-family:roboto,&#39;helvetica neue&#39;,h=
+elvetica,arial,sans-serif;line-height:21px;letter-spacing:0;color:#333333;f=
+ont-size:14px">  +91 75502 22760</p></td>
+                                   </tr>
+                                 </tbody></table></td>
+                               </tr>
+                             </tbody></table></td>
+                           </tr>
+                         </tbody></table>
+                         <table align=3D"left" cellpadding=3D"0" cellspacin=
+g=3D"0" role=3D"none" style=3D"border-collapse:collapse;border-spacing:0px;=
+float:left">
+                         </table>
+                         <table cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"right" role=3D"none" style=3D"border-collapse:collapse;border-spacing:0=
+px;float:right">
+                           <tbody><tr>
+                            <td align=3D"left" style=3D"padding:0;Margin:0;=
+width:224px">
+                             <table width=3D"100%" role=3D"presentation" ce=
+llpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse:collapse;border-=
+spacing:0px">
+                               <tbody><tr>
+                                <td align=3D"right" style=3D"padding:0;Marg=
+in:0;padding-bottom:5px"><p style=3D"Margin:0;font-family:roboto,&#39;helve=
+tica neue&#39;,helvetica,arial,sans-serif;line-height:21px;letter-spacing:0=
+;color:#333333;font-size:14px">Stay Connected with us</p></td>
+                               </tr>
+                               <tr>
+                                <td align=3D"right" style=3D"padding:0;Marg=
+in:0">
+                                 <table cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0px=
+">
+                                   <tbody><tr>
+                                    <td align=3D"center" valign=3D"top" sty=
+le=3D"padding:0;Margin:0;padding-right:14px"><a href=3D"https://nobuy-in.qm=
+ailroute.net/x/d?c=3D46324713&amp;l=3D1962cedc-26d0-4eb1-b585-b743da0758f0&=
+amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" style=3D"text-decoration:unde=
+rline;color:#1376c8;font-size:14px" target=3D"_blank"><img height=3D"26" ti=
+tle=3D"Facebook" src=3D"https://drive.google.com/thumbnail?id=3D15IvlYJKlPC=
+QSRJOyvX-4fHx-tqFjyaeR" alt=3D"Fb" width=3D"26" style=3D"display:block;font=
+-size:16px;border:0;outline:none;text-decoration:none"></a></td>
+                                    <td align=3D"center" valign=3D"top" sty=
+le=3D"padding:0;Margin:0;padding-right:14px"><a href=3D"https://nobuy-in.qm=
+ailroute.net/x/d?c=3D46324713&amp;l=3Dfc683d96-b01f-45ba-bd03-e110c05a83b9&=
+amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" style=3D"text-decoration:unde=
+rline;color:#1376c8;font-size:14px" target=3D"_blank"><img title=3D"X" src=
+=3D"https://drive.google.com/thumbnail?id=3D1FN7SlwecazqUqxOMVE9N57JI4y9r8q=
+09" alt=3D"X" width=3D"26" height=3D"26" style=3D"display:block;font-size:1=
+6px;border:0;outline:none;text-decoration:none"></a></td>
+                                    <td valign=3D"top" align=3D"center" sty=
+le=3D"padding:0;Margin:0;padding-right:14px"><a href=3D"https://nobuy-in.qm=
+ailroute.net/x/d?c=3D46324713&amp;l=3D1ee24aa0-902d-4c67-b082-f0a4fe695583&=
+amp;r=3De636d88f-91f9-41ff-a1a1-8092b2d8962f" style=3D"text-decoration:unde=
+rline;color:#1376c8;font-size:14px" target=3D"_blank"><img title=3D"Instagr=
+am" src=3D"https://drive.google.com/thumbnail?id=3D19eSGdnBJsMGNfhmwiRxZLF0=
+5chT4FzT-" alt=3D"Inst" width=3D"26" height=3D"26" style=3D"display:block;f=
+ont-size:16px;border:0;outline:none;text-decoration:none"></a></td>
+                                    <td valign=3D"top" align=3D"center" sty=
+le=3D"padding:0;Margin:0"><a href=3D"https://nobuy-in.qmailroute.net/x/d?c=
+=3D46324713&amp;l=3Dff8da812-84f3-404d-a113-13fb25763c26&amp;r=3De636d88f-9=
+1f9-41ff-a1a1-8092b2d8962f" style=3D"text-decoration:underline;color:#1376c=
+8;font-size:14px" target=3D"_blank"><img alt=3D"Yt" width=3D"26" height=3D"=
+26" title=3D"linkedIn" src=3D"https://drive.google.com/thumbnail?id=3D1YTZU=
+0v1Mhk5B6Ef5g6J_Q0T1z7Sf1qz6" style=3D"display:block;font-size:16px;border:=
+0;outline:none;text-decoration:none"></a></td>
+                                   </tr>
+                                 </tbody></table></td>
+                               </tr>
+                             </tbody></table></td>
+                           </tr>
+                         </tbody></table></td>
+                       </tr>
+                      =20
+                       <tr>
+                         <td align=3D"left" style=3D"padding:0;Margin:0;pad=
+ding-right:20px;padding-left:20px">
+                           <table cellpadding=3D"0" cellspacing=3D"0" width=
+=3D"100%" role=3D"none" style=3D"border-collapse:collapse;border-spacing:0p=
+x">
+                             <tbody><tr>
+                             <td align=3D"left" style=3D"padding:0;Margin:0=
+;width:560px">
+                               <table cellpadding=3D"0" cellspacing=3D"0" w=
+idth=3D"100%" role=3D"presentation" style=3D"border-collapse:collapse;borde=
+r-spacing:0px">
+                                 <tbody><tr>
+                                 <td align=3D"center" style=3D"padding:2px =
+0 10px;Margin:0"><h2 style=3D"Margin:0;font-family:roboto,&#39;helvetica ne=
+ue&#39;,helvetica,arial,sans-serif;line-height:21px;letter-spacing:0;color:=
+#333333;font-weight:500;font-size:14px">You may <a href=3D"https://nobuy-in=
+.qmailroute.net/x/u?u=3De636d88f-91f9-41ff-a1a1-8092b2d8962f">unsubscribe</=
+a> to stop receiving our emails</h2></td>
+                                 </tr>
+                               </tbody></table></td>
+                             </tr>
+                           </tbody></table></td>
+                       </tr>
+          =20
+                     </tbody></table>
+          =20
+                    =20
+          =20
+                   </td>
+                   </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+ =20
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<img src=3D"https://nobuy-in.emailroute.net/oLvoxbcAAoZsuKf4vVJElaQgY-glVxf=
+rvw9PC-IRgaF3dQxGSDzKc0OV8kGmNthNV4ODanhH6DiQc5qOacG058GEZjWo3pwcG6VVGQyHIc=
+vLynvjCeRSyE0XYOPwTnkUjPN2MII0YX-OjKnOCqjVDEwuqlWESt-7GMSTUDa-AGoajgmeXq2" =
+alt=3D"">
+
+--0000000000005119360635c6a290--

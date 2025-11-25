@@ -1,0 +1,180 @@
+Return-Path: <maria.jones458@aol.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id oIbvAvfqImN5KwAAQ+45pw
+	(envelope-from <maria.jones458@aol.com>)
+	for <info@go-onriders.com>; Thu, 15 Sep 2022 05:05:59 -0400
+Return-path: <maria.jones458@aol.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 15 Sep 2022 05:05:59 -0400
+Received: from sonic315-22.consmr.mail.ne1.yahoo.com ([66.163.190.148]:40672)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <maria.jones458@aol.com>)
+	id 1oYkoo-0003Ae-JK
+	for info@go-onriders.com;
+	Thu, 15 Sep 2022 05:05:58 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aol.com; s=a2048; t=1663232716; bh=Y6PAQvcmKrr++Wns+HJxGGlScqC+LG/KR0up0jWpY0U=; h=Reply-To:From:To:Subject:Date:References:From:Subject:Reply-To; b=aTj3lFQD9uhwlyvHzoiTgOZcKhNG3jDX3R3yIhPBH+pJwIpogQAp/VYW5eBE8al6R1ac7e7ZENf3Syw4JbYDuFWH2C+HfIpYjEVnuk7w6fTQYHIyj5alXjjOh0LjtceYQ8Yl5Qx2odBXtvkLVjSG+00zdForNpWbxX2vH/ZdXSmm8cJ9FPyIOBgpzJlcX+hNIUUiOZ+xuwgewKLND6ZBhBJD9D6z+ElCmSZNDCnUh+vK+bgLoi3nynAczMoFPsmnq6N55rxczUbqYLV7trdG28eXL5ccmQvfsXTFyCx5i4UjgJ8mBcUmW/a5dWal3GyXQEIONaEsaPEQ9UPwGUDcuA==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1663232716; bh=sUKXJkQzPkciwuaCTB/zeqHlXQd/05z0Q9wZqCBaI5q=; h=X-Sonic-MF:From:To:Subject:Date:From:Subject; b=MYozMJzmhtTeExX/54UaclbW3FGs04JZOsPpLpP8Nl9M7dIxmGl2QRpCjTvybaaZAN+A135HZ9K5lONR3lcw/drd9pAID/xlEavz8ITaE5LwoRNm+uIUjDn1AM8vUsPq6OUrlewWllOAeKJtMJPA+qpGz7ri84dNkgSV4ePJVLM/tCXYFT0WmoErd4QEaiTsJ8yB/t2EXHKPOPJzi1c4Kbi+PUoPfoVhBt+ALzFTGVeUjb78ZkKlIAQarMYE6MKMXuMfVLJgFxs7KBBJ0EkGeIhK2HBT1/UDm0DU8pHzy8s0FTQ6/0QvNrm/rH7DMzYN7ORKWF8wTC9LlFCJ8GPE9g==
+X-YMail-OSG: rMAHkqoVM1koaSIK0bSIDUjTmeVnO2vhgVBtkOp6gHg.0ysEHTN_g9nUZ2L9EQe
+ eFZQ_l3.BJm_Mm8kKs170o8rUjs9v0L45HiUfVcqBIpUJICcPIjig3TszzJoTfp3UMyk9KPx9JGw
+ pCqNkovwGYjuoTrzE.RcwxLvjTzzx6o8EJEQXzHeQlCKRignydce2euyAvTJ7Hz5MY37zoWCSXgH
+ v.T80ybRDbB0VApwK7a69exY68UDQv51ia8iEF_S.vLgy0Cv6_qf2xQyR7tg9Hg5fjDr4LMzDyZJ
+ j81oc_d5qyJNOfYlqlSusTmoBwizKTHhM_iU4g5CqIsU38sJxPMsVA5Fo8VP6TvLQZNFoDykyt9C
+ Nrcvg.rdLbJmXbv9stzdPWqpl6uud8yguVvAMh6Cw5YL433HY4iZzBvGg3Wrq4fj_SvmB21DZZZ_
+ xPuoUTaLGXmTast3P_CA6sC3qOifCxlgNe250k1ub7umoE5DfnOL.GL6ypV_9cpo.rlyJG03QeZ9
+ 6VHzLT51Y2DQN30DxOAtiusyjyxHoeNz_rL.zC.2y0EYJOcPwFxeAXdK6dNn9d8aI_MjShYcF_w.
+ pyTGxfUxyvSQM2pUmz5vaby2c6NjgXhBCWqAf6xBwoh08zPElLiV0.6EQzhoAuwD27XjyuPsNl.d
+ eU9fph6rI_dbLPvHYPmo06OaAXOnE82hVcB_.2lDV.m8IXVBmoh24amvyO2_jZ6K.Qt3t2j3R4RU
+ eltJ0kltRcUOJg3Gl_5672Z9rMS2TPn2rNWKTf8yqYyvJNV9pupSPLUqJYHB_g7cnYC5ms5Lbwge
+ zax08MdskKaBLSeYJSmeY8SHiFZZqAVn7AcUzOVZkKSNAaF8Gf7teLwiArJTceKqVHB2wg68Xkgj
+ MXVAbcQm8VsvYo9ItJ8cCAyNUs5AJvGCiVXfX4IDVksNtZQNapbQny4rK69y1JCJeDXjPAZLl.1y
+ eH4TGfVqPKni9LStAYSye31wZfUZBpWp6Ppb76lb40h7U7.gHZeBH8XeenPXL_jiWqFLpcQ9s_0f
+ CWkf35N_ii1VzDaxuYRSSgZy.Ank6qdTWGlYobJ9nRwzqCCWfZubOa.aPrvmm_s05O8vGh.75vt7
+ Z6vnSR8ryGlTxlJ7pfR3JVaEtIJFQMUdTlkWssquGKUCmNsO67dGKZwStrwKiyJRca0cowUDGMuP
+ G6svIqcqtwEHe5cbKUeFIMKusr5XHBsH9u253NWqr48eCcH1TMMbhQrvVpFkj6qFX6zRNChVR6xy
+ Lx.5_W9_wAtEgpyK1f.jtBqWJTt5UxZGb9O6DnPDQqE1v0e5S6s1BiehzoTKmvv5JC2gAR561zzc
+ 4YuVVdUSQEA2Q5TuEy.AMkA7RuaMUz64dtgOpprVE4l8T8gWS4.z.ycnzx73C6JgpcGjjKkFtrab
+ ub.IWvukk09uWpr7cP9yP55QnMBEzG0jC1xin5ewOgZtB88FyEPm3cNJH.99HMRWsrN4WWRr6bAL
+ 86a5pDvBBAfIZxqKgmjKw_o5LaWHMFsP3uxZIBZw7EzWqKrX8F4DCscG1BGoKml9kXb4FE_dIOE2
+ 7YFJolA0ySS_LrSgoc10zUXiyJsIAunrhnJf_0lA9OMxwxyVkqBT0soGqDUAmSVLbwJgLTPlfhPk
+ Fn65V67I9F6UQK1HeEvBysEhkRlRv7.zmHmTQBBSSNXz92SmeVUUzk.ukvffDh5kaJAdSgCtbniT
+ 22HlOc6H_jbU992aCQ2UZRkEUjgxYsdd8bVaZk7klPsjoYUKMjPyMB7e.wdXNBS.mcGvZvczVGxg
+ QRllSXndO2CaJmmlWx2bgR4wgpL12vKhK33flPyc8vNmQ8qJcFfZMnM4gecSKAKBMkUEB9d1OVRB
+ 7HAP6G2Ati8jMhVxmfWOqQqXEY8wTJB9nuvInckdmjijWTlFcZxyysoC_3L0QTHeSAnd11M6n4vX
+ 00KtUgdsl4bZKw7KRau_FlHA9jGrIY.Y6wL03.IFsTcr0VkLzIb.eFMxngNclPG0E9zLAZQIrVoV
+ LjAXdUsOKlfh5TUp_BXvnfZP1o.F.pt8LovK95sflEvjE4pRwrS6DCqNyayDb4HrjyJ57tmQ_cNW
+ HYBTgG6n.RLOC48tWIWrnkD3ZGz.t0KLCHdQ2Kvxqbbt01fm.5_O.eQ0ZxswUhoyq5vMzEfvyg7d
+ g3PWg_gJXuED1mBCYIBjjNVjIUF3nVxS652VgGLG6w0V7q3uaP9vCQ4sGHq0rRAF_R_6kXBwB6wf
+ pGhYqpH6GFgUBwuaClo46EH_ifh9tGauXfibEF8Py5vy7kGagQbS_cqmdID8-
+X-Sonic-MF: <maria.jones458@aol.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic315.consmr.mail.ne1.yahoo.com with HTTP; Thu, 15 Sep 2022 09:05:16 +0000
+Received: by hermes--canary-production-sg3-6bb8946c47-7d254 (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID 1b3ecb48face2c72c6f7ef320f11a829;
+          Thu, 15 Sep 2022 09:05:10 +0000 (UTC)
+Reply-To: <maria.jones458@aol.com>
+From: "Maria" <maria.jones458@aol.com>
+To: <info@go-onriders.com>
+Subject: leads and visits..
+Date: Thu, 15 Sep 2022 14:35:13 +0530
+Message-ID: <032a01d8c8e2$45d37640$d17a62c0$@aol.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_032B_01D8C910.5F8C4E80"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdjI4kGpQCEwRzPySeaJyPAONKTGuw==
+Content-Language: en-us
+References: <032a01d8c8e2$45d37640$d17a62c0$.ref@aol.com>
+Content-Length: 2304
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, www.go-onriders.com I can help you in increasing your
+    website ranking and customers through our proven SEO service. 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [66.163.190.148 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [66.163.190.148 listed in wl.mailspike.net]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [maria.jones458[at]aol.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [maria.jones458[at]aol.com]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [maria.jones458[at]aol.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_032B_01D8C910.5F8C4E80
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello, www.go-onriders.com
+
+I can help you in increasing your website ranking and customers through our
+
+proven SEO service.
+
+Please let me know if you are interested. I will send you a complete  
+proposal.
+
+Regards,
+Maria     
+
+ 
+
+
+------=_NextPart_000_032B_01D8C910.5F8C4E80
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-fareast-language:EN-IN;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span lang=3DEN-IN>Hello, =
+www.go-onriders.com<br><br>I can help you in increasing your website =
+ranking and customers through our&nbsp; <br>proven SEO =
+service.<br><br>Please let me know if you are interested. I will send =
+you a complete&nbsp; <br>proposal.<br><br>Regards,<br>Maria =
+&nbsp;&nbsp;&nbsp;&nbsp;</span></p><p class=3DMsoNormal><span =
+lang=3DEN-IN><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_032B_01D8C910.5F8C4E80--
+

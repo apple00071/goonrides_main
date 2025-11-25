@@ -1,0 +1,703 @@
+Return-Path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id kPlcMraSGWMnVwAAQ+45pw
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	for <info@go-onriders.com>; Thu, 08 Sep 2022 02:59:02 -0400
+Return-path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 08 Sep 2022 02:59:02 -0400
+Received: from wrqvtwtt.outbound-mail.sendgrid.net ([149.72.121.119]:9516)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	id 1oWBV7-0008N8-Dn
+	for info@go-onriders.com;
+	Thu, 08 Sep 2022 02:59:02 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=interakt.ai;
+	h=content-type:from:mime-version:subject:reply-to:to:list-unsubscribe:
+	cc;
+	s=s1; bh=nju2ka41dvufofSvSiqo9Ze+MBrehld35evgASIvIsg=;
+	b=bHueC7mh8Fe7gfCJzhan5XSjv+GVufVPx3rz66qujNmMNl2nqLJm0uGSJBP25jYzVMpk
+	fvjkCnYw4BtbBpjT+d4ZDp3WMnxD3vcJ97JB5lbYEyLZI+T5asuZ9uzEFU8RJMiq4Qrd5J
+	03r4vBmhZVWyDlOgoQEDQUNg+hgz9wEJzd89FGUr5p5cO9JvKFltllViudhfxqaniLUqiS
+	KIZkVcXS07/6YYIeAjyFewn5KdhidtbMKGqPmqWt6kzuB4iiZMSmAM1pda/ZWk6pC/sPyT
+	FTcifwTEvcAJssdN5McH1YxM07XC1dJf4JKNNhEg1kL4/g/vqLI2JfcJOGXPG8Eg==
+Received: by filterdrecv-677c47b885-qmlgq with SMTP id filterdrecv-677c47b885-qmlgq-1-63199287-15
+        2022-09-08 06:58:15.304700268 +0000 UTC m=+1154833.206171542
+Received: from MTg4NjczMzE (unknown)
+	by geopod-ismtpd-6-2 (SG) with HTTP
+	id JS_8EX1XTcqDareu9V-Fmg
+	Thu, 08 Sep 2022 06:58:15.273 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=23d4b52624f9907e2e537caa58591c635932789e3a4af42389597cf2493a
+Date: Thu, 08 Sep 2022 06:58:19 +0000 (UTC)
+From: Interakt <marketing@interakt.ai>
+Mime-Version: 1.0
+Message-ID: <JS_8EX1XTcqDareu9V-Fmg@geopod-ismtpd-6-2>
+Subject: It's time to grow your business on WhatsApp
+Reply-To: noreply@interakt.ai
+X-SG-EID: 
+ =?us-ascii?Q?wQsVFDSccCTE3EkRlDyU7GH+Zdyr4YBATcTNyGo3qZlzAIC99XbRILn7+Dm7gf?=
+ =?us-ascii?Q?Dgv26cXZzhZo5BQ0Au61rPVerGoXnAK65RC6P=2Fp?=
+ =?us-ascii?Q?GYEziIs9J75PftjZ=2FfDNpbdUht5pnNsA6kfpPYu?=
+ =?us-ascii?Q?f5+Xke4SoS1f9SLI55Q1McKzBiC5tQPGqsGOLH5?=
+ =?us-ascii?Q?R7bC30djJwEwE6jpI7k84WsK5U9tVZTyu+eyqG3?=
+ =?us-ascii?Q?a3HP09oSNnpA0mqfGS+J5cAXWi+8tUjfpwjQjy?=
+X-SG-ID: 
+ =?us-ascii?Q?se=2F49CGmbS0sfR97ImeXvBfRtsgfFZV0DGqu8S5MKlxURME=2FfEixocC7XYPBoA?=
+ =?us-ascii?Q?qmtbshlIgQ1gDfMCQZ6WCqO=2FuLGbT7C5gYuhBtQ?=
+ =?us-ascii?Q?Eq6Ak+f7hmkWNhi5Jt3d6oW8k8m38LAx+Zgwzlr?=
+ =?us-ascii?Q?0gN=2FXdxOVLdASQ6y1ouweYi28OG67Wo2fJxIr1P?=
+ =?us-ascii?Q?PKehhHwnnMbbaI5czUaH8ga2+Bz8z1p2mbmuzk0?=
+ =?us-ascii?Q?OReTxC9=2FYrCXRdYN5SQsm7PawgwvkfLVXDSL88M?=
+ =?us-ascii?Q?=2FKl+nLuOKrgQA48q5dXc4URzQHWTPtfHpOemp9Z?=
+ =?us-ascii?Q?W=2FxCNChsbmGc6rHnmGrDWFvjnoalXUXsFHC2k6b?=
+ =?us-ascii?Q?6bpvW17p36ta=2FUNH=2FXpJo4TSBFXHtNSIBX3PAfK?=
+ =?us-ascii?Q?LfXEKv6SYU1d05=2Fe0G+hBgA5JW=2Fu6o38FfCtltR?=
+ =?us-ascii?Q?gzm=2FRRKxdiRhLmtZTBs9sOLdCmwfnnVSwIQ72ZR?=
+ =?us-ascii?Q?3OVaCmWOSfmMPgO6GxeHH9w53=2FquRjJGLoke2iv?=
+ =?us-ascii?Q?pIzMuuDzhm+Wg0xDJR7loIv3jHb5TkAQSez9iHQ?=
+ =?us-ascii?Q?SCGZBSyIF+a7nZ0YjnnJysAzQfcWiNcc1iUtg+D?=
+ =?us-ascii?Q?3gQydNIzKJJnLX8s56orH07UlYDx0MnvH3Uc4=2F4?=
+ =?us-ascii?Q?CZoYbdo6CHF2HGiynfPQj3aU7k7yQ3j+vsDp8f4?=
+ =?us-ascii?Q?gtrJWkJhxDtvIXs0aHW2zkoqMsbtlP46cXmB215?=
+ =?us-ascii?Q?Py755WGsLoUA3iYpael+sDx2lfPAuaU+YlRi5jv?=
+ =?us-ascii?Q?sklpxqJ1I1yxd=2FS1fEB3lZblROnPbtBvd1oWTdp?=
+ =?us-ascii?Q?r=2FFJ?=
+To: Mohammad <info@go-onriders.com>
+X-Entity-ID: zq9fjstDuAdEFIgk/ktvZg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em3566=2Einterakt=2Eai=3Fsubject=3Dhttps=3A=2F=2Fu188673?=
+ =?us-ascii?Q?31=2Ect=2Esendgrid=2Enet=2Fwf=2Funsubscribe*q*upn?=
+ =?us-ascii?Q?=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHa?=
+ =?us-ascii?Q?GMh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY?=
+ =?us-ascii?Q?-2ByQ0tFJ-2BRMLB5YwVS9ZZ5HknQYdcYohlckc?=
+ =?us-ascii?Q?8pXBKld-2BstiVvtORwiE3BuxKu4Gdx3Md8cB5D?=
+ =?us-ascii?Q?AxklVDMY3pkcLB-2BflIf6RNfIkb4g9JQorlx87?=
+ =?us-ascii?Q?8-2BjHAnolwTr-2FHhv4ygV853SEzJMqkslCUtr?=
+ =?us-ascii?Q?lo9KPTOAUUNTUCay7-2FaGgQAzNuCc6Aper3skr?=
+ =?us-ascii?Q?TO-2Fm96-2FgtRusxyCyvqUIfaLw-2BNJykzzCl?=
+ =?us-ascii?Q?FU23CL4Etyuqdy-2FbxBvw9e7ZJFq2dMLSZ16q-?=
+ =?us-ascii?Q?2B0DbfjlUz4AtjT04-2FcUuDP3zQmwdSTZiHQ3F?=
+ =?us-ascii?Q?tVAOniizi9R9yPlVI-2BojWvIMtLUy5OSt5lgeZ?=
+ =?us-ascii?Q?I9NHGOgPFmQQydu5UPA6Y2LNX5-2BdUD3PdYe8-?=
+ =?us-ascii?Q?2FXA028UDg1tBPiojtBYyCc7nOiKS7gR-2FpC56?=
+ =?us-ascii?Q?gKxGnXRMBFL34Nf5lptk2aONm9OrH6fLAmHpkpY?=
+ =?us-ascii?Q?FUFzyF5Vs-2B8WzW0n-2Bpnv9qqh3-2Ftc0D7fB?=
+ =?us-ascii?Q?JTQdGTtCkXWpHx6loj5kRXDObmOATgovcu-2BZg?=
+ =?us-ascii?Q?HFocfCI4I4sh2N56meV8Wxx2LvczupHWbHkx4lZ?=
+ =?us-ascii?Q?kGjsv09hyG-2BXmp6AyOflCQjB2LLJxDTh6ilP9?=
+ =?us-ascii?Q?5LPosIIdzG-2B9XL6XGWQ5V1WCkz3lLBd2yt-2B?=
+ =?us-ascii?Q?EkrKtwSUzMMXWWCbisg94gFhy-2Bsw9ItuJQQmx?=
+ =?us-ascii?Q?n3j5-2FuJw8ePVm2P707YD3V-2Fssg5FUCKCLsg?=
+ =?us-ascii?Q?qd3R-2Ba3byMGX9Keo7hxSmKVTeh0wKJJx-2Fpy?=
+ =?us-ascii?Q?XvwOGH2eAKfIqXqQhg3lJocCBiQBpDuOZvTGNez?=
+ =?us-ascii?Q?YKyeLh9LIBjxZ7GNxBgso3W5kdWgKbA3ZknJgFp?=
+ =?us-ascii?Q?M5XBjXmD-2B0ALr9ppvmjYbloUpnGijMKfG5R8Y?=
+ =?us-ascii?Q?LAW2X1v06pQMgyme-2BySZtd5pcHpc4r5E48HvZ?=
+ =?us-ascii?Q?wkzz1trgDXSx5nypZlJTJAXq-2FlrA7BOVM5L3Q?=
+ =?us-ascii?Q?-3D-3D=3E?=
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  7 days to go for HYPE @ Interakt ( https://bit.ly/3qjkB56
+   ) Hi Mohammad, 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [149.72.121.119 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [149.72.121.119 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.5 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+--23d4b52624f9907e2e537caa58591c635932789e3a4af42389597cf2493a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+7 days to go for HYPE @ Interakt
+
+( https://bit.ly/3qjkB56 )
+
+Hi Mohammad,
+
+*Hype @ Interakt* ( https://bit.ly/3qjkB56 ) is just a week away - Are you =
+ready to witness the future of your brand?
+
+As a fastly-growing business, you won=E2=80=99t like to miss out on somethi=
+ng we=E2=80=99ve been building for you to bring speed & efficiency to your =
+business growth.
+
+A panel full of industry experts, brand owners, and leaders will be sharing=
+ their key secrets to help you transform your sales, support & marketing wi=
+th:
+
+*Conversational Commerce - Personalized Marketing - 24/7 Support on WhatsAp=
+p* ( https://bit.ly/3qjkB56 )
+
+( https://bit.ly/3qjkB56 )
+*A power-packed virtual product launch event where you=E2=80=99ll learn:*
+
+* How to boost your sales during the upcoming festive season?
+* How to make your business ready to step into the future of commerce?
+* How thousands of D2C brands are growing their business on WhatsApp?
+
+( https://bit.ly/3qjkB56 )
+
+*The only name missing is yours - Register before the seats are full.*
+
+Register Now ( https://bit.ly/3qjkB56 )
+
+Can't attend the live discussion? Register anyway to get the recording post=
+ event.
+
+Interakt
+
+A-801, Cello Triumph, IB Patel Road Goregaon East , Mumbai, , =20
+
+Unsubscribe ( https://u18867331.ct.sendgrid.net/wf/unsubscribe?upn=3DQFWB4B=
+CTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY-2By=
+Q0tFJ-2BRMLB5YwVS9ZZ5HknQYdcYohlckc8pXBKld-2BstiVvtORwiE3BuxKu4Gdx3Md8cB5DA=
+xklVDMY3pkcLB-2BflIf6RNfIkb4g9JQorlx878-2BjHAnolwTr-2FHhv4ygV853SEzJMqkslCU=
+trlo9KPTOAUUNTUCay7-2FaGgQAzNuCc6Aper3skrTO-2Fm96-2FgtRusxyCyvqUIfaLw-2BNJy=
+kzzClFU23CL4Etyuqdy-2FbxBvw9e7ZJFq2dMLSZ16q-2B0DbfjlUz4AtjT04-2FcUuDP3zQmwd=
+STZiHQ3FtVAOniizi9R9yPlVI-2BojWvIMtLUy5OSt5lgeZI9NHGOgPFmQQydu5UPA6Y2LNX5-2=
+BdUD3PdYe8-2FXA028UDg1tBPiojtBYyCc7nOiKS7gR-2FpC56gKxGnXRMBFL34Nf5lptk2aONm=
+9OrH6fLAmHpkpYFUFzyF5Vs-2B8WzW0n-2Bpnv9qqh3-2Ftc0D7fBJTQdGTtCkXWpHx6loj5kRX=
+DObmOATgovcu-2BZgHFocfCI4I4sh2N56meV8Wxx2LvczupHWbHkx4lZkGjsv09hyG-2BXmp6Ay=
+OflCQjB2LLJxDTh6ilP95LPosIIdzG-2B9XL6XGWQ5V1WCkz3lLBd2yt-2BEkrKtwSUzMMXWWCb=
+isg94gFhy-2Bsw9ItuJQQmxn3j5-2FuJw8ePVm2P707YD3V-2Fssg5FUCKCLsgqd3R-2Ba3byMG=
+X9Keo7hxSmKVTeh0wKJJ1djS48K30OuGGxN6qwxPrW-2BQJ2ijE66S3xU-2FEcHABAANJJF49AC=
+dT4B-2BZ1woq9BrsQm-2FSn2oLZfPd-2F6sPO4-2FbOgslOAGjTZuoBvnPVfENFv-2BtBXLBKyV=
+vRWtnsgr0NX95Af1USHl3du69rH-2FwyQ5kiE6pR8of-2BIQxOvhcA1TvqyoGPG4ZiaNtGFnbaa=
+HVVehQ-3D-3D )
+--23d4b52624f9907e2e537caa58591c635932789e3a4af42389597cf2493a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+    <style>
+      @media screen and (max-width:480px) {
+        table\0 {
+          width: 480px !important;
+          }
+      }
+    </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; =
+background-color:#FFFFFF;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p>7 days to go for HYPE @ Interakt</p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"7823c4c5-2691-4374-b271-320b683d2b8d">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0liIcL4Uxz7nm-2BqNji5HypU-3DTy7M_RYEeg99Ap79leT7lYKY4eaeyUmr=
+wHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwKvfA9i5Pezpm96PohftCjL3uUgeJP-2B13Rand=
+PurmedDIMQGSyZjJWcz0JrXyyWF2yzfFnkoEVJPNcDyPON7Ww5rL5FNSllOpcJ2Nwl-2FRQ9bP1=
+MFIC89UmMCI0kZe5v-2BswZycFibmz5vgcvYQVDRa4LmSCgNKedjSynDjYTH6ZiYBzcJ9zPw6Nl=
+lDWj-2BcLGtx-2FFBtWDmqdkfgig-2BvO98GURdM2YTstO9S8tm11R-2FvHBsatfpiNo3yCZn93=
+OZwSIrVXls3Wae4uiHFhMyxmPQA5TOhjLA6Zggz0lySyJmdhDkUQeWZhcg72CACk5RpOHMURVFp=
+MTIFiHpbsna-2B5XY9aJmAhNSPh-2FkKLNgFjooenJm4Cj-2FwkY2S4oVzjGHVJ2BoPRQpUwefW=
+R-2BvyBGBfqc05-2BX7mr4geXFEYTSAuaV-2B768drbvv-2B07vCI-2Bno1xrm0mp26khG-2BIB=
+EwpZVyvnY6mQzgzl5I9N4KgDh-2BHXQD9V9oDalFTsCVh86pY-2F0rlLc6D7ZEXn4ax5t1aWagI=
+UZZ7HnObMYM52U6FQOZNMWO0muwkP8ckvhtrUu3zsNXjjOGYOiQCIvCVR8z6sZBCo2lZcL7oepj=
+kFsoaBmbKgUYPgMrkigzVbMVy8poWa6QDsuIHXlAjerpjssFZ5QjNeGYzzbuLNaZgj-2B11AlD4=
+SZAUzpvZX2IfuWP-2BLy3sM4Dt0D-2Bhabk5VcoRYR5LsUU531jSYtb-2B966OChf8yAj3OU6m4=
+fdbC03OCVN0nWebsqcg9FZNnUU10bEntdtkuoorXfQCnvyrihHuqd1RNZsUd-2F4jL3YDI7a87i=
+5Gpu5x-2BViO9r7ZI916GUYCBzETJNcqXqujmuKGrOzy-2FZGwzT1Pa8OHLKCsHm1cWmRQmQWzH=
+-2FGa6zR7A"><img class=3D"max-width" border=3D"0" style=3D"display:block; c=
+olor:#000000; text-decoration:none; font-family:Helvetica, arial, sans-seri=
+f; font-size:16px; max-width:100% !important; width:100%; height:auto !impo=
+rtant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" dat=
+a-responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.n=
+et/ccf6b07b7158c0e6/c0a3c7f9-61da-446a-9389-1d13d7f8fd57/5834x2817.jpg"></a=
+></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"ec3f2ab2-f2be-48ee-a7dc-6bbc9b488142" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: justify"><span st=
+yle=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #0000=
+00; background-color: transparent; font-weight: 400; font-style: normal; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; font-variant-numer=
+ic: normal; font-variant-east-asian: normal; text-decoration-line: none; te=
+xt-decoration-thickness: initial; text-decoration-style: initial; text-deco=
+ration-color: initial; vertical-align: baseline; white-space: pre-wrap; fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">Hi Mohammad,</span=
+></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif"><br>
+</span><a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7=
+o5sYTQ1Kkx-2Fi0liIcL4Uxz7nm-2BqNji5HypU-3D6-JJ_RYEeg99Ap79leT7lYKY4eaeyUmrw=
+HXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwKvfA9i5Pezpm96PohftCjL3uUgeJP-2B13RandP=
+urmedDIMQGSyZjJWcz0JrXyyWF2yzfFnkoEVJPNcDyPON7Ww5rL5FNSllOpcJ2Nwl-2FRQ9bP1M=
+FIC89UmMCI0kZe5v-2BswZycFibmz5vgcvYQVDRa4LmSCgNKedjSynDjYTH6ZiYBzcJ9zPw6Nll=
+DWj-2BcLGtx-2FFBtWDmqdkfgig-2BvO98GURdM2YTstO9S8tm11R-2FvHBsatfpiNo3yCZn93O=
+ZwSIrVXls3Wae4uiHFhMyxmPQA5TOhjLA6Zggz0lySyJmdhDkUQeWZhcg72CACk5RpOHMURVFpM=
+TIFiHpbsna-2B5XY9aJmAhNSPh-2FkKLNgFjooenJm4Cj-2FwkY2S4oVzjGHVJ2BoPRQpUwefWR=
+-2BvyBGBfqc05-2BX7mr4geXFEYTSAuaV-2B768drbvv-2B07vCI-2Bno1xrm0mp26khG-2BIBE=
+wpZVyvnY6mQzgzl5I9N4KgDh-2BHXQD9V9oDalFTsCVh86pY-2F0rlLc6D7ZEXn4ax5t1aWagIU=
+ZZ7HnObMYM52U6FQOZNMWO0muwkP8ckvhtrUu3zsNXjjOGYOiQCIvCVR8z6sZBCo2lZcL7oepjk=
+FsoaBmbKgUYPgMrkigzVbMVy8poWa6QDsuIHXlAjerpjssFZ5QjNeGYzzbuLNaZgj-2B11AlD4S=
+ZAUzpvZX2IfuWP-2BLy3sM4Dt0D-2Bhabk5VcoRYR5LsUU531jSYtUHD2GHB-2BoqU4-2Ftk8pE=
+Boz-2FyiFAgblpbVc1E7QYcOguK5RELRVPuZpdBJ55FY-2B4poYiDCyX6ExYCtjff3ug7z5Ix8X=
+HBBOZCA3-2F9mENajgm-2B6KeEAWLCv05TWqdSwvZAvWOoCgdkSFps7P8jS-2B3VYUpHp5Z-2BA=
+0QFmvd-2BX6MiaDxN"><span style=3D"font-size: 14px; font-family: arial, helv=
+etica, sans-serif"><strong>Hype @ Interakt</strong></span></a><span style=
+=3D"font-size: 14px; font-family: arial, helvetica, sans-serif"> is just a =
+week away - Are you ready to witness the future of your brand?<br>
+<br>
+As a fastly-growing business, you won=E2=80=99t like to miss out on somethi=
+ng we=E2=80=99ve been building for you to bring speed &amp; efficiency to y=
+our business growth.<br>
+<br>
+A panel full of industry experts, brand owners, and leaders will be sharing=
+ their key secrets to help you transform your sales, support &amp; marketin=
+g with:</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: center"><a href=3D"https://=
+u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0liIcL4Uxz7n=
+m-2BqNji5HypU-3DqzfR_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaC=
+kTTnnEezjwKvfA9i5Pezpm96PohftCjL3uUgeJP-2B13RandPurmedDIMQGSyZjJWcz0JrXyyWF=
+2yzfFnkoEVJPNcDyPON7Ww5rL5FNSllOpcJ2Nwl-2FRQ9bP1MFIC89UmMCI0kZe5v-2BswZycFi=
+bmz5vgcvYQVDRa4LmSCgNKedjSynDjYTH6ZiYBzcJ9zPw6NllDWj-2BcLGtx-2FFBtWDmqdkfgi=
+g-2BvO98GURdM2YTstO9S8tm11R-2FvHBsatfpiNo3yCZn93OZwSIrVXls3Wae4uiHFhMyxmPQA=
+5TOhjLA6Zggz0lySyJmdhDkUQeWZhcg72CACk5RpOHMURVFpMTIFiHpbsna-2B5XY9aJmAhNSPh=
+-2FkKLNgFjooenJm4Cj-2FwkY2S4oVzjGHVJ2BoPRQpUwefWR-2BvyBGBfqc05-2BX7mr4geXFE=
+YTSAuaV-2B768drbvv-2B07vCI-2Bno1xrm0mp26khG-2BIBEwpZVyvnY6mQzgzl5I9N4KgDh-2=
+BHXQD9V9oDalFTsCVh86pY-2F0rlLc6D7ZEXn4ax5t1aWagIUZZ7HnObMYM52U6FQOZNMWO0muw=
+kP8ckvhtrUu3zsNXjjOGYOiQCIvCVR8z6sZBCo2lZcL7oepjkFsoaBmbKgUYPgMrkigzVbMVy8p=
+oWa6QDsuIHXlAjerpjssFZ5QjNeGYzzbuLNaZgj-2B11AlD4SZAUzpvZX2IfuWP-2BLy3sM4Dt0=
+D-2Bhabk5VcoRYR5LsUU531jSYtaXTRU0D0BzBg5BjvPcMZY6UbJ4nildAG1LlENdOyd2uP4W1e=
+MnFihDSpgpVmNokWaOZ6lIluk9yx-2FxwfL7M3Pa-2F3JB8vUIfZ4rHvHYpAdhxAKMGSwl5Q0Ed=
+3yMq3Wnh8tfDtDsCSDWJeae-2FemXcoRzzBPvpvsPzAdgdveGQMTaC"><span style=3D"font=
+-size: 14px; font-family: arial, helvetica, sans-serif; color: #0ea6d9"><st=
+rong>Conversational Commerce - Personalized Marketing - 24/7 Support on Wha=
+tsApp</strong></span></a></div>
+<div style=3D"font-family: inherit; text-align: center"><a href=3D"https://=
+u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0liIcL4Uxz7n=
+m-2BqNji5HypU-3D9Daj_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaC=
+kTTnnEezjwKvfA9i5Pezpm96PohftCjL3uUgeJP-2B13RandPurmedDIMQGSyZjJWcz0JrXyyWF=
+2yzfFnkoEVJPNcDyPON7Ww5rL5FNSllOpcJ2Nwl-2FRQ9bP1MFIC89UmMCI0kZe5v-2BswZycFi=
+bmz5vgcvYQVDRa4LmSCgNKedjSynDjYTH6ZiYBzcJ9zPw6NllDWj-2BcLGtx-2FFBtWDmqdkfgi=
+g-2BvO98GURdM2YTstO9S8tm11R-2FvHBsatfpiNo3yCZn93OZwSIrVXls3Wae4uiHFhMyxmPQA=
+5TOhjLA6Zggz0lySyJmdhDkUQeWZhcg72CACk5RpOHMURVFpMTIFiHpbsna-2B5XY9aJmAhNSPh=
+-2FkKLNgFjooenJm4Cj-2FwkY2S4oVzjGHVJ2BoPRQpUwefWR-2BvyBGBfqc05-2BX7mr4geXFE=
+YTSAuaV-2B768drbvv-2B07vCI-2Bno1xrm0mp26khG-2BIBEwpZVyvnY6mQzgzl5I9N4KgDh-2=
+BHXQD9V9oDalFTsCVh86pY-2F0rlLc6D7ZEXn4ax5t1aWagIUZZ7HnObMYM52U6FQOZNMWO0muw=
+kP8ckvhtrUu3zsNXjjOGYOiQCIvCVR8z6sZBCo2lZcL7oepjkFsoaBmbKgUYPgMrkigzVbMVy8p=
+oWa6QDsuIHXlAjerpjssFZ5QjNeGYzzbuLNaZgj-2B11AlD4SZAUzpvZX2IfuWP-2BLy3sM4Dt0=
+D-2Bhabk5VcoRYR5LsUU531jSYtXIErhveTQ12UC8PnbxT3g0Zu0KXs3Cl2gUAdNCrpx91cvUlv=
+yTRrUKm9KWavorvpU-2BA6a-2BsGItk8X7YhqWX8N2v-2B7XjW8PaH4PpC2VOTjaXggrjYJG-2F=
+bSxdccoJZczRM-2BI6RibFhDAyClprRmNLI7QUSXjkOGc4cBNnm2MikQb6"><span style=3D"=
+font-size: 14px; font-family: arial, helvetica, sans-serif; color: #0ea6d9"=
+><br>
+</span></a></div>
+<div style=3D"font-family: inherit; text-align: left"><span style=3D"font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px; color: #000000; font-=
+style: normal; font-variant-ligatures: normal; font-variant-caps: normal; f=
+ont-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text=
+-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-sp=
+acing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255,=
+ 255); text-decoration-thickness: initial; text-decoration-style: initial; =
+text-decoration-color: initial"><strong>A power-packed virtual product laun=
+ch event where you=E2=80=99ll learn:</strong></span></div>
+<ul>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: left; font-family: arial,=
+ helvetica, sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-size: 14=
+px"><span style=3D"color: #000000; font-family: arial, helvetica, sans-seri=
+f; font-size: 14px; font-style: normal; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: =
+2; text-align: left; text-indent: 0px; text-transform: none; white-space: n=
+ormal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; backgr=
+ound-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial">How to boost your =
+sales during the upcoming festive season?&nbsp;</span></li>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: left; font-family: arial,=
+ helvetica, sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-size: 14=
+px"><span style=3D"color: #000000; font-family: arial, helvetica, sans-seri=
+f; font-size: 14px; font-style: normal; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: =
+2; text-align: left; text-indent: 0px; text-transform: none; white-space: n=
+ormal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; backgr=
+ound-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial">How to make your b=
+usiness ready to step into the future of commerce?</span></li>
+  <li style=3D"text-align: left"><span style=3D"color: #000000; font-family=
+: arial, helvetica, sans-serif; font-size: 14px; font-style: normal; font-v=
+ariant-ligatures: normal; font-variant-caps: normal; font-weight: 400; lett=
+er-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-tr=
+ansform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-t=
+ext-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoratio=
+n-thickness: initial; text-decoration-style: initial; text-decoration-color=
+: initial">How thousands of D2C brands are growing their business on WhatsA=
+pp?</span>&nbsp;</li>
+</ul><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"f2598bc2-d5df-44ea-9ddf-16274b381083">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0liIcL4Uxz7nm-2BqNji5HypU-3Du0gg_RYEeg99Ap79leT7lYKY4eaeyUmr=
+wHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwKvfA9i5Pezpm96PohftCjL3uUgeJP-2B13Rand=
+PurmedDIMQGSyZjJWcz0JrXyyWF2yzfFnkoEVJPNcDyPON7Ww5rL5FNSllOpcJ2Nwl-2FRQ9bP1=
+MFIC89UmMCI0kZe5v-2BswZycFibmz5vgcvYQVDRa4LmSCgNKedjSynDjYTH6ZiYBzcJ9zPw6Nl=
+lDWj-2BcLGtx-2FFBtWDmqdkfgig-2BvO98GURdM2YTstO9S8tm11R-2FvHBsatfpiNo3yCZn93=
+OZwSIrVXls3Wae4uiHFhMyxmPQA5TOhjLA6Zggz0lySyJmdhDkUQeWZhcg72CACk5RpOHMURVFp=
+MTIFiHpbsna-2B5XY9aJmAhNSPh-2FkKLNgFjooenJm4Cj-2FwkY2S4oVzjGHVJ2BoPRQpUwefW=
+R-2BvyBGBfqc05-2BX7mr4geXFEYTSAuaV-2B768drbvv-2B07vCI-2Bno1xrm0mp26khG-2BIB=
+EwpZVyvnY6mQzgzl5I9N4KgDh-2BHXQD9V9oDalFTsCVh86pY-2F0rlLc6D7ZEXn4ax5t1aWagI=
+UZZ7HnObMYM52U6FQOZNMWO0muwkP8ckvhtrUu3zsNXjjOGYOiQCIvCVR8z6sZBCo2lZcL7oepj=
+kFsoaBmbKgUYPgMrkigzVbMVy8poWa6QDsuIHXlAjerpjssFZ5QjNeGYzzbuLNaZgj-2B11AlD4=
+SZAUzpvZX2IfuWP-2BLy3sM4Dt0D-2Bhabk5VcoRYR5LsUU531jSYtZSWauc9o4FewR-2F9Je6M=
+CVWbdTrXF9pG9S2yIyudVp2h6iaNbuLXmNCvlodWkBpqAZDY3DRGhWcZVd-2FxP-2F0-2F1H46q=
+KWGjoJQ78OB4BAAVTfmol1AahpvfuMwlu0hDOxvcHOYD2Cg-2FKlw5-2B-2FESDAo7-2FRge4xt=
+k5WyUbSqvDm3gePk"><img class=3D"max-width" border=3D"0" style=3D"display:bl=
+ock; color:#000000; text-decoration:none; font-family:Helvetica, arial, san=
+s-serif; font-size:16px; max-width:100% !important; width:100%; height:auto=
+ !important;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"tru=
+e" data-responsive=3D"true" src=3D"http://cdn.mcauto-images-production.send=
+grid.net/ccf6b07b7158c0e6/399113bf-de3e-4f0a-a7ff-91be9f51aad0/1280x628.png=
+"></a></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"15ce6eeb-c280-411f-a8c5-5fce53814380" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:12px 0px 12px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: center"><span sty=
+le=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-size: 11=
+pt; font-family: Arial; color: #000000; background-color: transparent; font=
+-weight: 400; font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-variant-numeric: normal; font-variant-east-asian: no=
+rmal; text-decoration-line: none; text-decoration-thickness: initial; text-=
+decoration-style: initial; text-decoration-color: initial; vertical-align: =
+baseline; white-space: pre-wrap"><em><strong>The only name missing is yours=
+ - Register before the seats are full.</strong></em></span></div><div></div=
+></div></td>
+      </tr>
+    </tbody>
+  </table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+module" data-role=3D"module-button" data-type=3D"button" role=3D"module" st=
+yle=3D"table-layout:fixed;" width=3D"100%" data-muid=3D"4888026d-a009-41f9-=
+8850-b353d0349743">
+      <tbody>
+        <tr>
+          <td align=3D"center" bgcolor=3D"" class=3D"outer-td" style=3D"pad=
+ding:0px 0px 0px 0px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"wrapper-mobile" style=3D"text-align:center;">
+              <tbody>
+                <tr>
+                <td align=3D"center" bgcolor=3D"#ffb100" class=3D"inner-td"=
+ style=3D"border-radius:6px; font-size:16px; text-align:center; background-=
+color:inherit;">
+                  <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=
+=3DXtSSqkA7o5sYTQ1Kkx-2Fi0liIcL4Uxz7nm-2BqNji5HypU-3Dfrgi_RYEeg99Ap79leT7lY=
+KY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwKvfA9i5Pezpm96PohftCjL3uUgeJ=
+P-2B13RandPurmedDIMQGSyZjJWcz0JrXyyWF2yzfFnkoEVJPNcDyPON7Ww5rL5FNSllOpcJ2Nw=
+l-2FRQ9bP1MFIC89UmMCI0kZe5v-2BswZycFibmz5vgcvYQVDRa4LmSCgNKedjSynDjYTH6ZiYB=
+zcJ9zPw6NllDWj-2BcLGtx-2FFBtWDmqdkfgig-2BvO98GURdM2YTstO9S8tm11R-2FvHBsatfp=
+iNo3yCZn93OZwSIrVXls3Wae4uiHFhMyxmPQA5TOhjLA6Zggz0lySyJmdhDkUQeWZhcg72CACk5=
+RpOHMURVFpMTIFiHpbsna-2B5XY9aJmAhNSPh-2FkKLNgFjooenJm4Cj-2FwkY2S4oVzjGHVJ2B=
+oPRQpUwefWR-2BvyBGBfqc05-2BX7mr4geXFEYTSAuaV-2B768drbvv-2B07vCI-2Bno1xrm0mp=
+26khG-2BIBEwpZVyvnY6mQzgzl5I9N4KgDh-2BHXQD9V9oDalFTsCVh86pY-2F0rlLc6D7ZEXn4=
+ax5t1aWagIUZZ7HnObMYM52U6FQOZNMWO0muwkP8ckvhtrUu3zsNXjjOGYOiQCIvCVR8z6sZBCo=
+2lZcL7oepjkFsoaBmbKgUYPgMrkigzVbMVy8poWa6QDsuIHXlAjerpjssFZ5QjNeGYzzbuLNaZg=
+j-2B11AlD4SZAUzpvZX2IfuWP-2BLy3sM4Dt0D-2Bhabk5VcoRYR5LsUU531jSYtUOUFEkBxSyj=
+k9rmC2P6aG-2FVMkXpwtkvw1RaOQdF9repYmJvwUyRBnXG5o-2BAZMmdfHj1hooS9DhfUrZ4EQo=
+dhxXKjermnrT2mgzcBvDfP66Httz0NJ-2BikGyBoL5fjQYs8jp-2BlNajo6-2F-2F0vNWn5tqaM=
+FsiggFM-2BthdEZgDmVODnNG" style=3D"background-color:#ffb100; border:1px sol=
+id #333333; border-color:#333333; border-radius:6px; border-width:1px; colo=
+r:#000000; display:inline-block; font-size:18px; font-weight:normal; letter=
+-spacing:0px; line-height:normal; padding:12px 18px 12px 18px; text-align:c=
+enter; text-decoration:none; border-style:solid; font-family:arial black, h=
+elvetica, sans-serif;" target=3D"_blank">Register Now</a>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table><table class=3D"module" role=3D"module" data-type=3D"text" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"ab5882f1-e99c-486e-9a85-2f212bfbfe82" data-mc-=
+module-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:12px 0px 12px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: inherit">Can't at=
+tend the live discussion? Register anyway to get the recording post event.<=
+/div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><div data-role=3D"module-unsubscribe" class=3D"module" role=3D"mo=
+dule" data-type=3D"unsubscribe" style=3D"color:#444444; font-size:12px; lin=
+e-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid=
+=3D"4e838cf3-9892-4a6d-94d6-170e474d21e5"><div class=3D"Unsubscribe--addres=
+sLine"><p class=3D"Unsubscribe--senderName" style=3D"font-size:12px; line-h=
+eight:20px;">Interakt</p><p style=3D"font-size:12px; line-height:20px;"><sp=
+an class=3D"Unsubscribe--senderAddress">A-801, Cello Triumph, IB Patel Road=
+ Goregaon East</span>, <span class=3D"Unsubscribe--senderCity">Mumbai,</spa=
+n>, <span class=3D"Unsubscribe--senderState"></span> <span class=3D"Unsubsc=
+ribe--senderZip"></span></p></div><p style=3D"font-size:12px; line-height:2=
+0px;"><a class=3D"Unsubscribe--unsubscribeLink" href=3D"https://u18867331.c=
+t.sendgrid.net/wf/unsubscribe?upn=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHaG=
+Mh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY-2ByQ0tFJ-2BRMLB5YwVS9ZZ5HknQYdcYohlc=
+kc8pXBKld-2BstiVvtORwiE3BuxKu4Gdx3Md8cB5DAxklVDMY3pkcLB-2BflIf6RNfIkb4g9JQo=
+rlx878-2BjHAnolwTr-2FHhv4ygV853SEzJMqkslCUtrlo9KPTOAUUNTUCay7-2FaGgQAzNuCc6=
+Aper3skrTO-2Fm96-2FgtRusxyCyvqUIfaLw-2BNJykzzClFU23CL4Etyuqdy-2FbxBvw9e7ZJF=
+q2dMLSZ16q-2B0DbfjlUz4AtjT04-2FcUuDP3zQmwdSTZiHQ3FtVAOniizi9R9yPlVI-2BojWvI=
+MtLUy5OSt5lgeZI9NHGOgPFmQQydu5UPA6Y2LNX5-2BdUD3PdYe8-2FXA028UDg1tBPiojtBYyC=
+c7nOiKS7gR-2FpC56gKxGnXRMBFL34Nf5lptk2aONm9OrH6fLAmHpkpYFUFzyF5Vs-2B8WzW0n-=
+2Bpnv9qqh3-2Ftc0D7fBJTQdGTtCkXWpHx6loj5kRXDObmOATgovcu-2BZgHFocfCI4I4sh2N56=
+meV8Wxx2LvczupHWbHkx4lZkGjsv09hyG-2BXmp6AyOflCQjB2LLJxDTh6ilP95LPosIIdzG-2B=
+9XL6XGWQ5V1WCkz3lLBd2yt-2BEkrKtwSUzMMXWWCbisg94gFhy-2Bsw9ItuJQQmxn3j5-2FuJw=
+8ePVm2P707YD3V-2Fssg5FUCKCLsgqd3R-2Ba3byMGX9Keo7hxSmKVTeh0wKJJ-2FS5PomOuUpC=
+SQclZLgp7J2rZljf4SASSoAZjrjr17PRrF3QHAEDNPRuZxDCAZ7ESe4ZC82mzMvKPsWDT0daKOw=
+bnbogqVpN8zB5iTvr60a8GLPOMrbMJm-2BaIEavAPMsUoJYQAok6OJwM9dAMs-2FYHgnwpe-2F3=
+5u0v9BbtUdEyvPHRiv2UmBPfaeacndwE2pbQ7Q-3D-3D" target=3D"_blank" style=3D"">=
+Unsubscribe</a></p></div></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    <img src=3D"https://u18867331.ct.sendgrid.net/wf/open?upn=3DQFWB4BCTtzC=
+IRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY-2ByQ0tFJ=
+-2BRMLB5YwVS9ZZ5HknQYdcYohlckc8pXBKld-2BstiVvtORwiE3BuxKu4Gdx3Md8cB5DAxklVD=
+MY3pkcLB-2BflIf6RNfIkb4g9JQorlx878-2BjHAnolwTr-2FHhv4ygV853SEzJMqkslCUtrlo9=
+KPTOAUUNTUCay7-2FaGgQAzNuCc6Aper3skrTO-2Fm96-2FgtRusxyCyvqUIfaLw-2BNJykzzCl=
+FU23CL4Etyuqdy-2FbxBvw9e7ZJFq2dMLSZ16q-2B0DbfjlUz4AtjT04-2FcUuDP3zQmwdSTZiH=
+Q3FtVAOniizi9R9yPlVI-2BojWvIMtLUy5OSt5lgeZI9NHGOgPFmQQydu5UPA6Y2LNX5-2BdUD3=
+PdYe8-2FXA028UDg1tBPiojtBYyCc7nOiKS7gR-2FpC56gKxGnXRMBFL34Nf5lptk2aONm9OrH6=
+fLAmHpkpYFUFzyF5Vs-2B8WzW0n-2Bpnv9qqh3-2Ftc0D7fBJTQdGTtCkXWpHx6loj5kRXDObmO=
+ATgovcu-2BZgHFocfCI4I4sh2N56meV8Wxx2LvczupHWbHkx4lZkGjsv09hyG-2BXmp6AyOflCQ=
+jB2LLJxDTh6ilP95LPosIIdzG-2B9XL6XGWQ5V1WCkz3lLBd2yt-2BEkrKtwSUzMMXWWCbisg94=
+gFhy-2Bsw9ItuJQQmxn3j5-2FuJw8ePVm2P707YD3V-2Fssg5FUCKCLsgqd3R-2Ba3byMGX9Keo=
+7hxSmKVTeh0wKJJzNdlvQoVlha-2Be8JsI4DlnQsiDBY4cCB4LFZMH9ECNbdxh5RqRUrUj-2Fex=
+T03D5RANQBqIFtwgZoj-2BBV2a86LG6-2BsCdsuUfy4bq3kJbwJ2l6bGoKA3WrOS1ffZwazhsJi=
+gmxcY0YOXKiSNlgS-2B6i2WFn6hqPvCUXBuAgT5XumNAXq3pn51rH7JD023oge0VPziw-3D-3D"=
+ alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !import=
+ant;width:1px !important;border-width:0 !important;margin-top:0 !important;=
+margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !importa=
+nt;padding-top:0 !important;padding-bottom:0 !important;padding-right:0 !im=
+portant;padding-left:0 !important;"/></body>
+  </html>
+--23d4b52624f9907e2e537caa58591c635932789e3a4af42389597cf2493a--

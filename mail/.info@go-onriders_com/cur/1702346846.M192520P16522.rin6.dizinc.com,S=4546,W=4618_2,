@@ -1,0 +1,72 @@
+Return-Path: <August@electricsuitcase.net>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id oBnmCl7Ad2WKQAAAQ+45pw
+	(envelope-from <August@electricsuitcase.net>)
+	for <info@go-onriders.com>; Mon, 11 Dec 2023 21:07:26 -0500
+Return-path: <August@electricsuitcase.net>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 11 Dec 2023 21:07:26 -0500
+Received: from out28-133.mail.aliyun.com ([115.124.28.133]:31926)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <August@electricsuitcase.net>)
+	id 1rCsB9-0004B9-2X
+	for info@go-onriders.com;
+	Mon, 11 Dec 2023 21:07:26 -0500
+X-Alimail-AntiSpam:AC=CONTINUE;BC=0.5480069|-1;BR=01201311R361S39rulernew998_84748_200223;CH=blue;DM=|OVERLOAD|false|;DS=EDM|edm_business_exp|0.934663-0.00611602-0.0592208;FP=18437692358896624220|1|1|1|0|-1|-1|-1;HT=ay29a033018047204;MF=august@electricsuitcase.net;NM=1;PH=DS;RN=1;RT=1;SR=0;TI=SMTPD_---.VhxMAhk_1702346798;
+Received: from Airwheel0508(mailfrom:August@electricsuitcase.net fp:SMTPD_---.VhxMAhk_1702346798)
+          by smtp.aliyun-inc.com;
+          Tue, 12 Dec 2023 10:06:39 +0800
+From: Airwheel <August@electricsuitcase.net>
+Date: Tue, 12 Dec 2023 10:06:38 +0800
+Subject: E-Scooter with three wheels carry-on luggage
+Message-Id: <2X5CEAGMQLU4.BSK86HN9OHIY2@airwheel0508>
+To: info <info@go-onriders.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-MagicSpam-TUUID: 984b4a70-7aaa-4eb2-ae17-4e98c3af241b
+X-MagicSpam-SUUID: 78b55e5b-6542-48aa-830d-3a1b5946c13a
+X-Spam-Status: No, score=2.8
+X-Spam-Score: 28
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  As the weather become much warm, there will be global travelling
+    boom season. Airwheel is a world leading company focuse on the smart mobility
+    product. Now we have a very new product-riding suitcase, [...] 
+ Content analysis details:   (2.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [115.124.28.133 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H4      RBL: Very Good reputation (+4)
+                             [115.124.28.133 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.2 LM_OS_GEN_4PARTCOM_NO_DKIM Common method by spammers, OS
+                             Generated, 4 part RDNS.
+  0.2 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+As the weather become much warm, there will be global travelling boom season. Airwheel is a world leading company focuse on the smart mobility product. Now we have a very new product-riding suitcase, it is very unique design much different with the traditional one. welcome to know more details with Airwheel whatsapp/phone  <strong>+91 8355913757</strong><p><img src="https://airwheel.net/ebike/exhibitions/airwheel-scooter-suitcase-ces-006.jpg" style="max-width:100%"></p><p><img src="https://www.airwheel.net/ebike/airwheel-scooter-suitcase-080433.jpg" style="max-width:100%"></p> if you are interested to be our distributor<p><img src="https://airwheel.net/ebike/exhibitions/airxpress-logo.jpg" style="max-width:100%"></p>
+<p>Customer Executive - +91 8355913757</p>
+<p>Customer Care No. - 9711090909</p>
+<p>Email:airxpress@goldmedalindia.com</p>
+<p>Address - 303 KEMP PLAZA A WING, MIND SPACE CHINCHOLI BANDAR, LINK ROAD MALAD WEST MUMBAI,MAHARASHTRA, 400064</p>

@@ -1,0 +1,223 @@
+Return-Path: <aditya@mobiledevco.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id KLsJHdcNwmhoBS0AQ+45pw
+	(envelope-from <aditya@mobiledevco.com>)
+	for <info@go-onriders.com>; Wed, 10 Sep 2025 19:46:31 -0400
+Return-path: <aditya@mobiledevco.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 10 Sep 2025 19:46:31 -0400
+Received: from mail-pg1-f193.google.com ([209.85.215.193]:42226)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <aditya@mobiledevco.com>)
+	id 1uwUWG-0000000CNaX-0o4h
+	for info@go-onriders.com;
+	Wed, 10 Sep 2025 19:46:31 -0400
+Received: by mail-pg1-f193.google.com with SMTP id 41be03b00d2f7-b52403c47b7so115038a12.0
+        for <info@go-onriders.com>; Wed, 10 Sep 2025 16:46:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobiledevco-com.20230601.gappssmtp.com; s=20230601; t=1757547947; x=1758152747; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=iiazbu9Ctuemy2Xt1hgZqfIW4YZdlMVfgYBYuv/Yw4U=;
+        b=TXfTE5elAy+lbTyt0oAXOhJhHppWUQgKysnjeDwmnS0YZyUtBM+dOvIlvjR8vhKvHT
+         znBl7eSYhMctb1Y6FOPeHztW2rKZ0Pevc5sQfeiwqYlFu3p/CFB/K52wcpvTX2slRH+F
+         Nc8mzDSBSoU8/eKpD7ptgj+VF0v7dG5L3prkQ3MP5GABPp3iqfw2gVvZk+vxaGChyra3
+         f4v1JjCMcEw9AHL2C6Aw/1G/nZqGMvtIS5+hgvwVSlv5ct4J1UzHhFJ/JRlcpyEdF8iA
+         ghfZQFYCcTWBjLtNZBjeLwin6NnXEg6VaN1rEota0jyYYL9gFp6m+84US7qjs90CXrlR
+         ggfA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1757547947; x=1758152747;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=iiazbu9Ctuemy2Xt1hgZqfIW4YZdlMVfgYBYuv/Yw4U=;
+        b=nMTAsU1dA4+qGjRDkbAICITGDKmvm/1eBriQ6zkMKhaQLioxPjWV+Spe37vEix1i57
+         L01leOwDr7371+VZqnOiNRth/niPkXW00Ow0DMIy65Y8XPuzBkDChjPEyBgcK8vwmxst
+         Vk6o9jiGu9FcWiBC2QC90c2kit3fj9QoVEyosFLxUdUzzaxuvvFYg6y9Grj+M2Bws5AN
+         kjNQXVxBCptBnG3xeWXDf67YeKq9Qb43l9Q4DPCMOyNrVvy76l5vh+sN3kRYqLyjKwGN
+         RKXprMfssBRFwZl+UPzNNG/k200igSERA9Yf4PAOiG2oXw74x5UHF7JpjjpKTjs+g6bZ
+         7oqQ==
+X-Gm-Message-State: AOJu0Yxdtt2mN/SrNPhdXkbeM/VYhIML4DJQzJfygk1lI8x202Mkx69i
+	MKD2eapwvovYp8yqUoLjVgtWDQc+ceGIOIVQxoPzcmsg/SshnVnIv9C2L2agr1GxR3VUjncKBxf
+	hwUo+RJxhKw==
+X-Gm-Gg: ASbGncu2SR4yRt5sLyTcxVl+VssPjQiC17gQCT7VdFeyKXheCFqc+5ttqzxqG9VLd6C
+	vvUsUm4Pd5M45xui8EgeoRVUjBplD2ev6LVjhtF8uzYfgMrrQhx2AkysIiP/uIoRxicACqfP/z8
+	V7XfjzZc0QYr3vaJjtwxeGpuYSqIeAdZ4A83FUEJIVHTiSkWMQSchLs2jSg76MzgRfq/PajEeZm
+	k3lDgkdwOXNahLk7o7mquSyP+WajxS+3Ef82GhzjNlB2u10UU/HQFaBiJEZvEQSyVaiq7vzGWWg
+	5PC0SFgawj0c9gOS7iDjoqXoWKMTqpuVwkOwfz0TVS1hNdp/K0Wmj3KhWTGqHdk3iAKyuMhfhvg
+	6qFIlzXtih8izrVkKUdjNox5jOauNH4CiXvjvyuj5T3wB
+X-Google-Smtp-Source: AGHT+IHnGUdM38Hnaf1RxI75aVnG90r24xH8WK4UVfPCR08SOSwdTjU7eYYb9IZblR0IXhm7gHxutA==
+X-Received: by 2002:a17:903:110e:b0:24c:af27:b71 with SMTP id d9443c01a7336-25bae121796mr11516085ad.20.1757547946654;
+        Wed, 10 Sep 2025 16:45:46 -0700 (PDT)
+Received: from Arvind ([2405:201:404f:1085:e153:efe5:c300:4648])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-32dd6337fc2sm340386a91.29.2025.09.10.16.45.44
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Sep 2025 16:45:46 -0700 (PDT)
+From: "Aditya Sharma" <aditya@mobiledevco.com>
+To: <info@go-onriders.com>
+Subject: Designer / Developer
+Date: Thu, 11 Sep 2025 05:13:52 +0530
+Message-ID: <58a401dc22ad$0697f1e0$13c7d5a0$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_58A5_01DC22DB.20502DE0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwiOAusJeTcW34zSYep3jAPxCpzvA==
+Content-Language: en-in
+X-MagicSpam-TUUID: 1a8dbf43-4dde-4408-b8c5-4ff09c9144f6
+X-MagicSpam-SUUID: 04b201cd-967c-496a-88f7-831846b6d22c
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I'm reaching out to see if there is anything that would
+    like to create Shopify & Wordpress, upgrade, repair, or redesign on your
+   website or Mobile App or SEO. I am a web designer/developer that can do just
+    about anything you can imagine at very affordable prices. 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.215.193 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.215.193 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.215.193 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.9 PRICES_ARE_AFFORDABLE  BODY: Message says that prices aren't too
+                             expensive
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_58A5_01DC22DB.20502DE0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I'm reaching out to see if there is anything that would like to create
+Shopify & Wordpress, upgrade, repair, or redesign on your website or Mobile
+App or SEO.
+
+I am a web designer/developer that can do just about anything you can
+imagine at very affordable prices.
+
+Let me know what you think.
+
+If interested. May I send you sample, Portfolio and company Details?
+
+Thank you for your time and consideration.
+
+Kind Regards,
+Aditya Sharma
+
+ 
+
+P.S.: If you'd prefer not to receive further emails from me, simply reply
+with "NO" in the subject line.
+
+ 
+
+ 
+
+
+------=_NextPart_000_58A5_01DC22DB.20502DE0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p>Hello,<br><br>I'm reaching out to see if there =
+is anything that would like to create Shopify &amp; Wordpress, upgrade, =
+repair, or <b>redesign</b> on your website or <b>Mobile App</b> or =
+<b><span style=3D'background:yellow'>SEO</span></b>.<br><br>I am a web =
+<b>designer/developer</b> that can do just about anything you can =
+imagine at very affordable prices.<br><br>Let me know what you =
+think.<br><br>If interested. May I send you sample, Portfolio and =
+company Details?<br><br>Thank you for your time and =
+consideration.<br><br>Kind Regards,<br>Aditya =
+Sharma</p><p><b>&nbsp;</b></p><p><span =
+style=3D'color:red;background:white'>P.S.: If you'd prefer not to =
+receive further emails from me, simply reply with &quot;NO&quot; in the =
+subject line.</span></p><p>&nbsp;</p><p class=3DMsoNormal><span =
+lang=3DEN-IN =
+style=3D'line-height:107%'><o:p>&nbsp;</o:p></span></p></div></body></htm=
+l>
+------=_NextPart_000_58A5_01DC22DB.20502DE0--
+

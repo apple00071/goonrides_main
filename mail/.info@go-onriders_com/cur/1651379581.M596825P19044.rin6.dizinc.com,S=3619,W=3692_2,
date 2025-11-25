@@ -1,0 +1,73 @@
+Return-Path: <info@parvandehsalamat.ir>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id odAQI30NbmJkSgAAQ+45pw
+	(envelope-from <info@parvandehsalamat.ir>)
+	for <info@go-onriders.com>; Sun, 01 May 2022 00:33:01 -0400
+Return-path: <info@parvandehsalamat.ir>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 01 May 2022 00:33:01 -0400
+Received: from [45.156.184.217] (port=39664 helo=parvandehsalamat.ir)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <info@parvandehsalamat.ir>)
+	id 1nl1GW-0004sT-UP
+	for info@go-onriders.com; Sun, 01 May 2022 00:33:01 -0400
+Received: from mail.parvandehsalamat.ir (slot0.pardoprunox.com [62.197.136.40])
+	by parvandehsalamat.ir (Postfix) with ESMTPSA id DA375101BA1
+	for <info@go-onriders.com>; Sat, 30 Apr 2022 22:25:41 -0400 (EDT)
+Reply-To: loanbroaker2@qebsol.com
+From: Mr Paul Heinze <loanbroakker2@qebsol.com>
+To: info@go-onriders.com
+Subject: Business and Personal  Loans  @ 2 Percent
+Date: 01 May 2022 04:25:41 +0200
+Message-ID: <20220501042541.C3709FDE217ACC90@qebsol.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=3.6
+X-Spam-Score: 36
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Attention info@go-onriders.com, We are providers of prime
+   soft loans. we are expanding our investment presence by granting retail loans
+    to fund projects outside Uk and to all viable and lucrative sectors at 2%
+    to 7% interest per ann [...] 
+ Content analysis details:   (3.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [45.156.184.217 listed in list.dnswl.org]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.3 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.8 HK_NAME_MR_MRS         No description available.
+  1.2 TO_NO_BRKTS_NORDNS_HTML To: lacks brackets and no rDNS and HTML
+                             only
+X-Spam-Flag: NO
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META name=3DGENERATOR content=3D"MSHTML 11.00.10570.1001"></HEAD>
+<body style=3D"MARGIN: 0.5em">
+<P>Attention info@go-onriders.com,</P>
+<P>We are providers of prime&nbsp; soft loans. we are expanding our investm=
+ent presence by granting retail loans to fund projects outside Uk and to al=
+l viable and lucrative sectors at 2% to 7% interest per annum with up to 20=
+ years repayment plan and a 2 year grace period.</P>
+<P>Kindly forward your business plan/executive summary if interested.<BR>Mr=
+=2E Paul Heinze<BR>Head of strategic marketing and business developer.<BR>Q=
+uality E-Business QEB Solutions Limited.</P></BODY></HTML>

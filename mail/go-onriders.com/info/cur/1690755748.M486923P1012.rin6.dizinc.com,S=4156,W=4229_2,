@@ -1,0 +1,73 @@
+Return-Path: <Maxwell@aiscooter.net>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id aEuPHKTixmT0AwAAQ+45pw
+	(envelope-from <Maxwell@aiscooter.net>)
+	for <info@go-onriders.com>; Sun, 30 Jul 2023 18:22:28 -0400
+Return-path: <Maxwell@aiscooter.net>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 30 Jul 2023 18:22:28 -0400
+Received: from out28-116.mail.aliyun.com ([115.124.28.116]:59715)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <Maxwell@aiscooter.net>)
+	id 1qQEny-0000Et-UA
+	for info@go-onriders.com;
+	Sun, 30 Jul 2023 18:22:28 -0400
+X-Alimail-AntiSpam:AC=CONTINUE;BC=0.5919477|-1;BR=01201311R371S04rulernew998_84748_200224;CH=blue;DM=|SUSPECT|false|;DS=EDM|edm_booth_visit|0.864533-0.0388897-0.0965767;FP=0|0|0|0|0|-1|-1|-1;HT=ay29a033018047208;MF=maxwell@aiscooter.net;NM=1;PH=DS;RN=1;RT=1;SR=0;TI=SMTPD_---.U4G35sJ_1690755698;
+Received: from Airwheel0508(mailfrom:Maxwell@aiscooter.net fp:SMTPD_---.U4G35sJ_1690755698)
+          by smtp.aliyun-inc.com;
+          Mon, 31 Jul 2023 06:21:39 +0800
+From: Airwheel <Maxwell@aiscooter.net>
+Date: Mon, 31 Jul 2023 06:21:38 +0800
+Subject: Re:Travel luggage scooter
+Message-Id: <QTK5EIBJLKU4.FV6PXF5K9IHS3@airwheel0508>
+To: info <info@go-onriders.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-Spam-Status: No, score=3.1
+X-Spam-Score: 31
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, BLACKPINK are riding new scooter SE3S at their
+    concerts, the scooter has many fashion designs, such as breathing lights,
+    USB charging ports for mobile phones, even a reverse gear. It's super light
+    wei [...] 
+ Content analysis details:   (3.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [115.124.28.116 listed in list.dnswl.org]
+ -1.0 RCVD_IN_MSPIKE_H5      RBL: Excellent reputation (+5)
+                             [115.124.28.116 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<p>Dear Sir/Madam,</p>
+<p>BLACKPINK are riding new scooter SE3S at their concerts, the scooter has many fashion designs, such as breathing lights, USB charging ports for mobile phones, even a reverse gear.
+It's super light weight but max user weight reaches to 110kg, two persons can sit on it at the same time. Do you have interest in this scooter? </p><p><img src="https://www.airwheel.net/ebike/airwheel-scooter-suitcase-0220-19.jpg" style="max-width:100%"></p>
+<p><img src="https://airwheel.net/ebike/exhibitions/airxpress-logo.jpg" style="max-width:100%"></p>
+<p>Customer Executive - +91 8355913757</p>
+<p>Customer Care No. - 9711090909</p>
+<p>Email:airxpress@goldmedalindia.com</p>
+<p>Address - 303 KEMP PLAZA A WING, MIND SPACE CHINCHOLI BANDAR, LINK ROAD MALAD WEST MUMBAI,MAHARASHTRA, 400064</p>

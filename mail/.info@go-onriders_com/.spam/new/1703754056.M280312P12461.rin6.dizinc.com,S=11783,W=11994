@@ -1,0 +1,211 @@
+Return-Path: <don.fergurson445511@gmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id fbEtEEg5jWWtMAAAQ+45pw
+	(envelope-from <don.fergurson445511@gmail.com>)
+	for <info+spam@go-onriders.com>; Thu, 28 Dec 2023 04:00:56 -0500
+Return-path: <don.fergurson445511@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 28 Dec 2023 04:00:56 -0500
+Received: from mail-ej1-f48.google.com ([209.85.218.48]:42094)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <don.fergurson445511@gmail.com>)
+	id 1rImG6-000397-0w
+	for info@go-onriders.com;
+	Thu, 28 Dec 2023 04:00:56 -0500
+Received: by mail-ej1-f48.google.com with SMTP id a640c23a62f3a-a2335d81693so1014713866b.0
+        for <info@go-onriders.com>; Thu, 28 Dec 2023 01:00:34 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1703754012; x=1704358812; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=116IUXeqIVGkQNEQPyuABxj6W2GYuqR8n+MJKCGR8L0=;
+        b=Gr4z6V5beX2uFrm8EnPJvWw0Ei7N/TV/Z29bJHWBcqVKuBkXCsPzhS03qpdgaBsdOS
+         PQzmXN0dP5Sc1U8/Sf9cOfgtlrdeKSDyBoeoL7B5rvrlve8d1u9c7ndXI5iddRXSbY08
+         8QPiNrhCJJY97uYRPSX5Vy7Ylusvn8qW0AjxVuQ6WybZ9FI5QM07NQT13+rF/aFSOuBa
+         y4vUUIY7VZqN93e460+4FPnouboIFGTgOyzZPaow8HJiB30jIR/psOSZxad7azk9PuM9
+         SnDz6QS3XX7CyXY1ydDjSC2B13RaaMPhevlXgvr+ZWz8Ei0DXg7KpVKfpYHr3PaWCcqx
+         583g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1703754012; x=1704358812;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=116IUXeqIVGkQNEQPyuABxj6W2GYuqR8n+MJKCGR8L0=;
+        b=Wih3IoWAjOzuNqpBMHZFOTPsOidraE3j4BfR02Fi0ui7qTsStacEpSsza7NFFlaRiN
+         KxBOObZDmaXMMOP5/wqPq8/uujjorOJJEaSDPR2Y7YBqOBRPpKeGzOIskXmx6YlWUlZl
+         bOqhcTvHhPAn8bajaco3x1/F4ZIy36W0J6E7apwk9v1evMAToyvdRCzpuoOoRI1guXWx
+         4x5U2ifRaEvZ+68DUnUfT5tmShOa9w+UUf8/wDQuGc6sYutKxZ8xiroXQ5W0bBmYuTQq
+         ae0XPkS6TZvN8LfI21iO36gt+UHQbwZVRlIEax/C19YBMc+Z+WbEjPAl39WIduNMSli9
+         bENA==
+X-Gm-Message-State: AOJu0Yz9KcLZgwTUXBMp1DMS1AJh16k5EHlNSXJnoYwSFhKrgCexpmFr
+	ah3IHING3UCfUc5mpCQnAOFPN+VbcPB20ufcR5+2xwcA
+X-Google-Smtp-Source: AGHT+IF45WUmVNidRm2A0TbQCjINF7HKVgXI6o6RWLsq4TVBj53m3Ft2o9AAdb8Ijl8byjNm3De4RVk4Ghz2//2j90E=
+X-Received: by 2002:a17:906:ef08:b0:a27:7602:2c6a with SMTP id
+ f8-20020a170906ef0800b00a2776022c6amr120186ejs.36.1703754012174; Thu, 28 Dec
+ 2023 01:00:12 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 28 Dec 2023 03:00:11 -0600
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 28 Dec 2023 03:00:11 -0600
+MIME-Version: 1.0
+Sender: Don Fergurson <don.fergurson445511@gmail.com>
+From: Don Fergurson <don.fergurson445511@gmail.com>
+Date: Thu, 28 Dec 2023 03:00:11 -0600
+X-Google-Sender-Auth: TQs1v_5O5Py5FnFHPIlThON7BYQ
+Message-ID: <CAFj2bwvbUPtvXerO70KpjvYxQ1ZV_i9xy3uqMeWqrY+NQ2RgkQ@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000ae2dca060d8e2482"
+X-MagicSpam-TUUID: 29ca4b53-7e02-46e7-ab3b-11a0c2b540a6
+X-MagicSpam-SUUID: 74b82e41-aaf2-48d5-b8f4-a165986543d5
+X-Spam-Status: Yes, score=21.2
+X-Spam-Score: 212
+X-Spam-Bar: +++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi go-onriders Team, I hope you are doing well. Impressing
+    online visitors and convincing them to buy your products/services should
+   be the main motive, for this a website should be well maintained and have
+   proper online appearance. We assure the me [...] 
+ Content analysis details:   (21.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.5 LM_ENVFROM_END_LOTS_OF_DIGITS Email Address Name Part ends in
+                             lots of digits.
+  0.5 LM_FROM_ADDR_END_LOTS_OF_DIGITS From Address Name Part ends in
+                             lots of digits.
+  0.2 LM_GMAIL_VIA_RESTAPI   Originates via Gmails Rest API
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.218.48 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.218.48 listed in wl.mailspike.net]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [don.fergurson445511[at]gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [don.fergurson445511[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  1.0 LM_SEARCH_RESULTS      Promise of high search engine rankings
+  1.0 LM_GMAIL_API_SEND_METHOD_IPV6 Many marketers use Gmail API for
+                             sending marketing pitches
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 FREEMAIL               Message originated from 'free' mail service
+  0.5 LM_WEB_DESIGN_SUBJ     Subject: header contains a bland reference to
+                              web design
+  1.0 LM_SEO_BENEFIT         Message contains a phrase relating to the
+                             benefits of SEO.
+  2.0 LM_SEO_BODY_LOTS       Message contains many phrases commonly found in
+                              SEO spam.
+  4.0 LM_GENERIC_SEO_FREEMAILER1 Pushing Outsourced SEO sources from a
+                              FreeMail account
+  4.5 LM_FREEMAIL_OFFSHORE_DEV11 Freemail source with broken header.
+                             Related to offshore development/SEO.
+  5.0 LM_FREEMAIL_OFFSHORE_DEV4 Score bump for hitting multiple
+                             offshore marketing rules. Short message
+                             from Freemail source.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Lift Your Site Presence: go-onriders.com
+
+--000000000000ae2dca060d8e2482
+Content-Type: text/plain; charset="UTF-8"
+
+Hi go-onriders Team,
+
+
+I hope you are doing well.
+
+Impressing online visitors and convincing them to buy your
+products/services should be the main motive, for this a website should be
+well maintained and have proper online appearance. We assure the methods
+for reaching out on top of search engines will be the latest guideline from
+Google, this will multiply visitors and will lead to higher return on
+investment.
+Due to technical glitches and lack of expert suggestions, I can see your
+promotion efforts are going in the wrong direction and may lead to
+penalizing your website.
+
+*Here are some key points where your website needs immediate improvement: *
+
+   - Your site is struggling to get indexed on Google because of technical
+   issues present.
+   - For many competitive and related keywords your website is not ranking.
+   - Content based link is the key to get genuine ranking as you still rely
+   on old link generation methods.
+   - Social Media effort to build brand as well as reputation is entirely
+   missing.
+
+This e-mail provides you with a glimpse of information. If you have any
+queries about our services then kindly contact us back for a *free website
+audit report*.
+Please feel free to reply to me back for more information on our services,
+guarantee, Pricing etc. If you want I can fix up an appointment with one of
+my certified analysts for a free consultation on your website improvement.
+
+
+
+
+
+
+*Don Fergurson**Site Analyst /Digital Marketing*
+------------------------------------------------------------------------
+
+--000000000000ae2dca060d8e2482
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin-bottom:0.0001pt;lin=
+e-height:normal"><font color=3D"#000000" face=3D"verdana, sans-serif">Hi go=
+-onriders=C2=A0Team,=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin=
+-bottom:0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif" col=
+or=3D"#000000"><br>I hope you are doing well.<br><br>Impressing online visi=
+tors and convincing them to buy your products/services should be the main m=
+otive, for this a website should be well maintained and have proper online =
+appearance. We assure the methods for reaching out on top of search engines=
+ will be the latest guideline from Google, this will multiply visitors and =
+will lead to higher return on investment.=C2=A0<br>Due to=C2=A0technical gl=
+itches and lack of expert suggestions,=C2=A0I can see your promotion effort=
+s are going in the wrong direction and may lead to penalizing your website.=
+<br><b><br></b><b></b></font></p><p class=3D"MsoNormal" style=3D"margin:1.2=
+pt 0in 0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif" colo=
+r=3D"#000000"><b>Here are some key points where your website needs immediat=
+e improvement:=C2=A0</b><br></font></p><ul><li><font face=3D"verdana, sans-=
+serif" color=3D"#000000"><font face=3D"verdana, sans-serif">Your site is st=
+ruggling to get indexed on Google because of technical issues present.</fon=
+t></font></li><li><font face=3D"verdana, sans-serif" color=3D"#000000">For =
+many competitive and related keywords your website is not ranking.=C2=A0</f=
+ont></li><li><font face=3D"verdana, sans-serif" color=3D"#000000">Content b=
+ased link is the key to get genuine ranking as you still rely on old link g=
+eneration methods.</font></li><li><font face=3D"verdana, sans-serif" color=
+=3D"#000000">Social Media effort to build brand as well as reputation is en=
+tirely missing.</font></li></ul><font face=3D"verdana, sans-serif" color=3D=
+"#000000">This e-mail provides you with a glimpse of information. If you ha=
+ve any queries about our services then kindly contact us back for a=C2=A0<b=
+>free website audit report</b>.<br>Please feel free to reply to me back for=
+ more information on our services, guarantee, Pricing etc.=C2=A0If you want=
+ I can fix up an appointment with one of my certified analysts for a free c=
+onsultation on your website improvement.</font><p class=3D"MsoNormal" style=
+=3D"margin-bottom:0.0001pt;line-height:normal"><font face=3D"verdana, sans-=
+serif" color=3D"#000000"><br></font></p><p class=3D"MsoNormal" style=3D"mar=
+gin-bottom:0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif" =
+color=3D"#000000"><br></font></p><p class=3D"MsoNormal" style=3D"margin-bot=
+tom:0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif" color=
+=3D"#000000"><br><br><b>Don Fergurson<br></b><b>Site Analyst /Digital Marke=
+ting</b><br>---------------------------------------------------------------=
+---------</font></p></div>
+
+--000000000000ae2dca060d8e2482--

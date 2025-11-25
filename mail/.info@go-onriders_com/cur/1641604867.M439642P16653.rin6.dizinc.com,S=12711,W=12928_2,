@@ -1,0 +1,217 @@
+Return-Path: <nicholas@rogueriders.co.uk>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id +JfMFgPn2GENQQAAQ+45pw
+	(envelope-from <nicholas@rogueriders.co.uk>)
+	for <info@go-onriders.com>; Fri, 07 Jan 2022 20:21:07 -0500
+Return-path: <nicholas@rogueriders.co.uk>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 07 Jan 2022 20:21:07 -0500
+Received: from mail-eopbgr110050.outbound.protection.outlook.com ([40.107.11.50]:47284 helo=GBR01-CWL-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <nicholas@rogueriders.co.uk>)
+	id 1n60Pl-00050S-2e
+	for info@go-onriders.com; Fri, 07 Jan 2022 20:21:07 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=DWXGwXolowPNrwJ7fZfxbJwSeN9Bpbf2EEVGO6X/s+uKGVPybSzkYUKBbV2GWX47rJSxSmhsPJMMTDZbKyv2vVtBC5x9mPTzuQGMjpva9mCJreBDROlfDa0qFv2y5SdKE0Rm1VtAOoSJLxsWn7NY2WjTkwRR2j8f7CHcAXbC6AtPJovZ221tbOj2W29AsU8lcMIbL71S2P5s94kciYOC476NXSa1aA4b+kCIOfnmIhWE05UX+vTQ5W92BVyDqyAw+40w4irgaOjlnavz2yru0ykzsQo/Ed1BX+IOa1a7Ua7eooVsWmYU9DyWlaBR1e8Uhb+7B134tIapBOjnQK8j5g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=ftzicy5SKiMRHpil62PVKTK7tDHAudOACSMrEuo2pjU=;
+ b=nGjujkN1lfJqq7mS2XrBYnCn0OwVQruBINs89IYDwhzvoW13iU9JqpGAmbbSrgWxwHv722Xl+fWNQni2vUKdNAjzM4S6rMsffcw/ACDjLgZQqZScuF105fsXoI56oIlk9oqImfl/PfRwPmMXY/r4T9AaR9sib7ZtqSnmv3mJi7Dz6W9NX+pnMTd8VhObn/j7g7MMlAictvAssBbQ0RigJNA8k7NKofmB697RAR0DeOpjZCbFluyZUUovFUDZmSmFSoHbwhCbjgzxnTqTIUwIQki9OMmgZPTi6lzO8SSKbU+pAUo6AELm3WdZgPy3zhKo0P2gaDsf6Tfz8mJY8hbCuw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=rogueriders.co.uk; dmarc=pass action=none
+ header.from=rogueriders.co.uk; dkim=pass header.d=rogueriders.co.uk; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=NETORGFT6228917.onmicrosoft.com;
+ s=selector1-NETORGFT6228917-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=ftzicy5SKiMRHpil62PVKTK7tDHAudOACSMrEuo2pjU=;
+ b=r/Pvc/zWIe026LCkE8q5Up+57IyWVJQZyTLk6UGMenvo9ul0EbX3NC2IWOkr34wgxjeqE7NEwrHkTsA5tvLeBvTPUmUB/TL0tHLPJPYZiXerzPfJ3LrdTcitXUA7rwT+H9QZ3bzvh8qHzpVX38+7aoPAJeUwvfdLmIS42tKneMl2AaDG4sbqHlzxjBRQULUSJ/St41AjsqrCq8oSuCj0ZuAyWvb64sJ4czZEyPxd2yF60rRj7KWOEfJk1V0HIcJYjhyWhJU33kGi4zcm/OfmYMZAwWKzFyR/kb9LoLXBu6iJYP408MJU5472Yw4l7J2T4S0GhQ2VqBZdxzScYn2peA==
+Received: from LO2P123MB4080.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:163::11)
+ by LOYP123MB3248.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:e1::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4867.7; Sat, 8 Jan
+ 2022 01:20:18 +0000
+Received: from LO2P123MB4080.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::d460:27f:f686:634a]) by LO2P123MB4080.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::d460:27f:f686:634a%7]) with mapi id 15.20.4867.011; Sat, 8 Jan 2022
+ 01:20:18 +0000
+From: Nicholas Wilkinson <nicholas@rogueriders.co.uk>
+To: "info@go-onriders.com" <info@go-onriders.com>
+CC: Toll Free Traveller <tollfreetraveller@gmail.com>
+Subject: RE Himalayan rental enquiry
+Thread-Topic: RE Himalayan rental enquiry
+Thread-Index: AQHYBC2q8IZHzX17CEa7UuW86Rnv4Q==
+Date: Sat, 8 Jan 2022 01:20:18 +0000
+Message-ID:
+ <LO2P123MB40809EA9E40A4EB0D4C39E4E844E9@LO2P123MB4080.GBRP123.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+suggested_attachment_session_id: d6de7281-6fd7-58b6-6814-f0e886e359ff
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=rogueriders.co.uk;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 6fecebf4-3c00-486d-2e71-08d9d245086d
+x-ms-traffictypediagnostic: LOYP123MB3248:EE_
+x-microsoft-antispam-prvs:
+ <LOYP123MB324804A9D28465EEFD2734FD844E9@LOYP123MB3248.GBRP123.PROD.OUTLOOK.COM>
+x-ms-oob-tlc-oobclassifiers: OLM:5516;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ wGQbUWUYqW28S12ja6AkbmSdvM7VndwSGkE8SgkG4iAEQGUe5VTZXBpQ34vYhlBYqIglqI4u2pEK30gh9i0tFm3sj5gOHou3Cwm77pic7j9yuWHRUMPtgO2g4c+Ap6uRDDq7rJ33CNY/67k3p5zN/OQlQ1hUdg3UVDRjkH/eomqIcX7c79MU7cdn23b5Wa2H7dMi4KEazEfVNJ83uOkLs2ykFNcdi3xUheIRZLAv2xSvQjvGRyXvD1ehnTiTqfQNhmRPSrf/EZ8M/kfZm8WDausK+ngeLH39VSnGGNeopP1NHySCRmwF0ZSR2n5tyPYCnrPqxrjH8kFOnhjpsPrxRtjBVDfJxZNKMpUqnQZmJQosaTZ/UZ6zfcWHKiTLW9BEgP30H0TQlehHI01ZRCnDX5w06PWF++bH8ccC4mcENgxk3JxX5qgm9WaW5cPQCEGq6OznsZ1KuygyIDfD0TvPi3o/745ChzCLCtINYc1+Yv+mZRvg0Uefexlv2qB7qOhiXIo5VzdYCn9+PAmhNjRsZS2C4R4vnpQnkSn+7OxoGTcINiLx+Bi//McmQ7HYffEtSiLWKioShxg+2qWXBow5iTd6/tnXJS7yjt5bl/YaqY0nSvejv/hTmsXIjnxOrbnDAQLIhhqjKYB7ns6HVbZSTV1fwHccRPvkZUYuAgL5gSmBM2YBYXcgazSFcexj1X5bko7m1nAIeESyxcW3hDWZDg==
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:LO2P123MB4080.GBRP123.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(376002)(39830400003)(136003)(396003)(366004)(346002)(38100700002)(71200400001)(5660300002)(6916009)(558084003)(122000001)(38070700005)(9686003)(186003)(508600001)(7696005)(76116006)(66946007)(316002)(55016003)(4326008)(19627405001)(2906002)(66476007)(66446008)(66556008)(64756008)(8676002)(8936002)(6506007)(3480700007)(33656002)(52536014)(86362001);DIR:OUT;SFP:1101;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?9szN9ACCPXR05ID9OrYBXVZo28Axjlsgk/PboI97+qn0vcG0OPA0hy9aU7?=
+ =?iso-8859-1?Q?mAgR0I6c07PscMLbTs2VvrTtf023gQpczdgxu6vsxu68Ug3jWLBZZrDllq?=
+ =?iso-8859-1?Q?W1fXAUxJYGOAfPh0sqWNH7SBx3x4LDSeqaCjRTZQWslNYPXF2h9HSJyL13?=
+ =?iso-8859-1?Q?KMVkVnDi0A852P+JUcQAOJ9fsRXOEHvKzGikWGhqbMWJtI40CNBihXTNCD?=
+ =?iso-8859-1?Q?RaEPj22GO3Vcy1x3HKLQPo//Y8CTyWwYaDUost76VrjD5R9Briy6D4ANJy?=
+ =?iso-8859-1?Q?m5Aj/y2HlIGnwSdthUWtvxHLhk/PBwKMXxSIT5Bm5c6Z+3Lze6pvPJgheN?=
+ =?iso-8859-1?Q?WrtrXUgsbH1IU6Z41Zx1n91iCrUeuEfljKTY3KHXhAEvD4Yp4QZTxm0bVs?=
+ =?iso-8859-1?Q?QldGXw1sea2Rg4u46cqUf+w4BiO24Ora/cX7sk/crBeCKBVuCq4hxT7kIn?=
+ =?iso-8859-1?Q?JQAvYdLtVgVJyJLSBeKbT4hLt8HuQNkZiyb1uUoCS8bpJ/awASRcO4cvhw?=
+ =?iso-8859-1?Q?iruYLSCzwC/Ze5et6zAXLsD9lkDHoj+MXLyuCTDMObTeZANVW4tzTmRKE4?=
+ =?iso-8859-1?Q?E8bbxzxPgmlMt8BfNDI3kclWAkzhpC+E29xneY8uN3gFAEYjyKGlxW4j8A?=
+ =?iso-8859-1?Q?iL87p1t+R16gIB+sPxPbpLoEBwE9DMinlrWlmG5D8nSpsyJNqHm5LAoWR1?=
+ =?iso-8859-1?Q?mbyiEnxNgcbXPXo+/CBVTbaAu7DBEeo/DVLyfo6jw56Fj2kHFDP+0zo7oR?=
+ =?iso-8859-1?Q?PKIa4xYuy+4yZXiEQOBFHKAKTrHVwHMZpQFC25KucMUE4M11ak4D1t94vV?=
+ =?iso-8859-1?Q?mFyOSKdhvy5g/5n2VH21zkzJBwG4YOoFeGsyNGkv6OySQjapr54NzImQ7F?=
+ =?iso-8859-1?Q?4RAAStS9gGQe00W0cjMvgwWuz5GTeJRJLTVL1I4Zwn6vY7dHC9/8q5ojxZ?=
+ =?iso-8859-1?Q?N+4UekOb/vLSGRWMwOEKw6/e4CWXQ60XlVh8ZNNQ7KMU3UIUbSXyNz6hOK?=
+ =?iso-8859-1?Q?MYckUQRue2MaoZqlxbuoMtBgaPJ8zhT4e8PKJrazEC8QTIOPjdbg80LKDU?=
+ =?iso-8859-1?Q?Ei+BWG6PzUF9fRRflY21BBEHKTAdMyToAmnd5KgUZmUPZtPTfHFqWpJSQ8?=
+ =?iso-8859-1?Q?CuCXDHxGpHJBvIEwj3yzAYAY9uwZMgi47fn3wLoAtvm2uj4hK8WWXeTOaH?=
+ =?iso-8859-1?Q?bczfZkaiQyzJnrk23Mw20IzYhgzAbAb8xNhYDVjQYqqyQ4Vc6CrChYgcaE?=
+ =?iso-8859-1?Q?oTqtLNNGfQx4DxgcjQRwvYXFU+M+1iwZhfZHyguRINz41Qw8JRUVLT//AQ?=
+ =?iso-8859-1?Q?eNGT4kj6urwuWpSvuKRZROjTa9hals4XEwBUdF/xv9rTRA6Yho3Lw5XNWO?=
+ =?iso-8859-1?Q?EfynsQk/Zx4m96fbm7dMxbwhwHQehoQdTMzPtIsQbohqfuVNzgTtQtKaqn?=
+ =?iso-8859-1?Q?GoKas607LXSa/gvdEKi6GCFkQpSaHUF3EaGRpEx4rp/MCB6snB7++VA1wD?=
+ =?iso-8859-1?Q?GxEqxvtjNoeZSXuWVrZZPdQjTa51+DqQb1oycfSOGjQ4jkrRnk/9y1EZPZ?=
+ =?iso-8859-1?Q?HUlE1+GkKrr1yZbn/SDc1G9jGdU54gggEKjzfvoE9ow7LoQ9Uv7jhRZQ+/?=
+ =?iso-8859-1?Q?gNw2CFsO3qU+4ubrW0ZUEeiTesoAK+pM6+cbRD1hfmqVy2EMlTBuB+u8ab?=
+ =?iso-8859-1?Q?UiLho6gehC7bQIBNnr+YmXDyowZ2+WhpytpWOJbg2PjF8dGVBOiuAF5VbX?=
+ =?iso-8859-1?Q?glNzWJdnKJFFFY8exd7SyJvrB2K64rx6QphJXghZPSX6rz/eHMrETnAtI4?=
+ =?iso-8859-1?Q?PwkqW67zsA=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_LO2P123MB40809EA9E40A4EB0D4C39E4E844E9LO2P123MB4080GBRP_"
+MIME-Version: 1.0
+X-OriginatorOrg: rogueriders.co.uk
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: LO2P123MB4080.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6fecebf4-3c00-486d-2e71-08d9d245086d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 08 Jan 2022 01:20:18.4549
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 7bc73118-4aad-40cd-938d-240e57c10e43
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: PRj5UWW86fh5ikEkmubF9z1xVM0yn46VOVKyjCG8RES8np7rN0Cwg642YODjz2QVsFA0zPeeHvzqN/6Xp3LOV6j8nFtGwxyf4B3MMk0Gfno=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LOYP123MB3248
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, We are looking to rent two RE Himalayan bikes for around
+    12 - 13 days from 24th January. Are you able to provide this model or the
+    KTM 390 Adventure? Thank you and kind regards, 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.8 KAM_COUK               Scoring .co.uk emails higher due to poor registry
+                             security.
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: netorgft6228917.onmicrosoft.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--_000_LO2P123MB40809EA9E40A4EB0D4C39E4E844E9LO2P123MB4080GBRP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+We are looking to rent two RE Himalayan bikes for around 12 - 13 days from =
+24th January.
+Are you able to provide this model or the KTM 390 Adventure?
+
+Thank you and kind regards,
+
+Nick Wilkinson
+
+London
+UK
+
+--_000_LO2P123MB40809EA9E40A4EB0D4C39E4E844E9LO2P123MB4080GBRP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+Hi,</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+We are looking to rent two RE Himalayan bikes for around 12 - 13 days from =
+24th January.</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+Are you able to provide this model or the KTM 390 Adventure?</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+Thank you and kind regards,</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+Nick Wilkinson</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+London&nbsp;</div>
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);">
+UK</div>
+</body>
+</html>
+
+--_000_LO2P123MB40809EA9E40A4EB0D4C39E4E844E9LO2P123MB4080GBRP_--

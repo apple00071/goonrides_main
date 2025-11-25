@@ -1,0 +1,114 @@
+Return-Path: <kontak@plnepi.co.id>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id eFmiHRu6dmgkJSYAQ+45pw
+	(envelope-from <kontak@plnepi.co.id>)
+	for <info@go-onriders.com>; Tue, 15 Jul 2025 16:29:15 -0400
+Return-path: <kontak@plnepi.co.id>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 15 Jul 2025 16:29:15 -0400
+Received: from mx.plnepi.co.id ([103.164.191.182]:55120)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <kontak@plnepi.co.id>)
+	id 1ubmH6-0000000AVg9-29dH
+	for info@go-onriders.com;
+	Tue, 15 Jul 2025 16:29:15 -0400
+Authentication-Results: mx.plnepi.co.id;
+	spf=neutral (plnepi.co.id: 198.55.98.106 is neither permitted nor denied by domain of kontak@plnepi.co.id) smtp.mailfrom=kontak@plnepi.co.id;
+	dmarc=fail header.from=plnepi.co.id;
+Received: from plnepi.co.id (unassigned.quadranet.com [198.55.98.106])
+	by mx.plnepi.co.id  with ESMTP id 56FKSKZv024768-56FKSKa8024768
+	for <info@go-onriders.com>; Wed, 16 Jul 2025 03:28:28 +0700
+Reply-To: info@robertmarcaccts.info
+From: Robert Marc<kontak@plnepi.co.id>
+To: info@go-onriders.com
+Subject: Hello
+Date: 15 Jul 2025 13:28:29 -0700
+Message-ID: <20250715132829.912BC2994B0D836E@plnepi.co.id>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-FEAS-SPF: sender-alignment=not-aligned, header from=kontak@plnepi.co.id, spf-result=neutral, ip=198.55.98.106, helo=plnepi.co.id, mailFrom=kontak@plnepi.co.id
+X-FEAS-Client-IP: 198.55.98.106
+X-FE-Last-Public-Client-IP: 198.55.98.106
+X-FE-Policy-ID: 4:3:2:SYSTEM
+X-MagicSpam-TUUID: 56af4721-7e60-40e4-8183-49c4b99b9f11
+X-MagicSpam-SUUID: b371a24f-d030-40aa-8b84-7017e1d06218
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Compliments of the day. My Name is Mr. Robert Marc
+    (ESQ.) and a Financial Adviser and i wish to inform you that you have an
+   Inheritance Money transfer Payment .. 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                        [103.164.191.182 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [103.164.191.182 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [103.164.191.182 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.9 URG_BIZ                Contains urgent matter
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                             domains in spam/malware
+X-Spam-Flag: NO
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;">
+<div><p><b style=3D"font-family: garamond,times new roman,serif;">Hello,</b=
+></p>
+<p><b style=3D"font-family: garamond,times new roman,serif;">Compliments of=
+ the day. My Name&nbsp; is Mr. Robert Marc&nbsp; (ESQ.) and a&nbsp;=20
+Financial Adviser and i wish to inform you that you have an Inheritance=20
+Money transfer Payment ..</b></p>
+<p><b style=3D"font-family: garamond,times new roman,serif;">Furthermore, I=
+ wish to inform you that my late client died intestate=20
+and in the process of review in my search I got your contact=20
+information, your information was revealed to me through an=20
+international business directory here in Europe, hence I contacted
+ you so that I can give you further briefing on my intention and how to=20
+disburse the estate he left behind.</b></p>
+<p><b style=3D"font-family: garamond,times new roman,serif;">I will most ac=
+knowledge your prompt response as that would enable us to start something i=
+mmediately.</b></p>
+<p><b style=3D"font-family: garamond,times new roman,serif;">Anticipating a=
+n urgent response from you.</b></p>
+<p><span style=3D"font-family: garamond,times new roman,serif;"><b>Best reg=
+ards,<br>
+Mr. Robert Marc&nbsp; (ESQ.)</b></span></p>
+</div><p>
+
+<span style=3D"font-family: garamond,times new roman,serif;"><b><br></b></s=
+pan>
+</p>
+
+
+</body></html>

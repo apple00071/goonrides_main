@@ -1,0 +1,254 @@
+Return-Path: <designing.service@dreamwebrank.online>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 3TaOO2g8vGI7UAAAQ+45pw
+	(envelope-from <designing.service@dreamwebrank.online>)
+	for <info+spam@go-onriders.com>; Wed, 29 Jun 2022 07:50:00 -0400
+Return-path: <designing.service@dreamwebrank.online>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 29 Jun 2022 07:50:01 -0400
+Received: from mail-io1-f65.google.com ([209.85.166.65]:41719)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <designing.service@dreamwebrank.online>)
+	id 1o6WCl-0005Dq-Ap
+	for info@go-onriders.com; Wed, 29 Jun 2022 07:50:00 -0400
+Received: by mail-io1-f65.google.com with SMTP id u20so15686561iob.8
+        for <info@go-onriders.com>; Wed, 29 Jun 2022 04:49:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dreamwebrank.online; s=google;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=pFeHnaOyuQvuY3vuxvftyhouDJANYoc7JzdxeMa0Cps=;
+        b=mpv9PwI0Pgh34YwfmIh0cV8SqBnh0wQvj3KqRGjoDC85wQWkC08QpdBJKfltgZGhuW
+         GYduSKe4xHlvk1bA8TNQakhY2N4PF8Z9+hpZtDn46faSnGNXtIxoNkmOeN+1vozRi9z5
+         jJPLi2UAivuTvQO/ZzdV4YAMNTvMNgBowwS9c=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=pFeHnaOyuQvuY3vuxvftyhouDJANYoc7JzdxeMa0Cps=;
+        b=Zby7MILyvoYE7fVUK1Wcqp8ZufRDG8S6mfgBYEYZzSXewu0oYt/kL2Wemig3uWBdD2
+         QJBzNPR8jHm6Hcg6Al70zoXgLb9RTojPmKY7YmF8RGPhBmeu5p6wxMmufupCRHIhrKQq
+         axiYlzbHPAvdMwGX8H1QgNTXnwX/Wwfu42iXDqTeX2vHhhIrjAT7PR/5AdxAREw0gdOY
+         3UB4/qYta4xr6JWVbhc5JOZZc5UVf9WkcWvnc07ykQr9vsFVp2v6U+XTXjQiytA7/jRg
+         qY6fkJhgs0FMisvY0Dv0yqVv0wy48pBhURXbRx0NiQhLAz8pO3JlCbNVU3q4FACxVdjc
+         Mi2Q==
+X-Gm-Message-State: AJIora9naq32sCksi0BCrwacVfxk+EPcCu11hNeW+TXdrJ1lB1bDkfQC
+	tgcfPwvHb0V4dhuy10cbdJ4S/MU+oPO6/3C2vVkn1SsO5fk=
+X-Google-Smtp-Source: AGRyM1vKCiFDrjhngRgkDHR4El0mGjTS+octYtUUxEyx0Wjs2f0Q6v6HtyGWIaPSRMf+qQPaceSj+gCFhXFlUZYgLNU=
+X-Received: by 2002:a6b:5a16:0:b0:675:4ad:8258 with SMTP id
+ o22-20020a6b5a16000000b0067504ad8258mr1493810iob.101.1656503356322; Wed, 29
+ Jun 2022 04:49:16 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 29 Jun 2022 06:49:15 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 29 Jun 2022 06:49:15 -0500
+MIME-Version: 1.0
+Sender: Liza <designing.service@dreamwebrank.online>
+From: Liza <designing.service@dreamwebrank.online>
+Date: Wed, 29 Jun 2022 06:49:15 -0500
+X-Google-Sender-Auth: nmHW2PlcEYIUoOZdTlNWbPwrJ7c
+Message-ID: <CACxnnMz7zVgoSKYBp_HtGb3N8x0mw=y-dBobdBQhcFgfDyYZMw@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000001f79e705e294be2c"
+X-Spam-Status: Yes, score=10.7
+X-Spam-Score: 107
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello go-onriders.com Team , We are a Trusted Website Development
+    company working for the past 10 years in this industry. We serve almost every
+    industry to fulfil their custom web requirements with rich quality and commitment.
+    
+ Content analysis details:   (10.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.166.65 listed in list.dnswl.org]
+  0.0 T_PDS_OTHER_BAD_TLD    Untrustworthy TLDs
+                             [URI: dreamwebrank.online (online)]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.166.65 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+   10 SPF_FAIL               SPF: sender does not match SPF record (fail)
+ [SPF failed: Please see http://www.openspf.org/Why?s=mfrom;id=designing.service%40dreamwebrank.online;ip=209.85.166.65;r=rin6.dizinc.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_OBFUSCATE_05_10   BODY: Message is 5% to 10% HTML obfuscation
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 FROM_SUSPICIOUS_NTLD   From abused NTLD
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Create engaging Website with us?
+
+--0000000000001f79e705e294be2c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello go-onriders.com Team ,
+
+We are a Trusted Website Development company working for the past 10 years
+in this industry. We serve almost every industry to fulfil their custom web
+requirements with rich quality and commitment.
+
+We have experienced IT professionals who are into:
+
+=C2=B7  Website Designing
+
+=C2=B7  Web Development
+
+=C2=B7  Responsive Websites
+
+=C2=B7  PHP Development
+
+=C2=B7  E-Commerce Solutions
+
+May I know if you are interested in any of these services?
+
+Redesigning a website today is more than just changing the look.
+With changes in technology and different problems to be solved, redesigning
+and reshaping websites is more than just their appearance.
+
+We can assure you that you will get high-quality work.
+
+If you are interested then we will *send you our past work details* for
+your reference. With our best offer for your requirements.
+
+
+Thanks & Regards,
+
+Warm Regards,
+
+
+
+*Liza*
+
+* Business Development Analyst,*
+
+* Skype: dreamforweb  *
+[image: beacon]
+
+--0000000000001f79e705e294be2c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin=
+:0in 0in 10pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><s=
+pan lang=3D"EN-IN">Hello <a href=3D"http://go-onriders.com">go-onriders.com=
+</a> Team ,</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+">We are a Trusted Website Development
+company working for the past 10 years in this industry. We serve almost eve=
+ry
+industry to fulfil their custom web requirements with rich quality and
+commitment.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+" style=3D"color:black">We have experienced IT professionals who
+are into:=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt 47.25pt;line-height:nor=
+mal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-size:10pt;font-family:Symbol;color:black">=C2=B7</=
+span><span lang=3D"EN-IN" style=3D"font-size:7pt;font-family:&quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;color:black">=C2=A0=C2=A0</span><span lang=
+=3D"EN-IN" style=3D"font-size:12pt;color:black">Website Designing=C2=A0</sp=
+an></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt 47.25pt;line-height:nor=
+mal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-size:10pt;font-family:Symbol;color:black">=C2=B7</=
+span><span lang=3D"EN-IN" style=3D"font-size:7pt;font-family:&quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;color:black">=C2=A0=C2=A0</span><span lang=
+=3D"EN-IN" style=3D"font-size:12pt;color:black">Web Development=C2=A0</span=
+></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt 47.25pt;line-height:nor=
+mal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-size:10pt;font-family:Symbol;color:black">=C2=B7</=
+span><span lang=3D"EN-IN" style=3D"font-size:7pt;font-family:&quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;color:black">=C2=A0=C2=A0</span><span lang=
+=3D"EN-IN" style=3D"font-size:12pt;color:black">Responsive Websites=C2=A0</=
+span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt 47.25pt;line-height:nor=
+mal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-size:10pt;font-family:Symbol;color:black">=C2=B7</=
+span><span lang=3D"EN-IN" style=3D"font-size:7pt;font-family:&quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;color:black">=C2=A0=C2=A0</span><span lang=
+=3D"EN-IN" style=3D"font-size:12pt;color:black">PHP Development=C2=A0</span=
+></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt 47.25pt;line-height:nor=
+mal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=
+=3D"EN-IN" style=3D"font-size:10pt;font-family:Symbol;color:black">=C2=B7</=
+span><span lang=3D"EN-IN" style=3D"font-size:7pt;font-family:&quot;Times Ne=
+w Roman&quot;,&quot;serif&quot;;color:black">=C2=A0=C2=A0</span><span lang=
+=3D"EN-IN" style=3D"font-size:12pt;color:black">E-Commerce Solutions=C2=A0<=
+/span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+" style=3D"color:black">May I know if you are interested in any of
+these services?=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+" style=3D"font-size:10.5pt">Redesigning=C2=A0a website=C2=A0today
+is=C2=A0more than=C2=A0just changing the look. With=C2=A0changes in
+technology=C2=A0and different problems to be solved, redesigning
+and=C2=A0reshaping=C2=A0websites=C2=A0is more=C2=A0than just=C2=A0their
+appearance.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+" style=3D"font-size:10.5pt">We can assure you=C2=A0that you
+will=C2=A0get=C2=A0high-quality=C2=A0work.</span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+" style=3D"font-size:10.5pt;background:yellow">If
+you are interested then we will=C2=A0<b>send you our past work details</b>=
+=C2=A0for
+your reference. With our best offer for your requirements</span><span lang=
+=3D"EN-IN" style=3D"font-size:10.5pt">.</span></p><p class=3D"MsoNormal" st=
+yle=3D"line-height:12.65pt;margin:0in 0in 10pt;font-size:11pt;font-family:C=
+alibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN" style=3D"font-size:10.5=
+pt"><br></span></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:12.65pt;margin:0in 0in 10pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D"EN-IN=
+" style=3D"color:black">Thanks &amp; Regards,=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">Warm Regards,</p=
+>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b>Liza</b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b>=C2=A0Busines=
+s Development Analyst,</b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b>=C2=A0Skype: =
+dreamforweb=C2=A0=C2=A0</b></p></div>
+<img src=3D"https://dreamwebrank-dot-yamm-track.appspot.com/1nafsQumcJ41E0b=
+_EMoOf6oFNUKR1-vtc4NqNi8Q8qn-8RUuvgQFgEekgkrf7z2zubW5VIUXcW1E33mneca2VJAGTw=
+8-hsoc3ypHiTkLtctQDv-IXGEpjP_o" width=3D"1" height=3D"1" alt=3D"beacon" sty=
+le=3D"display:none; display:none!important;">
+
+--0000000000001f79e705e294be2c--

@@ -1,0 +1,199 @@
+Return-Path: <mik.zin@yahoo.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id ANQSBSvoZmLoKAAAQ+45pw
+	(envelope-from <mik.zin@yahoo.com>)
+	for <info@go-onriders.com>; Mon, 25 Apr 2022 14:27:55 -0400
+Return-path: <mik.zin@yahoo.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 25 Apr 2022 14:27:55 -0400
+Received: from sonic305-20.consmr.mail.sg3.yahoo.com ([106.10.241.83]:34660)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <mik.zin@yahoo.com>)
+	id 1nj3RB-0004EF-NS
+	for info@go-onriders.com; Mon, 25 Apr 2022 14:27:55 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1650911229; bh=jQexH0JtTt1kmokcFym8sIwvp2PjHpSsks9hHoPJZDc=; h=Reply-To:From:To:Subject:Date:References:From:Subject:Reply-To; b=E7Hg7I2xzIb2w2Kny45bTj2wpAEQPhhWeG2JrKsf9Ipqzl0mikuWQ7a3QXDHtPt19Uk5SbPDds5A9MmmT87d760OzS/dR4V+xv7TSRsQznLpeR43+oeY1lh2SxeUrms+Xrr6t7ojaHyY/WDxXPGn1xoTjGnw0R8tNQqA32HZ9hncnpni0cvl37h2EPg9x+Z7vDE+8q7ecQEIBc67RH9vO6Rxs5yKN/+9u4J2N78AXH2e5BGp06RYIdTy2C+vyTN/URvBRXp8mcvvzjiDRPlUt1taA10wYNs5E0W2KJY/iTK4nknF0bu1Mv+7vRFwec1uiEcPWjXNaeMqhTNQMMWvHw==
+X-SONIC-DKIM-SIGN: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1650911229; bh=rGAClEsTb+88HcNau1HzDtix1cXYT8U/wOguQ3NYKRP=; h=X-Sonic-MF:From:To:Subject:Date:From:Subject; b=JvOXtOsw5ZiZcefJSU8KUX11DBTdkjY9t5rJhthtYBbKeNUq0bGv3+z/2QgDWb2ghD9V0rMy6U6xR1MFw3Saw126CW22QxPyDVoF8ooCgTqQVkVuaFeiAvPVjceEmJUhnXYdjBgTNOSFuy/EW4Y9wIkNUu9a4aUrcnnB8DZstlj77X7EA4q6xHCwjdQpJkds33VYdfLKVKweZRpMi4VWItTFvHs78tD0vLwoG4k4zjppykfQuZ/kN1uP+6FCvenRgIzTwwU3nyAstUx9F1SQN1UA/4XHvyb36ta1KXAsRCqzeXtrNHIxLEqbyCl9mHbbRk9j58pX//Oa/437+OQ5ig==
+X-YMail-OSG: TqTDOHUVM1lmaGwQvTod.5rnoi0jPXnok2J.SN5LtwRBAY3HqlQyoyBG9LjTyv5
+ kbYK4LXdWcrFjCWxIl5ITBwJHpmAzRSldjzsbPKNxnrcSyduVxQsyi_8STOKYzN9Ft_5SEcGVJaR
+ kmRjWhXIQ23WDFbt9Kn5mwrbmojW9X4NSSxgaLztddmNyYT591sKeyKXZeZVTDBxfHc9QdfNEa6y
+ .urxYq7zQoVQFjqlt2I3wnvT.CBb5WdJKJedlhuxIVNmyvbX4mgTGr3ARmuVuigD7GYrXWcZSI5h
+ VSkkQjDe._p.RjUGFoYguVe3YlFmUmbjj2yrZ3Id4PxbcP0m_H__ty2xOwERN0QTjXhmfs8cxPbs
+ y13Na4Y4BK2C6SuSQTG8q69PNPogIuJZUNcNb_ffai2jy4k8drVqOqRzne.QXwCeNe32Ge6JoLQ5
+ GV4qEm3Aho4wUpt9zTwx1UEQ7K9ckJb3jQ7MNFzPOkqfnbezmfEDE56JIcQ8bvMS4I68NYOg3_r8
+ WomosGOYMbPkZHW56YIfTEK3hap2htb3.HtC7WupcYkiZFHawJj3og7z3F3NRwly3kXxkzh.knY0
+ 3wIqaW8SLnq20MB.XduIchS5pntJX24E3D6mvKLX2fXhJVIPs4YuNeMCVmqPrs7WoaGlsalDzPWM
+ YyTtUCY9Rl10laTahiTTh7DpWig9XQCbxd6xN80pMexcBti1y7jw28vysep8qLmMueOpPwHUhRq4
+ hxiBnCeH3eJjwq5L.Cwo7K92l1vvqSAJYosUsOPskwHkz6IVDKGeoGHishw8l.Y19deLGPj0lMcu
+ 7jvbau9mlMtTMhXXCi2y1jD4nRj1aF4kEved4xaQUBAoKfzuk2nhIZypN7mwPUuFdA7BjhMy6tzC
+ aqudmeUnEeRwrGwE4JvBBbVGNdxFf_axZ4LxP9sDelcKhcgwbNjyr8MN6UNEN4MWNpKAmFv2vfR.
+ DqapFVRe1KadPS38KJY26wcKVHgvVzwdBXcx2fhy.zK976H122rJvh8s409KhRMlgDT8WMApycSc
+ s3f05aK0BOj5YlUR1lk2zxe0rQ6VgWmP2VAzltgTGXoZfUCPoOXSq.dhbUI_VJBSv0EBVLSd0vXR
+ TVbnIuRN.tJRWeCP3TbRsDT8hA8dsOOUdGfviUWiNVDfx62h68WoYNx_YwQqlY1aQ.lyteWTs_Gx
+ 8EHPRLHSG_dGGBRJA.Ca_3IR_rRyRtKHMNhZXyNgCU3ZUZlBvTTPq70PbyW5nQK1II2d33K1Z2c8
+ ITuSMpPmVJjsom6HqV6DfbC.mDlLJ0lB_B24cq.8U_MG6smih89iDsZF6nv.Sa2zEgqcm.4l9dzQ
+ vJ2HW.XccfStpPlYqqxfbZUeomSVxUBT3FFJfYNZwzDorK.7X.5eDZICgz2eTtNNY6mx6GbxFNN_
+ WhgkOtcyOcP_uDg1gAYkU4O912xU_A83_Dpnk_F55U77tKj.fsLq80yeaSLqKTgooS4zj0GKrJYw
+ _F3j5NucnFmCI7SIWln8hPpAWZfSZU2Jq_TkmWspolH2kQ_drquz.aIFMsn4lV8MyUZgx8ZEm2rG
+ xzakZte8Xpq.Gd25M18uiiBjmnM1mlcKq.RvbnEfCagdLRg94mT5mu2DNyGBt4rMqxKcsidbccYa
+ hE9UDNZAVMObC92THjy5BWeGCQo2N8b20ysCh16DwRZUopcKSAmA.8yOBeFGRT94Uqdbo7G7c7KX
+ pJPS.0G59mnFMdy7RBiwQnc.t8aKNw_HI0J70o6TcYlQiKEVfusrG82uqg7Dal.QMSvuF.rX1fvJ
+ BT7x6iubT76KVmqCvCp5LZPt5X5g65G.RZGSI9J6wI163ZJ9q0PTx6mx.31B7VZeV3A3kjtQKo7o
+ QnNvggVau8WszJ6INATdjABlv0jhcGDr_AWpWnovVh6pDVOjfYvlOKYvrjFDk5BqLO1krwtdLo..
+ _.pceJPNlwOCQtfAAH5eGx3LngpvrPZAAhUXrTmTal7TaC8zkWJsPuVMIW0k0IKv12aegeT415KD
+ OT7ZMqudOOY9uhx7pEeHFnwjrOdpojHNWcFz.1tMwJsBoYR4PhnQneJb.g9rSRX8QRaGT1yx860v
+ 4r_QLX0Os3BYkeSj.WG5.B3DxGnpQUfjkzTOi1RE7yG_VCh4m4hRjYZufcx7lr4Dm0jbo4b_nzW3
+ 0TIXeaCWzPDrvCdADJOPpbZuiu8mvU79ZCWrmwd7UwMvb0CNkBJ4GpzihmmIAkNCfWPSUd4mdB1F
+ hNu7v_D6Izt.lE4xO2Fk_aXH1dt5kUc_O9D175m0AWfSfoDj7QvyJACuAyvkqAg--
+X-Sonic-MF: <mik.zin@yahoo.com>
+Received: from sonic.gate.mail.ne1.yahoo.com by sonic305.consmr.mail.sg3.yahoo.com with HTTP; Mon, 25 Apr 2022 18:27:09 +0000
+Received: by hermes--canary-production-sg3-6589f79784-lthw6 (Yahoo Inc. Hermes SMTP Server) with ESMTPA ID c9fc0cedc5a3c2369a2e7b9282846ba9;
+          Mon, 25 Apr 2022 18:27:05 +0000 (UTC)
+Reply-To: <mik.zin@yahoo.com>
+From: "Maria" <mik.zin@yahoo.com>
+To: <info@go-onriders.com>
+Subject: more customers
+Date: Mon, 25 Apr 2022 23:57:02 +0530
+Message-ID: <0a0401d858d2$0f4a8cb0$2ddfa610$@yahoo.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0A05_01D85900.29042840"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: AdhY0g6YG6PbEPzcQ/u3/0NQENdaxg==
+Content-Language: en-us
+References: <0a0401d858d2$0f4a8cb0$2ddfa610$.ref@yahoo.com>
+Content-Length: 3637
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi there, go-onriders.com Do you want more customers to your
+    website? If so, let me know. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [106.10.241.83 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [mik.zin[at]yahoo.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0A05_01D85900.29042840
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi there, go-onriders.com
+
+Do you want more customers to your website?
+
+If so, let me know.
+
+I will prepare full plan along with the analysis report and email you.
+
+ 
+
+Cheers.
+
+Maria
+
+ 
+
+
+------=_NextPart_000_0A05_01D85900.29042840
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222'=
+>Hi there, <span =
+style=3D'background:aqua;mso-highlight:aqua'>go-onriders.com</span></span=
+></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222'=
+>Do you want more customers to your website?</span></p><p =
+class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222'=
+>If so, let me know.</span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222;=
+background:yellow'>I will prepare full plan along with the analysis =
+report and email you.</span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222'=
+>&nbsp;</span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222'=
+>Cheers.</span></p><p class=3DMsoNormal =
+style=3D'mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;line-height:1=
+1.2pt;background:white'><span =
+style=3D'font-size:10.0pt;font-family:"Arial","sans-serif";color:#222222'=
+>Maria</span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_0A05_01D85900.29042840--
+

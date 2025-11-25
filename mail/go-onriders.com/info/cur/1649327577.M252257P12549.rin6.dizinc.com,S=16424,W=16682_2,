@@ -1,0 +1,258 @@
+Return-Path: <yadavankitkh@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id uGnADtm9TmIFMQAAQ+45pw
+	(envelope-from <yadavankitkh@outlook.com>)
+	for <info@go-onriders.com>; Thu, 07 Apr 2022 06:32:57 -0400
+Return-path: <yadavankitkh@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 07 Apr 2022 06:32:57 -0400
+Received: from mail-tyzapc01olkn2072.outbound.protection.outlook.com ([40.92.107.72]:13958 helo=APC01-TYZ-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <yadavankitkh@outlook.com>)
+	id 1ncPRg-00075S-Ep
+	for info@go-onriders.com; Thu, 07 Apr 2022 06:32:57 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=nhi1JRerYirAMwq6GVytdziAcARVX5ae9TwdafbDKleVTtbvuGIVcAh5eRhJ99W+QHgra7DRLRfIi7HLvgAkig70uBazq5wVWRdmCUiCltWaLbcW2zhu2A72f8HfbJv9qtJ1xaxMrfmunUHRsfxDMFJz/Q7HDakPKRx500wkGkvlk50guucuoJ4vHtbtLnVRkSlJDVUv84Yf2f8SyJrZOprqA6j5BvFFw6CJDHNbZnV9fNJkUshBkGBn2uAyyx9zLs00s36TKCv57L3DwhhxK8MaM50DK4C5I5aibhzr4tasDQjWCGEvS10Wyp+tIU8/INywk5nvV98NQN7IBWuk8A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=1KGQwZD0Gli2jEVqnldm0M1gAQ6xtv2J57KfFC+R/HI=;
+ b=BRZC0nu+xgzuw1P/o9IG0UXvFOPzOVqN97geciOj2EPQq5Gqnxa5O2oRsDmpzjR+yai5goFRcj0tyhrZEiHa/cZA4BT+JVkWQ9jwa2ZdCvhQhr4zO6XF/mWE6IQr4hJDBlEyIqThWrI8STN0Mlfc80YnpZgh2E3oOfNKnKSgI0T99158URiu7VuevfwBi/qj9rD1mNKb1W0Zs5NpVpnZpDxD/Lrxh+/+AUhh4rv6jWFstNIwE20w3OPUmd3VIJrvakgdrGBmXTXvPGlM2ZLLpUhEnmQ5Hjazpg1WH0vdQatHDMk6aShA2dwFKYM9xujUyQ6JA3KQfUar/BJVZV6YZw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=1KGQwZD0Gli2jEVqnldm0M1gAQ6xtv2J57KfFC+R/HI=;
+ b=CppdAfHsf76gGGsFDhrSX59An8GDF9aoXFgdYTv4Emzy1rQbGDz04H5vKe/GmCW23uqVk87xNBIya/Bmj4kBWfum4TWsLw/IdYruBQJw12RafSS2sUdFhXL9quQ6+i9UTeGQDUOK2aZZ3Z52rq8BFhACMEDxgOlmGNq25exk7nC5aTO5IT6BxNND//uhW/XrAuwaWDJaZz6P+dBiqx8tRl5qqsQyMW4rpbodFK85YEVUp9Y9Srv8HvVRW5ptNZYYcCeGm2sgLXr6ITZ1hkENl+04lMrTxIWZ2CkaCqZIGHPjjrKDJ5U22VUbFwDtM0XeWB8a6nbViCEERt5ZFRqLjQ==
+Received: from PS2PR06MB3352.apcprd06.prod.outlook.com (2603:1096:300:69::19)
+ by TY2PR06MB2542.apcprd06.prod.outlook.com (2603:1096:404:4b::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5123.31; Thu, 7 Apr
+ 2022 10:31:25 +0000
+Received: from PS2PR06MB3352.apcprd06.prod.outlook.com
+ ([fe80::8ae:a810:741e:750f]) by PS2PR06MB3352.apcprd06.prod.outlook.com
+ ([fe80::8ae:a810:741e:750f%6]) with mapi id 15.20.5144.022; Thu, 7 Apr 2022
+ 10:31:25 +0000
+From: Ankit Kumar <yadavankitkh@outlook.com>
+Subject: More Info
+Thread-Topic: More Info
+Thread-Index: AQHYSmqQNnmlB7uVmUKD9eMeu//Krg==
+Date: Thu, 7 Apr 2022 10:31:24 +0000
+Message-ID:
+ <PS2PR06MB335266C4A1F11B24505057B0CDE69@PS2PR06MB3352.apcprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+suggested_attachment_session_id: 77611eb5-1d81-e5ae-8548-64897ee934e5
+x-tmn: [AYSqtrXKL7zJzznaU+sxML7tZauhGxQwNQ4PGoySEm5tDDfoipwDvSCK2h3NKGgL]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: b94597e3-76f5-4852-bfdc-08da1881c4a2
+x-ms-exchange-slblob-mailprops:
+ VlsgVBy4cKURHht1RQqTXdTp7VgNDmTERJ104SfnQ60H7c+BfMBfk0u8ohZUIZ+1EkBpv13p9Wwv6ny5Fwyg8avdy5BuhH3mmHW/qmS02ebRHhvY6LLRl+bXlPfDz+V3GGEG1cy5SJ+uPffxz0gYrXaXWg+ZThE5ytxTiwJWe8D9otfSRiiiVgXJAjbOdSZkM5O/tpE+FYpPr6TbLfzo6EO3BLfTXbqgqN48bC8Otf6NTs1X2dHb3vxvSVQcy2W/yDPcXCbu/J1Y2dtaYWkeqf2Ofu8cXRTa9QzMVK+adX06Qoqmt/Okv76dOw/BalpN2WiW+b6q7e/Oj1/eKLSypj63KAH8arnSKaoAafHgi4VXksfMn27okT0PC5/nmUdJ6rUDoXREQwwYpguWQhe+HS+KEQpbIwlK0wpKDfqv6LK9fOBZ6iwwX5eOBbx5w/nhp0sSY7Ti1DLg53lWF4OWg3P5XiSRNS1NYTiFNAYBtFQaR/fMxG+uyx3Rxjy3y2IIt7QQ/Km78bAJ4ZHJviWpiK+DPMV/qsD5Shtyfc95lIGGUyvQtqxzuvhJKnKDLorUG4apO714H6w4dKjEzqMlipKg7L91O/aLrXZV5LRhRNxVVl4jbzrY8KDwcRhSbaTGbQlU/YRJe3I=
+x-ms-traffictypediagnostic: TY2PR06MB2542:EE_
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ DVMcptkw1HT5ctEVDnbyygRUJv8PGNS5uOp+cQOfu5LDIgtXfBhZHXGSru7W+KpCgRxUjDampe9bIDVIi39Rugiwc4GG0/mM6U4T4NcEYCLknXa4fchWdvG+nJQ4GQo8FlWrWzXxLYjjPRHqkutP3JiDuB4B5/3qhM+4tJm6JgpoZ9vgTPjwZQ9T5lqdrnHzMja7HmkGT+dBHqmb0cjAzPBQgXe7MSiUUaWwNs8nu0EXO1g4ePBcVraIyJI9C0webcmAwfflP+fMAOF1Q/1OwbtDw7X/gRxCABCatFUtvGJRAM2fTDgdAytda/hLUomd9DfCt0KXGgwEB6JwMCa4SqA9Oqr5HVyDaSp07TvaxBxB4xoodZzdy2k0tfcfUJyuZtkBTISVSeKy3RBkm4UDBoZYcyF9u0uiuQstqQDMSj3Bb9L909chKTAejUNeBJf2mrz4EnWSUpyHPE3CP9YLrUj8McTDrEyF+rda6kF8+zHvR/tAsQHKYlRpvHkYBWnc1yBezJgZvdP0hSSLSjd0zRDFk/pYymq5zcZBspAfLOs9ixNJ5haePBiLcCKQLC4Wj/i6JiKl/VppZklaIe8BLg==
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?GSC7TTb8ALOH2S1PkjQzgtaq3i/BdPsCrFNp2GJ9CJRXCHBb14Dv+u6aq8?=
+ =?iso-8859-1?Q?t8i7/i23dBNkx2SF8OBNWXtSa41/LK6KQPwYAyFTcDONSiY9h+mwArz8db?=
+ =?iso-8859-1?Q?uL7GdYwr3napD74OtIor+AUqf+2CBRMbgqBgOB65vwD2ARpUx+eKQpZuh1?=
+ =?iso-8859-1?Q?khCC3TpsWeCEBRSL9AhGAwYgWI/1AovxC1rpD3Dl5FSn/a8hUcG+nvbVJE?=
+ =?iso-8859-1?Q?5fCiLaTD0C257+g3+cG7AScuHbxGms/ogm+Lhgs+qeVs13wAD1cLaGsGFF?=
+ =?iso-8859-1?Q?qe1hXMH+v7VttGAjRcpdVTJ5U+md8Wgth+R5RIKiHM/N6wlIWK/0vHNvOu?=
+ =?iso-8859-1?Q?AIBH2Dmyd79HUqpRHinSiz4FtQqT5s/8iUU0nPDqIHjJBizIcDQTXATY1g?=
+ =?iso-8859-1?Q?iwaNzDu/cpSvTMaeGJ58cCWGGez6yc4Ot8mkIMms05FkITGTKBIeljM587?=
+ =?iso-8859-1?Q?eC0kPPq1dp1KuyNNDn373fLy9pl3XVgIE0QDLZoXIv32M8hhtu4rRjIUge?=
+ =?iso-8859-1?Q?/P2NICI69r4fNqKSw741TOzaSMewHZdI2dkYCI85Bc3M+KO/rQCTDZJJcX?=
+ =?iso-8859-1?Q?r06uvhxvVbkExWTrR8h1P7cxSxLPU9Z2k+Qj75rX0/Xh4oOtSWrd6Kw367?=
+ =?iso-8859-1?Q?dxUToV05XYeIvqDE5iKJEgeSBEsqFetwfe28/BNiYGYwqcuI0JvMF/zP2g?=
+ =?iso-8859-1?Q?puaUDYQXFoctHLr6qv2r4lXhiI6i32lcwydmOQMKLXvgK1MRl6fj2nSTKM?=
+ =?iso-8859-1?Q?J08M3A9Qdz7k1DUB/vkB01iz9EAc4qw6WyHmPDs591Zmzba4YjcsasE13b?=
+ =?iso-8859-1?Q?ccasYWToI2HPkeyls2z5GK8VnJyvRmJ5Z+uZ3rmoQIFu+TyWf8fbKS5vzV?=
+ =?iso-8859-1?Q?O2kmjZD/fDDzoTEXIxT3dXNg+c7kR2SPHx+bUGcBKTwOPQ8LT8wRBIYXph?=
+ =?iso-8859-1?Q?B9cClVFKW1Btw/IvMZ1sgi2tq4vrxhRp2QcPDb/mN9j+NeqbNC0kPHu4We?=
+ =?iso-8859-1?Q?TxsyLtdZoYUTFvA1uKMUu6jZt5qxi0oCbB7yQpNAsJA1jCH0oXN6CFMnvH?=
+ =?iso-8859-1?Q?Ju9VoSkFEAILgtnc4PmUhbbqEoyogBW/1wfXO01elNVmvbXZsXgmnC7U5e?=
+ =?iso-8859-1?Q?54Uuk3E8hzSOmOq+yot+kS+ZhHw26RLwUPoocp9BnUZeh+9vhKdko7ArKW?=
+ =?iso-8859-1?Q?VsnAvGwDLuBZ+4QYYXXlHOKgBBHOlcsVPTYfv6zzpUlY93HceFjjSknWi2?=
+ =?iso-8859-1?Q?ow3Iq2HHmNm9kcFT4TDdxh/UfacwBsyZnNioPoRldpZm+6jKUpdLDXM9lq?=
+ =?iso-8859-1?Q?bVNALDfBKsGgCrmpzqCmbwyY4xXSC5TyOZJLa0RhP2rBj0Xllf3xco7hWs?=
+ =?iso-8859-1?Q?da71n2dUoSw4A4Ig2QvbeDTSxIPUvh8rEc0K69JYZ+Nb2rGmIyUb4pum6U?=
+ =?iso-8859-1?Q?e/EtuNNPzprVoljiC2gi9kL+erLPa2fAXzlEFcu7nRwCHlNFkaSv7VpKnO?=
+ =?iso-8859-1?Q?bsoq3G5tWhZDEz0dlLYAsMwuuiRVM2eQq5RXR8VFny0ZhT7vgFb+R0Mz3D?=
+ =?iso-8859-1?Q?PQU8az4=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PS2PR06MB335266C4A1F11B24505057B0CDE69PS2PR06MB3352apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PS2PR06MB3352.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: b94597e3-76f5-4852-bfdc-08da1881c4a2
+X-MS-Exchange-CrossTenant-originalarrivaltime: 07 Apr 2022 10:31:25.0819
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TY2PR06MB2542
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I was checking your website and see you have a good design
+    and it looks great, but it's not ranking on Google and other major search
+    engines. Do you want more targeted visitors on your website? We can place
+    your website on Google 1st page. Yahoo, Facebook, LinkedIn, YouTube, Instagram,
+    Pinterest etc.). 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [40.92.107.72 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [yadavankitkh[at]outlook.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  1.2 MISSING_HEADERS        Missing To: header
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [40.92.107.72 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--_000_PS2PR06MB335266C4A1F11B24505057B0CDE69PS2PR06MB3352apcp_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I was checking your website and see you have a good design and it looks gre=
+at, but it's not ranking on Google and other major search engines. Do you w=
+ant more targeted visitors on your website?
+
+We can place your website on Google 1st page. Yahoo, Facebook, LinkedIn, Yo=
+uTube, Instagram, Pinterest etc.).
+
+May I send you quote? If interested.
+
+Thanks in advance!
+
+Ankit,
+
+
+--_000_PS2PR06MB335266C4A1F11B24505057B0CDE69PS2PR06MB3352apcp_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"font-family: Calibri, Arial, Helvetica, sans-serif; font-size=
+: 12pt; color: rgb(0, 0, 0);" class=3D"elementToProof">
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;padding:0in;border:1pt none windowtext;font-size:=
+14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:black"=
+>Hi,</span><span style=3D"margin:0px;font-size:14pt;font-family:&quot;Helve=
+tica Neue&quot;, &quot;serif&quot;;color:black">&nbsp; &nbsp;<o:p>&nbsp;</o=
+:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;font-size:14pt;font-family:&quot;Helvetica Neue&q=
+uot;, &quot;serif&quot;;color:black">&nbsp; &nbsp;&nbsp;&nbsp;</span><span =
+style=3D"margin:0px;font-size:10pt;font-family:&quot;Helvetica Neue&quot;, =
+&quot;serif&quot;;color:black">&nbsp;<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;padding:0in;border:1pt none windowtext;font-size:=
+14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:black"=
+>I was checking your&nbsp;</span><span style=3D"margin:0px;padding:0in;bord=
+er:1pt none windowtext;font-size:14pt;font-family:&quot;Helvetica Neue&quot=
+;, &quot;serif&quot;;color:blue">website
+ and see you have a good design and it looks great, but it's not ranking on=
+ Google</span><span style=3D"margin:0px;padding:0in;border:1pt none windowt=
+ext;font-size:14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot=
+;;color:black">&nbsp;and other major search engines. Do you
+ want more targeted visitors on your website?</span><span style=3D"margin:0=
+px;font-size:14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;=
+;color:black">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;</span><span style=3D"margin:=
+0px;font-size:10pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot=
+;;color:black">&nbsp;<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;font-size:14pt;font-family:&quot;Helvetica Neue&q=
+uot;, &quot;serif&quot;;color:black">&nbsp;</span><span style=3D"margin:0px=
+;font-size:10pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;c=
+olor:black">&nbsp;<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;padding:0in;border:1pt none windowtext;font-size:=
+14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:black"=
+>We can place your&nbsp;<span style=3D"margin:0px;background:aqua">website =
+on Google 1st page. Yahoo, Facebook, LinkedIn, YouTube, Instagram,
+ Pinterest etc.).</span></span><span style=3D"margin:0px;font-size:14pt;fon=
+t-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:black">&nbsp; =
+&nbsp;&nbsp;</span><span style=3D"margin:0px;font-size:10pt;font-family:&qu=
+ot;Helvetica Neue&quot;, &quot;serif&quot;;color:black">&nbsp;<o:p>&nbsp;</=
+o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;font-size:14pt;font-family:&quot;Helvetica Neue&q=
+uot;, &quot;serif&quot;;color:black">&nbsp;&nbsp;&nbsp;&nbsp;</span><span s=
+tyle=3D"margin:0px;font-size:10pt;font-family:&quot;Helvetica Neue&quot;, &=
+quot;serif&quot;;color:black">&nbsp;<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:16.8667px;f=
+ont-size:11pt;font-family:Calibri, &quot;sans-serif&quot;;background:white"=
+>
+<span style=3D"margin:0px;padding:0in;border:1pt none windowtext;font-size:=
+14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:black"=
+>May I send you quote? If interested.</span><span style=3D"margin:0px;font-=
+size:14pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:b=
+lack"><br>
+<br>
+Thanks in advance!&nbsp;&nbsp;</span><span style=3D"margin:0px;font-family:=
+&quot;Helvetica Neue&quot;, &quot;serif&quot;;color:black">&nbsp;</span><sp=
+an style=3D"margin:0px;font-size:10pt;font-family:&quot;Helvetica Neue&quot=
+;, &quot;serif&quot;;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;font-size:14pt;font-family:&quot;Helvetica Neue&q=
+uot;, &quot;serif&quot;;color:black">&nbsp;&nbsp;&nbsp;&nbsp;</span><span s=
+tyle=3D"margin:0px;font-size:10pt;font-family:&quot;Helvetica Neue&quot;, &=
+quot;serif&quot;;color:black">&nbsp;<o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font=
+-family:Calibri, &quot;sans-serif&quot;;background:white">
+<span style=3D"margin:0px;font-size:14pt;font-family:&quot;Helvetica Neue&q=
+uot;, &quot;serif&quot;;color:black">Ankit,</span><span style=3D"margin:0px=
+;font-size:10pt;font-family:&quot;Helvetica Neue&quot;, &quot;serif&quot;;c=
+olor:black"><o:p>&nbsp;</o:p></span></p>
+<br>
+</div>
+</body>
+</html>
+
+--_000_PS2PR06MB335266C4A1F11B24505057B0CDE69PS2PR06MB3352apcp_--

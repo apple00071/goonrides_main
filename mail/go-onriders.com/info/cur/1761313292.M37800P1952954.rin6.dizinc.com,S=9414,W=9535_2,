@@ -1,0 +1,121 @@
+Return-Path: <david@thetechnobrand.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id SJZiAAyC+2i6zB0AQ+45pw
+	(envelope-from <david@thetechnobrand.com>)
+	for <info@go-onriders.com>; Fri, 24 Oct 2025 09:41:32 -0400
+Return-path: <david@thetechnobrand.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 24 Oct 2025 09:41:32 -0400
+Received: from mail-yw1-f177.google.com ([209.85.128.177]:57744)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <david@thetechnobrand.com>)
+	id 1vCI2v-00000008C6W-3p4d
+	for info@go-onriders.com;
+	Fri, 24 Oct 2025 09:41:31 -0400
+Received: by mail-yw1-f177.google.com with SMTP id 00721157ae682-783fa3aa582so25438107b3.3
+        for <info@go-onriders.com>; Fri, 24 Oct 2025 06:41:10 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=thetechnobrand.com; s=google; t=1761313249; x=1761918049; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ip4aodP5YPlp1rp6UW/s9AhKXfBtaQPtZRvGMbVQjDU=;
+        b=T1xx9HxLGbzpSfaaXHILjRQo20eIZ2q3zOXq0XDIKF8wqzvGcLG1EnGu9jNyGFxKEx
+         cuN9JVCDIYJIphvyiQC2jhkXvuPZXmXUnNk1zzcKDOJVQ+/D4YaL9Y9jO/aaUsXFOp82
+         anADxkxq9jrFRjfnQhQtl7oQKinKABxukqJdw=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1761313249; x=1761918049;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ip4aodP5YPlp1rp6UW/s9AhKXfBtaQPtZRvGMbVQjDU=;
+        b=JWA6QUpRDPvucWVXSchOdgdMEKvYhuIMvVa8On4LKbN/8vGdpNLFCq5ccvZ87NGdjh
+         X/YHbK5ZuVLs2OWBFCe9ksapgexG1H8O+o8eCbqdviueZ5VQadwHBSpwKPGkKAmJ7GG9
+         sRyxH2bahMumPHfwCB2uD8qeM2Cu6nHEc042PrEFZwH3GZA/Xv+BSdJ6ha9cUZyW0sSe
+         DgccKXaq41woF8l7bsvXz5Y4+KCDhH16t1jpJJalro5OJWSPRGFVQzLzdhOyzjqEy9ee
+         UQtboqpE/R3+WMlGlo3tqU6YunecSuAdwidLkNbGU3drlGN7c/sLhuVX/NblOOEKtQ6B
+         jbnQ==
+X-Gm-Message-State: AOJu0YyfctccrWP9CH2goeMD2kGWOTXiGJ9A30YwWBcTq8eCDe0zyR+n
+	QH8ggFjQqazyEQzIJtlJlz9lSr1sLbiaA+DgvP4Xqur0BgcJaOMFdibbmsXiLSGSCTRecBzlCeu
+	GkrijhN2/ZesM+b7IenOQYhNP9e1qdWpBqiuCrHJcFICESt8oq/HHrZs=
+X-Gm-Gg: ASbGncvtxT3tOUW+XM4k9Ra/rb9A3VzPiHmIRfVp/7hwQkcckpRsi1YafqOXKm8fAjA
+	biO10JLjY6E4tRGqrUkyAi9K6pn8Wfih9FQo+eiF5XAh6TdYVPoyGHQf4/l2dzQv3SlkeWsTxdu
+	5aUXKYp2HgMmeXhkKpZtlR9/Mi+uET/vJxUtQehwXlDMBMCgR003VRDVcSMhdb0pVGxLXqbyo5t
+	IiCBJDryMFZnuJpbpt+SOJ6zDDAnkgnk2QksBhEq2uJrdJ8450cTsQkKxFqo+9i8zq9Whhao2AP
+	A2rEAj2zGgyJKTg=
+X-Google-Smtp-Source: AGHT+IHq+SR2lnJW5ufysPTYqvyH+3kddC1bPht+bxNCUCGIuTI+NH3C7G2kGJAKybJkmqne8s7vq0HvYtDY2qCXZq8=
+X-Received: by 2002:a05:690c:2c11:b0:785:bfd8:c4c1 with SMTP id
+ 00721157ae682-785bfd8d034mr74299627b3.9.1761313249152; Fri, 24 Oct 2025
+ 06:40:49 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 24 Oct 2025 08:40:48 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 24 Oct 2025 08:40:47 -0500
+MIME-Version: 1.0
+Sender: David <david@thetechnobrand.com>
+From: David <david@thetechnobrand.com>
+Date: Fri, 24 Oct 2025 08:40:48 -0500
+X-Google-Sender-Auth: TVnMqvUJPb0_MrW34iO5RCsQa_g
+X-Gm-Features: AS18NWA_qXzH-vhxKfcwpSEmvDTnb6EhRCE0-QeEQvqpBrWWo9hkRyi3LeqJlqE
+Message-ID: <CAH0fVTUMAWky8J1anSHN4zxJsPJKubZ4R4_YEw9jFiQL5ox4KQ@mail.gmail.com>
+Subject: Quick question about : go-onriders.com
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000008de6ee0641e7b20a"
+X-MagicSpam-TUUID: 24fde767-890e-4648-9479-55c4e2aa7881
+X-MagicSpam-SUUID: 885bf15f-4910-4e5a-9c4d-ddfe7a49606d
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22rin6=2Edizinc=2Ec?= =?ISO-8859-1?Q?om=22=2C=0A_has_NOT_identified_this_incoming_email_as?= =?ISO-8859-1?Q?_spam=2E__The_original=0A_message_has_been_attached_t?= =?ISO-8859-1?Q?o_this_so_you_can_view_it_or_label=0A_similar_future_?= =?ISO-8859-1?Q?email=2E__If_you_have_any_questions=2C_see=0A_root=5C=40?= =?ISO-8859-1?Q?localhost_for_details=2E=0A_Content_preview=3A__Hi_Te?= =?ISO-8859-1?Q?am=2C_I_have_a_digital_marketing_plan_that_could_bene?= =?ISO-8859-1?Q?fit=0A____your_*=22go-onriders=2Ecom_=3Chttp=3A//go-o?= =?ISO-8859-1?Q?nriders=2Ecom=3E=22*=2E_Can_I_send_over_the_*proposal?= =?ISO-8859-1?Q?*=3F=0A____Best_Regards=2C_David_!_=0A_Content_analys?= =?ISO-8859-1?Q?is_details=3A___=28-0=2E2_points=2C_5=2E0_required=29=0A?= =?ISO-8859-1?Q?__pts_rule_name______________description=0A_----_----?= =?ISO-8859-1?Q?------------------_----------------------------------?= =?ISO-8859-1?Q?----------------=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPB?= =?ISO-8859-1?Q?L=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_?= =?ISO-8859-1?Q?to=0A______________________________Validity_was_block?= =?ISO-8859-1?Q?ed=2E__See=0A_____________________________https=3A//k?= =?ISO-8859-1?Q?nowledge=2Evalidity=2Ecom/hc/en-us/articles/209617306?= =?ISO-8859-1?Q?81243=0A______________________________for_more_inform?= =?ISO-8859-1?Q?ation=2E=0A____________________________=5B209=2E85=2E1?= =?ISO-8859-1?Q?28=2E177_listed_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A?= =?ISO-8859-1?Q?__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RB?= =?ISO-8859-1?Q?L=3A_ADMINISTRATOR_NOTICE=3A_The=0A__________________?= =?ISO-8859-1?Q?___________query_to_Validity_was_blocked=2E__See=0A__?= =?ISO-8859-1?Q?___________________________https=3A//knowledge=2Evali?= =?ISO-8859-1?Q?dity=2Ecom/hc/en-us/articles/20961730681243=0A_______?= =?ISO-8859-1?Q?_______________________for_more_information=2E=0A____?= =?ISO-8859-1?Q?_____________________=5B209=2E85=2E128=2E177_listed_i?= =?ISO-8859-1?Q?n_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NO?= =?ISO-8859-1?Q?TICE=3A_The_query_to=0A______________________________?= =?ISO-8859-1?Q?Validity_was_blocked=2E__See=0A______________________?= =?ISO-8859-1?Q?_______https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/?= =?ISO-8859-1?Q?articles/20961730681243=0A___________________________?= =?ISO-8859-1?Q?___for_more_information=2E=0A________________________?= =?ISO-8859-1?Q?_____=5B209=2E85=2E128=2E177_listed_in_sa-accredit=2Eh?= =?ISO-8859-1?Q?abeas=2Ecom=5D=0A__0=2E0_URIBL=5FBLOCKED__________ADM?= =?ISO-8859-1?Q?INISTRATOR_NOTICE=3A_The_query_to_URIBL_was_blocked=2E=0A?= =?ISO-8859-1?Q?_____________________________See=0A__________________?= =?ISO-8859-1?Q?___________http=3A//wiki=2Eapache=2Eorg/spamassassin/?= =?ISO-8859-1?Q?DnsBlocklists#dnsbl-block=0A_________________________?= =?ISO-8859-1?Q?_____for_more_information=2E=0A______________________?= =?ISO-8859-1?Q?_______=5BURI=3A_go-onriders=2Ecom=5D=0A_____________?= =?ISO-8859-1?Q?________________=5BURI=3A_thetechnobrand=2Ecom=5D=0A_?= =?ISO-8859-1?Q?-0=2E0_SPF=5FPASS_______________SPF=3A_sender_matches?= =?ISO-8859-1?Q?_SPF_record=0A_-0=2E1_DKIM=5FVALID=5FAU__________Mess?= =?ISO-8859-1?Q?age_has_a_valid_DKIM_or_DK_signature_from_author's=0A_?= =?ISO-8859-1?Q?____________________________domain=0A__0=2E1_DKIM=5FS?= =?ISO-8859-1?Q?IGNED____________Message_has_a_DKIM_or_DK_signature=2C_?= =?ISO-8859-1?Q?not_necessarily_valid=0A_-0=2E1_DKIM=5FVALID=5FEF____?= =?ISO-8859-1?Q?______Message_has_a_valid_DKIM_or_DK_signature_from=0A_?= =?ISO-8859-1?Q?____________________________envelope-from_domain=0A_-?= =?ISO-8859-1?Q?0=2E1_DKIM=5FVALID_____________Message_has_at_least_o?= =?ISO-8859-1?Q?ne_valid_DKIM_or_DK_signature=0A__0=2E0_HTML=5FMESSAG?= =?ISO-8859-1?Q?E___________BODY=3A_HTML_included_in_message?=
+X-Spam-Flag: NO
+
+--0000000000008de6ee0641e7b20a
+Content-Type: text/plain; charset="UTF-8"
+
+Hi  Team,
+
+I have a digital marketing plan that could benefit your *"go-onriders.com
+<http://go-onriders.com>"*. Can I send over the *proposal*?
+
+
+Best Regards,
+David !
+
+--0000000000008de6ee0641e7b20a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div di=
+r=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><p class=3D"MsoNormal" style=3D=
+"margin:0in 0in 8pt;line-height:115%;font-size:12pt;font-family:Calibri,san=
+s-serif"><span style=3D"font-size:14pt;line-height:115%">Hi=C2=A0
+Team,<br>
+<br>
+I have a digital marketing plan that could benefit your=C2=A0<b>&quot;<a hr=
+ef=3D"http://go-onriders.com">go-onriders.com</a>&quot;</b>.
+Can I send over the=C2=A0<b>proposal</b>?</span></p><p class=3D"MsoNormal" =
+style=3D"margin:0in 0in 8pt;line-height:115%;font-size:12pt;font-family:Cal=
+ibri,sans-serif"><span style=3D"font-size:14pt;line-height:115%">=C2=A0<br>
+Best Regards,<br>
+David !</span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-h=
+eight:115%;font-size:12pt;font-family:Calibri,sans-serif"><span style=3D"fo=
+nt-size:14pt;line-height:115%">=C2=A0</span></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0in 0in 8pt;line-height:18.4px;font-size:12pt;font-family:Calib=
+ri,sans-serif">
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:115%;fon=
+t-size:12pt;font-family:Calibri,sans-serif"><span style=3D"font-size:14pt;l=
+ine-height:115%">=C2=A0</span></p></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+--0000000000008de6ee0641e7b20a--

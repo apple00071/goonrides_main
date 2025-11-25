@@ -1,0 +1,107 @@
+Return-Path: <mjvkcbkolo@gmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id Kws8G2V6o2GgFAAAQ+45pw
+	(envelope-from <mjvkcbkolo@gmail.com>)
+	for <info+spam@go-onriders.com>; Sun, 28 Nov 2021 07:47:33 -0500
+Return-path: <mjvkcbkolo@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 28 Nov 2021 07:47:33 -0500
+Received: from [222.124.141.5] (port=42285 helo=mail.tni.mil.id)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <mjvkcbkolo@gmail.com>)
+	id 1mrJaa-0000WF-6m
+	for info@go-onriders.com; Sun, 28 Nov 2021 07:47:33 -0500
+Received: from localhost (localhost [127.0.0.1])
+	by mail.tni.mil.id (Postfix) with ESMTP id A3CA431C2140;
+	Fri, 26 Nov 2021 15:49:21 +0700 (WIB)
+X-Virus-Scanned: amavisd-new at tni.mil.id
+Received: from mail.tni.mil.id ([127.0.0.1])
+	by localhost (mail.tni.mil.id [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id DWmC-sCneLn8; Fri, 26 Nov 2021 15:49:17 +0700 (WIB)
+Received: by mail.tni.mil.id (Postfix, from userid 998)
+	id CDFFB330527D; Mon,  8 Nov 2021 22:45:14 +0700 (WIB)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.tni.mil.id (Postfix) with ESMTP id AC8E236496CE;
+	Mon,  8 Nov 2021 22:45:14 +0700 (WIB)
+X-Virus-Scanned: amavisd-new at tni.mil.id
+Received: from mail.tni.mil.id ([127.0.0.1])
+	by localhost (mail.tni.mil.id [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id reQgJl3BqkTx; Mon,  8 Nov 2021 22:45:14 +0700 (WIB)
+Received: from mail.tni.mil.id (unknown [192.168.168.10])
+	by mail.tni.mil.id (Postfix) with ESMTP id 56D3B34A4412;
+	Sat,  6 Nov 2021 13:28:32 +0700 (WIB)
+From: "The Early Adopter" <mjvkcbkolo@gmail.com>
+To: imaginedecorar@imaginedecorar.com.br
+Content-Type: text/plain
+Reply-To: Vuditokensale@gmail.com
+Date: Fri, 5 Nov 2021 23:28:33 -0700
+Message-Id: <20211106062832.56D3B34A4412@mail.tni.mil.id>
+X-Spam-Status: Yes, score=16.2
+X-Spam-Score: 162
+X-Spam-Bar: ++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, We are pleased to welcome you to our Early Adopters
+    sale. The Early Adopter sale is going to be conducted privately as this is
+    not announced on any of the social media platforms. This is a huge invest
+    [...] 
+ Content analysis details:   (16.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.0 HK_RANDOM_FROM         From username looks random
+  0.5 FROM_LOCAL_NOVOWEL     From: localpart has series of non-vowel
+                             letters
+  0.7 HK_RANDOM_ENVFROM      Envelope sender username looks random
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.0 T_SPF_HELO_PERMERROR   SPF: test of HELO record failed (permerror)
+  0.0 DKIM_ADSP_CUSTOM_MED   No valid author signature, adsp_override is
+                              CUSTOM_MED
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [mjvkcbkolo[at]gmail.com]
+  1.0 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+  1.2 NML_ADSP_CUSTOM_MED    ADSP custom_med hit, and not from a mailing
+                             list
+  1.8 SPOOFED_FREEMAIL       No description available.
+  0.6 SPOOF_GMAIL_MID        From Gmail but it doesn't seem to be...
+  2.5 SPOOFED_FREEM_REPTO    Forged freemail sender with freemail
+                             reply-to
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Invest in token and get 10% bonus
+
+
+Hello, 
+ 
+We are pleased to welcome you to our Early Adopters sale. The Early Adopter sale is going to be conducted privately as this is not announced on any of the social media platforms. This is a huge investment opportunity as the Early Adopters token price is 0.01 Euro. Our next private round, “The seed sale” will have a price of 0.025 Euros. That would go up to 0.06 by the final round of the pre-sale.  
+
+And for limited time get 10% bonus on your first purchase: https://bit.ly/tokenSale
+
+After months of hard work and efforts, we are finally here to start our token sale. Vudi, is the first decentralized video e-commerce platform. A community of incentivized creators, advertisers, and shoppers. https://bit.ly/tokenWeb
+ 
+You can learn more about the success of our technology in the Altcoin Daily video: 
+https://bit.ly/AltcoinDailyVideo
+ 
+To buy the tokens, you have to create an account on our private token sale platform https://bit.ly/tokenSale
+ 
+Click the link below to buy your tokens now! 
+https://bit.ly/tokenSale
+
+Feel free to contact us for more information!
+
+Buy tokens link: https://bit.ly/tokenSale
+
+Email: Vuditokensale@gmail.com
+

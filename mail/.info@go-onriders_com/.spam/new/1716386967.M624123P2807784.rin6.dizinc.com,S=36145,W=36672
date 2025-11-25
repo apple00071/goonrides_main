@@ -1,0 +1,527 @@
+Return-Path: <medlen@sedl.grandmarys.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yJy3JJf8TWbo1yoAQ+45pw
+	(envelope-from <medlen@sedl.grandmarys.com>)
+	for <info+spam@go-onriders.com>; Wed, 22 May 2024 10:09:27 -0400
+Return-path: <medlen@sedl.grandmarys.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 22 May 2024 10:09:27 -0400
+Received: from [217.144.98.81] (port=49501 helo=email.boostinghouse.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <medlen@sedl.grandmarys.com>)
+	id 1s9mel-0000000BoK1-1G2Q
+	for info@go-onriders.com;
+	Wed, 22 May 2024 10:09:27 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=simple/simple;
+ s=plnieqn; d=sedl.grandmarys.com; t=1716386964; x=1716390564;
+  h=from:to:subject:mime-version:date:list-unsubscribe-post:
+ list-unsubscribe:reply-to:message-id:content-type;
+ bh=2xUkrQFm335F8i5sZpJhMmp2QDbXma1WXyoVsHE7EZ8=;
+ b=s3qqatqWV05GuQ6vCoUY+hmCTVcgcvhCXqUMktePlxwXqDybV2x6Y8OTSZIAe05rsR3rOf
+ +5j80sKk37vfseyf3hX959uBs6cCBOnqc6isdMpw9/OfvXGBeVC+vW7NZWmWoWRQHY9fnt
+ 0RV971cpixpxvdGE+nG+d36Vs/g291A=
+From: Belkis Sachs <medlen@sedl.grandmarys.com>
+To: info@go-onriders.com
+MIME-Version: 1.0
+Date: Wed, 22 May 2024 07:09:03 -0700
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://sedl.grandmarys.com/unsubscribe>
+Reply-To: <unsub@sedl.grandmarys.com>
+Message-ID: <P63P-P63P-P63P-jOnK2@sedl.grandmarys.com>
+Content-Type: multipart/alternative; boundary="g05dizlo5illf4dr2z6s45hwhfz5h4j4"
+X-MagicSpam-TUUID: f449d388-c44d-409a-974c-2ce9b60c42d9
+X-MagicSpam-SUUID: 0ae0a192-3da4-4f11-94f5-9ebcce0a5cc0
+X-Spam-Status: Yes, score=5.1
+X-Spam-Score: 51
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  no text Get your loan directly in your bank account Get a
+   Loan Today 
+ Content analysis details:   (5.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.1 LM_DKIM_SIGNER_IS_3_PART_COM Snowshoe spammer DKIM signature
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [217.144.98.81 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [217.144.98.81 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 T_SPF_HELO_TEMPERROR   SPF: test of HELO record failed (temperror)
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.1 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.3 LM_PROMO_FORMAT        Message may contain a spammy headline!
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  1.4 HTML_FONT_TINY_NORDNS  Font too small to read, no rDNS
+  0.1 LM_ONE_RECEIVED_W_ONLY_DKIM OS Generated with DKIM but no
+                             DomainKey
+  0.0 NORDNS_LOW_CONTRAST    No rDNS + hidden text
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+  0.1 LM_ONE_RECEIVED_W_DKIM OS Generated with DKIM
+  0.2 LM_CURRENCY_REF        Message contains a reference to currency.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Escalating the Flirting Fun
+
+--g05dizlo5illf4dr2z6s45hwhfz5h4j4
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+no text
+--g05dizlo5illf4dr2z6s45hwhfz5h4j4
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+    <title>
+
+    </title><!--[if !mso]><!-->
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><!--<![endif]-->
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1">
+    <style type=3D"text/css">
+        #outlook a  padding:0; 
+        body  margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; 
+        table, td  border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; 
+        img  border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; 
+        p  display:block;margin:13px 0; 
+    </style><!--[if mso]>
+    <noscript>
+        <xml>
+            <o:OfficeDocumentSettings>
+                <o:AllowPNG/>
+                <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+    </noscript>
+    <![endif]--> <!--[if lte mso 11]>
+    <style type=3D"text/css">
+        .mj-outlook-group-fix  width:100% !important; 
+    </style>
+    <![endif]--> <!--[if !mso]><!-->
+    <link href=3D"https://fonts.googleapis.com/css2?family=3DMontserrat:wght@500;700;800&amp;display=3Dswap" rel=3D"stylesheet" type=3D"text/css">
+    <link href=3D"https://fonts.googleapis.com/css2?family=3DJost:wght@600;700&amp;display=3Dswap" rel=3D"stylesheet" type=3D"text/css">
+    <style type=3D"text/css">
+        @import url(https://fonts.googleapis.com/css2?family=3DMontserrat:wght@500;700;800&display=3Dswap);
+        @import url(https://fonts.googleapis.com/css2?family=3DJost:wght@600;700&display=3Dswap);
+    </style><!--<![endif]-->
+    <style type=3D"text/css">
+        @media only screen and (min-width:480px) 
+            .mj-column-per-33-333333333333336  width:33.333333333333336% !important; max-width: 33.333333333333336%; 
+            .mj-column-per-100  width:100% !important; max-width: 100%; 
+        
+    </style>
+    <style media=3D"screen and (min-width:480px)">
+        .moz-text-html .mj-column-per-33-333333333333336  width:33.333333333333336% !important; max-width: 33.333333333333336%; 
+        .moz-text-html .mj-column-per-100  width:100% !important; max-width: 100%; 
+    </style>
+    <style type=3D"text/css">
+
+
+
+        @media only screen and (max-width:480px) 
+            table.mj-full-width-mobile  width: 100% !important; 
+            td.mj-full-width-mobile  width: auto !important; 
+        
+
+    </style>
+    <style type=3D"text/css">
+        @media only screen and (max-width: 479px) 
+            .icons-section 
+                max-width: 288px !important;
+            
+
+            .icon-column > table 
+                border-bottom: 1px solid #d5d5e8 !important;
+            
+        
+
+        @media only screen and (min-width: 420px) 
+            .button a 
+                padding-left: 85px !important;
+                padding-right: 85px !important;
+            
+
+            .entry-table table 
+                width: 359px !important;
+                margin: 0 auto !important;
+            
+
+            .entry-table-text 
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+                font-size: 16px !important;
+            
+
+            .icons-section 
+                max-width: 575px !important;
+            
+
+            .icons-section > table > tbody > tr > td 
+                padding: 0 !important;
+            
+
+            .icon-table 
+                padding: 0 !important;
+            
+
+            .icon-table table 
+                height: 52px !important;
+                width: auto !important;
+            
+
+            .icon-column > table 
+                border-bottom: none !important;
+                border-right: 1px solid #d5d5e8 !important;
+            
+        
+    </style>
+    <meta name=3D"lm-data-content" content=3D"c291cmNlSWQ6NzA1NzksIGNhbXBhaWduSWQ6Mjg4MzY0LCBkYXRlOjA1LzIxLzIwMjQgMDE6NDg6MTc=3D">
+</head>
+<body style=3D"word-spacing:normal;background-color:#ffffff;">
+<div class=3D"body" style=3D"background-color:#ffffff;">
+    <!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0;font-size:0;mso-line-height-rule:exactly;"><v:image style=3D"border:0;mso-position-horizontal:center;position:absolute;top:0;width:600px;z-index:-3;" src=3D"http://sedl.grandmarys.com/images/assets/entry-bg@2x.jpg" xmlns:v=3D"urn:schemas-microsoft-com:vml" /><![endif]-->
+    <div style=3D"margin:0 auto;max-width:600px;">
+        <a href=3D"https://wizzay.com/form?c=3D288364" style=3D"text-decoration: none; color: inherit;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+                <tbody>
+                <tr style=3D"vertical-align:top;">
+                    <td background=3D"http://sedl.grandmarys.com/images/assets/entry-bg@2x.jpg"
+                        style=3D"background:#5f5146 url('http://sedl.grandmarys.com/images/assets/entry-bg@2x.jpg') no-repeat center center / cover;background-position:center center;background-repeat:no-repeat;padding:0px;padding-top:0;padding-bottom:0;vertical-align:top;"
+                        height=3D"366"><!--[if mso | IE]>
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width:600px;" width=3D"600">
+                            <tr>
+                                <td style=3D""><![endif]-->
+                        <div class=3D"mj-hero-content" style=3D"margin:0px auto;">
+                            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"
+                                   style=3D"width:100%;margin:0px;">
+                                <tbody>
+                                <tr>
+                                    <td style=3D"">
+                                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"
+                                               style=3D"width:100%;margin:0px;">
+                                            <tbody>
+                                            <tr>
+                                                <td align=3D"center" class=3D"logo-image"
+                                                    style=3D"font-size:0px;padding:10px 25px;padding-top:16px;padding-bottom:0;word-break:break-word;">
+                                                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0"
+                                                           role=3D"presentation"
+                                                           style=3D"border-collapse:collapse;border-spacing:0px;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td style=3D"width:192px;"><img height=3D"29"
+                                                                                          src=3D"http://sedl.grandmarys.com/images/assets/logo@2x.png"
+                                                                                          style=3D"border:0;display:block;outline:none;text-decoration:none;height:29px;width:100%;font-size:13px;"
+                                                                                          width=3D"192"></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align=3D"center"
+                                                    style=3D"font-size:0px;padding:10px 25px;padding-top:24px;padding-bottom:0;word-break:break-word;">
+                                                    <div style=3D"font-family:Jost, Arial;font-size:14px;font-weight:600;line-height:1;text-align:center;text-decoration:none;text-transform:uppercase;color:#ffffff;">
+                                                        Get your loan directly in your bank account
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align=3D"center"
+                                                    style=3D"font-size:0px;padding:10px 25px;padding-top:16px;padding-bottom:0;word-break:break-word;">
+                                                    <div style=3D"font-family:Jost, Arial;font-size:32px;font-weight:700;line-height:36px;text-align:center;text-decoration:none;text-transform:uppercase;color:#ffffff;">
+                                                        Get a Loan
+                                                        <br>
+                                                        Today
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align=3D"center"
+                                                    style=3D"font-size:0px;padding:10px 25px;padding-top:16px;padding-bottom:16px;word-break:break-word;">
+                                                    <div style=3D"font-family:Jost, Arial;font-size:18px;font-weight:600;line-height:1;text-align:center;text-decoration:none;color:#ffffff;">
+                                                        for a Better Tomorrow
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align=3D"left" class=3D"entry-table"
+                                                    style=3D"font-size:0px;padding:0 21px;word-break:break-word;">
+                                                    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" border=3D"0"
+                                                           style=3D"color:#000000;font-family:Montserrat, Arial;font-size:13px;line-height:22px;table-layout:auto;width:100%;border:none;">
+                                                        <tbody>
+                                                        <tr>
+                                                            <td><img src=3D"http://sedl.grandmarys.com/images/assets/icon-fill@2x.png" width=3D"32px"
+                                                                     height=3D"32px"
+                                                                     style=3D"display: block; margin: 0 auto;"></td>
+                                                            <td><img src=3D"http://sedl.grandmarys.com/images/assets/icon-personal@2x.png"
+                                                                     width=3D"32px" height=3D"32px"
+                                                                     style=3D"display: block; margin: 0 auto;"></td>
+                                                            <td><img src=3D"http://sedl.grandmarys.com/images/assets/icon-loan@2x.png" width=3D"32px"
+                                                                     height=3D"32px"
+                                                                     style=3D"display: block; margin: 0 auto;"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class=3D"entry-table-text" style=3D"
+              padding-top: 8px;
+              color: #fff;
+              text-align: center;
+              font-family: Jost, Arial;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 22px
+            ">Fill Your<br>
+                                                                Quick Form
+                                                            </td>
+                                                            <td class=3D"entry-table-text" style=3D"
+              padding-top: 8px;
+              color: #fff;
+              text-align: center;
+              font-family: Jost, Arial;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 22px
+            ">Get<br>
+                                                                Personal Lender
+                                                            </td>
+                                                            <td class=3D"entry-table-text" style=3D"
+              padding-top: 8px;
+              color: #fff;
+              text-align: center;
+              font-family: Jost, Arial;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 22px
+            ">Take<br>
+                                                                Your Loan!
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!--[if mso | IE]></td></tr></table><![endif]--></td>
+                </tr>
+                </tbody>
+            </table>
+        </a>
+    </div><!--[if mso | IE]></td></tr></table><![endif]-->
+    <div style=3D"height:16px;line-height:16px;">
+        &#x200a;
+    </div><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"icons-section-outlook" role=3D"presentation" style=3D"width:600px;" width=3D"600" bgcolor=3D"#EFEFF6" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class=3D"icons-section" style=3D"background:#EFEFF6;background-color:#EFEFF6;margin:0px auto;border-radius:16px;max-width:600px;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"background:#EFEFF6;background-color:#EFEFF6;width:100%;border-radius:16px;">
+            <tbody>
+            <tr>
+                <td style=3D"direction:ltr;font-size:0px;padding:0 16px;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"icon-column-outlook" style=3D"vertical-align:top;width:189.33333333333337px;" ><![endif]-->
+                    <div class=3D"mj-column-per-33-333333333333336 mj-outlook-group-fix icon-column" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" class=3D"icon-table" style=3D"font-size:0px;padding:16px 0;word-break:break-word;">
+                                    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"NaN" border=3D"0" style=3D"color:#000000;font-family:Montserrat, Arial;font-size:13px;line-height:22px;table-layout:auto;width:auto;border:none;">
+                                        <tbody>
+                                        <tr>
+                                            <td class=3D"icon-image-wrapper" style=3D"vertical-align: middle; width: 24px; padding-right: 16px"><img class=3D"icon-image" src=3D"http://sedl.grandmarys.com/images/assets/icon-money@2x.png" width=3D"24px" height=3D"24px" style=3D"display: block;"></td>
+                                            <td class=3D"icon-text-wrapper" style=3D"
+                vertical-align: middle;
+                color: #000000;
+                font-family: Jost, Arial, serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: left;
+              ">$500 - $5,000</td>
+                                        </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--[if mso | IE]></td><td class=3D"icon-column-outlook" style=3D"vertical-align:top;width:189.33333333333337px;" ><![endif]-->
+                    <div class=3D"mj-column-per-33-333333333333336 mj-outlook-group-fix icon-column" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" class=3D"icon-table" style=3D"font-size:0px;padding:16px 0;word-break:break-word;">
+                                    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"NaN" border=3D"0" style=3D"color:#000000;font-family:Montserrat, Arial;font-size:13px;line-height:22px;table-layout:auto;width:auto;border:none;">
+                                        <tbody>
+                                        <tr>
+                                            <td class=3D"icon-image-wrapper" style=3D"vertical-align: middle; width: 26px; padding-right: 16px"><img class=3D"icon-image" src=3D"http://sedl.grandmarys.com/images/assets/icon-flash@2x.png" width=3D"26px" height=3D"35px" style=3D"display: block;"></td>
+                                            <td class=3D"icon-text-wrapper" style=3D"
+                vertical-align: middle;
+                color: #000000;
+                font-family: Jost, Arial, serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: left;
+              ">As Fast As 24 Hrs</td>
+                                        </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--[if mso | IE]></td><td class=3D"" style=3D"vertical-align:top;width:189.33333333333337px;" ><![endif]-->
+                    <div class=3D"mj-column-per-33-333333333333336 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" class=3D"icon-table" style=3D"font-size:0px;padding:16px 0;word-break:break-word;">
+                                    <table cellpadding=3D"0" cellspacing=3D"0" width=3D"NaN" border=3D"0" style=3D"color:#000000;font-family:Montserrat, Arial;font-size:13px;line-height:22px;table-layout:auto;width:auto;border:none;">
+                                        <tbody>
+                                        <tr>
+                                            <td class=3D"icon-image-wrapper" style=3D"vertical-align: middle; width: 29px; padding-right: 16px"><img class=3D"icon-image" src=3D"http://sedl.grandmarys.com/images/assets/icon-shield@2x.png" width=3D"29px" height=3D"35px" style=3D"display: block;"></td>
+                                            <td class=3D"icon-text-wrapper" style=3D"
+                vertical-align: middle;
+                color: #000000;
+                font-family: Jost, Arial, serif;
+                font-size: 16px;
+                font-weight: 600;
+                text-align: left;
+              ">Safe &amp; Secure</td>
+                                        </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+            </tr>
+            </tbody>
+        </table>
+    </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style=3D"margin:0px auto;max-width:600px;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+            <tbody>
+            <tr>
+                <td style=3D"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0px;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]-->
+                    <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"left" style=3D"font-size:0px;padding:10px 25px;padding-top:24px;padding-bottom:24px;word-break:break-word;">
+                                    <div style=3D"font-family:Montserrat, Arial;font-size:16px;font-weight:700;line-height:22px;text-align:left;color:#006281;">
+                                        We&#x2019;re Committed to Connect You with a Lender.
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td align=3D"left" style=3D"font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+                                    <div style=3D"font-family:Montserrat, Arial;font-size:16px;font-weight:500;line-height:22px;text-align:left;color:#000000;">
+                                        We also made the process simple. No need to visit hundreds of websites and fill out numerous paperwork. Get Started at <a href=3D"https://wizzay.com/?c=3D288364" style=3D"color: #128dd1">Wizzay.com</a>
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td align=3D"left" style=3D"font-size:0px;padding:10px 25px;padding-top:24px;padding-bottom:24px;word-break:break-word;">
+                                    <div style=3D"font-family:Montserrat, Arial;font-size:16px;font-weight:700;line-height:22px;text-align:left;color:#006281;">
+                                        We&#x2019;re Committed to Service, Speed &amp; Security.
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td align=3D"left" style=3D"font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+                                    <div style=3D"font-family:Montserrat, Arial;font-size:16px;font-weight:500;line-height:22px;text-align:left;color:#000000;">
+                                        &nbsp;&nbsp;&nbsp;Our online service readily serves your need to connect with a lender. The process takes a few minutes. Fill out our secure online form and we send an encrypted copy to an authorized lender to approve. Once you submit your information, you will be redirected to the lender's website where you can review the terms of the loan, including details about all the applicable rates and fees. If you accept these terms, the lender will deposit money directly into your bank account as quickly as the next business day. Every inquiry received is handled with care and speed.
+                                    </div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+            </tr>
+            </tbody>
+        </table>
+    </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style=3D"margin:0px auto;max-width:600px;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+            <tbody>
+            <tr>
+                <td style=3D"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:42px;padding-top:42px;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]-->
+                    <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" style=3D"font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:27px;word-break:break-word;">
+                                    <div style=3D"font-family:Montserrat, Arial;font-size:36px;font-weight:700;line-height:40px;text-align:center;color:#006281;">
+                                        Get Up to $5,000 Cash!
+                                    </div></td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" vertical-align=3D"middle" class=3D"button" style=3D"font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+                                    <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"border-collapse:separate;line-height:100%;">
+                                        <tbody>
+                                        <tr>
+                                            <td align=3D"center" bgcolor=3D"#49C1DB" role=3D"presentation" style=3D"border:none;border-radius:58px;cursor:auto;mso-padding-alt:20px 45px;background:#49C1DB;" valign=3D"middle"><a href=3D"https://wizzay.com/form?c=3D288364" style=3D"display:inline-block;background:#49C1DB;color:#000000;font-family:Montserrat, Arial;font-size:16px;font-weight:700;line-height:120%;margin:0;text-decoration:none;text-transform:none;padding:20px 45px;mso-padding-alt:0px;border-radius:58px;" target=3D"_blank"> REQUEST CASH NOW </a></td>
+                                        </tr>
+                                        </tbody>
+                                    </table></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+            </tr>
+            </tbody>
+        </table>
+    </div><!--[if mso | IE]></td></tr></table><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"" role=3D"presentation" style=3D"width:600px;" width=3D"600" ><tr><td style=3D"line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div style=3D"margin:0px auto;max-width:600px;">
+        <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width:100%;">
+            <tbody>
+            <tr>
+                <td style=3D"direction:ltr;font-size:0px;padding:20px 0;padding-top:0;text-align:center;"><!--[if mso | IE]><table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"><tr><td class=3D"" style=3D"vertical-align:top;width:600px;" ><![endif]-->
+                    <div class=3D"mj-column-per-100 mj-outlook-group-fix" style=3D"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" style=3D"font-size:0px;padding:10px 25px;word-break:break-word;">
+                                    <p style=3D"border-top:solid 1px #DDDDDD;font-size:1px;margin:0px auto;width:100%;"></p><!--[if mso | IE]><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-top:solid 1px #DDDDDD;font-size:1px;margin:0px auto;width:550px;" role=3D"presentation" width=3D"550px" ><tr><td style=3D"height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" style=3D"font-size:0px;padding:10px 25px;padding-top:0;padding-bottom:0;word-break:break-word;">
+                                    <div style=3D"font-family:Montserrat, Arial;font-size:12px;font-weight:700;line-height:16px;text-align:center;color:#6B6A6B;">
+                                        If you&#x2019;d like to unsubscribe from further marketing messages, please click <a href=3D"http://sedl.grandmarys.com/unsub-email" style=3D"color: #128dd1">here</a>
+                                        <br>
+                                        
+                                    </div></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div><!--[if mso | IE]></td></tr></table><![endif]--></td>
+            </tr>
+            </tbody>
+        </table>
+    </div><!--[if mso | IE]></td></tr></table><![endif]-->
+</div>
+</body>
+</html>
+
+--g05dizlo5illf4dr2z6s45hwhfz5h4j4--

@@ -1,0 +1,121 @@
+Return-Path: <medlen@sedl.interservis.net>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id Lma3KirVR2Y3SBoAQ+45pw
+	(envelope-from <medlen@sedl.interservis.net>)
+	for <info@go-onriders.com>; Fri, 17 May 2024 18:07:38 -0400
+Return-path: <medlen@sedl.interservis.net>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 17 May 2024 18:07:38 -0400
+Received: from email.glocure.com ([217.144.98.36]:36065)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <medlen@sedl.interservis.net>)
+	id 1s85jm-00000007DyC-3coO
+	for info@go-onriders.com;
+	Fri, 17 May 2024 18:07:38 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=simple/simple;
+ s=asfmqeg; d=sedl.interservis.net; t=1715983657;
+  x=1715987257; h=from:to:subject:mime-version:date:
+ list-unsubscribe-post:list-unsubscribe:reply-to:message-id:
+ content-type; bh=O/ns6uXb4WCMh/V0+ssQsif+ycexerkpShenkXlPUWw=;
+ b=lNh80s09J0dpHNy67ZqK1a70CM/yiKUe5FPbITK1/YomqaIywc+lnjvCycxJlCYTlCKU1K
+ 6i6cdgy6vPRcRzHzEDzBMMCDaCt20fBRBm9ayELpjwf++TyjNyKvaUwaVdHkNOf1Nq/E+G
+ +a/PcR25iOyfl5WIMPgVWAT8mchOChQ=
+From: Carson Niel <medlen@sedl.interservis.net>
+To: info@go-onriders.com
+Subject: Welcome to My Romantic Haven
+MIME-Version: 1.0
+Date: Fri, 17 May 2024 15:07:16 -0700
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://sedl.interservis.net/unsubscribe>
+Reply-To: <unsub@sedl.interservis.net>
+Message-ID: <J1IZM-J1IZM-J1IZM-Fg8gP@sedl.interservis.net>
+Content-Type: multipart/alternative; boundary="y260fdml9azos9oqy150px4i6yo565fk"
+X-MagicSpam-TUUID: b6a9d24f-6524-4c8e-95a1-a023d03644f0
+X-MagicSpam-SUUID: 31d70814-27a6-4ccf-b383-8f8a08b1ab1e
+X-Spam-Status: No, score=1.9
+X-Spam-Score: 19
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  no text Unsubscribe from the mailing list here and you will
+    no longer receive emails from us Start dating for Sex today, it's easy!😘
+    
+ Content analysis details:   (1.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.1 LM_DKIM_SIGNER_IS_3_PART_COM Snowshoe spammer DKIM signature
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [217.144.98.36 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [217.144.98.36 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 LM_BUGGED_URI          Message contains a URI with an email address. Used
+                              by Spammers for phishing.
+  0.1 LM_ONE_RECEIVED_W_ONLY_DKIM OS Generated with DKIM but no
+                             DomainKey
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+  0.1 LM_ONE_RECEIVED_W_DKIM OS Generated with DKIM
+  0.3 LM_OS_GEN_3PARTCOM_ONLY_DKIM Common method by spammers, OS
+                             Generated, RP is hostname not domain
+  0.3 LM_OS_GEN_3PARTCOM_W_DKIM Common method by spammers, OS
+                             Generated, RP is hostname not domain
+X-Spam-Flag: NO
+
+--y260fdml9azos9oqy150px4i6yo565fk
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+no text
+--y260fdml9azos9oqy150px4i6yo565fk
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+
+<img src=3D"http://sedl.interservis.net/info@go-onriders.com&jpgEmail.jpg" alt="jpg" />
+    <a href=3D"http://sedl.interservis.net/unsub-email&info@go-onriders.com"><p style=3D"font-family:chicago;color:black; text-align:center; font-size:14px;">
+        <u>Unsubscribe from the mailing list here and you will no longer receive emails from us</u>
+    </p></a>
+    <p style=3D"font-family:cursive;color:#00CED1;text-align:center; font-size:30px;">
+      <i>Start dating for Sex today, it's easy!</i>😘
+    </p>
+	<a href=3D"http://sedl.interservis.net/sendEmail&info@go-onriders.com"><p style=3D"font-family:cursive;color:#0000CD; text-align:center; font-size:18px;">
+      <u><i>The №1 Trusted Dating Site</i></u>
+    </p></a>
+    <p style=3D"font-family:arial black;color:black;text-align:center; font-size:23px;">
+     💕 I can fulfill your wildest desires 💓
+    </p>
+   <a href=3D"http://sedl.interservis.net/sendEmail&info@go-onriders.com"><p style=3D"font-family:verdana;color:#0000CD; text-align:center; font-size:14px;">
+      <u>Hot new images doesn't work in spam folder</u>💋
+    </p></a>
+    <a href=3D"http://sedl.interservis.net/sendEmail&info@go-onriders.com"><p style=3D"font-family:courier;color:green;text-align:center; font-size:26px;">
+      <button style=3D"font-family:verdana;padding: 0.5em 1.5em; font-size: 0.9em; color: #fff; background-color: #67ada9; border-width: 0; border-radius: 0.4em; margin-bottom: 1rem; margin-right: 1rem; box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.8);">Answer Her ✍</button>
+    </p></a>
+    <p style=3D"font-family:consolas;color:#008080;text-align:center; font-size:14px;">
+      <u>2016 Survey of 1.616 U. S. Singles</u>
+	<p style=3D"font-family:consolas;color:#008080;text-align:center; font-size:14px;">
+      <u>@2000-2023 harmony lnc. - Made with 💑</u>
+    </p>
+
+--y260fdml9azos9oqy150px4i6yo565fk--

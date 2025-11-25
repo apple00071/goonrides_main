@@ -1,0 +1,251 @@
+Return-Path: <AmandaSmitha21@outlook.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id WKo4CxGit2VGEwAAQ+45pw
+	(envelope-from <AmandaSmitha21@outlook.com>)
+	for <info+spam@go-onriders.com>; Mon, 29 Jan 2024 08:03:13 -0500
+Return-path: <AmandaSmitha21@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 29 Jan 2024 08:03:13 -0500
+Received: from mail-sgaapc01olkn2062.outbound.protection.outlook.com ([40.92.53.62]:38720 helo=APC01-SG2-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <AmandaSmitha21@outlook.com>)
+	id 1rURI7-0001f1-1W
+	for info@go-onriders.com;
+	Mon, 29 Jan 2024 08:03:13 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=LWkK+qmwRgpbF3TfHY4mDLp0m/fbmoZEZ5ukXMv0yjfPNtrx2h4P8dO8mgqZVLxGc7XEqG2acnDw/CZOLy0CebpYYi7MaaJVRIcCydwLFctQqCIxKUKE1zjQxg7BiSCHSlq9LUqgeT+wQ+9NTBlShpr0Htj7k+jL3M+5q83H1SZADkuYIM/s9N7Hp4oFHV61R2t4eGRpjR/0WoqkNC2z6NNJk2K5cr8edhaaySau0pMijwn+RHv/ukMWT/ZOg+HFzpzS4i41H8ZRBcRqCnR2TkHYkvHK271KR5ocExpAqN9oy5OJ0dcYiRoqPOq4gDUi7+Tmn61uM19rplrfm0E4GA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=TOiELibvX7Fsa++yrz9M6SwQ0F64xNQAb1ZCw0xcpOI=;
+ b=cxaqDgY18xwxocvfi660x/vqVSmppdBOUdz4S7Co/1yhicDQ7jrv4s4WtLwoYr0L9XA3L3XjdIJfi8tH3z7dHIxMuPh0hlpvAwwPufr7VmA4EPzH/DnmVWo++hDw4c4rznYcTYFcOJW7zXB1gzOF9hR+ODRjx82Y3uRod32CsABzzQGF9lfw6V3C76J+Hm6l0ugLtbA6PV7v6ce5qKUKpw9K4W0UU+G1nyaO1TBWCe0UCn4L6nUwxzpIOVxHO2CUyBtdTnIHKpxjHlD99GASEUQQb9yz9wZH7POPzR++dZ+1XUu/CYvxvM7Kva3rSL2oWNHORoW5H8XhYc0pFkSYPA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=TOiELibvX7Fsa++yrz9M6SwQ0F64xNQAb1ZCw0xcpOI=;
+ b=FQvgBMz7utSTPhaYlqsEFUanWismNhNxp7JxXme8l8KORb3cxK+JtQ1mKqeLt6Cd/kGKota0QYalZh8YN2ngdxK1m4qaxK835gn0OduFZNaGX8QOT1a3JnLavL7MZfCdixBirk5aO3CBHQjiA9bVhKdPcYPMhUutitr27Nuv62rD9xesD68ai9SyfcpDGvFrIPCkQhlWL7aC+UiXW6RHd8jHbKzxbTCZbhhQRWLYjh1vVoR9WhGh/uAPs3FpnexlBj0GfH0VEyFyVRa90ZC8nq5Q+McHdHFioxZy4xuOegZ596STQNcHlFVQ6L3zYyhO1mHfNp3bLyupPIFWPDktzQ==
+Received: from PUZPR04MB6512.apcprd04.prod.outlook.com (2603:1096:301:f4::8)
+ by KL1PR04MB6693.apcprd04.prod.outlook.com (2603:1096:820:de::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7228.32; Mon, 29 Jan
+ 2024 13:01:21 +0000
+Received: from PUZPR04MB6512.apcprd04.prod.outlook.com
+ ([fe80::4351:63dc:9918:b81]) by PUZPR04MB6512.apcprd04.prod.outlook.com
+ ([fe80::4351:63dc:9918:b81%2]) with mapi id 15.20.7228.029; Mon, 29 Jan 2024
+ 13:01:21 +0000
+From: "AmandaSmitha21@outlook.com" <AmandaSmitha21@outlook.com>
+Thread-Topic: Industries app
+Thread-Index: AQHaUrMy0+rw/WcvM0+DrlpCmv/Qug==
+Date: Mon, 29 Jan 2024 13:01:20 +0000
+Message-ID:
+ <PUZPR04MB6512767489CA39A91EC36B62D37E2@PUZPR04MB6512.apcprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn:
+ [2D0H39LN3KiQGFNzdxSaCv1zJakLhgpD9x34QX480fGYfaOydQMYuKUZ3+AVBL0hDulmjYnMXnk=]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PUZPR04MB6512:EE_|KL1PR04MB6693:EE_
+x-ms-office365-filtering-correlation-id: 72970de5-7977-4fcd-6f09-08dc20ca6350
+x-ms-exchange-slblob-mailprops:
+ quCBMN2EvO+3eCjVWNsab6ejviD9G0voEcgBcOb4QyedOo9Ol8suaer1WncnZ7LiXi/linRmMCdqeyrfljAtMfD+tIPB1vCxUdDySuM1YqFfwYqRHl5mA+XC3GzlssvoGl2vTugSrot/owJyeqKKyVUQdtlAhvhMsrBrzVHzb56hwDtFmvr7dzb6in9hCRb9dHhsgiqeyg6fKGrHPRIoMp0I6JzgHri9sIs7XlJ+VUsgGN3/qfRyvTQGMqpGKbBQQkWYit6HNygcRaUt95g7OZJ9D7hTCldMIwD2+4iypV8o5ATXPX0/eUQRVgjue86hOsu/Z8iLyuWAYedZ0YxsofZJOs5JRx1O+l9GVk3FVb0GjJ6pFBulijc47xEV2vkF8rl4GqZMlShjJBxBG+qEu6MootYcOwsat1/XGg4uqgco1FKmPVE+zcyLnOsF7uCa4OgzG8tfzt6BaBh+H+OnxhZcZXjpab/kd+q05GZXqKoeb/QUmEF2TP7prBERULlM5Vd+AmdLNn7JsJ0zYpv+YlrpGq/R9SXHa0KDp74rWR2haEaUON5S//NOOKYbkle75WzyqKkSxGWE5zb9fBrhGY3Yf504qPPHYL5uMT138cEwCoTpsS031UZgDJ0L6L4PCwPeO9DamISLp6Cw3UAaYNXQCJapDl4VhIGe9j8eSyvhd1q8BWE319QiuqOCLtsRWJdDb/8yzxMFDnojokBHTA==
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ jFjclrioQMBsm+O9TI5uwtd1y+Dd8gpa8f/wwpm9ykr8Vd7nWQlGCLE3AEBoWke/AIjMyOsAVgcyhAfOnNDadcxOuepVX/x9WZi8lTrLd7iK81Po2axOUgyYd2yx9qVPS60Ye6X82GZ0eA2bLThd2Iu/sDmu6CUUGULoKDWvtoVwvBA/2ibfHHiZt+uZ6ZOsaZHtG97U/zOEaU33+HCESaqc62cZReUq/tesv/IWm09UMoSZxHfEXvNZrSa0acJkd54YdlamVFUXBmIXoEoZ+JDCXEZB/Zm8+1aFmTamjGKkibIl54ulqGdZRVoEBH0OY8keRgdIsKLOYkONDrl++vJN3IXvOOPSPc4w/X+rhQNhFd0SHb6vEHuk8lVg49LwIergnEFFqfnCWHspuMqU4vWfGbA4hy+GLZBlzEunwgOm3uPwNBOTYwAnz8SSNWu3Ajlj11thNDS/0+bkcQlreiLWUkIZJXbA9bybuJkI0Q61fF3N3k08aHNTtqKQStbZV93PDnYFpAz13iy/K1H5o6ctVVXAKfJYghfF+GXuHNh/ehFR9N1fOVGSRl7dbgrr
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?UyRbuyWDjP8ckxEjXXOnqz29r4p85XqXvkCiN6fdje9moOJhWqoT/BaB?=
+ =?Windows-1252?Q?gmSOoqUEKMY2csO2Qy9Ug3UHe+r8IHGmhDBaXxESkkeYydjsjKHS8bfK?=
+ =?Windows-1252?Q?7QKcrqrGVsSA7gwM5sKKiR7IXKvnO2kR1U5lN3NmnzfiGBB30aEgw2I0?=
+ =?Windows-1252?Q?zVlP00sxScaDTXiP9GiCnz+qkFCWBDgQgjT6xmQpovH7JGNVMJdA9E05?=
+ =?Windows-1252?Q?IeQ3/09eVPs9ROU2VjA1w3ZweW14R4i3DtI6nJ0d7cA/Ujcn3WMthwJy?=
+ =?Windows-1252?Q?lLUp144oW0m/b2N/fzU4aodycvde25Q2RBYp899IC0RpsNrxBnjulABm?=
+ =?Windows-1252?Q?z7oJoynRc8Ahg2FyKZbeHVd+n+nahBh1d5dkVvBqu7KMPKBRpcA4twQg?=
+ =?Windows-1252?Q?U8ONewj3BXFd2cN4QCCzHgKFG/eJQXL6EjeiMQHfGtPROWHUGGnGExbO?=
+ =?Windows-1252?Q?vdkksY5jbQH6LFzT9RLNtu+BTuaqCD4Gkc2IojN6G7keFc0vlru/qix5?=
+ =?Windows-1252?Q?f/Z6kW558uf+x0MsdCgLjsUz+8ilVTDat0hvz0cKlAgf/lil+p2hpF/6?=
+ =?Windows-1252?Q?Ds9LKYq5SqiiIumxO5J/1DED1AI9uze+oPl5xtzYUNf0bJ339SbY3/pG?=
+ =?Windows-1252?Q?qMc0uPkqRBNbdRTFQOdWNxCZr9Wujqbjrk+B+7i1yqo0ZuDo9vfDfxOd?=
+ =?Windows-1252?Q?uowzVn9S825a/5Wk8wiDXlOyRgSa1zEwV0K26ZDJDgDG0u5xbgf19evr?=
+ =?Windows-1252?Q?i3ALgkOZ+7Fpi9V1DoZrGnpG7U221NdFSjStNCtyVE+Rl7ovuXdA+6MK?=
+ =?Windows-1252?Q?ZjUnfrfU3h8MyKVLuCkBBelOhII0SrILsxvGcgSiNn5E3eakUUKLWE5Y?=
+ =?Windows-1252?Q?lTAnD10l+eE3B8snwN+onoTIO4AalhD2Q8snw1vyJ+/CFbaQvTc//gSd?=
+ =?Windows-1252?Q?6W8Eue6Dd+7fK94TZWoLTQ06fE6DBG5fYOeoetrAmmFRzi6EDTZOffJt?=
+ =?Windows-1252?Q?A/g0O/FY1eGzdRZ4+ZdybHFpiEmPCaAonM4cffsEUicZMKE3giqyAscj?=
+ =?Windows-1252?Q?CeJdhDDOi5Ivk5zT7g/IkY9+uVhcHrINw+WfURhNTd8iBSmVIBsod/yh?=
+ =?Windows-1252?Q?lre350z0daS17dpYlso8d0O+8kbMRoloHjTcibQZmYTpbW9VfnqqzhUq?=
+ =?Windows-1252?Q?TP13bix5N0a8/w8quxg6e6+0+MVzcYkgR/EYb3jB9iEVftew7soiT1Nc?=
+ =?Windows-1252?Q?N4AmJr92MkAy8eXulD5RFbK07cm2NW9USFrSAH/7p/ovV3y9fGzXEcMi?=
+ =?Windows-1252?Q?WjupowSU8Pfe6v/q7+kJcnV8XZbyw4aRKOqujsV2PyCUAIrTuuYspjG0?=
+ =?Windows-1252?Q?QuMquw7Y6pQwI8lynE0LuSGOJLOChu+OCwE=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PUZPR04MB6512767489CA39A91EC36B62D37E2PUZPR04MB6512apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PUZPR04MB6512.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 72970de5-7977-4fcd-6f09-08dc20ca6350
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Jan 2024 13:01:20.1210
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR04MB6693
+X-MagicSpam-TUUID: c6b93e62-8e19-4ce2-b8b6-0963c42376b5
+X-MagicSpam-SUUID: 7d930486-514b-4bf9-8115-4afb70278d90
+X-Spam-Status: Yes, score=6.2
+X-Spam-Score: 62
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, Would you be interested in building your Mobile App for
+    your business? We build all kinds of Apps for verticals like: 
+ Content analysis details:   (6.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.3 MISSING_HEADERS        Missing To: header
+  1.0 LM_MSGID_RESEMBLES_BOUNDARY Common trick by spam engines, msgid
+                             is part of the boundary
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [amandasmitha21[at]outlook.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [amandasmitha21[at]outlook.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.5 LM_RECEIVED_THROUGH_ONMICROSOFT Received from a leaky source.
+  0.1 LM_MOBILE_APP_TAGS     Body contains 2+ references to Mobile App
+                             Development
+  1.0 LM_NO_LOGICAL_RECIPS   Emails normally at least specify one
+                             logical To or Cc
+  0.3 LM_FREEMAIL_NORECIPS   Message originated from freemail, no
+                             logical recipients.
+  3.0 LM_FREEMAIL_NOCIP_CONTACT Freemail From with no logical
+                             recipients. Asks you to contact them about
+                              something.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Industries app
+
+--_000_PUZPR04MB6512767489CA39A91EC36B62D37E2PUZPR04MB6512apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+
+
+Would you be interested in building your Mobile App for your business?
+
+We build all kinds of Apps for verticals like:
+
+
+
+=95Home care App          =95 Healthcare App
+
+=95Education Apps     =95 E-learning App
+
+=95Real Estate Apps   =95Real Estate Apps
+
+=95Events Apps          =95Travel Apps
+
+=95Finance Apps         =95Logistics Apps
+
+=95Food Delivery Apps =95Health Fitness Apps
+
+
+
+Please let us know your exact requirement which kinds of Mobile App and for=
+ which service you want so that we can provide solutions accordingly.
+
+
+
+Thanks & Regards,
+
+--_000_PUZPR04MB6512767489CA39A91EC36B62D37E2PUZPR04MB6512apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<p class=3D"elementToProof" style=3D"margin-top: 0px; margin-bottom: 0px;">=
+<span style=3D"font-family: &quot;trebuchet ms&quot;, sans-serif; font-size=
+: 9.75pt; color: rgb(0, 0, 0);">Hi,</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>&nbsp;</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>Would you be interested in building your Mobile App for your business?</sp=
+an></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>We build all kinds of Apps for verticals like:</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>&nbsp;</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>=95Home care App&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =95=
+&nbsp;Healthcare App</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>=95Education Apps&nbsp;&nbsp;&nbsp;&nbsp; =95 E-learning App</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>=95Real Estate Apps&nbsp;&nbsp; =95Real Estate Apps</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>=95Events Apps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =95Tr=
+avel Apps</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>=95Finance Apps&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =95Logisti=
+cs Apps</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>=95Food Delivery Apps =95Health Fitness Apps</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>&nbsp;</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>Please let us know your exact requirement which kinds of Mobile App and fo=
+r which service you want so that we can provide
+ solutions accordingly.</span></p>
+<p style=3D"text-align: left; margin: 0cm;"><span style=3D"font-family: &qu=
+ot;trebuchet ms&quot;, sans-serif; font-size: 9.75pt; color: rgb(0, 0, 0);"=
+>&nbsp;</span></p>
+<p style=3D"text-align: left; margin: 0cm;" class=3D"elementToProof"><span =
+style=3D"font-family: &quot;trebuchet ms&quot;, sans-serif; font-size: 9.75=
+pt; color: rgb(0, 0, 0);">Thanks &amp; Regards,</span></p>
+</body>
+</html>
+
+--_000_PUZPR04MB6512767489CA39A91EC36B62D37E2PUZPR04MB6512apcp_--

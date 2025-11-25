@@ -1,0 +1,198 @@
+Return-Path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 0ICOIPBvvWbj+zIAQ+45pw
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	for <info@go-onriders.com>; Wed, 14 Aug 2024 23:03:12 -0400
+Return-path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 14 Aug 2024 23:03:12 -0400
+Received: from o19837144x29.outbound-mail.sendgrid.net ([198.37.144.29]:48998)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	id 1seQlc-0000000E192-3j9D
+	for info@go-onriders.com;
+	Wed, 14 Aug 2024 23:03:12 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=leadsquared.com;
+	h=content-type:from:mime-version:subject:list-unsubscribe:
+	list-unsubscribe-post:to:cc:content-type:from:subject:to;
+	s=963; bh=DbNINiYk+X5NP4/Ht9MW0YgJJaiYqwwG9aG09GUdBcc=;
+	b=GN4SGxlJuWcsu5TCmYrWwGrX5vFrSc0g8ytbT0DETveL4YEu6VCyXg661hgRniQxH2tl
+	U/kHKloTFWpE9+jpzcaQASbT9I0xGPCi7SGNDM34ex9RX20EYqRkSDfbiwP2q/DW68c8vB
+	7uw0OpVF99f3jD7cZje8E7mKPPJ0790oRAxiOQsdXQIIxAujbTh7mtDRJFU8a5QoddnM0O
+	V5r1KVxXdAH8iGEnajGnhOTuaIg6fX+3x3w/rEE5YGVOnptJ+dckCW1IoVgXtwbJ1s3M5e
+	xQktm6C6CeU7LrHz5gG/j6ibSHYTHCTSwPXpz6+IH4YeufoeMuTB1wFXJDGq1gWg==
+Received: by recvd-77dcd55886-29d4b with SMTP id recvd-77dcd55886-29d4b-1-66BD6FC4-1B
+	2024-08-15 03:02:28.32534752 +0000 UTC m=+1402909.326503310
+Received: from NTgzOTgyNw (unknown)
+	by geopod-ismtpd-5 (SG) with HTTP
+	id HW-z_yxiTUeSmwgC1wgW1A
+	Thu, 15 Aug 2024 03:02:28.227 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=930421449b6775e83d2af1ccb387fc4b317e34879f9b6f6055af05803ae5
+Date: Thu, 15 Aug 2024 03:02:28 +0000 (UTC)
+From: Gayathri Sridhar <marketing@mcube.com>
+Mime-Version: 1.0
+Message-ID: <HW-z_yxiTUeSmwgC1wgW1A@geopod-ismtpd-5>
+Subject: Celebrate Independence Day with MCUBE: Celebrate Freedom and Unlock
+ =?UTF-8?Q?Exclusive=C2=A0Offers!?=
+List-Unsubscribe: 
+ <https://e-in21.gtolink.in/t/em/44880/7/48337409-0b6f-4076-8dff-89bef0062244>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EDcg3HRskK0UD4e6bhpyjYr3n6gMi006TU1nhUSeJDvb0xN7=2FPeopvN3pF?=
+ =?us-ascii?Q?EFFdbIC7vMVR5jL8A0cpOtR7JJYoJFMhWDN=2Fuy6?=
+ =?us-ascii?Q?Jm9hAgv7Gjegy27rmCNB1QbJ2DJhin+Qo65wCgi?=
+ =?us-ascii?Q?KiyjFE2+GffQFLxVIADsL7JOxJp90aetDQgoEi1?=
+ =?us-ascii?Q?5Fb42zRE7etx5Vmo6SN1+0yCSLViAu2oa4LGmeT?=
+ =?us-ascii?Q?MV+qFA=2FnsUPWI8QSMpo6BbuH4IKOrfoBid4JWiA?= =?us-ascii?Q?DEZs?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBYjHA+qNefkoZxY?=
+ =?us-ascii?Q?ILQVpIs9Zx55SaOApQLuOpxezXynIHWbkVZVtap?=
+ =?us-ascii?Q?5nemWkisEkCLV6iGSbkBQkKCN9zpyuP9zGYmaw1?=
+ =?us-ascii?Q?92mVVMpFD5qoaPqcwZRVNr2Jhk=2FdN0iM1IlAL04?=
+ =?us-ascii?Q?3rLcFqCVZb17YBFna0AJwifruIgJctYE6Kqui3p?=
+ =?us-ascii?Q?sRUDzYndJc6agLBVpe8WU5wfXfEyJE5ZkRKXJIR?=
+ =?us-ascii?Q?2DzuIStf5GWkyzRdiT4+agBy4g=3D=3D?=
+To: info@go-onriders.com
+X-Entity-ID: u001.idDaXlz/LTBWXTxrK7I1Cg==
+X-MagicSpam-TUUID: 4691ae67-e111-49d4-9f9e-120d02d17e42
+X-MagicSpam-SUUID: 61b3ac09-df23-4c6a-886c-09191b1ce5d6
+X-Spam-Status: No, score=1.4
+X-Spam-Score: 14
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  You can update your preferences on the type of emails you
+   want to receive from us Mailing Preferences<https://e-in21.gtolink.in/t/em/44880/8/48337409-0b6f-4076-8dff-89bef0062244
+    > If you wish to opt out of all type of emails, click Unsubscribe<https://e-in21.gtolink.in/t/em/44880/7/48337409-0b6f-4076-8dff-89bef0062244
+    > 
+ Content analysis details:   (1.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.3 LM_CONTENT_TYPE_ISFIRST Very rare that Content-Type is the first
+                              header
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [198.37.144.29 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [198.37.144.29 listed in bl.score.senderscore.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 LM_MARKETING_ENV_STYLE Suspicious EnvelopeFrom naming convention
+                              seen to be used by spammers.
+  0.2 LM_SUBJ_URG_TOPIC      Subjects with hard end and a embedded colon
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.1 KAM_UNSUB1             Unsubscription Spams
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+X-Spam-Flag: NO
+
+--930421449b6775e83d2af1ccb387fc4b317e34879f9b6f6055af05803ae5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+You can update your preferences on the type of emails you want to receive f=
+rom us Mailing Preferences<https://e-in21.gtolink.in/t/em/44880/8/48337409-=
+0b6f-4076-8dff-89bef0062244 >
+
+
+If you wish to opt out of all type of emails, click Unsubscribe<https://e-i=
+n21.gtolink.in/t/em/44880/7/48337409-0b6f-4076-8dff-89bef0062244 >
+--930421449b6775e83d2af1ccb387fc4b317e34879f9b6f6055af05803ae5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Mime-Version: 1.0
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head><title></title><m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><!--=
+[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInc=
+h><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><style>*{box-si=
+zing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inh=
+erit!important;text-decoration:inherit!important}#MessageViewBody a{color:i=
+nherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hi=
+de table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_bloc=
+k img+div{display:none}sub,sup{line-height:0;font-size:75%} @media (max-wid=
+th:620px){.mobile_hide{display:none}.row-content{width:100%!important}.stac=
+k .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;m=
+ax-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{di=
+splay:table!important;max-height:none!important}}</style><!--[if mso ]><sty=
+le>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub =
+{ mso-text-raise:-10% }</style> <![endif]--></head><body class=3D"body" sty=
+le=3D"background-color:#f7f7f7;margin:0;padding:0;-webkit-text-size-adjust:=
+none;text-size-adjust:none"><table class=3D"nl-container" width=3D"100%" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#f7f7f7"><tbody>=
+<tr><td><table class=3D"row row-1" align=3D"center" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0"><tbody><tr><td><table class=3D"row-co=
+ntent stack" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;bo=
+rder-radius:0;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><t=
+r><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;borde=
+r-top:0;border-right:0;border-bottom:0;border-left:0"><table class=3D"image=
+_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+"><tr><td class=3D"pad" style=3D"width:100%"><div class=3D"alignment" align=
+=3D"center" style=3D"line-height:10px"><div style=3D"max-width:600px"><img =
+src=3D"https://f2.leadsquaredcdn.com/t/t20191012182636/content/common/image=
+s/independence day email image 2-01.jpg" style=3D"display:block;height:auto=
+;border:0;width:100%" width=3D"600" height=3D"auto"></div></div></td></tr><=
+/table><table class=3D"text_block block-2" width=3D"100%" border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-ls=
+pace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad" styl=
+e=3D"padding-bottom:5px;padding-top:5px"><div style=3D"font-family:Arial,sa=
+ns-serif"><div class style=3D"font-size:12px;font-family:Arial,Helvetica Ne=
+ue,Helvetica,sans-serif;mso-line-height-alt:18px;color:#555;line-height:1.5=
+"><p style=3D"margin:0;font-size:14px;text-align:center;mso-line-height-alt=
+:18px"><span style=3D"word-break: break-word; font-size: 12px;">You can upd=
+ate your preferences on the type of emails you want to receive from us <a s=
+tyle=3D"text-decoration: underline; color: #554fb5;" href=3D"https://e-in21=
+.gtolink.in/t/em/44880/8/48337409-0b6f-4076-8dff-89bef0062244" target=3D"_b=
+lank" rel=3D"noopener">Mailing Preferences</a></span></p></div></div></td><=
+/tr></table></td></tr></tbody></table></td></tr></tbody></table><table clas=
+s=3D"row row-2" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso=
+-table-rspace:0"><tbody><tr><td><table class=3D"row-content stack" align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"mso-table-lspace:0;mso-table-rspace:0;color:#000;width:600px;=
+margin:0 auto" width=3D"600"><tbody><tr><td class=3D"column column-1" width=
+=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;te=
+xt-align:left;vertical-align:top;border-top:0;border-right:0;border-bottom:=
+0;border-left:0"><table class=3D"text_block block-1" width=3D"100%" border=
+=3D"0" cellpadding=3D"5" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=
+=3D"pad"><div style=3D"font-family:Arial,sans-serif"><div class style=3D"fo=
+nt-size:12px;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;mso-line=
+-height-alt:18px;color:#555;line-height:1.5"><p style=3D"margin:0;font-size=
+:14px;text-align:center;mso-line-height-alt:18px"><span style=3D"word-break=
+: break-word; font-size: 12px;">If you wish to opt out of all type of email=
+s, click <a style=3D"text-decoration: underline; color: #554fb5;" href=3D"h=
+ttps://e-in21.gtolink.in/t/em/44880/7/48337409-0b6f-4076-8dff-89bef0062244"=
+ target=3D"_blank">Unsubscribe</a></span></p></div></div></td></tr></table>=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le><!-- End --><mxpixettrackingtag><img src=3D"https://e-in21.gtolink.in/t/=
+em/44880/0/48337409-0b6f-4076-8dff-89bef0062244" height=3D"1" width=3D"1" /=
+></mxpixettrackingtag> </body></html>
+--930421449b6775e83d2af1ccb387fc4b317e34879f9b6f6055af05803ae5--

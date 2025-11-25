@@ -1,0 +1,193 @@
+Return-Path: <katie@organicwebsolution.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id sLw3Aa70+mQ2ZQAAQ+45pw
+	(envelope-from <katie@organicwebsolution.com>)
+	for <info@go-onriders.com>; Fri, 08 Sep 2023 06:17:18 -0400
+Return-path: <katie@organicwebsolution.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 08 Sep 2023 06:17:18 -0400
+Received: from mail-ed1-f67.google.com ([209.85.208.67]:53536)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <katie@organicwebsolution.com>)
+	id 1qeYY9-0006q5-EO
+	for info@go-onriders.com;
+	Fri, 08 Sep 2023 06:17:17 -0400
+Received: by mail-ed1-f67.google.com with SMTP id 4fb4d7f45d1cf-5280ef23593so2396128a12.3
+        for <info@go-onriders.com>; Fri, 08 Sep 2023 03:16:55 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=organicwebsolution-com.20230601.gappssmtp.com; s=20230601; t=1694168193; x=1694772993; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=mN3HdZFY3GlNN8BYFMOAm1038SoqnTeIhZCWqxR0i24=;
+        b=eMX/AuIo0QydZNPCHubW+Yh/szv/E8J+9KeOZ74EzSlQ1Ly1BsBRZl1swBPUaiaaiD
+         9KNQ6ipb+SNr5If3BwLppdzNtQbYCSoLF3eZcSORKK8YkeNHnum99Dql1VDmdDSvrDAF
+         RJqepDPRcqhMQgR7cXPb88uf5B0X8W1QecKSsusuBRPxigJDAJA0FDIlyq2xn9zGewMh
+         hhGN9Ru1gKpeRUUj5WF5ike9zwFe17SqgMBrosoIvoZYQyZrlPuEBTKJvBnciJ1dztYi
+         6AVtN/8b02bFVBgO7qoU4mtqX5u4LUvCvahCvHNNM73qtpi/8EfaoBjBDT5SiZqD3Y9W
+         UOTA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1694168193; x=1694772993;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=mN3HdZFY3GlNN8BYFMOAm1038SoqnTeIhZCWqxR0i24=;
+        b=WJdHtxfalY/f6yVxZzSPYRTrLAVgdsW4DS1KgB9g1vCGUUrXsRYDZ1iMy2wAJonXU+
+         MnwWbp5rY+wcKkvbWO1lSKP/nFG27jYpiHHsmGY25QBQzeALOs9bWWcuf17YOAQOd/fx
+         F11oAMAtcZfWYJj2xwtNpzeGQ2N6eclw7ffuzPUWyB8K8jBO7m+HR5d4Us1wPJqH+40f
+         ruldnwjiF5rOph5iVLNT7vps09W4FO3fUOiz4CrF0GJj5RrtTNn/SW8TJ6J0XLgX3Uwb
+         j9eVel2G7tS/XfapGjL+agUc17kEqpx13wEjAQM/sTaPrgUertyWfq53jE+fuhxUruCC
+         LPJQ==
+X-Gm-Message-State: AOJu0YyHGm9Ykx1LlcO0zb3XvCAIYira/6yKkqipi+hLdW69XuhAJ1kU
+	TS5FEwbIPQSU73bGcgY3Y1Zd/FWYiZ4rYPfbQsOd6pr5nU/FB2+0i38=
+X-Google-Smtp-Source: AGHT+IFrdKLLQqxtt96OCnp/r7PEs3CyF9m6CrcMJmBXksB0e8vcwWo+9ctfpgrZEjZNP2AlnmRIofNpHoJq3eeI9MI=
+X-Received: by 2002:aa7:ce0d:0:b0:522:2111:1063 with SMTP id
+ d13-20020aa7ce0d000000b0052221111063mr1561306edv.18.1694168193496; Fri, 08
+ Sep 2023 03:16:33 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 8 Sep 2023 03:16:33 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 8 Sep 2023 03:16:32 -0700
+MIME-Version: 1.0
+Sender: katie@organicwebsolution.com
+From: katie@organicwebsolution.com
+Date: Fri, 8 Sep 2023 03:16:33 -0700
+X-Google-Sender-Auth: EKrrxi4bVKq9fWPzreiWC7y0a2s
+Message-ID: <CAKfMd4bBZ=u4Np_Jzc3yOg8Y9nLBxP9LTVPzcwDM7PS9yk5XXg@mail.gmail.com>
+Subject: Re: go-onriders. com: Experienced SEO professionals dedicated to your success!!
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000005d054f0604d64572"
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello go-onriders. com, Hope you are doing well, I was on
+   your website and found there are many scope of improvements in SEO, Designing
+    and development. This will improve the overall usability and user friendliness
+    of your website. 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.208.67 listed in list.dnswl.org]
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                             [209.85.208.67 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.67 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--0000000000005d054f0604d64572
+Content-Type: text/plain; charset="UTF-8"
+
+Hello go-onriders. com,
+
+Hope you are doing well,
+
+
+
+I was on your website and found there are many scope of improvements in
+SEO, Designing and development. This will improve the overall usability and
+user friendliness of your website.
+
+If you are Interested I'd be happy to send you No *Obligation Audit Report* for
+your website, our *SEO Package*, *pricing* and *past work details*, if
+you'd like to assess our work.
+
+
+We could lower that cost and not compromise on quality!
+
+Hope to hear back from you soon.
+
+
+Kind Regards
+*Katie Kim! Business Development Manager*
+
+---------------------------------------------------------------------
+
+Note: - Our next conversation will be on my corporate Email ID. If this is
+something you are interested, please respond to this email. If this is not
+your interest, don't worry, we will not email you again.
+[image: beacon]
+
+--0000000000005d054f0604d64572
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"text-align:justify;line-he=
+ight:12.65pt;margin:0in 0in 10pt;font-size:11pt;font-family:Calibri,&quot;s=
+ans-serif&quot;"><span style=3D"font-size:12pt;font-family:Verdana,&quot;sa=
+ns-serif&quot;;color:black">Hello=C2=A0go-onriders. com,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot=
+;"><span style=3D"font-size:12pt;font-family:Verdana,&quot;sans-serif&quot;=
+;color:black">Hope you are doing well, </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;text-align:justify;=
+line-height:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot=
+;"><span style=3D"font-size:12pt;font-family:Verdana,&quot;sans-serif&quot;=
+;color:black">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:12pt;font-family:Verdana,&quot;sans-serif&quot;;color:black">I was=
+ on your website=C2=A0and found there are many scope of
+improvements in SEO, Designing and development. This will improve the overa=
+ll
+usability and user friendliness of your website. =C2=A0<br>
+<br>
+If you are=C2=A0Interested=C2=A0I&#39;d be happy to send you=C2=A0No <b>Obl=
+igation Audit Report</b>=C2=A0for your
+website,=C2=A0our=C2=A0<b>SEO Package</b>, <b>pricing</b> and <b>past work =
+details</b>, if you&#39;d like to assess our work.</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;line-height:12.65pt;marg=
+in:0in 0in 10pt;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=
+<span style=3D"font-size:12pt;font-family:Verdana,&quot;sans-serif&quot;;co=
+lor:black"><br>
+We could lower that cost and not compromise on quality!</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:12pt;font-family:Verdana,&quot;sans-serif&quot;;color:black">Hope =
+to hear back from you soon.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:12pt;font-family:Verdana,&quot;sans-serif&quot;;color:black"><br>
+Kind Regards<br>
+<b>Katie Kim! Business Development Manager</b></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:12pt;font-family:Verdana,&quot;sans-serif&quot;;color:black">-----=
+----------------------------------------------------------------</span></p>
+
+<p class=3D"MsoNormal" style=3D"text-align:justify;margin:0in 0in 10pt;line=
+-height:115%;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><sp=
+an style=3D"font-size:12pt;line-height:115%;font-family:Verdana,&quot;sans-=
+serif&quot;;color:black">Note:=C2=A0- Our
+next conversation will be on my corporate Email ID. If this is something yo=
+u
+are interested, please respond to this email. If this is not your interest,
+don&#39;t worry, we will not email you again.</span></p></div>
+<img src=3D"https://organicwebsolution-dot-yamm-track.appspot.com/2NED50XUs=
+RvPQEfSByU3tjQMRb0oARzvk_Xs39cg17IFVFkt0igGNpkUTuck0J_cdCdkYb1O3fCkoBF1kGJM=
+aGNIt0Mju5GxSm4G7phvIlOSH_P_TztIYkTErTMAwuClzt9kURp0s6fUlAZSU-L0xEjjX2oUca5=
+USZrex" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; disp=
+lay:none!important;">
+
+--0000000000005d054f0604d64572--

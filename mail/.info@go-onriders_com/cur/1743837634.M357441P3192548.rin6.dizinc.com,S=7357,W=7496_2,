@@ -1,0 +1,139 @@
+Return-Path: <vardhan2324@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yLi/FMLZ8GfktjAAQ+45pw
+	(envelope-from <vardhan2324@gmail.com>)
+	for <info@go-onriders.com>; Sat, 05 Apr 2025 03:20:34 -0400
+Return-path: <vardhan2324@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 05 Apr 2025 03:20:34 -0400
+Received: from mail-pg1-f174.google.com ([209.85.215.174]:51680)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <vardhan2324@gmail.com>)
+	id 1u0xpU-0000000DS7w-48nm
+	for info@go-onriders.com;
+	Sat, 05 Apr 2025 03:20:34 -0400
+Received: by mail-pg1-f174.google.com with SMTP id 41be03b00d2f7-af9925bbeb7so2148880a12.3
+        for <info@go-onriders.com>; Sat, 05 Apr 2025 00:20:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1743837592; x=1744442392; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=q90k/pu2iMBgn1Ritx06T0ciproipQepbb6hzDgRN38=;
+        b=NWK59FnjohQygGkR81FwWNZxp1UHYdDEbOt4Xriu7SxOEcCrKWqaOCmgiZgFgHgJBZ
+         jhnctdVPuDK6lba+sxg65k4QhsR47syHWqD+oICnCUNecRNRib34OEZZxPaTeLKXPlCF
+         WCbSiNhh5WL8an2372GQUjBVD6BeduTBgPnH/ebyHv7JNH4acpdE3yuHT+gvpT/pzh46
+         V+5Cv+deZYJG8pK2ddHfel2SWOPTFC8lcG3bfktSal38GSM6wzZDVKg4fBzKKtdlGQIK
+         Z+Z9k1YHJzwm38I5RpN/eXhL80WJgwMQ2UBjRB+xNLKWFNqLQ3bhfO9S/5b9+YAjdKFw
+         9nQQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1743837592; x=1744442392;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=q90k/pu2iMBgn1Ritx06T0ciproipQepbb6hzDgRN38=;
+        b=IjUkQp1jOqoxASD0tYpJcpEokPQw1gkFWk+hbaz4LQ2UZq0xsnLsXGDRA2NGK8e9c3
+         j93bqJgIt4wa5QQz3G0msROwd4yHHjcQOtHyfBQlDj5VGEoTL2OOKpcHLMcDLlpKn2SC
+         nY4iOzhJ0dwcgLr0H9v0Lr+DTQ1JWY3bVIWVONXweAInDnf9IGwKC+fn+0f3MFhVWGAW
+         /yDrnKX5S1fInQQRwvHkf1UC1MbRu0+SHuk0aJqVffqDoe3/SIv3UogaKu1bHpP986V2
+         wKDydMq8y6FeFA/rL9OuEq7fRl7g085JrZIJuqZQLZhnqsqO6J5KqZZGfaR6zeq8Ib3t
+         /jPQ==
+X-Gm-Message-State: AOJu0YwnS1sZ941rtbTE3KqNSYk7K0fOUIrS71ru/NlpzNGmC+txqy4l
+	pErmy3+xCBtem70H+ljK3Sq95jWtjStZHGi47YylVQrsG2101BVs+SG+HrkVCX+nf5Yhra91pHT
+	/s8oWZC81v3nK4l3AqGzFwtPC7w3DHXvW
+X-Gm-Gg: ASbGncswSrcdLxzqWmqtJqVQrGSXyitWh/GgFvp9E5mODrY9kmba4N6rrd67yADXzhE
+	Tar7ByWUZ8EdjTHlgqie4WLk9kw3IwWtd68cMDY6Q3VPIousY4aJAnXnLBK3U+yh0Iu+VSAhmHl
+	z6kUzWAmBpeiEuIJlIBcWtnCFX
+X-Google-Smtp-Source: AGHT+IGnbTXiDyuxTgjVTuwP53rr9gqN7PyflIoDVwmwKnTrzHsxLkQAuuWTZFLFV6Mdqdo1HK4N2t6ysDnbAu4x0DA=
+X-Received: by 2002:a17:902:f70d:b0:224:2717:7992 with SMTP id
+ d9443c01a7336-22a8a1b8b62mr71394815ad.33.1743837591965; Sat, 05 Apr 2025
+ 00:19:51 -0700 (PDT)
+MIME-Version: 1.0
+From: shashi vardhan <vardhan2324@gmail.com>
+Date: Sat, 5 Apr 2025 12:49:40 +0530
+X-Gm-Features: ATxdqUGE3cS4cD7Q-az2MD68C26PkUCnZrA9TPJgVGplVDPmqgZFvr3HW-7oZHc
+Message-ID: <CACs4k3to280JPmPTPzgybq6nZG501bg-1h267iwj4HteWKW5oQ@mail.gmail.com>
+Subject: RE : I want to rent my bike and earn
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="0000000000003714c7063202d451"
+X-MagicSpam-TUUID: aa30a3eb-63f1-41f5-8976-af9f4bc8ce55
+X-MagicSpam-SUUID: a5112434-e1f6-45a0-904c-6d463f16f2b4
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Team , I am Kaila shashi vardhan Reddy from Hyderabad.
+   I have a Hunter 350 bike which is a 2022 model , I have all the bike documents
+    with me . I want to earn money by bike . kindly guide with this and team
+   can contact me , i am available 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.215.174 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.215.174 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.215.174 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [vardhan2324(at)gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [vardhan2324(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.8 GB_FREEMAIL_NUM        Freemail spammy address
+  0.0 T_FILL_THIS_FORM_SHORT Fill in a short form with personal information
+X-Spam-Flag: NO
+
+--0000000000003714c7063202d451
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Team ,
+
+I am Kaila shashi vardhan Reddy from Hyderabad. I have a Hunter 350 bike
+which is a 2022 model , I have all the bike documents with me . I want to
+earn money by bike .
+
+kindly guide with this and team can contact me , i am available
+
+Mobile No : 7731991975
+Mobile No : 9059646249
+
+Thanks & Regards,
+Shashi .
+
+--0000000000003714c7063202d451
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hi Team ,=C2=A0<div><br></div><div>I am Kaila shashi vardh=
+an Reddy from Hyderabad. I have a Hunter 350 bike which is a 2022 model , I=
+ have all the bike documents with me . I want to earn money by bike .</div>=
+<div><br></div><div>kindly guide with this and team can contact me , i am a=
+vailable=C2=A0</div><div><br></div><div>Mobile No : 7731991975=C2=A0</div><=
+div>Mobile No : 9059646249=C2=A0</div><div><br></div><div>Thanks=C2=A0&amp;=
+ Regards,=C2=A0</div><font color=3D"#888888"><div>Shashi .</div></font></di=
+v>
+
+--0000000000003714c7063202d451--

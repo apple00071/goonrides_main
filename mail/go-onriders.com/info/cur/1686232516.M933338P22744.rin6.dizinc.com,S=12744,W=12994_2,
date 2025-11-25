@@ -1,0 +1,250 @@
+Return-Path: <adityajaiswal012@outlook.in>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id lVkIN8TdgWTYWAAAQ+45pw
+	(envelope-from <adityajaiswal012@outlook.in>)
+	for <info@go-onriders.com>; Thu, 08 Jun 2023 09:55:16 -0400
+Return-path: <adityajaiswal012@outlook.in>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 08 Jun 2023 09:55:16 -0400
+Received: from mail-psaapc01olkn2010.outbound.protection.outlook.com ([40.92.52.10]:60933 helo=APC01-PSA-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <adityajaiswal012@outlook.in>)
+	id 1q7G6d-0005gJ-On
+	for info@go-onriders.com;
+	Thu, 08 Jun 2023 09:55:16 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=bZ1LhPYHjEnYxvc3Sg7ALcPGI+yS1s0cMLhCbPi3Gpw/F8V6vqCaIxF62q29WSRu5Ev/MQbvQ5m/WWkbjXguAm5rQLpnhqN+bIvMjuCQhSztO+QJvtaWAn7AMz51djYKnbiYe+lpq6Of7jdTqPyyXmdJJQNzZEg0WhlqhYWe7AkfxnvZTuNIj3NG1txQn8AxOfv5ZUgtIYoIyYaSCtlAtdW3ja5R/PEy0qNmpC53tbed2YJlFU/ArhmNUup2bq7ow6PTb2Agc1l9efEWazAwdDrfo/MxmRzHzXsprjWkrNpsA1WYqpb49T8rsun4NfmxSW8vdax0EMPnu2nE+AXS8w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=GxN4/xgFLc+wq0Ddze9LNqneuSC6OkPIJn01p9Lrc2s=;
+ b=MaPCKiS1OrRJUmbEWcIjfvhCO3rtT2Hsj5UaWX1qepqs1raCsK4zTRjEtMFCyl3BhKNxo30SLqEzw4/Mquc3svv2VXCpceix/iDrNky2TpD2aSGsOyam6INlTYwo31ME606STjX2GbQnqO/mXsGNBt/WajUdnlCfSoxnqmywmbMjEvkZyIj6b44jIiGTS1fNeE1x4e9cl4kirG7+HkCHq0O+fQhXYsDbAdYgeQ6GLDeC1ajtRGvcmZc0qwANMWz+jz2ci5yGr59z56dN9Zm1NXPnt/fYouVtiQpt9EvN1/Zy0nMV35ta7yY4EX9RRXGTwHl4eHH76VtvSEu6DopXTQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+Received: from SI2PR01MB3932.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:103::7) by KL1PR01MB3937.apcprd01.prod.exchangelabs.com
+ (2603:1096:820:4b::8) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.6455.33; Thu, 8 Jun
+ 2023 13:53:06 +0000
+Received: from SI2PR01MB3932.apcprd01.prod.exchangelabs.com
+ ([fe80::6274:fe8f:6fa0:3f4e]) by SI2PR01MB3932.apcprd01.prod.exchangelabs.com
+ ([fe80::6274:fe8f:6fa0:3f4e%6]) with mapi id 15.20.6455.030; Thu, 8 Jun 2023
+ 13:53:06 +0000
+From: "Aditya jaiswal" <adityajaiswal012@outlook.in>
+To: "Aditya jaiswal" <adityajaiswal012@outlook.in>
+Subject: App Development!!
+Date: Thu, 8 Jun 2023 19:21:58 +0530
+Message-ID:
+ <SI2PR01MB393212FF411DA772DB732CABE250A@SI2PR01MB3932.apcprd01.prod.exchangelabs.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0006_01D99A3E.A681BAF0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdmaDxOPAozFUbYtQq+kJTA3c/9C1g==
+Content-Language: en-in
+X-TMN:
+ [43+DW4e1mEgpGaKhiHKJL/Bdm66OD+YyN0sQgIWi9+d45THZe2rIhg2tSEBU0VKQfSH2EYQaQ+g=]
+X-ClientProxiedBy: BM1P287CA0012.INDP287.PROD.OUTLOOK.COM
+ (2603:1096:b00:40::35) To SI2PR01MB3932.apcprd01.prod.exchangelabs.com
+ (2603:1096:4:103::7)
+X-Microsoft-Original-Message-ID: <000501d99a10$8cc97ef0$a65c7cd0$@in>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SI2PR01MB3932:EE_|KL1PR01MB3937:EE_
+X-MS-Office365-Filtering-Correlation-Id: 846d5e84-b751-4577-ffe6-08db6827af7a
+X-MS-Exchange-SLBlob-MailProps:
+	Qob1MnwVnprZdMDOzIFin5GxLb8LwlpkT7a7Btli0b/4wHhuz/U325f0mC6hfBRi61jvl8s6QC/x08CfyY7Msb41BN1Yh/fUNAu99IBhkLZvTKMZlOw22/ADbfzB10LhlXcMQ8z7x7TlTHUaUuLuVP9Q83rSPf72hP3dGVQCTQ/OPRYJkAnQCzWxAb5feugPPBm2k7B7kaVc1jmYC4WsCS+B8WRvXVWTSgPOfz7UiBmp+G661MQkHwNSPgv40pNwhBGY+vh5AwByNjNT1sN23n/7jMwR/GgEndSpnujnIER+JxQ18rHHhhvLhfDXpOZvziUm4YQGEjhZ7s16oJ+kFc2eh0efD9wmcLWd/reCqIoMaXHUUDX2jxU907wHmGV/51WYTOtLvrLHSfoQJAjaY7TbZQTkjWGpiKvRErzILrkrhJgK6no5v+x643IwN05xgLRq/jOqbTAXAQjq0pnLP8HJZ7EikOEPRvRw0X+q/9TEFmWFalRtOASvlBK5TtboOqDeSTRivi/nnFwY3e15pvzH5iC9pvOjAcYzX4nxqxKL/CccyXLtik3PFQgHk0R6dy12TgNq/oDCAOqDo71zBON8yLSPvxAsMamcwHGPM24oJ2PeEy4JN68XxdCav22gW4a8S81qf9JfD9Aqiz/EGWH8x8CZuJF0AkCMbeWqcuqNWun2C5iaWm41oRY/X+8D
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	6ceqrModQEsw4e/ucbPHmzHWhLuMD4CdMvDywi7sZExfcu5cA32OtTg1ckOIsUDaN3LJi/bOlJb0cTvXfcQ8CA21XntqWja8A3EBSqf9/QE2wze2BYv7s38E2jC6nUa3In4mtTCKiUhiJh0YoBWyZTQLjf8ymZXM75A6vnX23EnNt5IrfC6ySpVlshp5ITnIeEG5a7WG06Q3ISRVcqx1TDKooptfeY5rsiDmdh3iKw4QtU1pp6Q27tTyz5QpbV7OtvjHTBt1gcsPuXEcBj2l3N2rNtbSkoACA47HBrhVgO0bd1evIBm6DA1cgR26xXzLkZ5GC5jlJpd8h+T2XYhIW+vH+rC1rr8LonfE9+2teb2KMJjesLIA6/O40vmBtmvBnS7cIkvsdw258SDVkgtqavlDR3/z+HSWB0NUq92JrJQqc+5LsWiExXC7Qpws0+1CAbeM49KkIxtBuc6pdlqZlBmAw9FbiI0QU9CliQ2Xrd0e4Jc31TeQ52vHfzxlUouyHQ+WvIBQ1I0IoZHR9NyjJo/B+t3I/MWYMTaAfE8Bbmj4+RVQmDYl76E5rXVrBoHBMb/+6e0xMsedtENzqQgrSL3fLLwtYVMMZsB6HLBOR8rgOsCsICmW8Xk1Yjn2JD1e
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?9hjCNZE+KEDvrd0CZ/lJ0jQZuZAaVpuMoPTarwL7wzAG+SaiWfXhzn4gFBNJ?=
+ =?us-ascii?Q?h5rrbvz4Hr+XEgpE7vd6av5RBvJ34UcL6ACiPLLgGPpwmJ3FGlYLuRwiMha9?=
+ =?us-ascii?Q?q8TA2r3IFQc5qG/OzlJGputyJoXdL/u2OFpVl7WXwj2gCuw9CnLQQYqtbvhw?=
+ =?us-ascii?Q?17Ur/1r5pgifxjVfGlhzfowL9LHA/eahznzUUhUUiUnW8O2gZcO11ipN/zF5?=
+ =?us-ascii?Q?tC6JXPyq/WrNddWh4Qobs5ECfSZZ1EJS91cmQw599iV5ht7AAbtWvu9S3yu1?=
+ =?us-ascii?Q?oCyF2p06e5QhxuTksyrxqFSblNLT5ovTeWfb5FYTafUwFZ629qr0I2JJ7AAB?=
+ =?us-ascii?Q?BtHOTk+GlDrwDujdJ4bX2800XjvrmbVsTcdKuPNRZmPES/L3g+DtLexBXMIc?=
+ =?us-ascii?Q?ZMT6AMbaW3COfh71CbBwg1X667XqIFG9/I8oXa1opVySS6DyJXghq5e9iRaJ?=
+ =?us-ascii?Q?Ps0RVGLLqKp2wsru4Pv4wdEpTpsTV2phVbS077/BH6x4VajOsSfXe8ccy3BQ?=
+ =?us-ascii?Q?XhWBneFyZIm41KZmtfhWVl+yoVQfx6vjQr1b0QBrFgoqvcSqMRzqfmd4tl+r?=
+ =?us-ascii?Q?SaVZ8dh073Bw2wQCeRuDMrXyy51ui9458t/8g3OlGW74Y66RA3jjGNhJ1PPE?=
+ =?us-ascii?Q?GJeJX9JVuIHYK1muBFaMszNoNjR/nMnOOBsuidUrImN2w3qJUgBMRnRvwzZH?=
+ =?us-ascii?Q?kPa7UTKx71lV/SvV5P87iNQYFJGWr7wUR+ZvLU3DHliAhC+/amUivyEp9ziv?=
+ =?us-ascii?Q?tEx7hGmIEhzSpAe63AXjR3C3H+f2QtOm2qTgGy7W8mjt1t8lzYWlxr1HNeWY?=
+ =?us-ascii?Q?Yj5GgBYPXlpD+thVjWU+0NOYORkBmpVy06WAuZpsshf6GlXPeeDpoDG9wOgE?=
+ =?us-ascii?Q?cqeEGlcPIcnvCI7yBcnMxRUOHL+Tx+fZU/y/v8cCcOiQJi813LUb8MRMeAU/?=
+ =?us-ascii?Q?VADHTx6st8oSuxtYaOZK7hHJlfxuPZMHckiP87KOw1AGzo/VRRhqza5efKCQ?=
+ =?us-ascii?Q?mxzkjuLp4fo6CsE0TZXUQwjM5RzYLTaTLdfkDOoSPumn/OpmVmZU3HePc4nf?=
+ =?us-ascii?Q?oyOqKSLC2Gh78yVectY+xJPcWhdT+i0JcVLRj4gLzuyFmnCxC0cB3fLjVTiD?=
+ =?us-ascii?Q?msKHxNJ8iUBK6Ie2mBmaBSV9H44dP+h7dAd3sM9fVJn3ofiGU3nhHNoDCRtO?=
+ =?us-ascii?Q?BHyMPfRB7M6H2+UhW/6dJEGmHXjNPSEoYmRw69sVxsgv4gAVRW6FJqP9F1gj?=
+ =?us-ascii?Q?aAkK5RmknclG0Afbtq+i84svC5TGavdREXZ7lnLGArnqsw8rO2UqoYo9PL4P?=
+ =?us-ascii?Q?+hQ=3D?=
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-d8e84.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 846d5e84-b751-4577-ffe6-08db6827af7a
+X-MS-Exchange-CrossTenant-AuthSource: SI2PR01MB3932.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Jun 2023 13:53:06.5528
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: KL1PR01MB3937
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Are you looking for a top Mobile App Development Company
+    We build all kinds of Apps for like: - Education Apps/Finance Apps/Food Delivery
+    Apps/Health Fitness Apps /M-Commerce Apps/Media Apps/Re [...] 
+ Content analysis details:   (0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [40.92.52.10 listed in list.dnswl.org]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [adityajaiswal012[at]outlook.in]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [adityajaiswal012[at]outlook.in]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [40.92.52.10 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+------=_NextPart_000_0006_01D99A3E.A681BAF0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello, 
+Are you looking for a top Mobile App Development Company We build all kinds
+of Apps for like: - 
+Education Apps/Finance Apps/Food Delivery Apps/Health Fitness Apps
+/M-Commerce Apps/Media Apps/Real Estate Apps/Social Networking Apps/Taxi
+Apps/Travel Apps/Dating Apps
+
+Etc... 
+May I know if you are interested in any of these services I will forward you
+our past work & Prices accordingly. 
+Thanks & Regards 
+Aditya jaiswal 
+Marketing Manager (India) 
+
+
+------=_NextPart_000_0006_01D99A3E.A681BAF0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle18
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3D"EN-IN" link=3D"blue" vlink=3D"purple">
+
+<div class=3D"Section1">
+
+<p><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">H=
+ello, </span><br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Are =
+you looking for a top
+Mobile App Development Company We build all kinds of Apps for like: - </spa=
+n><br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Educ=
+ation Apps/Finance
+Apps/Food Delivery Apps/Health Fitness Apps /M-Commerce Apps/Media Apps/Rea=
+l
+Estate Apps/Social Networking Apps/Taxi Apps/Travel Apps/Dating Apps</span>=
+<o:p></o:p></p>
+
+<p><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">E=
+tc... </span><br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">May =
+I know if you are
+interested in any of these services I will forward you our past work &amp;
+Prices accordingly. </span><br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Than=
+ks &amp; Regards </span><br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Adit=
+ya jaiswal</span> <br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Mark=
+eting Manager (India) </span><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0006_01D99A3E.A681BAF0--

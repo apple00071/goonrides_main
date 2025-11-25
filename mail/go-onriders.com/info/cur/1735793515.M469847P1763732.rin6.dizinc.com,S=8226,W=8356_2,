@@ -1,0 +1,130 @@
+Return-Path: <export@exportshippower.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 9lyCG2sbdmeU6RoAQ+45pw
+	(envelope-from <export@exportshippower.com>)
+	for <info@go-onriders.com>; Wed, 01 Jan 2025 23:51:55 -0500
+Return-path: <export@exportshippower.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 01 Jan 2025 23:51:55 -0500
+Received: from static30-4.uszonea.dm.aliyun.com ([8.221.30.4]:27602)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98)
+	(envelope-from <export@exportshippower.com>)
+	id 1tTDBb-00000007Od0-2dgu
+	for info@go-onriders.com;
+	Wed, 01 Jan 2025 23:51:55 -0500
+X-AliDM-RcptTo: aW5mb0Bnby1vbnJpZGVycy5jb20=
+Feedback-ID: default:export@exportshippower.com:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=exportshippower.com; s=aliyun-cn-hangzhou;
+	t=1735793469; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=tHFkwp/uFkmG+p6JlqezP/kGPRS2KrOyPK2bEH1DfVg=;
+	b=Ymvlv9ZlmX1m3S8HVC01TMRlPzF7yWyfyo56NLMIPB6+DrEOpEBf7wiMOZMbFwKM35MStqUhZhiUgjxMtA9CqhnN2+KxobF6lo3kqsFIVepAeTbYYZnZMkCItkZLLg7dxAaj8F913EWFri0zjKX+2bmTtnCQz94iJ3HJT3DzdQ0=
+Received: from msgdactuatorserv-69c69bbf4b-jb4fd(mailfrom:export@exportshippower.com fp:SMTPD_-VHcDF7lWBX cluster:AY35D)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Thu, 02 Jan 2025 12:51:09 +0800
+X-EnvId: 600000146440594288
+Date: Thu, 2 Jan 2025 12:51:08 +0800 (CST)
+From: Amo <export@exportshippower.com>
+Reply-To: li@li-electric.com
+To: info@go-onriders.com
+Message-ID: <28990100552000025010120677421_28990100539000625010256209583_XTransfer@exportshippower.com>
+Subject: Discover the Features of Our Electric Bikes, info1
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-MagicSpam-TUUID: b9f785b9-b510-4191-ab82-c60e1ce2bbac
+X-MagicSpam-SUUID: 34158b42-5530-4a52-8e74-df84ad9f6456
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info1, I’m Amo, your contact at Jinhua Li Electric Trading
+    Co., LTD. I understand that Go On Riders is interested in learning more about
+    our electric bikes, and I’m excited to share some of their standou [...]
+    
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.221.30.4 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.221.30.4 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.221.30.4 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of words
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+X-Spam-Flag: NO
+
+<html><head><meta charset=3D"UTF-8" /><meta http-equiv=3D"X-UA-Compatible" =
+content=3D"IE=3Dedge" /><meta name=3D"viewport" content=3D"width=3Ddevice-w=
+idth, initial-scale=3D1.0" /><title></title></head><body><table role=3D"pre=
+sentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border=
+-spacing: 0;border-collapse: collapse;mso-line-height-rule: exactly;mso-mar=
+gin-bottom-alt: 0;mso-margin-top-alt: 0;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;padding: 0;width: 100%;min-width: 600px;background-color: #fff;dir=
+ection: ltr;font-synthesis: none;"><tbody><tr><td><table class=3D"edm-conte=
+nt" role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+style=3D"border-spacing: 0;border-collapse: collapse;mso-line-height-rule: =
+exactly;mso-margin-bottom-alt: 0;mso-margin-top-alt: 0;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;padding: 0;width: 600px;height: 100%;background-col=
+or: #fff;direction: ltr;font-synthesis: none;"><tbody><tr style=3D"font-fam=
+ily: Arial; padding: 0; word-break: break-word"><td valign=3D"top" style=3D=
+"border-collapse: collapse; font-family: Arial; word-break: break-word"><di=
+v id=3D'TEMPLATE_REPLACEMENT_STRING_ID'><pre style=3D'white-space: pre-wrap=
+;font-family: Arial;'> <p>Hi info1,</p><p>I=E2=80=99m Amo, your contact at =
+Jinhua Li Electric Trading Co., LTD. I understand that Go On Riders is inte=
+rested in learning more about our electric bikes, and I=E2=80=99m excited t=
+o share some of their standout features with you.</p><p>Here=E2=80=99s what=
+ sets our electric bikes apart:</p><ol><li><strong>Durable and High-Perform=
+ance Batteries:</strong> We utilize advanced lithium battery technology for=
+ extended range and reliability.</li><li><strong>Eco-Friendly and Efficient=
+:</strong> Our bikes offer a sustainable transportation solution that reduc=
+es carbon footprint without compromising on performance.</li><li><strong>Cu=
+stomizable Options:</strong> We provide a variety of models and customizati=
+on options to suit different preferences and needs.</li></ol><p>These featu=
+res collectively aim to enhance user experience, making our electric bikes =
+a perfect blend of innovation and practicality. If this sounds like a benef=
+icial partnership, I=E2=80=99d love to schedule a 15-minute call this week =
+to discuss further. How does your availability look?</p><p>Looking forward =
+to your response!</p><p>Best regards,</p><p>Amo<br/>Sales Manager<br/><a hr=
+ef=3D"https://xtrfr.com/t/1/m3nctc?p=3D1kpU7hkQ7-6SwpqGO6_1kpU72q8p-6VxWAYj=
+k">li@li-electric.com</a><br/><a href=3D"https://xtrfr.com/t/1/m3ntwe?p=3D1=
+kpU7hkQ7-6SwpqGO6_1kpU72q8p-6VxWAYjk">www.li-electric.com</a></p></pre></di=
+v></td></tr></tbody></table></td></tr></tbody></table></body></html><img he=
+ight=3D"1" src=3D"https://xtrfr.com/t/1/m3o1Ci?p=3D1kpU7hkQ7-6SwpqGO6_1kpU7=
+2q8p-6VxWAYjk" width=3D"1"><div style=3D"text-align: center; font-size: 12p=
+x"><div>=E5=A6=82=E6=9E=9C=E4=BD=A0=E4=B8=8D=E6=83=B3=E5=86=8D=E6=94=B6=E5=
+=88=B0=E6=88=91=E4=BB=AC=E7=9A=84=E9=82=AE=E4=BB=B6=EF=BC=8C=E8=AF=B7=E7=82=
+=B9=E5=87=BB<a href=3D"https://unsubscribe.edmautopro.com/unsubscribe?p=3D1=
+kpU7hkQ7-6SwpqGO6_1kpU72q8p-6VxWAYjk" style=3D"color: #faac58" target=3D"_b=
+lank" rel=3D"noopener">=E3=80=8C=E8=BF=99=E9=87=8C=E9=80=80=E8=AE=A2=E3=80=
+=8D</a></div><div>If you do not wish to receive further email messages from=
+ us, please click<a href=3D"https://unsubscribe.edmautopro.com/unsubscribe?=
+p=3D1kpU7hkQ7-6SwpqGO6_1kpU72q8p-6VxWAYjk" style=3D"color: #faac58" target=
+=3D"_blank" rel=3D"noopener">here</a></div></div>

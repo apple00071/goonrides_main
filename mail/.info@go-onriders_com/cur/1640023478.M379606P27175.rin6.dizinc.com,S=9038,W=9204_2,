@@ -1,0 +1,166 @@
+Return-Path: <haderkoper7i@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id KPcvFbbFwGEnagAAQ+45pw
+	(envelope-from <haderkoper7i@gmail.com>)
+	for <info@go-onriders.com>; Mon, 20 Dec 2021 13:04:38 -0500
+Return-path: <haderkoper7i@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 20 Dec 2021 13:04:38 -0500
+Received: from mail-oi1-f172.google.com ([209.85.167.172]:38594)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <haderkoper7i@gmail.com>)
+	id 1mzN1V-0006z0-AM
+	for info@go-onriders.com; Mon, 20 Dec 2021 13:04:38 -0500
+Received: by mail-oi1-f172.google.com with SMTP id r26so16991009oiw.5
+        for <info@go-onriders.com>; Mon, 20 Dec 2021 10:04:12 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=p7oxKbjhXnuQvNLmfVNJxYAC8nf5AtCeq0enw82fejY=;
+        b=fdUj5GWfpQ8GBBzQalpOS65dLWepsgGKlE+ny+/8ODwcgJecDr7BFRH2ZuYKK3Bsdh
+         omn2t258qZgmceZvwssqhUqMYRrR6Ku7nwSp3h/xNjiDJ3W9UAEaVfgKJrydOxWtIDcJ
+         bc5h0Prlo6vvCLqY7o/q50ItmpKkjz4lgbOCoQc2mOYtH2eppwxvvJ3f2PMhoLfUACBS
+         zMNhUHXlaq9penmZOfrg516H4k5mNGDvumd1UCZKDl6nWVwHEQ+KpwrxLTOFLQDHZDcq
+         obK+GQj4QehCfdOJz6EzHxOUE+RdS1dNiOsgGLqJkUdQEBCI5DbgtsHln6WMingfjMYA
+         gGTg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=p7oxKbjhXnuQvNLmfVNJxYAC8nf5AtCeq0enw82fejY=;
+        b=sTLs4DPoeEdvdUIhXS3Q4rufxInveRy/K9PewLhaN7+IpW4LiP5jAjUnEeUTjYVpC7
+         AvXv2hzxt+xT2Oqq+Lh7aj6hjhduhr2U5R7KOsq87oLBXzV9iV7fJZpDtUzIRSPl8oac
+         kL+9+nBs5L4gcUpKKIt9sD0TRt0LllI3NDLl1KO7ZWddtgAjvAUZgVdCBAmaxm3Y5YcM
+         swK+DwhwInMx9A1tkN9INOOuU6BPlRu+mDPGnAKJ2y1AnpO2VQjxZRjH1U+wpGMwQidN
+         fK7pUBrR7Fq71jKaetf3ZhHndxUj4oPoQq1RJuVNNAkiSXCNnnuNt2LwhI1mqIS2ROJt
+         ruZQ==
+X-Gm-Message-State: AOAM530woIbqh/fRJhNRFw/Jf+Tj7+OrCsjYZaCD50GiNFFse1gvEiJg
+	r6YrfswGCokZDZy3FbccWByxjTWRIPIRRccJzEE=
+X-Google-Smtp-Source: ABdhPJzHXR1sFMzKeVnGlcnPfphnvWsqaSYFrvVCgZLKCpfToPkn+coDrBPX2HAPdEgNCrKOivVx+vpJyzjeK9o7BGI=
+X-Received: by 2002:a05:6808:13d3:: with SMTP id d19mr82110oiw.149.1640023432088;
+ Mon, 20 Dec 2021 10:03:52 -0800 (PST)
+MIME-Version: 1.0
+From: Hader Koper <haderkoper7i@gmail.com>
+Date: Mon, 20 Dec 2021 23:33:40 +0530
+Message-ID: <CAEju=U-7jFAMNiHOvP6iiVW68Kc82gY+4BirQCV3JYKJ_vPdbQ@mail.gmail.com>
+Subject: BILL No. NOR20211220HP
+To: nortoncc2021@outlook.com
+Content-Type: multipart/alternative; boundary="00000000000017d09705d397b671"
+Bcc: info@go-onriders.com
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Client; *Your Yearly membership for NORTON 360 has been
+    renewed & updated successfully.* The charged amount will be available within
+    the next *24* to *48* hrs on your account profile. 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [haderkoper7i[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--00000000000017d09705d397b671
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Client;
+
+*Your Yearly membership for NORTON 360 has been renewed & updated
+successfully.*
+
+The charged amount will be available within the next *24* to *48* hrs on
+your account profile.
+
+
+*BILLING DETAILS*
+
+*INVOICE ID* @     NOR20211220HP
+*Item Name* @     NORTON 360
+*Start Date* @     20-12-2021
+*End Date* @     1 year from Issue Date
+*Amount Total* @     $212.31USD
+*Method Of Payment* @     Debit from account
+
+If you wish to stop subscription and ask for a REFUND then please feel free
+to contact our *Refund & Settlement Dept.* as soon as possible!
+
+You can Reach us on *:* * +1 =E2=80=93 ( 844 ) =E2=80=93 ( 562 ) =E2=80=93 =
+0569*
+
+Kind Regards,
+*Refund & Settlement Dept.*
+
+--00000000000017d09705d397b671
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDr=
+aft,Helvetica,Arial,sans-serif;font-size:13px"><br class=3D"gmail-Apple-int=
+erchange-newline">Dear Client;</div><br style=3D"color:rgb(0,0,0);font-fami=
+ly:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px"><div style=
+=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-se=
+rif;font-size:13px"><b>Your Yearly membership for NORTON 360 has been renew=
+ed &amp; updated successfully.</b></div><br style=3D"color:rgb(0,0,0);font-=
+family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px"><div s=
+tyle=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,Arial,san=
+s-serif;font-size:13px">The charged amount will be available within the nex=
+t=C2=A0<b>24</b>=C2=A0to=C2=A0<b>48</b>=C2=A0hrs on your account profile.</=
+div><br style=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,=
+Arial,sans-serif;font-size:13px"><br style=3D"color:rgb(0,0,0);font-family:=
+Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px"><div style=3D=
+"color:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif=
+;font-size:13px"><b>BILLING DETAILS</b></div><br style=3D"color:rgb(0,0,0);=
+font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px"><=
+table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"font-size:1=
+3px;font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-top:1p=
+x solid rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);width:443px"><tbody><=
+tr><td style=3D"padding:10px 5px"><b>INVOICE ID</b></td><td style=3D"paddin=
+g:10px 5px">@=C2=A0 =C2=A0 =C2=A0NOR20211220HP</td></tr><tr><td style=3D"pa=
+dding:10px 5px;border-bottom:1px solid rgb(0,0,0)"><b>Item Name</b></td><td=
+ style=3D"padding:10px 5px;border-bottom:1px solid rgb(0,0,0)">@=C2=A0 =C2=
+=A0 =C2=A0NORTON 360</td></tr><tr><td style=3D"padding:10px 5px"><b>Start D=
+ate</b></td><td style=3D"padding:10px 5px">@=C2=A0 =C2=A0 =C2=A020-12-2021<=
+/td></tr><tr><td style=3D"padding:10px 5px;border-bottom:1px solid rgb(0,0,=
+0)"><b>End Date</b></td><td style=3D"padding:10px 5px;border-bottom:1px sol=
+id rgb(0,0,0)">@=C2=A0 =C2=A0 =C2=A01 year from Issue Date</td></tr><tr><td=
+ style=3D"padding:10px 5px"><b>Amount Total</b></td><td style=3D"padding:10=
+px 5px">@=C2=A0 =C2=A0 =C2=A0$212.31USD</td></tr><tr><td style=3D"padding:1=
+0px 5px"><b>Method Of Payment</b></td><td style=3D"padding:10px 5px">@=C2=
+=A0 =C2=A0 =C2=A0Debit from account</td></tr></tbody></table><br style=3D"c=
+olor:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;f=
+ont-size:13px"><br style=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDraft=
+,Helvetica,Arial,sans-serif;font-size:13px"><div style=3D"color:rgb(0,0,0);=
+font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px">I=
+f you wish to stop subscription and ask for a REFUND then please feel free =
+to contact our=C2=A0<b>Refund &amp; Settlement Dept.</b>=C2=A0as soon as po=
+ssible!</div><br style=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDraft,H=
+elvetica,Arial,sans-serif;font-size:13px"><div style=3D"color:rgb(0,0,0);fo=
+nt-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:13px">You=
+ can Reach us on=C2=A0<b>:</b>=C2=A0<font face=3D"arial, sans-serif" size=
+=3D"4"><b>=C2=A0+1=C2=A0=E2=80=93=C2=A0(=C2=A0844=C2=A0)=C2=A0=E2=80=93=C2=
+=A0(=C2=A0562=C2=A0)=C2=A0=E2=80=93=C2=A00569</b></font></div><br style=3D"=
+color:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;=
+font-size:13px"><div style=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDra=
+ft,Helvetica,Arial,sans-serif;font-size:13px">Kind Regards,</div><div style=
+=3D"color:rgb(0,0,0);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-se=
+rif;font-size:13px"><b>Refund &amp; Settlement Dept.</b></div></div>
+
+--00000000000017d09705d397b671--

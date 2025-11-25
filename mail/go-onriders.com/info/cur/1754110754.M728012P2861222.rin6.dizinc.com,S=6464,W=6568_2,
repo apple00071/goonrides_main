@@ -1,0 +1,104 @@
+Return-Path: <17540739656203401-85735-0-go-onriders.com@delivery.royalenfield.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id gCuTKiKbjWimqCsAQ+45pw
+	(envelope-from <17540739656203401-85735-0-go-onriders.com@delivery.royalenfield.com>)
+	for <info@go-onriders.com>; Sat, 02 Aug 2025 00:59:14 -0400
+Return-path: <17540739656203401-85735-0-go-onriders.com@delivery.royalenfield.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 02 Aug 2025 00:59:14 -0400
+Received: from fallbackmta-66.52.ptransmail.com ([175.158.66.52]:34274)
+	by rin6.dizinc.com with esmtp (Exim 4.98.2)
+	(envelope-from <17540739656203401-85735-0-go-onriders.com@delivery.royalenfield.com>)
+	id 1ui4Ky-0000000C0kN-2kp0
+	for info@go-onriders.com;
+	Sat, 02 Aug 2025 00:59:14 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=pepipost; d=royalenfield.com;
+ h=Message-ID:From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe:Date;
+ bh=UiGdvjKhm+P08SYGVObshVlx5AW/o1yVG8aLuYSh5FY=;
+ b=foAlAdHsZXAXhpOVLqlNGg6xAIt9NxprWO3X3IRD2WRBJF1iBBLfNHpPEIxbQlnduhMaxSb6SEJm
+   dP/A+nUrcMct1WVT7HHt9ButJLVzYz+ftgZFgJLunP3V2qribDSRIXU3SILSZ3FD/5jFLE+0rFgY
+   oKYo+ymtcHcsqbeKmxU=
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=fnc; d=env.etransmail.com;
+ h=Message-ID:From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:List-Unsubscribe:Date;
+ bh=UiGdvjKhm+P08SYGVObshVlx5AW/o1yVG8aLuYSh5FY=;
+ b=vMZdLELdVmEZTL5ax5HTgsyB1lsJGdBYPV6me8KaJrZVADL5ZXVnowtKYVncNmehVYSJ9SYk8hvN
+   qA34hPnb+BUpb1B9dl6WYRuwTYwDUGRLDbsz7SiLQSdNmFWcYk07BjI0yS4mco2uSFHeSB/bO4ph
+   RsIHfVPZxRxCTC4BSmo=
+Message-ID: <E01F470A7D4444C8A55CD4BEDBB2103B1DC036993C94@PUREMOTORCYCLING.ROYALENFIELD.COM>
+Thread-Topic: Complaint Registered - ME3J3C5FDN2024765
+Thread-Index: AVFZ35LiY0trmgPsNCejD7ncA2mTyQ==
+From: RE Service Account # <puremotorcycling@royalenfield.com>
+To: Athif <info@go-onriders.com>
+Subject: Complaint Registered - ME3J3C5FDN2024765
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+X-InjTime: 1754110619
+List-Unsubscribe: <mailto:17540739656203401@usub.ftrans03.com?subject=Unsubscribe>, <https://delivery.royalenfield.com/CGTBDMKREA?id=85735=ZRgFCQ0MUgtUTQBVAlYBUQECUkk=W1lUX3NTXR8OV0ddVAFHShtaClUdAAdQBlYGUggEVwMABwEEAwU=>
+X-FNCID: 85735-17540739656203401-0
+X-Traffic-Type: 85735-2
+Date: Sat, 2 Aug 2025 10:29:13 +0530
+X-MagicSpam-TUUID: 3f6a7e6e-0000-42b8-a04e-579352eafe28
+X-MagicSpam-SUUID: 103ae779-4d16-47bb-b5a4-70ab85da1abe
+X-Spam-Status: No, score=2.4
+X-Spam-Score: 24
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Rider, The complaint about your Royal Enfield product/service
+    at Company Showroom Hyderabad - Service has been registered with the ID :CAS-91498920-B6X2W7,
+    Dated 02-08-2025 10:24. You'll hear fr [...] 
+ Content analysis details:   (2.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [175.158.66.52 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [175.158.66.52 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [175.158.66.52 listed in bl.score.senderscore.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: royalenfield.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of words
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML tag
+  0.1 KAM_UNSUB1             Unsubscription Spams
+X-Spam-Flag: NO
+
+<span><span><span><span><span><span><span><span><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"1523" style=3D"border-collapse: colla=
+pse;width:1142pt"><tbody><tr height=3D"20" style=3D"height:15.0pt">  <td he=
+ight=3D"20" class=3D"xl65" width=3D"1523" style=3D"height:15.0pt;width:1142=
+pt">Dear  Rider, The complaint about your Royal Enfield product/service at&=
+nbsp;Company Showroom Hyderabad - Service=E2=80=89has been registered with =
+the ID :CAS-91498920-B6X2W7, Dated&nbsp;02-08-2025 10:24. You'll  hear from=
+ us shortly. For further queries, call:  =E2=80=898686099601=E2=80=89 .</td=
+></tr></tbody></table></span></span></span></span></span></span></span></sp=
+an><p>&nbsp;<br></p>Click <a href=3D"https://delivery.royalenfield.com/CGTB=
+DMKREA?id=3D85735=3DZRgFCQ0MUgtUTQBVAlYBUQECUkk=3DW1lUX3NTXR8OV0ddVAFHShtaC=
+lUdAAdQBlYGUggEVwMABwEEAwU=3D">here</a> to unsubscribe<img src=3D'https://d=
+elivery.royalenfield.com/CGTBDMKREA?id=3D85735=3DfxgFCQ0MUgtUTQBVAlYBUQECUk=
+k=3DW1lUX3NTXR8OV0ddVAFHShtaClUdAAdQBlYGUggEVwMABwEEAwU=3D' />=

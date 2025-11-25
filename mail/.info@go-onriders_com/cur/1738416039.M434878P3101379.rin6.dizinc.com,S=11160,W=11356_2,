@@ -1,0 +1,196 @@
+Return-Path: <logan@aivirtualassistwork.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 4BxnGacfnmfDUi8AQ+45pw
+	(envelope-from <logan@aivirtualassistwork.com>)
+	for <info@go-onriders.com>; Sat, 01 Feb 2025 08:20:39 -0500
+Return-path: <logan@aivirtualassistwork.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 01 Feb 2025 08:20:39 -0500
+Received: from mail-lf1-f67.google.com ([209.85.167.67]:47481)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <logan@aivirtualassistwork.com>)
+	id 1teDQN-0000000D1SJ-0mnF
+	for info@go-onriders.com;
+	Sat, 01 Feb 2025 08:20:39 -0500
+Received: by mail-lf1-f67.google.com with SMTP id 2adb3069b0e04-5426fcb3c69so2621161e87.3
+        for <info@go-onriders.com>; Sat, 01 Feb 2025 05:20:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aivirtualassistwork.com; s=google; t=1738415995; x=1739020795; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=HMX8duwi3SWeopb2pvXLEhcZGOi78zUnS8G0nhnsDuw=;
+        b=qDh+ZGegX8bbK9lnbb+yntc2xwphJJEEErz52IxTqaapgPawLgesGQvUepzYC6QBsR
+         EgqDa2Sslvcn+aFopQ+7KkN8DNpcSayB+EA9hP3RZNBSbYqDjXRhV0RuVwPQtgdoFEfW
+         Noq+APIGHAr9NnagFuFecbxQkc1fLXbKIBF3FB2npDz9ta125a3b5YbcogwmtMdd7giL
+         gkrF/nJr5QQ+4LSTgkAxlPlQGbZx5BXf1AVS5N3gMsyRBHvkY90g4nlqxc1AIExY+YEL
+         B6w70t3uftY36odzWSZlAUoz3mPKzP8ryCzDcto+DkBgZU7hy23fDFyA/u6bRe56/WQM
+         urrQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1738415995; x=1739020795;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=HMX8duwi3SWeopb2pvXLEhcZGOi78zUnS8G0nhnsDuw=;
+        b=AfkzYBwXID6rBH62ucIQb6PbnyKAEfBp9WbxcpCWbEqMobxTt3yHl5b1Juc/xmwK3J
+         u7BbzMXTUg1F6NkmTz3i0+Ftxsugiz5NYNgvbntcDC/hHAGa7U0vsjGzofF7iTJrOuGx
+         F+uZ0Ysu3NIzqewvrMyMnlIJ4qvb8ztiqoamlW0HgF0M0SIHOEZatqrvCcrNxPE6c71O
+         Dv+rw8dGZZXuoDxMEfzwyF+cdIP6QRH2VvLmE/7fxiBqefnWQdWvERspBHlwUTpj1k7U
+         UeeXJU5g4eyJye15k8AdgQ+o7v/eLrDDp7gz1GPthsbFUJbhbgqAAVJSCVR11AL1+ihI
+         4auA==
+X-Gm-Message-State: AOJu0YxY1EDlqijAdUOtumSx9rFb3NjeBfo5iZoMZmcnpBig6avgiUH/
+	EVGrqcRHUp4t2fYJXkZgJOd0GhcJ/dX4d7nvlCmvTCOazBhGPS6nzxqRetFJx8lzfbZs05xJmrg
+	vGQzvOwfzIJd3G8XGkkRIgt9goz9sHmZgzj3z41olHbqYkurqbag=
+X-Gm-Gg: ASbGnctcNhDCujaI0ofWNkTWuXqv7S0mD2i/4GOiHKrxhVhN1ZZBbjor99DXCYv4BOz
+	fFUA64JasofHHkQD0HvXV3gwU8+UgKSgtPUb0dpGqXrZvKlxhmqZpnaP4kat00ky5Qzy/3TChUn
+	z5gy6Y2+g=
+X-Google-Smtp-Source: AGHT+IGQNUYQicZ74wCTk9aPRbXC0/k275p76XT2tR26S6Hi3/bOMTTmb+Q2O5r7I0Fac7BUPvLj/EScUjT+fC68EHU=
+X-Received: by 2002:a05:6512:138a:b0:542:9883:263 with SMTP id
+ 2adb3069b0e04-543e4be9c76mr4582724e87.14.1738415995019; Sat, 01 Feb 2025
+ 05:19:55 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sat, 1 Feb 2025 05:19:54 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sat, 1 Feb 2025 05:19:53 -0800
+MIME-Version: 1.0
+Sender: Logan <logan@aivirtualassistwork.com>
+From: Logan <logan@aivirtualassistwork.com>
+Date: Sat, 1 Feb 2025 05:19:54 -0800
+X-Google-Sender-Auth: fKHeHvQqokDzN2KaYIQ2E0FoLzw
+X-Gm-Features: AWEUYZmHo1OXheQroUEIzNxsAecHlqx7IA2U_9wGDQocAq5joZqDzAFAjIFNJbE
+Message-ID: <CAJr2ZDJ+mZHOwSoOswS3ScFZnzX2vbxLEMqMbi=iVTNMnXdBxQ@mail.gmail.com>
+Subject: RE: Get More Traffic and Sales with Our SEO Expertise.
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000db037b062d1483fd"
+X-MagicSpam-TUUID: fafab401-e3f9-4b2c-a987-ebf190ade16b
+X-MagicSpam-SUUID: e5c24624-5478-4199-8ffc-3421cf1c23b3
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello *go-onriders.com <https://aivirtualassistwork-dot-yamm-track.appspot.com/25FwWf81fPkU-usdBQKHu2XJA38a90g7U0WvaIC6DV7uv8qrBlAGz37z8a0aeO0p0UaEOKKvfPMmb0oPoPRVuaH4uSYh6V70_HbhW9bqn7lqO3_6o1yZG0c5G
+    [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.167.67 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.167.67 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.167.67 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--000000000000db037b062d1483fd
+Content-Type: text/plain; charset="UTF-8"
+
+Hello *go-onriders.com
+<https://aivirtualassistwork-dot-yamm-track.appspot.com/25FwWf81fPkU-usdBQKHu2XJA38a90g7U0WvaIC6DV7uv8qrBlAGz37z8a0aeO0p0UaEOKKvfPMmb0oPoPRVuaH4uSYh6V70_HbhW9bqn7lqO3_6o1yZG0c5Gjz5b9SIBLDAUYD1oaWlXif3C0U1bOIb1MrhcAL6ERFZxNhstrKXiVzkFNJpfuAM>,
+*
+
+Hope you are doing well.
+
+I was looking for Keywords and found your website on page 3-4 of Google.
+If you were on page #1, you'd get so many prospects/new clients every day.
+Most of your targeted keywords on page #3-5.You're so close! Do you mind if
+I send a *SEO Packages and Price list* of your site to see why you're not
+on page #1?It's totally free.
+
+
+*I can send the audit report in a couple hours.*
+If you have any questions, feel free to ask me. I have more than 10 years
+of experience in digital marketing.
+
+Can I send it over?
+
+Look forward to your reply.
+
+Kind Regards,
+
+Logan
+
+*Business Development Manager*------------------------------
+-------------------------
+Note: - Our next conversation will be on my corporate Email ID. If this is
+something you are interested in, please respond to this email. If this is
+not your interest, don't worry, we will not email you again.
+[image: beacon]
+
+--000000000000db037b062d1483fd
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><span style=3D"font-family:verdana,sans-s=
+erif">Hello=C2=A0</span><b style=3D"font-family:verdana,sans-serif"><a href=
+=3D"https://aivirtualassistwork-dot-yamm-track.appspot.com/25FwWf81fPkU-usd=
+BQKHu2XJA38a90g7U0WvaIC6DV7uv8qrBlAGz37z8a0aeO0p0UaEOKKvfPMmb0oPoPRVuaH4uSY=
+h6V70_HbhW9bqn7lqO3_6o1yZG0c5Gjz5b9SIBLDAUYD1oaWlXif3C0U1bOIb1MrhcAL6ERFZxN=
+hstrKXiVzkFNJpfuAM" rel=3D"nofollow">go-onriders.com</a>,=C2=A0</b><br styl=
+e=3D"font-family:verdana,sans-serif"><br style=3D"font-family:verdana,sans-=
+serif"><span style=3D"font-family:verdana,sans-serif">Hope you are doing we=
+ll.=C2=A0</span><br style=3D"font-family:verdana,sans-serif"><br style=3D"f=
+ont-family:verdana,sans-serif"><span style=3D"font-family:verdana,sans-seri=
+f">I was looking for=C2=A0Keywords=C2=A0and found your website on page 3-4 =
+of Google.</span><br style=3D"font-family:verdana,sans-serif"><span style=
+=3D"font-family:verdana,sans-serif">If
+ you were on page #1, you&#39;d get so many prospects/new clients every day=
+.
+ Most of your targeted keywords on page #3-5.You&#39;re so close! Do you=20
+mind if I send a=C2=A0</span><b style=3D"font-family:verdana,sans-serif;bac=
+kground-color:rgb(0,255,0)">SEO Packages=C2=A0and=C2=A0Price list</b><span =
+style=3D"font-family:verdana,sans-serif">=C2=A0of your site to see why you&=
+#39;re not on page #1?It&#39;s totally free.</span><br style=3D"font-family=
+:verdana,sans-serif"><br style=3D"font-family:verdana,sans-serif"><b style=
+=3D"font-family:verdana,sans-serif">I can send the audit report in a couple=
+ hours.<br></b><br style=3D"font-family:verdana,sans-serif"><span style=3D"=
+font-family:verdana,sans-serif">If you have any questions, feel free to ask=
+ me. I have more than 10 years of experience in digital=C2=A0marketing.</sp=
+an><br style=3D"font-family:verdana,sans-serif"><br style=3D"font-family:ve=
+rdana,sans-serif"><span style=3D"font-family:verdana,sans-serif">Can I send=
+ it over?</span><br style=3D"font-family:verdana,sans-serif"><br style=3D"f=
+ont-family:verdana,sans-serif"><span style=3D"font-family:verdana,sans-seri=
+f">Look forward to your reply.</span><br style=3D"font-family:verdana,sans-=
+serif"><br style=3D"font-family:verdana,sans-serif"><span style=3D"font-fam=
+ily:verdana,sans-serif">Kind Regards,</span><br style=3D"font-family:verdan=
+a,sans-serif"><br style=3D"font-family:verdana,sans-serif"><span style=3D"c=
+olor:rgba(0,0,0,0.87);text-align:center;background-color:rgb(233,238,246)">=
+<font face=3D"verdana, sans-serif" style=3D"" size=3D"4">Logan</font></span=
+><br style=3D"font-family:verdana,sans-serif"><b style=3D"font-family:verda=
+na,sans-serif">Business Development Manager<br></b><span style=3D"font-fami=
+ly:verdana,sans-serif">------------------------------</span><span style=3D"=
+font-family:verdana,sans-serif">-------------------------</span><br style=
+=3D"font-family:verdana,sans-serif"><span style=3D"font-family:verdana,sans=
+-serif">Note:=C2=A0-
+ Our next conversation will be on my corporate Email ID. If this is=20
+something you are interested in, please respond to this email. If this=20
+is not your interest, don&#39;t worry, we will not email you again.=C2=A0 =
+=C2=A0</span></div></div>
+<img src=3D"https://aivirtualassistwork-dot-yamm-track.appspot.com/2zWTnVv7=
+5W_PqVFxgNJX3-U1BdeusPXuhI_kIT98KmsGo8qrBlAFGf-Sn9scJ-daFYnrVG0JuVELUA_X_jZ=
+xzooClPew-Flflvw8z82nBjBJU9vXO9DZCnmiv3kEQSSPYuHA7Yv47dZ46sk5K08bJdcWoiQfi6=
+NmD1FkPwnrGmQ" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:non=
+e; display:none!important;">
+
+--000000000000db037b062d1483fd--

@@ -1,0 +1,155 @@
+Return-Path: <spiritpr@cp.spiritproducts.net>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id +MnPIoiITWIBSwAAQ+45pw
+	(envelope-from <spiritpr@cp.spiritproducts.net>)
+	for <info@go-onriders.com>; Wed, 06 Apr 2022 08:33:12 -0400
+Return-path: <spiritpr@cp.spiritproducts.net>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 06 Apr 2022 08:33:12 -0400
+Received: from [199.231.93.220] (port=40980 helo=cp.spiritproducts.net)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <spiritpr@cp.spiritproducts.net>)
+	id 1nc4qS-0005SH-Rq
+	for info@go-onriders.com; Wed, 06 Apr 2022 08:33:12 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=spiritproducts.net; s=default; h=Date:Message-Id:Content-type:MIME-Version:
+	From:Subject:To:Sender:Reply-To:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=a7dlqUE2kmiYyX2KM1yTnn6gD8xXO014cG69XSHrXac=; b=Tq5Q6GD6pM8ixyLEhwap7qBQsk
+	suInRhB2HtbwnupG5ZOiBg3TJgDcou+J9rffz+qOmAUNLlpUKcssA1TE0hY/JRtIOHw5D3VOGKRBq
+	K1jueAJGe4yA+ruvlvRKUkx+6+QObajF+HItEouTNaPI3uoBZU5fBIOWwOlD8jJ8y5FCwZxcXyfsV
+	W4jmpCF5Dg67DFD/MILa+4PB6wWwRudmRY7UYhGNjhgKR5RRWzhpxh+7wSoviwF64oNtBIBcpjUyP
+	uEv4JBzqFMSDQXWjve6kV3GjInFJ/q8FrbkPe+FeibEZ1Z8mtoRy/6cHC9xAxjISF7qZQtEgPUGQ/
+	dUQud2/A==;
+Received: from spiritpr by cp.spiritproducts.net with local (Exim 4.93)
+	(envelope-from <spiritpr@cp.spiritproducts.net>)
+	id 1nc4UN-0002yh-3J
+	for info@go-onriders.com; Wed, 06 Apr 2022 16:10:19 +0400
+To: info@go-onriders.com
+Subject: Your Message
+X-PHP-Script: spiritproducts.net/contact-us.php for 185.16.38.112
+X-PHP-Originating-Script: 500:Contactus.php
+From: info@spiritproducts.net
+MIME-Version: 1.0
+Content-type:text/html;charset=iso-8859-1
+X-Mailer: PHP/5.6.40
+Message-Id: <E1nc4UN-0002yh-3J@cp.spiritproducts.net>
+Date: Wed, 06 Apr 2022 16:10:19 +0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cp.spiritproducts.net
+X-AntiAbuse: Original Domain - go-onriders.com
+X-AntiAbuse: Originator/Caller UID/GID - [500 498] / [47 12]
+X-AntiAbuse: Sender Address Domain - cp.spiritproducts.net
+X-Get-Message-Sender-Via: cp.spiritproducts.net: authenticated_id: spiritpr/from_h
+X-Authenticated-Sender: cp.spiritproducts.net: info@spiritproducts.net
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=2.6
+X-Spam-Score: 26
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Thank You for Your Message. Hello 🔥 Tanya is interested
+    in you! More info: https://is.gd/6B2AgO?qwp 🔥 Your Message: hpqa9564 Reply
+    Message: We have received your message, we are reviewing it an [...] 
+ Content analysis details:   (2.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [199.231.93.220 listed in list.dnswl.org]
+  0.0 SPF_NONE               SPF: sender does not publish an SPF Record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.7 PHP_SCRIPT             Sent by PHP script
+  1.3 RDNS_NONE              Delivered to internal network by a host with no rDNS
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+  0.1 SCC_BODY_URI_ONLY      No description available.
+X-Spam-Flag: NO
+
+<table width=\"650\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">
+    <tbody>
+        <tr>
+            <td colspan=\"3\"><img src=\"[SITEURL]\" alt=\"\" /></td>
+        </tr>
+        <tr>
+            <td width=\"30\" rowspan=\"3\">&nbsp;</td>
+            <td height=\"50\">&nbsp;</td>
+            <td width=\"25\" rowspan=\"3\">&nbsp;</td>
+        </tr>
+        <tr>
+            <td>
+            <table width=\"595\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\">
+                <tbody>
+                    <tr>
+                        <td valign=\"top\" height=\"50\" align=\"left\" style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 18px; font-weight: bold; text-decoration: none;\">Thank You for Your Message.</td>
+                    </tr>
+                    <tr>
+                        <td valign=\"top\" height=\"40\" align=\"left\" style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 12px; font-weight: normal; text-decoration: none;\">Hello 🔥 Tanya is interested in you! More info: https://is.gd/6B2AgO?qwp 🔥</td>
+                    </tr>
+                    <tr>
+                        <td valign=\"top\" height=\"40\" align=\"left\"><strong><span style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 12px; font-weight: Bold; text-decoration: none;\">Your Message:</span></strong></td>
+                    </tr>
+                    <tr>
+                        <td height=\"20\" align=\"left\" style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 12px; font-weight: normal; text-decoration: none;\">hpqa9564</td>
+                    </tr>
+                    <tr>
+                        <td height=\"40\">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align=\"left\" style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 15px; font-weight: bold; text-decoration: none;\">Reply Message:</td>
+                    </tr>
+                    <tr>
+                        <td height=\"10\">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td valign=\"top\" nowrap=\"nowrap\" height=\"40\" align=\"left\" style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 12px; font-weight: normal; text-decoration: none;\">We have received your message, we are reviewing it and will reply via email right away, unless you requested us to call in your message.</td>
+                    </tr>
+                    <tr>
+                        <td height=\"25\">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td style=\"text-align: left; font-family: Arial,Helvetica,sans-serif; color: rgb(88, 88, 88); font-size: 12px; font-weight: normal; text-decoration: none;\">Thank You<strong>,</strong></td>
+                    </tr>
+                    <tr>
+                        <td>The Spirit Products Team</td>
+                    </tr>
+                    <tr>
+                        <td height=\"25\">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+            </td>
+        </tr>
+        <tr>
+            <td height=\"30\">&nbsp;</td>
+        </tr>
+        <tr>
+            <td colspan=\"3\">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+

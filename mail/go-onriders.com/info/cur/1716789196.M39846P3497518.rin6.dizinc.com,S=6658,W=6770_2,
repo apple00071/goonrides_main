@@ -1,0 +1,112 @@
+Return-Path: <export@brand.myaixpert.cn>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id TTDGAcwfVGYuXjUAQ+45pw
+	(envelope-from <export@brand.myaixpert.cn>)
+	for <info@go-onriders.com>; Mon, 27 May 2024 01:53:16 -0400
+Return-path: <export@brand.myaixpert.cn>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 27 May 2024 01:53:16 -0400
+Received: from out21-9.dm.aliyun.com ([115.124.21.9]:44451)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <export@brand.myaixpert.cn>)
+	id 1sBTII-0000000EfiL-0Tt4
+	for info@go-onriders.com;
+	Mon, 27 May 2024 01:53:15 -0400
+X-AliDM-RcptTo: aW5mb0Bnby1vbnJpZGVycy5jb20=
+Feedback-ID: default:export@brand.myaixpert.cn:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=brand.myaixpert.cn; s=aliyun-cn-hangzhou;
+	t=1716789150; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=/77HLSDEpin4Vr587//BSIfm+p9oOMbVnSZMEYLjjjk=;
+	b=W+lJINckPVUY4PE/+cmhRBfc6QcRlzyRdFSVUScjlrhSYzCrc/PYm2p/A/TybjR7lJ1aQaKRCu4WLLq8SQOBPJ9HERKK2nMlam3+Jh6fXpUPjZe9rtDXVy4I6Z9GGgyz5+WUe5k0+qY4xmfBXfGt6ZG9MAN8kGFPZOYgTFcUA0s=
+Received: from msgdactuatorserv-5776d8b4c4-vs7f6(mailfrom:export@brand.myaixpert.cn fp:SMTPD_-VHcCN5ttKm)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Mon, 27 May 2024 13:52:29 +0800
+X-EnvId: 600000086279689655
+Date: Mon, 27 May 2024 13:52:29 +0800 (CST)
+From: vanessa <export@brand.myaixpert.cn>
+Reply-To: vanessa@bonabike.com
+To: info@go-onriders.com
+Message-ID: <28990100552000024052415579827_28990100539002124052790589465_XTransfer@brand.myaixpert.cn>
+Subject: Enhance Your Bike Range with Premium Titanium Frames from BONA
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-MagicSpam-TUUID: 5283e960-9237-4545-a73a-8262d0cb60b8
+X-MagicSpam-SUUID: cdb16eb2-a672-43b9-b8fb-022ae0f49148
+X-Spam-Status: No, score=1.2
+X-Spam-Score: 12
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear info1, I hope this note finds you in high spirits! I'm
+    Vanessa from SHAANXI BONA TITANIUM PRODUCTS CO., LTD. - your gateway to innovative
+    titanium bike frames straight from Baoji, China's famed Titanium City [...]
+    
+ Content analysis details:   (1.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [115.124.21.9 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [115.124.21.9 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+  0.3 LM_OS_GEN_4PARTCOM_ONLY_DKIM Common method by spammers, OS
+                             Generated, RP is hostname not domain
+X-Spam-Flag: NO
+
+<html><body><p>Dear info1,</p><p>I hope this note finds you in high spirits=
+! I'm Vanessa from <strong>SHAANXI BONA TITANIUM PRODUCTS CO., LTD.</strong=
+> - your gateway to innovative <strong>titanium bike frames</strong> straig=
+ht from Baoji, China's famed Titanium City.</p><p>At BONA, we're not just a=
+bout bike parts; we're champions of the <strong>titanium revolution</strong=
+>, offering everything from bike accessories to outdoor gear, crafted to pe=
+rfection with exceptional titanium. Our customized services are tailored to=
+ meet your unique needs, ensuring a personalized touch that sets you apart.=
+</p><p>I believe our dedication to <strong>quality, affordability</strong>,=
+ and <strong>professional service</strong> aligns perfectly with the values=
+ at Go On Riders. To see our collection and learn more, take a pedal over t=
+o our <a href=3D'http://www.bonabike.com/?bizSource=3Dae&sourceId=3D5599010=
+1598000024052402119275'>website</a> and connect with us on <a href=3D'https=
+://www.instagram.com/vanessawang0116/'>Instagram</a> or <a href=3D'https://=
+www.facebook.com/vanessa.wang.9279807'>Facebook</a>.</p><p>Feel free to rea=
+ch out via <a href=3D'mailto:vanessa@bonabike.com'>email</a> or WhatsApp at=
+ +86 18392797940 - I'm here to steer you into a whole new realm of titanium=
+ possibilities!</p><p>Warm regards,<br/>Vanessa<br/></strong>SHAANXI BONA T=
+ITANIUM PRODUCTS CO., LTD.</p></body></html><img height=3D"1" src=3D"https:=
+//xtrfr.com/t/1/m3auW0?p=3D1kpU6LIdp-6AajveSE_1kpU72q8p-6zu749T4" width=3D"=
+1"><div style=3D"text-align: center; font-size: 12px"><div>=E5=A6=82=E6=9E=
+=9C=E4=BD=A0=E4=B8=8D=E6=83=B3=E5=86=8D=E6=94=B6=E5=88=B0=E6=88=91=E4=BB=AC=
+=E7=9A=84=E9=82=AE=E4=BB=B6=EF=BC=8C=E8=AF=B7=E7=82=B9=E5=87=BB<a href=3D"h=
+ttps://www.xtransfer.cn/unsubscribe?p=3D1kpU6LIdp-6AajveSE_1kpU72q8p-6zu749=
+T4" style=3D"color: #faac58" target=3D"_blank" rel=3D"noopener">=E3=80=8C=
+=E8=BF=99=E9=87=8C=E9=80=80=E8=AE=A2=E3=80=8D</a></div><div>If you do not w=
+ish to receive further email messages from us, please click<a href=3D"https=
+://www.xtransfer.cn/unsubscribe?p=3D1kpU6LIdp-6AajveSE_1kpU72q8p-6zu749T4" =
+style=3D"color: #faac58" target=3D"_blank" rel=3D"noopener">here</a></div><=
+/div>

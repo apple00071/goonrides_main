@@ -1,0 +1,147 @@
+Return-Path: <Flora@mpsnc-center.cn>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id G7UfIqo+hGc5pTcAQ+45pw
+	(envelope-from <Flora@mpsnc-center.cn>)
+	for <info@go-onriders.com>; Sun, 12 Jan 2025 17:14:02 -0500
+Return-path: <Flora@mpsnc-center.cn>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 12 Jan 2025 17:14:02 -0500
+Received: from hwbj4-ts-2.chinadns.net ([139.9.89.82]:38710)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98)
+	(envelope-from <Flora@mpsnc-center.cn>)
+	id 1tX6DY-0000000FIQR-0eyd
+	for info@go-onriders.com;
+	Sun, 12 Jan 2025 17:14:02 -0500
+Received: from mx24.dns.com.cn (mx24.dns.com.cn [116.196.92.170])
+	(using TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits))
+	(No client certificate requested)
+	by hwbj4-ts-2.chinadns.net (Postfix) with ESMTPS id B80A31A1983
+	for <info@go-onriders.com>; Mon, 13 Jan 2025 06:13:12 +0800 (CST)
+Received: from DESKTOP-E1TKHVN (unknown [182.91.192.237])
+	by mx24.dns.com.cn (DNS Email Server) with ESMTPA id 2CDF1140B40
+	for <info@go-onriders.com>; Mon, 13 Jan 2025 06:13:12 +0800 (CST)
+MIME-Version: 1.0
+From: Flora@mpsnc-center.cn
+To: info@go-onriders.com
+Date: 13 Jan 2025 06:13:11 +0800
+Subject: go-onriders
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-MagicSpam-TUUID: 5a748cf1-da6d-451c-b9be-8473818db33c
+X-MagicSpam-SUUID: 61480e44-3df2-47af-9e08-b0dd0c86f076
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, This email is from China Intellectual Property
+    Office, which mainly deal with Chinese Brand Name and Domain Name etc. Here
+    we have something to confirm with you. A company named “TaeMu Group”
+   was [...] 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [139.9.89.82 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [139.9.89.82 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [139.9.89.82 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+PCFET0NUWVBFIGh0bWwgUFVCTElDICItLy9XM0MvL0RURCBYSFRNTCAxLjAgVHJhbnNp
+dGlvbmFsLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL1RSL3hodG1sMS9EVEQveGh0bWwx
+LXRyYW5zaXRpb25hbC5kdGQiPg0KPGh0bWwgeG1sbnM9Imh0dHA6Ly93d3cudzMub3Jn
+LzE5OTkveGh0bWwiPg0KCTxoZWFkPg0KCQk8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50
+LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD11dGYtOCIgLz48dGl0bGU+
+DQoJCTwvdGl0bGU+DQoJCTxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJCQkuY3M5NTlE
+RTZFRnt0ZXh0LWFsaWduOmxlZnQ7dGV4dC1pbmRlbnQ6MHB0O21hcmdpbjowcHQgMHB0
+IDBwdCAwcHR9DQoJCQkuY3M4OTA4MTA0Rntjb2xvcjojMDAwMDAwO2JhY2tncm91bmQt
+Y29sb3I6dHJhbnNwYXJlbnQ7Zm9udC1mYW1pbHk6Q2FsaWJyaTtmb250LXNpemU6MTJw
+dDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHlsZTpub3JtYWw7fQ0KCQkJLmNzMUIy
+RDYzQUV7Y29sb3I6IzAwMDAwMDtiYWNrZ3JvdW5kLWNvbG9yOnRyYW5zcGFyZW50O2Zv
+bnQtZmFtaWx5OidUaW1lcyBOZXcgUm9tYW4nO2ZvbnQtc2l6ZToxMnB0O2ZvbnQtd2Vp
+Z2h0Om5vcm1hbDtmb250LXN0eWxlOm5vcm1hbDt9DQoJCQkuY3MxMjJDMENBOXtjb2xv
+cjojMDAwMDAwO2JhY2tncm91bmQtY29sb3I6dHJhbnNwYXJlbnQ7Zm9udC1mYW1pbHk6
+Q2FsaWJyaTtmb250LXNpemU6MTFwdDtmb250LXdlaWdodDpub3JtYWw7Zm9udC1zdHls
+ZTpub3JtYWw7fQ0KCQk8L3N0eWxlPg0KCTwvaGVhZD4NCgk8Ym9keT4NCgkJPHAgY2xh
+c3M9ImNzOTU5REU2RUYiPjxzcGFuIGNsYXNzPSJjczg5MDgxMDRGIj5EZWFyIFNpci9N
+YWRhbSw8L3NwYW4+PC9wPjxwIGNsYXNzPSJjczk1OURFNkVGIj48c3BhbiBjbGFzcz0i
+Y3M4OTA4MTA0RiI+Jm5ic3A7PC9zcGFuPjwvcD48cCBjbGFzcz0iY3M5NTlERTZFRiI+
+PHNwYW4gY2xhc3M9ImNzODkwODEwNEYiPlRoaXMgZW1haWwgaXMgZnJvbSBDaGluYSBJ
+bnRlbGxlY3R1YWwgUHJvcGVydHkgT2ZmaWNlLCB3aGljaCBtYWlubHkgZGVhbCB3aXRo
+IENoaW5lc2UgQnJhbmQgTmFtZSBhbmQgRG9tYWluIE5hbWUgZXRjLiBIZXJlIHdlIGhh
+dmUgc29tZXRoaW5nIHRvIGNvbmZpcm0gd2l0aCB5b3UuIEEgY29tcGFueSBuYW1lZCAm
+bGRxdW87VGFlTXUgR3JvdXAmcmRxdW87IHdhcyBhcHBseWluZyB0byByZWdpc3RlciAm
+cmRxdW87IGdvLW9ucmlkZXJzICZyZHF1bzsgYXMgaXRzIENoaW5lc2UgQnJhbmQgTmFt
+ZSBzb21lIGRvbWFpbiBuYW1lcyguYXNpYS8uY24vLmNvbS5jbi8uaGsvLmNvbS5oay8u
+dHcpLjwvc3Bhbj48L3A+PHAgY2xhc3M9ImNzOTU5REU2RUYiPjxzcGFuIGNsYXNzPSJj
+czg5MDgxMDRGIj5CdXQgYWZ0ZXIgb3VyIGF1ZGl0IHdvcmssIHdlIGZvdW5kIHRoYXQg
+dGhlIGtleXdvcmQgYXJlIHRoZSBzYW1lIGFzIHlvdXIgY29tcGFueSBuYW1lLiBCZWNh
+dXNlIHRoaXMgcmVnaXN0cmF0aW9uIHdpbGwgZGV0ZXJtaW5lIHRoZSBvd25lcnNoaXAg
+b2YgdGhlIEJyYW5kIE5hbWUuIFdlIG5lZWQgdG8gY2hlY2sgd2l0aCB5b3Ugd2hldGhl
+ciB5b3VyIGNvbXBhbnkgaGFzIGF1dGhvcml6ZWQgJmxkcXVvO1RhZU11IEdyb3VwJnJk
+cXVvOyB0byByZWdpc3RlciB0aGUgQ2hpbmVzZSBCcmFuZCBOYW1lIGFuZCB0aG9zZSBE
+b21haW4gTmFtZSwgYW5kIHdoZXRoZXIgeW91IGhhdmUgZGlzcHV0ZSBhYm91dCB0aGlz
+IHJlZ2lzdHJhdGlvbnMuIElmIHlvdSBhdXRob3JpemVkIHRoaXMsIHdlIHdpbGwgZmlu
+aXNoIHRoZSByZWdpc3RyYXRpb24gYXMgcGVyIG91ciBkdXR5LiBJZiB5b3UgZGlkIG5v
+dCBhdXRob3JpemUsIHBsZWFzZSBjb250YWN0IHVzIGJ5IGVtYWlsIGluIHRpbWUsIHNv
+IHRoYXQgd2Ugd2lsbCBoYW5kbGUgdGhpcyBpc3N1ZSBiZXR0ZXIuIFRoYW5rcyBmb3Ig
+eW91ciBjb29wZXJhdGlvbi48L3NwYW4+PC9wPjxwIGNsYXNzPSJjczk1OURFNkVGIj48
+c3BhbiBjbGFzcz0iY3M4OTA4MTA0RiI+TG9va2luZyBmb3J3YXJkIHRvIHlvdXIgcHJv
+bXB0IHJlcGx5Ljwvc3Bhbj48L3A+PHAgY2xhc3M9ImNzOTU5REU2RUYiPjxzcGFuIGNs
+YXNzPSJjczFCMkQ2M0FFIj4mbmJzcDs8L3NwYW4+PC9wPjxwIGNsYXNzPSJjczk1OURF
+NkVGIj48c3BhbiBjbGFzcz0iY3MxQjJENjNBRSI+QmVzdCBSZWdhcmRzLDwvc3Bhbj48
+L3A+PHAgY2xhc3M9ImNzOTU5REU2RUYiPjxzcGFuIGNsYXNzPSJjczFCMkQ2M0FFIj5G
+bG9yYSBRdWFuPC9zcGFuPjwvcD48cCBjbGFzcz0iY3M5NTlERTZFRiI+PHNwYW4gY2xh
+c3M9ImNzMUIyRDYzQUUiPlRlbDowMDg2LjU1MS02NTMzMTgwNDwvc3Bhbj48L3A+PHAg
+Y2xhc3M9ImNzOTU5REU2RUYiPjxzcGFuIGNsYXNzPSJjczFCMkQ2M0FFIj5GYXg6MDA4
+Ni41NTEtNjUzMzE4MDQ8L3NwYW4+PC9wPjxwIGNsYXNzPSJjczk1OURFNkVGIj48c3Bh
+biBjbGFzcz0iY3MxQjJENjNBRSI+QWRkcmVzczpCdWlsZGluZyA5LCBXZW5odWEgR2Fy
+ZGVuIFpodW95dWUgQ2l0eSwgSGVmZWksIEFuaHVpPC9zcGFuPjwvcD48cCBjbGFzcz0i
+Y3M5NTlERTZFRiI+PHNwYW4+PGltZyBzcmM9ImRhdGE6aW1hZ2UvcG5nO2Jhc2U2NCxp
+VkJPUncwS0dnb0FBQUFOU1VoRVVnQUFBSjBBQUFBVkNBSUFBQURUcDNzMEFBQUFCR2RC
+VFVFQUFMR1BDL3hoQlFBQUFtWkpSRUZVYUVQdGxsMXl3ekFJaEgwdUg4am44V2w4bVJ3
+bUZUK1NGZ1JPSHVKTTQ5SDMwQW13d0VxYXBsMmVrenN5My9XZXpIZTlKL05kNzhsODEz
+c3kzL1dlekhlOUovcXVqMzFkbG5WL1NGUTR0bVZadGtNakZWQjhoZEpCdXRMSFpVRkUz
+RS9nVUZKUjNJcW1xa3VVdnV0VkZ5d3JCQjRyT040S3ViSWRWZERtNDJEQnIyNUVIbDQ3
+Witydks2L3ZpdEsxRm5vSGpaSHdDcVdGOG9RZXBZWW1iamZvNzQyck5lQmlrNVlTM2c2
+aHNZUk42RlpBbjhYczhsM2VHSU1TRmtUbkZ4SVBMNXhYMnZjd0MycTlCT3UrbDNlb1cy
+bEplRmtmVWhyc2lUUUdwYW56RGxUajNIUUZkMkVGbGNaMlRpQWJwcmp0ems5cTc4VERx
+Zk5PLy91S2s0Nk5sS1dqeGRoN2hSS2hTbFVSL293bTlrWE55R1QrR0swWnVpQUIvV2RF
+TXN4RmRYZm0vQXB5RDF4Sm5BUHdmeE1KWkpSZVBpVzRvVmVFSzVRQUhWZEVBa25UMkJj
+MTAwZnpOS0hMaGk1SWpCTkRRaGt0MDlYT2hvQkhDd1ZLN21Hb3hGSjQxMmFxS0dXZGZx
+Qk91LzhLWlFjUFQ1QTJqWDB4eWhDY2JmbEJBd24rbUhuclJETE1wZlZPdmlUM3dKWEVP
+WUR2cW85dzFDZmdSUGtvUHpsUnVVTFpvQlowNnAyYmVMd0IyUmpNaHNMcDdmajlDY01N
+dTNvMHhxblEyVWpxNGRSNXg3d3JUOXUyOWlkUWpLeFIzMGVWYkszSC9remV1WW1sdDk4
+Z05wZlAvUnBaYUM0ZFJrWXpXN21OY2ZrM1F2K0s3TTd3NWpUcm9hVUxRNEt4NzZwNzNX
+VUViWjlWU3FZbHVNR1hzMWdESFVxQXN1NFM0Skw5eUhoSHhld3liWG80QlJhbzJHUkVq
+U25Vak1OekQ0UEtlQ0xjdS80ZThiSCtKWUhWeTl6UGQvMGk0UmZSTmVibnUzNFg4NzA5
+ZkU5L2pwOS8xMG5JZk5jNzhueitBU1VHY3EyUWxiVE1BQUFBQUVsRlRrU3VRbUNDIiB3
+aWR0aD0iMTU3IiBoZWlnaHQ9IjIxIiBhbHQ9IiIgc3R5bGU9ImJvcmRlci13aWR0aDow
+cHg7IiAvPjwvc3Bhbj48L3A+PHAgY2xhc3M9ImNzOTU5REU2RUYiPjxzcGFuIGNsYXNz
+PSJjczEyMkMwQ0E5Ij4mbmJzcDs8L3NwYW4+PC9wPjxwIGNsYXNzPSJjczk1OURFNkVG
+Ij48c3BhbiBjbGFzcz0iY3MxMjJDMENBOSI+Jm5ic3A7PC9zcGFuPjwvcD48L2JvZHk+
+DQo8L2h0bWw+DQo=
+

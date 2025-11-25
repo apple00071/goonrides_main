@@ -1,0 +1,287 @@
+Return-Path: <ekta@technowebbest.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yJaJF9yPc2hPWhMAQ+45pw
+	(envelope-from <ekta@technowebbest.com>)
+	for <info+spam@go-onriders.com>; Sun, 13 Jul 2025 06:52:12 -0400
+Return-path: <ekta@technowebbest.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 13 Jul 2025 06:52:12 -0400
+Received: from mail-pl1-f193.google.com ([209.85.214.193]:59861)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <ekta@technowebbest.com>)
+	id 1uauJX-00000005LKB-10Bs
+	for info@go-onriders.com;
+	Sun, 13 Jul 2025 06:52:12 -0400
+Received: by mail-pl1-f193.google.com with SMTP id d9443c01a7336-2349f096605so43327585ad.3
+        for <info@go-onriders.com>; Sun, 13 Jul 2025 03:51:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=technowebbest-com.20230601.gappssmtp.com; s=20230601; t=1752403888; x=1753008688; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=Xw+Z5HyyQemKSK2dqb/ZKqa9o5wvrBdxaUGGimv1h7c=;
+        b=bjj/1VF4mjl6uWV8/l36uL+qcrLZcwpVzo88mbPNkGGe/ky9z6NHQ2oxr/yCNvieny
+         rLaklVya/B2wRrlveVLud27ETE9gJ2rbIf3m4e5zTivgROHUJap/gMB/KoJsau5koNic
+         NvLUMdWnG1fg28SCwrs33yxFOB6065wzUI0/72d4KjuHbYagiP4oaim0OgPEws4rMOAY
+         Z7XWs6RGmghkVj5+deud7rGYVnqBa06s9XK/+MpnJGhSNg+E76y56RNdVMDyoEWEeKmy
+         Vs3ie9/GSfIolXzw1V5dM7T072Dn2Nh+tmm2ntYJg21Hz1UrOSgFTP5BbUH6hTKgc8Fd
+         eRkQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1752403888; x=1753008688;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=Xw+Z5HyyQemKSK2dqb/ZKqa9o5wvrBdxaUGGimv1h7c=;
+        b=diHu9IRWBBUQSCocAz8RH9UlD/eTHitBib8dS2aMEgqjqWR3AzsaxKKN2S4PfGIQf7
+         XDqRW2KEGYRZhuMolMHUpni5a72nWZ+DIoMy2TwH9BBjV90ePjiZD4CiO/9zW1cessal
+         ytQSLpzeKKIE1j3Y+QCRHvtAnRsag1QyN7hpm1giSxNDoFnuHEb5MyIAG1tYRWqJHNO/
+         wr9YnT04p2+xvhi9fs57uU2eavUQMU6YLSinYrkwXZGVNQ1xNIidzfqDaI+Y+wlPykul
+         FfRHC5zRuFUDFb6ZGNdJDq+lIqTeEeptCBydLnRBdu6eicQin0xZAi1ZUqz6Vb6r+n6F
+         C+Ww==
+X-Gm-Message-State: AOJu0YyqSeyn2IrbqOvDRKEs3LW/RD6HHbAjDwIcBppok+xMucQQlDOM
+	BaMC+es8ntpTVFPIhkiw9dQ4LN2xvI4x8lag6JUVT0UwkB0zEMVl1QpIji6+UCol7k57PfdoqKS
+	JBR/eLI0=
+X-Gm-Gg: ASbGncsErxE/FQG0aE6yT/++bbCgp7napaTBl2sWPox71z4HUzW98GNqrUNBaIJ3Uxe
+	FIfXsdrUwnXdGl6t41wE2iwnkEwL5zEoTi5wBlS1oiBFdBQYUP67sQYuVoH+7NDVsOwyawpBR8D
+	eXpJFWBwfmZb8m9gM9pPiZ4/w7bQR8DeMfr/h4TYmUsl/cTmwiKGH8F9S4FhRjzYEMfyUM+9s4/
+	3USSVQbeNmVwg29LoCUO5ob9GE5jCs795Iosyu1gskXQs6aJoINUouswzOjHRk9bYJb9vDp5jY4
+	3uS9emsr+8MTg+Bw6xaTZfnyt46fy0SBu4fMzKuDa/EZsomK0yiCx9/ul/jtXRRXv2sxP9arJtz
+	ALpuqAEc=
+X-Google-Smtp-Source: AGHT+IEmVzoScIFC3fy91RuJZ6mgH6nQJBem8Yiqjdm5DZAMhfSk1h853BQZrhRufF3d3aGPSNwycg==
+X-Received: by 2002:a17:903:2f92:b0:234:b123:b4ff with SMTP id d9443c01a7336-23dee18a95bmr144901955ad.21.1752403888055;
+        Sun, 13 Jul 2025 03:51:28 -0700 (PDT)
+Received: from vic ([223.181.32.97])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-23de4345cbbsm80497375ad.194.2025.07.13.03.51.26
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Sun, 13 Jul 2025 03:51:27 -0700 (PDT)
+From: "Ekta" <ekta@technowebbest.com>
+To: <info@go-onriders.com>
+Date: Sun, 13 Jul 2025 15:56:21 +0530
+Message-ID: <923001dbf3e4$140b9cc0$3c22d640$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_9231_01DBF412.2DC3D8C0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: Advz2ulzgCNmPQCQRumMuC/ikbZ/Yg==
+Content-Language: en-us
+X-Antivirus: Avast (VPS 250713-0, 7/13/2025), Outbound message
+X-Antivirus-Status: Clean
+X-MagicSpam-TUUID: 7683267e-6e39-4228-84a9-5573f15dae76
+X-MagicSpam-SUUID: 2b57b9b4-3a41-41a4-bf1f-89b01c9a6c82
+X-Spam-Status: Yes, score=9.0
+X-Spam-Score: 90
+X-Spam-Bar: +++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info@go-onriders.com, I'm a web developer who builds amazing
+    looking websites for small businesses. I'd like to have the chance to show
+    you how I can improve for your business. I'm an expert in the Wordpress,
+   HTML or E-commerce website platform and many other platforms and shopping
+   carts. 
+ Content analysis details:   (9.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.214.193 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.214.193 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.214.193 listed in sa-trusted.bondedsender.org]
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in technowebbest.com.wild.pccc.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Client
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_9231_01DBF412.2DC3D8C0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@go-onriders.com,
+
+ 
+
+I'm a web developer who builds amazing looking websites for small
+businesses. I'd like to have the chance to show you how I can improve for
+your business. 
+
+ 
+
+I'm an expert in the Wordpress, HTML or E-commerce website platform and many
+other platforms and shopping carts. 
+
+ 
+
+I can upgrade your existing website or build you a new one completely that
+has all of the modern features and functionality.
+ 
+
+If you're interested, so I can share my work & details with you.
+
+ 
+
+Thank You. 
+Ekta,
+
+
+
+-- 
+This email has been checked for viruses by Avast antivirus software.
+www.avast.com
+------=_NextPart_000_9231_01DBF412.2DC3D8C0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:o=3D"urn:schemas-microsoft-com:office:office" xmlns:w=3D"urn:sc=
+hemas-microsoft-com:office:word" xmlns:m=3D"http://schemas.microsoft.com/of=
+fice/2004/12/omml" xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META HT=
+TP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; charset=3Dus-ascii"><meta n=
+ame=3DGenerator content=3D"Microsoft Word 12 (filtered medium)"><style><!--=
+
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.m3397483582550327971m-5520966851361453297xmsonospacingmrcssattr, li.m3397=
+483582550327971m-5520966851361453297xmsonospacingmrcssattr, div.m3397483582=
+550327971m-5520966851361453297xmsonospacingmrcssattr
+	{mso-style-name:m_3397483582550327971m-5520966851361453297xmsonospacingmrc=
+ssattr;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+=2EMsoChpDefault
+	{mso-style-type:export-only;}
+=2EMsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style></head><body lang=3DEN-US link=3Dblue vlink=3Dpurple><div class=
+=3DWordSection1><p class=3Dm3397483582550327971m-5520966851361453297xmsonos=
+pacingmrcssattr style=3D'margin:0in;margin-bottom:.0001pt;background:white;=
+vertical-align:baseline'><span style=3D'font-size:11.0pt;font-family:"Calib=
+ri","sans-serif";color:black;border:none windowtext 1.0pt;padding:0in'>Hi <=
+/span><span style=3D'color:black;border:none windowtext 1.0pt;padding:0in'>=
+info@go-onriders.com</span><span style=3D'font-size:11.0pt;font-family:"Cal=
+ibri","sans-serif";color:black;border:none windowtext 1.0pt;padding:0in'>,<=
+/span><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><=
+o:p></o:p></span></p><p class=3Dm3397483582550327971m-5520966851361453297xm=
+sonospacingmrcssattr style=3D'margin:0in;margin-bottom:.0001pt;background:w=
+hite;vertical-align:baseline'><span style=3D'font-size:11.0pt;font-family:"=
+Calibri","sans-serif";color:black;border:none windowtext 1.0pt;padding:0in'=
+>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-s=
+erif"'><o:p></o:p></span></p><p class=3Dm3397483582550327971m-5520966851361=
+453297xmsonospacingmrcssattr style=3D'margin:0in;margin-bottom:.0001pt;back=
+ground:white;vertical-align:baseline'><span style=3D'font-size:11.0pt;font-=
+family:"Calibri","sans-serif";color:black;border:none windowtext 1.0pt;padd=
+ing:0in'>I&#8217;m a web developer who builds amazing looking websites for =
+small businesses. I&#8217;d like to have the chance to show you how I can i=
+mprove for your business.&nbsp;</span><span style=3D'font-size:11.0pt;font-=
+family:"Calibri","sans-serif"'><o:p></o:p></span></p><p class=3Dm3397483582=
+550327971m-5520966851361453297xmsonospacingmrcssattr style=3D'margin:0in;ma=
+rgin-bottom:.0001pt;background:white;vertical-align:baseline'><span style=
+=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:black;border:=
+none windowtext 1.0pt;padding:0in'>&nbsp;</span><span style=3D'font-size:11=
+=2E0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p><p class=
+=3Dm3397483582550327971m-5520966851361453297xmsonospacingmrcssattr style=3D=
+'margin:0in;margin-bottom:.0001pt;background:white;vertical-align:baseline'=
+><span style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif";color:b=
+lack;border:none windowtext 1.0pt;padding:0in'>I&#8217;m an expert in the W=
+ordpress, HTML or E-commerce website platform and many other platforms and =
+shopping carts.&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Ca=
+libri","sans-serif"'><o:p></o:p></span></p><p class=3Dm3397483582550327971m=
+-5520966851361453297xmsonospacingmrcssattr style=3D'margin:0in;margin-botto=
+m:.0001pt;background:white;vertical-align:baseline'><span style=3D'font-siz=
+e:11.0pt;font-family:"Calibri","sans-serif";color:black;border:none windowt=
+ext 1.0pt;padding:0in'>&nbsp;</span><span style=3D'font-size:11.0pt;font-fa=
+mily:"Calibri","sans-serif"'><o:p></o:p></span></p><p class=3Dm339748358255=
+0327971m-5520966851361453297xmsonospacingmrcssattr style=3D'margin:0in;marg=
+in-bottom:.0001pt;background:white;vertical-align:baseline'><span style=3D'=
+font-size:11.0pt;font-family:"Calibri","sans-serif";color:black;border:none=
+ windowtext 1.0pt;padding:0in'>I can upgrade your existing website or build=
+ you a new one completely that has all of the modern features and functiona=
+lity.<br>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Calibri"=
+,"sans-serif"'><o:p></o:p></span></p><p class=3Dm3397483582550327971m-55209=
+66851361453297xmsonospacingmrcssattr style=3D'margin:0in;margin-bottom:.000=
+1pt;background:white;vertical-align:baseline'><span style=3D'font-size:11.0=
+pt;font-family:"Calibri","sans-serif";color:black;border:none windowtext 1.=
+0pt;padding:0in'>If you're interested, so I can share my work &amp; details=
+ with you.</span><span style=3D'font-size:11.0pt;font-family:"Calibri","san=
+s-serif"'><o:p></o:p></span></p><p class=3Dm3397483582550327971m-5520966851=
+361453297xmsonospacingmrcssattr style=3D'margin:0in;margin-bottom:.0001pt;b=
+ackground:white;vertical-align:baseline'><span style=3D'font-size:11.0pt;fo=
+nt-family:"Calibri","sans-serif";color:black;border:none windowtext 1.0pt;p=
+adding:0in'>&nbsp;</span><span style=3D'font-size:11.0pt;font-family:"Calib=
+ri","sans-serif"'><o:p></o:p></span></p><p class=3Dm3397483582550327971m-55=
+20966851361453297xmsonospacingmrcssattr style=3D'margin:0in;margin-bottom:.=
+0001pt;background:white;vertical-align:baseline'><span style=3D'font-size:1=
+1.0pt;font-family:"Calibri","sans-serif";color:black;border:none windowtext=
+ 1.0pt;padding:0in'>Thank You.&nbsp;<br>Ekta,</span><span style=3D'font-siz=
+e:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p></span></p></div><d=
+iv id=3D"DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2"><br /><table style=3D"border=
+-top: 1px solid #D3D4DE;"><tr><td style=3D"width: 55px; padding-top: 13px;"=
+><a href=3D"https://www.avast.com/sig-email?utm_medium=3Demail&utm_source=
+=3Dlink&utm_campaign=3Dsig-email&utm_content=3Demailclient" target=3D"_blan=
+k"><img src=3D"https://s-install.avcdn.net/ipm/preview/icons/icon-envelope-=
+tick-round-orange-animated-no-repeat-v1.gif" alt=3D"" width=3D"46" height=
+=3D"29" style=3D"width: 46px; height: 29px;"/></a></td><td style=3D"width: =
+470px; padding-top: 12px; color: #41424e; font-size: 13px; font-family: Ari=
+al, Helvetica, sans-serif; line-height: 18px;">Virus-free.<a href=3D"https:=
+//www.avast.com/sig-email?utm_medium=3Demail&utm_source=3Dlink&utm_campaign=
+=3Dsig-email&utm_content=3Demailclient" target=3D"_blank" style=3D"color: #=
+4453ea;">www.avast.com</a></td></tr></table><a href=3D"#DAB4FAD8-2DD7-40BB-=
+A1B8-4E2AA1F9FDF2" width=3D"1" height=3D"1"> </a></div></body></html>
+------=_NextPart_000_9231_01DBF412.2DC3D8C0--
+

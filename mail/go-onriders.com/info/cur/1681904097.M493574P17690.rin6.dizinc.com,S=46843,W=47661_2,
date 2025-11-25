@@ -1,0 +1,818 @@
+Return-Path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id oJfiHOHRP2QaRQAAQ+45pw
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	for <info@go-onriders.com>; Wed, 19 Apr 2023 07:34:57 -0400
+Return-path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 19 Apr 2023 07:34:57 -0400
+Received: from xtrwnvrh.outbound-mail.sendgrid.net ([167.89.40.80]:8798)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	id 1pp65Q-0004Z3-Lq
+	for info@go-onriders.com;
+	Wed, 19 Apr 2023 07:34:57 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=interakt.ai;
+	h=content-type:from:mime-version:subject:reply-to:to:list-unsubscribe:
+	cc:content-type:from:subject:to;
+	s=s1; bh=inD7MFuyVpgqlj8qPOB72Qoi5VeJSwMRDxsam+KHoJw=;
+	b=Q3YSFiKDVJNQ7+zySPu36kY2jF+l+5Gdu91h9q0HxvO11rNQdgU7zTIdYpx5YIAJ2faw
+	uko3JTxeDPDYzKrUoXuOPuRM9FZWQgoHw0rWlIvk4N34QjDHa+Fzq/hvcswKk1f8f3Upn1
+	vg74tJasi4ljRn8Rs6VLzMNCuMGKGGKX3ArZ/gLKWrIc/P2W+ucC4c/4N4rbPyvIJivBAj
+	HdYllnImrj7pe8youdWSrgXnUyT0BGAErFIv/sgdtyOc3hH+sancYAQtP6Hxl3QmtWmV+v
+	U8V5RNDWsu1xhUaYYqBErm0jfenPVkp5N63UX/NFg5KUmsNXoXBPmkon5B9lzT1w==
+Received: by filterdrecv-59cb65cf6d-kpcxt with SMTP id filterdrecv-59cb65cf6d-kpcxt-1-643FD1B3-30
+        2023-04-19 11:34:11.971911359 +0000 UTC m=+4881683.595277877
+Received: from MTg4NjczMzE (unknown)
+	by geopod-ismtpd-8 (SG) with HTTP
+	id 3iJfTyqXR2-MpNZr7MPUqg
+	Wed, 19 Apr 2023 11:34:11.854 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=14231e190360d65b6ec09d38af4dec4c7757af8da1ccef0578ff952fba5e
+Date: Wed, 19 Apr 2023 11:34:14 +0000 (UTC)
+From: Interakt <marketing@interakt.ai>
+Mime-Version: 1.0
+Message-ID: <3iJfTyqXR2-MpNZr7MPUqg@geopod-ismtpd-8>
+Subject: Are you in for the WoW masterclass?
+Reply-To: noreply@interakt.ai
+X-SG-EID: 
+ =?us-ascii?Q?wQsVFDSccCTE3EkRlDyU7GH+Zdyr4YBATcTNyGo3qZlzAIC99XbRILn7+Dm7gf?=
+ =?us-ascii?Q?Dgv26cXZzhZo5BQ0Au61rPVagYsUyDfZ6J3SKd8?=
+ =?us-ascii?Q?pcv6dHK6MwVc70vsIJod9CJp8wAh8jaWSclF1p0?=
+ =?us-ascii?Q?+MB90SjPQnu0t5d+KhBNtLP7+pG6aycs5oM1qUX?=
+ =?us-ascii?Q?MtlXaCJbyDM1fvevnBsBWRM7rrk6d2Q0dZy3+5s?=
+ =?us-ascii?Q?LnBaBryDmZauFjNPQZIrdO5QesOvAzLvPNN3qz?=
+X-SG-ID: 
+ =?us-ascii?Q?se=2F49CGmbS0sfR97ImeXvBxWyV9CF3L=2FqX7kgMdf3=2FZJw0BLJ8wvP37w=2Fi9Gam?=
+ =?us-ascii?Q?KlzLCeLUUrMYie1Nm9cmNz3fw1SWDScXXhhPlt1?=
+ =?us-ascii?Q?46GS+qPDhPwSVgVKuq=2FCjzmlUPbvppM+ggF44T+?=
+ =?us-ascii?Q?MlXjslQ=2Fl+vETXJc+KsE0rwm7bgdiHIMQYkoMRs?=
+ =?us-ascii?Q?Yo4xByMLRqugqsBdTvkut3hzgOCvUFqAy1wxSyo?=
+ =?us-ascii?Q?ur46wnEfsyFzQVMN8j63zkc3a5qZo+mXcM4tmEV?=
+ =?us-ascii?Q?qyp8xs8Y6nAKxzi84wCNTFEIqzgVTaM+JSv0qIK?=
+ =?us-ascii?Q?FCu2P8ZmbHotfqehGGvtgbMkNteIZvj5yautFJa?=
+ =?us-ascii?Q?I60wFRw2jEMfc6g79MusOY5yPbRXVzdrzbyTcYM?=
+ =?us-ascii?Q?jtWoLlTF7CSPhJW8K4IY6a=2FzbD2CZofFq0=2FN3oc?=
+ =?us-ascii?Q?UfDBpBEwwjrNVJRrLXh71wdBoocoUmeQ0+OrZh5?=
+ =?us-ascii?Q?0LmSy8HmKOAFl+1OjZ6OT6R+a4GH14Hqoj8LJkt?=
+ =?us-ascii?Q?IgD2Urkm+FKruVobOThH1At=2Ft9vjmWjH+fqWqQE?=
+ =?us-ascii?Q?33lcS8eU5kNSEuo6OKcH=2FJ1rXHNqvWWeD+GCN6n?=
+ =?us-ascii?Q?mxxFEA6MsSZSzIQ=2FBl6H77rAvLGGnx8o+FaRwR2?=
+ =?us-ascii?Q?gfdFo8aj6fSwz5nzSJLDUrOeaudChTmblNUY0Sb?=
+ =?us-ascii?Q?eLH=2F=2FyEyThbloO9Q=2FLOEzA7d3zHzt+g7ep759rQ?=
+ =?us-ascii?Q?W=2Fc2W229VlRRbUbmO5zUjUtTaN9hiC+Jsa1dDGq?=
+ =?us-ascii?Q?u7rI5tfILmUf2=2FOLNjuyT1orZtxb7a9WTYnnbcw?=
+ =?us-ascii?Q?79cAn4zGp68BLLRkf=2F3Qujq0d6475oForUDiQo0?=
+ =?us-ascii?Q?C=2FrgZilI=3D?=
+To: Mohammad Shaik atheef <info@go-onriders.com>
+X-Entity-ID: zq9fjstDuAdEFIgk/ktvZg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em3566=2Einterakt=2Eai=3Fsubject=3Dhttps=3A=2F=2Fu188673?=
+ =?us-ascii?Q?31=2Ect=2Esendgrid=2Enet=2Fwf=2Funsubscribe*q*upn?=
+ =?us-ascii?Q?=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHa?=
+ =?us-ascii?Q?GMh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14N?=
+ =?us-ascii?Q?zc3d9HBKaiin7SPab1O-2BgyR96PMPJq0XDFDF6?=
+ =?us-ascii?Q?3-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFp?=
+ =?us-ascii?Q?qXh7jqTYPsvRe549ppuUBl99DrhMvFLIu7dkBAd?=
+ =?us-ascii?Q?b97wClwMEvNevoSD0lWTvI-2FiSr-2Bl2eyop37?=
+ =?us-ascii?Q?HrwBBTsu7K-2BFeLJ2-2BgjN4-2BDWwe-2Bmhbr?=
+ =?us-ascii?Q?oDyf6536H-2FxwB0kyfbdMb0ZphobL0uA0BNPHG?=
+ =?us-ascii?Q?y44fkS7LSr-2FJF414Ad-2BZ2NM6TaSnIp5FUSW?=
+ =?us-ascii?Q?PYfMHD-2F9a8dPeYcIQe-2F9lptpOOdB8N1kK68?=
+ =?us-ascii?Q?kSWePQqRDjIhKvRAGz1KDBWUmZQQpFxzcy9Tdit?=
+ =?us-ascii?Q?SNxFaIw6ZEN8C8qIwXf1DAbrxqiYVE7-2FzSBZ4?=
+ =?us-ascii?Q?EJWdxp-2B-2BfvXMEqqllhU9WH3NwMcTNTepDwK?=
+ =?us-ascii?Q?OiS-2BVnrOaj0EwXBz1MYI0rqscgz-2FUQ8nGmc?=
+ =?us-ascii?Q?7lgUo1lNSQk7wA-2BbDyQ4oiBXQEiEKw3lbvnP4?=
+ =?us-ascii?Q?yzxD8iz-2FuFyIU2q1jcLW4Xj05jCEWUCllVkjY?=
+ =?us-ascii?Q?UBqmskfqty-2B6US1rotMNm-2B8zNVWP65z3yUT?=
+ =?us-ascii?Q?SXuqYYBQQduTebBhW9xBU0JCahITPo-2BLJw9-2?=
+ =?us-ascii?Q?FE0O77QkHlDiLLPl3VS340FZHOODQgyU1G4gJzt?=
+ =?us-ascii?Q?ig-2BgUZzMDvgSeE2wl9T0lHMGKyeukolEhXPST?=
+ =?us-ascii?Q?y-2F99NYiqzji3-2Fqap0ginHiTkejh1v2BmiEo?=
+ =?us-ascii?Q?7yOiN95vbFIirQO-2FqnabrfNrAYaw4cbtVGQZW?=
+ =?us-ascii?Q?uKu-2FE74UH1lbpcr6lCdApEZl9Jb7EcrTfJdwL?=
+ =?us-ascii?Q?Y9AXFz-2BsuHJttwVT6Q5wwagzS-2BoJTjMAt8E?=
+ =?us-ascii?Q?LBQL716CI-2B8SuBY1tod752fPxTBc893tgKkIr?=
+ =?us-ascii?Q?6vmiQbtE9k9xb7z0QMzO20RGcggX9tV3Mo2CIze?=
+ =?us-ascii?Q?rkzLT2MS4n7h12D7jLDkqsBNGXLYYWvCh49-2Bb?=
+ =?us-ascii?Q?Dbl444Acg0TPo0N3UXd4FADc-2FRnL0bAXeul23?=
+ =?us-ascii?Q?933HLCBGVDne5-2F5ZEpObveMs9pcceWqbQ-3D-?= =?us-ascii?Q?3D=3E?=
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Interakt comes to Hyderabad now! ( https://docs.google.com/forms/d/16ug99fdFW_XDTYYqNlTWNy6ZZfCiATbr2zuy11RV92o/edit
+    ) Hi Mohammad, 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [167.89.40.80 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [167.89.40.80 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.1 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+--14231e190360d65b6ec09d38af4dec4c7757af8da1ccef0578ff952fba5e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Interakt comes to Hyderabad now!
+
+( https://docs.google.com/forms/d/16ug99fdFW_XDTYYqNlTWNy6ZZfCiATbr2zuy11RV=
+92o/edit )
+
+Hi Mohammad,
+
+=F0=9F=91=89 We're just around the corner from Interakt presents *WhatsApp =
+on Wheels #HyderabadEdition* ( https://docs.google.com/forms/d/16ug99fdFW_X=
+DTYYqNlTWNy6ZZfCiATbr2zuy11RV92o/edit ) and it's going to be a full house s=
+oon. =F0=9F=A4=A9
+
+=F0=9F=93=85: Saturday, 29th April 2023
+=F0=9F=95=91: 2 PM - 6 PM
+=F0=9F=8F=A2: Mercure Hotel, Banjara Hills ( https://goo.gl/maps/wszLn9eYMD=
+5N1TD66 )
+
+Book your spot now so you don't miss out on this insightful masterclass:
+
+* *Keynote Session* : Why WhatsApp is on Everyone's Mind?
+* *Exclusive Workshop* : Strategies to grow your business on WhatsApp
+* *Click to WhatsApp Ads* by the Alpha Marketer - Antony Chacko
+* *AMA with #D2CSuperheroes* : WhatsApp x Shopify x Interakt Success Storie=
+s
+* *Network over High-tea:* Meet, learn & connect with the best in the biz.
+
+Catch the industry experts and leading D2C founders revealing the secret sa=
+uce to skyrocket your business using WhatsApp. =F0=9F=9A=80
+
+Register =F0=9F=91=87 & look out for an official invite. *See you @ WoW* =
+=F0=9F=99=8B=E2=80=8D=E2=99=82=EF=B8=8F
+
+Register Now ( https://docs.google.com/forms/d/16ug99fdFW_XDTYYqNlTWNy6ZZfC=
+iATbr2zuy11RV92o/edit )
+
+Interakt
+
+A-801, Cello Triumph, IB Patel Road Goregaon East , Mumbai, , =20
+
+Unsubscribe ( https://u18867331.ct.sendgrid.net/wf/unsubscribe?upn=3DQFWB4B=
+CTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14Nzc3d=
+9HBKaiin7SPab1O-2BgyR96PMPJq0XDFDF63-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFpq=
+Xh7jqTYPsvRe549ppuUBl99DrhMvFLIu7dkBAdb97wClwMEvNevoSD0lWTvI-2FiSr-2Bl2eyop=
+37HrwBBTsu7K-2BFeLJ2-2BgjN4-2BDWwe-2BmhbroDyf6536H-2FxwB0kyfbdMb0ZphobL0uA0=
+BNPHGy44fkS7LSr-2FJF414Ad-2BZ2NM6TaSnIp5FUSWPYfMHD-2F9a8dPeYcIQe-2F9lptpOOd=
+B8N1kK68kSWePQqRDjIhKvRAGz1KDBWUmZQQpFxzcy9TditSNxFaIw6ZEN8C8qIwXf1DAbrxqiY=
+VE7-2FzSBZ4EJWdxp-2B-2BfvXMEqqllhU9WH3NwMcTNTepDwKOiS-2BVnrOaj0EwXBz1MYI0rq=
+scgz-2FUQ8nGmc7lgUo1lNSQk7wA-2BbDyQ4oiBXQEiEKw3lbvnP4yzxD8iz-2FuFyIU2q1jcLW=
+4Xj05jCEWUCllVkjYUBqmskfqty-2B6US1rotMNm-2B8zNVWP65z3yUTSXuqYYBQQduTebBhW9x=
+BU0JCahITPo-2BLJw9-2FE0O77QkHlDiLLPl3VS340FZHOODQgyU1G4gJztig-2BgUZzMDvgSeE=
+2wl9T0lHMGKyeukolEhXPSTy-2F99NYiqzji3-2Fqap0ginHiTkejh1v2BmiEo7yOiN95vbFIir=
+QO-2FqnabrfNrAYaw4cbtVGQZWuKu-2FE74UH1lbpcr6lCdApEZl9Jb7EcrTfJdwLY9AXFz-2Bs=
+uHJttwVT6Q5wwagzS74tpEyoykjD-2FT8UjEItow74lQMJ2z7fN66dwVYi7oY5RBoX-2BCuldgD=
+ESpL9so6ES-2FGYE1C0sIVssfwWuFA5c6mZ8oDGpPnfCZVIVosf1BuFmfdFu0ajW-2BdHw5RTPm=
+gvWfmEkJpDVyf4beAmyE4eBXQmiLp-2FiVy40f5E9k9tRV-2Bv-2FLnM-2FfNgnFBPMUnHEa33e=
+Q-3D-3D )
+--14231e190360d65b6ec09d38af4dec4c7757af8da1ccef0578ff952fba5e
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+    <style>
+      @media screen and (max-width:480px) {
+        table\0 {
+          width: 480px !important;
+          }
+      }
+    </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; =
+background-color:#FFFFFF;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p>Interakt comes to Hyderabad now!</p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"7823c4c5-2691-4374-b271-320b683d2b8d">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0nzMH8M2G0YVMoCAyhQMtuJ5N1AKVCC92laOTyZsp-2BGWQHSlpzi9c-2F7G=
+-2B7vNBb-2BKLNGplHSkmKumzWn2s-2FWk0EytUuPA3j2jDGwkwUc3u4A8HHEn_RYEeg99Ap79l=
+eT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAsmF7Un2Cy60=
+a68XifwIYln-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvjjWiV9ZukoU=
+Na5aiqKKsvxuH3b4TKfofGhDNPfAxzMJ19fhbwMJhyvCuCnfNp0mfEdJGc-2FTRlU6KtR-2Fn1B=
+yGnvXjsfPYfvKSCP9XZIP7lZqC-2BM13-2Bb4Pnei8j9Qlnh-2F3DQr7napKdH7hxA0C8g2yaWZ=
+afU6JrZJmJJSPiCuJh-2BfYqbBb5fdTjwu2qjiviUqrS-2BRhGy0-2FKaeQo-2BHLaFXYqBzJS7=
+a-2Br5qRsC-2BRc-2B3UEEZodovZdRLPjHeMMKkHDj8Qlblzuqpg4mEbFo-2FHvD52eRQ8Czitq=
+ysPaqB-2FqyWF4mFkJGKx-2Fi53Bj0R9Dl48YokwhdaN5d9nbH2hh0aHXgB-2FKbLbkfUzh96-2=
+FRYGPBRjPM89C0sgjKSpV5J-2FFN1Gel5c1WDLsu5aFip-2F3cZgJoLp3f-2BZFn4PESB-2FO8i=
+ExzOOxBwqHnRGoXNqBY9WDfDPUKFhUs7H3KWBk3C-2F46zqt4xawGH4mX-2FhWo4d1JfxL-2Fyr=
+HvGykUxHfg-2BstvzI6XyIPLh3CdSazM3G0gBT4EuYDQ6iTObOItJszADJJccnzCF2NmJMIxQfo=
+wUdSGC2wV4HAOyaS5XOGuYp9qWpgJmd3u8Y9pQdQ5-2BNABJZOV-2BSuumg4zluyMTYHztd6uqg=
+C58-2Fq-2B-2BiExyxKCsHYkn-2BNTKcCYcQIbq1fR0T-2FCsC2oGp5dk6zm3moozml7WzZsvhJ=
+ICESXdwAfUE4-2BC8JeOX5fo7UdCvrmlEm7JctzK4-2FOImRUWswXGMttDODLIqjoZLBn3J4BBI=
+bf8i2DRagBVMw6IQW9ePBgWuYI9LCg2uCRFrrGmVLxBAUqhIrEeMEdGWK6OIJMd0nXNxZWm3IBY=
+iNBfEMwtjRiEIx2UBWcTvhE8LN8oE8Hp-2BjvFn0e1"><img class=3D"max-width" border=
+=3D"0" style=3D"display:block; color:#000000; text-decoration:none; font-fa=
+mily:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !importan=
+t; width:100%; height:auto !important;" width=3D"600" alt=3D"" data-proport=
+ionally-constrained=3D"true" data-responsive=3D"true" src=3D"http://cdn.mca=
+uto-images-production.sendgrid.net/ccf6b07b7158c0e6/d4f2679c-88ec-407b-8426=
+-03cc7982f15b/2200x1256.png"></a></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"ec3f2ab2-f2be-48ee-a7dc-6bbc9b488142" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: justify"><span st=
+yle=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #0000=
+00; background-color: transparent; font-weight: 400; font-style: normal; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; font-variant-numer=
+ic: normal; font-variant-east-asian: normal; text-decoration-line: none; te=
+xt-decoration-thickness: initial; text-decoration-style: initial; text-deco=
+ration-color: initial; vertical-align: baseline; white-space: pre-wrap; fon=
+t-family: arial, helvetica, sans-serif; font-size: 14px">Hi Mohammad,</span=
+></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 18px">=F0=9F=91=89</span><span sty=
+le=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #00000=
+0; background-color: transparent; font-weight: 400; font-style: normal; fon=
+t-variant-ligatures: normal; font-variant-caps: normal; font-variant-numeri=
+c: normal; font-variant-east-asian: normal; text-decoration-line: none; tex=
+t-decoration-thickness: initial; text-decoration-style: initial; text-decor=
+ation-color: initial; vertical-align: baseline; white-space: pre-wrap; font=
+-family: arial, helvetica, sans-serif; font-size: 14px">We're just around t=
+he corner from </span><span style=3D"line-height: 1.38; margin-top: 0pt; ma=
+rgin-bottom: 0pt; color: #000000; background-color: transparent; font-weigh=
+t: 400; font-style: normal; font-variant-ligatures: normal; font-variant-ca=
+ps: normal; font-variant-numeric: normal; font-variant-east-asian: normal; =
+text-decoration-line: none; text-decoration-thickness: initial; text-decora=
+tion-style: initial; text-decoration-color: initial; vertical-align: baseli=
+ne; white-space: pre-wrap; font-family: arial, helvetica, sans-serif; font-=
+size: 14px"><em>Interakt presents</em></span><span style=3D"line-height: 1.=
+38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: =
+transparent; font-weight: 400; font-style: normal; font-variant-ligatures: =
+normal; font-variant-caps: normal; font-variant-numeric: normal; font-varia=
+nt-east-asian: normal; text-decoration-line: none; text-decoration-thicknes=
+s: initial; text-decoration-style: initial; text-decoration-color: initial;=
+ vertical-align: baseline; white-space: pre-wrap; font-family: arial, helve=
+tica, sans-serif; font-size: 14px"> </span><a href=3D"https://u18867331.ct.=
+sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0nzMH8M2G0YVMoCAyhQMtuJ5N=
+1AKVCC92laOTyZsp-2BGWQHSlpzi9c-2F7G-2B7vNBb-2BKLNGplHSkmKumzWn2s-2FWk0EytUu=
+PA3j2jDGwkwUc3u4A8rBGD_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYH=
+aCkTTnnEezjwcTYXcpPIyNDAsmF7Un2Cy60a68XifwIYln-2Fk9Q63QAql2mpghT2-2FYz-2BJS=
+Zm2U-2BS9pa6zZo4-2FoIUtvjjWiV9ZukoUNa5aiqKKsvxuH3b4TKfofGhDNPfAxzMJ19fhbwMJ=
+hyvCuCnfNp0mfEdJGc-2FTRlU6KtR-2Fn1ByGnvXjsfPYfvKSCP9XZIP7lZqC-2BM13-2Bb4Pne=
+i8j9Qlnh-2F3DQr7napKdH7hxA0C8g2yaWZafU6JrZJmJJSPiCuJh-2BfYqbBb5fdTjwu2qjivi=
+UqrS-2BRhGy0-2FKaeQo-2BHLaFXYqBzJS7a-2Br5qRsC-2BRc-2B3UEEZodovZdRLPjHeMMKkH=
+Dj8Qlblzuqpg4mEbFo-2FHvD52eRQ8CzitqysPaqB-2FqyWF4mFkJGKx-2Fi53Bj0R9Dl48Yokw=
+hdaN5d9nbH2hh0aHXgB-2FKbLbkfUzh96-2FRYGPBRjPM89C0sgjKSpV5J-2FFN1Gel5c1WDLsu=
+5aFip-2F3cZgJoLp3f-2BZFn4PESB-2FO8iExzOOxBwqHnRGoXNqBY9WDfDPUKFhUs7H3KWBk3C=
+-2F46zqt4xawGH4mX-2FhWo4d1JfxL-2FyrHvGykUxHfg-2BstvzI6XyIPLh3CdSazM3G0gBT4E=
+uYDQ6iTObOItJszADJJccnzCF2NmJMIxQfowUdSGC2wV4HAOyaS5XOGuYp9qWpgJmd3u8Y9pQdQ=
+5-2BNABJZOV-2BSuumg4zluyMTYHztd6uqgC58-2Fq-2B-2BiExyxKCsHYkn-2BNTKcCYcQIbq1=
+fR0T-2FCsC2oGp5dk6zm3moozml7WzZsvhJICESXdwAfUE4-2BC8P-2Bdwy1IiIp5WjA-2BXPN9=
+608apb9UfL7Zr-2Fuy2qQKxstmCmR1q-2BPeSPPGReW9sHFyi-2BKcEQs2snX-2BENzu-2BWK6h=
+lgFCcbUUXkHlgSZ39-2B70DMRF7kbdk0HLjqkmx7O9Sh80D5s2xMBzFz4xlFO4-2BqR7RTTP461=
+1YXLpDEyexEG0NYs"><span style=3D"line-height: 1.38; margin-top: 0pt; margin=
+-bottom: 0pt; background-color: transparent; font-weight: 400; font-style: =
+normal; font-variant-ligatures: normal; font-variant-caps: normal; font-var=
+iant-numeric: normal; font-variant-east-asian: normal; text-decoration-line=
+: none; text-decoration-thickness: initial; text-decoration-style: initial;=
+ text-decoration-color: initial; vertical-align: baseline; white-space: pre=
+-wrap; font-family: arial, helvetica, sans-serif; font-size: 14px; color: #=
+4478df"><strong>WhatsApp on Wheels #HyderabadEdition</strong></span></a><sp=
+an style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: =
+#000000; background-color: transparent; font-weight: 400; font-style: norma=
+l; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-=
+numeric: normal; font-variant-east-asian: normal; text-decoration-line: non=
+e; text-decoration-thickness: initial; text-decoration-style: initial; text=
+-decoration-color: initial; vertical-align: baseline; white-space: pre-wrap=
+; font-family: arial, helvetica, sans-serif; font-size: 14px"> and it's goi=
+ng to be a full house soon. </span><span style=3D"line-height: 1.38; margin=
+-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: transparen=
+t; font-weight: 400; font-style: normal; font-variant-ligatures: normal; fo=
+nt-variant-caps: normal; font-variant-numeric: normal; font-variant-east-as=
+ian: normal; text-decoration-line: none; text-decoration-thickness: initial=
+; text-decoration-style: initial; text-decoration-color: initial; vertical-=
+align: baseline; white-space: pre-wrap; font-family: arial, helvetica, sans=
+-serif; font-size: 18px">=F0=9F=A4=A9</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 14px">=F0=9F=93=85: Saturday, 29th=
+ April 2023</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 14px">=F0=9F=95=91: 2 PM - 6 PM</s=
+pan></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 14px">=F0=9F=8F=A2: </span><a href=
+=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi=
+0nSUdzbe9uP-2FR0gv0Gd8eqFSvG-2B73q8MAozAtJpiW22L_ALa_RYEeg99Ap79leT7lYKY4ea=
+eyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAsmF7Un2Cy60a68XifwIYl=
+n-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvjjWiV9ZukoUNa5aiqKKsv=
+xuH3b4TKfofGhDNPfAxzMJ19fhbwMJhyvCuCnfNp0mfEdJGc-2FTRlU6KtR-2Fn1ByGnvXjsfPY=
+fvKSCP9XZIP7lZqC-2BM13-2Bb4Pnei8j9Qlnh-2F3DQr7napKdH7hxA0C8g2yaWZafU6JrZJmJ=
+JSPiCuJh-2BfYqbBb5fdTjwu2qjiviUqrS-2BRhGy0-2FKaeQo-2BHLaFXYqBzJS7a-2Br5qRsC=
+-2BRc-2B3UEEZodovZdRLPjHeMMKkHDj8Qlblzuqpg4mEbFo-2FHvD52eRQ8CzitqysPaqB-2Fq=
+yWF4mFkJGKx-2Fi53Bj0R9Dl48YokwhdaN5d9nbH2hh0aHXgB-2FKbLbkfUzh96-2FRYGPBRjPM=
+89C0sgjKSpV5J-2FFN1Gel5c1WDLsu5aFip-2F3cZgJoLp3f-2BZFn4PESB-2FO8iExzOOxBwqH=
+nRGoXNqBY9WDfDPUKFhUs7H3KWBk3C-2F46zqt4xawGH4mX-2FhWo4d1JfxL-2FyrHvGykUxHfg=
+-2BstvzI6XyIPLh3CdSazM3G0gBT4EuYDQ6iTObOItJszADJJccnzCF2NmJMIxQfowUdSGC2wV4=
+HAOyaS5XOGuYp9qWpgJmd3u8Y9pQdQ5-2BNABJZOV-2BSuumg4zluyMTYHztd6uqgC58-2Fq-2B=
+-2BiExyxKCsHYkn-2BNTKcCYcQIbq1fR0T-2FCsC2oGp5dk6zm3moozml7WzZsvhJICESXdwAfU=
+E4-2BC8ApOb76WxKveR-2FBDDTNrkKYyvuIJYICAmUa8gl2VddsObQGJauF3GmcSJzxWj50lIYN=
+fW5bBrm6wL-2BhuLy9L8zno7eDCHvKzNq2FKalSZaiRiHQ3DuVDD9AhGYrjs3lcDZeoCSWA0fXw=
+Dwz4fH4xjJjTsoSwId6OoCBf4Tq2hUlW"><span style=3D"line-height: 1.38; margin-=
+top: 0pt; margin-bottom: 0pt; color: #000000; background-color: transparent=
+; font-weight: 400; font-style: normal; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; font-variant-numeric: normal; font-variant-east-asi=
+an: normal; text-decoration-line: none; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial; vertical-a=
+lign: baseline; white-space: pre-wrap; font-family: arial, helvetica, sans-=
+serif; font-size: 14px">Mercure Hotel, Banjara Hills</span></a></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 14px">Book your spot now so you do=
+n't miss out on this insightful masterclass:</span></div>
+<ul>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: justify; font-family: ari=
+al, helvetica, sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-size:=
+ 14px"><span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0p=
+t; color: #000000; background-color: transparent; font-weight: 400; font-st=
+yle: normal; font-variant-ligatures: normal; font-variant-caps: normal; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; text-decoration=
+-line: none; text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; vertical-align: baseline; white-space=
+: pre-wrap; font-family: arial, helvetica, sans-serif; font-size: 14px"><st=
+rong>Keynote Session</strong></span><span style=3D"line-height: 1.38; margi=
+n-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: transpare=
+nt; font-weight: 400; font-style: normal; font-variant-ligatures: normal; f=
+ont-variant-caps: normal; font-variant-numeric: normal; font-variant-east-a=
+sian: normal; text-decoration-line: none; text-decoration-thickness: initia=
+l; text-decoration-style: initial; text-decoration-color: initial; vertical=
+-align: baseline; white-space: pre-wrap; font-family: arial, helvetica, san=
+s-serif; font-size: 14px">: Why WhatsApp is on Everyone's Mind?</span></li>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: justify; font-family: ari=
+al, helvetica, sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-size:=
+ 14px"><span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0p=
+t; color: #000000; background-color: transparent; font-weight: 400; font-st=
+yle: normal; font-variant-ligatures: normal; font-variant-caps: normal; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; text-decoration=
+-line: none; text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; vertical-align: baseline; white-space=
+: pre-wrap; font-family: arial, helvetica, sans-serif; font-size: 14px"><st=
+rong>Exclusive Workshop</strong></span><span style=3D"line-height: 1.38; ma=
+rgin-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: transp=
+arent; font-weight: 400; font-style: normal; font-variant-ligatures: normal=
+; font-variant-caps: normal; font-variant-numeric: normal; font-variant-eas=
+t-asian: normal; text-decoration-line: none; text-decoration-thickness: ini=
+tial; text-decoration-style: initial; text-decoration-color: initial; verti=
+cal-align: baseline; white-space: pre-wrap; font-family: arial, helvetica, =
+sans-serif; font-size: 14px">: Strategies to grow your business on WhatsApp=
+</span></li>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: justify; font-family: ari=
+al, helvetica, sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-size:=
+ 14px"><span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0p=
+t; color: #000000; background-color: transparent; font-weight: 400; font-st=
+yle: normal; font-variant-ligatures: normal; font-variant-caps: normal; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; text-decoration=
+-line: none; text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; vertical-align: baseline; white-space=
+: pre-wrap; font-family: arial, helvetica, sans-serif; font-size: 14px"><st=
+rong>Click to WhatsApp Ads</strong></span><span style=3D"line-height: 1.38;=
+ margin-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: tra=
+nsparent; font-weight: 400; font-style: normal; font-variant-ligatures: nor=
+mal; font-variant-caps: normal; font-variant-numeric: normal; font-variant-=
+east-asian: normal; text-decoration-line: none; text-decoration-thickness: =
+initial; text-decoration-style: initial; text-decoration-color: initial; ve=
+rtical-align: baseline; white-space: pre-wrap; font-family: arial, helvetic=
+a, sans-serif; font-size: 14px"> by the Alpha Marketer - Antony Chacko</spa=
+n></li>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: justify; font-family: ari=
+al, helvetica, sans-serif; color: rgb(0, 0, 0); font-size: 14px; font-size:=
+ 14px"><span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0p=
+t; color: #000000; background-color: transparent; font-weight: 400; font-st=
+yle: normal; font-variant-ligatures: normal; font-variant-caps: normal; fon=
+t-variant-numeric: normal; font-variant-east-asian: normal; text-decoration=
+-line: none; text-decoration-thickness: initial; text-decoration-style: ini=
+tial; text-decoration-color: initial; vertical-align: baseline; white-space=
+: pre-wrap; font-family: arial, helvetica, sans-serif; font-size: 14px"><st=
+rong>AMA with #D2CSuperheroes</strong></span><span style=3D"line-height: 1.=
+38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: =
+transparent; font-weight: 400; font-style: normal; font-variant-ligatures: =
+normal; font-variant-caps: normal; font-variant-numeric: normal; font-varia=
+nt-east-asian: normal; text-decoration-line: none; text-decoration-thicknes=
+s: initial; text-decoration-style: initial; text-decoration-color: initial;=
+ vertical-align: baseline; white-space: pre-wrap; font-family: arial, helve=
+tica, sans-serif; font-size: 14px">: WhatsApp x Shopify x Interakt Success =
+Stories</span></li>
+  <li color=3D"rgb(0, 0, 0)" style=3D"text-align: justify; font-family: ari=
+al, helvetica, sans-serif; color: rgb(0, 0, 0); font-weight: bold; font-siz=
+e: 14px; font-size: 14px"><span style=3D"line-height: 1.38; margin-top: 0pt=
+; margin-bottom: 0pt; color: #000000; background-color: transparent; font-w=
+eight: 400; font-style: normal; font-variant-ligatures: normal; font-varian=
+t-caps: normal; font-variant-numeric: normal; font-variant-east-asian: norm=
+al; text-decoration-line: none; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial; vertical-align: ba=
+seline; white-space: pre-wrap; font-family: arial, helvetica, sans-serif; f=
+ont-size: 14px"><strong>Network over High-tea: </strong></span><span style=
+=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000;=
+ background-color: transparent; font-weight: 400; font-style: normal; font-=
+variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric:=
+ normal; font-variant-east-asian: normal; text-decoration-line: none; text-=
+decoration-thickness: initial; text-decoration-style: initial; text-decorat=
+ion-color: initial; vertical-align: baseline; white-space: pre-wrap; font-f=
+amily: arial, helvetica, sans-serif; font-size: 14px">Meet, learn &amp; con=
+nect with the best in the biz.</span></li>
+</ul>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 14px">Catch the industry experts a=
+nd leading D2C founders revealing the secret sauce to skyrocket your busine=
+ss using WhatsApp. </span><span style=3D"line-height: 1.38; margin-top: 0pt=
+; margin-bottom: 0pt; color: #000000; background-color: transparent; font-w=
+eight: 400; font-style: normal; font-variant-ligatures: normal; font-varian=
+t-caps: normal; font-variant-numeric: normal; font-variant-east-asian: norm=
+al; text-decoration-line: none; text-decoration-thickness: initial; text-de=
+coration-style: initial; text-decoration-color: initial; vertical-align: ba=
+seline; white-space: pre-wrap; font-family: arial, helvetica, sans-serif; f=
+ont-size: 18px">=F0=9F=9A=80</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-family: =
+arial, helvetica, sans-serif; font-size: 14px">Register</span><span style=
+=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000;=
+ background-color: transparent; font-weight: 400; font-style: normal; font-=
+variant-ligatures: normal; font-variant-caps: normal; font-variant-numeric:=
+ normal; font-variant-east-asian: normal; text-decoration-line: none; text-=
+decoration-thickness: initial; text-decoration-style: initial; text-decorat=
+ion-color: initial; vertical-align: baseline; white-space: pre-wrap; font-f=
+amily: arial, helvetica, sans-serif; font-size: 18px">=F0=9F=91=87</span><s=
+pan style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color:=
+ #000000; background-color: transparent; font-weight: 400; font-style: norm=
+al; font-variant-ligatures: normal; font-variant-caps: normal; font-variant=
+-numeric: normal; font-variant-east-asian: normal; text-decoration-line: no=
+ne; text-decoration-thickness: initial; text-decoration-style: initial; tex=
+t-decoration-color: initial; vertical-align: baseline; white-space: pre-wra=
+p; font-family: arial, helvetica, sans-serif; font-size: 14px">&amp; look o=
+ut for an official invite. </span><span style=3D"line-height: 1.38; margin-=
+top: 0pt; margin-bottom: 0pt; color: #000000; background-color: transparent=
+; font-weight: 400; font-style: normal; font-variant-ligatures: normal; fon=
+t-variant-caps: normal; font-variant-numeric: normal; font-variant-east-asi=
+an: normal; text-decoration-line: none; text-decoration-thickness: initial;=
+ text-decoration-style: initial; text-decoration-color: initial; vertical-a=
+lign: baseline; white-space: pre-wrap; font-family: arial, helvetica, sans-=
+serif; font-size: 14px"><em><strong>See you @ WoW </strong></em></span><spa=
+n style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #=
+000000; background-color: transparent; font-weight: 400; font-style: normal=
+; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-n=
+umeric: normal; font-variant-east-asian: normal; text-decoration-line: none=
+; text-decoration-thickness: initial; text-decoration-style: initial; text-=
+decoration-color: initial; vertical-align: baseline; white-space: pre-wrap;=
+ font-family: arial, helvetica, sans-serif; font-size: 18px">=F0=9F=99=8B=
+=E2=80=8D=E2=99=82=EF=B8=8F</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+module" data-role=3D"module-button" data-type=3D"button" role=3D"module" st=
+yle=3D"table-layout:fixed;" width=3D"100%" data-muid=3D"4888026d-a009-41f9-=
+8850-b353d0349743">
+      <tbody>
+        <tr>
+          <td align=3D"center" bgcolor=3D"" class=3D"outer-td" style=3D"pad=
+ding:0px 0px 0px 0px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"wrapper-mobile" style=3D"text-align:center;">
+              <tbody>
+                <tr>
+                <td align=3D"center" bgcolor=3D"#ffb100" class=3D"inner-td"=
+ style=3D"border-radius:6px; font-size:16px; text-align:center; background-=
+color:inherit;">
+                  <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=
+=3DXtSSqkA7o5sYTQ1Kkx-2Fi0nzMH8M2G0YVMoCAyhQMtuJ5N1AKVCC92laOTyZsp-2BGWQHSl=
+pzi9c-2F7G-2B7vNBb-2BKLNGplHSkmKumzWn2s-2FWk0EytUuPA3j2jDGwkwUc3u4A8zgkY_RY=
+Eeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAs=
+mF7Un2Cy60a68XifwIYln-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvj=
+jWiV9ZukoUNa5aiqKKsvxuH3b4TKfofGhDNPfAxzMJ19fhbwMJhyvCuCnfNp0mfEdJGc-2FTRlU=
+6KtR-2Fn1ByGnvXjsfPYfvKSCP9XZIP7lZqC-2BM13-2Bb4Pnei8j9Qlnh-2F3DQr7napKdH7hx=
+A0C8g2yaWZafU6JrZJmJJSPiCuJh-2BfYqbBb5fdTjwu2qjiviUqrS-2BRhGy0-2FKaeQo-2BHL=
+aFXYqBzJS7a-2Br5qRsC-2BRc-2B3UEEZodovZdRLPjHeMMKkHDj8Qlblzuqpg4mEbFo-2FHvD5=
+2eRQ8CzitqysPaqB-2FqyWF4mFkJGKx-2Fi53Bj0R9Dl48YokwhdaN5d9nbH2hh0aHXgB-2FKbL=
+bkfUzh96-2FRYGPBRjPM89C0sgjKSpV5J-2FFN1Gel5c1WDLsu5aFip-2F3cZgJoLp3f-2BZFn4=
+PESB-2FO8iExzOOxBwqHnRGoXNqBY9WDfDPUKFhUs7H3KWBk3C-2F46zqt4xawGH4mX-2FhWo4d=
+1JfxL-2FyrHvGykUxHfg-2BstvzI6XyIPLh3CdSazM3G0gBT4EuYDQ6iTObOItJszADJJccnzCF=
+2NmJMIxQfowUdSGC2wV4HAOyaS5XOGuYp9qWpgJmd3u8Y9pQdQ5-2BNABJZOV-2BSuumg4zluyM=
+TYHztd6uqgC58-2Fq-2B-2BiExyxKCsHYkn-2BNTKcCYcQIbq1fR0T-2FCsC2oGp5dk6zm3mooz=
+ml7WzZsvhJICESXdwAfUE4-2BC8IprdLcc-2Fn9FFHjm9zDGb52dAK9iLWNYvE4cJvh-2Bf9VFp=
+LRfmMbwETEyNTAafwL4BmDptCLMoZck50Ij-2FUTrDAJyULL3T78dzP5RovMkUjk9wDEqWavkbx=
+x5x4LrW5ym-2FCa6kuS0MPmyWsy33JF8uGxCUKuP6I-2FuFI5Pb-2BLT1RTN" style=3D"back=
+ground-color:#ffb100; border:1px solid #333333; border-color:#333333; borde=
+r-radius:6px; border-width:1px; color:#000000; display:inline-block; font-s=
+ize:18px; font-weight:normal; letter-spacing:0px; line-height:normal; paddi=
+ng:12px 18px 12px 18px; text-align:center; text-decoration:none; border-sty=
+le:solid; font-family:arial black, helvetica, sans-serif;" target=3D"_blank=
+">Register Now</a>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table><div data-role=3D"module-unsubscribe" class=3D"module" role=3D"=
+module" data-type=3D"unsubscribe" style=3D"color:#444444; font-size:12px; l=
+ine-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid=
+=3D"4e838cf3-9892-4a6d-94d6-170e474d21e5"><div class=3D"Unsubscribe--addres=
+sLine"><p class=3D"Unsubscribe--senderName" style=3D"font-size:12px; line-h=
+eight:20px;">Interakt</p><p style=3D"font-size:12px; line-height:20px;"><sp=
+an class=3D"Unsubscribe--senderAddress">A-801, Cello Triumph, IB Patel Road=
+ Goregaon East</span>, <span class=3D"Unsubscribe--senderCity">Mumbai,</spa=
+n>, <span class=3D"Unsubscribe--senderState"></span> <span class=3D"Unsubsc=
+ribe--senderZip"></span></p></div><p style=3D"font-size:12px; line-height:2=
+0px;"><a class=3D"Unsubscribe--unsubscribeLink" href=3D"https://u18867331.c=
+t.sendgrid.net/wf/unsubscribe?upn=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHaG=
+Mh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14Nzc3d9HBKaiin7SPab1O-2BgyR96PMPJq0XDFD=
+F63-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFpqXh7jqTYPsvRe549ppuUBl99DrhMvFLIu7=
+dkBAdb97wClwMEvNevoSD0lWTvI-2FiSr-2Bl2eyop37HrwBBTsu7K-2BFeLJ2-2BgjN4-2BDWw=
+e-2BmhbroDyf6536H-2FxwB0kyfbdMb0ZphobL0uA0BNPHGy44fkS7LSr-2FJF414Ad-2BZ2NM6=
+TaSnIp5FUSWPYfMHD-2F9a8dPeYcIQe-2F9lptpOOdB8N1kK68kSWePQqRDjIhKvRAGz1KDBWUm=
+ZQQpFxzcy9TditSNxFaIw6ZEN8C8qIwXf1DAbrxqiYVE7-2FzSBZ4EJWdxp-2B-2BfvXMEqqllh=
+U9WH3NwMcTNTepDwKOiS-2BVnrOaj0EwXBz1MYI0rqscgz-2FUQ8nGmc7lgUo1lNSQk7wA-2BbD=
+yQ4oiBXQEiEKw3lbvnP4yzxD8iz-2FuFyIU2q1jcLW4Xj05jCEWUCllVkjYUBqmskfqty-2B6US=
+1rotMNm-2B8zNVWP65z3yUTSXuqYYBQQduTebBhW9xBU0JCahITPo-2BLJw9-2FE0O77QkHlDiL=
+LPl3VS340FZHOODQgyU1G4gJztig-2BgUZzMDvgSeE2wl9T0lHMGKyeukolEhXPSTy-2F99NYiq=
+zji3-2Fqap0ginHiTkejh1v2BmiEo7yOiN95vbFIirQO-2FqnabrfNrAYaw4cbtVGQZWuKu-2FE=
+74UH1lbpcr6lCdApEZl9Jb7EcrTfJdwLY9AXFz-2BsuHJttwVT6Q5wwagzS-2FgDhmdI4zsqZZQ=
+2OvVgESWTnLPUgz-2FITk0x4Mg7K1D4-2B9NgN13cIZvJ7ES-2Bm2a1sSNMCWAQgVEKrrWej-2B=
+QwSgU3B7j6HBLqY65W3gtX4yEoY4WHtDTnttZeGAMixnO0JU-2B27WHCKnbuF3CZXHcWdiYRq5c=
+oue0g7p2YVqty3e90vPxiJHKQqoOfYTZcya4LoA-3D-3D" target=3D"_blank" style=3D""=
+>Unsubscribe</a></p></div></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    <img src=3D"https://u18867331.ct.sendgrid.net/wf/open?upn=3DQFWB4BCTtzC=
+IRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14Nzc3d9HBKa=
+iin7SPab1O-2BgyR96PMPJq0XDFDF63-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFpqXh7jq=
+TYPsvRe549ppuUBl99DrhMvFLIu7dkBAdb97wClwMEvNevoSD0lWTvI-2FiSr-2Bl2eyop37Hrw=
+BBTsu7K-2BFeLJ2-2BgjN4-2BDWwe-2BmhbroDyf6536H-2FxwB0kyfbdMb0ZphobL0uA0BNPHG=
+y44fkS7LSr-2FJF414Ad-2BZ2NM6TaSnIp5FUSWPYfMHD-2F9a8dPeYcIQe-2F9lptpOOdB8N1k=
+K68kSWePQqRDjIhKvRAGz1KDBWUmZQQpFxzcy9TditSNxFaIw6ZEN8C8qIwXf1DAbrxqiYVE7-2=
+FzSBZ4EJWdxp-2B-2BfvXMEqqllhU9WH3NwMcTNTepDwKOiS-2BVnrOaj0EwXBz1MYI0rqscgz-=
+2FUQ8nGmc7lgUo1lNSQk7wA-2BbDyQ4oiBXQEiEKw3lbvnP4yzxD8iz-2FuFyIU2q1jcLW4Xj05=
+jCEWUCllVkjYUBqmskfqty-2B6US1rotMNm-2B8zNVWP65z3yUTSXuqYYBQQduTebBhW9xBU0JC=
+ahITPo-2BLJw9-2FE0O77QkHlDiLLPl3VS340FZHOODQgyU1G4gJztig-2BgUZzMDvgSeE2wl9T=
+0lHMGKyeukolEhXPSTy-2F99NYiqzji3-2Fqap0ginHiTkejh1v2BmiEo7yOiN95vbFIirQO-2F=
+qnabrfNrAYaw4cbtVGQZWuKu-2FE74UH1lbpcr6lCdApEZl9Jb7EcrTfJdwLY9AXFz-2BsuHJtt=
+wVT6Q5wwagzS6roQdUABIxrtmiITW4N6tSBYqT4AC0lxnY7ZOt7z36KGwUlPQmGpNEHElXNrkDi=
+w29szFyyOIbgpjKQgHPUM-2FZicZLzNKAHm5LYa0n4HszWVDZ8lJBw18VaILbMMKrAqRBudFO-2=
+BgUp-2FXxvvV-2FMiqL9KxCv0QIEL7an0UIBMdgAr" alt=3D"" width=3D"1" height=3D"1=
+" border=3D"0" style=3D"height:1px !important;width:1px !important;border-w=
+idth:0 !important;margin-top:0 !important;margin-bottom:0 !important;margin=
+-right:0 !important;margin-left:0 !important;padding-top:0 !important;paddi=
+ng-bottom:0 !important;padding-right:0 !important;padding-left:0 !important=
+;"/></body>
+  </html>
+--14231e190360d65b6ec09d38af4dec4c7757af8da1ccef0578ff952fba5e--

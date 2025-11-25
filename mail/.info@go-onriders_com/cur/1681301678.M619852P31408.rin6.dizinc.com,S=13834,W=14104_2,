@@ -1,0 +1,270 @@
+Return-Path: <siddharthjaiswall07@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id QLxwJK6gNmSwegAAQ+45pw
+	(envelope-from <siddharthjaiswall07@outlook.com>)
+	for <info@go-onriders.com>; Wed, 12 Apr 2023 08:14:38 -0400
+Return-path: <siddharthjaiswall07@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 12 Apr 2023 08:14:38 -0400
+Received: from mail-tyzapc01olkn2064.outbound.protection.outlook.com ([40.92.107.64]:52609 helo=APC01-TYZ-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <siddharthjaiswall07@outlook.com>)
+	id 1pmZMz-0006iu-Ox
+	for info@go-onriders.com;
+	Wed, 12 Apr 2023 08:14:38 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=CDIvRVyDaoSgardI2805hbKrJtPOENjS69vaYNKVGzKHyuIQBGYuJXlThNPSJS5V+YWO7GgWF/r7AQG8bipRyl68UNEqXVtTLTl9MmOonYarML+b4iiLl5KWLDojJqGxW8KuxurFwqpKZu0cgmVsRADYHLZMnGnMYTD77mt/l745dXEWo4LLpRQncwmr/va2p65Dblahg5Ng6ORbPHnCf8CGNus0BtykfxxWmhpSB06wwRmZY/n7Ze5EmMYaGdWGZ20WlZ96OJbqStZkhQ134u3hovzCuURJdtvNrSPyZHozNYU1DCjdKOAUXfi/53ocigwzDaqR+IAb39YIPG6vBw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=lgVB6L2ImAQyVck9qOXg1VOQfDJlGsg1Wmt4siOVGAs=;
+ b=Qp4o8jq/SsniLdrovorwCcqIbIXkcRKRFr9CQe3egZl/+pGGyNFAxCBQVeIjt50Yk3nLoIKlsjjMxHYFPi0hSHTLa44I72DMmC6OFd+wNldtYZEI6JqEVVkiKnm5eYBcOFse44sfYZPpH6mooMM4odN5Cixd2DZ+WphD1+ucjS4WI771ZzoqRctOVXUQAkk/6OhozL5ss/pe61VICelMaPCKEQRPlA6Zekn3bFRlulxdZAc02KUwx9BZozxAw5egZ6hBJNaMRfTtwRr2p9f3+HzOPF8AOp/wFVVq1JvwECzjUzZFEIIfLQM5nC4OESnwZ8YAbyIYnMBw9aoVeuISmQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=lgVB6L2ImAQyVck9qOXg1VOQfDJlGsg1Wmt4siOVGAs=;
+ b=EbQXCpgHX7Rj7xLPFtQ5Fkok6T3LMz/A41AyTWviEbpruS/J7ve1yNkTPV6VVk/EOeSWbyWpXhmvDBBuEcbsoJkPgYoryEElMCgL63+w029wSayy+WemlnLebm7K5xmmAVVMmAx4ReNQl0JA6S1dXTvwTBiMQahpZkbZQ1qUhlWG1EZkX2LThWTXiBl4lzxuViduQkdGySY9MfjOXVKwdkU2icAujtfRFPvnjs3o1BXhB/B43/GUYdh3TmLJHiMJfM8Xl7NyumGQKnEh9MLYbcII1zSD7y/sk151gx9esSrDomtmjW4WkhQqnM2+rP05Bw0hqEbmKelvv9sQR1i9Dw==
+Received: from TYZPR06MB4032.apcprd06.prod.outlook.com (2603:1096:400:4::5) by
+ SI2PR06MB5140.apcprd06.prod.outlook.com (2603:1096:4:1af::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.6277.35; Wed, 12 Apr 2023 12:12:11 +0000
+Received: from TYZPR06MB4032.apcprd06.prod.outlook.com
+ ([fe80::e0db:68b0:5ae7:627f]) by TYZPR06MB4032.apcprd06.prod.outlook.com
+ ([fe80::e0db:68b0:5ae7:627f%9]) with mapi id 15.20.6277.038; Wed, 12 Apr 2023
+ 12:12:11 +0000
+From: "Siddharth Jaiswal" <siddharthjaiswall07@outlook.com>
+To: "Siddharth Jaiswal" <siddharthjaiswall07@outlook.com>
+Subject: Web Designing!!
+Date: Wed, 12 Apr 2023 17:40:52 +0530
+Message-ID:
+ <TYZPR06MB4032913D0172B138FCC4C213A19B9@TYZPR06MB4032.apcprd06.prod.outlook.com>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0047_01D96D66.1AFC62A0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdltLZ3/MnT2D7jdQIiBGtfHNMAorg==
+Content-Language: en-in
+X-TMN: [I240cEocJ7eZFEB9lIDOj74r/z7Zf0MR]
+X-ClientProxiedBy: BM1PR01CA0163.INDPRD01.PROD.OUTLOOK.COM
+ (2603:1096:b00:68::33) To TYZPR06MB4032.apcprd06.prod.outlook.com
+ (2603:1096:400:4::5)
+X-Microsoft-Original-Message-ID: <004601d96d38$014426a0$03cc73e0$@com>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: TYZPR06MB4032:EE_|SI2PR06MB5140:EE_
+X-MS-Office365-Filtering-Correlation-Id: 7a0df053-b55f-4937-8dd5-08db3b4f2425
+X-MS-Exchange-SLBlob-MailProps:
+	Nz1iqFo1qAXBdUQESTbJEvbWp5LKutGpgSV3vzz2wl5ljyUOb1ZrmFII66vEQgbDzeTKoJ1LroUNz0/czysRM4yK68xP96x4rP20E8bNwe09rnfgoZTxtLDRCZdBG/FmXh9EwksYxW7fA5+T6ek0uAJDl88/zxW3Ebdj3Hw4v0xQs7Hp3s4SHqwQFJWxCM5Aes0qt8i6y/CangcocHfPvnEo2Hp5jdCd6wFoZzWo28JTZS6Dff9b+XuPZkKpvMoMyLCmLXa4qSB5yWPYWaW+cM2P0qmjIZ4C6RjztlbdIbYwMN70b2X3XPcJd0L4OfmXPgDw67jG6uS9kjmfFnzM2uAGf3mloxUlvsNHDcH6faushNypYjSByhJmB+p8RK9ZLWXBwDq95m1gVJW96zL2n/lQykuhcc5yXYd9gwvNznfIEyQCrSq6Ih/CGNXT9OHih2SKyJI14cyZ8UtP5EJ4KOIiyndzv5VihKxhlUhnq/BKu8slaPDRm4w6cKlWMhovoTVTHAxO1vPfCrqFbtFFYsI3gKTmilZqgMPz6C26EBIWDk3auuF7rCpU6O90Mll0iB4KcG6DuBn5nK4+/n4NpaYCCoxAVUINgTjyj26ovv32QiXOjq8QpLLxpz8G+N+obFBAAwcEGKw=
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	nLPivFfs506feLJKWQ7Ys+NBOGCC2MGlfNXJR8DNEtHqckG0VtHdkkPqNwsUoAsfo0udFCNOIJy1j+Q6bS/hzxTogyiAkc3KdlbAt76YGLERoUq6K+CzcUudDj8uuu0CCUaIVjtk1Ef7iHPp+aX3+CBgDfb7+XbVaejJg+VY7IpUxqPf+cHDJjCrcO4mTJuIafp7IAVllLW0EdSs3r8BbYm5S/MD71VkybF/EY3xRsEKOrpCa6vHVh1OWj2gifXz2TjnFDE+NSWM/TVSK47c5maYlm+LqhfoD2+Eu719IMpIdlpwKYAOHRu0ttl8DJkxo8wLGWr8OhGSQCQsvOOgSx31lpJLos4F465e/JwqWCz/ldJMS+BOU1BNCxe9PL/ehx9YxsTPPA2niBxOb41gF0eSEqmipTx+UzUj+zOYs8ESLIdNEXHQvrXc3COsxPe5MtSTuPUyVyANHzcIYZ9f7Pv6K5Aj39KMz28iVbz+deePIqtE7mXhU0LTalzFvJWUw0JnhmeHlqxCFjqvDBk5AG4xdPCsShwhpVJ8mxkGhEOoEqrwBzWHCuB9M0c0TL3K8kA/cHSbpZNWjRySTdhRsp9uqDhcqcNlhs5oTZyriFvBEvvKtIS3gEv2t+h6+3T9
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?D4j2grndA2MgkN+U7K1czWfF94YtGFt7F2K7ZNdzS145j/5upm+8wh2YiMcp?=
+ =?us-ascii?Q?71WFFqdrXS4ovIlUYkVuMJMdEqaXxIyhGeY/q6WDP63yGedYsWUnlism5UbO?=
+ =?us-ascii?Q?I0mIyPJINiiADEY4ofjJClRtYN2BR0ewqJLYSN/siElz8M0XqdJ9e+Sn0Kmx?=
+ =?us-ascii?Q?L79ollvHtWGUiIadhcKf05JeG2rTBxfy8tv7+04jsQEAp+xGsGCJevYsCeX9?=
+ =?us-ascii?Q?wYdN9RfIG0fysJwLshi4a9/Y4k6+j+AETXWIwD+HsnzDQ03KuQBj8T6JO3gE?=
+ =?us-ascii?Q?dvnRM4ahFlGGjeBo/U5OEcI7v3UXm+847XcEw8hZH5cwSoiGgCRli+LQlv86?=
+ =?us-ascii?Q?xWPSF1/dq2Z9KZaTa7nbPr6xVKuSzMR1zENkGS7jDmXJj6R8YWgAXQLssCrD?=
+ =?us-ascii?Q?Wae/eZtRD9qfy105+nPrM0WGz76xCDa5q/4HWbjsKWOqrUenlQxGUvF4D7E/?=
+ =?us-ascii?Q?MAEwV1lNJpuY7iTvYQPmt78apUnWzPyOipu3pJoFs+UAdfeMjAhYNMWE033F?=
+ =?us-ascii?Q?brglCKeRxeJPbmmPZSholCeqnlhsgINsaIyGBMRIw4gHE7yJgfS00ZQ7Qifn?=
+ =?us-ascii?Q?/uFRtjThKZnRdlRFqAnd2c4iv74T1mCqVZH5DUqc5XtZGsl/7x+yyp3Za9ag?=
+ =?us-ascii?Q?KPmqXsqPcOAUUKR6PMrKefvDvEgJUAS02An4gus8raN5GxyBT+o12t6J91JT?=
+ =?us-ascii?Q?aipkhNZ9faN68EKV1cFbZjIhQHJj9SstIP5SOX/rCnKcXg5t35LvqauWAzVF?=
+ =?us-ascii?Q?qaG0FnHxoSVwzdutUhaKhgNlKARv06bclvXO8Z18XRSule462g1SsSppwgh6?=
+ =?us-ascii?Q?VC55UYMaHWkuGgt/17o5eyDqNE6yp+C3DbQKaZDS8dZ5yRXXDDV14Ud9JmgD?=
+ =?us-ascii?Q?4C+BMmAxqnCp5YdrDv/WKBd6JmmNh8lVf/zB3EkgikdKPbFSqhB70NTRMTD9?=
+ =?us-ascii?Q?TiA1dg75fxBCSuNsuRltwxRjNoFmU7aQr705G8KQ6CT3z7AijGc0S2qcUHY3?=
+ =?us-ascii?Q?IxsKg/ce1yPMwa37o6hjhzgVTumvLlW7XChjFsETNmNlWr1MyAx8JlvcBphi?=
+ =?us-ascii?Q?tB1DouzepUJNrwU/sz/gVPwglORSw9SE+Ht7cn/7y3wNeOBuaq1gwkcMvB+4?=
+ =?us-ascii?Q?Os6gV4hBGpaLYsODUB47LQfYsC3rKZCA3l2cwzkzYPMq/GGxpoEzrI9B1zyn?=
+ =?us-ascii?Q?qFhb4jlNyrttlCboXxsUOWHhLxxF/Kp9uhZWvn+2CLJ0hRFDYePsfgj0jnt8?=
+ =?us-ascii?Q?Aemc5EFKsXLZ32yUN0uz?=
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 7a0df053-b55f-4937-8dd5-08db3b4f2425
+X-MS-Exchange-CrossTenant-AuthSource: TYZPR06MB4032.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 12 Apr 2023 12:12:10.5681
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SI2PR06MB5140
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Mam, I am Web Development Manager, in India and I
+    work with experienced IT professionals who are into: 1. Web Designing-Development
+    2. Website Redesigning 3. Magento Development 4. E-Commerce [...] 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [40.92.107.64 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [40.92.107.64 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [siddharthjaiswall07[at]outlook.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [siddharthjaiswall07[at]outlook.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+------=_NextPart_000_0047_01D96D66.1AFC62A0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear Sir/Mam, 
+I am Web Development Manager, in India and I work with experienced IT
+professionals who are into: 
+1.   Web Designing-Development 
+2.   Website Redesigning 
+3.   Magento Development 
+4.   E-Commerce solutions 
+5.   PHP, Wordpress 
+If you are interested, then I can send you our Price list, company
+information and an affordable quotation with the best offer.
+
+Thanks & Regards 
+Siddharth Jaiswal 
+Web Development Manager(India) 
+
+
+------=_NextPart_000_0047_01D96D66.1AFC62A0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40"><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.EmailStyle18
+	{mso-style-type:personal-compose;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page Section1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+
+<div class=3D"Section1">
+
+<p><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">D=
+ear Sir/Mam, </span><br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">I am=
+ Web Development Manager,
+in India and I work with experienced IT professionals who are into:</span> =
+<br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">1.&n=
+bsp;&nbsp; Web
+Designing-Development</span> <br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">2.&n=
+bsp;&nbsp; Website
+Redesigning</span> <br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">3.&n=
+bsp;&nbsp; Magento
+Development</span> <br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">4.&n=
+bsp;&nbsp; E-Commerce
+solutions</span> <br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">5.&n=
+bsp;&nbsp; PHP, Wordpress</span>
+<br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">If y=
+ou are interested, then I
+can send you our Price list, company information and an affordable quotatio=
+n
+with the best offer.</span><o:p></o:p></p>
+
+<p><span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">T=
+hanks &amp; Regards</span>
+<br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Sidd=
+harth Jaiswal</span> <br>
+<span style=3D"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;">Web =
+Development Manager(India)
+</span><o:p></o:p></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0047_01D96D66.1AFC62A0--

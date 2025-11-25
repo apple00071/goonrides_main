@@ -1,0 +1,113 @@
+Return-Path: <santosh2eee@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id YJs4JrYm72O4TQAAQ+45pw
+	(envelope-from <santosh2eee@gmail.com>)
+	for <info@go-onriders.com>; Fri, 17 Feb 2023 02:03:18 -0500
+Return-path: <santosh2eee@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 17 Feb 2023 02:03:18 -0500
+Received: from mail-ed1-f49.google.com ([209.85.208.49]:43910)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <santosh2eee@gmail.com>)
+	id 1pSum6-0005fT-0D
+	for info@go-onriders.com;
+	Fri, 17 Feb 2023 02:03:18 -0500
+Received: by mail-ed1-f49.google.com with SMTP id h14so996586edz.10
+        for <info@go-onriders.com>; Thu, 16 Feb 2023 23:02:55 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=JIyKYpNhkAMjC5yrv8jhxEZYdIp5a0LLdfyW+qisu3g=;
+        b=bQBA7UXEnk5H90+fWnkTDPCpD2qM210BZgtbwJZJghGApeSd+tvDO/WwEerSkjabjX
+         2zqjXQNi2G42pLyicyLd+2Bur25lSgj/aX0v9irWVkS7apeeuvy8aul7NTgNY4qGfo8o
+         nJObDJOgXfuG9HUvGj/QvEWEd9pbm3DhODNqe8gUGbUk80Fi7p8L3T5gi5vKqIZkWGXS
+         XNgwqFNh6wpXoZ33epuD2A/JvsNswSV7RzSuti6KmpYXgwC78ZekajY17cuKDAqRcxON
+         C6Yb2VLv0M65phCOykRe4C+4aD+Thg7LWhRR9FL+1RmTsaBtrifD42l83Ori22O9FBZj
+         rsZQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=JIyKYpNhkAMjC5yrv8jhxEZYdIp5a0LLdfyW+qisu3g=;
+        b=sPOiptVk0qNByl+FFSegD0TKemidzj+hXTZT4P4cAydDhbwHygeAg47uIl5zos/RxP
+         I/POQtNYldpYnKAeDAF3bGpslwftdxwkLlqtw5FcHet/ofvvdw3oUty7saL5fZYYJr3z
+         Cs+GzNt66NRZnZ1AGSdW8HHB3+LWxR1MXCxP9rLN55Ve802wxMRlB983popuwRU46coA
+         JpFtjFjHqkSoo1x3346YGb8BNpaIZ+SgDC15nrmw/Quo/R54T6ezwCzyxuH+NwT8E7i+
+         JVaj8tSARvT7xjqIRL3UHEnxxdERgA3tpJHKh73Kw5ECAR/dX+/KwKF8IjzAQFN6W6EA
+         mAag==
+X-Gm-Message-State: AO0yUKXTmS5+exOSq/Gbz/jV6ZU0TQcI5SmShCIXMHxWuDChATqtKFYT
+	jKdieBe1jlzYgUzfoj9a3ihMM9DVySJ62o7TB8qYwsUq
+X-Google-Smtp-Source: AK7set9UhaZwuKe/5iGnWX/HFzfv02mEiQpcsNvxM7jp/aFWRpgV6cabdkkbCA/n3JiUuH8OUr/bJcOSG9Fn5yHv/D4=
+X-Received: by 2002:a50:9fc4:0:b0:4ab:554:37e3 with SMTP id
+ c62-20020a509fc4000000b004ab055437e3mr176590edf.8.1676617353253; Thu, 16 Feb
+ 2023 23:02:33 -0800 (PST)
+MIME-Version: 1.0
+From: Santosh Vinnakota <santosh2eee@gmail.com>
+Date: Fri, 17 Feb 2023 01:02:21 -0600
+Message-ID: <CAERP3=iR0WUqp482oqoE0Cqqa2UrYoOkQu+Fr-eBKAoWRj8suQ@mail.gmail.com>
+Subject: Inquiry
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="000000000000c3d92005f4dfe577"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, Your website mentioned that you have a whatsapp number,
+    but we are unable to contact you on that number. I need a motorcycle reservation
+    for couple days at the end of February. Do you have any ava [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.208.49 listed in list.dnswl.org]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [santosh2eee[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.49 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--000000000000c3d92005f4dfe577
+Content-Type: text/plain; charset="UTF-8"
+
+Hi, Your website mentioned that you have a whatsapp number, but we are
+unable to contact you on that number. I need a motorcycle reservation for
+couple days at the end of February. Do you have any availability?
+
+Thanks,
+Santosh V.
+
+--000000000000c3d92005f4dfe577
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">Hi, Your website mentioned that you have a whatsapp number, but=
+ we are unable to contact you on that number. I need a motorcycle reservati=
+on for couple days at the end of February. Do you have any availability?</d=
+iv><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><b=
+r></div><div><div dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"g=
+mail_signature"><div dir=3D"ltr"><font face=3D"verdana, sans-serif">Thanks,=
+</font><div><font face=3D"verdana, sans-serif">Santosh V.</font></div></div=
+></div></div></div>
+
+--000000000000c3d92005f4dfe577--

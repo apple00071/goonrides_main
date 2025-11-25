@@ -1,0 +1,227 @@
+Return-Path: <info@scmgalaxy.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id IDTmC0qUtWhpTSMAQ+45pw
+	(envelope-from <info@scmgalaxy.com>)
+	for <info@go-onriders.com>; Mon, 01 Sep 2025 08:40:42 -0400
+Return-path: <info@scmgalaxy.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 01 Sep 2025 08:40:42 -0400
+Received: from mail-wm1-f49.google.com ([209.85.128.49]:50383)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <info@scmgalaxy.com>)
+	id 1ut3py-00000009i4z-1j3H
+	for info@go-onriders.com;
+	Mon, 01 Sep 2025 08:40:42 -0400
+Received: by mail-wm1-f49.google.com with SMTP id 5b1f17b1804b1-45b7d485173so26454465e9.0
+        for <info@go-onriders.com>; Mon, 01 Sep 2025 05:40:20 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=scmgalaxy.com; s=google; t=1756730399; x=1757335199; darn=go-onriders.com;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=EoSOX6z5qzayhs2l+Y1ZLv93mpvSwi7eSp/eIK0pftk=;
+        b=ztCnVO95EaFobFxLx1jzmovbA6mnC/P9HIUbybZYcEQKD2wJsPDbqLv7cHkROEwMbg
+         h3ET5fvInd64qM1CJz7YlkcRBq+Y/BpCxn4uwkPfisDQW/7i+LQVdwHLB7Gl+Ahi8UAM
+         OvKCOc9rhjNxvCVTCdR9BWx9psHehG+mNoock=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1756730399; x=1757335199;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=EoSOX6z5qzayhs2l+Y1ZLv93mpvSwi7eSp/eIK0pftk=;
+        b=Genkaq1uuVVhPa27vLPbs10vlSi3q5BUInYBlBVmsTwn7OpPjEHfhYZ+teZIT+3ULX
+         tWO0yxHtszq/Sk6boA8c046IgbKvcqtGqVtAl2StzzgmG582UEnx0g4F+61ZYuoYXSnM
+         zYqeLLNp19A2TB0fJGq1SgopqLtLB9gPeuM89e4yiVxIxYR2zFU3Q28bL0+cfbz6nVuv
+         /t/w6ded6lS+U5Vc9MPn9dlkNh6JlbnJaDEo8FbjMklLnps9v6GVvOGaLcjn1VEYxY8r
+         kKWsWvTbWjPK0osJlgMooZbYHtOggfOHuYKnvjOHsIcG8oNPEhbaHeeCLPV7UMAZAT6i
+         WiVg==
+X-Forwarded-Encrypted: i=1; AJvYcCVWB97AfMaindlLw5PH31DZP65CLa1AyLK1ZLD0JxiLvw9lkZ+JUUdm1azeMIqrOGPLzJe9@go-onriders.com
+X-Gm-Message-State: AOJu0YyqBP4fg9oqpE57h7JGGF+vnw3hHUeUbNdHQjhi0lbgGLAG5qw+
+	BtY9DN+0lGS3eIpV2DxJZ4u9lilVNEIUILZp0d35FyiAZkMGgpcvg6hpQPKtm6jxPuhRZTcjjYn
+	D5kpsNMdFC0CK6+qyo+ls4yzEREj+LL351WUNFikNzg==
+X-Gm-Gg: ASbGncvPzW7bvdbYpzU5N1J1hUL3azExQd3PdnX05EWcn7evVVDZCx/I1kzngXhupxj
+	SiYWg/d/ahIn4l1zeNgA41F8rAQSKhhGjxgjqJ1fOos5lAGoeVHfoDM7+muP4J+6hHEX4vOGbhs
+	IN/M2mh3mVfR4Y8PelQpml/ZqDhBd3H2C0pL0NOfuYwjn+Oexl2pKKPSEhY0bYvHQ0x1E7o2u3F
+	jb0sYs44LmY6aEqnucks/g13niCBVsAX2GDr4vnh5f5Fk2C
+X-Google-Smtp-Source: AGHT+IGNEjEtc+RKJ+ym41QmMPA9H2RXqjZXbpAbRwI9gCYGltoBhKqoakObGnPjq1HvDzXCb7cNYkRGcWvs2qxS3Mg=
+X-Received: by 2002:a05:600c:1d86:b0:45b:885b:7b0c with SMTP id
+ 5b1f17b1804b1-45b885b7fa2mr65815025e9.16.1756730398877; Mon, 01 Sep 2025
+ 05:39:58 -0700 (PDT)
+MIME-Version: 1.0
+From: Scmgalaxy Inc <info@scmgalaxy.com>
+Date: Mon, 1 Sep 2025 18:09:45 +0530
+X-Gm-Features: Ac12FXzucOXtaT9tLryZHHpRAqoPg5ib-3htt0_JAwWcD9HJdEBAzANuPRty6wg
+Message-ID: <CAM7DKo_7oE0QtkDdRodNbeO3A_uv9_fWuP=xEG1AXosb6K0DPw@mail.gmail.com>
+Subject: =?UTF-8?Q?Listing_Your_Vehicle_on_MOTOSHARE_=E2=80=93_100=25_Free_=2D_A_?=
+	=?UTF-8?Q?Cloud_based_Vehicle_Management_Software?=
+To: info@lionearentals.com, admin@worktownrentals.in, relaxrentbikes@gmail.com, 
+	rentacarbooking@yahoo.com, "Dr.manoj dinakar" <manoj.dinakar6@gmail.com>, 
+	support@jailaxmigroup.com, info@kinisi.in, info@kvautocentre.com, 
+	enquiry@ktcindia.com, skbikes2001@gmail.com, escalation@bikenbiker.com, 
+	customersupport@justbuycycles.in, online@justbuycycles.in, 
+	support@royalenfield.com, info@smartbikemobility.com, info@go-onriders.com, 
+	ONWHEELZ IN Bike rental <Onwheelz.in@gmail.com>, admin@boongg.in, info@powerriders.in, 
+	contact@kmrideon.com
+Cc: contact@motoshare.in
+Content-Type: multipart/alternative; boundary="000000000000643d14063dbcabc0"
+X-MagicSpam-TUUID: 28996386-62a6-4df4-bdba-e9d85b082ffb
+X-MagicSpam-SUUID: f42e5389-d46b-4414-af39-eab880298bc1
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir, We are excited to invite you to join *MOTOSHARE*,
+    India’s growing platform for *vehicle listing, booking, and management*.
+    *Why MOTOSHARE?* 
+ Content analysis details:   (1.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.128.49 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.128.49 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.128.49 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--000000000000643d14063dbcabc0
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sir,
+
+We are excited to invite you to join *MOTOSHARE*, India=E2=80=99s growing p=
+latform
+for *vehicle listing, booking, and management*.
+
+*Why MOTOSHARE?*
+
+   -
+
+   *100% Free Platform* =E2=80=93 No commission, no hidden charges.
+   -
+
+   *Direct Payments* =E2=80=93 Customers who book your vehicle pay *you dir=
+ectly*.
+   MOTOSHARE does not act as a middleman.
+   -
+
+   *Vehicle Management Software* =E2=80=93 Track bookings, manage availabil=
+ity, and
+   integrate GPS devices to monitor your vehicles easily.
+   -
+
+   *Full Control* =E2=80=93 You set your own rental price, rules, and packa=
+ges.
+
+*How it Works*
+
+   1.
+
+   Register as a Partner at =F0=9F=91=89 motoshare.in/partner/register
+   <https://motoshare.in/partner/register?utm_source=3Dchatgpt.com>
+   2.
+
+   List your vehicle(s) with details, pricing, and availability.
+   3.
+
+   Receive booking requests directly from customers.
+   4.
+
+   Customers pay you directly =E2=80=93 no third-party deductions.
+   5.
+
+   Manage your vehicles, renters, and records from one simple dashboard.
+
+*What You Should Know*
+
+   -
+
+   MOTOSHARE does not charge *any commission or fees*.
+   -
+
+   All earnings go directly to the Partner.
+   -
+
+   It is the Partner=E2=80=99s responsibility to ensure their vehicle compl=
+ies with
+   local laws (registration, insurance, PUC, etc.).
+
+Join today and start earning with MOTOSHARE =E2=80=93 simple, transparent, =
+and
+built for vehicle owners like you.
+
+=F0=9F=91=89 Register Your Vehicle Now
+<https://motoshare.in/partner/register?utm_source=3Dchatgpt.com>
+
+We look forward to welcoming you as a valued Partner!
+
+Warm regards,
+*Team MOTOSHARE*
+www.motoshare.in <https://motoshare.in/?utm_source=3Dchatgpt.com>
+
+--000000000000643d14063dbcabc0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p>Dear Sir,</p><p>We are excited to invite you to join=C2=
+=A0<strong>MOTOSHARE</strong>, India=E2=80=99s growing platform for=C2=A0<s=
+trong>vehicle listing, booking, and management</strong>.</p><p><strong>Why =
+MOTOSHARE?</strong></p><ul><li style=3D"margin-left:15px"><p><strong>100% F=
+ree Platform</strong>=C2=A0=E2=80=93 No commission, no hidden charges.</p><=
+/li><li style=3D"margin-left:15px"><p><strong>Direct Payments</strong>=C2=
+=A0=E2=80=93 Customers who book your vehicle pay=C2=A0<strong>you directly<=
+/strong>. MOTOSHARE does not act as a middleman.</p></li><li style=3D"margi=
+n-left:15px"><p><strong>Vehicle Management Software</strong>=C2=A0=E2=80=93=
+ Track bookings, manage availability, and integrate GPS devices to monitor =
+your vehicles easily.</p></li><li style=3D"margin-left:15px"><p><strong>Ful=
+l Control</strong>=C2=A0=E2=80=93 You set your own rental price, rules, and=
+ packages.</p></li></ul><p><strong>How it Works</strong></p><ol><li style=
+=3D"margin-left:15px"><p>Register as a Partner at=C2=A0=F0=9F=91=89=C2=A0<a=
+ rel=3D"noopener" href=3D"https://motoshare.in/partner/register?utm_source=
+=3Dchatgpt.com" target=3D"_blank">motoshare.in/partner/register<span aria-h=
+idden=3D"true"></span></a></p></li><li style=3D"margin-left:15px"><p>List y=
+our vehicle(s) with details, pricing, and availability.</p></li><li style=
+=3D"margin-left:15px"><p>Receive booking requests directly from customers.<=
+/p></li><li style=3D"margin-left:15px"><p>Customers pay you directly =E2=80=
+=93 no third-party deductions.</p></li><li style=3D"margin-left:15px"><p>Ma=
+nage your vehicles, renters, and records from one simple dashboard.</p></li=
+></ol><p><strong>What You Should Know</strong></p><ul><li style=3D"margin-l=
+eft:15px"><p>MOTOSHARE does not charge=C2=A0<strong>any commission or fees<=
+/strong>.</p></li><li style=3D"margin-left:15px"><p>All earnings go directl=
+y to the Partner.</p></li><li style=3D"margin-left:15px"><p>It is the Partn=
+er=E2=80=99s responsibility to ensure their vehicle complies with local law=
+s (registration, insurance, PUC, etc.).</p></li></ul><p>Join today and star=
+t earning with MOTOSHARE =E2=80=93 simple, transparent, and built for vehic=
+le owners like you.</p><p>=F0=9F=91=89=C2=A0<a rel=3D"noopener" href=3D"htt=
+ps://motoshare.in/partner/register?utm_source=3Dchatgpt.com" target=3D"_bla=
+nk">Register Your Vehicle Now<span aria-hidden=3D"true"></span></a></p><p>W=
+e look forward to welcoming you as a valued Partner!</p><p>Warm regards,<br=
+><strong>Team MOTOSHARE</strong><br><a rel=3D"noopener" href=3D"https://mot=
+oshare.in/?utm_source=3Dchatgpt.com" target=3D"_blank">www.motoshare.in</a>=
+</p></div>
+
+--000000000000643d14063dbcabc0--

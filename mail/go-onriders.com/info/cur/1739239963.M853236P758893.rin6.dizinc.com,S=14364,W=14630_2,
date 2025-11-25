@@ -1,0 +1,266 @@
+Return-Path: <jamia@aivirtualassistwork.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id WOY+MhuyqmdtlAsAQ+45pw
+	(envelope-from <jamia@aivirtualassistwork.com>)
+	for <info@go-onriders.com>; Mon, 10 Feb 2025 21:12:43 -0500
+Return-path: <jamia@aivirtualassistwork.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 10 Feb 2025 21:12:43 -0500
+Received: from mail-pl1-f193.google.com ([209.85.214.193]:42327)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <jamia@aivirtualassistwork.com>)
+	id 1thflT-00000003Ds6-3xYW
+	for info@go-onriders.com;
+	Mon, 10 Feb 2025 21:12:43 -0500
+Received: by mail-pl1-f193.google.com with SMTP id d9443c01a7336-21f2339dcfdso79469035ad.1
+        for <info@go-onriders.com>; Mon, 10 Feb 2025 18:12:22 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aivirtualassistwork.com; s=google; t=1739239921; x=1739844721; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=8HLXyiV/JvzTSl+LILvluu7+3HhTqPfW0cwJHpqLp70=;
+        b=HXp6YXBQFi8UPAvI6whrNOEEOUH+Y2FqQ6nOeNNaTBd5NCzFwvdoe+F2z77LEeUoO3
+         TGxp8CteMBFE4O3IjLHbhHrO19YDysUcdMiykP8MiH6QduIPLcW5sGTG0x8FA7xXwRMY
+         PR/hp3jyl/fTW6Ip9ZHvbKMU58L1vCB40BHO3TMYFrBvq1NM6Ctw1c7tK0nSKUppsK3b
+         /Ek7UBXzHIlad3sD7c3WZ7+jF3DZJWIWCI1DXun5bSr1GdlQ/zF3RVqtJ3Ls7rz6Czdb
+         fC43tC/z1NcQFho4wbEE7I07NyFoiatk0UDgA6HoHCnxwt6j3MZys38kE+Cwu5z5lgz8
+         V0Qg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1739239921; x=1739844721;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=8HLXyiV/JvzTSl+LILvluu7+3HhTqPfW0cwJHpqLp70=;
+        b=NNFkGFXFMaHj9S5yKcmxPr5nmo+ZceRMS90V+nkvEvdklCi+L4+Hf+c7keckOPYDsC
+         GcPvAgPtRZJkOH9u3yaaLtG/sV3zW9/LQQJBOrUTdDTF9CBXjTtoeRpQ2ZzURUfjH5i3
+         zJm+mXbKlL2eidT2/7X/WB4VFRyDxtxVw0xW0MREpToLTNr//cP1LPn1X8Puru/OuCjk
+         XpNgbudPwCaRtvHqhOnv7VWtD48s5Hjg/yjVozyj1HK+ztZeeMG5Q0qL00nC/1IdhiBM
+         z7qtraGb0px+97DIqhwt4U2hkL+UC/Bn8wOGmXfRBs4H510WPaPEzFEEI/FlE8Bkq5Ad
+         +Frw==
+X-Gm-Message-State: AOJu0YzZTzCwrecxIUROoT0gFOwkc1qp9F4MAte01sI1MrsXTuIVWSm4
+	3NbVThmkbOoWpCZ5wM6KhxiYy5lICstvtI0rK/NM1F5V5uvybO5vqYeSlxbaGcG5JxNLfDL0m0H
+	2DJZBFsR+UgizMIVFaHznAvtbggnTAdGVapJV+icfty2ZNNWlEMzXqw==
+X-Gm-Gg: ASbGnct59E0jv7hIF5zJ5upKHKAMDMo3geppjWvRRUgkB2aPI+pVnZFOy5GZ5JLa4KH
+	LYTY1vaRYihF8J3Wi9dqk1CmwSRDCg4F1AkZ5WvSrFma2E5vlXmpU3UYtWNlq3w5OeBliYlM3Hr
+	4=
+X-Google-Smtp-Source: AGHT+IGE6KradeuElW3St/XMycTQiT54oMRuRiusoUEQS7cgo66sHP82rK/+b1cXE2OfuI8H7/hTR3ib9ycn9kTyh+A=
+X-Received: by 2002:a17:902:f68b:b0:21f:97c3:f885 with SMTP id
+ d9443c01a7336-21fb6f3a562mr28104505ad.18.1739239920199; Mon, 10 Feb 2025
+ 18:12:00 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 10 Feb 2025 18:11:59 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Mon, 10 Feb 2025 18:11:59 -0800
+MIME-Version: 1.0
+Sender: Jamia Tamayo <jamia@aivirtualassistwork.com>
+From: Jamia Tamayo <jamia@aivirtualassistwork.com>
+Date: Mon, 10 Feb 2025 18:11:59 -0800
+X-Google-Sender-Auth: 9UnKzLNi5HTZru_bj-ivjfhaiN4
+X-Gm-Features: AWEUYZm_wwXJNg0rUtRG5VegGUWvau_TEg6MWG966YHxFIVIICBhawoJaENMmCw
+Message-ID: <CAMHT8DxRmJhEtr97BhxFycLiLW9kVvSPEi5gPvcxxTL0G2iXhw@mail.gmail.com>
+Subject: Make sure your go-onriders.com is crawl-able by search engines.
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000009f7adc062dd459d1"
+X-MagicSpam-TUUID: 7ea2beb8-ae5b-4ebb-832e-2426bc9ae7d7
+X-MagicSpam-SUUID: f92af905-a31d-48a5-a975-18958fe34d45
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear business owner of go-onriders.com <https://aivirtualassistwork-dot-yamm-track.appspot.com/2TAWzzRVgx6HzwxyPUpQxP6Ba83upU3cpib5DOkbNXmzjD8fylAHrKznUzdQTrRwehy7huiIaxTIcVQafXvHSvXFvvxOe6j0B1r79fW6E
+    [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.214.193 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.214.193 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.214.193 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--0000000000009f7adc062dd459d1
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear business owner of go-onriders.com
+<https://aivirtualassistwork-dot-yamm-track.appspot.com/2TAWzzRVgx6HzwxyPUp=
+QxP6Ba83upU3cpib5DOkbNXmzjD8fylAHrKznUzdQTrRwehy7huiIaxTIcVQafXvHSvXFvvxOe6=
+j0B1r79fW6EdtgAuUw9OR5nHgJ7d08oVLd3xxCd_n_2k4fGGjUVmJUDdd5CUNuNKqZ0Vw9lAHOl=
+Tj2EojENFU6tDmR0>
+.
+
+Good morning
+
+
+
+I was going through your website & I personally see a lot of potential in
+your website & business.
+
+
+
+With your permission I would like *to* *send you an Audit report of
+your go-onriders.com
+<https://aivirtualassistwork-dot-yamm-track.appspot.com/2BTaaNHiEFzQbukI5wm=
+h1pwMKeXk_cHlxaPnryDaX9x7mD8fylAH_kLutjpm6GaheiAWHac-L8MAGxWU9azJbf89WbuLgf=
+Z8PSw1NxhqqOH3psQP9N-KLYdoNoEgtSXU8HZjQriBN3HM0miT5aJDBlT3HZR0huo9IhXHtY7cP=
+1hJ4khinbPIFtYdJ>*
+with
+prices showing you a few things to greatly improve these search results for
+you.
+
+
+
+These things are not difficult, and my report will be very specific. It
+will show you exactly what needs to be done to move you up in the rankings
+dramatically.
+
+
+
+We can place your website on Google's 1st page (Yahoo, etc.).
+
+
+
+*May I send you a quote? If you are interested!   *
+
+
+
+Waiting for your reply
+
+
+*Regards,*
+
+Jamia Tamayo
+
+
+
+*Business Development
+Manager.-------------------------------------------------------------------=
+-----*
+
+*Note:* - Our next conversation will be on my corporate Email ID.I will *se=
+nd
+more details* on our *=E2=80=9Ccorporate identity=E2=80=9D, =E2=80=9Ccompan=
+y profile=E2=80=9D,*  *"Send
+your **Quote* *and Price list"*
+
+Click *here*
+<https://aivirtualassistwork-dot-yamm-track.appspot.com/2yqZgcHTSZ6P4KUD3B0=
+kHCi_wpBBuoF5PIQrMoSwstofpD8fylAE0bM6dwBLmqp7UjouTKn0K0n9f_cq4w5Ki1wtxqDJTG=
+Ojcn5Xc9GoHRkYuNr9z5TYvY2ytxcIc-QmlqsK7QnDWsKLHwmbD48gG51dQNO9AW9_q5ZAti3oo=
+MpwKPVRhEVgUkl6KCXO0>
+to
+unsubscribe.
+[image: beacon]
+
+--0000000000009f7adc062dd459d1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0c=
+m 0cm 10pt;line-height:12.65pt"><font face=3D"verdana, sans-serif">Dear bus=
+iness owner of=C2=A0<a href=3D"https://aivirtualassistwork-dot-yamm-track.a=
+ppspot.com/2TAWzzRVgx6HzwxyPUpQxP6Ba83upU3cpib5DOkbNXmzjD8fylAHrKznUzdQTrRw=
+ehy7huiIaxTIcVQafXvHSvXFvvxOe6j0B1r79fW6EdtgAuUw9OR5nHgJ7d08oVLd3xxCd_n_2k4=
+fGGjUVmJUDdd5CUNuNKqZ0Vw9lAHOlTj2EojENFU6tDmR0" rel=3D"nofollow">go-onrider=
+s.com</a>.</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001p=
+t;line-height:normal"><font face=3D"verdana, sans-serif">Good morning=C2=A0=
+</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-hei=
+ght:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p><p class=3D=
+"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=
+=3D"verdana, sans-serif"><span style=3D"border:1pt none windowtext;padding:=
+0cm">I was going through your website &amp; I personally see a lot of poten=
+tial in your website &amp; business.</span>=C2=A0</font></p><p class=3D"Mso=
+Normal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"=
+verdana, sans-serif">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margi=
+n:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif"><=
+span style=3D"border:1pt none windowtext;padding:0cm">With your permission =
+I would like=C2=A0<b>to</b>=C2=A0</span><b><span style=3D"color:rgb(0,176,8=
+0);border:1pt none windowtext;padding:0cm">send you an Audit report of your=
+=C2=A0<a href=3D"https://aivirtualassistwork-dot-yamm-track.appspot.com/2BT=
+aaNHiEFzQbukI5wmh1pwMKeXk_cHlxaPnryDaX9x7mD8fylAH_kLutjpm6GaheiAWHac-L8MAGx=
+WU9azJbf89WbuLgfZ8PSw1NxhqqOH3psQP9N-KLYdoNoEgtSXU8HZjQriBN3HM0miT5aJDBlT3H=
+ZR0huo9IhXHtY7cP1hJ4khinbPIFtYdJ" rel=3D"nofollow">go-onriders.com</a></spa=
+n></b><span style=3D"border:1pt none windowtext;padding:0cm">=C2=A0with pri=
+ces showing you a few things to greatly improve these search results for yo=
+u.=C2=A0</span>=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0cm =
+0cm 0.0001pt;text-indent:36pt;line-height:normal"><font face=3D"verdana, sa=
+ns-serif">=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0=
+.0001pt;line-height:normal"><font face=3D"verdana, sans-serif"><span style=
+=3D"border:1pt none windowtext;padding:0cm">These things are not difficult,=
+ and my report will be very specific. It will show you exactly what needs t=
+o be done to move you up in the rankings dramatically.=C2=A0</span>=C2=A0</=
+font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-heigh=
+t:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p><p class=3D"M=
+soNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=
+=3D"verdana, sans-serif"><span style=3D"border:1pt none windowtext;padding:=
+0cm">We can place your website on Google&#39;s 1st page (Yahoo, etc.).</spa=
+n>=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;=
+line-height:normal"><font face=3D"verdana, sans-serif">=C2=A0</font></p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><f=
+ont face=3D"verdana, sans-serif"><b><span style=3D"color:rgb(0,176,240);bor=
+der:1pt none windowtext;padding:0cm">May I send you a quote? If you are int=
+erested!=C2=A0=C2=A0=C2=A0</span></b>=C2=A0</font></p><p class=3D"MsoNormal=
+" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdan=
+a, sans-serif">=C2=A0=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margi=
+n:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif"><=
+span style=3D"border:1pt none windowtext;padding:0cm">Waiting for your repl=
+y</span>=C2=A0</font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0=
+001pt;line-height:normal"><b><font face=3D"verdana, sans-serif"><br></font>=
+</b></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height=
+:normal"><b><font face=3D"verdana, sans-serif">Regards,</font></b></p><p cl=
+ass=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><spa=
+n style=3D"color:rgb(0,0,0);font-family:verdana,sans-serif;font-weight:700"=
+>Jamia Tamayo</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt=
+;line-height:12.65pt"><font face=3D"verdana, sans-serif"><b>Business Develo=
+pment Manager.<br>---------------------------------------------------------=
+---------------<br></b></font></p><p class=3D"MsoNormal" style=3D"margin:0c=
+m 0cm 8pt;line-height:13.91px"><font face=3D"verdana, sans-serif"><b>Note:<=
+/b>=C2=A0- Our next conversation will be on my corporate Email ID.I will=C2=
+=A0<b>send more details</b>=C2=A0on our=C2=A0<b>=E2=80=9Ccorporate identity=
+=E2=80=9D, =E2=80=9Ccompany profile=E2=80=9D,</b>=C2=A0</font>=C2=A0<b styl=
+e=3D"font-family:verdana,sans-serif;color:black">&quot;Send your=C2=A0</b><=
+b style=3D"font-family:verdana,sans-serif">Quote</b>=C2=A0<b style=3D"font-=
+family:verdana,sans-serif;color:black">and Price list&quot;</b></p><p class=
+=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:normal"><span lang=
+=3D"EN-US" style=3D"font-size:x-small;font-family:verdana,sans-serif">Click=
+=C2=A0</span><span lang=3D"EN-US" style=3D"font-size:x-small;font-family:ve=
+rdana,sans-serif"><a href=3D"https://aivirtualassistwork-dot-yamm-track.app=
+spot.com/2yqZgcHTSZ6P4KUD3B0kHCi_wpBBuoF5PIQrMoSwstofpD8fylAE0bM6dwBLmqp7Uj=
+ouTKn0K0n9f_cq4w5Ki1wtxqDJTGOjcn5Xc9GoHRkYuNr9z5TYvY2ytxcIc-QmlqsK7QnDWsKLH=
+wmbD48gG51dQNO9AW9_q5ZAti3ooMpwKPVRhEVgUkl6KCXO0" rel=3D"nofollow" target=
+=3D"_blank"><b><span style=3D"color:red">here</span></b></a></span><span la=
+ng=3D"EN-US" style=3D"font-size:x-small;font-family:verdana,sans-serif">=C2=
+=A0to unsubscribe.</span></p></div>
+</div>
+<img src=3D"https://aivirtualassistwork-dot-yamm-track.appspot.com/2Qx533cu=
+yhpvu4WLkrKyz1xKnceHs4akVwX34ermEU_jfD8fylAHc0NrfwONL6DovfbY23kaq7wa6SyLhM9=
+36YoF1giB-9egJYCQ9tNCkdUj1SQszoTbj6VuupkJer0UeN9ZfMbgtJ9krnauNSDdTvM_3qjivG=
+jdmpNYRrSrzVjc" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:no=
+ne; display:none!important;">
+
+--0000000000009f7adc062dd459d1--

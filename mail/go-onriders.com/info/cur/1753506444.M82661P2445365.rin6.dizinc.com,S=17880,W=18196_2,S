@@ -1,0 +1,316 @@
+Return-Path: <radha0878@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id Z/VuBIxihGg1UCUAQ+45pw
+	(envelope-from <radha0878@outlook.com>)
+	for <info@go-onriders.com>; Sat, 26 Jul 2025 01:07:24 -0400
+Return-path: <radha0878@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 26 Jul 2025 01:07:24 -0400
+Received: from mail-japaneastazolkn19013076.outbound.protection.outlook.com ([52.103.43.76]:10022 helo=TYDPR03CU002.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <radha0878@outlook.com>)
+	id 1ufX80-0000000AG44-12t4
+	for info@go-onriders.com;
+	Sat, 26 Jul 2025 01:07:23 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=wZff50fZIJQLfhtkM6O1+7V/5izdgB4oe367qDNpKib1xBA1D2Kp6+6H0OE12IncQEOHFApskf9lbcVWB5nDJK/XgyeK2pUE/9zJt47XlzwLRcWOK+wQ20yrWc3QW6FTvVFGAliwZNJpWIF0GCWW5J2G2f3ABeTg+7SsiEQIfJeS61hDvjAUbx0VQRT2RcrgL3MUYQaIQ3ADV0B1iyO8thoIWBNFAkrQjlF8xNk6t9sy8XTjTJvnGQXUrnjOZUPbUdTU3X3949GFEzRVGo9sZhwE0YlH+iOhwJpfxBAZ7zixOvqhhP8rUKKHzEdMznwMHp5S8M0N7zhFsDef1PJsvg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=emgwwulp2KFJcEP5VBilJASc/FeNpG5bLz2qvSDU2W0=;
+ b=g4XHhYIPyDkJKqxaXHX7DzCvggwUDq7YWFrdolkE1/7Ul2Ay1SRG5cfjPgeQYPEKMDH5fG98WwfDMZm4yZhja9KqEo0Vltc0snaEX3bMlgokUNb/fqD5hdI39SNTxvnPZ0EXVLflMea3G4lgj2vTwWdpSQKsZGXBk8QDStgryYZeRyGegwYQGpYEBy2OOfRi3sChF0HpS44f/2IL21f8N8Ekht42K15iG5ZP5yg7YpNFjSbh9LfHVQqOceYzw/FYtohVbCawUD2nqXSXvNDNVYencWDSJ0kHJfPAVC0qN9sybgDKJ09UazxQOf7Damx9l+FmSt8PHYE0uImehJvsrQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=emgwwulp2KFJcEP5VBilJASc/FeNpG5bLz2qvSDU2W0=;
+ b=qXQImL2y815NFdjEvzPvb9Vk3ZTWj+KGIZuRRCBpH4CPePQ2bdoNxUzqKI7PrgHNZSSSv3bNKBdIiTlCC/80fHgdEC+w3DKYtpz3IZgreqRSk3xUmQaU8bOTW+cAlo/001LTJTzHfTkRiMYjMapsuTX3JdykVnsMbY9MRlH8iiDCKfCqDHHaG40/nN7TrusgH4saIpoiqeVD681N7OZz2Yyd8F3dlKHJQ2jhPWR5HgvUFFPdXql+9uMRUmcfs29BLhNNbChxWemnrWXkpIkg7qDA1JK7QI5cyKdKE1X4zQpsixua97fn8CaTlH614iOCVyHv0Fnx8OOGWmTvDKHFPA==
+Received: from TYZPR06MB3982.apcprd06.prod.outlook.com (2603:1096:400:27::7)
+ by SEZPR06MB5968.apcprd06.prod.outlook.com (2603:1096:101:ef::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8964.22; Sat, 26 Jul
+ 2025 05:05:43 +0000
+Received: from TYZPR06MB3982.apcprd06.prod.outlook.com
+ ([fe80::edeb:dc21:1db9:b804]) by TYZPR06MB3982.apcprd06.prod.outlook.com
+ ([fe80::edeb:dc21:1db9:b804%6]) with mapi id 15.20.8964.023; Sat, 26 Jul 2025
+ 05:05:43 +0000
+From: "Radha ." <radha0878@outlook.com>
+To: "Radha ." <radha0878@outlook.com>
+Subject: Re: inquiry
+Thread-Topic: inquiry
+Thread-Index: AQHbmibh5Rrn1OQgP0av9UoNWVQQibORheqygGJYBxSATFO4x4AEb7Kt
+Date: Sat, 26 Jul 2025 05:05:43 +0000
+Message-ID:
+ <TYZPR06MB3982F0B9EAD5F2D84DE2831EA558A@TYZPR06MB3982.apcprd06.prod.outlook.com>
+References:
+ <TYZPR06MB39822FB8D1B8E693121BF5D3A5DB2@TYZPR06MB3982.apcprd06.prod.outlook.com>
+ <TYZPR06MB39823CC25AA8F573B327C72FA5AE2@TYZPR06MB3982.apcprd06.prod.outlook.com>
+ <TYZPR06MB3982B7C88B054F6303EC3BD4A56CA@TYZPR06MB3982.apcprd06.prod.outlook.com>
+ <TYZPR06MB3982A9B91759AA91ACD70527A55FA@TYZPR06MB3982.apcprd06.prod.outlook.com>
+In-Reply-To:
+ <TYZPR06MB3982A9B91759AA91ACD70527A55FA@TYZPR06MB3982.apcprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TYZPR06MB3982:EE_|SEZPR06MB5968:EE_
+x-ms-office365-filtering-correlation-id: 22b952b0-5efe-4a43-609d-08ddcc0212d2
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|8060799015|9400799033|461199028|12050799012|15030799006|15080799012|19110799012|8062599012|440099028|43065399003|40105399003|31055399003|39105399003|3412199025|26104999006|12091999003|10035399007|102099032|56899033|1710799026;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?vAxGHzvZ84z4nYr8Vf/+LnJ8UYh3TSAEJMUjBkUA5mE0DWDsncU4+93E?=
+ =?Windows-1252?Q?/6U2djpCgVUy/DKlATW7Jd+lCFtN/jkHD6yBqG8KYxHC4pNHi5t85dgG?=
+ =?Windows-1252?Q?x1aISrnc8BNTVG00Ml/3nz/nk9wWSSqypILAZoMpstJjg4X9QrJ769jm?=
+ =?Windows-1252?Q?xlMUrjd8DDBGAgQkADQLUMy/kCf9slPF1SbDehTKKOZtfpNmf0zroMtW?=
+ =?Windows-1252?Q?QvjWhPq0i8mREIhcHYyr26k5FhVLxTRDPSPpmXyWAyp1GaSvEsq1vOQQ?=
+ =?Windows-1252?Q?aRez3vxtCEEWjz+sk7rVjGCuHSw8qEnZRahFyfr4jcTnLzLNMtSnD9C4?=
+ =?Windows-1252?Q?KgdPigf0qx3mMGfIZyD3ffQQ0EYIPSQySDL2TFSS6YHrwD8B/Dzi0qzZ?=
+ =?Windows-1252?Q?SitJC5nI+B28mD2PG1a6XjcRk/ltjZvwjHYjjPgOx7KgGi00m8XoJQl1?=
+ =?Windows-1252?Q?CJCK8k8azlMz2qViEv/O5WTi37+6GZLeH3tkiqKHy7hyfCIHJGstZc9o?=
+ =?Windows-1252?Q?6GpYDR7dzebAPqF3Xe96a07dyMJxXFM7UVAjvopy8m5cyiiwlhg5kpat?=
+ =?Windows-1252?Q?yixgy3omNP4heExlwky0C81JuTUA+F2G7wOBdt5mxai7WP+TerXDdeog?=
+ =?Windows-1252?Q?LRpr2xXk6XBeOOHMxRHZmgwLma5zKS/8gWyxLtmhRJAQcd64SiCaE6iX?=
+ =?Windows-1252?Q?qcJI6wZaerswbRpOvUFqhFjKGTPJRfKOy9Cvov0i0M9LVvGmzH0CrWgl?=
+ =?Windows-1252?Q?/XgRgSWaM7AUzUDJLSO2VItgBVIGHQXeQ4WOrLRjuDQ3BTwkZKBEAmbH?=
+ =?Windows-1252?Q?tV4gwx5FHH5iTrLRu/s2XfGYqWbC2X3lewuBVhQL6IN4qnpuHyZO15Dm?=
+ =?Windows-1252?Q?MiTrk1VC4zgSiVfuXrnBUBhtitvbbjBjP7Dn0cCFhjcYlkuuXffnJaDl?=
+ =?Windows-1252?Q?w/5ydJ7MEqzgr42X9KZjT14Svmbdn5QD5n0tZ6w6MBDJrsyDHze1rjtJ?=
+ =?Windows-1252?Q?WPWOjhhgrBOJgoRHjNhxSGWKtq6ChsbwoWvw1AhKnq2AcQ8v9hecvdd3?=
+ =?Windows-1252?Q?BuCf9ZBa2Lz8kVCWJUwj8zBgBiLJDHSBtC0rSzYegZE1GNS0dMJB7ofm?=
+ =?Windows-1252?Q?Q+ghGdY8fGm+mb5e3TqZit9kfVCtddG0L7/aZhDYnJUHZcCMto8X5Bvv?=
+ =?Windows-1252?Q?i6qtp1d2QazeIVpPwVbYQL9KehbJxU3byIQeUDKBPYgS3pNhWsVefw4y?=
+ =?Windows-1252?Q?hphlokEyRS5XdysdyYcV17oiksVUaDUOtOElaKIHdRmoVa09cGQK31tI?=
+ =?Windows-1252?Q?qsBdRwudnNy2eS6p6B9RZgGdwx9hO1NaWwp3+5CcodUUpxoZKe2gLoBV?=
+ =?Windows-1252?Q?IBHttOS21cTeYGlHCCVcDhtFLcxAdBBt6AeV3RzihHefOwMIOZxIYEeX?=
+ =?Windows-1252?Q?6JS7cdM+ebBK3m3pFswqCF2PzlcInCsWQXpfSGNQvWjZHQbk2Zwbk1A1?=
+ =?Windows-1252?Q?zwrDiKthnJWomNaIw3LUFZxs6kYGbk60AUr1+AkHP9bU1ve8vRln26IG?=
+ =?Windows-1252?Q?NoA4p2Daq7xzU9I0KQFT5YMroFehQTyP8LfThw=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?4hG/Wt+21bJQkWeoj88mrY2FtOhDS0b/5k81U4nkOwclHYh2wpvMOyjS?=
+ =?Windows-1252?Q?l1ootnvw34J9axlPYXNKowB8eJ14axJE7qof4tDoK6dNGbrCPhPLKkeX?=
+ =?Windows-1252?Q?VBCKM4ll9axaHJBqlTwISjHiMtpqaXZTfV+37HrlbRGjYgj3c78eEPMj?=
+ =?Windows-1252?Q?lVdl77XCiT1yWkRvT4FrLlBYik1QPK6sZ7vAFnb6H7lszKCRLmClntdW?=
+ =?Windows-1252?Q?JitRSThVoi73GBPJTAptg+OiPxSZkDHTxGW/f4JCbe4tAHxJBLGOz+ov?=
+ =?Windows-1252?Q?HpQvuvgJyBJ2BYuC1/dlFVMc3tVtccIOum7fY2C9/qutukSaq/hP67S5?=
+ =?Windows-1252?Q?zDGDIvGJnRkCDHHKlVbIqZXs2OwJYnk0Yjc+PEX2XCE15Kj7f96jO+oF?=
+ =?Windows-1252?Q?4bfgTvTL23cQc6jmikgr8mDHdFu6+n/wsKUZHtWHV6++ld0rEiijLRQ8?=
+ =?Windows-1252?Q?sf/2EfNM6VWQk8iJsmSfGGTAtdc6mn46i3f/z1VaX3vD4tCQpTiRNCiA?=
+ =?Windows-1252?Q?sRv62MCOe8s/G1JdDrnr5kms8LflMQ+NeNxolWxDcHcE5ZNu+Q+uHJR8?=
+ =?Windows-1252?Q?7ASVz2qDhRx/ULKdp5kP7ohfAA3d7WdF1ZKZ0vbSeNuFD5KSGg9WfsbM?=
+ =?Windows-1252?Q?bsLSMqa0W18ZF27cjMWZJOyXVuFyRplrCHTHRgx8sjVQ2dMVudlc/u+s?=
+ =?Windows-1252?Q?HGt14JVWm5IjVUDrqsVM6MNmIPTJrURPeA8qOThd6NiWDcm1jDnmCUhv?=
+ =?Windows-1252?Q?sBsjVJhLJFsoThFbavd14CprpEJTiXj/tH2PzwSS3rQ2J0rwHZ+PdaaC?=
+ =?Windows-1252?Q?g1ZH94FBSpGBiFAeskidtFA0wINWw+zdzCS8QHB5/U9EG4cCH8OQPN3D?=
+ =?Windows-1252?Q?8nExbNAVHzJfqXEzsYplNkdnT5wPmdDOGyBITr7InDFYdmgYb8KCGSx6?=
+ =?Windows-1252?Q?LA/DnpndpOA/lQ+bdYpc2Ffd1k79LN2dAZUbuYP4fwYeQpPyNw0UwGgF?=
+ =?Windows-1252?Q?0c7Fbas6Dk7Q9SfTgCBVAnOMz3hvTboO4+pMCc12N8Z/rKicrnE/XEkt?=
+ =?Windows-1252?Q?HDsxzp8HlE7hkj+jSrcEMD7xjj+TIHhrTI1k/dKE5RQL0pewhx43+n4N?=
+ =?Windows-1252?Q?nG+GODRuacCVUPXC3SpUVoWnbxJxaWO26Wpv7xlXFZ524dGXbl/SrC8y?=
+ =?Windows-1252?Q?k9s80sK1SDe3/335XZxuqa7JE/Ccqsb9q7RsJGgzydHXMCAVPc/EAdKp?=
+ =?Windows-1252?Q?0mdQXhxQAUSlGN/8pDd953l96fpneUqyGtUZi5g2nAe6XzTdZLx4whEw?=
+ =?Windows-1252?Q?wIDOQ/xh3B9qnIcTBMAMw7xOY9WS38wbHq5QOMrTXJueyJDzSEafevoV?=
+ =?Windows-1252?Q?PsQl0XwrtwPYcVp2IiYDf3jrkuOV6gSs6i4=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_TYZPR06MB3982F0B9EAD5F2D84DE2831EA558ATYZPR06MB3982apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TYZPR06MB3982.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 22b952b0-5efe-4a43-609d-08ddcc0212d2
+X-MS-Exchange-CrossTenant-originalarrivaltime: 26 Jul 2025 05:05:43.3430
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR06MB5968
+X-MagicSpam-TUUID: 4c15f6c8-319a-4827-aac7-945df8698cac
+X-MagicSpam-SUUID: 22c153b6-2ac8-4350-99d0-e0ec7484b073
+X-Spam-Status: No, score=2.3
+X-Spam-Score: 23
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I wanted to follow up on our last conversation. I understand
+    things can get busy. Whenever convenient, please message me on WhatsApp at
+    +91 9211383434<https://wa.me/+919211383434>, and I’ll b [...] 
+ Content analysis details:   (2.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [52.103.43.76 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.43.76 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.43.76 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 ARC_SIGNED             Message has a ARC signature
+  0.0 ARC_VALID              Message has a valid ARC signature
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [radha0878(at)outlook.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [radha0878(at)outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  1.5 GOOG_REDIR_NOTRDNS     Google redirect to obscure spamvertised website +
+                             HELO is not rDNS
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                             domains in spam/malware
+X-Spam-Flag: NO
+
+--_000_TYZPR06MB3982F0B9EAD5F2D84DE2831EA558ATYZPR06MB3982apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+I wanted to follow up on our last conversation. I understand things can get=
+ busy.
+Whenever convenient, please message me on WhatsApp at +91 9211383434<https:=
+//wa.me/+919211383434>, and I=92ll be happy to share the best available quo=
+te with you.
+Looking forward to connecting!
+
+
+________________________________
+From: Radha . <radha0878@outlook.com>
+Sent: Wednesday, July 23, 2025 2:50 PM
+Subject: Fw: inquiry
+
+Hi there,
+
+Would you like to improve your website's position on Google search results?=
+ We offer proven strategies to help your site rank higher for your key sear=
+ch terms.
+
+Connect with us on WhatsApp: +91 9211383434<https://wa.me/+919211383434>.
+
+Warm regards,
+
+--_000_TYZPR06MB3982F0B9EAD5F2D84DE2831EA558ATYZPR06MB3982apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div style=3D"text-align: left; text-indent: 0px; line-height: normal; marg=
+in: 0in 0in 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt;" class=3D"elementToPro=
+of">
+<span style=3D"color: rgb(0, 0, 0);">Hello,<br>
+I wanted to follow up on our last conversation. I understand things can get=
+ busy.<br>
+Whenever convenient, please message me on WhatsApp at </span><span style=3D=
+"color: blue;"><a style=3D"color: blue;" data-saferedirecturl=3D"https://ww=
+w.google.com/url?q=3Dhttps://wa.me/%2B919211383434&amp;source=3Dgmail&amp;u=
+st=3D1753592370860000&amp;usg=3DAOvVaw1ElRiHsq38_oNKOJB0NcIW" class=3D"OWAA=
+utoLink" id=3D"OWA7974ffd1-d05a-d676-48fb-4aab4f857b24" target=3D"_blank" h=
+ref=3D"https://wa.me/+919211383434">+91
+ 9211383434</a></span><span style=3D"color: rgb(0, 0, 0);">, and I=92ll be =
+happy to share the best available quote with you.</span></div>
+<div style=3D"text-align: left; text-indent: 0px; line-height: normal; marg=
+in: 0in 0in 10pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" =
+class=3D"elementToProof">
+Looking forward to connecting!</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<div style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, =
+Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);" clas=
+s=3D"elementToProof">
+<br>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Radha . &lt;radha0878=
+@outlook.com&gt;<br>
+<b>Sent:</b> Wednesday, July 23, 2025 2:50 PM<br>
+<b>Subject:</b> Fw: inquiry</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+Hi there,</div>
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+&nbsp;</div>
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+Would you like to improve your website's position on Google search results?=
+ We offer proven strategies to help your site rank higher for your key sear=
+ch terms.</div>
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+&nbsp;</div>
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+Connect with us on WhatsApp: <span style=3D"color:blue"><u><a title=3D"http=
+s://wa.me/+919211383434" class=3D"x_OWAAutoLink" id=3D"OWA5381212f-5c2e-b46=
+0-42ed-f1268ac3d604" target=3D"_blank" href=3D"https://wa.me/+919211383434"=
+ style=3D"color:blue">+91 9211383434</a></u></span>.</div>
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+&nbsp;</div>
+<div class=3D"x_elementToProof" style=3D"margin:0in 0in 0.0001pt; font-fami=
+ly:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-seri=
+f; font-size:12pt; color:rgb(0,0,0)">
+Warm regards,</div>
+<div id=3D"x_appendonsend"></div>
+<div id=3D"x_divRplyFwdMsg"></div>
+<div id=3D"x_x_appendonsend"></div>
+<div id=3D"x_x_divRplyFwdMsg"></div>
+<div id=3D"x_x_x_divRplyFwdMsg"></div>
+</div>
+</body>
+</html>
+
+--_000_TYZPR06MB3982F0B9EAD5F2D84DE2831EA558ATYZPR06MB3982apcp_--

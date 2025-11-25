@@ -1,0 +1,192 @@
+Return-Path: <kumar@datascoopservices.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id EAU/Lgb8pWceGy4AQ+45pw
+	(envelope-from <kumar@datascoopservices.com>)
+	for <info@go-onriders.com>; Fri, 07 Feb 2025 07:26:46 -0500
+Return-path: <kumar@datascoopservices.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 07 Feb 2025 07:26:46 -0500
+Received: from mail-pj1-f52.google.com ([209.85.216.52]:41996)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <kumar@datascoopservices.com>)
+	id 1tgNRZ-0000000ChHH-2rS4
+	for info@go-onriders.com;
+	Fri, 07 Feb 2025 07:26:46 -0500
+Received: by mail-pj1-f52.google.com with SMTP id 98e67ed59e1d1-2f9b9c0088fso3178500a91.0
+        for <info@go-onriders.com>; Fri, 07 Feb 2025 04:26:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=datascoopservices-com.20230601.gappssmtp.com; s=20230601; t=1738931163; x=1739535963; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=DQHpOvipvQ0I2W9+iuykGHXmCorikq8b4z6oRpKUVeg=;
+        b=i1oMqA4LsiQdSi5ZHLD/hTCFJEoDB67TXFDXFG22bzsQpmb3yms/UrmdXwzz2ad8P/
+         pQQ+UtjDNvddTGa8Atsg+RN7DbIjXh5IurkEdGeuZCFgM2yKsbwW/v9RDiOLAvQyFsT2
+         LjJ/Pq4uaLchTcW1R4C/KBtFcMkwS6doOHy9Y9MXqVQHhJmqcJ0Kn6PK16Pgg236ddQZ
+         dfxli6G5jf/zBStT78B5NM6X41tmvqAqY3GK6tB+RHFbQu9tg7g2bAdgM04X3z9Fy1OY
+         Q3kIhVSRILikM3HegyuYzNm6hNgZNdR8GQ5wCflzPMlsuvxifkflc6dCGoQ+fjxcXZFx
+         /sbw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1738931163; x=1739535963;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=DQHpOvipvQ0I2W9+iuykGHXmCorikq8b4z6oRpKUVeg=;
+        b=IyPXizfUMMzP5oOsExOsacYbKt5LSlAsLbbITkHlM/X+csxKGzgafw33ZQ7H0g9vD0
+         jCyTfXApwm4QClly7HpcPwbDx1MV/IaURxyz8ZuwDGz4Ftip5AAklXSr+Q87c5zQkR+R
+         cSp4V3MnRPcuGrwXbbV6gmbzgb7K9GoytXiiLhHGvYZRWYTjamkWAwKYDUgAzWQW+XTr
+         RNzQJXI4L6A2/cxiK2R2M22eisvCdLe4Fy7SzvIDk6VA1rPBcTVUJI+8c0yAF6rYDpza
+         vjvxI5zJIV/0/lDI1DRBne4laLCdDWdbKkjOv9Y1n3SsGMwn/1cgfSZYr10fi4qxk18Y
+         xiCw==
+X-Gm-Message-State: AOJu0YzRgH9eFUWQ2SIYdttpj/aOEqxfe505w/P/LPLjptj1gTtFVGd0
+	YA3hAVIuR7pzHzpWcmcLW1qeycq+J068MfhuaH0sNikNrMN0Tj32CvrewYca+OB+sqtTiWvRzQZ
+	oVDPrrVlGqlWj3uqnUoH2uLI2hxk7QyQ1VwrjiTAhp3zXbYdrQEQ=
+X-Gm-Gg: ASbGncueTZtI4lhZSlNDrgeggemDhMpCPoREnWFVZNINdt1dk/k0EtO6aGbxjZ8hDuh
+	0Z1QnPUF/ukDSBG6GPQK7XqvdFk8Kfvptl1Ws2EjKcZ6B1OIrfqpuQ/Iab4H/ysmwylxUtUn3bv
+	L+HDjJ84/CRtqzxPIJzd9qKFTGX2xqrQ==
+X-Google-Smtp-Source: AGHT+IGsJuuRCI0vtcAhcmD62Ems91VWRAdGCt69+rBHXncxAoZq8NsXYXE1qjQ3bsnDIY+YSdjDWAaRrCyzIVHbirI=
+X-Received: by 2002:a17:90b:380e:b0:2fa:2133:bc87 with SMTP id
+ 98e67ed59e1d1-2fa2133bf2amr5464945a91.6.1738931162792; Fri, 07 Feb 2025
+ 04:26:02 -0800 (PST)
+Received: from 550591086191 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 7 Feb 2025 04:26:01 -0800
+MIME-Version: 1.0
+from: Kumar@datascoopservices.com
+Date: Fri, 7 Feb 2025 04:26:01 -0800
+X-Gm-Features: AWEUYZk04RD0nXOibP6Z-WkC9OzPJdUsRu11i8PJ2nBuT978UlQakeTFQPVqmTs
+Message-ID: <CAO1MGb0Rbu9y4ArUiAKzqVZoRCxtdn4OLqxE4sSdDw_k=4a-_Q@mail.gmail.com>
+Subject: Boost Your Mobile Presence: Turn Your Website into an Android App
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="0000000000003f5c61062d8c7640"
+X-MagicSpam-TUUID: e33c7a93-1e36-44ff-b3b0-8793eab1649b
+X-MagicSpam-SUUID: c7e880b6-0829-453b-93f4-a217985310ad
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello Go-Onriders - Bike Rentals in Hyderbad Team, I hope
+   this email finds you well. My name is Kumar, and I'm reaching out from Datascoop
+    Services. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.216.52 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.216.52 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.216.52 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--0000000000003f5c61062d8c7640
+Content-Type: text/plain; charset="UTF-8"
+
+Hello Go-Onriders - Bike Rentals in Hyderbad Team,
+
+I hope this email finds you well.
+
+My name is Kumar, and I'm reaching out from Datascoop Services.
+
+You have a fantastic website at https://www.go-onriders.com/ and we can
+help you to transform your website into an Android App at Rs.5900. This App
+will mimic the contents of your website.
+
+*Key Benefits*
+
+   - *Easy Maintenance :No Separate maintenance of App is necessary. If you
+   make any changes to your website contents, those changes will automatically
+   get reflected in the App.*
+   - Push Notification : You can push notification to your customer mobile
+   App using Firebase Console.
+
+Detailed Blog on this Services is available at :
+https://datascoopservices.com/turn-your-website-into-an-android-app-the-fast-and-easy-way/
+<https://datascoopservices.com/turn-your-website-into-an-android-app-the-fast-and-easy-way/?utm_source=bicycle_store
+in
+hyderabad&utm_medium=email&utm_campaign=WEB2APP_EMAIL&utm_content=product_link>
+
+To place an order for Rs.5900(Including Tax):
+https://datascoopservices.com/product/android-transform-your-website-into-a-mobile-app/
+<https://datascoopservices.com/product/android-transform-your-website-into-a-mobile-app/?utm_source=bicycle_store
+in
+hyderabad&utm_medium=email&utm_campaign=WEB2APP_EMAIL&utm_content=product_link>
+
+We can give you the App files and you can test it out and then you can make
+the payment. Please get in touch with us at kumar@datascoopservices.com
+
+Thank you for your time, and I look forward to hearing from you soon.
+
+Sincerely,
+
+Kumar
+
+Datascoop Services Team.
+
+--0000000000003f5c61062d8c7640
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+
+<p>Hello Go-Onriders - Bike Rentals in Hyderbad Team,</p>
+
+<p>I hope this email finds you well.</p>
+
+<p>My name is Kumar, and I&#39;m reaching out from Datascoop Services.</p>
+
+<p>You have a fantastic website at <a href=3D"https://www.go-onriders.com/"=
+>https://www.go-onriders.com/</a> and we can help you to transform your web=
+site into an Android App at Rs.5900. This App will mimic the contents of yo=
+ur website.</p>
+
+<p><b>Key Benefits</b></p>
+<ul>
+    <li><b>Easy Maintenance     :No Separate maintenance of App is necessar=
+y.  If you make any changes to your website contents, those changes will au=
+tomatically get reflected in the App.</b></li>
+    <li>Push Notification       : You can push notification to your custome=
+r mobile App using Firebase Console.</li>
+</ul>
+
+<p>Detailed Blog on this Services is available at : <a href=3D"https://data=
+scoopservices.com/turn-your-website-into-an-android-app-the-fast-and-easy-w=
+ay/?utm_source=3Dbicycle_store in hyderabad&amp;utm_medium=3Demail&amp;utm_=
+campaign=3DWEB2APP_EMAIL&amp;utm_content=3Dproduct_link">https://datascoops=
+ervices.com/turn-your-website-into-an-android-app-the-fast-and-easy-way/</a=
+></p>
+<p>To place an order for Rs.5900(Including Tax): <a href=3D"https://datasco=
+opservices.com/product/android-transform-your-website-into-a-mobile-app/?ut=
+m_source=3Dbicycle_store in hyderabad&amp;utm_medium=3Demail&amp;utm_campai=
+gn=3DWEB2APP_EMAIL&amp;utm_content=3Dproduct_link">https://datascoopservice=
+s.com/product/android-transform-your-website-into-a-mobile-app/</a></p>
+
+<p>We can give you the App files and you can test it out and then you can m=
+ake the payment.  Please get in touch with us at <a href=3D"mailto:kumar@da=
+tascoopservices.com">kumar@datascoopservices.com</a></p>
+
+<p>Thank you for your time, and I look forward to hearing from you soon.</p=
+>
+
+<p>Sincerely,</p>
+
+<p>Kumar</p>
+<p>Datascoop Services Team.</p>
+
+--0000000000003f5c61062d8c7640--

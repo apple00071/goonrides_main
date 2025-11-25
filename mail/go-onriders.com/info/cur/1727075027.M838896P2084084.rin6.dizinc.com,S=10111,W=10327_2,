@@ -1,0 +1,216 @@
+Return-Path: <diya@itinsightlabs.online>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id fol8MdMS8Wb0zB8AQ+45pw
+	(envelope-from <diya@itinsightlabs.online>)
+	for <info@go-onriders.com>; Mon, 23 Sep 2024 03:03:47 -0400
+Return-path: <diya@itinsightlabs.online>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 23 Sep 2024 03:03:47 -0400
+Received: from mail-pj1-f54.google.com ([209.85.216.54]:47176)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <diya@itinsightlabs.online>)
+	id 1ssd6p-00000008k4E-1e2L
+	for info@go-onriders.com;
+	Mon, 23 Sep 2024 03:03:47 -0400
+Received: by mail-pj1-f54.google.com with SMTP id 98e67ed59e1d1-2d88690837eso3223896a91.2
+        for <info@go-onriders.com>; Mon, 23 Sep 2024 00:03:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=itinsightlabs-online.20230601.gappssmtp.com; s=20230601; t=1727074984; x=1727679784; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=dG/IZ9d1gG644Fi8cdltsPlMhtgU8yqY5R4psdCHKjA=;
+        b=3Dt1T1W7dohua1LIaLW74GBE1TBa8XJQkGpMSlb95niBefCSy7GT9BR76fF5/sRG0z
+         WjYmVBTH4gfssoG9K/AFTJRH2NFDxi/Py8oMsXAanSLxZTcwiRh7baywQeuerYKPvY/+
+         w+5CDsLMNjx7hHEYIgwvOSC26e3N7a5xthWqf+rbQJ1LgKKXJ7+bRWs7vg2K0P93XSL+
+         Gfj+n871ceRTwF8MLbh4QWm3UfmFNq9ie4AyldSNOXmkUjZ9ojlU/cQOnGXTkWh/3r6P
+         U9K+grCISflnir+a01VVre5GiYmDdpDgoz+nffSkkd1Tn2MprNp8VR8kWFq0XG+5bSSS
+         okOg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1727074984; x=1727679784;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=dG/IZ9d1gG644Fi8cdltsPlMhtgU8yqY5R4psdCHKjA=;
+        b=MnhHIwsRAN6GGcR+4bvmR2iufshTrR+Zj/0B6ZiB74PnsIuL6UOZdu2/BnX/1vff3L
+         qO1sM6Kbjvf91dcDfDNJoASqX8UkcAv2kq6+1Uf9iNejOmoj+mOePZouq7N4wxwpthMu
+         ylrmggSkax1pS+oFX/g3eUNuo7A1Cr4iP6rVnr3OWD6f8z7EceBAbFo02qmEULcBgFiQ
+         XIOtL0AtH8n9N5Dtj0HtFup/pe1CpQYqM2pnOB60jPQWc6X3syTGQXBI/905FTK0WuRA
+         v4L5MWfytegRBbd14sgHyYg5i/47MeAcXnTenDEcxJyMScMdocBHN6NEkiZVDkjhbtUD
+         pekA==
+X-Gm-Message-State: AOJu0YwS3+QmamZNs08RzAsePnZW9ZWCLMgNYwsu4i5UUsgELc1ddbqk
+	/oeajM3iXWwI0fRGs/8NQyN3qbh8fmhmIB6S/AeEnM+D/qMjyOsJ3uvKiAH2es9TrZMCdJfXh/L
+	g
+X-Google-Smtp-Source: AGHT+IFel9hioQBtOIotIJz+RwKpwziaOkAetGljRYPxNzT2K02VbQDGCw7dlmDmwumh0bvYmv80Eg==
+X-Received: by 2002:a17:90b:2f0d:b0:2d8:7561:db71 with SMTP id 98e67ed59e1d1-2dd7f6b617bmr13536536a91.25.1727074984342;
+        Mon, 23 Sep 2024 00:03:04 -0700 (PDT)
+Received: from Vikas ([122.161.66.228])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-2dd6ef978besm8668178a91.57.2024.09.23.00.03.02
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 23 Sep 2024 00:03:03 -0700 (PDT)
+From: "Diya" <diya@itinsightlabs.online>
+To: <info@go-onriders.com>
+Subject: Designers / Developers
+Date: Mon, 23 Sep 2024 12:31:54 +0530
+Message-ID: <a07d01db0d86$9d83f050$d88bd0f0$@online>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_A07E_01DB0DB4.B73C2C50"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdsNfBqZFEIsZXAKRSqArnj02sAx3g==
+Content-Language: en-us
+X-MagicSpam-TUUID: b0d72607-a04c-401c-a216-5114e87994c0
+X-MagicSpam-SUUID: b96ceab2-8383-41bf-bad6-e3835b2fdde4
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I hope you're doing well. My name is Diya, and I represent
+    a leading software agency, CMMI Level 5, based in India. With over a decade
+    of experience, we specialize in delivering high-quality projects [...] 
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.216.54 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.216.54 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.216.54 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.4 FROM_SUSPICIOUS_NTLD   From abused NTLD
+  0.2 FROM_SUSPICIOUS_NTLD_FP From abused NTLD
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_A07E_01DB0DB4.B73C2C50
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I hope you're doing well. My name is Diya, and I represent a leading
+software agency, CMMI Level 5, based in India. With over a decade of
+experience, we specialize in delivering high-quality projects customized to
+our clients' needs.
+
+Whether you need adjustments to an existing product i.e. Mobile App,
+website, or Web App, or want to develop a new product from scratch, our
+dedicated team is ready to assist you every step of the way.
+
+I would appreciate it if you could share your contact details, such as your
+WhatsApp or Skype number, at your earliest convenience.
+
+I look forward to your response and the opportunity to work together.
+
+Best regards
+
+Diya
+
+
+------=_NextPart_000_A07E_01DB0DB4.B73C2C50
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.m1811418407307243325msonospacing, li.m1811418407307243325msonospacing, =
+div.m1811418407307243325msonospacing
+	{mso-style-name:m_1811418407307243325msonospacing;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>Hi,<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;line-height:115%'>I =
+hope you're doing well. My name is <b>Diya</b>, and I represent a =
+leading software agency, CMMI Level 5, based in India. With over a =
+decade of experience, we specialize in delivering high-quality projects =
+customized to our clients' needs.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>Whether you need adjustments =
+to an existing product i.e. Mobile App, website, or Web App, or want to =
+develop a new product from scratch, our dedicated team is ready to =
+assist you every step of the way.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;line-height:115%'>I =
+would appreciate it if you could share your contact details, such as =
+your WhatsApp or Skype number, at your earliest =
+convenience.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%'>I look forward to your =
+response and the opportunity to work together.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span style=3D'font-size:12.0pt;line-height:115%'>Best =
+regards<o:p></o:p></span></p><p class=3DMsoNormal><b><span =
+style=3D'font-size:12.0pt;line-height:115%;font-family:"Times New =
+Roman","serif"'>Diya</span></b></p></div></body></html>
+------=_NextPart_000_A07E_01DB0DB4.B73C2C50--
+

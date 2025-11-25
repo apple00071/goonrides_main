@@ -1,0 +1,706 @@
+Return-Path: <zubair@smshandover.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 6K/cHLulemY8NA8AQ+45pw
+	(envelope-from <zubair@smshandover.com>)
+	for <info@go-onriders.com>; Tue, 25 Jun 2024 07:10:51 -0400
+Return-path: <zubair@smshandover.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 25 Jun 2024 07:10:51 -0400
+Received: from mout.perfora.net ([74.208.4.194]:40981)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <zubair@smshandover.com>)
+	id 1sM44Z-00000004B8F-0eMA
+	for info@go-onriders.com;
+	Tue, 25 Jun 2024 07:10:51 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=smshandover.com;
+	s=s1-ionos; t=1719313808; x=1719918608; i=zubair@smshandover.com;
+	bh=vSxxwcnhem7WVpcW/uhpDPWb/HVBEGt73gDuHuOawHI=;
+	h=X-UI-Sender-Class:From:To:Cc:References:In-Reply-To:Subject:Date:
+	 Message-ID:MIME-Version:Content-Type:cc:content-transfer-encoding:
+	 content-type:date:from:message-id:mime-version:reply-to:subject:
+	 to;
+	b=qvyyTN7bgctXMZiW7dcgxNmXVAsPn+qUqaICyg+OBq9zqE3fTgU85zNupmK6lBIB
+	 22qEiTvhzAhKtVqlmnGXHN5AaMfYK6bw3qUHdwbgvJiVGhFaiFl82QrwhfEkilKtu
+	 6+SJS4OLPdV/SbYuY2WCRzf/+MmXFZ1c1/xYZCPX+0dD1Ifa33pEHl2wG/pW6SACe
+	 JbP55ilsW5zQzo8l6g6Ho+ZpLZMEote1i8oZ0AYAxIRUs1K2ahDQoz62IDubldNei
+	 8Uve9UDozBWr1V6yFrJ7pcx/IMWrUizbDp1LpGSbS/3tJacVmGkWAXYbHqx9kD5La
+	 0DylyELpJC3usq8J7Q==
+X-UI-Sender-Class: 55c96926-9e95-11ee-ae09-1f7a4046a0f6
+Received: from Zubair ([103.160.27.201]) by mrelay.perfora.net (mreueus003
+ [74.208.5.2]) with ESMTPSA (Nemesis) id 0Lr0UP-1sqT4H47yF-00h1iQ; Tue, 25 Jun
+ 2024 13:10:07 +0200
+From: <zubair@smshandover.com>
+To: <info@go-onriders.com>
+Cc: <wasi@smshandover.com>,
+	<info@smshandover.com>
+References: 
+In-Reply-To: 
+Subject: RE: SMS Handovwr Company Profile And Quotation For GO ON RIDERS
+Date: Tue, 25 Jun 2024 16:40:03 +0530
+Message-ID: <011901dac6f0$3ca15e30$b5e41a90$@smshandover.com>
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	boundary="----=_NextPart_000_011A_01DAC71E.565C5950"
+X-Mailer: Microsoft Outlook 16.0
+Content-Language: en-in
+Thread-Index: AQH7LBwO5G7qX+I4Yco5W04ePvSjlrGXiBaA
+X-Provags-ID: V03:K1:j95ay0gU2awiDjNVu/WxdMZ02r1z33eMXqz0bEtUg5OFZhcktl+
+ I/K8FQDzjIh6KbVHAf5eKS0kB308AxxoboqgbBbbEcJAj62SYhizPWx55KccKJokRP+N+4I
+ R/UJfsNPlj0KcfVaMBTYVLhA3Rwd/udSSyzIEXvnjmECWNSK4PFch5rHYDjo4gPOwjsOdcp
+ +1akA8/1UJOiUbHsoYgrw==
+UI-OutboundReport: notjunk:1;M01:P0:9XkktOB+/PA=;fyo1DiMnzvHHm4/xt8iA0O0otLS
+ wmMgFMji52wm31XoqrL5Ux5tQ56wRvZeW7+40w4oEz2ivBFuedCXlU7B/pPyfI208N19ZQqWD
+ l0/uDOD+yb/eXPyxSvwemjSprgv260jYjlPQZ8H6afjvSnew/5sRIxvd6XCHsi433DIQlZMx6
+ iZEl4BnvL0+gDsy+SD1JeCJ4lN7cjTplUbU2KKQCraXAOTm1JFSpKcLZDDmT8XFkkO7zAvmlt
+ 8qH8+Eb0D5/13i+MQ1PqF2Raq/G/e94ktiSksWJlLba6OS8rZkAukoLDGOTG7KJP5TTc2ZR73
+ L/6I9ckk3bQhIjD+URsuPDng+B29gSZbgp+E0Z+oBn29a+NV4y6boCKEdwpVVVzBb5CTOleqJ
+ S57lFXO4ZztMMmjE3tqAA2yh/bjJlMyrzPK0GmPChKuL+mzmikpmaBqwBlVNwwcz+0yy1Q8Ye
+ WYxJCfGRttOCMY1dDEg2npLoXE37b8sF//mGM/PRyUxIpp4kf+QMDQ3LNvLsjQI3m9/Yw0dWZ
+ pGo4jUa6YYMFwtv+DlKk/khOEYfnCU1hLYzVeyswhpPvfTG2QBPjkkGrI0c7KzTAyy1L4A2nX
+ jPur1XZ/LuwT6tByCcNyMnqYCqXLNaVDUi0nWS1+zLSEejzhIekqnhYcrDsxI39ElduWCHJcC
+ Lkh9ZgIBm6TSjvqNSFlSAwkMrRW+ALVre0r8MYHhF+1/CVl+mFQEIsi7c/7P3zkLnQbjQI8gw
+ ZVUnzEy63rKPs1/JwSy9N6aeFu29mKkWzYMY/Etv358cvbzactRqQw=
+X-MagicSpam-TUUID: ec60c2f0-df38-4dd4-8a8f-ebe86ba81d34
+X-MagicSpam-SUUID: b0042099-728a-4578-a665-286c0525b0cd
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Mr. Aatif, I hope this message finds you well. I wanted
+    to quickly follow up on our recent discussion regarding bulk SMS services.
+    Have you had a chance to review the information I sent over? Please let me
+    know if there are any further questions or if you would like to schedule
+   a call to discuss this in more detail. 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [74.208.4.194 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [74.208.4.194 listed in sa-accredit.habeas.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.2 LM_1AND1_IP_SPACE      Light score to reflect source is on 1and1.
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+  0.3 LM_ATTACHMENT_W_RE_OR_FW A Re: or Fw: message that contains an
+                             attachment.
+  0.2 LM_OPEN_W_ATTACHMENT   If an email mentions that the end user
+                             should open this attachment, it could be a
+                              scam or virus.
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_011A_01DAC71E.565C5950
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_001_011B_01DAC71E.565C5950"
+
+
+------=_NextPart_001_011B_01DAC71E.565C5950
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Mr. Aatif,
+
+
+
+I hope this message finds you well. I wanted to quickly follow up on our
+recent discussion regarding bulk SMS services. Have you had a chance to
+review the information I sent over?
+
+
+
+Please let me know if there are any further questions or if you would like
+to schedule a call to discuss this in more detail.
+
+
+
+Looking forward to your response.
+
+
+
+Best regards,
+
+
+
+
+
+From: zubair@smshandover.com [mailto:zubair@smshandover.com]
+Sent: 27 March 2024 14:45
+To: 'info@go-onriders.com' <info@go-onriders.com>
+Cc: 'wasi@smshandover.com' <wasi@smshandover.com>
+Subject: SMS Handovwr Company Profile And Quotation For GO ON RIDERS
+
+
+
+Dear Mr. Aatif,
+
+
+
+Hope you are doing well,
+
+
+
+Myself Syed Zubair, Business Development Executive at SMS Handover, a
+leading provider of SMS Wholesale software solutions. It was a pleasure
+talking to you sir., We design & develop SMS Wholesale Solutions, SMS
+Aggregator software, and customized software solutions that are useful to
+SMS service providers, VoIP providers, Telecom operators, e-commerce playe=
+rs
+& enterprise customers.
+
+
+
+We understand the challenges businesses face in today's fast-paced market,
+and we're excited to introduce a game-changing solution that will transfor=
+m
+the way you communicate with your customers.
+
+SMS Handover provides a great SMS Wholesale Solution.
+
+
+
+.             Marketing and advertising campaigns.
+
+.             Promotions and discounts.
+
+.             Appointment reminders.
+
+.             Order confirmations and updates.
+
+.             Emergency alerts and notifications.
+
+.             Event invitations and reminders.
+
+.             Shipment Tracking etc.
+
+
+
+Key Features: Bulk Messaging with Least cost Routing, Two-Way Communicatio=
+n,
+Automated Campaigns, Personalization, Analytics, and Reporting with Live
+Traffic Monitoring Dashboard etc.
+
+
+
+Why Choose SMS Handover: Reliability, Cost-Effectiveness, Compliance,
+Extensive Support, etc.
+
+
+
+Contact us today to learn more about how our SMS Wholesale Solution can
+benefit your business.
+
+
+
+As discussed, please find attached our Company Profile and Quotation. Kind=
+ly
+share the details with the Administrative Department & Management. Hope we
+can make a good Business Deal in future.
+
+
+
+Regards.
+
+
+
+
+
+ <https://mysignature.io/?utm_source=3Dlogo>
+
+
+Syed Zubair
+
+
+Business Development Executive (Sales)
+
+
+mobile:  <tel:+916309557177> +916309557177
+
+
+website:  <https://mysig.io/VZEgg6mA> www.smshandover.com
+
+
+email:  <mailto:zubair@smshandover.com> zubair@smshandover.com
+
+skype: live:.cid.8839a69fdbf32db7
+
+
+
+
+
+
+
+ <https://mysignature.io/editor?utm_source=3Dfreepixel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------=_NextPart_001_011B_01DAC71E.565C5950
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 15 =
+(filtered medium)"><!--[if !mso]><style>v\:* =
+{behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.EmailStyle18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.EmailStyle19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-IN =
+link=3D"#0563C1" vlink=3D"#954F72"><div class=3DWordSection1><p =
+class=3DMsoNormal>Dear Mr. Aatif,<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>I hope this =
+message finds you well. I wanted to quickly follow up on our recent =
+discussion regarding bulk SMS services. Have you had a chance to review =
+the information I sent over?<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Please let =
+me know if there are any further questions or if you would like to =
+schedule a call to discuss this in more detail.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Looking =
+forward to your response.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Best =
+regards,<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><div><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'mso-fareast-language:EN-IN'>From:</span></b><span lang=3DEN-US =
+style=3D'mso-fareast-language:EN-IN'> zubair@smshandover.com =
+[mailto:zubair@smshandover.com] <br><b>Sent:</b> 27 March 2024 =
+14:45<br><b>To:</b> 'info@go-onriders.com' =
+&lt;info@go-onriders.com&gt;<br><b>Cc:</b> 'wasi@smshandover.com' =
+&lt;wasi@smshandover.com&gt;<br><b>Subject:</b> SMS Handovwr Company =
+Profile And Quotation For GO ON =
+RIDERS<o:p></o:p></span></p></div></div><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Dear Mr. =
+Aatif,<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Hope you are doing well,<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Myself Syed =
+Zubair, Business Development Executive at SMS Handover, a leading =
+provider of SMS Wholesale software solutions. It was a pleasure talking =
+to you sir., We design &amp; develop SMS Wholesale Solutions, SMS =
+Aggregator software, and customized software solutions that are useful =
+to SMS service providers, VoIP providers, Telecom operators, e-commerce =
+players &amp; enterprise customers.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>We =
+understand the challenges businesses face in today's fast-paced market, =
+and we're excited to introduce a game-changing solution that will =
+transform the way you communicate with your customers.<o:p></o:p></p><p =
+class=3DMsoNormal>SMS Handover provides a great SMS Wholesale Solution. =
+<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Marketing and advertising =
+campaigns.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Promotions and discounts.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Appointment reminders.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Order confirmations and =
+updates.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Emergency alerts and =
+notifications.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Event invitations and =
+reminders.<o:p></o:p></p><p =
+class=3DMsoNormal>&#8226;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp; Shipment Tracking etc.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Key =
+Features: Bulk Messaging with Least cost Routing, Two-Way Communication, =
+Automated Campaigns, Personalization, Analytics, and Reporting with Live =
+Traffic Monitoring Dashboard etc.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>Why Choose =
+SMS Handover: Reliability, Cost-Effectiveness, Compliance, Extensive =
+Support, etc.<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Contact us today to learn more about how our SMS =
+Wholesale Solution can benefit your business.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><p class=3DMsoNormal>As =
+discussed, please find attached our Company Profile and Quotation. =
+Kindly share the details with the Administrative Department &amp; =
+Management. Hope we can make a good Business Deal in =
+future.<o:p></o:p></p><p class=3DMsoNormal><o:p>&nbsp;</o:p></p><p =
+class=3DMsoNormal>Regards.<o:p></o:p></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D500 =
+style=3D'width:300.0pt;border-collapse:collapse'><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D0 cellpadding=3D0 =
+style=3D'margin-left:.1pt;border-collapse:collapse'><tr><td valign=3Dtop =
+style=3D'padding:0cm 9.0pt 0cm 0cm'><p class=3DMsoNormal =
+style=3D'margin:.1pt'><a =
+href=3D"https://mysignature.io/?utm_source=3Dlogo" =
+target=3D"_blank"><span style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;color:blue;mso-fareast-language:EN-IN;text-decoration:none'>=
+<img border=3D0 width=3D125 height=3D74 id=3D"Picture_x0020_1" =
+src=3D"cid:image001.png@01DAC71E.53B5F170" alt=3D" &quot;created with =
+MySignature.io&quot;"></span></a><span =
+style=3D'font-size:12.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:EN-IN'><o:p></o:p></span></p></td><td =
+valign=3Dtop style=3D'border:none;border-left:solid #63CCC8 =
+1.0pt;padding:0cm 0cm 0cm 9.0pt'><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D0 cellpadding=3D0 =
+style=3D'margin-left:.1pt;border-collapse:collapse'><tr><td =
+style=3D'padding:0cm 0cm 6.0pt 0cm'><p class=3DMsoNormal =
+style=3D'margin:.1pt;line-height:14.85pt'><b><span =
+style=3D'font-size:11.5pt;color:#44546A;mso-fareast-language:EN-IN'>Syed =
+Zubair<o:p></o:p></span></b></p></td></tr><tr><td style=3D'padding:0cm =
+0cm 6.0pt 0cm'><p class=3DMsoNormal =
+style=3D'margin:.1pt;line-height:11.5pt'><span =
+style=3D'font-size:9.0pt;color:#1F3864;mso-fareast-language:EN-IN'>Busine=
+ss Development Executive (Sales)<o:p></o:p></span></p></td></tr><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal =
+style=3D'margin:.1pt;line-height:11.5pt'><b><span =
+style=3D'font-size:10.0pt;color:#323E4F;mso-fareast-language:EN-IN'>mobil=
+e:</span></b><b><span =
+style=3D'font-size:10.0pt;color:#63CCC8;mso-fareast-language:EN-IN'>&nbsp=
+;</span></b><span =
+style=3D'font-size:10.0pt;color:#2F5496;mso-fareast-language:EN-IN'><a =
+href=3D"tel:+916309557177" target=3D"_blank"><span =
+style=3D'color:#2F5496'>+916309557177</span></a></span><span =
+style=3D'font-size:10.0pt;color:#000001;mso-fareast-language:EN-IN'><o:p>=
+</o:p></span></p></td></tr><tr><td style=3D'padding:0cm 0cm 0cm 0cm'><p =
+class=3DMsoNormal style=3D'margin:.1pt;line-height:11.5pt'><b><span =
+style=3D'font-size:10.0pt;color:#323E4F;mso-fareast-language:EN-IN'>websi=
+te:</span></b><b><span =
+style=3D'font-size:10.0pt;color:#63CCC8;mso-fareast-language:EN-IN'>&nbsp=
+;</span></b><span =
+style=3D'font-size:10.0pt;color:#2F5496;mso-fareast-language:EN-IN'><a =
+href=3D"https://mysig.io/VZEgg6mA" target=3D"_blank"><span =
+style=3D'color:#2F5496'>www.smshandover.com</span></a></span><span =
+style=3D'font-size:10.0pt;color:#000001;mso-fareast-language:EN-IN'><o:p>=
+</o:p></span></p></td></tr><tr><td style=3D'padding:0cm 0cm 0cm 0cm'><p =
+class=3DMsoNormal style=3D'margin:.1pt;line-height:11.5pt'><b><span =
+style=3D'font-size:10.0pt;color:#3B3838;mso-fareast-language:EN-IN'>email=
+:</span></b><b><span =
+style=3D'font-size:10.0pt;color:#2F5496;mso-fareast-language:EN-IN'>&nbsp=
+;</span></b><span =
+style=3D'font-size:10.0pt;color:#2F5496;mso-fareast-language:EN-IN'><a =
+href=3D"mailto:zubair@smshandover.com" target=3D"_blank"><span =
+style=3D'color:#2F5496'>zubair@smshandover.com</span></a></span><span =
+style=3D'font-size:10.0pt;color:#000001;mso-fareast-language:EN-IN'><o:p>=
+</o:p></span></p><p class=3DMsoNormal =
+style=3D'margin:.1pt;line-height:11.5pt'><b><span =
+style=3D'font-size:10.0pt;color:#323E4F;mso-fareast-language:EN-IN'>skype=
+:</span></b><b><span =
+style=3D'font-size:10.0pt;color:#63CCC8;mso-fareast-language:EN-IN'> =
+</span></b><span =
+style=3D'font-size:10.0pt;color:#2F5496;mso-fareast-language:EN-IN'>live:=
+.cid.8839a69fdbf32db7</span><span =
+style=3D'font-size:10.0pt;color:#000001;mso-fareast-language:EN-IN'><o:p>=
+</o:p></span></p></td></tr><tr><td style=3D'padding:9.0pt 0cm 0cm =
+0cm'><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 =
+style=3D'margin-left:.1pt;border-collapse:collapse'><tr><td =
+style=3D'padding:0cm 3.75pt 0cm 0cm'></td><td style=3D'padding:0cm =
+3.75pt 0cm =
+0cm'></td></tr></table></td></tr></table></td></tr></table></td></tr></ta=
+ble><p class=3DMsoNormal><span =
+style=3D'display:none;mso-fareast-language:EN-IN'><o:p>&nbsp;</o:p></span=
+></p><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 =
+style=3D'background:white;border-collapse:collapse'><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal =
+style=3D'margin:.1pt;mso-line-height-alt:.75pt'><a =
+href=3D"https://mysignature.io/editor?utm_source=3Dfreepixel" =
+target=3D"_blank"><span =
+style=3D'font-size:1.0pt;font-family:"Arial",sans-serif;color:blue;mso-fa=
+reast-language:EN-IN;text-decoration:none'><img border=3D0 width=3D438 =
+height=3D1 id=3D"Picture_x0020_2" =
+src=3D"cid:image002.png@01DAC71E.53B5F170" alt=3D"created with =
+MySignature.io"></span></a><span =
+style=3D'font-size:1.0pt;font-family:"Arial",sans-serif;color:#485F85;mso=
+-fareast-language:EN-IN'><o:p></o:p></span></p></td></tr></table><p =
+class=3DMsoNormal style=3D'background:white'><span =
+style=3D'font-size:12.0pt;font-family:"Arial",sans-serif;color:#485F85;di=
+splay:none;mso-fareast-language:EN-IN'><o:p>&nbsp;</o:p></span></p><table=
+ class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D500 style=3D'width:300.0pt'><tr style=3D'height:.75pt'><td =
+style=3D'padding:0cm 0cm 0cm 0cm;height:.75pt'><p class=3DMsoNormal =
+style=3D'margin:.1pt;mso-line-height-alt:.75pt'><span =
+style=3D'font-size:1.0pt;font-family:"Times New =
+Roman",serif;mso-fareast-language:EN-IN'>&nbsp;<o:p></o:p></span></p></td=
+></tr></table><p class=3DMsoNormal><span =
+style=3D'display:none;mso-fareast-language:EN-IN'><o:p>&nbsp;</o:p></span=
+></p><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0 =
+style=3D'background:white;border-collapse:collapse'><tr><td =
+style=3D'padding:11.25pt 0cm 0cm 0cm'></td></tr><tr><td =
+style=3D'border:none;border-top:solid #EEEEEE 1.0pt;padding:3.75pt 0cm =
+0cm 0cm'></td></tr></table><p class=3DMsoNormal><span =
+style=3D'mso-fareast-language:EN-IN'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_001_011B_01DAC71E.565C5950--
+
+------=_NextPart_000_011A_01DAC71E.565C5950
+Content-Type: image/png;
+	name="image001.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image001.png@01DAC71E.53B5F170>
+
+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
+
+------=_NextPart_000_011A_01DAC71E.565C5950
+Content-Type: image/png;
+	name="image002.png"
+Content-Transfer-Encoding: base64
+Content-ID: <image002.png@01DAC71E.53B5F170>
+
+iVBORw0KGgoAAAANSUhEUgAAAbYAAAABCAMAAACFb3s7AAAAAXNSR0IArs4c6QAAAANQTFRFAAAA
+p3o92gAAAAF0Uk5TAEDm2GYAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAZdEVYdFNvZnR3YXJlAE1p
+Y3Jvc29mdCBPZmZpY2V/7TVxAAAADklEQVQoU2NgGAVDMAQAAbcAAS/pDy8AAAAASUVORK5CYII=
+
+------=_NextPart_000_011A_01DAC71E.565C5950--
+

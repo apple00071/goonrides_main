@@ -1,0 +1,99 @@
+Return-Path: <james@marketingfriend.biz>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id IfTrHC6gmGZREjAAQ+45pw
+	(envelope-from <james@marketingfriend.biz>)
+	for <info+spam@go-onriders.com>; Thu, 18 Jul 2024 00:55:10 -0400
+Return-path: <james@marketingfriend.biz>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 18 Jul 2024 00:55:10 -0400
+Received: from [31.129.22.117] (port=52117 helo=marketingfriend.biz)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <james@marketingfriend.biz>)
+	id 1sUJAd-0000000DDKM-13Ja
+	for info@go-onriders.com;
+	Thu, 18 Jul 2024 00:55:10 -0400
+Received: from authenticated-user (marketingfriend.biz [31.129.22.117])
+	(using TLSv1.3 with cipher TLS_AES_256_GCM_SHA384 (256/256 bits))
+	(No client certificate requested)
+	by marketingfriend.biz (Postfix) with ESMTPSA id 4465A41C14
+	for <info@go-onriders.com>; Thu, 18 Jul 2024 05:54:26 +0100 (WEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=marketingfriend.biz;
+	s=mail; t=1721278466;
+	bh=AMrmsysy2zxMsap1z8kSjAue2d8wtv4wX7hZWoyxczY=;
+	h=Date:To:From:Reply-To:Subject:List-Unsubscribe:From;
+	b=k5QLoOzLSlcUIEzTVxodXSlwCYnerU1yS8eh5zVurHDPdecCrRyQJ9jrI7Kd7dCWk
+	 2RqmnRa0hIqrR6NRaf+qSoNRcPiAF25bj1B0ITqT60siyz7wM4/BkWYY/WwCwf/QPJ
+	 bnVk171bMHGJ9RmBbY1k4smv5ye40b6xImr9NZQECI4H4sdFFbUe0geCThcmcHFuwJ
+	 D+fCBwe0FIWvDSDWol9MXbI8FZOEfs5QM6uE4U3GTzkCzGUSnUgh7sxRV8zF2j19mM
+	 j+CC7UlV2H3Z1l5Ar00sIsPU3DExTGLIYKMIwkH1Aag3pU/JU3+GTU/c++60X1Ebuc
+	 khkZ7YCJ20t2A==
+Date: Thu, 18 Jul 2024 06:53:39 +0200
+To: info@go-onriders.com
+From: James Cooper <james@marketingfriend.biz>
+Reply-To: Your Website <james@marketingfriend.biz>
+Message-ID: <94UWuLWIryPF9TopCCFC4j7I8B1OvG8qsSVQKsqSGTs@localhost>
+List-Unsubscribe: mailto:james@marketingfriend.biz?subject=Unsubscribe
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: base64
+X-MagicSpam-TUUID: 2eb1f629-ac74-4c0a-a571-95cdbbd06ffe
+X-MagicSpam-SUUID: 5f13a583-222b-4a31-8603-02e9e09ed4cd
+X-Spam-Status: Yes, score=6.1
+X-Spam-Score: 61
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello It is with sad regret to inform you that LeadsMax.biz
+    We have made all our databases available to the public. 
+ Content analysis details:   (6.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [31.129.22.117 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [31.129.22.117 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                              domains in spam/malware
+  2.0 RDNS_NONE              Delivered to internal network by a host with no rDNS
+  0.3 LM_FROM_SPAMMY_TLD     From or EnvFrom uses a domain name that is a
+                             favourite of spammers
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+  0.3 LM_URI_SPAMMY_DOMAIN_LEVEL1 URI in message from a domain that
+                             may be spammy.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  LeadsMax.biz shutting down.
+
+SGVsbG8gPGJyLz48YnIvPg0KDQpJdCBpcyB3aXRoIHNhZCByZWdyZXQgdG8gaW5mb3JtIHlvdSB0
+aGF0IExlYWRzTWF4LmJpeiA8YnIvPjxici8+DQoNCldlIGhhdmUgbWFkZSBhbGwgb3VyIGRhdGFi
+YXNlcyBhdmFpbGFibGUgdG8gdGhlIHB1YmxpYy48YnIvPjxici8+DQoNCjI1IE1pbGxpb24gQ29t
+cGFuaWVzPGJyLz48YnIvPg0KNTAwIE1pbGxpb24gUGVvcGxlPGJyLz48YnIvPg0KMTQzIENvdW50
+cmllczxici8+PGJyLz4NCg0KUmVnYXJkcyw8YnIvPg0KTGVhZHNNYXguYml6
+

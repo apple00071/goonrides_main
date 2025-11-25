@@ -1,0 +1,221 @@
+Return-Path: <sales.dwr1@dwrtechnology.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 4ECzNXuvMWIobAAAQ+45pw
+	(envelope-from <sales.dwr1@dwrtechnology.com>)
+	for <info@go-onriders.com>; Wed, 16 Mar 2022 05:35:55 -0400
+Return-path: <sales.dwr1@dwrtechnology.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 16 Mar 2022 05:35:55 -0400
+Received: from mail-yw1-f196.google.com ([209.85.128.196]:43179)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <sales.dwr1@dwrtechnology.com>)
+	id 1nUQ4Q-0007NR-Qb
+	for info@go-onriders.com; Wed, 16 Mar 2022 05:35:55 -0400
+Received: by mail-yw1-f196.google.com with SMTP id 00721157ae682-2e59939b862so15884527b3.10
+        for <info@go-onriders.com>; Wed, 16 Mar 2022 02:35:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dwrtechnology-com.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=CS6CvperE/uj2qwS+lxWcsJZ6/K0CcJHfGWRyYKNJ6A=;
+        b=V8vO2rGmaNf+v5L95w39oQOQYwYyOJzUIkfXiLgbbvhyEHxPlvKNgkf+TVZUbGCpUk
+         eav6wC5VQcMGJhMAPSg36chubSdwBNW2K7VLqIdMFFgFpzjU0QkoPxTMkDNNpYrrK08R
+         1W3yXum+vFM8Uw0c0oq8vetTEgUtE/H8K68V9/LNiunUGQZfyKPuIMklI08JfZ4X5Z5+
+         ed+uvp77FvZsBqlTRBNFaHdVe7TXd+SvMxL2tZFnX358NcRtWjGBOnb4E0NzIlAa7auC
+         /dBdXgnKzZRXo8ML2xlVqYMg6pzqi+H0O7UVZC3RXGTWXglTsNmKZLmjDJfZ4qdV5FG9
+         w2eg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=CS6CvperE/uj2qwS+lxWcsJZ6/K0CcJHfGWRyYKNJ6A=;
+        b=2dL+Rb6GnVjIcyk2g3YI1F+bfz7YbZR70sn81pw0TcgYVclR9mrC+BqgFica9cVt0f
+         Dq7Dbkyinfn6A08AM1ziVJRI5ldH/EV37bP3s1XnSYDpTBXQ15mIxjYT+BqTzSj4mbFD
+         cb/CAyeEz1WLwxpzwcAYlIjNV3GDG5fozJ7GiCMAX0nnIDDD5H8LYkuSmYNJnHBmVsSx
+         WfxtuRG36GP6CwBLg4qHe7szRS3N/fZPAWrGwkbzrnf8Pxr7Vmb9PbrIHNqH3RibZXLT
+         Pf5H8nLD1Rb+9Xl4SxnCyRxCibTaU+DyYPB8o2F94pxKqJ9X/Wml/3MWePc53GmJ7a9I
+         PxBg==
+X-Gm-Message-State: AOAM530r0onjs6S3e77sdErDnWyic9aoJOhxng6SxNBRBs3UV1UPLDqP
+	n4EqyBuW369iJeKGc8HfNJdEk6HOXwlqJ9UhPBSB5hun4e8=
+X-Google-Smtp-Source: ABdhPJw0Ai7sqB4UsFJCDoPwpsPXJqyNKJmINKLpuOATKhsM0+f9gqKDtzecoJvl+QKK218UYeMqYJPry+wzJ2UZ000=
+X-Received: by 2002:a81:1a09:0:b0:2e5:a8a9:2ec2 with SMTP id
+ a9-20020a811a09000000b002e5a8a92ec2mr1104043ywa.494.1647423313816; Wed, 16
+ Mar 2022 02:35:13 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 16 Mar 2022 02:35:13 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 16 Mar 2022 02:35:13 -0700
+MIME-Version: 1.0
+Sender: Elena <sales.dwr1@dwrtechnology.com>
+From: Elena <sales.dwr1@dwrtechnology.com>
+Date: Wed, 16 Mar 2022 02:35:13 -0700
+X-Google-Sender-Auth: wkU9WKlFtOhZ7glOxeDPl7BJveY
+Message-ID: <CAJmFjojCL_VOydmON67N1vtgzCKsFogn04nTZCYdJVGeh86AHA@mail.gmail.com>
+Subject: Improve your Website ranking!
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000006a31f805da52a128"
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, I would like to share some facts about your
+    website *go-onriders.com <http://go-onriders.com>*. Just spare me some time
+    from your busy schedule. PPC covers the scope of a project with deliverables
+    like *SEM* research, strategy, and management; measurement and key performance
+    indicators; search and text ad development; keyword planning, bid opt [...]
+    
+ Content analysis details:   (1.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.128.196 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.128.196 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--0000000000006a31f805da52a128
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sir/Madam,
+
+I would like to share some facts about your website *go-onriders.com
+<http://go-onriders.com>*. Just spare me some time from your busy schedule.
+
+PPC covers the scope of a project with deliverables like *SEM* research,
+strategy, and management; measurement and key performance indicators;
+search and text ad development; keyword planning, bid optimization, and
+landing pages; display ads and remarketing; YouTube ads; campaign
+management; and reporting.
+
+Our marketing services are customized for your particular marketing agency
+and clients. We offer strategic, digital, or creative marketing services.
+
+You can choose us for your website *go-onriders.com
+<http://go-onriders.com>* branding through SEO services and logo design by
+our expert web designers. I suggest, by investing a few months in SEO, you
+can definitely see drastic changes inside your web pages and in various
+search engines as well. We will show you improvements in your keyword
+rankings, link popularity, organic traffic and many more.
+
+Also I noticed some major on-page and off-page issues need to be fixed
+soon. For more information about your website errors, please respond to my
+email.
+
+Kindly provide me your best time and number so that I can reach you without
+disturbing your business hours. And, I guarantee our team will give you
+successful results above your expectation.
+
+Our main AIM is customer satisfaction and timely reporting. You can check
+our client reviews on our website as well. It=E2=80=99s our pleasure that m=
+ost of
+our clients remain with us for more than 1 year.
+
+I also prepared a *Free Analysis Report* for your website. If you are
+interested I can show the report.
+
+Warm Regards,
+
+
+
+Elena
+
+Sales Manager
+
+*Skype:* dreamforweb
+[image: beacon]
+
+--0000000000006a31f805da52a128
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:16.8667px;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;">=
+<span style=3D"font-size:10pt;line-height:15.3333px;font-family:Verdana,&qu=
+ot;sans-serif&quot;">Dear Sir/Madam,</span></p><p class=3D"MsoNormal" style=
+=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Ca=
+libri,&quot;sans-serif&quot;"><span style=3D"font-size:10pt;line-height:15.=
+3333px;font-family:Verdana,&quot;sans-serif&quot;">I would like to share so=
+me facts about your website=C2=A0<b><a href=3D"http://go-onriders.com">go-o=
+nriders.com</a></b>. Just spare me some time from your busy schedule.</span=
+></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:16.866=
+7px;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=
+=3D"font-size:10pt;line-height:15.3333px;font-family:Verdana,&quot;sans-ser=
+if&quot;">PPC covers the scope of a project with deliverables like=C2=A0<b>=
+SEM</b>=C2=A0research, strategy, and management; measurement and key perfor=
+mance indicators; search and text ad development; keyword planning, bid opt=
+imization, and landing pages; display ads and remarketing; YouTube ads; cam=
+paign management; and reporting.</span></p><p class=3D"MsoNormal" style=3D"=
+margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Calibr=
+i,&quot;sans-serif&quot;"><span style=3D"font-size:10pt;line-height:15.3333=
+px;font-family:Verdana,&quot;sans-serif&quot;">Our marketing services are c=
+ustomized for your particular marketing agency and clients. We offer strate=
+gic, digital, or creative marketing services.</span></p><p class=3D"MsoNorm=
+al" style=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-=
+family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-size:10pt;line-h=
+eight:15.3333px;font-family:Verdana,&quot;sans-serif&quot;">You can choose =
+us for your website=C2=A0<b><a href=3D"http://go-onriders.com">go-onriders.=
+com</a></b>=C2=A0branding through SEO services and logo design by our exper=
+t web designers. I suggest, by investing a few months in SEO, you can defin=
+itely see drastic changes inside your web pages and in various search engin=
+es as well. We will show you improvements in your keyword rankings, link po=
+pularity, organic traffic and many more.</span></p><p class=3D"MsoNormal" s=
+tyle=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-famil=
+y:Calibri,&quot;sans-serif&quot;"><span style=3D"font-size:10pt;line-height=
+:15.3333px;font-family:Verdana,&quot;sans-serif&quot;">Also I noticed some =
+major on-page and off-page issues need to be fixed soon. For more informati=
+on about your website errors, please respond to my email.</span></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:16.8667px;font-siz=
+e:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-size=
+:10pt;line-height:15.3333px;font-family:Verdana,&quot;sans-serif&quot;">Kin=
+dly provide me your best time and number so that I can reach you without di=
+sturbing your business hours. And, I guarantee our team will give you succe=
+ssful results above your expectation.</span></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:C=
+alibri,&quot;sans-serif&quot;"><span style=3D"font-size:10pt;line-height:15=
+.3333px;font-family:Verdana,&quot;sans-serif&quot;">Our main AIM is custome=
+r satisfaction and timely reporting. You can check our client reviews on ou=
+r website as well. It=E2=80=99s our pleasure that most of our clients remai=
+n with us for more than 1 year.</span></p><p class=3D"MsoNormal" style=3D"m=
+argin:0in 0in 10pt;line-height:16.8667px;font-size:11pt;font-family:Calibri=
+,&quot;sans-serif&quot;"><span style=3D"font-size:10pt;line-height:15.3333p=
+x;font-family:Verdana,&quot;sans-serif&quot;;background:yellow">I also prep=
+ared a=C2=A0<b>Free Analysis Report</b>=C2=A0for your website. If you are i=
+nterested I can show the report.</span><span style=3D"font-size:10pt;line-h=
+eight:15.3333px;font-family:Verdana,&quot;sans-serif&quot;"></span></p><p s=
+tyle=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-family:Calibri,&quot;sa=
+ns-serif&quot;"><span style=3D"font-size:10pt;font-family:Verdana,&quot;san=
+s-serif&quot;">Warm Regards,</span></p><p style=3D"margin:0in 0in 0.0001pt;=
+font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"f=
+ont-size:10pt;font-family:Verdana,&quot;sans-serif&quot;">=C2=A0</span></p>=
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:12.65pt;fon=
+t-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font=
+-size:12pt;color:black">Elena</span></p><p class=3D"MsoNormal" style=3D"mar=
+gin:0in 0in 10pt;line-height:12.65pt;font-size:11pt;font-family:Calibri,&qu=
+ot;sans-serif&quot;"><span style=3D"font-size:12pt;color:black">Sales Manag=
+er</span></p><p style=3D"margin:0in 0in 0.0001pt;font-size:11pt;font-family=
+:Calibri,&quot;sans-serif&quot;"><b><span style=3D"font-size:10pt;font-fami=
+ly:Verdana,&quot;sans-serif&quot;">Skype:</span></b><span style=3D"font-siz=
+e:10pt;font-family:Verdana,&quot;sans-serif&quot;">=C2=A0dreamforweb=C2=A0=
+=C2=A0</span></p></div>
+<img src=3D"https://dwrtechnology-dot-yamm-track.appspot.com/1s_xUOJunEMi3A=
+hyqioIqtILzia3ieHcxxX2jcaLcZWrf1BSSfwGCFNWrAQa-yLV3sbetj_-1qgsGOo2_zsdNMKsE=
+SIWdJxaG3kOL00854bdMdOqNfR0lpnw" width=3D"1" height=3D"1" alt=3D"beacon" st=
+yle=3D"display:none; display:none!important;">
+
+--0000000000006a31f805da52a128--

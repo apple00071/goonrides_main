@@ -1,0 +1,133 @@
+Return-Path: <kvkfqxwlk@betco-bh.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id GPpqCg5dXGMXWAAAQ+45pw
+	(envelope-from <kvkfqxwlk@betco-bh.com>)
+	for <info+spam@go-onriders.com>; Fri, 28 Oct 2022 18:51:58 -0400
+Return-path: <kvkfqxwlk@betco-bh.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 28 Oct 2022 18:51:58 -0400
+Received: from alraneen.wannagocloud.com ([77.92.170.84]:59377)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <kvkfqxwlk@betco-bh.com>)
+	id 1ooYCj-0006W3-7O
+	for info@go-onriders.com;
+	Fri, 28 Oct 2022 18:51:58 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=betco-bh.com; s=default; h=Date:Reply-To:To:Subject:From:Sender:Message-ID:
+	Cc:MIME-Version:Content-Type:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=ojRAQWixOdAjFe0ayq46faFnZv1Fc1GJVTqykYsn++0=; b=X0sYYmu4OwH7ONU4ij9BL6i5FX
+	hwp+Z/l/gre0VqSPcw3HxmxPGC9GStMQ1WY5hZa5M7kH/DbYQzAnsm4N4f8BqsRVrqzRbLeRDRE//
+	SWUZAHCAvycQauXol8vpRvep2PKPrKZBaBC7l6yDxI98psaMho9T5xJVfcb3vJ7ljO2JyrpUMdAVX
+	OjlTPR7dtsZJwZHQq8eDG7ragetHjI3dUCxHpA1BNkA86EKnOd3EySGPw3xd9cpiW0EBsAqRltlY8
+	toTyn1nEe3tgYwFUDjZiP3yMYpVUItBcV0y7okqvP53uEuNbyfrGzWej9kPDeU5fJLW7yTBa9FGRc
+	Xm5yMvJw==;
+Received: from [10.100.68.242] (port=48112 helo=mail.betco-bh.com)
+	by alraneen.wannagocloud.com with esmtp (Exim 4.95)
+	(envelope-from <kvkfqxwlk@betco-bh.com>)
+	id 1ooXwA-008K0U-Hj;
+	Sat, 29 Oct 2022 01:51:11 +0300
+From: "SUPER LIST" <kvkfqxwlk@betco-bh.com>
+To: hilliard@blankdental.com
+Reply-To: contactardados@gmail.com
+Date: Fri, 28 Oct 2022 22:51:10 +0200
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - alraneen.wannagocloud.com
+X-AntiAbuse: Original Domain - go-onriders.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - betco-bh.com
+X-Get-Message-Sender-Via: alraneen.wannagocloud.com: acl_c_authenticated_local_user: root
+X-Authenticated-Sender: alraneen.wannagocloud.com: root
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: Yes, score=12.6
+X-Spam-Score: 126
+X-Spam-Bar: ++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get the best email lists for your email marketing. 100% VALID
+    email lists of any country in the world. Talk to us in WhatsApp: +55 21 98110
+    4898 
+ Content analysis details:   (12.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [77.92.170.84 listed in list.dnswl.org]
+  0.0 NA_DOLLARS             BODY: Talks about a million North American dollars
+  1.0 HK_RANDOM_ENVFROM      Envelope sender username looks random
+  0.5 FROM_LOCAL_NOVOWEL     From: localpart has series of non-vowel
+                             letters
+  1.0 HK_RANDOM_FROM         From username looks random
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [77.92.170.84 listed in wl.mailspike.net]
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.1 MISSING_MID            Missing Message-Id: header
+  2.7 BIGNUM_EMAILS_FREEM    Lots of email addresses/leads, free email
+                             account
+  3.0 BIGNUM_EMAILS_MANY     Lots of email addresses/leads, over and over
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Email lists 100% VALID - Any country in the world
+
+
+Get the best email lists for your email marketing.
+
+100% VALID email lists of any country in the world.
+
+Talk to us in WhatsApp:
++55 21 98110 4898
+
+Or Skype:
+corbettsoftware
+
+-------------------------------------------
+Email lists from any country in the world:
+
+Each 100.000 emails = US$ 150
+Each 500.000 emails = US$ 350
+Each 1 million emails = US$ 500
+Each 5 million emails = US$ 750
+Each 10 million emails = US$ 1000
+
+Segmented email lists from any country:
+
+Each 10.000 emails = US$ 150
+Each 50.000 emails = US$ 350
+Each 100.000 emails = US$ 500
+Each 500.000 emails = US$ 750
+Each 1 million emails = US$ 1000
+--------------------------------------------
+
+
+We are waiting for you.
+
+Best regards,
+
+SUPER LIST
+The best email lists since 1998
+
+WhatsApp: 
++55 21 98110 4898
+
+Skype:
+corbettsoftware

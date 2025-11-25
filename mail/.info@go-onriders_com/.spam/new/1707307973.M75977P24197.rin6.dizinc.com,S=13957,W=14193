@@ -1,0 +1,236 @@
+Return-Path: <sophiafoster@organicwebsolution.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id gMFkBMVzw2WFXgAAQ+45pw
+	(envelope-from <sophiafoster@organicwebsolution.com>)
+	for <info+spam@go-onriders.com>; Wed, 07 Feb 2024 07:12:53 -0500
+Return-path: <sophiafoster@organicwebsolution.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 07 Feb 2024 07:12:53 -0500
+Received: from mail-ej1-f48.google.com ([209.85.218.48]:59872)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <sophiafoster@organicwebsolution.com>)
+	id 1rXgnL-0006TS-2O
+	for info@go-onriders.com;
+	Wed, 07 Feb 2024 07:12:52 -0500
+Received: by mail-ej1-f48.google.com with SMTP id a640c23a62f3a-a3810e975aaso71945066b.3
+        for <info@go-onriders.com>; Wed, 07 Feb 2024 04:12:31 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=organicwebsolution-com.20230601.gappssmtp.com; s=20230601; t=1707307929; x=1707912729; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=GYqYa0WcjtRunqSzHe9YBysrSY7jCLcgWiPYQ1ojWf8=;
+        b=SpMwUc9kilJN7eJBSanEXhOGFZwf0CEbgdG9cx4qqkdU/TggCYTCvLmj6cbzdO1OCe
+         8FthSbJ489HdnUkRvb6uGz7auPWHRg6S/JlkAO2CYE420jXGxJcsvAPNjReZxLKTSraJ
+         qFFc0MC8cYFBitbOKkWKrGNAEKB5C43o1/42f1Xpq/jl9IX+JegyKkXr7cbcpbNNHEdu
+         FJuON7Q6lLOIn9v0vOxq/rxGzHC18ZRQO1lkg+kNcquqrFnNDwUvimZ1lhYUyGuIb+JK
+         TP3E8/++b7U+/MsUhc8oFAvCqMVjWlKBmkBRMxWAA2wBLNM2gV/xMyJBPpnngxiicV/a
+         oPLA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1707307929; x=1707912729;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=GYqYa0WcjtRunqSzHe9YBysrSY7jCLcgWiPYQ1ojWf8=;
+        b=q2eXDcZ9r03lDpLuZ/oknjBnM73rZHIAnKtRZCaodg8fn31XR2pSHOr+e+VkEY518S
+         FBR8ymFLv8evR331/RCCn04T0R9RM8kW9i9T6ujwsxHVI/jBpWRrTVAT5xU3UTggZfeO
+         ON2yxEoq2WOP/pU536zGBzem/vwsITY0BoVUj0KeXhL7/iuj/t6/DN3HIyqP9TPAku0p
+         tk8T3X1MtcgPBejHTA2qTXC7WpGcJvA5QdoDYHfcYJdzWXjkh80uw6DaliZMZPkdr8/Q
+         0J4+EV/Fkn31NvVHsfL2j4S+KNpBGgV0k+Z6YaP5Vn1YWyXI8b2VwDiePf33l3tA1JlP
+         K9qQ==
+X-Gm-Message-State: AOJu0YySQEolyCjiRyPUwpwQaPL+ya0hzMn4Q7nHbo4X3XJJXLGbDv52
+	6z401spi9wEwvoQeixUmmQdlp9x9mQPZHR/wY+puW52EdSnVv3CNVPmiklh9eaAI8zMxCOLQJf2
+	YKlh9xWuNGfF2Gbg0pSTz+0kCBr/kQnxJ/gTkm70VB3u+SD2Q
+X-Google-Smtp-Source: AGHT+IHLt4EWiRGVuu40q2CVASsg8DyWJULX5lrsWxGbncNKSCNJU0iIhwe8ySyg3BCihjzQRwDeV1A84dcsoR7BkiI=
+X-Received: by 2002:a17:907:77d4:b0:a38:9300:c25b with SMTP id
+ kz20-20020a17090777d400b00a389300c25bmr430070ejc.46.1707307929333; Wed, 07
+ Feb 2024 04:12:09 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 7 Feb 2024 04:12:08 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 7 Feb 2024 04:12:08 -0800
+MIME-Version: 1.0
+Sender: Sophia Foster <sophiafoster@organicwebsolution.com>
+From: Sophia Foster <sophiafoster@organicwebsolution.com>
+Date: Wed, 7 Feb 2024 04:12:08 -0800
+X-Google-Sender-Auth: 6N9LdE4-Jrf6BjmG8aLv-Qq7ASw
+Message-ID: <CAEcR91T5ERbfn-NYG8bzdZgw=jSua20h=_9NVBiEJ16J9sMSuw@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000a680970610c99a49"
+X-MagicSpam-TUUID: 08f3cdd6-0e4e-473f-9e72-e417a587d6c2
+X-MagicSpam-SUUID: 924edf12-1449-4d6b-9316-7f2d94c4af12
+X-Spam-Status: Yes, score=32.6
+X-Spam-Score: 326
+X-Spam-Bar: ++++++++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi go-onriders.com, I hope you are having a good day. Are
+   you looking for Website optimization or Creation, Digital marketing services
+    like SEO, SMO, PPC, and Website Design and maintenance at a very low cost?
+    
+ Content analysis details:   (32.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 LM_GMAIL_VIA_RESTAPI   Originates via Gmails Rest API
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  1.0 LM_SEARCH_RESULTS      Promise of high search engine rankings
+  5.0 KAM_SEARCH             Spammers hawking SEO
+  1.0 LM_GMAIL_API_SEND_METHOD_IPV6 Many marketers use Gmail API for
+                             sending marketing pitches
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 FREEMAIL               Message originated from 'free' mail service
+  0.2 LM_LOTS_LINE_SEPARATORS Email contains lots of line seperators
+  1.0 LM_SEO_BENEFIT         Message contains a phrase relating to the
+                             benefits of SEO.
+  2.0 LM_SEO_BODY_LOTS       Message contains many phrases commonly found in
+                              SEO spam.
+  1.0 LM_SEO_SUBJ            Subjects commonly seen in SEO offers
+  1.0 LM_WEB_DESIGN_IMPROVE_RANKING Contains references to web design
+                             and attempts to solicit the user with
+                             business or SEO improvements.
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+  1.0 MM_5_WEB_SEO_PHRASES   Email that contains 5 or more references to
+                              SEO content.
+  4.0 LM_GENERIC_SEO_FREEMAILER1 Pushing Outsourced SEO sources from a
+                              FreeMail account
+  1.5 LM_GENERIC_SEO_FREEMAILER_CONTACT_US Hits
+                             LM_GENERIC_SEO_FREEMAILER1. Short message
+                             asking to contact them.
+  1.0 LM_WEB_DESIGN_BODY     Body contains references to web design
+                             proposals.
+  2.0 LM_SEO_MARKETER_BUMP2  Score bump for hitting multiple SEO
+                             related rules.
+  4.5 LM_FREEMAIL_OFFSHORE_DEV11 Freemail source with broken header.
+                             Related to offshore development/SEO.
+  5.0 LM_FREEMAIL_OFFSHORE_DEV4 Score bump for hitting multiple
+                             offshore marketing rules. Short message
+                             from Freemail source.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  go-onriders.com:SEO Services That Can Help You Reach 1st Page on Google.
+
+--000000000000a680970610c99a49
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi go-onriders.com,
+
+I hope you are having a good day.
+
+Are you looking for Website optimization or Creation, Digital marketing
+services like SEO, SMO, PPC, and Website Design and maintenance at a very
+low cost?
+
+ If you are interested in any of these services then I will send you our
+work examples, *SEO package,* and *price list*.
+
+Can you provide us with your contact details/Phone number/WhatsApp then I
+will discuss more.
+
+Look forward to your reply.
+
+*Best Regards*
+
+*Sophia Foster!! Business Development Manager*
+
+*--------------------------------------------------------------------------=
+-------------------------------------*
+
+*Note: - Our next conversation will be on my corporate Email ID. If this is
+something you are interested in, please respond to this email. If this is
+not your interest, don't worry, we will not email you again. *Unsubscribe
+<https://organicwebsolution-dot-yamm-track.appspot.com/2XvJGMKAcnO11yiNNU8W=
+LA5FEB565x9RtUSUiCamrQVfZinuDjQGr5soYhsxcQspX1I3f6luoBeUKMAwok0zaHOInO25WWV=
+bOh3wYqSsQ8cMfucP6wk-qV_rkoN_iITBWDHyAyzm-YWq03zW6NxNy9HaiaLQIVBPMZCuXTNlxG=
+yTF4tigRsU2CmIvgMuAP6n-kU60W79OSgijcFi9LstYE6EsdKePe2mQAiDkyZ-87yyZZJF05tbt=
+UuyMGnY9pKasNk7xmumteHATqtJM3SBjNgYIZWSBTzQr_IKHXNul0jAnIUETq0BsGhZouot_3gw=
+VyAhhUlhZ5WxVc234tDjDF7nm92TKHLLWhUdc3KgUPjKUrRUXZTI8jiJ2wri2yIQTXqDr8TWw9R=
+gjA7stjhAJc1Taf0ibxyBxujDjYYKRZEP_dykgk6UH9SC3vNSYtBOZMhE>
+.
+[image: beacon]
+
+--000000000000a680970610c99a49
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-al=
+ign:justify;line-height:14.95px"><span style=3D"font-family:New,serif;font-=
+size:14pt;line-height:21.4667px">Hi</span><span style=3D"font-family:New,se=
+rif;font-size:12pt;line-height:18.4px">=C2=A0</span><a style=3D"font-family=
+:Calibri,sans-serif;font-size:11pt;color:blue"><span style=3D"font-size:14p=
+t;line-height:21.4667px;font-family:Arial,sans-serif;color:rgb(17,85,204);b=
+ackground-image:initial;background-position:initial;background-size:initial=
+;background-repeat:initial;background-origin:initial;background-clip:initia=
+l">go-onriders.com</span></a><font face=3D"New, serif"><span style=3D"font-=
+size:16px">,</span></font></p><p class=3D"MsoNormal" style=3D"margin:0cm 0c=
+m 8pt;text-align:justify;line-height:16.8667px;font-size:11pt;font-family:C=
+alibri,sans-serif"><span style=3D"font-size:14pt;line-height:21.4667px;font=
+-family:New,serif">I hope you are having a good day.</span></p><p class=3D"=
+MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-height:16.86=
+67px;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"font-siz=
+e:14pt;line-height:21.4667px;font-family:New,serif">Are you looking for Web=
+site optimization or Creation, Digital marketing services like SEO, SMO, PP=
+C, and Website Design and maintenance at a very low cost?</span></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-height:=
+16.8667px;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"fon=
+t-size:14pt;line-height:21.4667px;font-family:New,serif">=C2=A0If you are i=
+nterested in any of these services then I will send you our work examples,=
+=C2=A0<b>SEO package,</b>=C2=A0and=C2=A0<b><span style=3D"color:black;backg=
+round:lime">price list</span></b>.</span></p><p class=3D"MsoNormal" style=
+=3D"margin:0cm 0cm 8pt;text-align:justify;line-height:16.8667px;font-size:1=
+1pt;font-family:Calibri,sans-serif"><span style=3D"font-size:14pt;line-heig=
+ht:21.4667px;font-family:New,serif">Can you provide us with your contact de=
+tails/Phone number/WhatsApp then I will discuss more.=C2=A0</span></p><p cl=
+ass=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-heigh=
+t:16.8667px;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"f=
+ont-size:14pt;line-height:21.4667px;font-family:New,serif">Look forward to =
+your reply.</span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;te=
+xt-align:justify;line-height:normal;font-size:11pt;font-family:Calibri,sans=
+-serif"><b><span style=3D"font-size:16pt;font-family:&quot;Times New Roman&=
+quot;,serif">Best Regards</span></b><span style=3D"font-size:16pt;font-fami=
+ly:&quot;Times New Roman&quot;,serif"></span></p><p class=3D"MsoNormal" sty=
+le=3D"margin:0cm 0cm 8pt;text-align:justify;line-height:normal;font-size:11=
+pt;font-family:Calibri,sans-serif"><b><span style=3D"font-size:16pt;font-fa=
+mily:&quot;Times New Roman&quot;,serif">Sophia Foster!! Business Developmen=
+t Manager</span></b></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;=
+line-height:normal;font-size:11pt;font-family:Calibri,sans-serif"><b><span =
+style=3D"font-size:12pt;font-family:&quot;Times New Roman&quot;,serif">----=
+---------------------------------------------------------------------------=
+--------------------------------</span></b><span style=3D"font-size:12pt;fo=
+nt-family:&quot;Times New Roman&quot;,serif"></span></p><p class=3D"MsoNorm=
+al" style=3D"margin:0cm 0cm 8pt;line-height:15.6933px;font-size:11pt;font-f=
+amily:Calibri,sans-serif"><i><span style=3D"font-size:12pt;line-height:17.1=
+2px;font-family:&quot;Times New Roman&quot;,serif">Note:=C2=A0- Our next co=
+nversation will be on my corporate Email ID. If this is something you are i=
+nterested in, please respond to this email. If this is not your interest, d=
+on&#39;t worry, we will not email you again.=C2=A0</span></i><a href=3D"htt=
+ps://organicwebsolution-dot-yamm-track.appspot.com/2XvJGMKAcnO11yiNNU8WLA5F=
+EB565x9RtUSUiCamrQVfZinuDjQGr5soYhsxcQspX1I3f6luoBeUKMAwok0zaHOInO25WWVbOh3=
+wYqSsQ8cMfucP6wk-qV_rkoN_iITBWDHyAyzm-YWq03zW6NxNy9HaiaLQIVBPMZCuXTNlxGyTF4=
+tigRsU2CmIvgMuAP6n-kU60W79OSgijcFi9LstYE6EsdKePe2mQAiDkyZ-87yyZZJF05tbtUuyM=
+GnY9pKasNk7xmumteHATqtJM3SBjNgYIZWSBTzQr_IKHXNul0jAnIUETq0BsGhZouot_3gwVyAh=
+hUlhZ5WxVc234tDjDF7nm92TKHLLWhUdc3KgUPjKUrRUXZTI8jiJ2wri2yIQTXqDr8TWw9RgjA7=
+stjhAJc1Taf0ibxyBxujDjYYKRZEP_dykgk6UH9SC3vNSYtBOZMhE" rel=3D"nofollow" tar=
+get=3D"_blank" style=3D"color:blue"><span style=3D"font-family:Arial,sans-s=
+erif;color:rgb(17,85,204);background-image:initial;background-position:init=
+ial;background-size:initial;background-repeat:initial;background-origin:ini=
+tial;background-clip:initial">Unsubscribe</span></a><span style=3D"font-fam=
+ily:Arial,sans-serif;background-image:initial;background-position:initial;b=
+ackground-size:initial;background-repeat:initial;background-origin:initial;=
+background-clip:initial">.</span><i><span style=3D"font-size:12pt;line-heig=
+ht:17.12px;font-family:&quot;Times New Roman&quot;,serif">=C2=A0</span></i>=
+</p></div>
+<img src=3D"https://organicwebsolution-dot-yamm-track.appspot.com/2D_rOZU-w=
+6dlgCsUgI6N4nVpYtoCjUkZtK4Avq6CM9HDQinuDjQHeZ3LWUE_El2Z2YVw1Msxl69RV1QWYMqa=
+dQv8pSdFDXkSN0Z0o4Xd4_hQs7Gu5tPgCi6jj_YEcgFRuWtOmps6NwvpDm5EceC4TLyemELh9tX=
+ltK2KbzchE518" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:non=
+e; display:none!important;">
+
+--000000000000a680970610c99a49--

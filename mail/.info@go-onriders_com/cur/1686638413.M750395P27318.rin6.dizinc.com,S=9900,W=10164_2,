@@ -1,0 +1,264 @@
+Return-Path: <pradeep789563@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id qPksLE0PiGS2agAAQ+45pw
+	(envelope-from <pradeep789563@gmail.com>)
+	for <info@go-onriders.com>; Tue, 13 Jun 2023 02:40:13 -0400
+Return-path: <pradeep789563@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 13 Jun 2023 02:40:13 -0400
+Received: from mail-pf1-f196.google.com ([209.85.210.196]:59667)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <pradeep789563@gmail.com>)
+	id 1q8xhN-00072n-1E
+	for info@go-onriders.com;
+	Tue, 13 Jun 2023 02:40:13 -0400
+Received: by mail-pf1-f196.google.com with SMTP id d2e1a72fcca58-652d76be8c2so5613121b3a.3
+        for <info@go-onriders.com>; Mon, 12 Jun 2023 23:39:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1686638371; x=1689230371;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=eSMib6WiumXuQmlgbY90tBe7aIfVWbUy/2Ny4MIzybg=;
+        b=Y4lAeqt/occlz13aS0h9BxoVgZGzoW2iP10zMCV8B7VA3nekI6IeZDku5eZgWGzlVs
+         7YRZV5l25Jc93sWPkcJJYwcAZP62io0GiV76yFuk+HdSqIl8LlAJTElU4oCTrzVLl6Hp
+         ntwGbCjXyGdf+yhfDTfFW217QHvrNZNhW183UgoCITh8zUNnYvXFFk6WTlCWDY6g1ds6
+         uC0jBufY7upr6myXG9medV+ZhSybt9Nvi/u8bYqVjIXRZ3da8C1Scv/BtDcrbaEq+U/o
+         7lIKKBJX8RvL9mxlPrvkVlstOhk6NWoM+5c/G3Vd77r91SaPymZjbawoXeD/9mtyCJ0Z
+         SlVg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1686638371; x=1689230371;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=eSMib6WiumXuQmlgbY90tBe7aIfVWbUy/2Ny4MIzybg=;
+        b=NU1g85yuNM/2JlnC7EPAuMm0WnBWj2++zisDONwlYKaq39O3h4M55qwix/IIkF9YYP
+         iTfaWOjoI8816GlGwcifjrG+DuOzWM5KgxG3oZZt3BCGK20xukaZ9tRsZS4Gfms1moVL
+         axH/LgXTcYSqevTau/FKmmTogkRS/eKem/RRZNLVqbXHbqGrr6RDn7FGxUpwIuhlkVbt
+         St9yNf3GG9jEnVPZ4Pt8CydbzRA6TZCBgStQ09HZb7aEtYuJc1FFhzYsBMhepuAk3ioZ
+         8b0raPP7aITmKH3D6GAoHqW4zPTW/KrJOirsuH3JvIH+DAM+PmXXgdrmZ9rLzN5TeEso
+         bo7A==
+X-Gm-Message-State: AC+VfDzj3dUaXFycCWblxDpZfs9ZZl9ZtKqFCDSDiCBh7F4VQEb2txRb
+	/YBeZT6ZfdN+VqL8sbTMkGeDcDTz2/IlWA==
+X-Google-Smtp-Source: ACHHUZ7O2W2e2zgA26MRWlJAWeEwtB0ifAnjLgL4PBlP/uTBYKkoG8Vko3QamPSrVjfEnoGhxHVHGA==
+X-Received: by 2002:a05:6a20:728e:b0:10c:3535:162f with SMTP id o14-20020a056a20728e00b0010c3535162fmr15735459pzk.0.1686638371208;
+        Mon, 12 Jun 2023 23:39:31 -0700 (PDT)
+Received: from DimensionPC ([2401:4900:1f31:5a39:2529:ea76:4c2d:25d9])
+        by smtp.gmail.com with ESMTPSA id c6-20020aa78e06000000b0063f2a5a59d1sm4964379pfr.190.2023.06.12.23.39.29
+        for <info@go-onriders.com>
+        (version=TLS1 cipher=ECDHE-ECDSA-AES128-SHA bits=128/128);
+        Mon, 12 Jun 2023 23:39:30 -0700 (PDT)
+From: "pradeep gupta" <pradeep789563@gmail.com>
+To: <info@go-onriders.com>
+Subject: Bussiness Increase OFFER! 
+Date: Tue, 13 Jun 2023 12:08:55 +0530
+Message-ID: <041001d99dc1$cf3ab380$6db01a80$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0411_01D99DEF.E8F2EF80"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdmdwNeYWtisCGlbTPeYCDnWcPnGVw==
+Content-Language: en-us
+x-cr-hashedpuzzle: AVlf Ab6K AjnX CONE CjXa DSHU E4oX F1d/ F+EK GFum Gc8d GlHj Gr+B HgeM IyRj Jdj4;1;aQBuAGYAbwBAAGcAbwAtAG8AbgByAGkAZABlAHIAcwAuAGMAbwBtAA==;Sosha1_v1;7;{79F05068-380C-48E8-94DD-87135B90C06B};cAByAGEAZABlAGUAcAA3ADgAOQA1ADYAMwBAAGcAbQBhAGkAbAAuAGMAbwBtAA==;Tue, 13 Jun 2023 06:32:54 GMT;QgB1AHMAcwBpAG4AZQBzAHMAIABJAG4AYwByAGUAYQBzAGUAIABPAEYARgBFAFIAIQA=
+x-cr-puzzleid: {79F05068-380C-48E8-94DD-87135B90C06B}
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Business Owner,info@go-onriders.com Want more clients
+    and customers? We have some special offers this season. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.210.196 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [pradeep789563[at]gmail.com]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [pradeep789563[at]gmail.com]
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.196 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0411_01D99DEF.E8F2EF80
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Dear Business Owner,info@go-onriders.com
+
+ 
+
+Want more clients and customers?
+
+ 
+
+We have some special offers this season.
+
+ 
+
+Email us back to get a full proposal.
+
+ 
+
+Thanks!
+
+ 
+
+pradeep gupta,
+
+ 
+
+Online Marketing Consultant
+
+ 
+
+
+------=_NextPart_000_0411_01D99DEF.E8F2EF80
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40">
+
+<head>
+<META HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii">
+<meta name=3DGenerator content=3D"Microsoft Word 12 (filtered medium)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.MsoNoSpacing, li.MsoNoSpacing, div.MsoNoSpacing
+	{mso-style-priority:1;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext=3D"edit">
+  <o:idmap v:ext=3D"edit" data=3D"1" />
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=3DEN-US>
+
+<div class=3DSection1>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'>Dear Business
+Owner,info@go-onriders.com<o:p></o:p></span></p>
+
+<p class=3DMsoNoSpacing style=3D'text-indent:.5in'><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif";background:
+yellow;mso-highlight:yellow'>Want more clients and =
+customers?</span><span
+style=3D'font-family:"Cambria","serif"'><o:p></o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNoSpacing><span style=3D'font-family:"Cambria","serif"'>We =
+have some
+special offers this season.<o:p></o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNoSpacing><b><span =
+style=3D'font-family:"Cambria","serif";color:black'>Email
+us back to get a full proposal.<o:p></o:p></span></b></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'>Thanks!<o:p></o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'>pradeep =
+gupta,<o:p></o:p></span></p>
+
+<p class=3DMsoNoSpacing style=3D'text-indent:.5in'><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'>Online
+Marketing Consultant<o:p></o:p></span></p>
+
+<p class=3DMsoNoSpacing><span =
+style=3D'font-family:"Cambria","serif"'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
+
+------=_NextPart_000_0411_01D99DEF.E8F2EF80--
+

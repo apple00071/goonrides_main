@@ -1,0 +1,237 @@
+Return-Path: <shashi.r@siliconindia.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id eL5xEcEgFmGAcgAAQ+45pw
+	(envelope-from <shashi.r@siliconindia.com>)
+	for <info@go-onriders.com>; Fri, 13 Aug 2021 03:35:29 -0400
+Return-path: <shashi.r@siliconindia.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 13 Aug 2021 03:35:29 -0400
+Received: from mail-ej1-f42.google.com ([209.85.218.42]:43853)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <shashi.r@siliconindia.com>)
+	id 1mERiu-0007bb-65
+	for info@go-onriders.com; Fri, 13 Aug 2021 03:35:29 -0400
+Received: by mail-ej1-f42.google.com with SMTP id b15so16640498ejg.10
+        for <info@go-onriders.com>; Fri, 13 Aug 2021 00:35:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=siliconindia.com; s=google;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=wdQidq2o/mI7FabINqrqgtzvxvt9/K7FH6vd0pLvN0c=;
+        b=fr/TFEb/wVHWSqvOzNVBBKPJ5LNcHSpTRpxohnzo5Li9+2wiVT1mEbZMiqVuX8oAEW
+         BxOiblkv7vjjeg1fLV1nI4U+m3O5PNP/0OVSXfct+yVfhMmvsPT7GqPsvs99+k/KkZce
+         vWFporWjAjsK4l+I+jA+FTBB9mrQLfhg2jZnk=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=wdQidq2o/mI7FabINqrqgtzvxvt9/K7FH6vd0pLvN0c=;
+        b=QYAgKamh0xN6cJZmDHAQOo2DOyQr5Q6Vtfu3/ORB1Nzverai/6vfIHEYououns6ABl
+         27WFuwU+yv4Nm6Zh2oeSUZSTekF4kWxKG5ozhYtKFS6tHq6143efS15KhHOQWRwpGAr8
+         rnUDpP1nijRVJ8/BZue33fvTFWPvm6THn+4ZApbm0SIViTofh98SoxnF5vGDa8oXDXUf
+         rm/k+oYXcDUCFjHXJGegsHNKlgtqddpJsGaen52QTkNG7LE6unl1m8qpfABGJi8cg3p3
+         Am/8Ri/jKjth+e1Q+uENsF3j4xQynQMbtRpOx/wjkRxTcL3KW/Tg2gOZ/iKYRzD5nCIG
+         6OwQ==
+X-Gm-Message-State: AOAM531gSx7EyMAYELAPN1GZaiYwF1FB1L7Def8r/alRN8Xg/v8KQAiK
+	l9nZUeQzhgh9Hv3khi+dFX8y9WKUk62IfmsX7fqmYMgADoDNgQ==
+X-Google-Smtp-Source: ABdhPJzcjuSjxzgiSCDzslUeSXLeQz8EqCdGRdDDqBefa1v8niCNzQxzI5sUaU5mBllS4SU3f963L4G2ni8KdYW+/L0=
+X-Received: by 2002:a17:906:fa92:: with SMTP id lt18mr1155936ejb.359.1628840081883;
+ Fri, 13 Aug 2021 00:34:41 -0700 (PDT)
+MIME-Version: 1.0
+From: Shashi Ranjan <shashi.r@siliconindia.com>
+Date: Fri, 13 Aug 2021 13:04:30 +0530
+Message-ID: <CACmQE5jC-1c1Wj7-JDwo+SOkmw=oqDkSbGSDEErWg2zWDG=G6A@mail.gmail.com>
+Subject: siliconindia startup city Magazine has Shortlisted 'Go On Riders' as
+ "10 Best Online Rental Startups - 2021"
+To: Shaik Mohammad <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000007a467005c96be2b5"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Shaik Mohammad, Greetings from siliconIndia. This is
+   Shashi Ranjan from siliconindia Startup City Magazine from Bangalore. I am
+    glad to inform you that we are coming up with our Annual Edition on "10 Best
+    Online Rent [...] 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: siliconindia.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--0000000000007a467005c96be2b5
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Shaik Mohammad,
+
+Greetings from siliconIndia. This is Shashi Ranjan from siliconindia
+Startup City Magazine from Bangalore. I am glad to inform you that we are
+coming up with our Annual Edition on "10 Best Online Rental Startups -
+2021"  As part of this feature, our Editorial team will honor "10 Best
+Online Rental Startups - 2021".  Apart from this e-magazine will also have
+regular features and opinions from Startup Industry Experts from Travel &
+Tourism, Hospitality, Food & Beverages, Transportation, Apparel & Fashion,
+E-commerce etc.
+
+The phenomenon of renting is not new in India. Renting is economical and
+also gets rid of the tension that comes bundled with ownership. There has
+been a seismic shift towards the renting culture, especially among the
+millennials. For individuals who had to change location every second or
+third year even 20 years back had the need to take materials for everyday
+use on rent. But the renting sector in India until a few years back was
+completely fragmented. With the influx of several online rental companies,
+it is taking a more structured shape, extending its reach and striving to
+include all the merchandise from sharing financial resources to clothing
+and accessories and in rare cases, even pets. Shared economy is the concept
+that is used to address this aspect. It includes peer-to-peer
+accommodation, peer-to-peer finance, music and video streaming, car sharing
+and online stuffing. The sharing economy has the potential to generate $335
+bn revenue in years to come.
+
+A distinguished panel comprising accomplished CEOs, CXOs, VCs, and analysts
+including SiliconIndia editorial board will decide the 10 Best Online
+Rental Startups - 2021. We would like to feature "Go On Riders" in our
+upcoming issue in "10 Best Online Rental Startups - 2021". We have reviewed
+your company details and shortlisted. We do seek a nominal sponsorship
+towards the reprints rights package.
+
+BENEFITS:
+1. Digital reprints rights of one-page Company profile developed by our
+editorial team along with the CEO image which can be included in your
+business promotions.
+2. The profile will be promoted on our website as well as on various social
+media platforms which will help you garner more visibility and make it easy
+to share the link with your people.
+3. The Certificate of Honor will be issued to recognize this honor, as
+compliments of siliconindia magazine and you will have the right to include
+this in all of your press releases/business promotions.
+
+Please do let me know if you would be interested in this and I am candid to
+having a discussion with you.
+
+I look forward to hearing from you.
+
+Best Regards,
+Shashi Ranjan
+Sr.Manager - Business Development
+siliconIndia Startup City Magazine
+Cell:+91 88841 58971
+---------------------------------------------------------------
+CONFIDENTIAL NOTICE:
+This Email transmission contains confidential or legally privileged
+information, which is intended few for the use of the individual or entity
+named in this transmittal. If you are not the intended recipient, you are
+hereby notified that any disclosure, copying, distribution or reliance upon
+the contents of this Email is strictly prohibited. If you received this
+transmission in error, please notify us immediately, and please forward the
+email back to us with the notification that you have deleted the
+transmission from your system.
+
+In case you don't like to receive any further emails from siliconindia,
+please use this link to "[image: unsubscribe]
+<https://www.siliconindia.com/email_unsubscribe_in/QVNWMkpxVDdjblN5bFlza0F4YUl0eWtsV3NIRHBOMko4Rmc0YnJoeXVKOD0=/Q1NJYmg4enVrRkpLaUZISHlRYnVUUT09/0>
+".
+
+--0000000000007a467005c96be2b5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+<div lang=3D"x-unicode">
+<p style=3D"font-family:Georgia;font-size:12px;line-height:1.5">Dear Shaik =
+Mohammad,<br>
+<br>
+Greetings from siliconIndia. This is Shashi Ranjan from siliconindia Startu=
+p City Magazine from Bangalore. I am glad to inform you that we are coming =
+up with our Annual Edition on &quot;10 Best Online Rental Startups - 2021&q=
+uot;=C2=A0 As part of this feature, our Editorial team will honor &quot;10 =
+Best Online Rental Startups - 2021&quot;.=C2=A0 Apart from this e-magazine =
+will also have regular features and opinions from Startup Industry Experts =
+from Travel &amp; Tourism, Hospitality, Food &amp; Beverages, Transportatio=
+n, Apparel &amp; Fashion, E-commerce etc.<br>
+<br>
+The phenomenon of renting is not new in India. Renting is economical and al=
+so gets rid of the tension that comes bundled with ownership. There has bee=
+n a seismic shift towards the renting culture, especially among the millenn=
+ials. For individuals who had to change location every second or third year=
+ even 20 years back had the need to take materials for everyday use on rent=
+. But the renting sector in India until a few years back was completely fra=
+gmented. With the influx of several online rental companies, it is taking a=
+ more structured shape, extending its reach and striving to include all the=
+ merchandise from sharing financial resources to clothing and accessories a=
+nd in rare cases, even pets. Shared economy is the concept that is used to =
+address this aspect. It includes peer-to-peer accommodation, peer-to-peer f=
+inance, music and video streaming, car sharing and online stuffing. The sha=
+ring economy has the potential to generate $335 bn revenue in years to come=
+.<br>
+<br>
+A distinguished panel comprising accomplished CEOs, CXOs, VCs, and analysts=
+ including SiliconIndia editorial board will decide the 10 Best Online Rent=
+al Startups - 2021. We would like to feature &quot;Go On Riders&quot; in ou=
+r upcoming issue in &quot;10 Best Online Rental Startups - 2021&quot;. We h=
+ave reviewed your company details and shortlisted. We do seek a nominal spo=
+nsorship towards the reprints rights package.=C2=A0=C2=A0<br>
+<br>
+BENEFITS:<br>
+1. Digital reprints rights of one-page Company profile developed by our edi=
+torial team along with the CEO image which can be included in your business=
+ promotions.<br>
+2. The profile will be promoted on our website as well as on various social=
+ media platforms which will help you garner more visibility and make it eas=
+y to share the link with your people.<br>
+3. The Certificate of Honor will be issued to recognize this honor, as comp=
+liments of siliconindia magazine and you will have the right to include thi=
+s in all of your press releases/business promotions.<br>
+<br>
+Please do let me know if you would be interested in this and I am candid to=
+ having a discussion with you.<br>
+<br>
+I look forward to hearing from you.<br>
+<br>
+Best Regards,<br>
+Shashi Ranjan<br>
+Sr.Manager - Business Development<br>
+siliconIndia Startup City Magazine<br>
+Cell:+91 88841 58971<br>
+---------------------------------------------------------------<br>
+CONFIDENTIAL NOTICE:<br>
+This Email transmission contains confidential or legally privileged informa=
+tion, which is intended few for the use of the individual or entity named i=
+n this transmittal. If you are not the intended recipient, you are hereby n=
+otified that any disclosure, copying, distribution or reliance upon the con=
+tents of this Email is strictly prohibited. If you received this transmissi=
+on in error, please notify us immediately, and please forward the email bac=
+k to us with the notification that you have deleted the transmission from y=
+our system.<br>
+<br>
+In case you don&#39;t like to receive any further emails from siliconindia,=
+ please use this link to &quot;<a href=3D"https://www.siliconindia.com/emai=
+l_unsubscribe_in/QVNWMkpxVDdjblN5bFlza0F4YUl0eWtsV3NIRHBOMko4Rmc0YnJoeXVKOD=
+0=3D/Q1NJYmg4enVrRkpLaUZISHlRYnVUUT09/0" style=3D"text-decoration:none" tar=
+get=3D"_blank"><img src=3D"https://www.siliconindia.com/mme5n2pvn/hmmiy0mlp=
+pmgg1ahpvbzwcopn_india.php?kyaup2per=3D3695611&amp;kyaup2rec=3Dinfo@go-onri=
+ders.com&amp;kyaup2sen=3Dshashi.r@siliconindia.com&amp;kyaup2mail=3DFirst+M=
+ail&amp;kyaup2pid=3D5070&amp;kyaup2com=3D4475026&amp;jhmmgly0mds=3D0" alt=
+=3D"unsubscribe"></a>&quot;.</p>
+</div>
+</div>
+
+--0000000000007a467005c96be2b5--

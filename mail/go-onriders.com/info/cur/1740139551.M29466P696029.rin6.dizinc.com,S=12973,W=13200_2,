@@ -1,0 +1,227 @@
+Return-Path: <sara@aiwebproservice.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 2Fw4AR9suGfdngoAQ+45pw
+	(envelope-from <sara@aiwebproservice.com>)
+	for <info@go-onriders.com>; Fri, 21 Feb 2025 07:05:51 -0500
+Return-path: <sara@aiwebproservice.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 21 Feb 2025 07:05:51 -0500
+Received: from mail-wr1-f65.google.com ([209.85.221.65]:53465)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <sara@aiwebproservice.com>)
+	id 1tlRmv-00000003Hts-44ha
+	for info@go-onriders.com;
+	Fri, 21 Feb 2025 07:05:50 -0500
+Received: by mail-wr1-f65.google.com with SMTP id ffacd0b85a97d-38de1a5f039so1765979f8f.2
+        for <info@go-onriders.com>; Fri, 21 Feb 2025 04:05:29 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aiwebproservice-com.20230601.gappssmtp.com; s=20230601; t=1740139508; x=1740744308; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=L87QLAC3pgVxw/fhQHi7Bz+T0nW/Zf9AI2eII09RdeU=;
+        b=j6lNgytzzpXLKbm0trWVfES4yHuBAgJkAaCLp6ptX1UUospjT9MHilJpwVodYqiFo7
+         Ec5rHNllJLINm5ikLcrfjBQQ92PpayPVmPgMVpY6OcJMtIXVqBXNJ1+ZnoqbS9OZ8QBu
+         VCOOocu7dDAAn7n0dMStnl8G9eDV+y+ER6RupuP5W2KmtwcBTWCzVnTp72/cBmFE3xBX
+         bLIkXW5YJ9xxVvVMvp4WW8SgOR/8REzZ4msRohQjhFCH0CvCYDpEtxLRVcLWoXDTG/WR
+         frAdi3ESdo3mVLarde5pUPg3r/Sze6uxt/8o9jSddDeHtfeYiEPZkiFs13kXEHYZKLpP
+         EY9g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1740139508; x=1740744308;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=L87QLAC3pgVxw/fhQHi7Bz+T0nW/Zf9AI2eII09RdeU=;
+        b=I2AXeajFuzzfizJ5xhwaVMo/2Z4b3YPx4RAQCWli9KGKl2YvIaf76stennkcdVKvIt
+         TXx3CaZ0F9HmKTDLmcdYewYftaxI8m8h/S1d9LhEAFAVnsw7Ufn7lmbAKTtEkMYVAMeb
+         MuAUaNVTogQzQiiRfx/ivAmTxPfaCOyFYkKYZEjocIsNdZNY/rfF/1UPTiQyIbvrwR1G
+         dD3uIA124rPtucxfaaimkGxg9S/rC30iMQ+hB3R7qO0mIhsqNAfZvdVBsWaIz19Q8wOx
+         7ozvRuw8RS85soBfM64AhJW56p7/KehuYpUVPoUnqgGAw9Bmt9jRbmWj3wU5L51milpx
+         OAKQ==
+X-Gm-Message-State: AOJu0YyH6iIZvRXLpFqNAXBFGDgdi4wU+7GhWiTxiGEPVJmgD9vAhPaw
+	3CMOiE3/iBO2u9qdXL8KbAaxvbl8hrEokUWSQrvCILEdp0I879FD/K5bADtvLccNYk+1UEFDS+/
+	FLeZNIzbaAxIHVNNxgBPJYn0/DP3SZApiaky/OaVXWbbh+bvBscYNhA==
+X-Gm-Gg: ASbGncuBUTm57uprj+0UxC4BLf9PfPjbdwQUuGsNr0NQRuolq01+PG7xPZKv/AHf/gz
+	n4Qq9wq6W7VNPqDHjRP/RhpW5MYR4/2fXLyT50HIG36SSdR6hCb+Tb9v/T6BjtoAAr11+iEZG6D
+	zR/4ixxsJglOosvrlTi/3j+gPXIIDDxzjJSBKzQtk=
+X-Google-Smtp-Source: AGHT+IHdGvtSojvOJD20G0cqdKCCvlyA3Q8IeUWfie4NE+eKxQBM1PXnAbIzW+c4FhtsUSk5f4YfnDb8MYbMj+PxauE=
+X-Received: by 2002:a5d:6daa:0:b0:38f:3791:c1df with SMTP id
+ ffacd0b85a97d-38f6e95bd45mr2862071f8f.15.1740139507702; Fri, 21 Feb 2025
+ 04:05:07 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 21 Feb 2025 06:05:06 -0600
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Fri, 21 Feb 2025 06:05:06 -0600
+MIME-Version: 1.0
+Sender: Sara <sara@aiwebproservice.com>
+From: Sara <sara@aiwebproservice.com>
+Date: Fri, 21 Feb 2025 06:05:06 -0600
+X-Google-Sender-Auth: KtQJj2CwH1vor1qX_Z7Ic_dX9ag
+X-Gm-Features: AWEUYZmYUEUg_Jo7-FwI9rHlh7ZtXbjQpcDXPAqZSqjN7hh1AZlAzTjv3wTleqc
+Message-ID: <CA+KR=srNoHsgHCjbR-1v9oO6NJsSz7oNYwaN8ioNLVbwB0eUdg@mail.gmail.com>
+Subject: Re: Make sure your go-onriders.com is crawl-able by search engines.
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000376b22062ea5cd9c"
+X-MagicSpam-TUUID: 28a4644d-f5b4-4550-b750-92940e855daa
+X-MagicSpam-SUUID: f9282a43-48af-4f12-b4ae-d57f882911d3
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello *go-onriders.com <https://aiwebproservice-dot-yamm-track.appspot.com/26FqBZUJgncgBz4-3IgJnaZ4eGTGVNzAHacFcvy8MYjQNqWUolQHU_2dJLrc46yuHGnUSojLLEix4Twvnf1OUwyyr4p3-BTheaT_q9p63ChZElfmjxhs49QT5xdfG
+    [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.221.65 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.221.65 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.221.65 listed in bl.score.senderscore.com]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--000000000000376b22062ea5cd9c
+Content-Type: text/plain; charset="UTF-8"
+
+Hello *go-onriders.com
+<https://aiwebproservice-dot-yamm-track.appspot.com/26FqBZUJgncgBz4-3IgJnaZ4eGTGVNzAHacFcvy8MYjQNqWUolQHU_2dJLrc46yuHGnUSojLLEix4Twvnf1OUwyyr4p3-BTheaT_q9p63ChZElfmjxhs49QT5xdfGpvrM6QFzN6fDselpRLUvu-CvhRI0q8dltyV2RZrLjPSJ6UdseservfdF>*
+,
+Good morning
+
+
+I was going through your website & I personally see a lot of potential in
+your website & business.
+
+
+With your permission I would like *to* *send you an Audit report of
+your **go-onriders.com
+<https://aiwebproservice-dot-yamm-track.appspot.com/2dO30T77zJBY93G00Py2cG2vjZVfpI4-aCVWfn_KtHeEQqWUolQHrOaj_klr_--b3qtGjMelRt_N8MnLOROTUnCFzyuU4rC9oP37tA-WUkOiawUdNYtN1Crg9F9N5Q8R79vPeRiU23WGWcF392oqEi4yMyanYkAcEp0KIqNleYafwfaaAxd-m>*
+, with prices showing you a few things to greatly improve these search
+results for you.
+
+
+These things are not difficult, and my report will be very specific. It
+will show you exactly what needs to be done to move you up in the rankings
+dramatically.
+
+
+We can place your website on Google's 1st page (Yahoo, etc.).
+
+
+*May I send you a quote? If you are interested!   *
+
+
+Waiting for your reply
+
+*Regards,*
+
+*Sara*
+*Business Development Manager.*
+
+
+*------------------------------------------------------------------------*
+*PS1:* -If you are* interested* please email me asking *"Send me Issue
+Report & quote"*
+[image: beacon]
+
+--000000000000376b22062ea5cd9c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr">
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:12.65pt"><s=
+pan style=3D"font-family:Calibri,sans-serif;font-size:18px">Hello=C2=A0</sp=
+an><b style=3D"font-family:Calibri,sans-serif;font-size:18px"><a href=3D"ht=
+tps://aiwebproservice-dot-yamm-track.appspot.com/26FqBZUJgncgBz4-3IgJnaZ4eG=
+TGVNzAHacFcvy8MYjQNqWUolQHU_2dJLrc46yuHGnUSojLLEix4Twvnf1OUwyyr4p3-BTheaT_q=
+9p63ChZElfmjxhs49QT5xdfGpvrM6QFzN6fDselpRLUvu-CvhRI0q8dltyV2RZrLjPSJ6Udsese=
+rvfdF" rel=3D"nofollow">go-onriders.com</a></b><span style=3D"font-family:C=
+alibri,sans-serif;font-size:18px">,=C2=A0</span></p><div style=3D"margin:0c=
+m 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif">Good =
+morning=C2=A0</font></div><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.=
+0001pt;line-height:normal"><font face=3D"verdana, sans-serif">=C2=A0</font>=
+</p><div style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D=
+"verdana, sans-serif"><span style=3D"border:1pt windowtext;padding:0cm">I w=
+as going through your website &amp; I personally see a lot of potential in =
+your website &amp; business.</span>=C2=A0</font></div><p class=3D"MsoNormal=
+" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdan=
+a, sans-serif">=C2=A0</font></p><div style=3D"margin:0cm 0cm 0.0001pt;line-=
+height:normal"><font face=3D"verdana, sans-serif"><span style=3D"border:1pt=
+ windowtext;padding:0cm">With your permission I would like=C2=A0<b>to</b>=
+=C2=A0</span><b><span style=3D"color:rgb(0,176,80);border:1pt windowtext;pa=
+dding:0cm">send you an Audit report of your=C2=A0</span></b></font><b style=
+=3D"font-family:Calibri,sans-serif;font-size:18px"><a href=3D"https://aiweb=
+proservice-dot-yamm-track.appspot.com/2dO30T77zJBY93G00Py2cG2vjZVfpI4-aCVWf=
+n_KtHeEQqWUolQHrOaj_klr_--b3qtGjMelRt_N8MnLOROTUnCFzyuU4rC9oP37tA-WUkOiawUd=
+NYtN1Crg9F9N5Q8R79vPeRiU23WGWcF392oqEi4yMyanYkAcEp0KIqNleYafwfaaAxd-m" rel=
+=3D"nofollow">go-onriders.com</a></b><span style=3D"font-family:Calibri,san=
+s-serif;font-size:18px">,=C2=A0</span><span style=3D"font-family:verdana,sa=
+ns-serif;border:1pt windowtext;padding:0cm">with prices showing you a few t=
+hings to greatly improve these search results for you.=C2=A0</span><span st=
+yle=3D"font-family:verdana,sans-serif">=C2=A0</span></div><p class=3D"MsoNo=
+rmal" style=3D"margin:0cm 0cm 0.0001pt;text-indent:36pt;line-height:normal"=
+><font face=3D"verdana, sans-serif">=C2=A0</font></p><div style=3D"margin:0=
+cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif"><spa=
+n style=3D"border:1pt windowtext;padding:0cm">These
+ things are not difficult, and my report will be very specific. It will=20
+show you exactly what needs to be done to move you up in the rankings=20
+dramatically.=C2=A0</span>=C2=A0</font></div><p class=3D"MsoNormal" style=
+=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, sans=
+-serif">=C2=A0</font></p><div style=3D"margin:0cm 0cm 0.0001pt;line-height:=
+normal"><font face=3D"verdana, sans-serif"><span style=3D"border:1pt window=
+text;padding:0cm">We can place your website on Google&#39;s 1st page (Yahoo=
+, etc.).</span>=C2=A0</font></div><p class=3D"MsoNormal" style=3D"margin:0c=
+m 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, sans-serif">=C2=
+=A0</font></p><div style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><fo=
+nt face=3D"verdana, sans-serif"><b><span style=3D"color:rgb(0,176,240);bord=
+er:1pt windowtext;padding:0cm">May I send you a quote? If you are intereste=
+d!=C2=A0=C2=A0=C2=A0</span></b>=C2=A0</font></div><p class=3D"MsoNormal" st=
+yle=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><font face=3D"verdana, s=
+ans-serif">=C2=A0=C2=A0</font></p><div style=3D"margin:0cm 0cm 0.0001pt;lin=
+e-height:normal"><font face=3D"verdana, sans-serif"><span style=3D"border:1=
+pt windowtext;padding:0cm">Waiting for your reply</span>=C2=A0</font></div>=
+<div style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><b><font face=3D"=
+verdana, sans-serif"><br></font></b></div><div style=3D"margin:0cm 0cm 0.00=
+01pt;line-height:normal"><b><font face=3D"verdana, sans-serif">Regards,</fo=
+nt></b></div><div style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><b><=
+font face=3D"verdana, sans-serif"><br></font></b></div><div style=3D"margin=
+:0cm 0cm 0.0001pt;line-height:normal"><span style=3D"color:rgba(0,0,0,0.87)=
+;font-family:&quot;Google Sans&quot;,Roboto;text-align:center;background-co=
+lor:rgb(233,238,246)"><b><font size=3D"4">Sara</font></b></span></div><div =
+style=3D"margin:0cm 0cm 0.0001pt;line-height:normal"><b style=3D"font-famil=
+y:verdana,sans-serif">Business Development Manager.</b></div><p class=3D"Ms=
+oNormal" style=3D"margin:0cm 0cm 10pt;line-height:12.65pt"><font face=3D"ve=
+rdana, sans-serif"><b>-----------------------------------------------------=
+-------------------<br></b></font><font face=3D"verdana, sans-serif"><b>PS1=
+:</b>=C2=A0-If you are<b>=C2=A0interested</b>=C2=A0please email me asking=
+=C2=A0</font><b><font face=3D"verdana, sans-serif">&quot;Send me=C2=A0Issue=
+ Report &amp; quote&quot;</font></b></p>
+
+</div></div>
+</div>
+<img src=3D"https://aiwebproservice-dot-yamm-track.appspot.com/2I57yvVe60mR=
+z5ccd3914GYpHG-9Ua7YUrkHWj38q2wEIqWUolQG7guxRafu7RzNxkoPoGGO39RRc88VSB-Rkgn=
+AnRsMk_M7JfSu0ZNj9XNU3CEnWGXS7S51s-VBn3_1HkGB16ccKTdk4w2utRrByXsHPQ42JNeRsT=
+_X3hsU" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; disp=
+lay:none!important;">
+
+--000000000000376b22062ea5cd9c--

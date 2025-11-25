@@ -1,0 +1,68 @@
+Delivered-To: info@go-onriders.com@external
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=my.com; s=mail;
+	h=References:In-Reply-To:Content-Type:Message-ID:Reply-To:Date:MIME-Version:Subject:To:From:From:Subject:Content-Type:Content-Transfer-Encoding:To:Cc; bh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+	b=lkDP+tU5IeeHHymdEz7/j00E/R/GNc6/GxLfGZ+7PrO0uTyY22M0SCHQU93Dykg6RM4ZzG+6nFgqURqvo3ziMc5b5ekWR33e2t4hrTzUhW4cb1OU7usaZbPgwg0b0qcwZdvNrUpGChWQQ+sYWNtIN1iPk8GgZOu/AludFXz2p9E=;
+Return-path: <info@go-onriders.com>
+Received: by f36.my.com with local (envelope-from <info@go-onriders.com>)
+	id 1ktafl-0001uo-O0
+	for info@go-onriders.com; Sun, 27 Dec 2020 21:21:41 +0300
+Received: by e-aj.my.com with HTTP;
+	Sun, 27 Dec 2020 21:21:40 +0300
+From: info@go-onriders.com
+To: goonriders@rin6.dizinc.com
+Subject: =?UTF-8?B?UmU6IENvbnRhY3R1cw==?=
+MIME-Version: 1.0
+X-Mailer: My.com Mailer 1.0
+Date: Sun, 27 Dec 2020 21:21:40 +0300
+X-Letter-Fingerprint: yKDDiCGbFUEnkUG0QNq9Gyw9pexetazF
+X-Priority: 3 (Normal)
+Reply-To: info@go-onriders.com
+Message-ID: <1609093300.272718813@f36.my.com>
+Content-Type: multipart/alternative;
+	boundary="--ALT--dqYeIrOwtjY4CyEci37fumfoJ07VzZe31609093300"
+In-Reply-To: <E1ktaYe-0002tE-I7@rin6.dizinc.com>
+References: <E1ktaYe-0002tE-I7@rin6.dizinc.com>
+X-Mailru-Intl-Transport: d,4f36b03
+X-Append-Orig-Uidl: 500000,16090933010000000629
+
+
+----ALT--dqYeIrOwtjY4CyEci37fumfoJ07VzZe31609093300
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: base64
+
+Ckluc2hhYWxsYWggc2VlIG15IHdlYnNpdGUgY2xlYXJseSBpIGhhdmUgbGlzdGVkIHRoZSBiaWtl
+cyAKLS0KU2VudCBmcm9tIE91dGxvb2sgRW1haWwgQXBwIGZvciBBbmRyb2lkIFN1bmRheSwgMjcg
+RGVjZW1iZXIgMjAyMCwgMTE6NDRwbSArMDU6MzAgZnJvbSAgZ29vbnJpZGVyc0ByaW42LmRpemlu
+Yy5jb20gOgoKPgo+RGVhciBBZG1pbi4KPgo+QSBuZXcgdXNlciBzdWJtaXR0ZWQgYW4gZW5xdWly
+eSBkYXRhIHdpdGggdGhlIGZvbGxvd2luZyBkZXRhaWxzLgo+Cj7CoMKgwqDCoMKgTmFtZSAgICAg
+ICAgOiBBeWVzaGEgU2hhaWsKPgo+wqDCoMKgwqDCoEVtYWlsICAgICAgIDogIHJlaG51bWE2NkBn
+bWFpbC5jb20KPgo+wqDCoMKgwqDCoE1vYmlsZSBOdW1iZXIgICAgIDogOTQ5Mzk1Mjg2Ngo+Cj7C
+oMKgwqDCoMKgQ29tbWVudHMgICAgOiBQbHMgbGlzdCBvdXQgdGhlIGJpa2VzIGZvciByZW50PyAK
+Pgo+wqDCoMKgwqAK
+----ALT--dqYeIrOwtjY4CyEci37fumfoJ07VzZe31609093300
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+
+CjxIVE1MPjxCT0RZPjxwIHN0eWxlPSJtYXJnaW4tdG9wOiAwcHg7IiBkaXI9Imx0ciI+SW5zaGFh
+bGxhaCBzZWUgbXkgd2Vic2l0ZSBjbGVhcmx5IGkgaGF2ZSBsaXN0ZWQgdGhlIGJpa2VzIDwvcD4g
+CjxkaXYgaWQ9Im1haWwtYXBwLWF1dG8tZGVmYXVsdC1zaWduYXR1cmUiPgogPHAgZGlyPSJsdHIi
+Pi0tPGJyPiBTZW50IGZyb20gT3V0bG9vayBFbWFpbCBBcHAgZm9yIEFuZHJvaWQ8L3A+CjwvZGl2
+PlN1bmRheSwgMjcgRGVjZW1iZXIgMjAyMCwgMTE6NDRwbSArMDU6MzAgZnJvbSA8YSBocmVmPSJt
+YWlsdG86Z29vbnJpZGVyc0ByaW42LmRpemluYy5jb20iPmdvb25yaWRlcnNAcmluNi5kaXppbmMu
+Y29tPC9hPjo8YnI+PGJyPjxibG9ja3F1b3RlIGlkPSJtYWlsLWFwcC1hdXRvLXF1b3RlIiBjaXRl
+PSIxNjA5MDkyODYwMDAwMDAwMDAwMyIgc3R5bGU9ImJvcmRlci1sZWZ0OjFweCBzb2xpZCAjMDg3
+OEJEOyBtYXJnaW46MHB4IDBweCAwcHggMTBweDsgcGFkZGluZzowcHggMHB4IDBweCAxMHB4OyI+
+CgkKCgoKICAgIAoKCgoKCgoKCgoJCgkKCgoJCgkKCQoJCgkKCgkKCQoKCQoJCgoKCjxkaXYgY2xh
+c3M9ImpzLWhlbHBlciBqcy1yZWFkbXNnLW1zZyI+Cgk8c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwv
+c3R5bGU+CiAJPGRpdiA+CgkJPGJhc2UgdGFyZ2V0PSJfc2VsZiIgaHJlZj0iaHR0cHM6Ly9lLWFq
+Lm15LmNvbS8iIC8+CgkJCgkJCTxkaXYgaWQ9InN0eWxlXzE2MDkwOTI4NjAwMDAwMDAwMDAzX0JP
+RFkiPjxicj4KCSBEZWFyIEFkbWluLjxicj4KPGJyPgoJIEEgbmV3IHVzZXIgc3VibWl0dGVkIGFu
+IGVucXVpcnkgZGF0YSB3aXRoIHRoZSBmb2xsb3dpbmcgZGV0YWlscy48YnI+Cjxicj4KwqDCoMKg
+wqDCoE5hbWUgICAgICAgIDogQXllc2hhIFNoYWlrPGJyPgo8YnI+CsKgwqDCoMKgwqBFbWFpbCAg
+ICAgICA6IDxhIGhyZWY9Im1haWx0bzpyZWhudW1hNjZAZ21haWwuY29tIj5yZWhudW1hNjZAZ21h
+aWwuY29tPC9hPjxicj4KPGJyPgrCoMKgwqDCoMKgTW9iaWxlIE51bWJlciAgICAgOiA5NDkzOTUy
+ODY2PGJyPgo8YnI+CsKgwqDCoMKgwqBDb21tZW50cyAgICA6IFBscyBsaXN0IG91dCB0aGUgYmlr
+ZXMgZm9yIHJlbnQ/ICA8YnI+Cjxicj4KwqDCoMKgwqA8YnI+CjwvZGl2PgoJCQkKCQkKCQk8YmFz
+ZSB0YXJnZXQ9Il9zZWxmIiBocmVmPSJodHRwczovL2UtYWoubXkuY29tLyIgLz4KCTwvZGl2PgoK
+CQo8L2Rpdj4KCgo8L2Jsb2NrcXVvdGU+PC9CT0RZPjwvSFRNTD4K
+----ALT--dqYeIrOwtjY4CyEci37fumfoJ07VzZe31609093300--

@@ -1,0 +1,207 @@
+Return-Path: <jessicaturner@converthinksales.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id qiJaEiDcPGSIQAAAQ+45pw
+	(envelope-from <jessicaturner@converthinksales.com>)
+	for <info@go-onriders.com>; Mon, 17 Apr 2023 01:41:52 -0400
+Return-path: <jessicaturner@converthinksales.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 17 Apr 2023 01:41:52 -0400
+Received: from mail-lj1-f196.google.com ([209.85.208.196]:34596)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <jessicaturner@converthinksales.com>)
+	id 1poHcd-0004C9-56
+	for info@go-onriders.com;
+	Mon, 17 Apr 2023 01:41:52 -0400
+Received: by mail-lj1-f196.google.com with SMTP id x34so11735970ljq.1
+        for <info@go-onriders.com>; Sun, 16 Apr 2023 22:41:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=converthinksales.com; s=google; t=1681710067; x=1684302067;
+        h=to:subject:message-id:date:reply-to:from:sender:mime-version:from
+         :to:cc:subject:date:message-id:reply-to;
+        bh=GFjwj/f8QnIi+I71nf4GrwTpctFxmjbKSmDd0qFiWeg=;
+        b=j4gzhWF8SLSJLTSs8vsbQyqAZvXWto5lgLA+F6/VQtoUNIU/z0os6eFApoyenmfzSc
+         5r7u9iaqoSvJpqnIx8zPJzP4VsV4LwQfnXkvJsJsaZnboy9baS36t0jDZnOtAqEnxmxY
+         lg1Unyi4jDjXkQwKTlTlxhi5qxKrsBTtkLXa0=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1681710067; x=1684302067;
+        h=to:subject:message-id:date:reply-to:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=GFjwj/f8QnIi+I71nf4GrwTpctFxmjbKSmDd0qFiWeg=;
+        b=RszwhcRJ49ohLBI4u0ZgYVajw03hn4auoHI7rghXx2l0bQznSILTjEUNMJStEu+OgP
+         pUPXSaOOW3bm16l441u/BaMLoc3vpe86GG4JZIeld1TFA6rL1xgfFGL7mDfkpmqLUNC5
+         yzh4AZ8bSEhUywfihAwJDN3TrerGQmPgm/od76puHazzbk6HV0VZNI3ZOTt2yJRL8q0E
+         vGtJ4JQ3eAtzQiR4z98e/QoZWQjdEqGD636vwT1goLiA/f9aB14loKzR7LY0t5QFWhVR
+         II/+/pbpu7GHABDCqQJkluE7nCOYvpYoRYWOqWCkDOi3fFUVtOuk73OgS/RRhoEDq11j
+         ri8w==
+X-Gm-Message-State: AAQBX9dR/jI5rrUb/y3iSpvoaKCVytF4jJ1U5kXd1ZTePWKrhnwY19CG
+	8d8bi+24iJC8D0G+HVEkb7+fWKPFy3qPokab9BJw+AD5ymE01SZtOnc=
+X-Google-Smtp-Source: AKy350a9k38Uig8mbEozSUJwrmo4elj++v+d7VO1YmCG/oXP4oVWD24r5iPLcnhSE84nTS/XtpwfLZaP6D9dgcMIqWc=
+X-Received: by 2002:a2e:b889:0:b0:2a7:fa34:6c40 with SMTP id
+ r9-20020a2eb889000000b002a7fa346c40mr5011954ljp.4.1681710067338; Sun, 16 Apr
+ 2023 22:41:07 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 16 Apr 2023 22:41:04 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 16 Apr 2023 22:41:03 -0700
+MIME-Version: 1.0
+Sender: Jessica <jessicaturner@converthinksales.com>
+From: Jessica <jessicaturner@converthinksales.com>
+Reply-To: sales@converthink.com
+Date: Sun, 16 Apr 2023 22:41:04 -0700
+X-Google-Sender-Auth: EieD3TGlqykpZN12-7U_UKHj_ac
+Message-ID: <CANY1jjmjk13w8QiSmkSAKjNhkc5gu81fDCavgS+PUqAyL+XXnw@mail.gmail.com>
+Subject: drive your online business
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000002de47a05f981a36b"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi go-onriders.com Team, Hope you are doing well today. For
+    your better business outcome let me just ask you some straight questions.
+    
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.208.196 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.196 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--0000000000002de47a05f981a36b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi go-onriders.com Team,
+
+Hope you are doing well today.
+
+
+For your better business outcome let me just ask you some straight
+questions.
+
+Has your website been getting enough organic traffic?
+
+Does your business fail to attract your customers as it did once?
+
+Does your business not rank in the top search results?
+
+ If you realize that your business lacks somewhere then let's solve it and
+move towards the path of success and growth just the way you had imagined.
+Let's make your vision a reality!
+
+
+Let me know your thoughts and if possible give me the best time to make
+further discussion.
+
+
+Kind Regards,
+
+Jessica
+
+Web Analyst
+
+*--------------------------------------------------------------------------=
+*
+
+*Note: *if you are interested, then I can send you *=E2=80=9CProposal and
+Pricelist"*
+[image: beacon]
+
+--0000000000002de47a05f981a36b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;li=
+ne-height:normal;font-size:11pt;font-family:Calibri,sans-serif"><span style=
+=3D"font-size:12pt;font-family:&quot;Times New Roman&quot;,serif">Hi
+<a href=3D"http://go-onriders.com">go-onriders.com</a> Team,<br>
+<br>
+Hope you are doing well today.<br>
+<br>
+<br>
+For your better business outcome let me just ask you some straight question=
+s.<br>
+<br>
+Has your website been getting enough organic traffic?<br>
+<br>
+Does your business fail to attract your customers as it did once?<br>
+<br>
+Does your business not rank in the top search results?<br>
+<br>
+=C2=A0If you realize that your business lacks somewhere then let&#39;s solv=
+e it and
+move towards the path of success and growth just the way you had imagined.
+Let&#39;s make your vision a reality!<br>
+<br>
+<br>
+Let me know your thoughts and if possible give me the best time to make fur=
+ther
+discussion.=C2=A0=C2=A0<br clear=3D"all">
+</span></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-hei=
+ght:normal;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"fo=
+nt-size:12pt;font-family:&quot;Times New Roman&quot;,serif"><br></span></p>=
+<p style=3D"margin:0in 0in 0.0001pt;text-align:justify;background-image:ini=
+tial;background-position:initial;background-size:initial;background-repeat:=
+initial;background-origin:initial;background-clip:initial;font-size:12pt;fo=
+nt-family:&quot;Times New Roman&quot;,serif">Kind
+Regards,</p><p style=3D"margin:0in 0in 0.0001pt;text-align:justify;backgrou=
+nd-image:initial;background-position:initial;background-size:initial;backgr=
+ound-repeat:initial;background-origin:initial;background-clip:initial;font-=
+size:12pt;font-family:&quot;Times New Roman&quot;,serif">Jessica</p><p styl=
+e=3D"margin:0in 0in 0.0001pt;text-align:justify;background-image:initial;ba=
+ckground-position:initial;background-size:initial;background-repeat:initial=
+;background-origin:initial;background-clip:initial;font-size:12pt;font-fami=
+ly:&quot;Times New Roman&quot;,serif">Web
+Analyst</p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-hei=
+ght:normal;font-size:11pt;font-family:Calibri,sans-serif"><b><span style=3D=
+"font-size:12pt;font-family:Verdana,sans-serif">---------------------------=
+-----------------------------------------------</span></b><span style=3D"fo=
+nt-size:12pt;font-family:&quot;Times New Roman&quot;,serif"></span></p><p c=
+lass=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal">
+
+
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:nor=
+mal;font-size:11pt;font-family:Calibri,sans-serif"><b><span style=3D"font-s=
+ize:12pt;font-family:Verdana,sans-serif">Note: </span></b><span style=3D"fo=
+nt-size:15pt;font-family:Helvetica,sans-serif;color:rgb(32,33,36);backgroun=
+d-image:initial;background-position:initial;background-size:initial;backgro=
+und-repeat:initial;background-origin:initial;background-clip:initial">if yo=
+u are interested, then I can send you </span><b><span style=3D"font-size:12=
+pt;font-family:Verdana,sans-serif">=E2=80=9CProposal and
+Pricelist&quot;</span></b><span style=3D"font-size:12pt;font-family:&quot;T=
+imes New Roman&quot;,serif"></span></p></div>
+<img src=3D"https://converthinksales-dot-yamm-track.appspot.com/21syA5-WEFx=
+mjKXN5V8BY9HCdgGYwfbPbZY_O0FnIUIjdHbuNhwHc83RKya6nKHY0fknS8hj9UjkS0eCMZy2m1=
+xjIlsfQnwP_ij91ADfSWnmiKt2YuhcmBUuKucJ5BVYkQlzuLt7oL8UvSVWShePu9mi3kCZX_cNX=
+-T2D9sivpiA" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none;=
+ display:none!important;">
+
+--0000000000002de47a05f981a36b--

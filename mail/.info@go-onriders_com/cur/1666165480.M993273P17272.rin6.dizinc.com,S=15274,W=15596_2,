@@ -1,0 +1,322 @@
+Return-Path: <planetelectrolabs@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id YPWrOuiqT2N4QwAAQ+45pw
+	(envelope-from <planetelectrolabs@gmail.com>)
+	for <info@go-onriders.com>; Wed, 19 Oct 2022 03:44:40 -0400
+Return-path: <planetelectrolabs@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 19 Oct 2022 03:44:40 -0400
+Received: from mail-pf1-f179.google.com ([209.85.210.179]:43703)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <planetelectrolabs@gmail.com>)
+	id 1ol3kl-0004j3-3U
+	for info@go-onriders.com;
+	Wed, 19 Oct 2022 03:44:40 -0400
+Received: by mail-pf1-f179.google.com with SMTP id 204so16440459pfx.10
+        for <info@go-onriders.com>; Wed, 19 Oct 2022 00:44:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=OY4AFE8HJb0I9Cy+RjXIqBLGrPJaheNs6X9UWi2mDqQ=;
+        b=NkOUCyAVIS5VUZLL8KEx1908Sddc1hDtWXmPbpYQMqJzUimK+XR7UuxPoKwvFnT4Xl
+         luIw4QlvmxwNqhRXkYJ5MPnEThl4D6RX7mqQFU756bsBOcr8C/VBSUXlJfGxQj7LviCe
+         5/5g00o2dbCvrsXE0cPk597FE7kC4W4h8DI3KxfA9IgWKqrun6QUhyiFIhZAjGBH5WHe
+         nChHApsTDOL4hhe4+/guFXmWa+EPt6dpo6TzlvusveLg2Omwx8MXT0Isbaak9MWJ/x37
+         L0euhQRaOCLpGdrPqIFQ8eUn6mV5U9LJwCxfUF5AZKeb1onEI2Ky6Cetsf/eoB70vfbx
+         DewQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=OY4AFE8HJb0I9Cy+RjXIqBLGrPJaheNs6X9UWi2mDqQ=;
+        b=P1A+EooaJrZzg4h/CqXREZ+Aoe1S+bnjInhzRJbMc6EsRhHr/3Z+azhHGQQgiAgh9x
+         lJoXTzVTa/V13RKxoA5YJMjDlH1tEGpRVTR+Re9mrKoRFOSXH0WgUhvICF/XiNOIYOa9
+         wwuh/gfSTlnMmhBgkCi2i9HR/PA7mAjKNZ3LvUr3BzHlIVwWJnfBQglQyi+qq/jPM6Ys
+         xK3e1LRap5nUByieA0soKKq+jJOi+C+rb9gin2AjZQU0p7KznUnZZJXMVe0vsZ64UONd
+         OD44ZVGZW4xaD9AhCRkcP11+6RB6T6Qq4nDJx3Z1dONcxP5TnEjUY+NbOU9B6Xzzv5YS
+         cUkw==
+X-Gm-Message-State: ACrzQf3cpLnHz5elSRZ3AIN0bFIjvnzSEwS4a3QISl6YUPwcwpP+yN6S
+	vx1PF1mL/YO9Dm6l2nduS96rQnFhFQggd1h8iyADROel7BU=
+X-Google-Smtp-Source: AMsMyM5Zw+6SFFQgV4+A+ympuRDUFkC6gc7BYL1/20aIUWbpmavZDFDwnujuSdBu+tRGP7iWMu57YSZyz3HIkE38T94=
+X-Received: by 2002:a63:4506:0:b0:44b:5e43:beb6 with SMTP id
+ s6-20020a634506000000b0044b5e43beb6mr6285564pga.576.1666165437617; Wed, 19
+ Oct 2022 00:43:57 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAMBW=Nfa0eCViLxx+0Q0w-T9ZkQnn1WPSh+yL8-swHGTLyKfkA@mail.gmail.com>
+ <CAMBW=NdzCJ8SEkppSpUDpaPeLWvxDqi6DhZtB--UvaA9WmrG7Q@mail.gmail.com>
+In-Reply-To: <CAMBW=NdzCJ8SEkppSpUDpaPeLWvxDqi6DhZtB--UvaA9WmrG7Q@mail.gmail.com>
+From: Planet Electro Labs <planetelectrolabs@gmail.com>
+Date: Wed, 19 Oct 2022 13:13:46 +0530
+Message-ID: <CAMBW=Nc7CHJkcZgU0UrrycoBSvBX1OHY4SCGG6M4gqWtUK6Ndg@mail.gmail.com>
+Subject: TESTING LABORATORY SOLUTIONS
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="0000000000000bd9a705eb5e5f6b"
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  *Respected Sir/Madam,* Greetings from Planet Electro Labs!
+    It has always been a pleasure to introduce ourselves to the industry contributing
+    to the market. 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.210.179 listed in list.dnswl.org]
+  0.5 SUBJ_ALL_CAPS          Subject is all capitals
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [planetelectrolabs[at]gmail.com]
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.179 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  1.0 FREEMAIL_REPLY         From and body contain different freemails
+X-Spam-Flag: NO
+
+--0000000000000bd9a705eb5e5f6b
+Content-Type: text/plain; charset="UTF-8"
+
+*Respected Sir/Madam,*
+
+Greetings from Planet Electro Labs!
+
+It has always been a pleasure to introduce ourselves to the industry
+contributing to the market.
+
+We introduce ourselves, starting from a testing laboratory, providing the
+complete solutions for the product development and finally completing it by
+providing the solutions for the market which includes the testing,
+developing the product, debugging for their safety and performance
+parameters and certifying them as per the market requirement.
+
+*Being experienced laboratory in BIS/national market, ISO 17025 testing
+market, defense markets, electrical, electronics market, providing testing
+and certifications,*
+
+>TEC(Telecommunication)
+>BIS(Bureau of Indian Standards)
+>BEE(Bureau of Energy Efficiency)
+>EESL(Energy Efficiency Service Limited)
+*>ARAI(Automotive org)*
+>DRDO(Defense)
+>AI
+>MIL STD standards(Military standards-EMI/EMC and Environmental standards)
+>WPC/RF tests(Radio Frequency tests)
+>Fields covering railways, airport, navy, army, petroleum,
+>MNRE tests solutions
+>DGCA(For Multirotor, Linear, Hybrid Drones Categories)
+>MCA(Security Clearance)
+
+
+
+
+*Covering following products*
+>IT and electronics equipment
+>Battery equipment
+>Lighting products and accessories
+>PV/Solar modules
+>Drones/copters
+*>EVs/EV charging stations*
+>Electrical products
+>Telecommunication equipment
+
+
+
+*Having Tests highlights,*
+*>IP tests*
+*>HV tests*
+>Mechanical, Impact tests
+>EMI/EMC tests
+>SAFETY tests
+>Performance tests
+>LM79 test parameters, intensity tests, *efficiency tests*
+>RF tests
+>Solar tests
+*>Water testing*
+*>Environmental tests*
+>Temperature tests
+>SAR tests
+>Telecommunication testing
+>ROHS testing and certification solutions
+
+
+*Having Ongoing Solutions,*
+>Import testing complete solutions
+>Manufacturing testing solutions
+>Surveillance tests solutions
+>Supply compliance testing solutions
+>Custom/Import certification solutions
+
+
+
+*Having sectors,*
+
+>Tender market
+>Govt/Private customer market - test report compliance-testing and
+certification compliance
+>International/Export certification services
+
+
+Flexibility as per the national and  international standards provided from
+the laboratory ends in order, simultaneously updating the government and
+private organizations for the standard requirements, supporting the
+national markets for the development of the nation, nationally and
+internationally.
+
+
+
+*For the International/Export markets,*
+
+>Having services for the international testing and certification markets,
+>AI/UL/FCC/CE/CB and other certifications for the respective countries
+
+
+*Having standards followed as,*
+
+>Indian standards
+>AI standards
+>IEC standards
+>BS standards
+>ETSI EN standards
+>EN standards
+>AIS standards
+>UN standards
+>UL standards
+>BIS standards
+>Telecommunication standards followed nationally and internationally.
+
+
+Working in collaboration with the government and private organizations.
+
+Please mail us for completion of your testing solution.
+
+Thanking you,
+
+
+Sincerely,
+
+*Abhinav Dewan,*
+*Planet Electro Labs,*
+
+
+
+
+*(An International Proficient Testing Lab)WZ-407/B-1,Basai Darapur,New
+Delhi-110015(+91 9971932901)*
+*www.planetelectrolabs.co.in <http://www.planetelectrolabs.co.in/>*
+*planetelectrolabs@gmail.com <planetelectrolabs@gmail.com>*
+*Disclaimer*
+This email is confidential and privileged. If you are not the addressee,
+please notify the sender immediately and delete it from your system without
+disclosure. Please note that emails are not secure and may suffer errors,
+viruses, etc. Planet Electro Labs does not accept any liability for any
+damage caused due to this email.
+P  Please consider the environment before printing this email.
+
+--0000000000000bd9a705eb5e5f6b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_quote"><div dir=3D"ltr" class=3D"gmail=
+_attr"><b>Respected Sir/Madam,</b><br></div><div dir=3D"ltr"><div class=3D"=
+gmail_quote"><div dir=3D"ltr"><div><div style=3D"font-family:&quot;Google S=
+ans&quot;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;font-size:medium"><=
+div id=3D"m_-3342416580961025998m_4915429135585369885m_-5987285310559090560=
+gmail-:5sj" style=3D"direction:ltr;margin:8px 0px 0px;padding:0px;font-size=
+:0.875rem"><div id=3D"m_-3342416580961025998m_4915429135585369885m_-5987285=
+310559090560gmail-:bas" style=3D"font-variant-numeric:normal;font-variant-e=
+ast-asian:normal;font-stretch:normal;font-size:small;line-height:1.5;font-f=
+amily:Arial,Helvetica,sans-serif;overflow:hidden"><div dir=3D"ltr"><div><br=
+>Greetings from Planet Electro Labs!<br><br>It has always been a pleasure t=
+o introduce ourselves to the industry contributing to the market.<br><br>We=
+ introduce ourselves, starting from a testing laboratory, providing the com=
+plete solutions for the product development and finally completing it by pr=
+oviding the solutions for the market which includes the testing, developing=
+ the product, debugging for their safety and performance parameters and cer=
+tifying them as per the market requirement.<br><br><b>Being experienced lab=
+oratory in BIS/national market, ISO 17025 testing market, defense markets, =
+electrical, electronics market, providing testing and certifications,</b><b=
+r><br>&gt;TEC(Telecommunication)<br>&gt;BIS(Bureau of Indian Standards)<br>=
+&gt;BEE(Bureau of Energy Efficiency)<br>&gt;EESL(Energy Efficiency Service =
+Limited)<br><b>&gt;ARAI(Automotive org)</b><br>&gt;DRDO(Defense)<br>&gt;AI<=
+br>&gt;MIL STD standards(Military standards-EMI/EMC and Environmental stand=
+ards)<br>&gt;WPC/RF tests(Radio Frequency tests)<br>&gt;Fields covering rai=
+lways, airport, navy, army, petroleum,<br>&gt;MNRE tests solutions<br>&gt;D=
+GCA(For Multirotor, Linear, Hybrid Drones Categories)<br>&gt;MCA(Security C=
+learance)<br><br>=C2=A0<br><br><b>Covering following products<br></b><br>&g=
+t;IT and electronics equipment<br>&gt;Battery equipment<br>&gt;Lighting pro=
+ducts and accessories<br>&gt;PV/Solar modules<br>&gt;Drones/copters<br><b>&=
+gt;EVs/EV charging stations</b><br>&gt;Electrical products<br>&gt;Telecommu=
+nication equipment<br><br><br><b>Having Tests highlights,<br></b><br><b>&gt=
+;IP tests</b><br><b>&gt;HV tests</b><br>&gt;Mechanical, Impact tests<br>&gt=
+;EMI/EMC tests<br>&gt;SAFETY tests<br>&gt;Performance tests<br>&gt;LM79 tes=
+t parameters, intensity tests,=C2=A0<b>efficiency tests</b><br>&gt;RF tests=
+<br>&gt;Solar tests<br><b>&gt;Water testing</b><br><b>&gt;Environmental tes=
+ts</b><br>&gt;Temperature tests<br>&gt;SAR tests<br>&gt;Telecommunication t=
+esting<br>&gt;ROHS testing and certification solutions=C2=A0<br><br><b>Havi=
+ng Ongoing Solutions,<br></b><br>&gt;Import testing complete solutions<br>&=
+gt;Manufacturing testing solutions<br>&gt;Surveillance tests solutions<br>&=
+gt;Supply compliance testing solutions<div>&gt;Custom/Import certification =
+solutions<br><br>=C2=A0<br><br><b>Having sectors,</b><br><br>&gt;Tender mar=
+ket<br>&gt;Govt/Private customer market - test report compliance-testing an=
+d certification compliance<br>&gt;International/Export certification servic=
+es<br><br><br>Flexibility as per the national and =C2=A0international stand=
+ards provided from the laboratory ends in order, simultaneously updating th=
+e government and private organizations for the standard requirements, suppo=
+rting the national markets for the development of the nation, nationally an=
+d internationally.<br><br>=C2=A0<br><br><b>For the International/Export mar=
+kets,</b><br><br>&gt;Having services for the international testing and cert=
+ification markets,<br>&gt;AI/UL/FCC/CE/CB and other certifications for the =
+respective countries<br>=C2=A0<br><br><b>Having standards followed as,</b><=
+br><br>&gt;Indian standards<br>&gt;AI standards<br>&gt;IEC standards<br>&gt=
+;BS standards<br>&gt;ETSI EN standards<br>&gt;EN standards<br>&gt;AIS stand=
+ards<br>&gt;UN standards<br>&gt;UL standards<br>&gt;BIS standards<br>&gt;Te=
+lecommunication standards followed nationally and internationally.<br>=C2=
+=A0<br><br>Working in collaboration with the government and private organiz=
+ations.<br><br>Please mail us for completion of your testing solution.<br><=
+br>Thanking you,<br><br><br>Sincerely,<br><br><font color=3D"#3d85c6"><i>Ab=
+hinav Dewan,</i></font><div><div><img src=3D"https://docs.google.com/uc?exp=
+ort=3Ddownload&amp;id=3D16xVnhYsPZ9CWE_KFWreeABTQIx6ozsh7&amp;revid=3D0By0U=
+pgzEFHA7dnNkcVk4UXRHcHc2L0w5djZFSzR2bFBhV0JRPQ" style=3D"font-size:12.8px">=
+</div></div><div><font color=3D"#3d85c6"><i>Planet Electro Labs,</i></font>=
+<div><font color=3D"#3d85c6"><i>(An International Proficient Testing Lab)<b=
+r>WZ-407/B-1,<br>Basai Darapur,<br>New Delhi-110015<br>(+91 9971932901)</i>=
+</font></div></div></div><div><font color=3D"#3d85c6"><i><a href=3D"http://=
+www.planetelectrolabs.co.in/" target=3D"_blank">www.planetelectrolabs.co.in=
+</a></i></font></div><div><font color=3D"#3d85c6"><i><a href=3D"mailto:plan=
+etelectrolabs@gmail.com" target=3D"_blank">planetelectrolabs@gmail.com</a><=
+/i></font></div><div><span style=3D"color:rgb(32,33,36);word-spacing:1px;fo=
+nt-family:Arial,sans-serif"><b><font color=3D"#38761d">Disclaimer</font></b=
+><br><font color=3D"#333333" style=3D"font-size:0.666667rem">This email is =
+confidential and privileged. If you are not the addressee, please notify th=
+e sender immediately and delete it from your system without disclosure. Ple=
+ase note that emails are not secure and may suffer errors, viruses, etc. Pl=
+anet Electro Labs does not accept any liability for any damage caused due t=
+o this email.=C2=A0</font><br></span><span style=3D"font-size:1.16667rem;co=
+lor:green;word-spacing:1px;font-family:Webdings">P</span><span style=3D"fon=
+t-size:0.666667rem;color:green;word-spacing:1px;font-family:Arial,sans-seri=
+f">=C2=A0 Please consider the environment before printing this email.</span=
+></div></div></div></div></div></div></div></div>
+</div></div>
+</div></div>
+
+--0000000000000bd9a705eb5e5f6b--

@@ -1,0 +1,794 @@
+Return-Path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id YM79I4VXR2QrDQAAQ+45pw
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	for <info@go-onriders.com>; Tue, 25 Apr 2023 00:31:01 -0400
+Return-path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 25 Apr 2023 00:31:01 -0400
+Received: from xtrwnvrh.outbound-mail.sendgrid.net ([167.89.40.80]:44304)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	id 1prAKS-0001gd-8i
+	for info@go-onriders.com;
+	Tue, 25 Apr 2023 00:31:01 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=interakt.ai;
+	h=content-type:from:mime-version:subject:reply-to:to:list-unsubscribe:
+	cc:content-type:from:subject:to;
+	s=s1; bh=wzhufActNP3np3AMJJ+nQd1bNFZLQhfL0D3INaUQIvg=;
+	b=Gec+TXDnyT2zClCa2ieKh0qdkIaENhTYNPjEHTfRl/nK4UusPY20gp6o3q+isy40GksM
+	sWf/8/7wnzoaIDAKf4R3LwSZykD3pyUj53OrsL6+pcbpr5BNmcXgwJo1Oh3mlXThSwKZso
+	XQtv8OdL89r0yuSVIdDHZ7cVFJoZhmg6WQ4LQQzL0QdF6T0hX/AVpsSsiQWwhCAYCvJPrz
+	PnoU51viv9edPXzVd1tEzKNlhYSVfJeU8FRxVjbXSgByZVvar5nznhxXHEBlfN/Y5cZPJJ
+	iyU0A47ebKy2do3ufbjwlM7OOpMVezA0hTckg/R/XozKov20ynm7M1TA0vy+hN+g==
+Received: by filterdrecv-5848969764-8hxzr with SMTP id filterdrecv-5848969764-8hxzr-1-64475759-D8
+        2023-04-25 04:30:17.806333074 +0000 UTC m=+5374594.321093623
+Received: from MTg4NjczMzE (unknown)
+	by geopod-ismtpd-4 (SG) with HTTP
+	id VjHQvS5TSG-19B2D-U-kAw
+	Tue, 25 Apr 2023 04:30:17.790 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=f18926c2d0c31e2ae4c06d591f979dd454e9cc9b9fa4dd7de3b3453f2688
+Date: Tue, 25 Apr 2023 04:30:18 +0000 (UTC)
+From: Interakt <marketing@interakt.ai>
+Mime-Version: 1.0
+Message-ID: <VjHQvS5TSG-19B2D-U-kAw@geopod-ismtpd-4>
+Subject: Re: Invitation for WhatsApp on Wheels #Hyderabadedition
+Reply-To: noreply@interakt.ai
+X-SG-EID: 
+ =?us-ascii?Q?wQsVFDSccCTE3EkRlDyU7GH+Zdyr4YBATcTNyGo3qZlzAIC99XbRILn7+Dm7gf?=
+ =?us-ascii?Q?Dgv26cXZzhZo5BQ0Au61rPVZ4btQvnUzquz8REk?=
+ =?us-ascii?Q?DfL=2Fx43b1Y6tAabnGOXEcTS9Zsd3j9+o9IZFnuF?=
+ =?us-ascii?Q?+VHDhp4QNznfPZGvGbjs=2FtR78ndyRg7RdYkzkw1?=
+ =?us-ascii?Q?ujbQzaGqbKz3J2ZMc9+hHRmYqPMtfDoYjLGEzsg?=
+ =?us-ascii?Q?+dptYFL7f08w5rnS2ABDECFR0mr8Q2bVs2LlZ6?=
+X-SG-ID: 
+ =?us-ascii?Q?se=2F49CGmbS0sfR97ImeXvBxWyV9CF3L=2FqX7kgMdf3=2FZJw0BLJ8wvP37w=2Fi9Gam?=
+ =?us-ascii?Q?KlzLCeLUUrMYie1Nm9cmNz3fw1SWDScXXhhPlt1?=
+ =?us-ascii?Q?46GS+qPDhPwSVgVKuq=2FCjzmlUPbvppM+ggF44T+?=
+ =?us-ascii?Q?MlXjslQ=2Fl5XAhqu+s30t+lbtX4cQdM1PUNN3Paz?=
+ =?us-ascii?Q?uu92T72V5VK3KWmYeC+LHHpdwpb3=2FFHsfZp=2FLNb?=
+ =?us-ascii?Q?=2FkUIAEISZ1V7pYUzn99UPdtx4iJu9eOZlZUpMlK?=
+ =?us-ascii?Q?pe9e45iyQ+5ADWQdhjohHBs6BEVZiUd9iC1np5M?=
+ =?us-ascii?Q?RRcI7QPxNSn56u21hXEj6f0y+NponKdfQRWET8E?=
+ =?us-ascii?Q?F7WpgKd3WW8EiJPSFjRiArYSnxJ0UjPz9M7wHZq?=
+ =?us-ascii?Q?KMFrN0C12GtNLMzUASebNHyjLcs4GoN47PfjgJ7?=
+ =?us-ascii?Q?uoUg=2Fsn=2FpFD7+U0AoBjRWaH1WJfMA7fxd8O+SOX?=
+ =?us-ascii?Q?jwFrCSxhLhj0ALNy0W41d4xaX6ZvqOxYcSdxZOY?=
+ =?us-ascii?Q?ge4f4uA6i0XUR2YH8HSz=2FTmkmkYimh60iyE2PNp?=
+ =?us-ascii?Q?fT4=2Fh10h+r8xuh1BMo36hgAMm9rX9QhXRq5PF=2FL?=
+ =?us-ascii?Q?9VsiNgej8dhvYN3uc3ahtNsypyF4eDXbytAmzei?=
+ =?us-ascii?Q?yDKljtq5ext3bMGS8RrlALDwkXw=2FKm0XP20Rx6x?=
+ =?us-ascii?Q?WrX7NXqeQbkBOu2fwfAajzcM7y3QKOJDD9i1gQG?=
+ =?us-ascii?Q?B2zhhja3ni5iRZWTtvmoPRq2oq83ygbpyhittVl?=
+ =?us-ascii?Q?vgfx=2FHNEfTi2v7qFS2Odr7DKg+cQCWIB4PuA8KA?=
+ =?us-ascii?Q?jQzn=2F4OvfpvqKr6n4Al+2bP7Q4o6DaM6rYUG3wh?=
+ =?us-ascii?Q?D8jTLbRo=3D?=
+To: Mohammad Shaik atheef <info@go-onriders.com>
+X-Entity-ID: zq9fjstDuAdEFIgk/ktvZg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em3566=2Einterakt=2Eai=3Fsubject=3Dhttps=3A=2F=2Fu188673?=
+ =?us-ascii?Q?31=2Ect=2Esendgrid=2Enet=2Fwf=2Funsubscribe*q*upn?=
+ =?us-ascii?Q?=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHa?=
+ =?us-ascii?Q?GMh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14N?=
+ =?us-ascii?Q?zc3d9HBKaiin7SPab1O-2BgyR96PMPJq0XDFDF6?=
+ =?us-ascii?Q?3-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFp?=
+ =?us-ascii?Q?qXh7jqTYEqzS5d1VL1-2BQiYf3oIbcDV2Tk2SQ7?=
+ =?us-ascii?Q?9FoTjuz1akmZ9Dt-2B8VfJlRtsouFtXki5gL-2B?=
+ =?us-ascii?Q?99MIF7MOUs36fo1c2vA9-2FGpd3s7h6rnbXK2Ct?=
+ =?us-ascii?Q?44ZhH02dxXcMh67CX-2FgZvW-2FLlKwaz0SEZcW?=
+ =?us-ascii?Q?OAlGYeGOYAKYYYXqL4H6dPhsg-2BKoIBf8amXqr?=
+ =?us-ascii?Q?Ya7GVh5gxiMGtNTi0hKuMyNANRdrWefc77VBtiQ?=
+ =?us-ascii?Q?9yWYlRcyJfEEfrocQtGrHzaBOmiOlcymwe3qEfI?=
+ =?us-ascii?Q?KEYycCeiISttqp-2FQut9HRWNTUpGGgRIuz8kIa?=
+ =?us-ascii?Q?HSR3s0iDE6hF9-2F7tlHeUG6B-2B10ZGy5VeIB-?=
+ =?us-ascii?Q?2BRCFAIA2L8etSo5xYjb2ib0B4Oqahgwek4dMP4?=
+ =?us-ascii?Q?INM1Xv8LfwP2ePNb3G-2BkNRQOTxQs6AXQrC1o4?=
+ =?us-ascii?Q?A0-2Ftj7QCcOphW-2Buv3it2Qwf8Lb0QTSm6Ww1?=
+ =?us-ascii?Q?RbeggcSaZXEza1w8DGYXyNRrDgpZNdKycvDGwth?=
+ =?us-ascii?Q?RdOvTp3cUCI1PDnWGvRnQfVQZewttDVf-2F5-2F?=
+ =?us-ascii?Q?C5yx4R0KfaPl20yXGhm7ZxarJ5ntyBINl33gmLv?=
+ =?us-ascii?Q?81ZVeBi8g1-2BRrA4TRY6XNbo51PCzQ1Tb-2Bfd?=
+ =?us-ascii?Q?QzAneb20cpURiC5-2B9zk68g2qqwf4-2Bl2Bt2f?=
+ =?us-ascii?Q?RPNWQsd2SXLqowDKmZTGd2Gc2tWFAGteMUvMdOW?=
+ =?us-ascii?Q?9xfWUldmtgIK-2Fo2edz2Wo0qwvMCVuDV6PSsii?=
+ =?us-ascii?Q?-2Frf1-2BId0zqxZXGIFta9R15VHbi94JkbxDJB?=
+ =?us-ascii?Q?IkhrTD6T2RRMx1q5-2FWGHS7rfwcE5yDtw2Yy-2?=
+ =?us-ascii?Q?FhiV6Q13b1EBR7eKGdNjLSDBFU3hj3UOfIgDAn7?=
+ =?us-ascii?Q?oETSJ8O1PQ75QTAhY2pqGHpEVp1vmsS55n-2BBb?=
+ =?us-ascii?Q?2K8DHYVcU-2FLthn21bbChUlouz2I-2F5cOLpNE?= =?us-ascii?Q?IVN=3E?=
+X-Spam-Status: No, score=2.6
+X-Spam-Score: 26
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Look who joins us at WoW. ( https://docs.google.com/forms/d/16ug99fdFW_XDTYYqNlTWNy6ZZfCiATbr2zuy11RV92o/edit
+    ) 👋Hi Mohammad, 
+ Content analysis details:   (2.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [167.89.40.80 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [167.89.40.80 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.7 GB_FAKE_RF_SHORT       Fake reply or forward with url shortener
+  1.1 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+--f18926c2d0c31e2ae4c06d591f979dd454e9cc9b9fa4dd7de3b3453f2688
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Look who joins us at WoW.
+
+( https://docs.google.com/forms/d/16ug99fdFW_XDTYYqNlTWNy6ZZfCiATbr2zuy11RV=
+92o/edit )
+
+=F0=9F=91=8BHi Mohammad,
+
+We are thrilled to announce that *Rutuja Kagwade* , Strategic Partner Manag=
+er at *Meta* , will also be joining the expert panel at Interakt presents *=
+WhatsApp on Wheels #Hyderabadedition* ( https://docs.google.com/forms/d/16u=
+g99fdFW_XDTYYqNlTWNy6ZZfCiATbr2zuy11RV92o/edit ).
+
+=F0=9F=93=85: Saturday, 29 April 2023
+=F0=9F=95=99: 1 PM - 5 PM
+=F0=9F=8F=A8: Mercure Hotel, Banjara Hills ( https://goo.gl/maps/wszLn9eYMD=
+5N1TD66 )
+
+Also, 100+ D2C brands and entrepreneurs from Hyderabad have already booked =
+their seats for this super exclusive growth-packed event.
+
+So, if you're a business looking to reshape your brand's future in 2023, yo=
+u shouldn't miss this one!
+
+From keynote sessions, live workshops, to a super-engaging AMA session, WoW=
+ got everything you need to skyrocket your business to greater heights. =F0=
+=9F=9A=80
+
+Register ASAP & secure your spot before they are full. =F0=9F=91=87
+
+Register Now ( https://docs.google.com/forms/d/16ug99fdFW_XDTYYqNlTWNy6ZZfC=
+iATbr2zuy11RV92o/edit )
+
+Interakt
+
+A-801, Cello Triumph, IB Patel Road Goregaon East , Mumbai, , =20
+
+Unsubscribe ( https://u18867331.ct.sendgrid.net/wf/unsubscribe?upn=3DQFWB4B=
+CTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14Nzc3d=
+9HBKaiin7SPab1O-2BgyR96PMPJq0XDFDF63-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFpq=
+Xh7jqTYEqzS5d1VL1-2BQiYf3oIbcDV2Tk2SQ79FoTjuz1akmZ9Dt-2B8VfJlRtsouFtXki5gL-=
+2B99MIF7MOUs36fo1c2vA9-2FGpd3s7h6rnbXK2Ct44ZhH02dxXcMh67CX-2FgZvW-2FLlKwaz0=
+SEZcWOAlGYeGOYAKYYYXqL4H6dPhsg-2BKoIBf8amXqrYa7GVh5gxiMGtNTi0hKuMyNANRdrWef=
+c77VBtiQ9yWYlRcyJfEEfrocQtGrHzaBOmiOlcymwe3qEfIKEYycCeiISttqp-2FQut9HRWNTUp=
+GGgRIuz8kIaHSR3s0iDE6hF9-2F7tlHeUG6B-2B10ZGy5VeIB-2BRCFAIA2L8etSo5xYjb2ib0B=
+4Oqahgwek4dMP4INM1Xv8LfwP2ePNb3G-2BkNRQOTxQs6AXQrC1o4A0-2Ftj7QCcOphW-2Buv3i=
+t2Qwf8Lb0QTSm6Ww1RbeggcSaZXEza1w8DGYXyNRrDgpZNdKycvDGwthRdOvTp3cUCI1PDnWGvR=
+nQfVQZewttDVf-2F5-2FC5yx4R0KfaPl20yXGhm7ZxarJ5ntyBINl33gmLv81ZVeBi8g1-2BRrA=
+4TRY6XNbo51PCzQ1Tb-2BfdQzAneb20cpURiC5-2B9zk68g2qqwf4-2Bl2Bt2fRPNWQsd2SXLqo=
+wDKmZTGd2Gc2tWFAGteMUvMdOW9xfWUldmtgIK-2Fo2edz2Wo0qwvMCVu5LFkIsl9BesXeCArjJ=
+lwZbaFBbdNiIMES3rcq6dUuLqkOZBGLpjizjceoA7MuNLvWGioOYLnG0IgSYK7o46WA0-2FHoft=
+FO7dSrZozEI9-2FPvI3qZPKaRU-2F06beXJrcSRsohy8Bc6jV6v-2FbxwkJmK2oHesPay1Y77jZ=
+VaKmFqdsXcDf-2F4ya363XJlWvbC7-2BLFXH )
+--f18926c2d0c31e2ae4c06d591f979dd454e9cc9b9fa4dd7de3b3453f2688
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+    <style>
+      @media screen and (max-width:480px) {
+        table\0 {
+          width: 480px !important;
+          }
+      }
+    </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; =
+background-color:#FFFFFF;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p>Look who joins us at WoW.</p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"7823c4c5-2691-4374-b271-320b683d2b8d">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0nzMH8M2G0YVMoCAyhQMtuJ5N1AKVCC92laOTyZsp-2BGWQHSlpzi9c-2F7G=
+-2B7vNBb-2BKLNGplHSkmKumzWn2s-2FWk0EytUuPA3j2jDGwkwUc3u4A8HJCp_RYEeg99Ap79l=
+eT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAsmF7Un2Cy60=
+a68XifwIYln-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvjjWiV9Zurrk=
+6Pq0IxFcmH2f-2FTyc1IYyCJmPrL-2BZqcCOyOeV5QTTbB2YjqeQefZzkulzEJ9Gsc7optKAaN5=
+17Qd2b2DIH8-2F2DJql0-2B7v-2BLF8JqJ1z2sqiLxizgdGtY2-2F0pqsZUM2W91HfU8Vz8e0ap=
+0pi47U5t2n9KwpguYGDHID8dR0-2B6FHVMSTr1o6lzYA2Dd7sYuIf-2B8jfM7FFjGaOxwEcZyO3=
+K2tVHsypa1qzXSxELl0l5YPKzhcEEVxHKnLjjvzK-2B7T6TgCqwUefqLK7b6Pds8dJMD591y-2B=
+EPjLCH6S2J9k74pJIFNHV5zJborFkVHfAK-2FA7-2BfsZtprVA-2FkoaZ4ScGkEqLV5cMKMe6jQ=
+EcQ1YSK5-2FwN5U26PiyIhf9UqdIFHRDDoD3Ey65o5yyLvuvcRapEz4JhIpLosSfiuw4zhEzyTh=
+ybghkX4WmpWsnaTak4lmz2qswT0wF9dteEG6g2iiNHD9yddcL54uNU0qzt5-2BJ9deUw4kvxeJq=
+RONJHNxWL1ArQdFvqFxx33S0Yz6P550WGRdXgR3xDds6aLdSOFPuI1VEbjDvbju3LsY4rryiEhr=
+gnpSYjJH-2FqexVCEKqj-2BhWPClDwb2zB1d2GJQKGR2u2YDTtovYNBXlqa65Szdfsbu5WU6IQ5=
+D7l2hPCyqgkKPzIPnV4BJTB2hi39lFu1yARbPXQR4UBW2ZcB17O6Qp-2BucGsQbG9YN2KmjJoLw=
+ixlE2TfkNPIyXiprS6-2BtR04eNN8S7k6h29JJIUkuwsGPqW0KfMsmZWKfzd4FpeQ7zHsImfdFc=
+o6ZUdZG2zYoUzNZZ8GXe0QPr1OPo8MoXcV3lYXmow90mTrSEy94pSKHNk1Mp8JeyKAWcXAQ0tuw=
+zNkn6ZRHxl"><img class=3D"max-width" border=3D"0" style=3D"display:block; c=
+olor:#000000; text-decoration:none; font-family:Helvetica, arial, sans-seri=
+f; font-size:16px; max-width:100% !important; width:100%; height:auto !impo=
+rtant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" dat=
+a-responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgrid.n=
+et/ccf6b07b7158c0e6/4942ef2b-c261-44d8-a0e0-cac914da0f50/1200x628.jpg"></a>=
+</td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"ec3f2ab2-f2be-48ee-a7dc-6bbc9b488142" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: justify"><span st=
+yle=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #0000=
+00; background-color: transparent; font-weight: 400; font-style: normal; fo=
+nt-variant-ligatures: normal; font-variant-caps: normal; font-variant-numer=
+ic: normal; font-variant-east-asian: normal; text-decoration-line: none; te=
+xt-decoration-thickness: initial; text-decoration-style: initial; text-deco=
+ration-color: initial; vertical-align: baseline; white-space: pre-wrap; fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">=F0=9F=91=8BHi Moh=
+ammad,</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"lin=
+e-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgr=
+ound-color: transparent; font-weight: 400; font-style: normal; font-variant=
+-ligatures: normal; font-variant-caps: normal; font-variant-numeric: normal=
+; font-variant-east-asian: normal; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; vertical-align: baseline; white-space: pre-wrap; font-size: 14=
+px; font-family: arial, helvetica, sans-serif">We are thrilled to announce =
+that </span><span style=3D"line-height: 1.38; margin-top: 0pt; margin-botto=
+m: 0pt; color: #000000; background-color: transparent; font-weight: 400; fo=
+nt-style: normal; font-variant-ligatures: normal; font-variant-caps: normal=
+; font-variant-numeric: normal; font-variant-east-asian: normal; text-decor=
+ation-line: none; text-decoration-thickness: initial; text-decoration-style=
+: initial; text-decoration-color: initial; vertical-align: baseline; white-=
+space: pre-wrap; font-size: 14px; font-family: arial, helvetica, sans-serif=
+"><strong>Rutuja Kagwade</strong></span><span style=3D"line-height: 1.38; m=
+argin-top: 0pt; margin-bottom: 0pt; color: #000000; background-color: trans=
+parent; font-weight: 400; font-style: normal; font-variant-ligatures: norma=
+l; font-variant-caps: normal; font-variant-numeric: normal; font-variant-ea=
+st-asian: normal; text-decoration-line: none; text-decoration-thickness: in=
+itial; text-decoration-style: initial; text-decoration-color: initial; vert=
+ical-align: baseline; white-space: pre-wrap; font-size: 14px; font-family: =
+arial, helvetica, sans-serif">, Strategic Partner Manager at </span><span s=
+tyle=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000=
+000; background-color: transparent; font-weight: 400; font-style: normal; f=
+ont-variant-ligatures: normal; font-variant-caps: normal; font-variant-nume=
+ric: normal; font-variant-east-asian: normal; text-decoration-line: none; t=
+ext-decoration-thickness: initial; text-decoration-style: initial; text-dec=
+oration-color: initial; vertical-align: baseline; white-space: pre-wrap; fo=
+nt-size: 14px; font-family: arial, helvetica, sans-serif"><strong>Meta</str=
+ong></span><span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; color: #000000; background-color: transparent; font-weight: 400; fon=
+t-style: normal; font-variant-ligatures: normal; font-variant-caps: normal;=
+ font-variant-numeric: normal; font-variant-east-asian: normal; text-decora=
+tion-line: none; text-decoration-thickness: initial; text-decoration-style:=
+ initial; text-decoration-color: initial; vertical-align: baseline; white-s=
+pace: pre-wrap; font-size: 14px; font-family: arial, helvetica, sans-serif"=
+>, will also be joining the expert panel at </span><span style=3D"line-heig=
+ht: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; background-c=
+olor: transparent; font-weight: 400; font-style: normal; font-variant-ligat=
+ures: normal; font-variant-caps: normal; font-variant-numeric: normal; font=
+-variant-east-asian: normal; text-decoration-line: none; text-decoration-th=
+ickness: initial; text-decoration-style: initial; text-decoration-color: in=
+itial; vertical-align: baseline; white-space: pre-wrap; font-size: 14px; fo=
+nt-family: arial, helvetica, sans-serif"><em>Interakt presents</em></span><=
+span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color=
+: #000000; background-color: transparent; font-weight: 400; font-style: nor=
+mal; font-variant-ligatures: normal; font-variant-caps: normal; font-varian=
+t-numeric: normal; font-variant-east-asian: normal; text-decoration-line: n=
+one; text-decoration-thickness: initial; text-decoration-style: initial; te=
+xt-decoration-color: initial; vertical-align: baseline; white-space: pre-wr=
+ap; font-size: 14px; font-family: arial, helvetica, sans-serif"> </span><a =
+href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx=
+-2Fi0nzMH8M2G0YVMoCAyhQMtuJ5N1AKVCC92laOTyZsp-2BGWQHSlpzi9c-2F7G-2B7vNBb-2B=
+KLNGplHSkmKumzWn2s-2FWk0EytUuPA3j2jDGwkwUc3u4A83fXP_RYEeg99Ap79leT7lYKY4eae=
+yUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAsmF7Un2Cy60a68XifwIYln=
+-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvjjWiV9Zurrk6Pq0IxFcmH2=
+f-2FTyc1IYyCJmPrL-2BZqcCOyOeV5QTTbB2YjqeQefZzkulzEJ9Gsc7optKAaN517Qd2b2DIH8=
+-2F2DJql0-2B7v-2BLF8JqJ1z2sqiLxizgdGtY2-2F0pqsZUM2W91HfU8Vz8e0ap0pi47U5t2n9=
+KwpguYGDHID8dR0-2B6FHVMSTr1o6lzYA2Dd7sYuIf-2B8jfM7FFjGaOxwEcZyO3K2tVHsypa1q=
+zXSxELl0l5YPKzhcEEVxHKnLjjvzK-2B7T6TgCqwUefqLK7b6Pds8dJMD591y-2BEPjLCH6S2J9=
+k74pJIFNHV5zJborFkVHfAK-2FA7-2BfsZtprVA-2FkoaZ4ScGkEqLV5cMKMe6jQEcQ1YSK5-2F=
+wN5U26PiyIhf9UqdIFHRDDoD3Ey65o5yyLvuvcRapEz4JhIpLosSfiuw4zhEzyThybghkX4WmpW=
+snaTak4lmz2qswT0wF9dteEG6g2iiNHD9yddcL54uNU0qzt5-2BJ9deUw4kvxeJqRONJHNxWL1A=
+rQdFvqFxx33S0Yz6P550WGRdXgR3xDds6aLdSOFPuI1VEbjDvbju3LsY4rryiEhrgnpSYjJH-2F=
+qexVCEKqj-2BhWPClDwb2zB1d2GJQKGR2u2YDTtovYNBXlqa65Szdfsbu5WU6IQ5D7l2hPCyqgk=
+KPzIPnV4BJTB2hi39lFu1yARbPXQUeIFSwPH6Dm9FmePHzRjp-2FKkITimXLsZGuTnG7cDqw628=
+alkioQyzodeAwPIUlTI-2BjYYtuKV36sORCxOI6d5RUh0UiPM6cCQWqVIocZlitPpvXeKSVzwTP=
+N2yxghm3AwbKbD3s4JkveMEhTgauKCEteqmXqfrQpZHqN5P3IKpGfXquh2eUn0PtiK2DCz0ofF"=
+><span style=3D"line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; bac=
+kground-color: transparent; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-thickness: initial; text-decoration-style: initial; text-decoration-=
+color: initial; vertical-align: baseline; white-space: pre-wrap; font-size:=
+ 14px; font-family: arial, helvetica, sans-serif; color: #4361f6"><strong>W=
+hatsApp on Wheels #Hyderabadedition</strong></span></a><span style=3D"line-=
+height: 1.38; margin-top: 0pt; margin-bottom: 0pt; color: #000000; backgrou=
+nd-color: transparent; font-weight: 400; font-style: normal; font-variant-l=
+igatures: normal; font-variant-caps: normal; font-variant-numeric: normal; =
+font-variant-east-asian: normal; text-decoration-line: none; text-decoratio=
+n-thickness: initial; text-decoration-style: initial; text-decoration-color=
+: initial; vertical-align: baseline; white-space: pre-wrap; font-size: 14px=
+; font-family: arial, helvetica, sans-serif">.</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"box=
+-sizing: border-box; --tw-border-spacing-x:  0; --tw-border-spacing-y:  0; =
+--tw-translate-x:  0; --tw-translate-y:  0; --tw-rotate:  0; --tw-skew-x:  =
+0; --tw-skew-y:  0; --tw-scale-x:  1; --tw-scale-y:  1; --tw-pan-x:  ; --tw=
+-pan-y:  ; --tw-pinch-zoom:  ; --tw-scroll-snap-strictness:  proximity; --t=
+w-ordinal:  ; --tw-slashed-zero:  ; --tw-numeric-figure:  ; --tw-numeric-sp=
+acing:  ; --tw-numeric-fraction:  ; --tw-ring-inset:  ; --tw-ring-offset-wi=
+dth:  0px; --tw-ring-offset-color:  #fff; --tw-ring-color:  rgb(59 130 246 =
+/ 0.5); --tw-ring-offset-shadow:  0 0 #0000; --tw-ring-shadow:  0 0 #0000; =
+--tw-shadow:  0 0 #0000; --tw-shadow-colored:  0 0 #0000; --tw-blur:  ; --t=
+w-brightness:  ; --tw-contrast:  ; --tw-grayscale:  ; --tw-hue-rotate:  ; -=
+-tw-invert:  ; --tw-saturate:  ; --tw-sepia:  ; --tw-drop-shadow:  ; --tw-b=
+ackdrop-blur:  ; --tw-backdrop-brightness:  ; --tw-backdrop-contrast:  ; --=
+tw-backdrop-grayscale:  ; --tw-backdrop-hue-rotate:  ; --tw-backdrop-invert=
+:  ; --tw-backdrop-opacity:  ; --tw-backdrop-saturate:  ; --tw-backdrop-sep=
+ia:  ; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-l=
+eft: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-le=
+ft: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant=
+-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inh=
+erit; font-variant-alternates: inherit; font-weight: inherit; font-stretch:=
+ inherit; line-height: inherit; font-family: inherit; font-optical-sizing: =
+inherit; font-kerning: inherit; font-feature-settings: inherit; font-variat=
+ion-settings: inherit; font-size: 14px; vertical-align: baseline; border-to=
+p-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-lef=
+t-width: 0px; border-top-style: initial; border-right-style: initial; borde=
+r-bottom-style: initial; border-left-style: initial; border-top-color: init=
+ial; border-right-color: initial; border-bottom-color: initial; border-left=
+-color: initial; border-image-source: initial; border-image-slice: initial;=
+ border-image-width: initial; border-image-outset: initial; border-image-re=
+peat: initial; color: #000000; letter-spacing: normal; orphans: 2; text-ali=
+gn: justify; text-indent: 0px; text-transform: none; white-space: pre-wrap;=
+ widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-c=
+olor: rgb(255, 255, 255); text-decoration-thickness: initial; text-decorati=
+on-style: initial; text-decoration-color: initial">=F0=9F=93=85: Saturday, =
+29 April 2023</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"box=
+-sizing: border-box; --tw-border-spacing-x:  0; --tw-border-spacing-y:  0; =
+--tw-translate-x:  0; --tw-translate-y:  0; --tw-rotate:  0; --tw-skew-x:  =
+0; --tw-skew-y:  0; --tw-scale-x:  1; --tw-scale-y:  1; --tw-pan-x:  ; --tw=
+-pan-y:  ; --tw-pinch-zoom:  ; --tw-scroll-snap-strictness:  proximity; --t=
+w-ordinal:  ; --tw-slashed-zero:  ; --tw-numeric-figure:  ; --tw-numeric-sp=
+acing:  ; --tw-numeric-fraction:  ; --tw-ring-inset:  ; --tw-ring-offset-wi=
+dth:  0px; --tw-ring-offset-color:  #fff; --tw-ring-color:  rgb(59 130 246 =
+/ 0.5); --tw-ring-offset-shadow:  0 0 #0000; --tw-ring-shadow:  0 0 #0000; =
+--tw-shadow:  0 0 #0000; --tw-shadow-colored:  0 0 #0000; --tw-blur:  ; --t=
+w-brightness:  ; --tw-contrast:  ; --tw-grayscale:  ; --tw-hue-rotate:  ; -=
+-tw-invert:  ; --tw-saturate:  ; --tw-sepia:  ; --tw-drop-shadow:  ; --tw-b=
+ackdrop-blur:  ; --tw-backdrop-brightness:  ; --tw-backdrop-contrast:  ; --=
+tw-backdrop-grayscale:  ; --tw-backdrop-hue-rotate:  ; --tw-backdrop-invert=
+:  ; --tw-backdrop-opacity:  ; --tw-backdrop-saturate:  ; --tw-backdrop-sep=
+ia:  ; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-l=
+eft: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-le=
+ft: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant=
+-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inh=
+erit; font-variant-alternates: inherit; font-weight: inherit; font-stretch:=
+ inherit; line-height: inherit; font-family: inherit; font-optical-sizing: =
+inherit; font-kerning: inherit; font-feature-settings: inherit; font-variat=
+ion-settings: inherit; font-size: 14px; vertical-align: baseline; border-to=
+p-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-lef=
+t-width: 0px; border-top-style: initial; border-right-style: initial; borde=
+r-bottom-style: initial; border-left-style: initial; border-top-color: init=
+ial; border-right-color: initial; border-bottom-color: initial; border-left=
+-color: initial; border-image-source: initial; border-image-slice: initial;=
+ border-image-width: initial; border-image-outset: initial; border-image-re=
+peat: initial; color: #000000; letter-spacing: normal; orphans: 2; text-ali=
+gn: justify; text-indent: 0px; text-transform: none; white-space: pre-wrap;=
+ widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-c=
+olor: rgb(255, 255, 255); text-decoration-thickness: initial; text-decorati=
+on-style: initial; text-decoration-color: initial">=F0=9F=95=99: 1 PM - 5 P=
+M</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"box=
+-sizing: border-box; --tw-border-spacing-x:  0; --tw-border-spacing-y:  0; =
+--tw-translate-x:  0; --tw-translate-y:  0; --tw-rotate:  0; --tw-skew-x:  =
+0; --tw-skew-y:  0; --tw-scale-x:  1; --tw-scale-y:  1; --tw-pan-x:  ; --tw=
+-pan-y:  ; --tw-pinch-zoom:  ; --tw-scroll-snap-strictness:  proximity; --t=
+w-ordinal:  ; --tw-slashed-zero:  ; --tw-numeric-figure:  ; --tw-numeric-sp=
+acing:  ; --tw-numeric-fraction:  ; --tw-ring-inset:  ; --tw-ring-offset-wi=
+dth:  0px; --tw-ring-offset-color:  #fff; --tw-ring-color:  rgb(59 130 246 =
+/ 0.5); --tw-ring-offset-shadow:  0 0 #0000; --tw-ring-shadow:  0 0 #0000; =
+--tw-shadow:  0 0 #0000; --tw-shadow-colored:  0 0 #0000; --tw-blur:  ; --t=
+w-brightness:  ; --tw-contrast:  ; --tw-grayscale:  ; --tw-hue-rotate:  ; -=
+-tw-invert:  ; --tw-saturate:  ; --tw-sepia:  ; --tw-drop-shadow:  ; --tw-b=
+ackdrop-blur:  ; --tw-backdrop-brightness:  ; --tw-backdrop-contrast:  ; --=
+tw-backdrop-grayscale:  ; --tw-backdrop-hue-rotate:  ; --tw-backdrop-invert=
+:  ; --tw-backdrop-opacity:  ; --tw-backdrop-saturate:  ; --tw-backdrop-sep=
+ia:  ; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-l=
+eft: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-le=
+ft: 0px; font-style: inherit; font-variant-ligatures: inherit; font-variant=
+-caps: inherit; font-variant-numeric: inherit; font-variant-east-asian: inh=
+erit; font-variant-alternates: inherit; font-weight: inherit; font-stretch:=
+ inherit; line-height: inherit; font-family: inherit; font-optical-sizing: =
+inherit; font-kerning: inherit; font-feature-settings: inherit; font-variat=
+ion-settings: inherit; font-size: 14px; vertical-align: baseline; border-to=
+p-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-lef=
+t-width: 0px; border-top-style: initial; border-right-style: initial; borde=
+r-bottom-style: initial; border-left-style: initial; border-top-color: init=
+ial; border-right-color: initial; border-bottom-color: initial; border-left=
+-color: initial; border-image-source: initial; border-image-slice: initial;=
+ border-image-width: initial; border-image-outset: initial; border-image-re=
+peat: initial; color: #000000; letter-spacing: normal; orphans: 2; text-ali=
+gn: justify; text-indent: 0px; text-transform: none; white-space: pre-wrap;=
+ widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-c=
+olor: rgb(255, 255, 255); text-decoration-thickness: initial; text-decorati=
+on-style: initial; text-decoration-color: initial">=F0=9F=8F=A8: </span><a =
+href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx=
+-2Fi0nSUdzbe9uP-2FR0gv0Gd8eqFSvG-2B73q8MAozAtJpiW22LL9J5_RYEeg99Ap79leT7lYK=
+Y4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAsmF7Un2Cy60a68Xif=
+wIYln-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvjjWiV9Zurrk6Pq0Ix=
+FcmH2f-2FTyc1IYyCJmPrL-2BZqcCOyOeV5QTTbB2YjqeQefZzkulzEJ9Gsc7optKAaN517Qd2b=
+2DIH8-2F2DJql0-2B7v-2BLF8JqJ1z2sqiLxizgdGtY2-2F0pqsZUM2W91HfU8Vz8e0ap0pi47U=
+5t2n9KwpguYGDHID8dR0-2B6FHVMSTr1o6lzYA2Dd7sYuIf-2B8jfM7FFjGaOxwEcZyO3K2tVHs=
+ypa1qzXSxELl0l5YPKzhcEEVxHKnLjjvzK-2B7T6TgCqwUefqLK7b6Pds8dJMD591y-2BEPjLCH=
+6S2J9k74pJIFNHV5zJborFkVHfAK-2FA7-2BfsZtprVA-2FkoaZ4ScGkEqLV5cMKMe6jQEcQ1YS=
+K5-2FwN5U26PiyIhf9UqdIFHRDDoD3Ey65o5yyLvuvcRapEz4JhIpLosSfiuw4zhEzyThybghkX=
+4WmpWsnaTak4lmz2qswT0wF9dteEG6g2iiNHD9yddcL54uNU0qzt5-2BJ9deUw4kvxeJqRONJHN=
+xWL1ArQdFvqFxx33S0Yz6P550WGRdXgR3xDds6aLdSOFPuI1VEbjDvbju3LsY4rryiEhrgnpSYj=
+JH-2FqexVCEKqj-2BhWPClDwb2zB1d2GJQKGR2u2YDTtovYNBXlqa65Szdfsbu5WU6IQ5D7l2hP=
+CyqgkKPzIPnV4BJTB2hi39lFu1yARbPXQrtJh25F83wXbMX2543gybCWS3JMn-2FqyP4jfz0AIl=
+ENi-2BfGG5sG6TyDNlDcPcyOSP-2BN3xQjVum4TWk-2B9FXCSt2K028S-2B-2Fiw2PxzdWE0vwz=
+Ww7ojl4U2eApwd-2BgK2epQx-2BIXBvscZLwWTS2M2osGlmC1Mlwqu9xecBMl-2Bjn3RN8H-2F-=
+2FGCMpNiIQevhs5NjiqGxh"><span style=3D"box-sizing: border-box; --tw-border-=
+spacing-x:  0; --tw-border-spacing-y:  0; --tw-translate-x:  0; --tw-transl=
+ate-y:  0; --tw-rotate:  0; --tw-skew-x:  0; --tw-skew-y:  0; --tw-scale-x:=
+  1; --tw-scale-y:  1; --tw-pan-x:  ; --tw-pan-y:  ; --tw-pinch-zoom:  ; --=
+tw-scroll-snap-strictness:  proximity; --tw-ordinal:  ; --tw-slashed-zero: =
+ ; --tw-numeric-figure:  ; --tw-numeric-spacing:  ; --tw-numeric-fraction: =
+ ; --tw-ring-inset:  ; --tw-ring-offset-width:  0px; --tw-ring-offset-color=
+:  #fff; --tw-ring-color:  rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: =
+ 0 0 #0000; --tw-ring-shadow:  0 0 #0000; --tw-shadow:  0 0 #0000; --tw-sha=
+dow-colored:  0 0 #0000; --tw-blur:  ; --tw-brightness:  ; --tw-contrast:  =
+; --tw-grayscale:  ; --tw-hue-rotate:  ; --tw-invert:  ; --tw-saturate:  ; =
+--tw-sepia:  ; --tw-drop-shadow:  ; --tw-backdrop-blur:  ; --tw-backdrop-br=
+ightness:  ; --tw-backdrop-contrast:  ; --tw-backdrop-grayscale:  ; --tw-ba=
+ckdrop-hue-rotate:  ; --tw-backdrop-invert:  ; --tw-backdrop-opacity:  ; --=
+tw-backdrop-saturate:  ; --tw-backdrop-sepia:  ; padding-top: 0px; padding-=
+right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin=
+-right: 0px; margin-bottom: 0px; margin-left: 0px; font-style: inherit; fon=
+t-variant-ligatures: inherit; font-variant-caps: inherit; font-variant-nume=
+ric: inherit; font-variant-east-asian: inherit; font-variant-alternates: in=
+herit; font-weight: inherit; font-stretch: inherit; line-height: inherit; f=
+ont-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; f=
+ont-feature-settings: inherit; font-variation-settings: inherit; font-size:=
+ 14px; vertical-align: baseline; border-top-width: 0px; border-right-width:=
+ 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: i=
+nitial; border-right-style: initial; border-bottom-style: initial; border-l=
+eft-style: initial; border-top-color: initial; border-right-color: initial;=
+ border-bottom-color: initial; border-left-color: initial; border-image-sou=
+rce: initial; border-image-slice: initial; border-image-width: initial; bor=
+der-image-outset: initial; border-image-repeat: initial; color: #000000; le=
+tter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; te=
+xt-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -w=
+ebkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-de=
+coration-thickness: initial; text-decoration-style: initial; text-decoratio=
+n-color: initial">Mercure Hotel, Banjara Hills</span></a>&nbsp;</div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif"><br>
+Also, 100+ D2C brands and entrepreneurs from Hyderabad have already booked =
+their seats for this super exclusive growth-packed event.</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">So, if you're a bu=
+siness looking to reshape your brand's future in 2023, you shouldn't miss t=
+his one!</span></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">From keynote sessi=
+ons, live workshops, to a super-engaging AMA session, WoW got everything yo=
+u need to skyrocket your business to greater heights.</span><span style=3D"=
+font-family: arial, helvetica, sans-serif; font-size: 18px">=F0=9F=9A=80</s=
+pan></div>
+<div style=3D"font-family: inherit; text-align: justify"><br></div>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">Register ASAP &amp=
+; secure your spot before they are full.</span><span style=3D"font-family: =
+arial, helvetica, sans-serif; font-size: 18px">=F0=9F=91=87</span></div><di=
+v></div></div></td>
+      </tr>
+    </tbody>
+  </table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+module" data-role=3D"module-button" data-type=3D"button" role=3D"module" st=
+yle=3D"table-layout:fixed;" width=3D"100%" data-muid=3D"4888026d-a009-41f9-=
+8850-b353d0349743">
+      <tbody>
+        <tr>
+          <td align=3D"center" bgcolor=3D"" class=3D"outer-td" style=3D"pad=
+ding:0px 0px 0px 0px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"wrapper-mobile" style=3D"text-align:center;">
+              <tbody>
+                <tr>
+                <td align=3D"center" bgcolor=3D"#ffb100" class=3D"inner-td"=
+ style=3D"border-radius:6px; font-size:16px; text-align:center; background-=
+color:inherit;">
+                  <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=
+=3DXtSSqkA7o5sYTQ1Kkx-2Fi0nzMH8M2G0YVMoCAyhQMtuJ5N1AKVCC92laOTyZsp-2BGWQHSl=
+pzi9c-2F7G-2B7vNBb-2BKLNGplHSkmKumzWn2s-2FWk0EytUuPA3j2jDGwkwUc3u4A85hun_RY=
+Eeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwcTYXcpPIyNDAs=
+mF7Un2Cy60a68XifwIYln-2Fk9Q63QAql2mpghT2-2FYz-2BJSZm2U-2BS9pa6zZo4-2FoIUtvj=
+jWiV9Zurrk6Pq0IxFcmH2f-2FTyc1IYyCJmPrL-2BZqcCOyOeV5QTTbB2YjqeQefZzkulzEJ9Gs=
+c7optKAaN517Qd2b2DIH8-2F2DJql0-2B7v-2BLF8JqJ1z2sqiLxizgdGtY2-2F0pqsZUM2W91H=
+fU8Vz8e0ap0pi47U5t2n9KwpguYGDHID8dR0-2B6FHVMSTr1o6lzYA2Dd7sYuIf-2B8jfM7FFjG=
+aOxwEcZyO3K2tVHsypa1qzXSxELl0l5YPKzhcEEVxHKnLjjvzK-2B7T6TgCqwUefqLK7b6Pds8d=
+JMD591y-2BEPjLCH6S2J9k74pJIFNHV5zJborFkVHfAK-2FA7-2BfsZtprVA-2FkoaZ4ScGkEqL=
+V5cMKMe6jQEcQ1YSK5-2FwN5U26PiyIhf9UqdIFHRDDoD3Ey65o5yyLvuvcRapEz4JhIpLosSfi=
+uw4zhEzyThybghkX4WmpWsnaTak4lmz2qswT0wF9dteEG6g2iiNHD9yddcL54uNU0qzt5-2BJ9d=
+eUw4kvxeJqRONJHNxWL1ArQdFvqFxx33S0Yz6P550WGRdXgR3xDds6aLdSOFPuI1VEbjDvbju3L=
+sY4rryiEhrgnpSYjJH-2FqexVCEKqj-2BhWPClDwb2zB1d2GJQKGR2u2YDTtovYNBXlqa65Szdf=
+sbu5WU6IQ5D7l2hPCyqgkKPzIPnV4BJTB2hi39lFu1yARbPXQkfshy8U0-2FOP7Q88zyYGCHFEb=
+NERy-2BGxA0tk9lrw8HZfSx-2BNGotP-2BsaOhDCBppXVEE7VxJ7SBlpHa5-2Fh6iZrd2rpC3SB=
+dF8xs28S4YLETwe1xdUPgNFiwJ1vhCAPWrCp8JWlUp7-2Fl1l8jO3h59AS3Tk2iA7sx8NPdpUu1=
+JfNUlqPfckbBV5J4LnWVqF-2Fc4JWH" style=3D"background-color:#ffb100; border:1=
+px solid #333333; border-color:#333333; border-radius:6px; border-width:1px=
+; color:#000000; display:inline-block; font-size:18px; font-weight:normal; =
+letter-spacing:0px; line-height:normal; padding:12px 18px 12px 18px; text-a=
+lign:center; text-decoration:none; border-style:solid; font-family:arial bl=
+ack, helvetica, sans-serif;" target=3D"_blank">Register Now</a>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table><div data-role=3D"module-unsubscribe" class=3D"module" role=3D"=
+module" data-type=3D"unsubscribe" style=3D"color:#444444; font-size:12px; l=
+ine-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid=
+=3D"4e838cf3-9892-4a6d-94d6-170e474d21e5"><div class=3D"Unsubscribe--addres=
+sLine"><p class=3D"Unsubscribe--senderName" style=3D"font-size:12px; line-h=
+eight:20px;">Interakt</p><p style=3D"font-size:12px; line-height:20px;"><sp=
+an class=3D"Unsubscribe--senderAddress">A-801, Cello Triumph, IB Patel Road=
+ Goregaon East</span>, <span class=3D"Unsubscribe--senderCity">Mumbai,</spa=
+n>, <span class=3D"Unsubscribe--senderState"></span> <span class=3D"Unsubsc=
+ribe--senderZip"></span></p></div><p style=3D"font-size:12px; line-height:2=
+0px;"><a class=3D"Unsubscribe--unsubscribeLink" href=3D"https://u18867331.c=
+t.sendgrid.net/wf/unsubscribe?upn=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHaG=
+Mh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14Nzc3d9HBKaiin7SPab1O-2BgyR96PMPJq0XDFD=
+F63-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFpqXh7jqTYEqzS5d1VL1-2BQiYf3oIbcDV2T=
+k2SQ79FoTjuz1akmZ9Dt-2B8VfJlRtsouFtXki5gL-2B99MIF7MOUs36fo1c2vA9-2FGpd3s7h6=
+rnbXK2Ct44ZhH02dxXcMh67CX-2FgZvW-2FLlKwaz0SEZcWOAlGYeGOYAKYYYXqL4H6dPhsg-2B=
+KoIBf8amXqrYa7GVh5gxiMGtNTi0hKuMyNANRdrWefc77VBtiQ9yWYlRcyJfEEfrocQtGrHzaBO=
+miOlcymwe3qEfIKEYycCeiISttqp-2FQut9HRWNTUpGGgRIuz8kIaHSR3s0iDE6hF9-2F7tlHeU=
+G6B-2B10ZGy5VeIB-2BRCFAIA2L8etSo5xYjb2ib0B4Oqahgwek4dMP4INM1Xv8LfwP2ePNb3G-=
+2BkNRQOTxQs6AXQrC1o4A0-2Ftj7QCcOphW-2Buv3it2Qwf8Lb0QTSm6Ww1RbeggcSaZXEza1w8=
+DGYXyNRrDgpZNdKycvDGwthRdOvTp3cUCI1PDnWGvRnQfVQZewttDVf-2F5-2FC5yx4R0KfaPl2=
+0yXGhm7ZxarJ5ntyBINl33gmLv81ZVeBi8g1-2BRrA4TRY6XNbo51PCzQ1Tb-2BfdQzAneb20cp=
+URiC5-2B9zk68g2qqwf4-2Bl2Bt2fRPNWQsd2SXLqowDKmZTGd2Gc2tWFAGteMUvMdOW9xfWUld=
+mtgIK-2Fo2edz2Wo0qwvMCVuyXJEb5J69hhUnUvqlVEsa0rEB9RJ4gtT-2Fe5fa2Bljvlu02LTY=
+XIo7z0bgLC-2F7p9p3mSQ8g9sVh5N1lpzFgrcp6OwRUUjWo6mRy16zHGRDxmVy0rCKNuoolNDhk=
+ofdFAngmfG-2FyPOHQuEnXjn8d0IOhjQaYZSoys52eoeAVcEMMtIGmyLXZhuWPdkQ0gUwl0R" t=
+arget=3D"_blank" style=3D"">Unsubscribe</a></p></div></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    <img src=3D"https://u18867331.ct.sendgrid.net/wf/open?upn=3DQFWB4BCTtzC=
+IRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUrXvvh14Nzc3d9HBKa=
+iin7SPab1O-2BgyR96PMPJq0XDFDF63-2Fe9BIrK5DCQs-2BpI9HSBUhW-2BI8DOJDEFpqXh7jq=
+TYEqzS5d1VL1-2BQiYf3oIbcDV2Tk2SQ79FoTjuz1akmZ9Dt-2B8VfJlRtsouFtXki5gL-2B99M=
+IF7MOUs36fo1c2vA9-2FGpd3s7h6rnbXK2Ct44ZhH02dxXcMh67CX-2FgZvW-2FLlKwaz0SEZcW=
+OAlGYeGOYAKYYYXqL4H6dPhsg-2BKoIBf8amXqrYa7GVh5gxiMGtNTi0hKuMyNANRdrWefc77VB=
+tiQ9yWYlRcyJfEEfrocQtGrHzaBOmiOlcymwe3qEfIKEYycCeiISttqp-2FQut9HRWNTUpGGgRI=
+uz8kIaHSR3s0iDE6hF9-2F7tlHeUG6B-2B10ZGy5VeIB-2BRCFAIA2L8etSo5xYjb2ib0B4Oqah=
+gwek4dMP4INM1Xv8LfwP2ePNb3G-2BkNRQOTxQs6AXQrC1o4A0-2Ftj7QCcOphW-2Buv3it2Qwf=
+8Lb0QTSm6Ww1RbeggcSaZXEza1w8DGYXyNRrDgpZNdKycvDGwthRdOvTp3cUCI1PDnWGvRnQfVQ=
+ZewttDVf-2F5-2FC5yx4R0KfaPl20yXGhm7ZxarJ5ntyBINl33gmLv81ZVeBi8g1-2BRrA4TRY6=
+XNbo51PCzQ1Tb-2BfdQzAneb20cpURiC5-2B9zk68g2qqwf4-2Bl2Bt2fRPNWQsd2SXLqowDKmZ=
+TGd2Gc2tWFAGteMUvMdOW9xfWUldmtgIK-2Fo2edz2Wo0qwvMCVug38sKp8WARnWP4d957gZMn-=
+2Fxgn7dnGFh6Xn082bxETqYY5peVCq18yTDiFVtYfSgL6I97Gxlc0anhyX9xqTWZiMdapzfEeGO=
+TTuwPeSV1m1mWobL6PBydkvkFcTjrQ4NpfocG0lreAXjaS-2FYT3c85zhXFvIOLM-2Fnux8xPEj=
+T6A9vqsw4EfXLwAPn09a1LN-2BH" alt=3D"" width=3D"1" height=3D"1" border=3D"0"=
+ style=3D"height:1px !important;width:1px !important;border-width:0 !import=
+ant;margin-top:0 !important;margin-bottom:0 !important;margin-right:0 !impo=
+rtant;margin-left:0 !important;padding-top:0 !important;padding-bottom:0 !i=
+mportant;padding-right:0 !important;padding-left:0 !important;"/></body>
+  </html>
+--f18926c2d0c31e2ae4c06d591f979dd454e9cc9b9fa4dd7de3b3453f2688--

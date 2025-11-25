@@ -1,0 +1,214 @@
+Return-Path: <khushis@delhitechie.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id jaI5GMZhJ2ZqPAAAQ+45pw
+	(envelope-from <khushis@delhitechie.com>)
+	for <info+spam@go-onriders.com>; Tue, 23 Apr 2024 03:22:46 -0400
+Return-path: <khushis@delhitechie.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 23 Apr 2024 03:22:46 -0400
+Received: from mail-pl1-f196.google.com ([209.85.214.196]:59554)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <khushis@delhitechie.com>)
+	id 1rzAUG-0003ro-1f
+	for info@go-onriders.com;
+	Tue, 23 Apr 2024 03:22:46 -0400
+Received: by mail-pl1-f196.google.com with SMTP id d9443c01a7336-1e51398cc4eso47062375ad.2
+        for <info@go-onriders.com>; Tue, 23 Apr 2024 00:22:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=delhitechie-com.20230601.gappssmtp.com; s=20230601; t=1713856922; x=1714461722; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=8NanoNcP9gs0iijSV9y/rw+l6gAteLAF9SH0xrafGKk=;
+        b=pGn6aak4gFlAGoMMzL6NvFoY/WfDZrYolCFveznDuFOhNa5LaA26Thtsf8v0h6vV56
+         dZNoHZOihmXmL1+vc4QM6Uu4tm5mljKPAYUnAH1aBAuLaGY/LrwNC36iuRQbIiRGSCxp
+         6syowE4I560+L4PK2qo8xquf+lkX510NxipB7JdA6dMaqrQb7TX9GbHPckGixpz6JY55
+         f+Jcxvu1y39+gtfgzP5/b1i7O0tDKR6K0KdJOPNoGq7FH+GZ/ZvxvMY1xVsk+w4v7NSf
+         J8VcxtfMH21qKEm3QZwwQIVl0spp7mldrwVT0NfsmeHdqXiNUaeDUmQ5ENeVzEXPS5mO
+         H+lw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1713856922; x=1714461722;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=8NanoNcP9gs0iijSV9y/rw+l6gAteLAF9SH0xrafGKk=;
+        b=RLB/ITz4TnqYrLCDgy96Dgd1hamhFcrQxBUCdhJyf8itbIOwH+4nNdK4LKhqELpqrb
+         jHzoh/rEDNS+lgCoBzuzhSOmaxPdRkt25HGFFE3lG48GTRdMquZAcrOPylZFMbevPsmu
+         1W628/ihRubRXVACi4yDGDb5zKw6w1BW8it7pNmurCaJEFMrVXP5M5704+eRM62MU1Uq
+         CmzoaLxjJhwtxRjZsINsyuslN23olttG23DGCZ3ISvR33QxW87sJlzPLLLbVYIThlqEL
+         E/43W17aYIa6IJAP253ix2qA7HHn159GOTBYAdz2KFE/hM5eVSkaprWTI48hJQeW3c2O
+         dNJQ==
+X-Gm-Message-State: AOJu0YxmBvEnEi4dGKUgamjT0KEhLr4aJNvkC8D5cMJzsggPcpo835wk
+	hF30/6HaWg97YudyosDj13Zv7y7LEpAn402/vwIm4wSqAjBMifI8zIxEwFtJ4VD9aHEQTNp1hAa
+	zkmM=
+X-Google-Smtp-Source: AGHT+IHgXyL+UJNyq5/jGk+IuFkphv4sTUYbPX/9kluaaY8hxsOmfOnURWCH11kHpnEjBHWz+FdfGg==
+X-Received: by 2002:a17:902:eccf:b0:1e9:470:87e3 with SMTP id a15-20020a170902eccf00b001e9047087e3mr16269611plh.45.1713856922018;
+        Tue, 23 Apr 2024 00:22:02 -0700 (PDT)
+Received: from DESKTOPT5460I6 ([122.161.78.62])
+        by smtp.gmail.com with ESMTPSA id kp7-20020a170903280700b001e99fdbc515sm3347046plb.3.2024.04.23.00.22.00
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 23 Apr 2024 00:22:01 -0700 (PDT)
+From: "Khushis" <khushis@delhitechie.com>
+To: <info@go-onriders.com>
+Date: Tue, 23 Apr 2024 12:37:24 +0530
+Message-ID: <11fa001da954e$eef21080$ccd63180$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_11FA1_01DA957D.08AA4C80"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdqVSRlwHIWAYv03RUK0tMYyTwdBrg==
+Content-Language: en-in
+X-MagicSpam-TUUID: 28f1e62f-09af-46a3-8f3a-304b75ced7af
+X-MagicSpam-SUUID: 91891be9-156b-46fa-9f7f-2f7f2f8435fb
+X-Spam-Status: Yes, score=17.6
+X-Spam-Score: 176
+X-Spam-Bar: +++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, We are purely SEO Company; we can place your website
+    on top of the Natural Listings on Google. We can fairly quickly promote your
+    website to the top of the search rankings. 
+ Content analysis details:   (17.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                            [209.85.214.196 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 FROM_FMBLA_NEWDOM28    From domain was registered in last 14-28
+                             days
+  1.0 FREEMAIL               Message originated from 'free' mail service
+  1.0 LM_SEO_BENEFIT         Message contains a phrase relating to the
+                             benefits of SEO.
+  1.0 LM_SEO_SUBJ            Subjects commonly seen in SEO offers
+  4.0 LM_GENERIC_SEO_FREEMAILER1 Pushing Outsourced SEO sources from a
+                              FreeMail account
+  5.0 LM_FREEMAIL_OFFSHORE_DEV4 Score bump for hitting multiple
+                             offshore marketing rules. Short message
+                             from Freemail source.
+  3.5 LM_SEO_MARKETER3       Hits a combination of SEO/Offshore dev rules.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  SEO/SMO Revolution Awaits
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_11FA1_01DA957D.08AA4C80
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hello, 
+
+We are purely SEO Company; we can place your website on top of the Natural
+Listings on Google.
+
+We can fairly quickly promote your website to the top of the search
+rankings.
+
+We would be happy to send you a proposal using the top search phrases for
+your area of expertise.
+
+Please let me know if you have any SEO needs, and we could send you a
+proposal.
+
+Look forward to hearing from you.
+
+Best Regards,
+
+   Khushis
+
+
+------=_NextPart_000_11FA1_01DA957D.08AA4C80
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Hello, =
+<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>We are =
+purely SEO Company; we can place your website on top of the Natural =
+Listings on Google.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>We can =
+fairly quickly promote your website to the top of the search =
+rankings.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>We would =
+be happy to send you a proposal using the top search phrases for your =
+area of expertise.<o:p></o:p></span></p><p class=3DMsoNormal><span =
+lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Please let =
+me know if you have any SEO needs, and we could send you a =
+proposal.<o:p></o:p></span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'>Look =
+forward to hearing from you.<o:p></o:p></span></p><p =
+class=3DMsoNormal><span lang=3DDE =
+style=3D'font-size:11.0pt;font-family:"Calibri","sans-serif"'><o:p></o:p>=
+</span></p><p class=3DMsoNormal style=3D'line-height:115%'><span =
+lang=3DDE =
+style=3D'font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-se=
+rif"'>Best Regards,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:115%'><span lang=3DDE =
+style=3D'font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-se=
+rif"'>&nbsp;&nbsp; =
+<b>Khushis<o:p></o:p></b></span></p></div></body></html>
+------=_NextPart_000_11FA1_01DA957D.08AA4C80--
+

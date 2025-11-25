@@ -1,0 +1,200 @@
+Return-Path: <phoebe@codezentic.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id uqFrIV1wYWeF8AgAQ+45pw
+	(envelope-from <phoebe@codezentic.com>)
+	for <info@go-onriders.com>; Tue, 17 Dec 2024 07:36:45 -0500
+Return-path: <phoebe@codezentic.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 17 Dec 2024 07:36:45 -0500
+Received: from mail-io1-f68.google.com ([209.85.166.68]:42009)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <phoebe@codezentic.com>)
+	id 1tNWoh-00000002SHS-0xdZ
+	for info@go-onriders.com;
+	Tue, 17 Dec 2024 07:36:45 -0500
+Received: by mail-io1-f68.google.com with SMTP id ca18e2360f4ac-844e7bc6d84so130967239f.0
+        for <info@go-onriders.com>; Tue, 17 Dec 2024 04:36:24 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=codezentic.com; s=google; t=1734438963; x=1735043763; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=AEeMrOqlZ1GSca5wzjMb7hQWF0CioenIo5pnszEC70Q=;
+        b=VnpkncAF4wc7v0gC7vBtZZQzz3epURzlJi2q9WUNhNd7S9SllZwruB+sZRD8ZpV1wD
+         ptFExg1KYYTWGVlVsL9ZVaxRsajT0CVNth2DQwwIj5LkCiyZe8tiHiE4MACgJcQhaOqj
+         Eif5zgn/maq6711rNi+5NQ8B6wHa7AjQ/OZWzOFyEU0Xwa2y9tDwvRgr/+Mz90jRAbxD
+         AJHIgUa4xXL/z+aZzchyCBJljgzCTZqM2RFr5JOZkbjY0EHcRZ4dhma1EeQcGn/vM9w0
+         Sd9V+omdVG/DmswKqlxBEDG0hU/Tp/11d0XHNhXkQjbxiVnGJlT1Wf1XH7mr7ztCCQQ7
+         aZ5w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1734438963; x=1735043763;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=AEeMrOqlZ1GSca5wzjMb7hQWF0CioenIo5pnszEC70Q=;
+        b=ObYd6LpKC+IjULc27cXUrkd2nW7StspbMC/4JxeaBZrC/94JVrp3102LLBLckE4oZt
+         Qv6b3vDKLmk1k967lTwzp5isSI+zS7S2nfhBLy311DsLNDx2acPPMUP5TQ/CpCk9AX2k
+         G94Spn4pv/wPsd2dG0gGEaYM/cCbs5+m1b09RedH3uBIh9Vj2YWQKGlhV1VZzmKScVvn
+         U9afxxquokHZrqlZogj9XvCnGRBU05R0ZHvt5ZioQ4+46EneFZoDDTpf1rEm2ymYN5zR
+         J039lnCy4QoqlHLIPLFv7vWik2F7ctSXxQJjfx1shqOPQOLewJU9qyqv2vAs8M7WUZ0D
+         ae+g==
+X-Gm-Message-State: AOJu0Yx5vx2llBhs6ZttvBuKIqO1LUbAJ0pyxIX9IWusN9Lyl9Ksbk+R
+	LObqDIeRlZzeR/LpKSOKcphjNKvTKLKwCKrWDfN+zdg5FH8ZIrfpjP5sVWNYgXhwfFFxJVDUXkG
+	qrOY+xckl5NCJIIrbp+dzzS+0kheGCXUG/6xJJCFqBvlGY68PHoVRCg==
+X-Gm-Gg: ASbGncvGX3KA3jtD+iRKgdQtGlqCzSfW2jV73Irv8bX7pAJudGVA3F5R4fj7AbyIL4m
+	Mjs2UI3+kJQdQpmL5ErTxMKBuw0CCVODgAc+oyNBpPLp/yvgw934+O4DPa71QMr1Ilk7pOQ==
+X-Google-Smtp-Source: AGHT+IFgEOu92/M4gouZsDJEQ9Intcmx9Ib6V5orGFWGmNbOqzNB3BMZr1lc94zs8Ys7uJ6qYLhGvypRey96a+MMdqc=
+X-Received: by 2002:a6b:5b03:0:b0:841:ab27:acac with SMTP id
+ ca18e2360f4ac-84747b8cb88mr245199239f.2.1734438963039; Tue, 17 Dec 2024
+ 04:36:03 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 17 Dec 2024 04:36:02 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 17 Dec 2024 04:36:00 -0800
+MIME-Version: 1.0
+Sender: Phoebe <phoebe@codezentic.com>
+From: Phoebe <phoebe@codezentic.com>
+Date: Tue, 17 Dec 2024 04:36:02 -0800
+X-Google-Sender-Auth: VIHeQ49ooq0qrByNIGz2QCvO_gA
+Message-ID: <CAM5nfMnuRgGQZD7RA=BCVraSogKLc0wiCVCLMGHpGkUOz-9gEA@mail.gmail.com>
+Subject: Unwrap Santa's Special Present Just For go-onriders.com!!!
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="00000000000046e2600629768ae1"
+X-MagicSpam-TUUID: 823136c2-00e8-4999-9bfc-3998402cefa8
+X-MagicSpam-SUUID: d672347b-1594-4015-9373-611b6def3f45
+X-Spam-Status: No, score=1.1
+X-Spam-Score: 11
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello go-onriders.com <https://codezentic-dot-yamm-track.appspot.com/2MwuzjGcyFKw-BlY6EU5nWH_ILyg6FunevC5cVPLWIyuCPZ7UkwG08KGI0O9dS2NIIkY4C1aysy2YhN1qwKgWCKjiCWbL2AyBFI0Dq8b5Sro6vfuwc4e-KPfmj8b3Add5CM
+    [...] 
+ Content analysis details:   (1.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.166.68 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.166.68 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.166.68 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.3 HTML_IMAGE_ONLY_24     BODY: HTML: images with 2000-2400 bytes of words
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--00000000000046e2600629768ae1
+Content-Type: text/plain; charset="UTF-8"
+
+Hello go-onriders.com
+<https://codezentic-dot-yamm-track.appspot.com/2MwuzjGcyFKw-BlY6EU5nWH_ILyg6FunevC5cVPLWIyuCPZ7UkwG08KGI0O9dS2NIIkY4C1aysy2YhN1qwKgWCKjiCWbL2AyBFI0Dq8b5Sro6vfuwc4e-KPfmj8b3Add5CMbXAOeQs4mzuZjjXG4pO0G2k92bzH7iikTq8DMsJcCh9jw>
+Team,
+
+Hope everything is going well at your end.
+
+We are an experienced online marketing agency with a huge client base of
+17000+ micro, mini & medium businesses from all across the globe.
+
+After a huge success record, we have come up with an attractive plan of
+action which can boost up your online performance to 4x.
+
+*CHRISTMAS PRESENT*: Get an aggressive marketing campaign for 30 days with
+a cost of $99 only.
+
+Sounds interesting, right?
+
+Drop me a text with your confirmation and I will come up with the entire
+plan in my next email.
+
+I look forward to hearing from you soon.
+
+Kind Regards
+Phoebe ! Business Development Manager
+------------------------------
+
+*Note* - Our next conversation will be on my corporate Email ID. If this is
+something you are interested in, please respond to this email. If this is
+not your interest, don't worry, we will not email you again.
+[image: beacon]
+
+--00000000000046e2600629768ae1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">   <div style=3D"border:2px solid #f8b229;padding:10px">
+    <div style=3D"background-color:#f8b229;padding:25px;color:black">
+     =20
+       =20
+       =20
+     =20
+        <p style=3D"font-size:20px;color:black">Hello <a href=3D"https://co=
+dezentic-dot-yamm-track.appspot.com/2MwuzjGcyFKw-BlY6EU5nWH_ILyg6FunevC5cVP=
+LWIyuCPZ7UkwG08KGI0O9dS2NIIkY4C1aysy2YhN1qwKgWCKjiCWbL2AyBFI0Dq8b5Sro6vfuwc=
+4e-KPfmj8b3Add5CMbXAOeQs4mzuZjjXG4pO0G2k92bzH7iikTq8DMsJcCh9jw" rel=3D"nofo=
+llow">go-onriders.com</a> Team,</p>
+     =20
+        <p style=3D"font-size:20px;color:black">Hope everything is going we=
+ll at your end.
+        </p>=20
+         <p style=3D"font-size:20px;color:black"> We are an experienced onl=
+ine marketing agency with a huge client base of 17000+ micro, mini &amp; me=
+dium businesses from all across the globe.</p>
+     =20
+         <p style=3D"font-size:20px;color:black">
+          After a huge success record, we have come up with an attractive p=
+lan of action which can boost up your online performance to 4x.  </p>
+          <p style=3D"color:#bb2528;font-size:25px">
+            <b style=3D"font-size:x-large">CHRISTMAS PRESENT</b>: Get an ag=
+gressive marketing campaign for 30 days with a cost of $99 only.<br>=20
+            </p>
+     =20
+          <p style=3D"font-size:20px;color:black">Sounds interesting, right=
+?
+          </p>
+         =20
+          <p style=3D"font-size:20px;color:black">Drop me a text with your =
+confirmation and I will come up with the entire plan in my next email.</p>
+          <p style=3D"font-size:20px;color:black">I look forward to hearing=
+ from you soon.</p>
+          <p style=3D"color:#226634;font-size:20px">
+          Kind Regards <br>
+          Phoebe ! Business Development Manager</p>
+     =20
+          <hr style=3D"border:1px dashed black">
+            <p style=3D"color:black">
+              <b>Note</b> - Our next conversation will be on my corporate E=
+mail ID. If this is something you are interested in, please respond to this=
+ email. If this is not your interest, don&#39;t worry, we will not email yo=
+u again.
+            </p>
+     =20
+     =20
+      </div>
+    </div></div>
+<img src=3D"https://codezentic-dot-yamm-track.appspot.com/22kvCijy6knkKvm6h=
+54Oqy6JJ-3Q2OxdyR21FalIZrtl9PZ7UkwHcTZBKmE8CLUtWrvkddz6zg2Z57obkWxYCrc-Wc98=
+jX8nvr0WfeX71KnaKzCR-8o_EeV3a63D61J-oY1KLh8oLJzTG9T3om2Ws4sB3gxjiCkgH1g" wi=
+dth=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:none!i=
+mportant;">
+
+--00000000000046e2600629768ae1--

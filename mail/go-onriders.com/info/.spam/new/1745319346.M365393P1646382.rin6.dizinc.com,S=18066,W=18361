@@ -1,0 +1,295 @@
+Return-Path: <stephenjoseph@smartstreamingott.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id +FieFbJ1B2guHxkAQ+45pw
+	(envelope-from <stephenjoseph@smartstreamingott.com>)
+	for <info+spam@go-onriders.com>; Tue, 22 Apr 2025 06:55:46 -0400
+Return-path: <stephenjoseph@smartstreamingott.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 22 Apr 2025 06:55:46 -0400
+Received: from mail-oo1-f45.google.com ([209.85.161.45]:45204)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <stephenjoseph@smartstreamingott.com>)
+	id 1u7BI3-00000006uT1-1tj2
+	for info@go-onriders.com;
+	Tue, 22 Apr 2025 06:55:46 -0400
+Received: by mail-oo1-f45.google.com with SMTP id 006d021491bc7-6042c04fd18so2238877eaf.2
+        for <info@go-onriders.com>; Tue, 22 Apr 2025 03:55:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1745319302; x=1745924102; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=YlbYcEwJe6sCCC32q8Gq4Mp2GL/dklnDVxFv+CAAQvQ=;
+        b=yIaIscQPs6HPLihld85NGSETWVc0ft7eyLopwlZDeDvr0EvcLMsaFc6hrbbBb4BQd9
+         IW+AU5fjX7wiBFCW6geSLyneAi3+sKXr4uRpPMtfmHBuKAGFFW5Z91pmQI+iw8WM0thE
+         xZc3Wkz6QfOberFHrR9kj888Wa5h43OT5AeXh0H1LK+jJK9oFITDYKfe4YBJaV7GCN+n
+         WJj9ntycJ6dtkWT97lDjy7w/SufQ75dMhG9XKRiuXE7L+7icerVA+0YPzDAxEVjQmGtM
+         N1iqd5AzCD7Kew3bPtfm5T3fkGjQTH1Z9K1v4CkcBM18IXoI1Nfebt970eLIqWnJeuN+
+         kfyQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1745319302; x=1745924102;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=YlbYcEwJe6sCCC32q8Gq4Mp2GL/dklnDVxFv+CAAQvQ=;
+        b=P4S8gNdFIQegvNWVlPqRBGh6zAImqy0h7sdi/lIXD6HFRGxy9d+7cVYEcEn1U870gp
+         rGNZCboCHJ8xdlJEXBN7oRQVUHFvOYw4PiwoWQG7SfiOSGn7gJHyD8l9gToHFPRMhM9d
+         S/CuTcAPGGYh/A39V1xPEjdUFmCZlFN//yBeRA3b9ZEEghI8TgmnTXJVuNtlaf46SacT
+         r08tjzvb1kL9QInUcqGRUccoev1hh/VU0YtH/yzMDW1xpnT4FwRqBCBBpDoL3REBxf7y
+         sVjfJJMhS547pslMmiHMipViQKPRrSynTKy4+jznCf+H/YPVCaUSjraIFttZDW6UOfrt
+         HGoQ==
+X-Gm-Message-State: AOJu0Yxzsrs72j4mvRmFz0dSRk/Bt74n2ajdmFzzQPn7FQPgAzlmBkQi
+	ga1u6PNieSTlbofhhAgrc4A2Uz1pzH8b8rOKLYuvHwDZqee+N+fTtF08VoiEV94i4rCOoZh29kf
+	Wtf9urIX4IkVepQme2etyN0GRkNQ3aL4MgpU3aAADMoa9HqVx
+X-Gm-Gg: ASbGnctvszzVbUSDYz44d8PE5N+Z18sW1E9uvRc0zcwwkxec2UR2sFoL1BQ8hFwX/k4
+	veFXoRnuhNG2R0S5HHajR+FbBvholxM1nHpMZyJ/fb6RDa5FsDhhWQx5PqGkvHmM6C6ak36yfrr
+	/kEoEobg4W1I+ZgfsKtVWdevoBxgt7cC/ZOg==
+X-Google-Smtp-Source: AGHT+IGWgaV5H2BdA4KWVESRnWrAj6z3IYwrry1HqbIeLnNzUfur+BE7ra2qp7c0llPC3sYua3icA5rmSFgGqst6DMg=
+X-Received: by 2002:a4a:d849:0:b0:606:462:5d1a with SMTP id
+ 006d021491bc7-60604625db5mr5713617eaf.2.1745319302112; Tue, 22 Apr 2025
+ 03:55:02 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 22 Apr 2025 10:54:57 +0000
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 22 Apr 2025 12:54:54 +0200
+MIME-Version: 1.0
+Sender: Stephen Joseph <stephenjoseph@smartstreamingott.com>
+From: Stephen Joseph <stephenjoseph@smartstreamingott.com>
+Date: Tue, 22 Apr 2025 10:54:57 +0000
+X-Google-Sender-Auth: l0tzf8xRE3yAjfezOHRNwZEKIbA
+X-Gm-Features: ATxdqUHh3vpveirNy_-B0PG31NhZ_vVBT0FzgHfPt7OCtmqsMwQ1flFMdrVwbr0
+Message-ID: <CAL02OLh1+u9Ks-EbV85MPfZkPYij=YzcAtpTyJ+Jca9mqYLV3w@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="00000000000005bb4206335bd190"
+X-MagicSpam-TUUID: a9854c65-8b9f-4ac1-bc9c-a15cc041cdbc
+X-MagicSpam-SUUID: 38d26f90-0b96-46b9-85c2-d14cdc8dd4fe
+X-Spam-Status: Yes, score=10.0
+X-Spam-Score: 100
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi *go-onriders.com <https://smartstreamingott-dot-yamm-track.appspot.com/2HekH3m3iBYLvkNikxXoEV2tFAQTU5_Oprm8Um4REHmeW9SJdlgGfpbJBj6odohXBvbvK52EQGwKVr7Q807W6uZ6CpR5vaBdvMA-kDzaE74vQC-ers4ZT6SvcjFmea
+    [...] 
+ Content analysis details:   (10.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.161.45 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.161.45 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.161.45 listed in sa-trusted.bondedsender.org]
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in smartstreamingott.com.wild.pccc.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                            [URI: smartstreamingott-dot-yamm-track.appspot.com]
+                             [URI: go-onriders.com]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.2 KAM_DMARC_NONE         DKIM has Failed or SPF has failed on the message and
+                             the domain has no DMARC policy
+  0.8 KAM_ADVERT2            BODY: This is probably an unwanted commercial email...
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Need a Website Redesign and Upgrade?
+
+--00000000000005bb4206335bd190
+Content-Type: text/plain; charset="UTF-8"
+
+Hi *go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/2HekH3m3iBYLvkNikxXoEV2tFAQTU5_Oprm8Um4REHmeW9SJdlgGfpbJBj6odohXBvbvK52EQGwKVr7Q807W6uZ6CpR5vaBdvMA-kDzaE74vQC-ers4ZT6SvcjFmeaT29s61CCAnYyLF_JjNVRMMg-FteBh-KI5IpUp1hTFXWki6fQLdnvciZSJB8Jbw>*
+ Owner,
+
+
+
+I will do Any WordPress, PHP, HTML, CSS, Responsive Related work for
+you *go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/2qSEbMcs0sGh9ydrvirOK70MBeXytigvj0yoywfRqWHyY9SJdlgGo7-vo4TC8vOFbjo-o1sK_QXQRiL9YNUXBqgXvJO-moDYGZTvz5kDT2TrBe-VOnWMEDW_LRXRWPq4zl33PknpOl1MeN37kk-cO0JXAmimmLeJzyC3OBFsIiXrq5a3OUeaexHQLUvU>.*
+
+
+
+*I can work for you:*
+
+   - Fix blank WordPress issue
+   - Fix any PHP, HTML, CSS, Responsive
+   - Theme installation/customization in WordPress
+   - CSS Designing Bug
+   - WordPress Plugin setup/configuration
+   - Remove unnecessary meta-data
+   - Change the Permalink Structure
+   - Enable/Disable HTML in WP comments
+   - Favicon & Logo customization
+   - Improve the Security of your WordPress/PHP website
+   - Shopping cart integration
+   - Fix Errors on the WP Login screen
+   - Fix any type of common WordPress Errors
+   - Product Uploading Work
+                                                         If you are
+   *interested* any services? I can send you more details on the
+*action/portfolio/past
+   work details/price list. *
+
+
+
+Regards,
+
+
+
+         *Steven Joseph,*
+
+         Web Development Manager,
+
+-----------------------------------------------------
+
+       Note: If you are not interested, please
+
+      reply here to remove
+[image: beacon]
+
+--00000000000005bb4206335bd190
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:1.5pt 0cm;line-heig=
+ht:11.2pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US"=
+ style=3D"font-family:Verdana,sans-serif;color:black">Hi=C2=A0<b><a href=3D=
+"https://smartstreamingott-dot-yamm-track.appspot.com/2HekH3m3iBYLvkNikxXoE=
+V2tFAQTU5_Oprm8Um4REHmeW9SJdlgGfpbJBj6odohXBvbvK52EQGwKVr7Q807W6uZ6CpR5vaBd=
+vMA-kDzaE74vQC-ers4ZT6SvcjFmeaT29s61CCAnYyLF_JjNVRMMg-FteBh-KI5IpUp1hTFXWki=
+6fQLdnvciZSJB8Jbw" rel=3D"nofollow">go-onriders.com</a></b>=C2=A0Owner,=C2=
+=A0</span><span lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"m=
+argin:1.5pt 0cm;line-height:11.2pt;font-size:11pt;font-family:Arial,sans-se=
+rif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;letter-sp=
+acing:0.1pt">=C2=A0</span><span lang=3D"EN-US"></span></p><p class=3D"MsoNo=
+rmal" style=3D"margin:1.5pt 0cm;line-height:11.2pt;font-size:11pt;font-fami=
+ly:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans=
+-serif;color:black;letter-spacing:0.1pt">I will do Any WordPress, PHP, HTML=
+, CSS, Responsive Related work for you=C2=A0</span><b><span lang=3D"EN-US" =
+style=3D"font-family:Verdana,sans-serif;color:black"><a href=3D"https://sma=
+rtstreamingott-dot-yamm-track.appspot.com/2qSEbMcs0sGh9ydrvirOK70MBeXytigvj=
+0yoywfRqWHyY9SJdlgGo7-vo4TC8vOFbjo-o1sK_QXQRiL9YNUXBqgXvJO-moDYGZTvz5kDT2Tr=
+Be-VOnWMEDW_LRXRWPq4zl33PknpOl1MeN37kk-cO0JXAmimmLeJzyC3OBFsIiXrq5a3OUeaexH=
+QLUvU" rel=3D"nofollow">go-onriders.com</a>.</span></b><span lang=3D"EN-US"=
+></span></p><p class=3D"MsoNormal" style=3D"margin:1.5pt 0cm;line-height:11=
+.2pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" styl=
+e=3D"font-family:Verdana,sans-serif;letter-spacing:0.1pt">=C2=A0</span><spa=
+n lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"margin:1.5pt 0c=
+m;line-height:11.2pt;font-size:11pt;font-family:Arial,sans-serif"><b><span =
+lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black;letter-s=
+pacing:0.1pt">I can work for you:</span></b><span lang=3D"EN-US"></span></p=
+><ul type=3D"disc" style=3D"margin-top:0cm;margin-bottom:0cm"><li class=3D"=
+MsoNormal" style=3D"margin:0cm;line-height:normal;font-size:11pt;font-famil=
+y:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-=
+serif;color:black;letter-spacing:0.1pt">Fix blank WordPress=C2=A0issue</spa=
+n><span lang=3D"EN-US"></span></li><li class=3D"MsoNormal" style=3D"margin:=
+0cm;line-height:normal;font-size:11pt;font-family:Arial,sans-serif"><span l=
+ang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black;letter-sp=
+acing:0.1pt">Fix any PHP, HTML, CSS, Responsive</span><span lang=3D"EN-US">=
+</span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;=
+font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"=
+font-family:Verdana,sans-serif;color:black;letter-spacing:0.1pt">Theme inst=
+allation/customization in WordPress</span><span lang=3D"EN-US"></span></li>=
+<li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;font-size:11=
+pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:=
+Verdana,sans-serif;color:black;letter-spacing:0.1pt">CSS Designing Bug</spa=
+n><span lang=3D"EN-US"></span></li><li class=3D"MsoNormal" style=3D"margin:=
+0cm;line-height:normal;font-size:11pt;font-family:Arial,sans-serif"><span l=
+ang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black;letter-sp=
+acing:0.1pt">WordPress Plugin setup/configuration</span><span lang=3D"EN-US=
+"></span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-height:norma=
+l;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=
+=3D"font-family:Verdana,sans-serif;color:black;letter-spacing:0.1pt">Remove=
+ unnecessary meta-data</span><span lang=3D"EN-US"></span></li><li class=3D"=
+MsoNormal" style=3D"margin:0cm;line-height:normal;font-size:11pt;font-famil=
+y:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-=
+serif;color:black;letter-spacing:0.1pt">Change the Permalink Structure</spa=
+n><span lang=3D"EN-US"></span></li><li class=3D"MsoNormal" style=3D"margin:=
+0cm;line-height:normal;font-size:11pt;font-family:Arial,sans-serif"><span l=
+ang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black;letter-sp=
+acing:0.1pt">Enable/Disable HTML in WP comments</span><span lang=3D"EN-US">=
+</span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;=
+font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"=
+font-family:Verdana,sans-serif;color:black;letter-spacing:0.1pt">Favicon &a=
+mp; Logo customization</span><span lang=3D"EN-US"></span></li><li class=3D"=
+MsoNormal" style=3D"margin:0cm;line-height:normal;font-size:11pt;font-famil=
+y:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-=
+serif;color:black;letter-spacing:0.1pt">Improve the Security of your WordPr=
+ess/PHP website</span><span lang=3D"EN-US"></span></li><li class=3D"MsoNorm=
+al" style=3D"margin:0cm;line-height:normal;font-size:11pt;font-family:Arial=
+,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;c=
+olor:black;letter-spacing:0.1pt">Shopping cart integration</span><span lang=
+=3D"EN-US"></span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-hei=
+ght:normal;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US=
+" style=3D"font-family:Verdana,sans-serif;color:black;letter-spacing:0.1pt"=
+>Fix Errors on the WP Login screen</span><span lang=3D"EN-US"></span></li><=
+li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;font-size:11p=
+t;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:V=
+erdana,sans-serif;color:black;letter-spacing:0.1pt">Fix any type of common =
+WordPress Errors</span><span lang=3D"EN-US"></span></li><li class=3D"MsoNor=
+mal" style=3D"margin:0cm;line-height:normal;font-size:11pt;font-family:Aria=
+l,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;=
+color:black;letter-spacing:0.1pt">Product Uploading Work=C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0=C2=A0</span><span lang=3D"EN-=
+US" style=3D"font-family:Verdana,sans-serif">If you are=C2=A0</span><b><spa=
+n lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black">inter=
+ested</span></b><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-seri=
+f;color:black">=C2=A0any services? I can send you more details on the=C2=A0=
+<b>action/portfolio/past work details/price list.=C2=A0</b></span><span lan=
+g=3D"EN-US"></span></li></ul><p class=3D"MsoNormal" style=3D"margin:0cm 0cm=
+ 0cm 36pt;line-height:11.2pt;font-size:11pt;font-family:Arial,sans-serif"><=
+span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">=C2=A0</span><=
+span lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm 0=
+cm 0cm 36pt;line-height:11.2pt;font-size:11pt;font-family:Arial,sans-serif"=
+><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black">=
+Regards,</span><span lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=
+=3D"margin:0cm 0cm 0cm 36pt;line-height:11.2pt;font-size:11pt;font-family:A=
+rial,sans-serif"><span lang=3D"EN-US">=C2=A0</span></p><p style=3D"margin:0=
+cm;line-height:12.65pt;font-size:12pt;font-family:&quot;Times New Roman&quo=
+t;,serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif"><b>=
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</b></span><b style=3D"font-family:Calibr=
+i,sans-serif;font-size:14.6667px"><span lang=3D"EN-US" style=3D"font-family=
+:Verdana,sans-serif">Steven Joseph,</span></b></p><p style=3D"margin:0cm;li=
+ne-height:12.65pt;font-size:12pt;font-family:&quot;Times New Roman&quot;,se=
+rif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">=C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0Web Development=C2=A0Manager,=C2=A0</span><span =
+lang=3D"EN-US" style=3D"font-family:Arial,sans-serif"></span></p><p class=
+=3D"MsoNormal" style=3D"margin:0cm 0cm 0cm 36pt;line-height:11.2pt;font-siz=
+e:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-fam=
+ily:Verdana,sans-serif;color:black">---------------------------------------=
+--------------</span><span lang=3D"EN-US"></span></p><p style=3D"margin:0cm=
+;line-height:12.65pt;font-size:12pt;font-family:&quot;Times New Roman&quot;=
+,serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 Note: If you are not interested, please</=
+span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif"></span></p=
+><p style=3D"margin:0cm;line-height:12.65pt;font-size:12pt;font-family:&quo=
+t;Times New Roman&quot;,serif"><span lang=3D"EN-US" style=3D"font-family:Ve=
+rdana,sans-serif">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 reply here to remove</span=
+></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/28gARZHDRa=
+GGnzSJjZ0M4bKy-U1cJ2MbooK83WkTZTpmU9SJdlgGrSwMPOtZL_MOfVfhdgkcsEcUhhFwh3O88=
+py2JTeiQSMbyIYQzglgUVO_en2YTgZoAHjPkJ8ri2gzaIKNAKSsQQBR1a443m23ddreWe-B5EKs=
+mAbeLo8iBsz2gRQ" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:n=
+one; display:none!important;">
+
+--00000000000005bb4206335bd190--

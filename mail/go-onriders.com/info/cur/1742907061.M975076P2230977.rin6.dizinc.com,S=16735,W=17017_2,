@@ -1,0 +1,282 @@
+Return-Path: <dse_NA4@docusign.net>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id kISEObWm4mfBCiIAQ+45pw
+	(envelope-from <dse_NA4@docusign.net>)
+	for <info@go-onriders.com>; Tue, 25 Mar 2025 08:51:01 -0400
+Return-path: <dse_NA4@docusign.net>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 25 Mar 2025 08:51:01 -0400
+Received: from mailsea.docusign.net ([64.207.219.7]:50383)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <dse_NA4@docusign.net>)
+	id 1tx3kD-00000009RFB-2Wxq
+	for info@go-onriders.com;
+	Tue, 25 Mar 2025 08:51:01 -0400
+Received: from SE5FE102.corp.docusign.net (se-c102-f51-81.corp.docusign.net [10.101.81.73])
+	by mailsea.docusign.net (Postfix) with ESMTP id 9FF272008EF1
+	for <info@go-onriders.com>; Tue, 25 Mar 2025 12:50:18 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=docusign.net;
+	s=mail1; t=1742907018;
+	bh=IqrmS+HC6U+77h2CFBUb9j1Ek0YtivZLu8+C0Y67TMg=;
+	h=Reply-To:Feedback-ID:From:To:Date:Subject;
+	b=jywIWrkHJhadNtsv6+mLIowG07+ECtxllKackzgFEpfWH3AxPHa5Ghsb9o7QnN4HQ
+	 sgR3G4KdcoGucWdNL6dmRVHF2uvr+xqlId4KnAfYoP7JW2ly0Nt7mbdQj+M/zMbxjc
+	 i0jgEClkXYUBPVzVjaYQJFasordvXwmU+fAmUBJpp7Z9HoP27iZeqchPRJKN3T3hJp
+	 JnsEf9ns+Ymy0bcMH6hs1gWmXLBKia1q+2ME/ln0NJk6Vhg2OwCG1sNQfgUCmXRk6z
+	 6BeUw6q2tZQhbY9qiJ3cwGkW7ntgreKyZwkDUzuHhZMmgcCjC8vfmntwSgSxbCfu2b
+	 MzM5ft9NUVM4A==
+Received: from docusign.net ([127.0.0.1]) by SE5FE102.corp.docusign.net with Microsoft SMTPSVC(10.0.17763.1697);
+	 Tue, 25 Mar 2025 05:50:18 -0700
+Sender: DocuSign NA4 System  <dse_NA4@docusign.net>
+Reply-To: "PAVAN KUMAR"  <pavankumarv1497@gmail.com>
+Recipient-Id: 113d57ad-8a4a-4d82-87da-93986065699e
+X-Debug: False
+X-Email-Rejection-Mode: LearningMode
+X-Api-Host: na4.docusign.net
+Site-Id: 7
+X-BounceEmailVersion: 1
+Feedback-ID: 1:d420b5bd-56b4-4ee0-a157-0df42e1629a3:EnvelopeActivation:Docusign_Prod
+X-DS-Score: 1
+From: "PAVAN KUMAR via Docusign" <dse_NA4@docusign.net>
+To: "Go On Rides" <info@go-onriders.com>
+Message-ID: <b859ae868ea44f6db8e108185c61f3a9@docusign.net>
+Date: Tue, 25 Mar 2025 05:50:18 -0700
+Subject: Complete with Docusign: Go On Rides Agreement.pdf
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_NextPart_924E3941_93CF_42F0_9D7D_60E7E1D36D8C"
+X-OriginalArrivalTime: 25 Mar 2025 12:50:18.0614 (UTC) FILETIME=[76745160:01DB9D84]
+X-MagicSpam-TUUID: 10f87914-d9e8-49e3-a03b-c1c523f354e6
+X-MagicSpam-SUUID: 3d96fdd6-57e3-4f59-977f-26ad17243a4f
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello Go On Rides, PAVAN KUMAR has sent you a new Docusign
+    document to view and sign. Please click on the link below to begin signing.
+    REVIEW DOCUMENT 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: docusign.net]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [64.207.219.7 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [64.207.219.7 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [64.207.219.7 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
+                             [pavankumarv1497(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.8 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+------=_NextPart_924E3941_93CF_42F0_9D7D_60E7E1D36D8C
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Go On Rides,
+
+PAVAN KUMAR has sent you a new Docusign document to view and sign=2E Pl=
+ease click on the link below to begin signing=2E
+
+   =20
+
+REVIEW DOCUMENT
+
+https://na4=2Edocusign=2Enet/Signing/EmailStart=2Easpx?a=3D737854d7-3d5=
+3-4669-ba8d-0835dd50c9f4&etti=3D24&acct=3D3cff367d-09e5-463d-9f84-88422=
+e486570&er=3D113d57ad-8a4a-4d82-87da-93986065699e
+
+If clicking the link does not work, you can highlight and copy the enti=
+re line above and paste it into your browser to get started=2E
+
+This message was sent to you by PAVAN KUMAR who is using the Docusign E=
+lectronic Signature Service=2E If you would rather not receive email fr=
+om this sender you may contact the sender with your request=2E
+
+Do Not Share This Email
+This email contains a secure link to Docusign=2E Please do not share th=
+is email, link, or access code with others=2E
+
+Questions about the Document?
+If you need to modify the document or have questions about the details =
+in the document, please reach out to the sender by emailing them direct=
+ly=2E
+
+Stop receiving this email
+Report this email https://protect=2Edocusign=2Enet/report-abuse?e=3DAUt=
+omjpFak9GlbPL0zFFi12yYm0sdhI3pEa7zoJ7AWleYyhbTvFo1-Yt3ocMs1DNf1-Z5ybgn7=
+DcK5UaX1XtItH1o2SOshy40CI6OwLD13LZL59zWdDRjKzp6UcE4VkvUAKzMulkdvLJTXxP1=
+4rJl9sNmkSLv1o56vjbAJKli62PAlDUL6MJ-8Zv_bGAK--kT9UxURqHeq7VJwodsmFGFqvz=
+IqbRv50AORr2HPoyLN-r3OSXDN6R6DCmxgBS8iEHv3i9CB687dyU2AlzIoDKANKNqtzNhHU=
+5WPzfAWJLE-j-pZYgLbY8vAxf980fnR3RpSRsImHXBuJcCDnq9cxj4EPO913hIXC_tSe0iL=
+2QkvSDrG8Ucv2QTLePSV3xFfbafDZfpkjZ0LK7Ewts-cZIPJLyy1bOX8ZgRcslorc3a9HcM=
+jAeyfDR2x4dMwO4bPl0-A&lang=3Den
+Declining to sign=20
+Managing notifications=20
+
+If you have trouble signing, visit "How to Sign a Document" on our Docu=
+sign Support Center, or become part of the Docusign Community to access=
+ tips and guidance from peers=2E
+https://support=2Edocusign=2Ecom/s/articles/How-do-I-sign-a-DocuSign-do=
+cument-Basic-Signing?language=3Den_US&#38;utm_campaign=3DGBL_XX_DBU_UPS=
+_2211_SignNotificationEmailFooter&#38;utm_medium=3Dproduct&#38;utm_sour=
+ce=3Dpostsend
+------=_NextPart_924E3941_93CF_42F0_9D7D_60E7E1D36D8C
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en"><head><meta http-equiv=3D"Content-Type" content=3D"te=
+xt/html; charset=3DUTF-8"/><meta name=3D"viewport" content=3D"initial-s=
+cale=3D1=2E0"/><meta name=3D"format-detection" content=3D"telephone=3Dn=
+o"/><title>EnvelopeActivation</title></head><body style=3D"background-c=
+olor:#EAEAEA;padding:2%;font-family:Helvetica,Arial,Sans Serif;"><table=
+ role=3D'presentation' border=3D'0' cellspacing=3D'0' cellpadding=3D'0'=
+ align=3D'center' width=3D"100%" dir=3D""><tr><td></td><td width=3D"640=
+"><table role=3D"presentation" style=3D"mso-table-lspace:0pt;mso-table-=
+rspace:0pt;border-collapse:collapse;background-color:#ffffff;max-width:=
+640px;"><tr><td style=3D"padding:10px 24px;"><img style=3D"border:none;=
+" width=3D"116" src=3D"https://docucdn-a=2Eakamaihd=2Enet/olive/images/=
+2=2E62=2E0/global-assets/email-templates/email-logo=2Epng" alt=3D"DocuS=
+ign"/></td></tr><tr><td style=3D"padding:0px 24px 30px 24px;"><table ro=
+le=3D'presentation' border=3D'0' cellspacing=3D'0' cellpadding=3D'0' wi=
+dth=3D'100%' align=3D'center' style=3D'background-color:#260559;color:#=
+FFFFFF;'><tr><td style=3D"padding:28px 36px 36px 36px;border-radius:2px=
+;background-color:#260559;color:#FFFFFF;font-size:16px;font-family:Helv=
+etica,Arial,Sans Serif;width:100%;text-align:center;" align=3D"center">=
+<img width=3D"75" height=3D"75" src=3D"https://docucdn-a=2Eakamaihd=2En=
+et/olive/images/2=2E76=2E0/email/iconSignWhite=2Epng" style=3D"width:75=
+px;height:75px;" alt=3D"" /><table role=3D'presentation' border=3D'0' c=
+ellspacing=3D'0' cellpadding=3D'0' width=3D'100%'><tr><td style=3D"padd=
+ing-top:24px;font-size:16px;font-family:Helvetica,Arial,Sans Serif;bord=
+er:none;text-align:center;color:#FFFFFF" align=3D"center"> PAVAN KUMAR =
+sent you a document to review and sign=2E </td></tr></table><table role=
+=3D'presentation' border=3D'0' cellspacing=3D'0' cellpadding=3D'0' widt=
+h=3D'100%'><tr><td align=3D"center" style=3D"padding-top:30px;"><div><t=
+able cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center" heigh=
+t=3D"44" style=3D"font-size:15px;color:#FFFFFF;background-color:#735AFF=
+;font-family:Helvetica,Arial,Sans Serif;font-weight:bold;text-align:cen=
+ter;text-decoration:none;;border-radius:2px;background-color:#735AFF;;d=
+isplay: block;"><a href=3D"https://na4=2Edocusign=2Enet/Signing/EmailSt=
+art=2Easpx?a=3D737854d7-3d53-4669-ba8d-0835dd50c9f4&etti=3D24&acct=3D3c=
+ff367d-09e5-463d-9f84-88422e486570&er=3D113d57ad-8a4a-4d82-87da-9398606=
+5699e" style=3D"font-size:15px;color:#FFFFFF;background-color:#735AFF;f=
+ont-family:Helvetica,Arial,Sans Serif;font-weight:bold;text-align:cente=
+r;text-decoration:none;;border-radius:2px;background-color:#735AFF;;dis=
+play:inline-block"><span style=3D"padding:0px 24px;;line-height:44px;">=
+<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> REVIEW DO=
+CUMENT <!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--></s=
+pan></a></td></tr></table></div></td></tr></table></td></tr></table></t=
+d></tr><tr><td style=3D"padding:0px 24px 24px 24px;color:#000000;font-s=
+ize:16px;font-family:Helvetica,Arial,Sans Serif;background-color:white;=
+"><table role=3D'presentation' border=3D'0' cellspacing=3D'0' cellpaddi=
+ng=3D'0'><tr><td style=3D"padding-bottom:20px;"><div style=3D"font-fami=
+ly:Helvetica,Arial,Sans Serif;font-weight:bold;line-height:18px;font-si=
+ze:15px;color:#333333;"> PAVAN KUMAR </div><div style=3D"font-family:He=
+lvetica,Arial,Sans Serif;line-height:18px;font-size:15px;color:#666666;=
+">pavankumarv1497@gmail=2Ecom</div></td></tr></table><span style=3D"fon=
+t-size:15px;color:#333333;font-family:Helvetica,Arial,Sans Serif;line-h=
+eight:20px;">Go On Rides,<br /><br /> Complete with Docusign: Go On Rid=
+es Agreement=2Epdf<br /><br /> Thank You, PAVAN KUMAR</span><br /></td>=
+</tr><tr><td style=3D"padding:0px 24px 12px 24px;background-color:#ffff=
+ff;font-family:Helvetica,Arial,Sans Serif;font-size:11px;color:#666666;=
+"></td></tr><tr><td style=3D"padding:30px 24px 45px 24px;background-col=
+or:#EAEAEA;"><p style=3D"margin-bottom:1em;font-family:Helvetica,Arial,=
+Sans Serif;font-size:13px;color:#666666;line-height:18px;"><b aria-leve=
+l=3D"3" role=3D"heading">Do Not Share This Email</b><br/> This email co=
+ntains a secure link to Docusign=2E Please do not share this email, lin=
+k, or access code with others=2E<br/></p><p style=3D"margin-bottom:1em;=
+font-family:Helvetica,Arial,Sans Serif;font-size:13px;color:#666666;lin=
+e-height:18px;"><b aria-level=3D"3" role=3D"heading">Alternate Signing =
+Method</b><br/> Visit Docusign=2Ecom, click 'Access Documents', and ent=
+er the security code:<br /> 737854D73D534669BA8D0835DD50C9F47 </p><p st=
+yle=3D"margin-bottom:1em;font-family:Helvetica,Arial,Sans Serif;font-si=
+ze:13px;color:#666666;line-height:18px;"><b aria-level=3D"3" role=3D"he=
+ading">About Docusign</b><br/> Sign documents electronically in just mi=
+nutes=2E It's safe, secure, and legally binding=2E Whether you're in an=
+ office, at home, on-the-go -- or even across the globe -- Docusign pro=
+vides a professional trusted solution for Digital Transaction Managemen=
+t=E2=84=A2=2E </p><p style=3D"margin-bottom:1em;font-family:Helvetica,A=
+rial,Sans Serif;font-size:13px;color:#666666;line-height:18px;"><b aria=
+-level=3D"3" role=3D"heading">Questions about the Document?</b><br /> I=
+f you need to modify the document or have questions about the details i=
+n the document, please reach out to the sender by emailing them directl=
+y=2E<br /><br /><b aria-level=3D"3" role=3D"heading">Stop receiving thi=
+s email</b><br /><a href=3D'https://protect=2Edocusign=2Enet/report-abu=
+se?e=3DAUtomjpFak9GlbPL0zFFi12yYm0sdhI3pEa7zoJ7AWleYyhbTvFo1-Yt3ocMs1DN=
+f1-Z5ybgn7DcK5UaX1XtItH1o2SOshy40CI6OwLD13LZL59zWdDRjKzp6UcE4VkvUAKzMul=
+kdvLJTXxP14rJl9sNmkSLv1o56vjbAJKli62PAlDUL6MJ-8Zv_bGAK--kT9UxURqHeq7VJw=
+odsmFGFqvzIqbRv50AORr2HPoyLN-r3OSXDN6R6DCmxgBS8iEHv3i9CB687dyU2AlzIoDKA=
+NKNqtzNhHU5WPzfAWJLE-j-pZYgLbY8vAxf980fnR3RpSRsImHXBuJcCDnq9cxj4EPO913h=
+IXC_tSe0iL2QkvSDrG8Ucv2QTLePSV3xFfbafDZfpkjZ0LK7Ewts-cZIPJLyy1bOX8ZgRcs=
+lorc3a9HcMjAeyfDR2x4dMwO4bPl0-A&lang=3Den' style=3D'color:#2463d1;' >Re=
+port this email</a> or read more about <a href=3D'https://support=2Edoc=
+usign=2Ecom/en/guides/Declining-to-sign-DocuSign-Signer-Guide' style=3D=
+'color:#2463d1;' >Declining to sign</a> and <a href=3D'https://support=2E=
+docusign=2Ecom/en/articles/How-do-I-manage-my-email-notifications' styl=
+e=3D'color:#2463d1;' >Managing notifications</a>=2E<br /><br /> If you =
+have trouble signing, visit "<a href=3D'https://support=2Edocusign=2Eco=
+m/s/articles/How-do-I-sign-a-DocuSign-document-Basic-Signing?language=3D=
+en_US&#38;utm_campaign=3DGBL_XX_DBU_UPS_2211_SignNotificationEmailFoote=
+r&#38;utm_medium=3Dproduct&#38;utm_source=3Dpostsend' style=3D'color:#2=
+463d1;' >How to Sign a Document</a>" on our <a href=3D'https://support=2E=
+docusign=2Ecom/' style=3D'color:#2463d1;' >Docusign Support Center</a>,=
+ or become part of the <a href=3D'https://community=2Edocusign=2Ecom/ne=
+w-member-guide-142?utm_campaign=3DGBL_US_PRD_AWA_2405_CommunityCTA&#38;=
+utm_medium=3Demail&#38;utm_source=3Dpostsend' style=3D'color:#2463d1;' =
+>Docusign Community</a> to access tips and guidance from peers=2E<br />=
+<br /></p><p style=3D"margin-bottom:1em;font-family:Helvetica,Arial,San=
+s Serif;font-size:13px;color:#666666;line-height:18px;"><a href=3D"http=
+s://www=2Edocusign=2Ecom/features-and-benefits/mobile?utm_campaign=3DGB=
+L_XX_DBU_UPS_2211_SignNotificationEmailFooter&#38;utm_medium=3Dproduct&=
+#38;utm_source=3Dpostsend" style=3D"color:#2463d1;" ><img style=3D"marg=
+in-right:7px;border:none;vertical-align:middle;" width=3D"18" height=3D=
+"18" src=3D"https://docucdn-a=2Eakamaihd=2Enet/olive/images/2=2E62=2E0/=
+global-assets/email-templates/icon-download-app=2Epng" alt=3D"" />Downl=
+oad the Docusign App </a></p><p style=3D"margin-bottom:1em;font-family:=
+Helvetica,Arial,Sans Serif;font-size:13px;color:#666666;line-height:18p=
+x;font-size:10px;line-height:14px;">This message was sent to you by PAV=
+AN KUMAR who is using the Docusign Electronic Signature Service=2E If y=
+ou would rather not receive email from this sender you may contact the =
+sender with your request=2E</p></td></tr></table></td><td></td></tr></t=
+able><span itemscope=3D"" itemtype=3D"http://schema=2Eorg/EmailMessage"=
+><meta itemprop=3D"text" content=3D"PAVAN KUMAR sent you a document to =
+review and sign=2E"/><span itemscope=3D"" itemprop=3D"about" itemtype=3D=
+"http://schema=2Eorg/CreativeWork"><span itemscope=3D"" itemprop=3D"act=
+ion" itemtype=3D"http://schema=2Eorg/ViewAction"><meta itemprop=3D"url"=
+ content=3D"https://na4=2Edocusign=2Enet/Signing/EmailStart=2Easpx?a=3D=
+737854d7-3d53-4669-ba8d-0835dd50c9f4&etti=3D24&acct=3D3cff367d-09e5-463=
+d-9f84-88422e486570&er=3D113d57ad-8a4a-4d82-87da-93986065699e"/><meta i=
+temprop=3D"name" content=3D"View Documents"/></span></span></span></bod=
+y></html>
+------=_NextPart_924E3941_93CF_42F0_9D7D_60E7E1D36D8C--
+

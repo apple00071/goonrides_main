@@ -1,0 +1,344 @@
+Return-Path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id AKuBBWpPA2c/ywkAQ+45pw
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	for <info@go-onriders.com>; Sun, 06 Oct 2024 23:03:06 -0400
+Return-path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 06 Oct 2024 23:03:06 -0400
+Received: from o19837144x29.outbound-mail.sendgrid.net ([198.37.144.29]:54554)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	id 1sxe1Z-00000002hk3-2MRy
+	for info@go-onriders.com;
+	Sun, 06 Oct 2024 23:03:05 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=leadsquared.com;
+	h=content-type:from:mime-version:subject:list-unsubscribe:
+	list-unsubscribe-post:to:cc:content-type:from:subject:to;
+	s=963; bh=USWj7rXGnVX4fWd7PXVLb2WKHjjfLkIAL2v4He1TbT4=;
+	b=c3WnQIfpvngm5EJI5KANahSmVQzcGZ7YwvdRHOtb52PgLhStnxGeKzOlb4+HC8yRq6XE
+	VGO8yfUsELYRd4ZoOwgX4c1Ll7Axei314lE7pQpIwoYHbje4A814WOt0udHolkV0uP5rgP
+	pU3Jh15mcc7V3qKwoc7Vp/33XiFBhzoy/LP9qKb6lr5HDFaGYOlwvxNWA9WN9jhFVofLk0
+	JYjHrbZqvKPHSevUL866eALbezX+8eirc4fH7jUh7fSQsPhp8QP6TRMM+aFcoGWuJjOE0B
+	YRPkOXR0gi/xtlCy9aqbpU5P2jQbtsxRyMP5Df99bPhRw8KCLAh7//hDYNFYvtUA==
+Received: by recvd-85c8d6d76f-cnmg7 with SMTP id recvd-85c8d6d76f-cnmg7-1-67034F3D-41
+	2024-10-07 03:02:21.911768341 +0000 UTC m=+2106235.375921967
+Received: from NTgzOTgyNw (unknown)
+	by geopod-ismtpd-5 (SG) with HTTP
+	id jcYkGZM5SWSkpvuaHegFag
+	Mon, 07 Oct 2024 03:02:21.821 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=2e62dc86c9cc2ac684d659edfeebb7888aec7c2d851d053a44c8949ccce2
+Date: Mon, 07 Oct 2024 03:02:22 +0000 (UTC)
+From: Gayathri Sridhar <marketing@mcube.com>
+Mime-Version: 1.0
+Message-ID: <jcYkGZM5SWSkpvuaHegFag@geopod-ismtpd-5>
+Subject: Transform Your Outreach: Generate Leads Effortlessly with MCUBE Auto
+ Dialer
+List-Unsubscribe: 
+ <https://e-in21.gtolink.in/t/em/44880/7/801d8561-1871-499a-acbf-92f2db245432>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EDcg3HRskK0UD4e6bhpyjYr3n6gMi006TU1nhUSeJDvb0xN7=2FPeopvN3pF?=
+ =?us-ascii?Q?EFFdbIC7vMVR5jL8A0cpOtR7JJYoJ5RD6QqgX+i?=
+ =?us-ascii?Q?asz6ETQ+6MrGbQjX6D6pnIN2I44dhb3P+HQBH8r?=
+ =?us-ascii?Q?icYDjlwqeMmVGA0bClGCdsCmheVgamufkU4jVmP?=
+ =?us-ascii?Q?4WEhPYLM3hxKYCqf630eI7PKdXdjyfAinMaW8ti?=
+ =?us-ascii?Q?rma1XrBaC0Mi5814x76GXG9pgHnHgRq4yZKE=2Fjy?= =?us-ascii?Q?SVDc?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBYjHA+qNefkoZxY?=
+ =?us-ascii?Q?ILQVpIsJlF8kSE=2Fdowf1WBdyM3KEvDkol1vdZlg?=
+ =?us-ascii?Q?3nbBfFcwaqw1NNdW6980usUFezCa8jC9aIgNtkZ?=
+ =?us-ascii?Q?wm8r+QpeG2HGcURiPe08AkvJqMpCOhW4z6w=2FHDm?=
+ =?us-ascii?Q?UrvsNtZ00xZwQfWftqbXCKFkgJjm8WMkCOBcq5j?=
+ =?us-ascii?Q?DJf9Fup3htYnOmwquyRQgSF1ou3bpXdGB5k2ykN?=
+ =?us-ascii?Q?IdTxuYSnvexQlQyd0eWEc8HuJg=3D=3D?=
+To: info@go-onriders.com
+X-Entity-ID: u001.idDaXlz/LTBWXTxrK7I1Cg==
+X-MagicSpam-TUUID: 723ea7b4-f750-4da0-888d-34f49585c2eb
+X-MagicSpam-SUUID: 4422ea7e-ac9f-4963-923c-44f2b84a33ae
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Greetings from MCUBE! Generate More Leads & Save Time with
+    MCUBE’s Auto Dialer! Imagine spending less time dialing and more time interacting
+    with the right customers who are eagerly awaiting the right deals. That’s
+    exa [...] 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [198.37.144.29 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [198.37.144.29 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [198.37.144.29 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.0 HTML_IMAGE_RATIO_08    BODY: HTML has a low ratio of text to image area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 KAM_UNSUB1             Unsubscription Spams
+X-Spam-Flag: NO
+
+--2e62dc86c9cc2ac684d659edfeebb7888aec7c2d851d053a44c8949ccce2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Greetings from MCUBE!
+
+Generate More Leads & Save Time with MCUBE=E2=80=99s Auto Dialer!
+Imagine spending less time dialing and more time interacting with the right=
+ customers who are eagerly awaiting the right deals. That=E2=80=99s exactly=
+ what MCUBE=E2=80=99s Auto Dialer does for you!
+BOOK A DEMO
+
+For lead generation, why is Auto Dialer special?
+* Cut Costs, Not Benefits: Save on time and costs. *Reach More Leads, Faste=
+r: Reach every prospect, every time=E2=80=94no leads left behind with Auto =
+Dialer*More Time, More Conversations: Free your team from manual dialing an=
+d give them more time to engage.*Real-Time Insights: Track call performance=
+ and lead engagement in real time to empower your operations team with valu=
+able insights.
+Let=E2=80=99s make lead generation effortless, and your team more productiv=
+e!
+Ready to see results?
+
+=20
+Get Started with MCUBE Auto Dialer Today!
+
+
+Best Regards
+MCUBE
+
+<https://e-in21.gtolink.in/t/em1/44880/1/801d8561-1871-499a-acbf-92f2db2454=
+32/15b3034b863a11ea8109022edb41208c >
+<https://e-in21.gtolink.in/t/em1/44880/1/801d8561-1871-499a-acbf-92f2db2454=
+32/7ca57f249f1f11eebb320af95b823f2c >
+
+
+You can update your preferences on the type of emails you want to receive f=
+rom us Mailing Preferences<https://e-in21.gtolink.in/t/em/44880/8/801d8561-=
+1871-499a-acbf-92f2db245432 >
+
+Copyright =C2=A9 2023 VMC Technologies Pvt Ltd
+
+
+If you wish to opt out of all type of emails, click Unsubscribe<https://e-i=
+n21.gtolink.in/t/em/44880/7/801d8561-1871-499a-acbf-92f2db245432 >
+--2e62dc86c9cc2ac684d659edfeebb7888aec7c2d851d053a44c8949ccce2
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head><title></title><m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><!--=
+[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInc=
+h><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><style>*{box-si=
+zing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inh=
+erit!important;text-decoration:inherit!important}#MessageViewBody a{color:i=
+nherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hi=
+de table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_bloc=
+k img+div{display:none}sub,sup{line-height:0;font-size:75%} @media (max-wid=
+th:620px){.social_block.desktop_hide .social-table{display:inline-block!imp=
+ortant}.mobile_hide{display:none}.row-content{width:100%!important}.stack .=
+column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;max-=
+width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{displ=
+ay:table!important;max-height:none!important}}</style><!--[if mso ]><style>=
+sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { m=
+so-text-raise:-10% }</style> <![endif]--><!--[if true]><style>.forceBgColor=
+{background-color: white !important}</style><![endif]--></head><body class=
+=3D"body forceBgColor" style=3D"background-color:transparent;margin:0;paddi=
+ng:0;-webkit-text-size-adjust:none;text-size-adjust:none"><table class=3D"n=
+l-container" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;back=
+ground-color:transparent"><tbody><tr><td><table class=3D"row row-1" align=
+=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backg=
+round-color:#dbedff"><tbody><tr><td><table class=3D"row-content stack" alig=
+n=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"prese=
+ntation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#f=
+ff;color:#000;border-radius:0;width:600px;margin:0 auto" width=3D"600"><tbo=
+dy><tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lspa=
+ce:0;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;=
+border-top:0;border-right:0;border-bottom:0;border-left:0"><table class=3D"=
+image_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspac=
+e:0"><tr><td class=3D"pad" style=3D"width:100%"><div class=3D"alignment" al=
+ign=3D"center" style=3D"line-height:10px"><div style=3D"max-width:600px"><a=
+ href=3D"https://e-in21.gtolink.in/t/em1/44880/1/801d8561-1871-499a-acbf-92=
+f2db245432/7c881aa7853211ee8f4c0af95b823f2c"  target=3D"_blank" style=3D"ou=
+tline:none" tabindex=3D"-1"><img src=3D"https://f2.leadsquaredcdn.com/t/t20=
+191012182636/content/common/images/MCUBE Auto Dialer-01.jpg" style=3D"displ=
+ay:block;height:auto;border:0;width:100%" width=3D"600" alt=3D"MCUBE CLOUD =
+TELEPHONY SOLUTIONS" title=3D"MCUBE CLOUD TELEPHONY SOLUTIONS" height=3D"au=
+to"></a></div></div></td></tr></table><table class=3D"text_block block-2" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-=
+word"><tr><td class=3D"pad"><div style=3D"font-family:sans-serif"><div clas=
+s style=3D"font-size:14px;font-family:Arial,Helvetica Neue,Helvetica,sans-s=
+erif;mso-line-height-alt:21px;color:#555;line-height:1.5"><p style=3D"margi=
+n:0;font-size:16px;text-align:left;mso-line-height-alt:24px"><span style=3D=
+"word-break: break-word; font-size: 16px; color: #000000;">Greetings from M=
+CUBE!<br><br><strong><span style=3D"word-break: break-word; color: #1a5178;=
+">Generate More Leads & Save Time with MCUBE=E2=80=99s Auto Dialer!</span><=
+/strong><strong><br><br></strong></span></p><p style=3D"margin:0;font-size:=
+16px;mso-line-height-alt:24px"><span style=3D"word-break: break-word; font-=
+size: 16px; color: #000000;">Imagine spending less time dialing and more ti=
+me interacting with the right customers who are eagerly awaiting the right =
+deals. That=E2=80=99s exactly what <strong>MCUBE=E2=80=99s</strong> <strong=
+>Auto Dialer</strong> does for you!</span></p></div></div></td></tr></table=
+><table class=3D"button_block block-3" width=3D"100%" border=3D"0" cellpadd=
+ing=3D"10" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspac=
+e:0;mso-table-rspace:0"><tr><td class=3D"pad"><div class=3D"alignment" alig=
+n=3D"center"><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/801d8561-18=
+71-499a-acbf-92f2db245432/7c881aa7853211ee8f4c0af95b823f2c"  target=3D"_bla=
+nk"><!--[if mso]><v:roundrect xmlns:v=3D"urn:schemas-microsoft-com:vml" xml=
+ns:w=3D"urn:schemas-microsoft-com:office:word"  href=3D"https://e-in21.gtol=
+ink.in/t/em1/44880/1/801d8561-1871-499a-acbf-92f2db245432/7c881aa7853211ee8=
+f4c0af95b823f2c"   style=3D"height:42px;width:155px;v-text-anchor:middle;" =
+arcsize=3D"10%" fillcolor=3D"#206080"><v:stroke dashstyle=3D"Solid" weight=
+=3D"0px" color=3D"#206080"/><w:anchorlock/><v:textbox inset=3D"0px,0px,0px,=
+0px"><center dir=3D"false" style=3D"color:#ffffff;font-family:sans-serif;fo=
+nt-size:16px"><![endif]--><div style=3D"background-color:#206080;border-bot=
+tom:0 solid transparent;border-left:0 solid transparent;border-radius:4px;b=
+order-right:0 solid transparent;border-top:0 solid transparent;color:#fff;d=
+isplay:inline-block;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;f=
+ont-size:16px;font-weight:400;mso-border-alt:none;padding-bottom:5px;paddin=
+g-top:5px;text-align:center;text-decoration:none;width:auto;word-break:keep=
+-all"><span style=3D"word-break: break-word; padding-left: 20px; padding-ri=
+ght: 20px; font-size: 16px; display: inline-block; letter-spacing: normal;"=
+><span style=3D"word-break: break-word; line-height: 32px;"><strong>BOOK A =
+DEMO</strong></span></span></div><!--[if mso]></center></v:textbox></v:roun=
+drect><![endif]--></a></div></td></tr></table><table class=3D"text_block bl=
+ock-4" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" rol=
+e=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-brea=
+k:break-word"><tr><td class=3D"pad"><div style=3D"font-family:sans-serif"><=
+div class style=3D"font-size:14px;font-family:Arial,Helvetica Neue,Helvetic=
+a,sans-serif;mso-line-height-alt:25.2px;color:#555;line-height:1.8"><p styl=
+e=3D"margin:0;font-size:16px;mso-line-height-alt:28.8px"><span style=3D"wor=
+d-break: break-word; font-size: 16px; color: #000000;"><strong>For lead gen=
+eration, why is Auto Dialer special?<br></strong></span></p><ul style=3D"li=
+ne-height:1.8;mso-line-height-alt:28.8px;font-size:16px"><li aria-level=3D"=
+1"><span style=3D"word-break: break-word; font-size: 16px; color: #000000;"=
+><strong>Cut Costs, Not Benefits</strong>: Save on time and costs. </span><=
+/li><li aria-level=3D"1"><strong style=3D"color:#000;font-family:Arial,Helv=
+etica Neue,Helvetica,sans-serif;font-family:Arial,Helvetica Neue,Helvetica,=
+sans-serif;background-color:transparent">Reach More Leads, Faster</strong><=
+span style=3D"word-break: break-word; color: #000000; background-color: tra=
+nsparent;">: Reach every prospect, every time=E2=80=94no leads left behind =
+with Auto Dialer</span></strong></li><li aria-level=3D"1"><strong style=3D"=
+color:#000;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-famil=
+y:Arial,Helvetica Neue,Helvetica,sans-serif;background-color:transparent">M=
+ore Time, More Conversations</strong><span style=3D"word-break: break-word;=
+ color: #000000; background-color: transparent;">: Free your team from manu=
+al dialing and give them more time to engage.</span></strong></li><li aria-=
+level=3D"1"><strong style=3D"color:#000;font-family:Arial,Helvetica Neue,He=
+lvetica,sans-serif;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;ba=
+ckground-color:transparent">Real-Time Insights: </strong><span style=3D"wor=
+d-break: break-word; color: #000000; background-color: transparent;">Track =
+call performance and lead engagement in real time to empower your operation=
+s team with valuable insights.</span></strong></li></ul><p style=3D"margin:=
+0;font-size:16px;mso-line-height-alt:28.8px"><span style=3D"word-break: bre=
+ak-word; font-size: 16px; color: #000000;">Let=E2=80=99s make lead generati=
+on effortless, and your team more productive!</span></p><p style=3D"margin:=
+0;font-size:16px;mso-line-height-alt:28.8px"><span style=3D"word-break: bre=
+ak-word; font-size: 16px; color: #000000;">Ready to see results?</span><br>=
+</p><p style=3D"margin:0;font-size:16px;mso-line-height-alt:25.2px">&nbsp;<=
+/p><p style=3D"margin:0;font-size:16px;mso-line-height-alt:28.8px"><span st=
+yle=3D"word-break: break-word; font-size: 16px; color: #000000;">Get Starte=
+d with <strong>MCUBE Auto Dialer</strong> Today!<br><br></span></p><p style=
+=3D"margin:0;font-size:16px;mso-line-height-alt:28.8px"><span style=3D"word=
+-break: break-word; font-size: 16px; color: #000000;">Best Regards</span></=
+p><p style=3D"margin:0;font-size:16px;mso-line-height-alt:28.8px"><span sty=
+le=3D"word-break: break-word; font-size: 16px; color: #000000;">MCUBE</span=
+></p></div></div></td></tr></table><table class=3D"social_block block-5" wi=
+dth=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"=
+pad"><div class=3D"alignment" align=3D"center"><table class=3D"social-table=
+" width=3D"108px" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"=
+presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;display:inline=
+-block"><tr><td style=3D"padding:0 2px 0 2px"><a href=3D"https://e-in21.gto=
+link.in/t/em1/44880/1/801d8561-1871-499a-acbf-92f2db245432/06a1e6c2f64511ee=
+91000295982bf3c5"  target=3D"_blank"><img src=3D"https://app-rsrc.getbee.io=
+/public/resources/social-networks-icon-sets/circle-color/linkedin@2x.png" w=
+idth=3D"32" height=3D"auto" alt=3D"LinkedIn" title=3D"LinkedIn" style=3D"di=
+splay:block;height:auto;border:0"></a></td><td style=3D"padding:0 2px 0 2px=
+"><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/801d8561-1871-499a-acb=
+f-92f2db245432/15b3034b863a11ea8109022edb41208c"  target=3D"_blank"><img sr=
+c=3D"https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/=
+circle-color/facebook@2x.png" width=3D"32" height=3D"auto" alt=3D"Facebook"=
+ title=3D"Facebook" style=3D"display:block;height:auto;border:0"></a></td><=
+td style=3D"padding:0 2px 0 2px"><a href=3D"https://e-in21.gtolink.in/t/em1=
+/44880/1/801d8561-1871-499a-acbf-92f2db245432/7ca57f249f1f11eebb320af95b823=
+f2c"  target=3D"_blank"><img src=3D"https://app-rsrc.getbee.io/public/resou=
+rces/social-networks-icon-sets/circle-color/instagram@2x.png" width=3D"32" =
+height=3D"auto" alt=3D"Instagram" title=3D"Instagram" style=3D"display:bloc=
+k;height:auto;border:0"></a></td></tr></table></div></td></tr></table><tabl=
+e class=3D"text_block block-6" width=3D"100%" border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-t=
+able-rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding=
+-bottom:5px;padding-top:5px"><div style=3D"font-family:Arial,sans-serif"><d=
+iv class style=3D"font-size:12px;font-family:Arial,Helvetica Neue,Helvetica=
+,sans-serif;mso-line-height-alt:18px;color:#555;line-height:1.5"><p style=
+=3D"margin:0;font-size:14px;text-align:center;mso-line-height-alt:18px"><sp=
+an style=3D"word-break: break-word; font-size: 12px;">You can update your p=
+references on the type of emails you want to receive from us <a style=3D"te=
+xt-decoration: underline; color: #554fb5;" href=3D"https://e-in21.gtolink.i=
+n/t/em/44880/8/801d8561-1871-499a-acbf-92f2db245432" target=3D"_blank" rel=
+=3D"noopener">Mailing Preferences</a></span></p></div></div></td></tr></tab=
+le></td></tr></tbody></table></td></tr></tbody></table><table class=3D"row =
+row-2" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rs=
+pace:0;background-color:#dbedff"><tbody><tr><td><table class=3D"row-content=
+ stack" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" r=
+ole=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backgro=
+und-color:#fff;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><=
+tr><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0=
+;mso-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;bord=
+er-top:0;border-right:0;border-bottom:0;border-left:0"><table class=3D"text=
+_block block-1" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;word-break:break-word"><tr><td class=3D"pad"><div style=3D"font-family:san=
+s-serif"><div class style=3D"font-size:14px;font-family:Arial,Helvetica Neu=
+e,Helvetica,sans-serif;mso-line-height-alt:16.8px;color:#555;line-height:1.=
+2"><p style=3D"margin:0;font-size:14px;text-align:center;mso-line-height-al=
+t:16.8px"><span style=3D"word-break: break-word; font-size: 12px;">Copyrigh=
+t =C2=A9 2023 VMC Technologies Pvt Ltd</span></p></div></div></td></tr></ta=
+ble><table class=3D"text_block block-2" width=3D"100%" border=3D"0" cellpad=
+ding=3D"5" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspac=
+e:0;mso-table-rspace:0;word-break:break-word"><tr><td class=3D"pad"><div st=
+yle=3D"font-family:Arial,sans-serif"><div class style=3D"font-size:12px;fon=
+t-family:Arial,Helvetica Neue,Helvetica,sans-serif;mso-line-height-alt:18px=
+;color:#555;line-height:1.5"><p style=3D"margin:0;font-size:14px;text-align=
+:center;mso-line-height-alt:18px"><span style=3D"word-break: break-word; fo=
+nt-size: 12px;">If you wish to opt out of all type of emails, click <a styl=
+e=3D"text-decoration: underline; color: #554fb5;" href=3D"https://e-in21.gt=
+olink.in/t/em/44880/7/801d8561-1871-499a-acbf-92f2db245432" target=3D"_blan=
+k">Unsubscribe</a></span></p></div></div></td></tr></table></td></tr></tbod=
+y></table></td></tr></tbody></table></td></tr></tbody></table><!-- End --><=
+mxpixettrackingtag><img src=3D"https://e-in21.gtolink.in/t/em/44880/0/801d8=
+561-1871-499a-acbf-92f2db245432" height=3D"1" width=3D"1" /></mxpixettracki=
+ngtag> </body></html>
+--2e62dc86c9cc2ac684d659edfeebb7888aec7c2d851d053a44c8949ccce2--

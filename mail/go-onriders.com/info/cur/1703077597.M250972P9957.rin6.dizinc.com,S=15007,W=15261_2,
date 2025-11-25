@@ -1,0 +1,254 @@
+Return-Path: <chackoantony@royalenfield.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id OENbDt3mgmXlJgAAQ+45pw
+	(envelope-from <chackoantony@royalenfield.com>)
+	for <info@go-onriders.com>; Wed, 20 Dec 2023 08:06:37 -0500
+Return-path: <chackoantony@royalenfield.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 20 Dec 2023 08:06:37 -0500
+Received: from mail-qt1-f180.google.com ([209.85.160.180]:48594)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <chackoantony@royalenfield.com>)
+	id 1rFwHU-0002St-0A
+	for info@go-onriders.com;
+	Wed, 20 Dec 2023 08:06:37 -0500
+Received: by mail-qt1-f180.google.com with SMTP id d75a77b69052e-42791adefa8so404911cf.1
+        for <info@go-onriders.com>; Wed, 20 Dec 2023 05:06:14 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=royalenfield.com; s=google; t=1703077554; x=1703682354; darn=go-onriders.com;
+        h=cc:to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=sQGeTB1++bIsmfMzEaiZtaCO4cXDaqwIQ+m2RH0umnA=;
+        b=Wgp+PhItmTKWm+miE5aIJ3uGfNOaO0OksacWutBZ9WgXSrdgSO2IJnczkCxPDz4Cqj
+         3uWWPeZfp4TWLbiq0S7jUQfXeALDYcrJCL3Cw3hgxSAXKku/Guj8MDJQxmSzrsoLrZ8s
+         fzj2nTWvDgYsnxXJEoPSlROTSE36L6VF8CppY=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1703077554; x=1703682354;
+        h=cc:to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=sQGeTB1++bIsmfMzEaiZtaCO4cXDaqwIQ+m2RH0umnA=;
+        b=f4XLDC0gFlcghGpBFq6FZp7fc/8iASYm3wDtrP3Wiac7lGI3O2UM10LHiItH/bgPBZ
+         j+7JuXahnEnK++CjGsToaabusmxiEO+WI8qSGlT0G05QmNzelWh0FtUgi+kcmKjU1fZ5
+         +7Y3L7QZ3OfqSgZd075dUXjf0D28iYDqmU7yhDufhot5t0Z8TRhf9cbjQpXE1Cm61aG0
+         C5N2u/F17X+J1NKFUpcbBFPo9D9CZLN6WHE/a7FDNIBy1yaZOXNMGHJpYD9MCMnBzbew
+         OS0Pwzh6V66t2ck35t6QWqrvSdnIDJsCYRGx934cX3Rov0cCT+SsGVcTZK0hoQhArr8m
+         CoAw==
+X-Gm-Message-State: AOJu0Ywvg0BPemMOmmpqerwxIf5alqwBL+NmYGCSnnOpHdarcN+/xKjb
+	AbstM9qRS5k5g/8/J3IHjZqj/grAy0LpHrU6h2lMtA==
+X-Google-Smtp-Source: AGHT+IHD6kEn981oZUrqxpyuD37Dvw1zK2oj/SEE2A8J2PQ1g6r145W4UtBjyb8zuwx6bfNZHnkSO0b0T0ObTNt+iHY=
+X-Received: by 2002:ac8:57c9:0:b0:423:b622:6dd7 with SMTP id
+ w9-20020ac857c9000000b00423b6226dd7mr25139202qta.6.1703077554104; Wed, 20 Dec
+ 2023 05:05:54 -0800 (PST)
+MIME-Version: 1.0
+From: Chacko Antony <chackoantony@royalenfield.com>
+Date: Wed, 20 Dec 2023 18:35:24 +0530
+Message-ID: <CALhSuR04FgtGQMC56QgUPRh7a6SFHSL_tHOq4nV6oG_5Laj6CA@mail.gmail.com>
+Subject: IMP | Royal Enfield Himalayan
+To: Yugandhar Khorate <zzyugandhar@royalenfield.com>
+Cc: Shreyas Sureka <shreyas.s@royalenfield.com>, 
+	S Mohanakrishnan <smkrishnan@royalenfield.com>, 
+	Prashant Mall Vishen <prashantv@royalenfield.com>, P Lijinraj <plijinraj@royalenfield.com>, 
+	K Venkata Dinesh <kvdinesh@royalenfield.com>
+Content-Type: multipart/alternative; boundary="000000000000a3724d060cf0a4c8"
+Bcc: info@go-onriders.com
+X-MagicSpam-TUUID: f0b138a5-90da-4fa1-bf54-5ca0ee96cbd9
+X-MagicSpam-SUUID: ed8dfdcd-9f3e-4e6f-a31b-3739365e52ed
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Operator Partner, Good evening! We understand that you
+    are interested in purchasing the all new Himalayan. Considering Royal Enfield’s
+    long standing relationship with the motorcycle operators, we are constantly
+    looking at ways to [...] 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.160.180 listed in list.dnswl.org]
+  0.1 LM_HDR_ORDER_GOOGLE_GROUPS1 Header order reflects that of a
+                             known google groups spammer
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.160.180 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  1.0 FREEMAIL               Message originated from 'free' mail service
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000a3724d060cf0a4c8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Operator Partner,
+
+Good evening!
+
+We understand that you are interested in purchasing the all new Himalayan.
+Considering Royal Enfield=E2=80=99s long standing relationship with the mot=
+orcycle
+operators, we are constantly looking at ways to further this partnership
+with an intent to grow and support the entire ecosystem.
+
+To that end, please see this important note regarding the purchase of the
+all new Himalayan. I also request you to kindly inform other Operators
+within your network.
+
+The all new Himalayan would be available at the introductory price based on
+the following terms and conditions:
+
+   1. Bookings to be made on or before 31st Dec '23 at your nearest Royal
+   Enfield Dealership.
+   2. Invoicing to be completed on or before 30th Apr '24.
+   3. Booking will be non-transferable.
+   4. If any booking is cancelled at any time, partially or in whole, the
+   introductory price will not be offered at the time of subsequent booking=
+.
+   5. If the invoicing is not completed on or before 30th April 2024,
+   booking shall be considered cancelled and booking amount shall be refund=
+ed.
+   The introductory price will not be offered at the time of subsequent
+   booking.
+   6. Details of all the bookings made for rental/tour, need to be shared
+   at the following id: chackoantony@royalenfield.com
+
+*Sample of booking details to be shared*:
+Sr. No. Booking ID Name of the Company Name of the Owner
+1 BKG01XX450GH00XXYY Royal Enfield Adventures Mr. First & Last Name
+2 BKG01XX650GH00XXYY Enfield Expeditions Mr. First & Last Name
+I am looking forward to a positive response and am thrilled to explore the
+numerous adventures on the all new Himalayan.
+
+*T*hanks* &* Regards
+
+*Chacko Antony*
+
+*Global Business Development*
+
+Royal Enfield (A Unit of Eicher Motors Ltd.)
+
+M +91 7012842438
+
+--000000000000a3724d060cf0a4c8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><div dir=3D"ltr" class=3D"gmail_signature" data-smart=
+mail=3D"gmail_signature"><div dir=3D"ltr"><div class=3D"gmail_default" styl=
+e=3D"font-family:arial,helvetica,sans-serif">Dear Operator Partner,</div><d=
+iv class=3D"gmail_default" style=3D"font-family:arial,helvetica,sans-serif"=
+><br></div><div class=3D"gmail_default" style=3D"font-family:arial,helvetic=
+a,sans-serif">Good evening!<br></div><div class=3D"gmail_default" style=3D"=
+font-family:arial,helvetica,sans-serif"><br></div><div class=3D"gmail_defau=
+lt" style=3D"font-family:arial,helvetica,sans-serif">We understand that you=
+ are interested in purchasing the all new Himalayan.<br>Considering Royal E=
+nfield=E2=80=99s long standing relationship with the motorcycle operators, =
+we are constantly looking at ways to further this partnership with an inten=
+t to grow and support the entire ecosystem.<br><br>To that end, please see =
+this important note regarding the purchase of the all new Himalayan. I also=
+ request you to kindly inform other Operators within your network.<br><br>T=
+he all new Himalayan would be available at the introductory price based on =
+the following terms and conditions:<br><ol><li style=3D"margin-left:15px">B=
+ookings to be made on or before 31st Dec &#39;23 at your nearest Royal Enfi=
+eld Dealership.</li><li style=3D"margin-left:15px">Invoicing to be complete=
+d on or before 30th Apr &#39;24.</li><li style=3D"margin-left:15px">Booking=
+ will be non-transferable.</li><li style=3D"margin-left:15px">If any bookin=
+g is cancelled at any time, partially or in whole, the introductory price w=
+ill not be offered at the time of subsequent booking.</li><li style=3D"marg=
+in-left:15px">If the invoicing is not completed on or before 30th April 202=
+4, booking shall be considered cancelled and booking amount shall be refund=
+ed. The introductory price will not be offered at the time of subsequent bo=
+oking.</li><li style=3D"margin-left:15px">Details of all the bookings made =
+for rental/tour, need to be shared at the following id:=C2=A0<a href=3D"mai=
+lto:chackoantony@royalenfield.com" target=3D"_blank">chackoantony@royalenfi=
+eld.com</a></li></ol><b><u>Sample of booking details to be shared</u></b>:<=
+br></div><div class=3D"gmail_default" style=3D"font-family:arial,helvetica,=
+sans-serif"><table cellspacing=3D"0" cellpadding=3D"0" dir=3D"ltr" style=3D=
+"table-layout:fixed;font-size:10pt;font-family:Arial;width:0px"><colgroup><=
+col width=3D"52"><col width=3D"239"><col width=3D"212"><col width=3D"149"><=
+/colgroup><tbody><tr style=3D"height:21px"><td style=3D"border-width:1px;bo=
+rder-style:solid;border-color:rgb(0,0,0);overflow:hidden;padding:2px 3px;ve=
+rtical-align:bottom;font-family:Verdana;font-size:9pt;font-weight:bold">Sr.=
+ No.</td><td style=3D"border-top:1px solid rgb(0,0,0);border-right:1px soli=
+d rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);overflow:hidden;padding:2px=
+ 3px;vertical-align:bottom;font-family:Verdana;font-size:9pt;font-weight:bo=
+ld">Booking ID</td><td style=3D"border-top:1px solid rgb(0,0,0);border-righ=
+t:1px solid rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);overflow:hidden;p=
+adding:2px 3px;vertical-align:bottom;font-family:Verdana;font-size:9pt;font=
+-weight:bold">Name of the Company</td><td style=3D"border-top:1px solid rgb=
+(0,0,0);border-right:1px solid rgb(0,0,0);border-bottom:1px solid rgb(0,0,0=
+);overflow:hidden;padding:2px 3px;vertical-align:bottom;font-family:Verdana=
+;font-size:9pt;font-weight:bold">Name of the Owner</td></tr><tr style=3D"he=
+ight:21px"><td style=3D"border-right:1px solid rgb(0,0,0);border-bottom:1px=
+ solid rgb(0,0,0);border-left:1px solid rgb(0,0,0);overflow:hidden;padding:=
+2px 3px;vertical-align:bottom;font-family:Verdana;font-size:9pt;text-align:=
+right">1</td><td style=3D"border-right:1px solid rgb(0,0,0);border-bottom:1=
+px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;f=
+ont-family:Verdana;font-size:9pt">BKG01XX450GH00XXYY</td><td style=3D"borde=
+r-right:1px solid rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);overflow:hi=
+dden;padding:2px 3px;vertical-align:bottom;font-family:Verdana;font-size:9p=
+t">Royal Enfield Adventures</td><td style=3D"border-right:1px solid rgb(0,0=
+,0);border-bottom:1px solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vert=
+ical-align:bottom;font-family:Verdana;font-size:9pt">Mr. First &amp; Last N=
+ame</td></tr><tr style=3D"height:21px"><td style=3D"border-right:1px solid =
+rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);border-left:1px solid rgb(0,0=
+,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;font-family:Verda=
+na;font-size:9pt;text-align:right">2</td><td style=3D"border-right:1px soli=
+d rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);overflow:hidden;padding:2px=
+ 3px;vertical-align:bottom;font-family:Verdana;font-size:9pt">BKG01XX650GH0=
+0XXYY</td><td style=3D"border-right:1px solid rgb(0,0,0);border-bottom:1px =
+solid rgb(0,0,0);overflow:hidden;padding:2px 3px;vertical-align:bottom;font=
+-family:Verdana;font-size:9pt">Enfield Expeditions</td><td style=3D"border-=
+right:1px solid rgb(0,0,0);border-bottom:1px solid rgb(0,0,0);overflow:hidd=
+en;padding:2px 3px;vertical-align:bottom;font-family:Verdana;font-size:9pt"=
+>Mr. First &amp; Last Name</td></tr></tbody></table><br></div><div class=3D=
+"gmail_default" style=3D"font-family:arial,helvetica,sans-serif">I am looki=
+ng forward to a positive response and am thrilled to explore the numerous a=
+dventures on the all new Himalayan.</div><div class=3D"gmail_default" style=
+=3D"font-family:arial,helvetica,sans-serif"><br></div><div><div dir=3D"ltr"=
+ class=3D"gmail_signature"><div dir=3D"ltr"><p style=3D"line-height:1.38;ma=
+rgin-top:0pt;margin-bottom:0pt"><span style=3D"font-size:13px;vertical-alig=
+n:baseline"><font color=3D"#666666" style=3D"font-family:georgia,serif"><b>=
+T</b>hanks<b>=C2=A0&amp;</b></font><font color=3D"#ff0000" style=3D"font-fa=
+mily:georgia,serif;font-weight:bold">=C2=A0</font><font color=3D"#666666" s=
+tyle=3D"font-family:georgia,serif;font-weight:bold">Regards</font></span></=
+p><p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><font colo=
+r=3D"#666666" face=3D"Georgia"><b>Chacko Antony</b></font></p><p style=3D"l=
+ine-height:1.38;margin-top:0pt;margin-bottom:0pt"><b><font face=3D"georgia,=
+ serif" color=3D"#666666">Global=C2=A0Business Development</font></b><br></=
+p><table cellpadding=3D"0" style=3D"font-size:14px"><tbody><tr><td style=3D=
+"width:627.703px;display:block;max-height:20px"><table cellpadding=3D"0" st=
+yle=3D"width:627.703px"><tbody></tbody></table></td></tr></tbody></table><p=
+ dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><s=
+pan style=3D"font-size:12px;font-family:Georgia;color:rgb(79,79,79);font-we=
+ight:bold;vertical-align:baseline">Royal Enfield</span><span style=3D"font-=
+size:12px;font-family:Georgia;color:rgb(31,73,125);vertical-align:baseline"=
+>=C2=A0</span><span style=3D"font-size:12px;font-family:Georgia;color:rgb(7=
+9,79,79);vertical-align:baseline">(A Unit of Eicher Motors Ltd.)</span></p>=
+<p style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt"><span style=
+=3D"line-height:16.56px;color:rgb(79,79,79);font-family:Georgia;font-size:1=
+2px"></span></p><p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;mar=
+gin-bottom:0pt"><span style=3D"font-size:12px;font-family:Georgia;color:rgb=
+(79,79,79);font-weight:bold;vertical-align:baseline">M=C2=A0</span><span st=
+yle=3D"font-size:12px;font-family:Georgia;color:rgb(79,79,79);vertical-alig=
+n:baseline">+91 7012842438</span></p></div></div></div></div></div></div></=
+div>
+
+--000000000000a3724d060cf0a4c8--

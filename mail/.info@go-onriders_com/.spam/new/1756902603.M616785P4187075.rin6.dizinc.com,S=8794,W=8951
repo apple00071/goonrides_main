@@ -1,0 +1,157 @@
+Return-Path: <devinleoren@gmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id qH4yJMs0uGjD4z8AQ+45pw
+	(envelope-from <devinleoren@gmail.com>)
+	for <info+spam@go-onriders.com>; Wed, 03 Sep 2025 08:30:03 -0400
+Return-path: <devinleoren@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 03 Sep 2025 08:30:03 -0400
+Received: from mail-qv1-f65.google.com ([209.85.219.65]:60897)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <devinleoren@gmail.com>)
+	id 1utmco-0000000HZJm-0fGB
+	for info@go-onriders.com;
+	Wed, 03 Sep 2025 08:30:03 -0400
+Received: by mail-qv1-f65.google.com with SMTP id 6a1803df08f44-726dec342bbso1676176d6.1
+        for <info@go-onriders.com>; Wed, 03 Sep 2025 05:29:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1756902562; x=1757507362; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=KVB7sMGZkl+Rk5DkjZpTgczSayGEzjJ7/++GG9ce/PY=;
+        b=KjWXAkFLA7SkVw/qJGUZ7M34ktpoLmZU/O7kJ8ywWYMYnugzyDjf5+waFjNQJ5XGTI
+         qipdi8g7n7X4BCRKQ+AcAlI8lM5I/3zcmDJBYnA5SP42wITg9mQ8ylGjonQXnSp9o/g9
+         V+ABsLlTJfiVjBK6yc9IleEupIgVAwxIWQqiGeJ69qlqh02wCbkYuOuuSoVoi2xMWCds
+         nr82qpbw160N6pTcxVqZK9SkwsYkofD7MXDqvAlk8BUBGwAWuy3aCjF1Nf6nXB7kVcsx
+         U8ZU62KhbcE0v9zMuuTCoMUdwakchCBYdn5gcqfWLF+pvvQuxdLeyF2KDlMpa4stQ0Jo
+         GF6A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1756902562; x=1757507362;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=KVB7sMGZkl+Rk5DkjZpTgczSayGEzjJ7/++GG9ce/PY=;
+        b=SrhhTCKZIKZHlkfCzhZmB2DMWbTIbfxvNm3OSu6OedVlBVyYK/LRCntfBjeasrOp+d
+         xi3rD2/GU0JZBAovc8vRk9DVYHM3Um32tQgeWla/BIbLdfjaRhhUgCFvMFIQTT1DG6tu
+         giV8c7uQrd1EQW/lo8DnWC0bDDjc3d4IcYRImjGiKsCOLiDy/xSNt6/ISt/+7XcXnQFt
+         0rAJj8FW4mxZa9RcgpvJEFu1RZrm4yD6tATBiZ/CqS5LXy6HYhFMC6CoSal8tuZ2YlLR
+         79OTo6moPtOvF3U9goF+XsnR5PG/DRw4ES2LV6SNCN19dRCWjENKvms7pJSmygRt0pk/
+         COfA==
+X-Forwarded-Encrypted: i=1; AJvYcCUAl4ZdCfkdZtE3iZtbr9k8FSCetuouPpKLB6XYLiYflIyFZJm4ww2WnffmJJzUHu3LDpe6@go-onriders.com
+X-Gm-Message-State: AOJu0YwgyV/HGrrz/yf2xRymx8s/atb9sMl1m8s6R2Ej9odQue7Y15zi
+	NBN1dRU++Rpgc5Q1w0JsLbeXIlBjd7HcE+p68JVEw5pn7GSWOIKOCiRJ5kok5yrjlZRVXh+2GzW
+	QZOUpjtN+2YKPIjGWyuOxtWkWNIHfw1U=
+X-Gm-Gg: ASbGncuW4//7n3C2A/tq7r9ALvdTdcBFSdNaR+TPO3RQZVAu1e74jmHyRSCZDopv/W9
+	8/E34mmb7ZOS9ir2M98I5Du7nJa1M6q8b8cB2mNySE4G453ruaG38r7TpCSSZcG03x2+7slza0/
+	8bRtHSEsOvgiVIVp9O2hPA15dHPh5DX1YweaqmV5FQATzq6qLEL75z/SqAqKad6K4Ur/P1YDQuA
+	7Eh4ZJrziB7D6930JwZpxujJ9rKC7UmJGorLnEdIuOok6Ff56qcCw==
+X-Google-Smtp-Source: AGHT+IEz0OWKiqzIWWjPwTaiUaYyF7iMgy0X3csyu/NZXBfpuCAsMOnEqxeDk0M2ROHVoBxAar5L2Xl0bOYR3AamVHQ=
+X-Received: by 2002:a05:6214:21c4:b0:70d:fd74:9db with SMTP id
+ 6a1803df08f44-70fac745f7emr184607586d6.17.1756902561054; Wed, 03 Sep 2025
+ 05:29:21 -0700 (PDT)
+MIME-Version: 1.0
+From: Devin Leo <devinleoren@gmail.com>
+Date: Wed, 3 Sep 2025 17:59:06 +0530
+X-Gm-Features: Ac12FXz39jEb4sgdPKoJS1kBNf08HWr6AA5Y9sDrGax1jEWRmehUHBAfEk_KvvM
+Message-ID: <CAKTL4DamF=u4rTetGvkD5UUj+sUeKfJE1t8+aNt_4Dhwc44FLQ@mail.gmail.com>
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="0000000000000e86cd063de4c1b5"
+Bcc: info@go-onriders.com
+X-MagicSpam-TUUID: 1e3015b2-7b1f-449f-baf7-2b688cb7fad2
+X-MagicSpam-SUUID: d225aaf2-13e8-492e-8c46-2493e68262b0
+X-Spam-Status: Yes, score=5.1
+X-Spam-Score: 51
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Business Owner of , Many business owners get puzzled
+   as their website isn't performing well, while others' are flourishing. That's
+    unfortunate, but not your fortune! Now, I will show you the number of broken
+    links, pages [...] 
+ Content analysis details:   (5.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.219.65 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.219.65 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.219.65 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.8 KAM_ADVERT2            BODY: This is probably an unwanted commercial email...
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [devinleoren(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  4.5 KAM_SEO2               Spammers hawking SEO
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Major Errors in
+
+--0000000000000e86cd063de4c1b5
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Business Owner of ,
+
+Many business owners get puzzled as their website isn't performing well,
+while others' are flourishing. That's unfortunate, but not your fortune!
+Now, I will show you the number of broken links, pages that returned 4XX
+status code upon request, images with no ALT text, pages with no meta
+description tag, not having a unique meta description, having a too long
+title, etc., found in your . Too many issues to worry about!
+I have a large professional team who can fix all the above issues
+immediately at an affordable price. I guarantee you will see a drastic
+change in your Google search ranking once these are fixed.
+If this is something you are interested in, then allow me to send you a NO-
+OBLIGATION AUDIT REPORT.
+
+Best Regards,
+Devin Leo
+*Marketing Consultant  *
+
+
+PS1. If you are interested, then reply to us "Send the Proposal &
+References".
+PS2. If you are not interested, then send "Remove or No"
+
+--0000000000000e86cd063de4c1b5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><font face=3D"tahoma, sans-serif">Dear Bu=
+siness Owner of ,<br>=C2=A0<br>Many business owners get puzzled as their we=
+bsite isn&#39;t performing well, while others&#39; are flourishing. That&#3=
+9;s unfortunate, but not your fortune!<br>Now, I will show you the number o=
+f broken links, pages that returned 4XX status code upon request, images wi=
+th no ALT text, pages with no meta description tag, not having a unique met=
+a description, having a too long title, etc., found in your . Too many issu=
+es to worry about!<br>I have a large professional team who can fix all the =
+above issues immediately at an affordable price. I guarantee you will see a=
+ drastic change in your Google search ranking once these are fixed.<br>If t=
+his is something you are interested in, then allow me to send you a NO- OBL=
+IGATION AUDIT REPORT.<br>=C2=A0<br>Best Regards,<br>Devin Leo<br><b><u>Mark=
+eting Consultant=C2=A0=C2=A0</u></b>=C2=A0</font></div><font face=3D"tahoma=
+, sans-serif"><br></font><div dir=3D"ltr"><font face=3D"tahoma, sans-serif"=
+><br>PS1. If you are interested, then reply to us &quot;Send the Proposal &=
+amp; References&quot;.<br>PS2. If you are not interested, then send &quot;R=
+emove or No&quot;</font></div></div>
+
+--0000000000000e86cd063de4c1b5--

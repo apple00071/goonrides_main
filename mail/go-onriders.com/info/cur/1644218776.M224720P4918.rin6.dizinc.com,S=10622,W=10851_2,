@@ -1,0 +1,229 @@
+Return-Path: <sales@dwrtechnology.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id aB1KDZjJAGI2EwAAQ+45pw
+	(envelope-from <sales@dwrtechnology.com>)
+	for <info@go-onriders.com>; Mon, 07 Feb 2022 02:26:16 -0500
+Return-path: <sales@dwrtechnology.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 07 Feb 2022 02:26:16 -0500
+Received: from mail-pf1-f196.google.com ([209.85.210.196]:41848)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <sales@dwrtechnology.com>)
+	id 1nGyPe-00053O-Md
+	for info@go-onriders.com; Mon, 07 Feb 2022 02:26:16 -0500
+Received: by mail-pf1-f196.google.com with SMTP id i30so11476845pfk.8
+        for <info@go-onriders.com>; Sun, 06 Feb 2022 23:25:54 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dwrtechnology-com.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=KZZkP04mn6/LY+x9dBzC6TMq0HF9SkjWp41HMKwlMd0=;
+        b=ssTuefOAM4XNen2cA7AHaqVraFd2I2X+ytmX/eNXwYjLjgxBq8G7ZMjOn6CrhCAuXE
+         ZK0vT1xbmWt694ZthnWU4EIuFemmdCjLceAWWfxJSkSl5Ef8f5F2maNMN1HHj24oboEg
+         IHK3QlJvcP3OVL6SePfA8pCT/ou+VQvV05W2RTJQVtk7kGX+1Ajx3dPXBntYzxFl5sbq
+         y/TcuZHImCY+zJKuS/QCb65RBnbKYlLysnghfm8u5i6wBQi4CFuUGbJPjorF1VaRTXhB
+         MaNA8JwO8arZD/EEHwZXCu58tzZV6coL2GIqeNKTwKnN/M8eiprD1o8hfJcUQ7G5mUpH
+         KOWw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=KZZkP04mn6/LY+x9dBzC6TMq0HF9SkjWp41HMKwlMd0=;
+        b=S4unyXjShfCaRsSUUjkCHRZ+NmoSt4oefK3v0K5LAd0WOp1Pb5x5hhxdC5LjxW1jnZ
+         jiXXZa7MObBruPy5btz6ECTG7o9pq5e8Xa745l6DWiGo1gggV48HD9bt1v/oKEjJFGQN
+         txjK9XffKWt5+4EYrms2gHVZA8je5TOnPYhybiU4aP3wE6AZ9Xpaik+QI1KC85kpx77u
+         uCRf/vlG7y7xCKx1KYIgwtMYL+ty5ilPqptfA5VFwORHcHekdr16Xm260SVssQg8jrSg
+         B1g1k7oB+qpGZzidLpOIe3tDvzRmnrQISQT0czoQGrQCSESROH7mojM+Qcu0LlHzup0n
+         RC5Q==
+X-Gm-Message-State: AOAM531LY8p4lNZrp+iXuuTPGtBySRl/wvOUT26WnxPhak5tzTXts4Hp
+	SJ9XAySOT6tZ3BGcSqBEkbb42Cy48x5sbwG+2zTEWpzvqR0=
+X-Google-Smtp-Source: ABdhPJymWTYqJo0VCnUKgbFeIzyoMOiJxsH/ydm41vh8McnFKl9mQN3bbhSmsbp49H/dOp5LW5rq+Bqf61mUtXwPmrQ=
+X-Received: by 2002:a05:6a00:114a:: with SMTP id b10mr14434344pfm.86.1644218732677;
+ Sun, 06 Feb 2022 23:25:32 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 6 Feb 2022 23:25:32 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 6 Feb 2022 23:25:31 -0800
+MIME-Version: 1.0
+Sender: Elena <sales@dwrtechnology.com>
+From: Elena <sales@dwrtechnology.com>
+Date: Sun, 6 Feb 2022 23:25:32 -0800
+X-Google-Sender-Auth: XMSQQxF3Aj7r_PLgk-HJcTYkNz0
+Message-ID: <CAO5gMAc3mVDUZ+fXvnQD6gko+vH6YNhEnW2L6Gq4i2AxLKB4oA@mail.gmail.com>
+Subject: Want to get more organic traffic on go-onriders.com
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000007e9df005d768818b"
+X-Spam-Status: No, score=1.7
+X-Spam-Score: 17
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, I noticed something interesting while going
+    through your website *go-onriders.com <http://go-onriders.com>.* So, remember
+    without SEO you are wasting a whole load of time and money. Be wise; don’t
+    l [...] 
+ Content analysis details:   (1.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.210.196 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [209.85.210.196 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 T_SPF_PERMERROR        SPF: test of record failed (permerror)
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--0000000000007e9df005d768818b
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sir/Madam,
+
+I noticed something interesting while going through your website
+*go-onriders.com
+<http://go-onriders.com>.* So, remember without SEO you are wasting a whole
+load of time and money. Be wise; don=E2=80=99t leave money on the table wit=
+h your
+website. Launch a SEO-friendly website right from the beginning.
+
+Come to think of it, there are tons of SEO companies with best website
+optimization services, but not all of them are built like our unique SEO
+services in mind. The good news is that with our reliable SEO-Friendly
+professionals who are truly dedicated for your future web project will be
+SEO-optimized right from the start. Thus, our content will be much clearer
+to search engine to explore the entire website.
+
+I believe you would like to come top on searches for keywords related
+to: *go-onriders.com
+<http://go-onriders.com>*. I found a number of SEO issues such as broken
+links, page speed, issue, HTML validation errors, images with no ALT text
+your website, that=E2=80=99s stopping you from getting that traffic.
+
+Our main AIM is customer satisfaction and timely reporting. You can check
+our client reviews on our website as well. It=E2=80=99s our pleasure that m=
+ost of
+our clients remain with us for more than 1 year.
+
+I also prepared a *Free* *Analysis Report *for your website. If you are
+interested I can show the report.
+
+I look forward to hearing from you.
+
+
+Note: Our next conversation will be on my corporate E-mail ID.
+
+Best Regards
+
+
+
+*Elena*
+
+
+
+*Marketing Manager*
+
+
+[image: beacon]
+
+--0000000000007e9df005d768818b
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:115%;font-size:11pt;font-family:Calibri,sans-serif">Dear Sir/Madam, <=
+/p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><span style=3D"font-size:12pt">I n=
+oticed something interesting while going through your website
+<b><a href=3D"http://go-onriders.com">go-onriders.com</a>.</b> So, r</span>=
+emember
+without SEO you are wasting a whole load of time and money. Be wise; don=E2=
+=80=99t
+leave money on the table with your website. Launch a SEO-friendly website r=
+ight
+from the beginning. <span style=3D"font-size:12pt"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">Come to think of it, there are ton=
+s of SEO companies with
+best website optimization services, but not all of them are built like our
+unique SEO services in mind. The good news is that with our reliable
+SEO-Friendly professionals who are truly dedicated for your future web proj=
+ect
+will be SEO-optimized right from the start. Thus, our content will be much
+clearer to search engine to explore the entire website. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">I believe you would like to come t=
+op on searches for
+keywords related to: <b><span style=3D"font-size:12pt;line-height:115%"><a =
+href=3D"http://go-onriders.com">go-onriders.com</a></span></b>. I found a
+number of SEO issues such as broken links, page speed, issue, HTML validati=
+on
+errors, images with no ALT text your website, that=E2=80=99s stopping you f=
+rom getting
+that traffic. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">Our main AIM is customer satisfact=
+ion and timely reporting.
+You can check our client reviews on our website as well. It=E2=80=99s our p=
+leasure that
+most of our clients remain with us for more than 1 year. </p>
+
+<p class=3D"MsoNormal" style=3D"line-height:11.2pt;margin:0in 0in 10pt;font=
+-size:11pt;font-family:Calibri,sans-serif">I also prepared
+a=C2=A0<b>Free</b>=C2=A0<b>Analysis Report=C2=A0</b>for your website. If yo=
+u
+are interested I can show the report.</p>
+
+<p class=3D"MsoNormal" style=3D"line-height:11.2pt;margin:0in 0in 10pt;font=
+-size:11pt;font-family:Calibri,sans-serif">I look forward to
+hearing from you.</p><p class=3D"MsoNormal" style=3D"line-height:11.2pt;mar=
+gin:0in 0in 10pt;font-size:11pt;font-family:Calibri,sans-serif"><br></p>
+
+<p class=3D"MsoNormal" style=3D"line-height:11.2pt;margin:0in 0in 10pt;font=
+-size:11pt;font-family:Calibri,sans-serif">Note: Our next
+conversation will be on my corporate E-mail ID.</p>
+
+<p class=3D"MsoNormal" style=3D"line-height:11.2pt;margin:0in 0in 10pt;font=
+-size:11pt;font-family:Calibri,sans-serif">Best Regards</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,sans-serif">=C2=A0</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,sans-serif"><font color=3D"#000000"><b>E=
+lena</b></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,sans-serif"><b>=C2=A0</b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,sans-serif"><b><span lang=3D"EN-IN">Mark=
+eting
+Manager</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 0.0001pt;line-height:normal;=
+font-size:11pt;font-family:Calibri,sans-serif"><b><span lang=3D"EN-IN">=C2=
+=A0</span></b></p></div>
+<img src=3D"https://dwrtechnology-dot-yamm-track.appspot.com/FireBase?ukey=
+=3D17xxfDTncL0TyGBpVRZrRpG9mLLJwlL43Ss785fSLeCI-0&amp;key=3DYAMMID-16442187=
+31294" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; displ=
+ay:none!important;">
+
+--0000000000007e9df005d768818b--

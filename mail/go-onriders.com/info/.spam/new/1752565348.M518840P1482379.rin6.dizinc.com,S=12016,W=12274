@@ -1,0 +1,258 @@
+Return-Path: <joe@lexxdigital.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id cNw6HmQGdmiLnhYAQ+45pw
+	(envelope-from <joe@lexxdigital.com>)
+	for <info+spam@go-onriders.com>; Tue, 15 Jul 2025 03:42:28 -0400
+Return-path: <joe@lexxdigital.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 15 Jul 2025 03:42:28 -0400
+Received: from mail-pf1-f176.google.com ([209.85.210.176]:53747)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <joe@lexxdigital.com>)
+	id 1ubaJ1-00000006Dk6-27fy
+	for info@go-onriders.com;
+	Tue, 15 Jul 2025 03:42:28 -0400
+Received: by mail-pf1-f176.google.com with SMTP id d2e1a72fcca58-74ce477af25so3171237b3a.3
+        for <info@go-onriders.com>; Tue, 15 Jul 2025 00:42:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lexxdigital-com.20230601.gappssmtp.com; s=20230601; t=1752565303; x=1753170103; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=DyDXPkQA9cZlheaOW2UsaBVLSNUILXReYnYZb2AiHys=;
+        b=KYHUdnuny/AqTUAdMlCf6hRJZPt1F9JsxoKGuh8o9GEDQ9taeqk2Ae7wLHGmY37/H2
+         QkNALPihPAT47kh5C1pY0VMMnAR9snWLpl60zMoN2AKbcb0aUn3hT0rsDpuM0bUZGTjj
+         YcqUYHPtNFFlV5WVBSUJuDQx1GmsiQnTTzqnNYKhIIbkH00EkY8cN/I/Qp+KYZ4wh/5E
+         orwdatPKLJtL3qRFnl5gw44/QLCn56TFATLdHJB5Obd1pFUw4ctVcaoNBYoxVr2vv4+N
+         ur9BSwsOr6PIkO2/VLxrRuy5eajiOSw8iHA+brAzxE+MgnKTUaXWA1v22xKpKlZoSTel
+         Jplg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1752565303; x=1753170103;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=DyDXPkQA9cZlheaOW2UsaBVLSNUILXReYnYZb2AiHys=;
+        b=dWlKjmqbHjK+Gd/jwBjnmYqeiCqj10MfVQHemlgeTpM9W3P9IQQxnAGzm/SuaGdqwP
+         /erm0Yd2dka/1DRCJsIVR6GXlmQGTEOtwp9i/W06mPeBAfvAstsg++t/7y3ZnIg+Gc2b
+         R4D3QgwPkH9n5xjYdamnjfP+kDhxXP16L/ddCjAymmKEFGeD+0K5h4NIXovT9r9crcdD
+         OGmeTgJEqHlVe1RyTihUp1/sjDw6Yw8xo36qdRU7Bgc0CSz+AMSL5ou8vBKNRBrwtGqh
+         N8FWHdp8dutk8WGkpkCzWMhECpIYGpdowYK+y9g9lcFQTFYWKMvGfrYKMtF1S+lwsi+h
+         h20Q==
+X-Gm-Message-State: AOJu0Yxcw2EsQx3TxTJv37tjd5YJDLf5jeqbMxpiewRIJntZXNTO17cu
+	2PlMaIPcUCIp/81eRmWVmwPayB51dNyMbm84sjkqavsKVLU7UhoIH4Y8ZskJQq7Hfesyo8cDDLI
+	/eZkQ
+X-Gm-Gg: ASbGncvzMgvGhFpGbL1r4QIrCxScwdc+nwVEyD34mJjdtt7PfV+RQLbcf3CZAUdICYf
+	56Cu7/Sar1tm+Wv8y3k+MIrPSQ7Hx79x/T2aJ0WZR7gU6WZA5XNO9XCQKEuV6DrHUTcu//o6Zc+
+	eYaSNv10JsZZd8xl1klMOKw3pUTyd/W0/MrZVslUETpPJ01/bgk5as/iLj2HhvbSYK2CqZIK8hJ
+	Pidzli7/+RHMNGqMOSu5SXaMLzT2wXZqz4XHxDh4wHxUx/mtgekfrlu8GHmoBU5HHNQloJFqqTz
+	4nYWb/NqrUV2CJN5pwXWb3BsirRiueALlVfXg3w5YiLHLUltxxBpidT0vpq4wpx/bX4vKIdhXjC
+	o/bbk7q4Ljr1c91rpsblyE9lxmy85BtFRy23Vncc+NnbwyFA=
+X-Google-Smtp-Source: AGHT+IGmnpNtuNxoujpCnOSHeMNPv8BXhT2xVsNDtzhB1zKNj3wtLQPPRudsKtzELDyXOxwcc5sn/w==
+X-Received: by 2002:a05:6a21:6daa:b0:234:6752:3990 with SMTP id adf61e73a8af0-23467617d2dmr10377266637.17.1752565303296;
+        Tue, 15 Jul 2025 00:41:43 -0700 (PDT)
+Received: from DESKTOP64SH9DS ([43.227.227.145])
+        by smtp.gmail.com with ESMTPSA id d2e1a72fcca58-74eb9f1b43dsm11947700b3a.79.2025.07.15.00.41.42
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Tue, 15 Jul 2025 00:41:42 -0700 (PDT)
+From: "Joe" <joe@lexxdigital.com>
+To: <info@go-onriders.com>
+Date: Tue, 15 Jul 2025 12:59:59 +0530
+Message-ID: <10adb01dbf55b$e8355540$b89fffc0$@lexxdigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_10ADC_01DBF58A.01EF17E0"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Adv1SJcSSdLso0teRIy/4zLzC98Diw==
+Content-Language: en-us
+X-MagicSpam-TUUID: b0e0e1e0-b002-4765-8b3d-068ea6e49234
+X-MagicSpam-SUUID: 391bcaa6-96a8-473d-b2ae-82c56a5ab208
+X-Spam-Status: Yes, score=13.0
+X-Spam-Score: 130
+X-Spam-Bar: +++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I hope all is well with you. Can you please give me an
+    update on my previous mail? 
+ Content analysis details:   (13.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.210.176 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.210.176 listed in sa-accredit.habeas.com]
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in lexxdigital.com.wild.pccc.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.210.176 listed in sa-trusted.bondedsender.org]
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  RE: Mobile Apps?
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_10ADC_01DBF58A.01EF17E0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I hope all is well with you.
+
+Can you please give me an update on my previous mail?
+
+Waiting for your valuable response.
+
+Thanks,
+
+---------------------------------------------------------
+
+From: Joe
+
+Sent: Friday, July 04, 2025 09:12 AM
+
+To: info@go-onriders.com
+
+Subject: Mobile Apps
+
+ 
+
+Hi,
+
+I'm checking with you on your info@kaycoune.com profile to see if you want
+to build a new IOS & Android Apps or if there are any changes or updates
+you'd like to make to your existing iOS and Android apps.
+
+Do you want custom mobile app for your business, we specialize in building
+apps for brands and would love to hear your thoughts
+
+If you are interested, I would be happy I can send you our past work and
+Packages with the best offer.
+
+I am waiting for your reply
+
+Thanks
+
+Joe
+
+
+------=_NextPart_000_10ADC_01DBF58A.01EF17E0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Hi,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>I hope all is well with you.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Can you please give me an update =
+on my previous mail?<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Waiting for your valuable response.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Thanks,<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans =
+MS"'>---------------------------------------------------------<o:p></o:p>=
+</span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>From: =
+Joe<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>Sent: Friday, July 04, 2025 =
+09:12 AM<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>To: =
+info@go-onriders.com<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>Subject: Mobile =
+Apps<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Hi,<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>I&#8217;m checking with you on =
+your info@kaycoune.com profile to see if you want to build a new IOS =
+&amp; Android Apps or if there are any changes or updates you&#8217;d =
+like to make to your existing iOS and Android =
+apps.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Do you want custom mobile app for your business, we specialize in =
+building apps for brands and would love to hear your =
+thoughts<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>If you are interested, I would be happy I can send you our past =
+work and Packages with the best offer.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>I am waiting for your =
+reply<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Thanks<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Joe<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_10ADC_01DBF58A.01EF17E0--
+

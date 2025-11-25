@@ -1,0 +1,306 @@
+Return-Path: <AubreeDecosta@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id Lyw4OlC5SWcq9jQAQ+45pw
+	(envelope-from <AubreeDecosta@outlook.com>)
+	for <info@go-onriders.com>; Fri, 29 Nov 2024 07:53:36 -0500
+Return-path: <AubreeDecosta@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 29 Nov 2024 07:53:36 -0500
+Received: from mail-dm6nam12olkn2024.outbound.protection.outlook.com ([40.92.22.24]:25601 helo=NAM12-DM6-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98)
+	(envelope-from <AubreeDecosta@outlook.com>)
+	id 1tH0V9-0000000EYoK-2y44
+	for info@go-onriders.com;
+	Fri, 29 Nov 2024 07:53:36 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=sEc0Hd4U9QWpKIHolkfE3cF86DMM/tktc2+can2ddNIjMbnYfD9L0VizmyUdETM3LiInKxkKZlVLWAttDaxevT+6Z2QYtwZ9U4E12U2v6rAHVs6ABK9e5RhEleYl7B8G2YKEPt8SapGU2deY/4dt5TTR9bSAWueufQGCwJEtC3U6Nh7urszG7+fvKOuHY4t6DfL7QkQcGy54e2jy/rhPvtoE2RDODOHBEOyPhkz3mBau0xCGk8NClNUGjk/esNHwnBDSGi8rMGvNvypqD2y9Qv3Slausogh6Bqxx7U2gQ9+dwTwi+rY9mdwUk4xXGD2wunf45n67NVZi+Rn81eBhDw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=2/P2tx6ZmeJxdTYgOWe/hk6lZPXT9fic6sY8EU9Sud4=;
+ b=BmoYgBD+tFB5xm7CpaI5JiynDLxV/vlvCPPS7GSUenCSoScysfMjHzMNKXGFAdQJwBHFnSElViy77HfMlJ5+OkX+IG7NQqBkSE/FGHNB28q07YVs67DfDzYy0Y6a86+tguZLYp2RkMJYvY1VKRunMj3Ec/VKDis94d3LX+ngVO/VjLuSLLMDgOroR2GX02Zm0jKQRAHwuEgl5+w1cRPE6iL7mllzM8k1ZR1dILukz2Ql+Ap0s2SrbiLFbY5KNrJOQILmHzywt+ZBfCpB/5lx2ofV1M3msEmHXfbqc68Pn/8MiQrWPYqoc8rxg/GEEWsSZa7H2Gng9YaAVRr+dBvUXQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2/P2tx6ZmeJxdTYgOWe/hk6lZPXT9fic6sY8EU9Sud4=;
+ b=CqqBRPmZap/AdydJaerPh5EUzMEfVYdigeDWW54J2vt9gUar22J3AI36r3AKTaPyWu3m/V4pWOc8WuYvrpuFIcyMF5rmIaL725tESNejEqTkMQuqBzYzfguBO8wK/avdD3rOarWh1L8S7tdLQy2EyQZ6Oim93LRjh5rq2id7EhBw5r4TpZU4U7Z5D9SD5yWc0JrbN9rTqBM+bmiMRFBjXuMqpYE1i42daZoJOrQgqU/StsYoyfMLTdDmBKH2e2ISjXvueiAy9GLkFQuZk2wgPdaqxuNu+WygIYbqbKutFDFjjdhY7bJcH3i7+Jo4klu4CfEUQShViglmMdp1iXayfA==
+Received: from DM3P222MB0956.NAMP222.PROD.OUTLOOK.COM (2603:10b6:0:43::22) by
+ CO1P222MB0386.NAMP222.PROD.OUTLOOK.COM (2603:10b6:303:15d::22) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.8207.15; Fri, 29 Nov 2024 12:52:39 +0000
+Received: from DM3P222MB0956.NAMP222.PROD.OUTLOOK.COM
+ ([fe80::2750:f532:2237:7d5e]) by DM3P222MB0956.NAMP222.PROD.OUTLOOK.COM
+ ([fe80::2750:f532:2237:7d5e%6]) with mapi id 15.20.8207.014; Fri, 29 Nov 2024
+ 12:52:39 +0000
+From: Aubree Decosta <AubreeDecosta@outlook.com>
+Subject: Regarding Mobile App (Affordable Rates)
+Thread-Topic: Regarding Mobile App (Affordable Rates)
+Thread-Index: AQHbQl2HdSM0IVvWPEyotUsPQ0+71Q==
+Date: Fri, 29 Nov 2024 12:52:38 +0000
+Message-ID:
+ <DM3P222MB0956CCA690BE6C695B6E7360B32A2@DM3P222MB0956.NAMP222.PROD.OUTLOOK.COM>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM3P222MB0956:EE_|CO1P222MB0386:EE_
+x-ms-office365-filtering-correlation-id: 5c0d89f9-a700-4e21-465b-08dd1074b443
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15080799006|461199028|7092599003|19110799003|15030799003|8060799006|8062599003|102099032|3412199025|440099028;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?2xGLA8stNK2+3UsggAhU/cTQi6qYbkpOQZZ0CIkLv9H6EzmkEgAMNGbn?=
+ =?Windows-1252?Q?MVT8OG63o2sETAjzbjB+BRQDmQ6GnXvbyNAIrUtmZhzri6BfabXGjju9?=
+ =?Windows-1252?Q?zfckfQ58qXUSLOnvQTVZHB2KT28l5+dsGlxbgCL2jOcltxnIxeP8z6aE?=
+ =?Windows-1252?Q?5F1LQ++VffckjTtooUbg1RT1dgqNtAZpEKUHVlWjdnmuRcFgGJsATvOo?=
+ =?Windows-1252?Q?furnfMzK9mGEH0h7xQQN99il1m/5yDX63OZFMi7/EhMAikWIpxD0uoqw?=
+ =?Windows-1252?Q?p+JoRXx4b7C22s9AWVDJtKNp/6kGTSzMZBEJfer7J6FQ5Tq2xFFPwR9K?=
+ =?Windows-1252?Q?hmmnAd1vZOAfJCyhfH97siN53yZZfGBw4NKWcgyxNKzcLeFjW/lfbpTT?=
+ =?Windows-1252?Q?rtAMSD25yplzfWfNIGCe5j/SVAPQlrXhCtEETLvqWKMvPXA5sZ/a0ae4?=
+ =?Windows-1252?Q?c6p7XNTCakTo63YRScW714reqFp5CyOi98i3m0jAHvibuvNF/ptTwgVh?=
+ =?Windows-1252?Q?sbfiA/PwFDs5avnNrEEHdHj6WHF0gCvLjPcIXkB3NwailQae43F1UGmA?=
+ =?Windows-1252?Q?x0n0ybNC8ZlL2CIVa25FAur8Dj9hMyPDrfP5CFCEKcHWKJ3k7f7J84l/?=
+ =?Windows-1252?Q?h+FhCdByYJdKBKAC+eh3AnEMauTp3qeoKd/tye3EgEkZGz4nR2KagY9z?=
+ =?Windows-1252?Q?2cpUynDKV6/+j1242hKgA3bUKSAR+gUkVbUTP5uxlQxCOp988420EL/r?=
+ =?Windows-1252?Q?x2MONWJp3kZ5HCOSj9a+4N43UNinhuDtco9OtgMRe0dVtlLyFFqTN4Yv?=
+ =?Windows-1252?Q?wDyHp8A3knQEqhwop0VevAE/6rgyRk8aix5ap83aaNthZNgqKK8KL+z8?=
+ =?Windows-1252?Q?MKcaSkTzL+wDr7qWNdNsx9GvfjWxpSUXp2btZjufQjQFeC30wbo/dIrg?=
+ =?Windows-1252?Q?cr6MCLhQxQG/fmRSn1bx1O1Ij3qSTSs8Nxg5M/1fTtZCG38PSg8Eg1Zp?=
+ =?Windows-1252?Q?HLNxSn00owdHy0Fpet6xJbrj/ZYDRdmmgBgJc5Ct0m5Q6NCrPJH19gTu?=
+ =?Windows-1252?Q?fAU/udypVuHCqSEGSMwh/iLp2zQUXDmiKgMR8OsJnFqN0aHLDQ8XZUF0?=
+ =?Windows-1252?Q?x5FttMLoL0Lmht3g7OKZBHJZ?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?bEMFn7Qlfh4HpCCfgvp11ddNE8v1TByB9sOA/rxUol//TNcHE8vK8iYr?=
+ =?Windows-1252?Q?mj+zolioEMVR0PUFXlsq5yYXUHTm7EDnfQmeok/Elx1jUi26WZ5POHW0?=
+ =?Windows-1252?Q?LXMtOBFYUvvbu7XB5LWIlr2NDASRPJ/+3v7Px8bCWnNVOLhbWC3qdqxv?=
+ =?Windows-1252?Q?M/t1AEpAbpJ5vGVcfJZuP9XPNaFxtLljIuyxughhJFrzr4c8611RfbAK?=
+ =?Windows-1252?Q?LYKnxzSNUld/5q/KH4BnEkydIKpTBfouvgApWpt5zypmbtb1aqyiIhon?=
+ =?Windows-1252?Q?fbvJ4W9M3CVE/vKKxbxQvtMNpsU5oF11NXJYUF7bNa5sj4blVh4gH8MM?=
+ =?Windows-1252?Q?GAaQbS+9msMAnzyoXSJq5fWpXdR6JenBzVz/74xl2Ox3fMiCpDkChz+V?=
+ =?Windows-1252?Q?00Qd6715Z7fafL2OR49tv3hDtXj1JwUor24Kct7YdmWXAzcTTCEyEQnU?=
+ =?Windows-1252?Q?9oYK9xDPAW1E5dkyuDaiZaQW5dOitqqyYsClQ7RZQ/eBH/Wd8m6Opr9y?=
+ =?Windows-1252?Q?gxyOUgtS7YXJ6Vnb27dV4lWEuljx9IjjmAe2kUs+23MppsfYvFqRRYdR?=
+ =?Windows-1252?Q?p8TdATGB/4Xr385/tUkR+7jcHGcUdMQLhtkUle7k1MG7e7IjVNimiNKM?=
+ =?Windows-1252?Q?FE9qn+kJXnnF2sjzPb6ozdPJYayl0KUcLHYyxWDgiE67J4twMWCq+MxC?=
+ =?Windows-1252?Q?cAUPCHW6KxCWyJkXcKH5WBEjoX8oZ0XPMrO+vWOIe5AZ5JZsu0ZfuLzb?=
+ =?Windows-1252?Q?Y4KthzbhuUx9wrywdPmp538p92R6ZKu0mPSzz7Z+QPkE5U1l2AvX7o5D?=
+ =?Windows-1252?Q?kkLR6A8R2S9i2gD8SBuEIMSaKa8U2pUxjarkxiZjD6OoU3PO6/r+hXlJ?=
+ =?Windows-1252?Q?uSoUWoWuIv5H7uDmrMptXosLvfNL+Veqb4+Vbe021IRCXwBDJl9bSKQy?=
+ =?Windows-1252?Q?e4HDTWUDplgEGRZzsGYND2qV5vk4g5smzvSzUdl44YqVEYiAGQLz9RS0?=
+ =?Windows-1252?Q?mMrbqzeTOjMmlw549WqBy557kTdZxwv5qR9GLBMt4nKNEW1KLhzbXAvF?=
+ =?Windows-1252?Q?3N/MgKmR5xoKQfyb+p5oj8Q1FqVtvjTGlTVAAhhNHoOjmFNUtX8k6zVK?=
+ =?Windows-1252?Q?V6GIM3PkB6/kk381+AUaJ7XLZ6RC11k6NzyuBnB0xCH7fSXKvmTobJNW?=
+ =?Windows-1252?Q?g6fFujsgyC1rzefdZjUkLbvpj3WEH+HK3bW0hSiYpYTvHAyX9IyXNCsT?=
+ =?Windows-1252?Q?ogEBSoqPE5nmn356EpsC7Jx4O7hSdrGmZdU/qbgNgcvm2JVwtWieSdC9?=
+ =?Windows-1252?Q?pm8kTJcht7vbQLCr62Uqtn+dUkgmF+To65zxVm98S4YprNNpx3itMZos?=
+ =?Windows-1252?Q?KY1uhmhaoqXVFl0JCgdBZNmA34U+VMZPDgs=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_DM3P222MB0956CCA690BE6C695B6E7360B32A2DM3P222MB0956NAMP_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DM3P222MB0956.NAMP222.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 5c0d89f9-a700-4e21-465b-08dd1074b443
+X-MS-Exchange-CrossTenant-originalarrivaltime: 29 Nov 2024 12:52:38.2636
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CO1P222MB0386
+X-MagicSpam-TUUID: 021c21b2-26d0-44d7-83af-649f51fb1b64
+X-MagicSpam-SUUID: 9f75a94a-028c-41ad-b068-dde271b75966
+X-Spam-Status: No, score=1.0
+X-Spam-Score: 10
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Are you looking for Mobile App Development Services
+    (Android, /iOS) at Affordable Rates? We can create any type of mobile App
+    according to your requirement. 
+ Content analysis details:   (1.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.92.22.24 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [40.92.22.24 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.92.22.24 listed in sa-accredit.habeas.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 ARC_SIGNED             Message has a ARC signature
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 ARC_VALID              Message has a valid ARC signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [aubreedecosta(at)outlook.com]
+  1.2 MISSING_HEADERS        Missing To: header
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MALFORMED_FREEMAIL     Bad headers on message from free email service
+X-Spam-Flag: NO
+
+--_000_DM3P222MB0956CCA690BE6C695B6E7360B32A2DM3P222MB0956NAMP_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Are you looking for Mobile App Development Services (Android, /iOS) at Affo=
+rdable Rates?
+
+We can create any type of mobile App according to your requirement.
+
+=95 Logistics & Transport App
+=95 Educational App
+=95 Food & Restaurant App
+=95 Real Estate App
+=95 Booking & Delivery App
+=95 Fitness App
+=95 Taxi & Travel App
+=95 Beauty Salon App
+=95 Handyman App
+=95 Construction App
+=95 Shop & Store App
+=95 Business App
+=95 Accounting App
+=95 Healthcare App
+
+If interested, please write me back with your requirement and ideas,
+
+Thanks & Regards,
+
+Aubree
+
+
+
+--_000_DM3P222MB0956CCA690BE6C695B6E7360B32A2DM3P222MB0956NAMP_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0in 0in=
+ 0.0001pt; font-family: Calibri, Helvetica, sans-serif; font-size: 11pt; co=
+lor: rgb(0, 0, 0);">
+Hello,</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+Are you looking for Mobile App Development Services (Android, /iOS) at <b>A=
+ffordable Rates</b>?</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+We can create any type of mobile App according to your requirement.</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Logistics &amp; Transport App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Educational App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Food &amp; Restaurant App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Real Estate App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Booking &amp; Delivery App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Fitness App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Taxi &amp; Travel App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Beauty Salon App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Handyman App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Construction App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Shop &amp; Store App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Business App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Accounting App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>=95 Healthcare App</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<span style=3D"background-color: rgb(255, 255, 0);"><b>If interested, pleas=
+e write me back with your requirement and ideas,</b></span></div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0in 0in=
+ 0.0001pt; font-family: Calibri, Helvetica, sans-serif; font-size: 11pt; co=
+lor: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>Thanks &amp; Regards,</b></div>
+<div style=3D"line-height: normal; margin: 0in 0in 0.0001pt; font-family: C=
+alibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+<b>&nbsp;</b></div>
+<div class=3D"elementToProof" style=3D"line-height: normal; margin: 0in 0in=
+ 0.0001pt; font-family: Calibri, Helvetica, sans-serif; font-size: 11pt; co=
+lor: rgb(0, 0, 0);">
+<b>Aubree</b></div>
+<div style=3D"line-height: 1.38; margin: 0in 0in 10pt; font-family: Calibri=
+, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_DM3P222MB0956CCA690BE6C695B6E7360B32A2DM3P222MB0956NAMP_--

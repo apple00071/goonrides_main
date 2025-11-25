@@ -1,0 +1,208 @@
+Return-Path: <janikhs@atlasaxillia.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id eLc6CdUmDmPIXAAAQ+45pw
+	(envelope-from <janikhs@atlasaxillia.com>)
+	for <info+spam@go-onriders.com>; Tue, 30 Aug 2022 11:03:49 -0400
+Return-path: <janikhs@atlasaxillia.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 30 Aug 2022 11:03:49 -0400
+Received: from mail-psaapc01hn2205.outbound.protection.outlook.com ([52.100.0.205]:58465 helo=APC01-PSA-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <janikhs@atlasaxillia.com>)
+	id 1oT2mK-0001Tn-63
+	for info@go-onriders.com;
+	Tue, 30 Aug 2022 11:03:49 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=W9/QIuZhgMM8JkfGEu2yhD8ACUou2QY86NSnjJjNYzEgJZV7oc+t45TdYOY+3cjE1jM/pkuoUJlTFWbC6MOzjl3XD0T639veIzt2MoF5LBs6XgGacoaZc1TjmWOaaXs1RsclVL34Tn8FsN03gtRPuUSxc0jCRA34armqpI4gljZz8zovhomh1M5wVa56OozWx3uCFCth2hGnmkCaMaikQL7nYcSKtSYJooM71t4MONJTnlsnPo+oSmNCblMoV+biPgmGAH77rEOqh0Da4e61UJsbkF+++MD+LO42tCS4zujljLY9gjRnGKne0v64onP5IbXMFpwLdKBfZNxmxmn1RA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=gWuwR5RklE4wTvEvbvTEu64olEKwouOWhMhePM54CUA=;
+ b=AmCoQWDe6NhvgoXXchYf5peGprtj0spLOxNpcym+DvRkQWvrOznIEsv0YGtwuwf17DYMjpS6QGZnwrd5EFsBxi3NpgbXTkx4MBtWak7J9DVhlA/q2L332ltsFmyOSwGzLj7nECFzHwkj0zlRJq/xxAKwuNdJrKPhu7iu4HINp0+MrqqVueebetxFR/fSv/jtuWOkn4CseV+OFaBknuGbBBnSPSYCowNa3iGVeqWaTiAzMLDVv95LLZunIdjtGUqg1XtV9Y7uP2gVuoyFLFssyustdUtdb5u9saQDgL9xfShqrEIJxxGUTqJwSlZqUjDly+VeFxqdpZjaIjQgMfjK3Q==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+ 203.189.69.107) smtp.rcpttodomain=ma-sportscenter.com
+ smtp.mailfrom=atlasaxillia.com; dmarc=pass (p=quarantine sp=quarantine
+ pct=100) action=none header.from=atlasaxillia.com; dkim=none (message not
+ signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=atlasaxillia.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=gWuwR5RklE4wTvEvbvTEu64olEKwouOWhMhePM54CUA=;
+ b=iwaXGhQocW/i3mBU/1udTm58pqFvlOaS+DILxzzy4tSKwYma7Jhloj7QiujlQmUlTW4ASBqLB0iT3X0RgoS1KXrwaB0hnozk99JbXk5YrwNYp4FqfNgRUvF1eaZnDAN3rxnbwnW5SfvNZDEIHEvEXPXiBzcMJ9m/ItHIYXksQTE=
+Received: from SG2PR02CA0046.apcprd02.prod.outlook.com (2603:1096:3:18::34) by
+ HK0PR06MB2866.apcprd06.prod.outlook.com (2603:1096:203:59::15) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5566.15; Tue, 30 Aug 2022 15:03:02 +0000
+Received: from SG2APC01FT0029.eop-APC01.prod.protection.outlook.com
+ (2603:1096:3:18:cafe::33) by SG2PR02CA0046.outlook.office365.com
+ (2603:1096:3:18::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5566.21 via Frontend
+ Transport; Tue, 30 Aug 2022 15:03:02 +0000
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 203.189.69.107)
+ smtp.mailfrom=atlasaxillia.com; dkim=none (message not signed)
+ header.d=none;dmarc=pass action=none header.from=atlasaxillia.com;
+Received-SPF: Pass (protection.outlook.com: domain of atlasaxillia.com
+ designates 203.189.69.107 as permitted sender)
+ receiver=protection.outlook.com; client-ip=203.189.69.107;
+ helo=mail.atlas.lk; pr=C
+Received: from mail.atlas.lk (203.189.69.107) by
+ SG2APC01FT0029.mail.protection.outlook.com (10.13.36.188) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.5566.15 via Frontend Transport; Tue, 30 Aug 2022 15:03:01 +0000
+Received: from cpcex01.cpc.local (192.168.13.16) by cpcex01.cpc.local
+ (192.168.13.16) with Microsoft SMTP Server (TLS) id 15.0.1473.3; Tue, 30 Aug
+ 2022 03:57:42 +0530
+Received: from mail.atlasaxillia.com (45.137.22.45) by cpcex01.cpc.local
+ (192.168.13.16) with Microsoft SMTP Server id 15.0.1473.3 via Frontend
+ Transport; Tue, 30 Aug 2022 03:57:41 +0530
+From: SUPER LIST <janikhs@atlasaxillia.com>
+To: <weisgardenleesburg@gmail.com>
+Reply-To: <contactardados@gmail.com>
+Date: Tue, 30 Aug 2022 00:28:03 +0200
+Message-ID: <b2a8acac81dd42eea01ac251aaf3e5bc@cpcex01.cpc.local>
+MIME-Version: 1.0
+Content-Type: text/plain
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 99a591ec-58ae-42c1-a14a-08da8a98bbb8
+X-MS-TrafficTypeDiagnostic: HK0PR06MB2866:EE_
+Content-Transfer-Encoding: quoted-printable
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?75aAMYHd5T3kG3IUol5ADMFjfznXnrNxoNOMpGBmOJByEPT2xmhXp7Ju4S1V?=
+ =?us-ascii?Q?6XAK5u32Yz/KAoU5gdzkiYgsTFWuprSMrp/3FEEMEB9bQCdsNzU5NEedu/Pm?=
+ =?us-ascii?Q?tQ8tlP+cGTmVwoQPzNvP2IsVmyRYauCrWX4DzGQLcAYe6xcGA7W4jZm5Ifbp?=
+ =?us-ascii?Q?Ga2G0S8QvAPlYqkw8GCi8w7kIiB4aJBaxqNDJ9SSj9UCEvGNFjQfdPHy5XOF?=
+ =?us-ascii?Q?dOCy7B4pRcIfLgutFVetcCTdY7K7WeNqrpzTUprCgxBpyA6iGe180nzjQOjk?=
+ =?us-ascii?Q?5GPK5ZeaS9XPgV8PjNaaBXE2UstbqZIvFZwhcuzPYGrv+wIc4/Nb8T+5p17k?=
+ =?us-ascii?Q?wtHsIy9uncNq1Vsj0QL1rYOlpUNcDI4ATZTz7yFm/Pb6k41yGM9VgcIJvEPw?=
+ =?us-ascii?Q?q2vtcTt6sho3UvMrkWM0YTGWGR6Y7IXHYIlmxMHTim6dZI77MlTJ3pYOg7wF?=
+ =?us-ascii?Q?8QnL5gTHTlekAV8XB8KILYwiByXZax7EnIjgHfM8BfLB2ZYYJ7mMgqcY2GUY?=
+ =?us-ascii?Q?TEp3oGt8vy+gDKlqqwN/hnllZFTf5Ysar/e+fmde7GQ8qe7vc7lC8pFF5BEz?=
+ =?us-ascii?Q?G3EpqIiR9RphbHF214/Ki5yz5JNtD2N0a9VbMSMWIcMkfL6vYeVkGPefVDdn?=
+ =?us-ascii?Q?JqbctOQwpMgkw0j70fADnJyYXHS5qZdIWaQJbQKWXB8L6/zRezYwGDW7xFYN?=
+ =?us-ascii?Q?rOkNNqGoefBZCYIlaXKNT78WauYGSO+3koyOpZRat1WfdBCqvKqdwaWGVukF?=
+ =?us-ascii?Q?j0jQFIIIQZtQw/2IFjjD5A7GRnHlht0krW6m9z5rbuX5X04Z9hb4O4i3Dhkl?=
+ =?us-ascii?Q?9PeC4/tjGLZEfh/fhP2HzROsFP4//neXmOkBVFBizCnhmnRT18jVWZNwdDIH?=
+ =?us-ascii?Q?NH0odc6uPM+Kh0HSIOzV+Dzpxt63RAgWJm/lYSRR7PhYHw7PEa52yWWgnj5n?=
+ =?us-ascii?Q?1+0l7s9XsWYIimdl4RYGabf5W6tM2nf0usPhVcO6l8PXcg9XSWPuCs6kRP4Z?=
+ =?us-ascii?Q?2yr738c7PTM+M85CEAAdPPbDVMCqFt7+vbcIkRq0QDksLTQEZ/H+E7SS0LXf?=
+ =?us-ascii?Q?hHjVK0BRxCxficFEd7180Rs2AYzjhwDqBSNPQIetYQxD09m373qifRL92WfL?=
+ =?us-ascii?Q?6x4B8uLaW9x+iW6iP9tanwNouZzuL+7wRRB8fg/LXRNRkEt3lHwJZ+oSW2OQ?=
+ =?us-ascii?Q?rLKVhMJnKoaXUEGJ?=
+X-Forefront-Antispam-Report:
+	CIP:203.189.69.107;CTRY:LK;LANG:en;SCL:5;SRV:;IPV:NLI;SFV:SPM;H:mail.atlas.lk;PTR:InfoDomainNonexistent;CAT:OSPM;SFS:(13230016)(376002)(396003)(346002)(136003)(39860400002)(40470700004)(36840700001)(46966006)(26005)(82310400005)(81166007)(356005)(6916009)(9686003)(2860700004)(82740400003)(316002)(40480700001)(24736004)(8676002)(41300700001)(40460700003)(8936002)(6666004)(70586007)(108616005)(2906002)(70206006)(186003)(36860700001)(478600001)(66574015)(83380400001)(86362001)(47076005)(5660300002)(336012)(956004)(73850200002);DIR:OUT;SFP:1501;
+X-OriginatorOrg: atlasaxillia.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Aug 2022 15:03:01.4197
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 99a591ec-58ae-42c1-a14a-08da8a98bbb8
+X-MS-Exchange-CrossTenant-Id: 0b2ad702-c4fe-4319-a94f-4c01f321d5e7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=0b2ad702-c4fe-4319-a94f-4c01f321d5e7;Ip=[203.189.69.107];Helo=[mail.atlas.lk]
+X-MS-Exchange-CrossTenant-AuthSource:
+	SG2APC01FT0029.eop-APC01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: HK0PR06MB2866
+X-Spam-Status: Yes, score=8.6
+X-Spam-Score: 86
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get the best email lists for your email marketing. 100% VALID
+    email lists of any country in the world. Talk to us in WhatsApp: +55 22 99788
+    1694 
+ Content analysis details:   (8.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [52.100.0.205 listed in list.dnswl.org]
+  0.0 NA_DOLLARS             BODY: Talks about a million North American dollars
+  1.4 AXB_X_FF_SEZ_S         Forefront sez this is spam
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.9 BIGNUM_EMAILS_FREEM    Lots of email addresses/leads, free email
+                             account
+  1.0 BIGNUM_EMAILS_MANY     Lots of email addresses/leads, over and over
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Email lists 100% VALID - Any country in the world
+
+
+Get the best email lists for your email marketing.
+
+100% VALID email lists of any country in the world.
+
+Talk to us in WhatsApp:
++55 22 99788 1694
+
+Or Skype:
+corbettsoftware
+
+-------------------------------------------
+Email lists from any country in the world:
+
+Each 500.000 emails =3D US$ 150
+Each 1 million emails =3D US$ 250
+
+Segmented email lists from any country:
+
+Each 10.000 emails =3D US$ 200
+Each 50.000 emails =3D US$ 250
+--------------------------------------------
+
+
+We are waiting for you.
+
+Best regards,
+
+SUPER LIST
+The best email lists since 1998
+
+WhatsApp:
++55 22 99788 1694
+
+Skype:
+corbettsoftware
+
+________________________________
+
+CONFIDENTIALITY
+
+This message contains confidential information and is intended only for the=
+ individual named herein. Any attachment transmitted with this email is con=
+fidential and intended solely for the use of the individual or entity to wh=
+om this email is addressed. If you are not the named addressee you should n=
+ot disseminate, distribute or copy this e-mail. Please notify the sender im=
+mediately by e-mail if you have received this e-mail by mistake and delete =
+this e-mail from your system or please notify the system manager. If you ar=
+e not the intended recipient you are hereby notified that disclosing, copyi=
+ng, distributing or taking any action in reliance on the contents of this i=
+nformation is strictly prohibited and in the event of any unauthorized disc=
+losure, copying and/or distribution of the contents the generating entity a=
+nd/or the sender reserves the right to take any action against such unautho=
+rized use in law, equity or otherwise.
+The recipient should check this email and any attachments for the presence =
+of viruses. The sender accepts no liability for any damage caused by any vi=
+rus transmitted by this email, delays, data corruption, unauthorized access=
+ or unauthorized amendments.
+
+________________________________

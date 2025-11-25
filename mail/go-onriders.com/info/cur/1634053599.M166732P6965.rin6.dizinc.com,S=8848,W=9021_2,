@@ -1,0 +1,173 @@
+Return-Path: <donaldross6548@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id WZrICN+tZWE1GwAAQ+45pw
+	(envelope-from <donaldross6548@gmail.com>)
+	for <info@go-onriders.com>; Tue, 12 Oct 2021 11:46:39 -0400
+Return-path: <donaldross6548@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 12 Oct 2021 11:46:39 -0400
+Received: from mail-ua1-f52.google.com ([209.85.222.52]:36411)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <donaldross6548@gmail.com>)
+	id 1maJz8-0001h5-Lo
+	for info@go-onriders.com; Tue, 12 Oct 2021 11:46:39 -0400
+Received: by mail-ua1-f52.google.com with SMTP id g13so18756651uaj.3
+        for <info@go-onriders.com>; Tue, 12 Oct 2021 08:46:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=EcVEig7VnLAKXY/+5PiX13KYSCiWma74FTj7kEJoE7A=;
+        b=SyWb0dY6W6UVoSfUJgScDOStiVtUpqSp+3J1BDyf1hXNIrdkB4ktFW2X2/OK5h05UX
+         TchT4YZc6oq82UNz9WPJmOIcs1oGPyPDaXz/SZk/PLAV78kmla7d2NeGvgeQUyyFqQmx
+         GDqhlxkeVqjURolSSy1TbdKjy/Y1I/J17uCET+Ro2IWYbXD88OThKrXCOuFSD4YmCrzw
+         ogi7RmtZokLnAF3IdNLopozFHJG8v49DNJyyeigZEd2+9OoyLrorh3semyrbYzrF61qn
+         M0swYyxQ2WNqkUvihVgGK5Ep18zDInUQkJSJbcDmCV2ZeIjs7ItHUX0wHgSYTLlzcRK6
+         IOAA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=EcVEig7VnLAKXY/+5PiX13KYSCiWma74FTj7kEJoE7A=;
+        b=kfGm7y962JvaNPxiZbii0AJz+RufJlt7f14ABnTRGJvG+JglesYt5Agn/ieF5ojfXR
+         n+ItnmONevJtGxqIM8vbiny4I4KqDaYS5senoo3JoFxSWiRGwPqx6cUlo6KlpfFpHUlp
+         iANVIH0rpvgy6zaOrnq2hqG//sGmiNFWYc5ODwSe/jsrIOMUWkmAgkTa/MfpE32qYjzE
+         Aj6CGvyp0RDEjqOAe3yrQEUr0bqBZWHllUhyUC3RBxEQPVRy8HgMhDRO+OLetmaYc/Bv
+         8ONwceObGfkWP9/ob+rz+uVhYF8naRelsLzVHW5DjyELDwNkrLJYa9nRtvbiTpmkF+S0
+         ApgA==
+X-Gm-Message-State: AOAM533WuwWNRP9xkLdFCbTE982y7buR7iYX2SD89MyTs0m26VtubroF
+	qvwpNvUPCuV6GJymytGo1be8ttA7o8Eb349XmFqlYU1s
+X-Google-Smtp-Source: ABdhPJzXnGJOUso/b02OseXUvGRQ2noESboC/wjLli4q/zxOdBz4ADsmLzEx/Pk63on4iuYQ8Og1fixHV8AoKC8DoGw=
+X-Received: by 2002:ab0:3c4d:: with SMTP id u13mr23447957uaw.66.1634053553607;
+ Tue, 12 Oct 2021 08:45:53 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 12 Oct 2021 11:45:53 -0400
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Tue, 12 Oct 2021 11:45:53 -0400
+MIME-Version: 1.0
+Sender: Donald Ross <donaldross6548@gmail.com>
+From: Donald Ross <donaldross6548@gmail.com>
+Date: Tue, 12 Oct 2021 11:45:53 -0400
+X-Google-Sender-Auth: 2j5E7wJe8lwIdwV1tF9wu3Slc00
+Message-ID: <CAOhThG_D3Kp428Ku=FHihjr_TNwKN_LSNd3YNS547ZTAD4bFHQ@mail.gmail.com>
+Subject: Re: go-onriders.com, Increase Traffic
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000009b57eb05ce29bdcb"
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, Do you just want more traffic, or are you looking to increase
+    conversions, too? We are providing SEO services to boost traffic flow in
+   your website and increase conversions. One of the best ways to increase traffic
+    to your website is to use social media channels to promote your content,
+   images and brand name. We will manage your social media channels that will
+    help you to [...] 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: donaldross6548-dot-yamm-track.appspot.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [donaldross6548[at]gmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [donaldross6548[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 HTML_IMAGE_ONLY_28     BODY: HTML: images with 2400-2800 bytes of
+                             words
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--0000000000009b57eb05ce29bdcb
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+
+Do you just want more traffic, or are you looking to increase conversions,
+too? We are providing SEO services to boost traffic flow in your website
+and increase conversions.
+
+One of the best ways to increase traffic to your website is to use social
+media channels to promote your content, images and brand name. We will
+manage your social media channels that will help you to promote your
+website.
+
+Also we will fix your website SEO technical errors and it could help boost
+your organic traffic.
+
+Let me know if you are interested, I will send you a pricing plan.
+
+Regards,
+xyz
+SEO Expert
+[image: beacon]
+
+--0000000000009b57eb05ce29bdcb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:115%;font-size:11pt;font-family:Calibri,sans-serif"><span style=3D"fo=
+nt-family:Arial,sans-serif;font-size:11pt">Hi,</span><br></p><p class=3D"Ms=
+oNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-size:11pt;font-=
+family:Calibri,sans-serif"><span style=3D"font-family:Arial,sans-serif">
+<br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">Do you just want more traffic, or are you
+looking to increase conversions, too? We are providing SEO services to boos=
+t
+traffic flow in your website and increase conversions.</span><br>
+<br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">One of the best ways to increase traffic to your
+website is to use social media channels to promote your content, images and
+brand name. We will manage your social media channels that will help you to
+promote your website.</span><br>
+<br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">Also we will fix your website SEO technical
+errors and it could help boost your organic traffic.</span><br>
+<br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">Let me know if you are interested, I will send
+you a pricing plan.</span><br>
+<br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">Regards,</span><br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">xyz</span><br>
+<span style=3D"background-image:initial;background-position:initial;backgro=
+und-size:initial;background-repeat:initial;background-origin:initial;backgr=
+ound-clip:initial">SEO Expert</span></span></p></div>
+<img src=3D"https://donaldross6548-dot-yamm-track.appspot.com/FireBase?ukey=
+=3D1GwrWAKM1G6RtTZv7PLuESZp2ZkOBBKzsTS_eOf0a5kU-0&amp;key=3DYAMMID-53553004=
+" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:no=
+ne!important;">
+
+--0000000000009b57eb05ce29bdcb--

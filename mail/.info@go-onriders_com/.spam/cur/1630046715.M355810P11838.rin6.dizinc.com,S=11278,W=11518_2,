@@ -1,0 +1,240 @@
+Return-Path: <topranking@dreamforweb.in>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 4HdnE/uJKGE+LgAAQ+45pw
+	(envelope-from <topranking@dreamforweb.in>)
+	for <info+spam@go-onriders.com>; Fri, 27 Aug 2021 02:45:15 -0400
+Return-path: <topranking@dreamforweb.in>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 27 Aug 2021 02:45:15 -0400
+Received: from mail-ej1-f44.google.com ([209.85.218.44]:37552)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <topranking@dreamforweb.in>)
+	id 1mJVbx-0003hl-UI
+	for info@go-onriders.com; Fri, 27 Aug 2021 02:45:15 -0400
+Received: by mail-ej1-f44.google.com with SMTP id h9so11670015ejs.4
+        for <info@go-onriders.com>; Thu, 26 Aug 2021 23:44:49 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=dreamforweb-in.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:sender:from:date:message-id:subject:to;
+        bh=qxxESqrlkIyrKKmXnX1nEsvwKljzKkayEmZgnTRq9oI=;
+        b=a9LULk1+McCWTmC7I39F5oTJxUMWrxBY6BOHRlVS27/dSNAdnPPWxVlkCwTiAtzyzu
+         GV7aFQaVWE+zsH934C8JbNifiWZaBHt77XVi86sR8x0XOfhY85FpWY7YkCyZSazQ8xG3
+         FKHW6m3PKbi9VDdyYIWablItHW2xafH1DyOyKArvMswuoeVIgb7qOJ4VQAyANavAcVXD
+         j1BRDwhAVYcRNxLO0GC/dR/S+V6MF9PSZ/d7OOJ4BTTTGehdhwKfCPgMJLwMnXSPUmta
+         ta4wU0IAUsEFPiMqiDRnoHyhabJmYSSsVixXQYS+NHfv7d5Um4RqevHOYSZZWQpqt2Mu
+         dw8A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:sender:from:date:message-id:subject
+         :to;
+        bh=qxxESqrlkIyrKKmXnX1nEsvwKljzKkayEmZgnTRq9oI=;
+        b=L+I5ss70Wu6KY7opGK3qLikOmIaXEJG5LwBIw7W7esHFewgVhNl2lM5RJ06eOlkfiu
+         ldIvGyG3mS5duJyXja6u5xKQd7tbbAnAdiVhZb39TSw1kEUsNRpeNxiKl0azRPCflkbN
+         T/urBy0PggtBSNKplABOJfDqzIlJhLP9QmODHRbH306UhM1VuWNSsJMB8GqlPJ2QwpDr
+         HW7dYwIrjSxFYRUnqIYlYUBnar5ayWsh2IuiSWdcADVNoBXnqqJ4Ud6uELkSeJD/gRk+
+         2NktjAuXxsUMVyfYx6XFfjfvNlBdGsiqZKsnh3k1CNt5klGRPxnqzQyAkk+EG3uY4xQb
+         m9BQ==
+X-Gm-Message-State: AOAM533uBuW9EzBsjCEw7uELni8CA8587VrSMWWO/pImTj2hziBLhRNl
+	0Bv9+TLWrWOUonLXW1Ir4RP4HxYjU4yQfmVLXig86bbpoXE=
+X-Google-Smtp-Source: ABdhPJxBwVVO6/wAxJPJyH2CcYl7wP9gqqSbzhKK5pR+z2dJ0Sd5sSXXGv2D2RY2M6qMdMbX/8BdfRi4d+0+SJbxfJk=
+X-Received: by 2002:a17:906:3148:: with SMTP id e8mr8288176eje.240.1630046667621;
+ Thu, 26 Aug 2021 23:44:27 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 26 Aug 2021 23:44:27 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 26 Aug 2021 23:44:26 -0700
+MIME-Version: 1.0
+Sender: Liza <topranking@dreamforweb.in>
+From: Liza <topranking@dreamforweb.in>
+Date: Thu, 26 Aug 2021 23:44:27 -0700
+X-Google-Sender-Auth: aUxEsvmsLCr7b_fIcluaYQyOaaU
+Message-ID: <CANO2hvFvEGkzo8UtBskfJvBpGujxDv7b+J9p0SESnKU6Ud6_aw@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000974ccb05ca84d02c"
+X-Spam-Status: Yes, score=13.0
+X-Spam-Score: 130
+X-Spam-Bar: +++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Sir/ Madam, Hope your day is going well. In today’s digital
+    world if you want to stay ahead of competition, you should always be prepared
+    to overcome new updates by Google and be ready with new strategies to im
+   [...] 
+ Content analysis details:   (13.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: go-onriders.com]
+  8.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URIs: dreamforweb-dot-yamm-track.appspot.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_OBFUSCATE_05_10   BODY: Message is 5% to 10% HTML obfuscation
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  5.0 KAM_SEARCH             Spammers hawking SEO
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Use Organic SEO to get more visitors
+
+--000000000000974ccb05ca84d02c
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi Sir/ Madam,
+
+Hope your day is going well. In today=E2=80=99s digital world if you want t=
+o stay
+ahead of competition, you should always be prepared to overcome new updates
+by Google and be ready with new strategies to implement. I have a complete
+free *Analysis Report* ready with me which shows your website *go-onriders.=
+com
+<http://go-onriders.com> *needs immediate improvement. Some  of the points
+are mentioned below:
+
+=C2=B7        Low online presence for many competitive keyword phrases.
+
+=C2=B7        Shortage of content based back links.
+
+=C2=B7        Research based approach in comparison to standard approach gi=
+ves
+higher ROI.
+
+=C2=B7        Fixing errors that prevents your website from being indexed
+properly by search engines.
+
+=C2=B7        Less participation on social media portals.
+
+Our packages are designed for a complete advanced SEO experience which
+includes SMO, Brand management, Reputation management, organic optimization
+etc. in order to beat your competitors.
+
+If you find this interesting, feel free to email us or alternatively you
+can provide me with your phone number and the best time to call you.
+
+I look forward to hearing from you.
+
+Best Regards
+
+Warm Regards,
+
+*Liza*
+
+* Marketing Manager,*
+
+* Skype: dreamforweb*
+
+
+[image: beacon]
+
+--000000000000974ccb05ca84d02c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-h=
+eight:115%;font-size:11pt;font-family:Calibri,sans-serif">Hi Sir/ Madam, </=
+p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">Hope your day is going well. In to=
+day=E2=80=99s digital world if you
+want to stay ahead of competition, you should always be prepared to overcom=
+e
+new updates by Google and be ready with new strategies to implement. I have=
+ a
+complete free <b>Analysis Report</b> ready
+with me which shows your website <b><span style=3D"font-size:12pt;line-heig=
+ht:115%"><a href=3D"http://go-onriders.com">go-onriders.com</a> </span></b>=
+needs immediate
+improvement. Some=C2=A0 of the points are mentioned below:=C2=A0 </p>
+
+<p style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:115%;font-size:11pt;f=
+ont-family:Calibri,sans-serif"><span style=3D"font-family:Symbol">=C2=B7<sp=
+an style=3D"font-variant-numeric:normal;font-variant-east-asian:normal;font=
+-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times Ne=
+w Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span>Low online presence for many competitive keyword
+phrases.</p>
+
+<p style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:115%;font-size:11pt;f=
+ont-family:Calibri,sans-serif"><span style=3D"font-family:Symbol">=C2=B7<sp=
+an style=3D"font-variant-numeric:normal;font-variant-east-asian:normal;font=
+-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times Ne=
+w Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span>Shortage of content based back links.</p>
+
+<p style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:115%;font-size:11pt;f=
+ont-family:Calibri,sans-serif"><span style=3D"font-family:Symbol">=C2=B7<sp=
+an style=3D"font-variant-numeric:normal;font-variant-east-asian:normal;font=
+-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times Ne=
+w Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span>Research based approach in comparison to
+standard approach gives higher ROI.</p>
+
+<p style=3D"margin:0in 0in 0.0001pt 0.5in;line-height:115%;font-size:11pt;f=
+ont-family:Calibri,sans-serif"><span style=3D"font-family:Symbol">=C2=B7<sp=
+an style=3D"font-variant-numeric:normal;font-variant-east-asian:normal;font=
+-stretch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times Ne=
+w Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span>Fixing errors that prevents your website from
+being indexed properly by search engines.</p>
+
+<p style=3D"margin:0in 0in 10pt 0.5in;line-height:115%;font-size:11pt;font-=
+family:Calibri,sans-serif"><span style=3D"font-family:Symbol">=C2=B7<span s=
+tyle=3D"font-variant-numeric:normal;font-variant-east-asian:normal;font-str=
+etch:normal;font-size:7pt;line-height:normal;font-family:&quot;Times New Ro=
+man&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span>Less participation on social media portals.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">Our packages are designed for a co=
+mplete advanced SEO
+experience which includes SMO, Brand management, Reputation management, org=
+anic
+optimization etc. in order to beat your competitors.</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">If you find this interesting, feel=
+ free to email us or
+alternatively you can provide me with your phone number and the best time t=
+o
+call you. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">I look forward to hearing from you=
+. </p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">Best Regards</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">Warm Regards,</p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><b>Liza</b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><b>=C2=A0Marketing Manager,</b></p=
+>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif"><b>=C2=A0Skype: dreamforweb</b></p=
+>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 10pt;line-height:115%;font-s=
+ize:11pt;font-family:Calibri,sans-serif">=C2=A0</p></div>
+<img src=3D"https://dreamforweb-dot-yamm-track.appspot.com/FireBase?ukey=3D=
+1D5f_bcX6tzE2yG-fth5AKDDa1xYa2aQNVwIbGhYCylM-0&amp;key=3DYAMMID-46666514" w=
+idth=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; display:none!=
+important;">
+
+--000000000000974ccb05ca84d02c--

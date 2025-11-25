@@ -1,0 +1,245 @@
+Return-Path: <samreen@organicwebsolution.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id AeAdKE3q+2U3SgAAQ+45pw
+	(envelope-from <samreen@organicwebsolution.com>)
+	for <info+spam@go-onriders.com>; Thu, 21 Mar 2024 04:05:33 -0400
+Return-path: <samreen@organicwebsolution.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 21 Mar 2024 04:05:33 -0400
+Received: from mail-yb1-f194.google.com ([209.85.219.194]:60445)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <samreen@organicwebsolution.com>)
+	id 1rnDQZ-0004Ra-32
+	for info@go-onriders.com;
+	Thu, 21 Mar 2024 04:05:33 -0400
+Received: by mail-yb1-f194.google.com with SMTP id 3f1490d57ef6-dc23bf7e5aaso652653276.0
+        for <info@go-onriders.com>; Thu, 21 Mar 2024 01:05:12 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=organicwebsolution-com.20230601.gappssmtp.com; s=20230601; t=1711008291; x=1711613091; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=1rNY4P2EXujFiqsj0Rzj+3iNH53BVHvjHWM5mvJZdTg=;
+        b=Pygm00Yc9uPQFdCwctf8nsQV5aH8O0j+Xu0aXQGXYva+KA93dy8iWRzSlytFokBVjV
+         3Sx1rZnyF9+TgoD7TwZd2Q1Q3ldv1dtIBQKta+nvB0Xt69YW+dZZUxT++Q8L2jPiJtXv
+         pWFz6q22+C5yuHk1dTA/6mnfHtGVOfmd9XdNQhJry4POde3a7OrjJBXW5AI7XDRdopVQ
+         +g/eOoMMhZwV7o1Wt34MafvKYQuiNxiNnk0Q1hE7J25eN8llw1kPokw02wUGYTeiNCHF
+         8Zjh5CFB9RDsxz/EONBfl8k6uMjXgi/Vdp+n0UTs7w8kWuX16xiVahsaZt/mF9Hu/8+6
+         uZyw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1711008291; x=1711613091;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=1rNY4P2EXujFiqsj0Rzj+3iNH53BVHvjHWM5mvJZdTg=;
+        b=AOUPFC2eSUxtapsVJveJx2NBuIYA5X+5u0rn46+dag8jEkiqH9CYI+FHr8DnYrXJLN
+         s203VL5N9CRpp8J9GOBhw22NhxHPtHKgodqz4XAsyRMjH9lgMDlzt3ppLIy8NAK79Kkq
+         JNVipCPjh9+y7SoKmlYqjiCZYtx/rkGTh5xGkqYUZFhbbbVOX6ensllXX9mq1nBM65pU
+         iXKhlCks16dTt6CKb+f/8xiD1OPtNnNusTYj2ZnxqmItApsJuqq+lF6Nq4RTeW3WYtNl
+         oQSHm2D9CVIyMJtkwZ2lXZVdCXiGpEv/AV19QGxtz+bmVKyQLuOi23OsdHgrAub+F/ML
+         Z7LQ==
+X-Gm-Message-State: AOJu0Yyv8h+qgIIte/UEOTO8KLaU2JzxPOvYUVcCcNrQyaK0iJQrQGNV
+	iDBChBAqKfY/lCUAFPyR+8xVqGQn9nC/wUTCH4loKNajkiArldCOv07OLm4lppFdl+ewe9V61Mo
+	fwYcyiBBqrGEf+YEcZap3VGfETK7UY7JtEu6VbK7vFdBpYVKenFs=
+X-Google-Smtp-Source: AGHT+IFXXpNIQQLJcK+aPwj+siT7+rnijxMGMpCvu/gD+p8wQtrP7qU3fg/qV39oezIuRL2TnzyNtnFUfRlL58231mE=
+X-Received: by 2002:a5b:949:0:b0:dcc:56b6:6606 with SMTP id
+ x9-20020a5b0949000000b00dcc56b66606mr6938360ybq.40.1711008291106; Thu, 21 Mar
+ 2024 01:04:51 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 21 Mar 2024 01:04:50 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Thu, 21 Mar 2024 01:04:50 -0700
+MIME-Version: 1.0
+Sender: samreen@organicwebsolution.com
+From: samreen@organicwebsolution.com
+Date: Thu, 21 Mar 2024 01:04:50 -0700
+X-Google-Sender-Auth: dGTjZGKq9NPpzC0v9ZrARB0nDr8
+Message-ID: <CAFRSi-9qNiVrF-R4uJTVxM1ZdDNy=oo8B1-+MzzROwYKMXFwrw@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="0000000000006649180614272934"
+X-MagicSpam-TUUID: e9bf4ca9-0b0a-4198-bf91-d1ba90779eb5
+X-MagicSpam-SUUID: 9f0150c7-cd03-4785-86dd-e9b5472929fb
+X-Spam-Status: Yes, score=36.8
+X-Spam-Score: 368
+X-Spam-Bar: ++++++++++++++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello *go-onriders.com <http://go-onriders.com>*, Hope you
+    are doing well, Are you looking to dominate the search engine rankings and
+    drive more organic traffic to your website? Look no further! We specialize
+    in delivering top-notch SEO services that can skyrocket your onlin [...] 
+ Content analysis details:   (36.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.8 KAM_ADVERT2            BODY: This is probably an unwanted commercial
+                             email...
+  0.2 LM_GMAIL_VIA_RESTAPI   Originates via Gmails Rest API
+  0.1 MIME_BOUND_DIGITS_15   Spam tool pattern in MIME boundary
+  1.3 RCVD_IN_VALIDITY_RPBL  RBL: Relay in Validity RPBL,
+                             https://senderscore.org/blocklistlookup/
+                            [209.85.219.194 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 LM_WEB_DESIGN_SUBJ     Subject: header contains a bland reference to
+                              web design
+  0.3 LM_PROMO_FORMAT        Message may contain a spammy headline!
+  1.0 FREEMAIL               Message originated from 'free' mail service
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 LM_GMAIL_API_SEND_METHOD_IPV6 Many marketers use Gmail API for
+                             sending marketing pitches
+  0.2 LM_LOTS_LINE_SEPARATORS Email contains lots of line seperators
+  1.5 LM_FAKE_REPLY          Attempt to foil fake reply spammers, subject says
+                             Re, no reference
+  1.0 LM_SEO_BENEFIT         Message contains a phrase relating to the
+                             benefits of SEO.
+  2.0 LM_SEO_BODY_LOTS       Message contains many phrases commonly found in
+                              SEO spam.
+  1.0 LM_SEO_SUBJ            Subjects commonly seen in SEO offers
+  1.0 LM_SEO_CLAIMS_NOT_SPAM Score bump for hitting LM_SEO_BENEFIT and
+                              claiming not to be a spammer.
+  0.5 LM_SEO_FAKE_REPLY      Bump up score on fake replies advertising SEO.
+  4.0 LM_GENERIC_SEO_FREEMAILER1 Pushing Outsourced SEO sources from a
+                              FreeMail account
+  1.5 LM_GENERIC_SEO_FREEMAILER_SUBJ_HARD Hits
+                             LM_GENERIC_SEO_FREEMAILER1. Score bump for
+                              having a clickbait Subject.
+  1.0 LM_GENERIC_SEO_FREEMAILER_FOLLOWUP Hits
+                             LM_GENERIC_SEO_FREEMAILER1. Score bump for
+                              those pesky SEO messages following up
+                             their previous email.
+  4.0 LM_SEO_MARKETER7       Hits LM_SEO_CLAIMS_NOT_SPAM. From hosting IP
+                             space or Freemail.
+  2.0 LM_SEO_MARKETER_BUMP2  Score bump for hitting multiple SEO
+                             related rules.
+  4.5 LM_FREEMAIL_OFFSHORE_DEV11 Freemail source with broken header.
+                             Related to offshore development/SEO.
+  5.0 LM_FREEMAIL_OFFSHORE_DEV4 Score bump for hitting multiple
+                             offshore marketing rules. Short message
+                             from Freemail source.
+  2.5 LM_SEO_MARKETER_BUMP4  Hits LM_SEO_MARKETER_BUMP2 and
+                             LM_FAKE_REPLY.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Re: go-onriders.com: Boost Your Website with SEO!!
+
+--0000000000006649180614272934
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello *go-onriders.com <http://go-onriders.com>*,
+
+Hope you are doing well,
+
+Are you looking to dominate the search engine rankings and drive more
+organic traffic to your website? Look no further! We specialize in
+delivering top-notch SEO services that can skyrocket your online presence
+and boost your business.
+
+Our team of experienced SEO experts will work tirelessly to optimize your
+website, conduct in-depth keyword research, and craft compelling content to
+help you climb the search engine ladder. With our tailored strategies,
+you'll see a significant increase in organic traffic and enjoy sustainable
+growth.
+
+Don't let your competitors take the lead. Let us help you unlock the true
+potential of your website with our cutting-edge SEO techniques.
+
+Let me know if you are interested, then I can send you our *SEO Packages*
+and *Price list.*
+
+Warm Regards,
+
+*Samreen Patel| **Digital Marketing Executive*
+
+---------------------------------------------------------------------------=
+---------------
+
+*NOTE: **We are not Spammers and are against spamming of any kind. If
+forwarding this email has made an offense to you or to your company, then
+we apologize for the same. In order to stop receiving such emails from us,
+simple type =E2=80=9CNO=E2=80=9D in the subject line.
+[image: beacon]
+
+--0000000000006649180614272934
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-he=
+ight:107%;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span =
+style=3D"font-size:12pt;line-height:107%">Hello <b><a href=3D"http://go-onr=
+iders.com">go-onriders.com</a></b>,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">Hope you are doing well, </span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">Are you looking to dominate the search engine rank=
+ings and
+drive more organic traffic to your website? Look no further! We specialize =
+in delivering top-notch SEO services that can skyrocket
+your online presence and boost your business.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">Our team of experienced SEO experts will work tire=
+lessly to
+optimize your website, conduct in-depth keyword research, and craft compell=
+ing
+content to help you climb the search engine ladder. With our tailored
+strategies, you&#39;ll see a significant increase in organic traffic and en=
+joy
+sustainable growth.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">Don&#39;t let your competitors take the lead. Let =
+us help you
+unlock the true potential of your website with our cutting-edge SEO techniq=
+ues.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">Let me know if you are interested, then I can send=
+ you our <b>SEO Packages</b> and <b>Price list.</b></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">Warm Regards,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span style=3D"font-=
+size:12pt;line-height:107%">Samreen Patel| </span></b><b><span style=3D"fon=
+t-size:12pt;line-height:107%">Digital
+Marketing Executive</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span style=3D"font-siz=
+e:12pt;line-height:107%">--------------------------------------------------=
+----------------------------------------</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:107%;font-si=
+ze:11pt;font-family:Calibri,&quot;sans-serif&quot;"><b><span style=3D"font-=
+size:12pt;line-height:107%">NOTE: </span></b><span style=3D"font-size:12pt;=
+line-height:107%">*We are not Spammers and are against spamming of any kind=
+.
+If forwarding this email has made an offense to you or to your company, the=
+n we
+apologize for the same. In order to stop receiving such emails from us, sim=
+ple
+type =E2=80=9CNO=E2=80=9D in the subject line.=C2=A0 =C2=A0=C2=A0</span></p=
+></div>
+<img src=3D"https://organicwebsolution-dot-yamm-track.appspot.com/2Qwjq6tMf=
+0C9jpqPUr8QKa-jfUaceik10DIXjUjnjKNZJlgpgjgGWUKyPe6REwt_UkT6pwLJ6amjX77tQmK-=
+fyM0cDt2POy680YFpR2zbFrxb_Q0ia-jfISsQCFuCDAmGwfLNzJ3ndLUjAHebtPws7NeGV3uu8c=
+1aZS6a17U" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; d=
+isplay:none!important;">
+
+--0000000000006649180614272934--

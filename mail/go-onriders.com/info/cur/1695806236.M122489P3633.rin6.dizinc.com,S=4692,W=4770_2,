@@ -1,0 +1,78 @@
+Return-Path: <Marshall@aiscooter.net>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yCzXBhzzE2UxDgAAQ+45pw
+	(envelope-from <Marshall@aiscooter.net>)
+	for <info@go-onriders.com>; Wed, 27 Sep 2023 05:17:16 -0400
+Return-path: <Marshall@aiscooter.net>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 27 Sep 2023 05:17:16 -0400
+Received: from out28-91.mail.aliyun.com ([115.124.28.91]:49375)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <Marshall@aiscooter.net>)
+	id 1qlQfS-0001mJ-7q
+	for info@go-onriders.com;
+	Wed, 27 Sep 2023 05:17:16 -0400
+X-Alimail-AntiSpam:AC=CONTINUE;BC=0.8229604|0.2039241;BR=01201311R161S89rulernew998_84748_2000303;CH=blue;DM=|AD|false|;DS=CONTINUE|ham_regular_dialog|0.759966-0.0513728-0.188661;FP=0|0|0|0|0|-1|-1|-1;HT=ay29a033018047203;MF=marshall@aiscooter.net;NM=1;PH=DS;RN=1;RT=1;SR=0;TI=SMTPD_---.UpcLxHD_1695806187;
+Received: from Airwheel0508(mailfrom:Marshall@aiscooter.net fp:SMTPD_---.UpcLxHD_1695806187)
+          by smtp.aliyun-inc.com;
+          Wed, 27 Sep 2023 17:16:28 +0800
+From: Airwheel <Marshall@aiscooter.net>
+Date: Wed, 27 Sep 2023 17:16:27 +0800
+Subject: Experience the Convenience of a Scooter Suitcase
+Message-Id: <IP3XV4TF3LU4.TFQ7ZRENIBH51@airwheel0508>
+To: info <info@go-onriders.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-MagicSpam-TUUID: c98cb52f-f56d-4c51-9218-64b6a75811dd
+X-MagicSpam-SUUID: 3c95618d-a89e-4dd2-9161-1dbbe3a159b8
+X-Spam-Status: No, score=4.2
+X-Spam-Score: 42
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, BLACKPINK are riding a fashion scooter SE3S
+    at Amsterdam concert, the scooter SE3S looks like a luggage with wheels,
+   it's made of high-tech materials, even two persons can sit on. More amazing,
+    you co [...] 
+ Content analysis details:   (4.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [115.124.28.91 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H4      RBL: Very Good reputation (+4)
+                             [115.124.28.91 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+  0.6 HTML_MIME_NO_HTML_TAG  HTML-only message, but there is no HTML
+                             tag
+ -0.7 LM_DEAR_SOMETHING_OVERRIDE Override Upstream Rule Score.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.4 LM_DEAR_GENERIC_TITLE  Generic Dear sometitle commonly seen in
+                             spam
+  0.2 LM_OS_GEN_4PARTCOM_NO_DKIM Common method by spammers, OS
+                             Generated, 4 part RDNS.
+  0.2 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<p>Dear Sir/Madam,</p>
+<p>BLACKPINK are riding a fashion scooter SE3S at Amsterdam concert, the scooter SE3S looks like a luggage with wheels, it's made of high-tech materials, even two persons can sit on. More amazing, you could drive it in an airport, and board it on the plane as a carry-on luggage. It has many cool designs: LED breathing light, USB sockets, reverse gear. Do you have interest in this product?</p><p><img src="https://airwheel.net/ebike/airwheel-design-award-01.jpg" style="max-width:100%"></p><p><img src="https://www.airwheel.net/ebike/airwheel-scooter-suitcase-0220-37.gif" style="max-width:100%"></p>
+<p><img src="https://airwheel.net/ebike/exhibitions/airxpress-logo.jpg" style="max-width:100%"></p>
+<p>Customer Executive - +91 8355913757</p>
+<p>Customer Care No. - 9711090909</p>
+<p>Email:airxpress@goldmedalindia.com</p>
+<p>Address - 303 KEMP PLAZA A WING, MIND SPACE CHINCHOLI BANDAR, LINK ROAD MALAD WEST MUMBAI,MAHARASHTRA, 400064</p>

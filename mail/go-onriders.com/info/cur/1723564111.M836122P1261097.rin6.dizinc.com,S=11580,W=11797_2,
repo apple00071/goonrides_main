@@ -1,0 +1,217 @@
+Return-Path: <f20231119@hyderabad.bits-pilani.ac.in>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id AudSMU+Au2YpPhMAQ+45pw
+	(envelope-from <f20231119@hyderabad.bits-pilani.ac.in>)
+	for <info@go-onriders.com>; Tue, 13 Aug 2024 11:48:31 -0400
+Return-path: <f20231119@hyderabad.bits-pilani.ac.in>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 13 Aug 2024 11:48:31 -0400
+Received: from mail-pl1-f181.google.com ([209.85.214.181]:57419)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <f20231119@hyderabad.bits-pilani.ac.in>)
+	id 1sdtl8-00000005HwJ-2w9K
+	for info@go-onriders.com;
+	Tue, 13 Aug 2024 11:48:31 -0400
+Received: by mail-pl1-f181.google.com with SMTP id d9443c01a7336-1fc611a0f8cso41206555ad.2
+        for <info@go-onriders.com>; Tue, 13 Aug 2024 08:48:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=hyderabad.bits-pilani.ac.in; s=google; t=1723564067; x=1724168867; darn=go-onriders.com;
+        h=content-language:mime-version:msip_labels:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from:from:to
+         :cc:subject:date:message-id:reply-to;
+        bh=XS+QHaiWJywhDpeANOxeoGX3i2LXE4LDOy3FtvCmz9c=;
+        b=DjktddQHk8hQuMxnnuBzX+FOFsWhYHgB7cc2XN3/w2gszxH0yH9PvOtOCgefLWk3pJ
+         9t4zA/jQdukTAJqIBw0MQa3wseeeqSF7hT9y+R7Zfv1hc8L75onMZN2Y+PHOXOrLIvE0
+         nROnpKQr/AueNZ3OUHr663nVKZLcsSdU3CtJo=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1723564067; x=1724168867;
+        h=content-language:mime-version:msip_labels:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=XS+QHaiWJywhDpeANOxeoGX3i2LXE4LDOy3FtvCmz9c=;
+        b=UIUKddlu7wDaigOOaRLc1tQnGGWJuwjb8Ejua8l+0G+jV9kGSx0WCd4A4kCKq1xP6T
+         jQ/1Gl7vpz3/WoMlPH0G86CVm9yMGED11Zkm75F1zjJ0cfBr9vgXhi0aKfwPBEUp75Bi
+         jvydCkuKRryAwkEL4ylFCrwCfcX/Ik3hpnhlatNH+zwapsmChIvPxaM41DFhZwIg9b45
+         /MxfdLpTzz4epxkMxS9efQwp1K+cBUQp3DTlCaiSv9FzvFdmxE9BzLIyWLFs7eZCYQEI
+         WGT6npNGClq7g7D5zav//tQRTYLNYs/mcujBd62rz94YhpCmTIC8cfcYqa77koHLor5Y
+         61zA==
+X-Gm-Message-State: AOJu0YzKa+biGpQqdhfIRCZcAA1t8l6kfSv94GEnF94yIf2NQSxusCkh
+	6Uz4dBXd5iQNRzEwC1/NnlwBxTr3PUF8+uebKLFsdLD6fS+g4/HLekVJYRm0d/F3HgVLF/yp52M
+	+XEUwGPElrxL+yLAr+WWcDmqkL3ExC88bTbDU0xVvjHPQxM9wcCM+6j2YEw==
+X-Google-Smtp-Source: AGHT+IGStwSETAaKYicwzIYdiahSvIVzsRY6za8zQoOWtODgBsyGRea5UNBYa95xxwzZtxDy3+BKZw==
+X-Received: by 2002:a17:903:22d1:b0:1fb:4f8f:f212 with SMTP id d9443c01a7336-201ca1db6admr41362775ad.60.1723564066760;
+        Tue, 13 Aug 2024 08:47:46 -0700 (PDT)
+Received: from TYZPR01MB4596.apcprd01.prod.exchangelabs.com ([2603:1046:c09:197c::5])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-201cd1c9b87sm15107105ad.261.2024.08.13.08.47.45
+        for <info@go-onriders.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Tue, 13 Aug 2024 08:47:46 -0700 (PDT)
+From: "AAYUSHMAN MODI ." <f20231119@hyderabad.bits-pilani.ac.in>
+To: "info@go-onriders.com" <info@go-onriders.com>
+Subject: Vehicle rent price enquiry.
+Thread-Topic: Vehicle rent price enquiry.
+Thread-Index: AQHa7Zdk/8ggAIZKt0qX8hsfaKiCoA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 13 Aug 2024 15:47:44 +0000
+Message-ID:
+	<TYZPR01MB4596ECC1AD128DCEFD7A123FF9862@TYZPR01MB4596.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US, en-IN
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+msip_labels:
+MIME-Version: 1.0
+Content-Language: en-US
+Content-Type: multipart/alternative;
+	boundary="_000_TYZPR01MB4596ECC1AD128DCEFD7A123FF9862TYZPR01MB4596apcp_"
+X-MagicSpam-TUUID: 21c48384-e1a2-4dbe-8f86-4b87982d3d99
+X-MagicSpam-SUUID: fcd51da8-51e3-4b62-8273-490b19084aab
+X-Spam-Status: No, score=2.7
+X-Spam-Score: 27
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  I want to rent 3 activa's for 17-18 August. Some questions
+    regarding the same. 1. What are the prices and booking procedure? 2. Any
+   security deposit applicable? 3. How many kilometers are allowed? 4. Will petrol
+    be included in the price or not? 5. Does license on Digi locker wo [...] 
+ Content analysis details:   (2.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.5 LM_FROM_ALL_CAPS       From "Friendly" name portion is all capitals.
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.214.181 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.214.181 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.0 LM_MSGID_RESEMBLES_BOUNDARY Common trick by spam engines, msgid
+                             is part of the boundary
+  0.3 LM_SEO_ONMICROSOFT_BOUNDARY BODY: Content type associated with
+                             seo emails sent from Onmicrosoft
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  1.0 FREEMAIL               Message originated from 'free' mail service
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--_000_TYZPR01MB4596ECC1AD128DCEFD7A123FF9862TYZPR01MB4596apcp_
+Content-Type: text/plain; charset="ISO-8859-1"
+
+I want to rent 3 activa's for 17-18 August. Some questions regarding the same.
+
+
+  1.  What are the prices and booking procedure?
+  2.
+Any security deposit applicable?
+  3.
+How many kilometers are allowed?
+  4.
+Will petrol be included in the price or not?
+  5.
+Does license on Digi locker works?
+  6.
+If we are somehow late in delivering the vehicle by a couple of hours is there an additional charge?
+
+Please try to answer earliest so I can do booking for the same.
+
+-- 
+The information contained in this electronic communication is intended 
+solely for the individual(s) or entity to which it is addressed. It may 
+contain proprietary, confidential and/or legally privileged information. 
+Any review, retransmission, dissemination, printing, copying or other use 
+of, or taking any action in reliance on the contents of this information by 
+person(s) or entities other than the intended recipient is strictly 
+prohibited and may be unlawful. If you have received this communication in 
+error, please notify us by responding to this email or telephone and 
+immediately and permanently delete all copies of this message and any 
+attachments from your system(s). The contents of this message do not 
+necessarily represent the views or policies of BITS Pilani.
+
+--_000_TYZPR01MB4596ECC1AD128DCEFD7A123FF9862TYZPR01MB4596apcp_
+Content-Type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+I want to rent 3 activa's for 17-18 August. Some questions regarding the sa=
+me.</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<ol start=3D"1" data-editing-info=3D"{&quot;orderedStyleType&quot;:1,&quot;=
+unorderedStyleType&quot;:1}" data-listchain=3D"__List_Chain_29" style=3D"ma=
+rgin-top: 0px; margin-bottom: 0px; list-style-type: decimal;">
+<li style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, C=
+alibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+What are the prices and booking procedure?&nbsp;<br>
+</li><li style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<div class=3D"elementToProof">Any security deposit applicable?</div>
+</li><li style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<div class=3D"elementToProof">How many kilometers are allowed?</div>
+</li><li style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<div class=3D"elementToProof">Will petrol be included in the price or not?<=
+/div>
+</li><li style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<div class=3D"elementToProof">Does license on Digi locker works?</div>
+</li><li style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServi=
+ce, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+<div class=3D"elementToProof">If we are somehow late in delivering the vehi=
+cle by a couple of hours is there an additional charge?</div>
+</li></ol>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+Please try to answer earliest so I can do booking for the same.</div>
+</body>
+</html>
+
+<br>
+The information contained in this electronic communication is intended sole=
+ly for the individual(s) or entity to which it is addressed. It may contain=
+ proprietary, confidential and/or legally privileged information. Any revie=
+w, retransmission, dissemination, printing, copying or other use of, or tak=
+ing any action in reliance on the contents of this information by person(s)=
+ or entities other than the intended recipient is strictly prohibited and m=
+ay be unlawful. If you have received this communication in error, please no=
+tify us by responding to this email or telephone and immediately and perman=
+ently delete all copies of this message and any attachments from your syste=
+m(s). The contents of this message do not necessarily represent the views o=
+r policies of BITS Pilani.<br>
+--_000_TYZPR01MB4596ECC1AD128DCEFD7A123FF9862TYZPR01MB4596apcp_--

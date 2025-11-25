@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+ <meta charset="UTF-8">
+    <title>Bike Rentals in Hyderabad | Two Wheeler Hire | Go On Riders</title>
+    <meta name="description" content="Go On Riders provides the best bike rentals in Hyderabad. We offer premium bike rental services in Hyderabad, Telangana. Rent Honda Activa, Yamaha FZ, Royal Enfield, Duke, and more.">
+    <meta name="keywords" content="bike rentals, hyderabad, two wheeler hire, bike hire, bike rental services, honda activa, yamaha fz, royal enfield, duke">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Bike Rentals in Hyderabad | Two Wheeler Hire | Go On Riders">
+    <meta property="og:description" content="Go On Riders provides the best bike rentals in Hyderabad. We offer premium bike rental services in Hyderabad, Telangana. Rent Honda Activa, Yamaha FZ, Royal Enfield, Duke, and more.">
+    <meta property="og:image" content="assets/img/go-onriders-og-logo.png">
+    <meta property="og:url" content="https://www.go-onriders.com/">
+    <meta property="og:site_name" content="Go On Riders">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Bike Rentals in Hyderabad | Two Wheeler Hire | Go On Riders">
+    <meta property="twitter:description" content="Go On Riders provides the best bike rentals in Hyderabad. We offer premium bike rental services in Hyderabad, Telangana. Rent Honda Activa, Yamaha FZ, Royal Enfield, Duke, and more.">
+    <meta property="twitter:image" content="assets/img/go-onriders-og-logo.png">
+
+    <!-- Cache Control -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+
+	<!-- =================== STYLE =================== -->
+	<link rel="stylesheet" href="assets/css/slick.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7NGNHGB8HN"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-7NGNHGB8HN');
+	</script>
+</head>
+
+<body id="home" class="home-dark">
+    <?php include 'header.php';?>
+	
+	
+	<!-- ============= main-slider end ============= -->
+	<section class="s-main-slider">
+		<div class="main-slide-navigation"></div>
+		
+		<div class="main-slider">
+			<div class="main-slide">
+				<div class="main-slide-bg" style="background-image: url(assets/img/bg-slider.svg);"></div>
+				<div class="container">
+					<div class="row slider-pad">
+						<div class="col-md-4">
+							<div class="main-slide-info">
+								<center>
+									<h2 class="title">Activa</h2>
+									<p>Activa Gareless ₹399* / Day</p>
+									<a href="tel:+917383838959" class="btn"><span>Rent Now</span></a>
+								</center>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="slide-img-cover">
+								
+								<img src="assets/img/acv1.png" alt="Honda Activa Rental in Hyderabad" class="slide-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="main-slide">
+				<div class="main-slide-bg" style="background-image: url(assets/img/bg-slider.svg);"></div>
+				<div class="container">
+					<div class="row slider-pad">
+						<div class="col-md-4">
+							<div class="main-slide-info">
+								<h2 class="title">Yamaha</h2>
+								<p>FZ S V3 ₹799*/day</p>
+								<a href="tel:+917383838959" class="btn"><span>Rent Now</span></a>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="slide-img-cover">
+								
+								<img src="assets/img/bikes/fzv3.png" alt="FZ V3 Rental in Hyderabad" class="slide-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slide">
+				<div class="main-slide-bg" style="background-image: url(assets/img/bg-slider.svg);"></div>
+				<div class="container">
+					<div class="row slider-pad">
+						<div class="col-md-4">
+							<div class="main-slide-info">
+								<h2 class="title">Royal Enfield</h2>
+								<p>₹999*/Day</p>
+								<a href="tel:+917383838959" class="btn"><span>Rent Now</span></a>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="slide-img-cover">
+								
+								<img src="assets/img/dark-slide-1.png" alt="Royal Enfield Rental in Hyderabad" class="slide-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slide">
+				<div class="main-slide-bg" style="background-image: url(assets/img/bg-slider.svg);"></div>
+				<div class="container">
+					<div class="row slider-pad">
+						<div class="col-md-4">
+							<div class="main-slide-info">
+								<h2 class="title">Duke</h2>
+								<p>Duke 250 ₹1499*/day</p>
+								<a href="tel:+917383838959" class="btn"><span>Rent Now</span></a>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="slide-img-cover">
+								
+								<img src="assets/img/dark-slide-2.png" alt="Duke 250 Rental in Hyderabad" class="slide-img">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<!--================== S-PRODUCTS ==================-->
+	<br><br>
+	<div class="top-panel">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<marquee behavior="scroll" direction="left" scrollamount="3" onmouseover="this.stop();"
+							onmouseout="this.start();">
+							<!-- <p>*For Super Bike there is Security
+								Deposit*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*We Santize Bike After
+								Every
+								Ride..!!*&nbsp;&nbsp;&nbsp;+91 8919 936 547</p> -->
+								<p style="color: #000000;">Please do bring original Driving licence or original Passport</p>
+						</marquee>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	<section>
+    <div class="container-fluid">
+      <div class="container">
+      	<h2 class="title">Explore Our Bike Rental Options</h2>
+      	<br><br>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card text-center">
+              <div class="title">
+                <img class="product-img" src="assets/img/acv1.png" alt="Activa Rental in Hyderabad">
+                <h2>Honda Activa</h2>
+              </div>
+              <div class="price">
+                <h4><sup>₹</sup> 399/-  Day</h4>
+              </div>
+              <div class="option">
+                <div class="row">
+					<ul class="prod-list col-md-6 col-xs-6 col-6">
+						<li><b>No. Of Days</b></li>
+						<li>1-5 Days</li>
+						<li>5-10 Days</li>
+						<li>10-15 Days</li>
+						<li>Above 15 days</li>
+					</ul>
+					<ul class="prod-list col-md-6 col-xs-6 col-6">
+						<li><b>Rent per day</b></li>
+						<li>Rs. 399/-</li>
+						<li>Rs. 349/-</li>
+						<li>Rs. 299/-</li>
+						<li>Rs. 249/-</li>
+					</ul>
+				</div>
+              </div>
+              <div class="row">
+				<div class="col-4 col-md-4">
+					<a href="tel:+917383838959">Rent Now</a>
+				</div>
+				<div class="col-md-6 col-4 wi">
+					<a class="wic whatsappbtn" href="https://api.whatsapp.com/send?phone=+91 7383838959&amp; text=Hello" target="_target"><i class="fa fa-whatsapp" style="color:#fff; font-size: 28px;" aria-hidden="true"></i></a>
+				</div>
+			</div>
+              
+            </div>
+          </div>
+
+          <div class="col-sm-4">
+            <div class="card text-center">
+              <div class="title">
+                <img class="product-img" src="assets/img/bikes/fzv3.png" alt="Yamaha FZ V3 Rental in Hyderabad">
+                <h2>Yamaha FZ V3</h2>
+              </div>
+              <div class="price">
+                <h4><sup>₹</sup>799/- Day</h4>
+              </div>
+              <div class="option">
+                <div class=" row">
+					<ul class="prod-list col-md-6 col-xs-6 col-6">
+						<li><b>No. Of Days</b></li>
+						<li>1-5 Days</li>
+						<li>5-10 Days</li>
+						<li>10-15 Days</li>
+						<li>Above 15 days</li>
+					</ul>
+					<ul class="prod-list col-md-6 col-xs-6 col-6">
+						<li><b>Rent per day</b></li>
+						<li>Rs. 799/-</li>
+						<li>Rs. 749/-</li>
+						<li>Rs. 699/-</li>
+						<li>Rs. 649/-</li>
+					</ul>
+				</div>
+              </div>
+              <div class="row">
+				<div class="col-4 col-md-4">
+					<a href="tel:+917383838959">Rent Now</a>
+				</div>
+				<div class="col-md-6 col-4 wi">
+					<a class="wic whatsappbtn" href="https://api.whatsapp.com/send?phone=+91 7383838959&amp; text=Hello" target="_target"><i class="fa fa-whatsapp" style="color:#fff; font-size: 28px;" aria-hidden="true"></i></a>
+				</div>
+			</div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card text-center">
+              <div class="title">
+                <img class="product-img" src="assets/img/bikes/royal-enfield-bike.png" alt="product">
+                <h2>Royal Enfield Classic 350</h2>
+              </div>
+              <div class="price">
+                <h4><sup>₹</sup> 999/-  Day</h4>
+              </div>
+              <div class="option">
+                <div class="row">
+					<ul class="prod-list col-md-6 col-xs-6 col-6">
+						<li><b>No. Of Days</b></li>
+						<li>1-5 Days</li>
+						<li>5-10 Days</li>
+						<li>10-15 Days</li>
+						<li>Above 15 days</li>
+					</ul>
+					<ul class="prod-list col-md-6 col-xs-6 col-6">
+						<li><b>Rent per day</b></li>
+						<li>Rs. 999/-</li>
+						<li>Rs. 899/-</li>
+						<li>Rs. 799/-</li>
+						<li>Rs. 749/-</li>
+					</ul>
+				</div>
+              </div>
+            <div class="row">
+				<div class="col-4 col-md-4">
+					<a href="tel:+917383838959">Rent Now</a>
+				</div>
+				<div class="col-md-6 col-4 wi">
+					<a class="wic whatsappbtn" href="https://api.whatsapp.com/send?phone=+91 7383838959&amp; text=Hello" target="_target"><i class="fa fa-whatsapp" style="color:#fff; font-size: 28px;" aria-hidden="true"></i></a>
+				</div>
+			</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+			<div class="col-lg-8">
+				<div>
+					<br><br>
+					<p class="WhyChooseUs_new_sanitizeHeading__15KFu text-right black">For More Bikes <a class=" btn-more" href="bike-rentals-hyderabad"> Click Here</a></p>
+					<div class="WhyChooseUs_new_redLine__102hz"></div>
+				</div>
+			</div>
+        </div>
+      </div>
+    </div>
+  </section>
+	<!--================ S-PRODUCTS END ================-->
+
+
+	<div class="WhyChooseUs_new_Why__2qAtk">
+		<div class="WhyChooseUs_new_inside__1zqW9">
+			<div class="container mt-5">
+				<h2 class="text-center">WHY CHOOSE US?</h2>
+				<p class="black text-center bi3">We simplified bike rentals, so you can focus on what's important to
+					you.</p>
+				<div class="container text-center">
+					<div class="row">
+						<div class="col-lg-8">
+							<div><img src="assets/img/123.png" alt="Sanitized and clean vehicles at Go On Riders" style="width: 100%;">
+								<p class="WhyChooseUs_new_sanitizeHeading__15KFu text-right black">We Santize Bike After
+									Every Ride..!!</p>
+								<div class="WhyChooseUs_new_redLine__102hz"></div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="row">
+								<div class="col-12 col-md-4 col-lg-12 px-1">
+									<div class="WhyChooseUs_new_reason__1W7j8 row">
+										<div class="col-3">
+											<div class="WhyChooseUs_new_imgContainer__1-b_n"><img
+													src="assets/img/helmet.png" alt="Complementary Helmet provided for safety"></div>
+										</div>
+										<div class="col-9">
+											<div class="WhyChooseUs_new_imgContent__1zU5M">
+												<h3><span>C</span>omplementary <span>H</span>elmet <span></span></h3>
+												<p class="black">Your Safety is our priority. We Provide complementary
+													helmets with every ride</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-4 col-lg-12 px-1">
+									<div class="WhyChooseUs_new_reason__1W7j8 row">
+									<div class="WhyChooseUs_new_reason__1W7j8 row">
+										<div class="col-3">
+											<div class="WhyChooseUs_new_imgContainer__1-b_n"><img
+													src="assets/img/zero.png" alt="Zero Deposit required at Go On Riders"></div>
+										</div>
+										<div class="col-9">
+											<div class="WhyChooseUs_new_imgContent__1zU5M">
+												<h3><span>Z</span>ero <span>D</span>eposit <span></span></h3>
+												<p class="black">At Go On Riders you pay only for what you use. We don't
+													take any deposit.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-md-4 col-lg-12 px-1">
+									<div class="WhyChooseUs_new_reason__1W7j8 row">
+										<div class="col-3">
+											<div class="WhyChooseUs_new_imgContainer__1-b_n"><img
+													src="assets/img/offer.png" alt="Lowest Price Guarantee at Go On Riders"></div>
+										</div>
+										<div class="col-9">
+											<div class="WhyChooseUs_new_imgContent__1zU5M">
+												<h3><span>L</span>owest <span>P</span>rice <span>G</span>uarantee</h3>
+												<p class="black">You can count on us for the best bike rental prices in
+													the city!</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<section class="s-our-news dark-our-news">
+		<div class="container">
+			<h2 class="title">Explore City With Us</h2>
+			<div class="news-cover row">
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="news-item">
+						<div class="news-post-thumbnail">
+							<a href=""><img class="rx-lazy" src="assets/img/charminar.jpg"
+									data-src="assets/img/charminar.jpg"alt="Charminar in Hyderabad"></a>
+							<h5 class="title mt-20 s1"><a href="" class="text-center">charminar</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="news-item">
+						<div class="news-post-thumbnail">
+							<a href=""><img class="rx-lazy" src="assets/img/golconda.jpg"
+									data-src="assets/img/golconda.jpg" alt="Golconda Fort in Hyderabad"></a>
+							<h5 class="title mt-20 s1"><a href="" class="text-center">Golconda Fort</a></h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="news-item">
+						<div class="news-post-thumbnail">
+							<a href=""><img class="rx-lazy" src="assets/img/Hussain.jpg"
+									data-src="assets/img/Hussain.jpg"  alt="Hussain Sagar in Hyderabad"></a>
+							<h5 class="title mt-20 s1"><a href="" class="text-center">Hussain Sagar</a></h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <?php include 'footer.php';?>
+	<!--===================== TO TOP =====================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+	</a>
+	<!--=================== TO TOP END ===================-->
+	<!--==================== SCRIPT	====================-->
+	<script src="assets/js/jquery-2.2.4.min.js"></script>
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/jquery.nice-select.js"></script>
+	<script src="assets/js/wow.js"></script>
+	<script src="assets/js/rx-lazy.js"></script>
+	<script src="assets/js/scripts.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-7NGNHGB8HN"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-7NGNHGB8HN');
+	</script>
+</body>
+
+</html>

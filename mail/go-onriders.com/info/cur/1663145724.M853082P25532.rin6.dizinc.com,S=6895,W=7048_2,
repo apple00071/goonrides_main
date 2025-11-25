@@ -1,0 +1,153 @@
+Return-Path: <amberadam74@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 6CdFMvyWIWO8YwAAQ+45pw
+	(envelope-from <amberadam74@gmail.com>)
+	for <info@go-onriders.com>; Wed, 14 Sep 2022 04:55:24 -0400
+Return-path: <amberadam74@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 14 Sep 2022 04:55:24 -0400
+Received: from mail-yb1-f194.google.com ([209.85.219.194]:33603)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <amberadam74@gmail.com>)
+	id 1oYOB2-0007SG-DF
+	for info@go-onriders.com;
+	Wed, 14 Sep 2022 04:55:24 -0400
+Received: by mail-yb1-f194.google.com with SMTP id p69so14963999yba.0
+        for <info@go-onriders.com>; Wed, 14 Sep 2022 01:55:03 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:mime-version:from:from:to:cc:subject
+         :date;
+        bh=n/pAAnW1JjxDRhHdCyC7swat4xvch4xtUfFj2mKlypE=;
+        b=hcKW3zGK1lLYpuyIwgZjnXVQHN1feaT5X/GvZDVpW35/2rHAdoIXodfxpwpUZTPsw3
+         c4mLYmENTHdAr+hEdbqo1uxatqPV+wyXeYyHpxzJBbt1ZoplUV7LNSIv9O397qwHbJdd
+         d5mqNF2KdCLztMQKzJZxZrd+uWy3pkv8OP7fAXLPBpGM7sPeHN5wJ4FJybchtXcGsSVj
+         Z0mo2maTkdS8LGz8YtZYb+Jv1+XfkkOc4sjSJTyEF8h3kBgd/xUZSP1lL9zHXtdoRDP1
+         DGB1qnxZA7JcOCbrxAUVIObbSIMtmrAlVyw1Vb22UOf/ewduefYpHiyQIC+MsyIKQZJ8
+         KqvQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:mime-version:from:x-gm-message-state
+         :from:to:cc:subject:date;
+        bh=n/pAAnW1JjxDRhHdCyC7swat4xvch4xtUfFj2mKlypE=;
+        b=tDiu4BihAGuAcyApQCoBhMRsf7be2uyJULJ2DBp9Be4pfu/B6kCWYXjtIbxwOAMAAg
+         Q4X8wIQx/IeLUExjt0acFF6zO2hKs3T5RFTfQWPXevvk0y8Ue7jb37Gt5eZM9gR7xN2g
+         MpcSLtZtB9k8+KzJXqMzHl6hsuJvLimqscBM2IDQqakATxOwi7Etc87JPgCBUIDIOQm5
+         09m7Xd1HKQdakFCm0lFmSV1wSw9YDOgO1Q5x5UUIYYF2HNFNGXF5IdiUccmN/VbKGdbo
+         fBIwVM9ETGjr0waP0JEXd+g4+q+88T3gBo7of1llf92TagiCwq2nfcLg5f4Ym6EeHqOy
+         81hg==
+X-Gm-Message-State: ACgBeo1QUuDaSOW28EPCfRH8KH3sRoB+I5T7uF39gcsykRBH/N0f0RHN
+	vHl6PNTOaQxX4Lb2fKp6wHoFH3nIsdwNe2pYkYDYHR8C
+X-Google-Smtp-Source: AA6agR54ug21aZDLmyxYzp/NpsOUl2S+rU2WyBCH9eJEhz8xwu0h+ZODbTekwDAPlMT05HDWEjAs038Hgw6gh0BW72g=
+X-Received: by 2002:a05:6902:1201:b0:6ae:eeee:a6d2 with SMTP id
+ s1-20020a056902120100b006aeeeeea6d2mr13974738ybu.462.1663145682793; Wed, 14
+ Sep 2022 01:54:42 -0700 (PDT)
+Received: from 218858140171 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 14 Sep 2022 01:54:42 -0700
+From: Sunaina <amberadam74@gmail.com>
+MIME-Version: 1.0
+Date: Wed, 14 Sep 2022 01:54:42 -0700
+Message-ID: <CADiYve9--YsrXJLsCe5ERqZwdeQGEuAVHx5Rsvng1xQwrdg4BQ@mail.gmail.com>
+Subject: Low Cost..Best Website..!
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="000000000000a1f99d05e89f470f"
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello there, go-onriders Do you want to grow your business
+    www.go-onriders.com ? Increase your sales, engage with more audience with
+    top digital marketing services in the digital era. 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.219.194 listed in list.dnswl.org]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [amberadam74[at]gmail.com]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [amberadam74[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.219.194 listed in wl.mailspike.net]
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--000000000000a1f99d05e89f470f
+Content-Type: text/plain; charset="UTF-8"
+
+Hello there, go-onriders
+
+Do you want to grow your business www.go-onriders.com ?
+
+
+
+Increase your sales, engage with more audience with top digital marketing
+services in the digital era.
+
+
+Let me know if you are interested. I can send you our Portfolio/Packages
+(low Cost)/Company information and time frame.
+
+
+Thanks & Regards,
+Sunaina
+
+--000000000000a1f99d05e89f470f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Time=
+s New Roman&quot;,&quot;serif&quot;">Hello
+there,=C2=A0</span>go-onriders<span lang=3D"EN-IN" style=3D"font-family:&qu=
+ot;Times New Roman&quot;,&quot;serif&quot;"><br>
+<br>
+Do you want to grow your business </span><a href=3D"http://www.go-onriders.=
+com">www.go-onriders.com</a>=C2=A0<span lang=3D"EN-IN" style=3D"font-family=
+:&quot;Times New Roman&quot;,&quot;serif&quot;">? </span></p>
+
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Time=
+s New Roman&quot;,&quot;serif&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Time=
+s New Roman&quot;,&quot;serif&quot;">Increase
+your sales, engage with more=C2=A0audience with top digital marketing servi=
+ces
+in the digital era.<br>
+<br>
+<br>
+Let me know if you are interested. I can send you our Portfolio/Packages=C2=
+=A0 <br>
+(low Cost)/Company information and time frame.<br>
+<br>
+<br>
+</span></p>
+
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Time=
+s New Roman&quot;,&quot;serif&quot;">Thanks
+&amp; Regards,<br>
+Sunaina</span></p>
+
+<p class=3D"MsoNormal"><span lang=3D"EN-IN" style=3D"font-family:&quot;Time=
+s New Roman&quot;,&quot;serif&quot;">=C2=A0</span></p>
+
+--000000000000a1f99d05e89f470f--

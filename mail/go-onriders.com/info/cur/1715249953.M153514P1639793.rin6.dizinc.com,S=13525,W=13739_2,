@@ -1,0 +1,214 @@
+Return-Path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id uJaeCCGjPGZxBRkAQ+45pw
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	for <info@go-onriders.com>; Thu, 09 May 2024 06:19:13 -0400
+Return-path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 09 May 2024 06:19:13 -0400
+Received: from o19837144x29.outbound-mail.sendgrid.net ([198.37.144.29]:58402)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	id 1s50rn-006tB4-2R
+	for info@go-onriders.com;
+	Thu, 09 May 2024 06:19:13 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=leadsquared.com;
+	h=content-type:from:mime-version:subject:to:cc:content-type:from:
+	subject:to;
+	s=963; bh=3+QqBxbyXHXpzCu1lEvC5tA/I7IM6ol0hy0J0oRYMyE=;
+	b=YMsoQuO6yggVjB/jzFniar27ux93m6QZq1DGnTM4HEQYVso0J/1dBGiBiB5nkOM5PzJ1
+	8NCaNzFZmJCZamAp5UVdcEdVpgAgI5rewR13t2CKsESjWmJeoC0ogVhbQUMuu2z3NGlMXp
+	aOEcpDnA3YWibGxHIvlI2u1PFLNz+JVg7fL6k8AqvrZEmmxl48lABaVjGZ44JONy0BwsE6
+	aT97r/gWFfbmK1Nvy5dhSOrhQZZMJyBatOdw+hXY1VtJnL0ueantu/qxOlYaBHn9QRYuLw
+	gaZhhQYfUrEU0t2skbJTie3nD3iJrGWn0Y++YFXWOV/ZrVs+JwpmfJfvkAIvgGDA==
+Received: by filterdrecv-55cbcb4974-txwqd with SMTP id filterdrecv-55cbcb4974-txwqd-1-663CA2F5-5
+        2024-05-09 10:18:29.211839679 +0000 UTC m=+819430.473539006
+Received: from NTgzOTgyNw (unknown)
+	by geopod-ismtpd-9 (SG) with HTTP
+	id g106vFr6QuW0sIWlJNE5Aw
+	Thu, 09 May 2024 10:18:28.926 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=6f70cc2d7e7ab6b3eb1b23bbb28913b7e973c31e53096d0c399c75d7199a
+Date: Thu, 09 May 2024 10:18:29 +0000 (UTC)
+From: Gayathri Sridhar <marketing@mcube.com>
+Mime-Version: 1.0
+Message-ID: <g106vFr6QuW0sIWlJNE5Aw@geopod-ismtpd-9>
+Subject: Discover the Impact: Insights from Our Contented Clients!
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EDcg3HRskK0UD4e6bhpyjYr3n6gMi006TU1nhUSeJDvb0xN7=2FPeopvN3pF?=
+ =?us-ascii?Q?EFFdbIC7vMVR5jL8A0cpOtR7JJYoGp97xPMd=2FRE?=
+ =?us-ascii?Q?rzTSz6M2wPWjW0CSRuHGRnjLEK2LPOgSkltn8BW?=
+ =?us-ascii?Q?gdn+6Yn6gq1U6ZRf64vRwx=2FYsEDgTnNzRFGz5oF?=
+ =?us-ascii?Q?viCWTzUp1v0fLQYfZ4DJm=2Fg1uPVf7IoLRrYq6dz?=
+ =?us-ascii?Q?fJ0YAI8cbF23gQ8nHzarchWkIv3qq3UBvW6+tAG?= =?us-ascii?Q?CQLA?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBYjHA+qNefkoZxY?=
+ =?us-ascii?Q?ILQVpIsswAs+5hvop=2FTW81DTktp50k1ypL76YYP?=
+ =?us-ascii?Q?=2FCOSZynBLLRLO7TAegG4ui8i+Gq8N492KVWaoV2?=
+ =?us-ascii?Q?digmyOQ1CYiYY1ib0hfTY78en98Vt4zYBDXhk57?=
+ =?us-ascii?Q?Tf+InLxthHtUaYOaPBAQSWFwOjTxNKl+C4=2Fb72e?=
+ =?us-ascii?Q?pl=2FkzXY=2F1r1KM0895conDLKM3FWkN5YU9cyivx8?=
+ =?us-ascii?Q?JBNORFhjKdz423r21Z1fVniUfA=3D=3D?=
+To: info@go-onriders.com
+X-Entity-ID: u001.idDaXlz/LTBWXTxrK7I1Cg==
+X-MagicSpam-TUUID: 5c119aad-8ebf-4477-81cb-3caeca07874b
+X-MagicSpam-SUUID: bc3f3f45-3330-4210-8b2e-fa4ef835cbd8
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  <https://e-in21.gtolink.in/t/em1/44880/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6/32be8780889f11ebb68d02506fc2b3ce
+    ><https://e-in21.gtolink.in/t/em1/44880/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6/06a2b46af6
+    [...] 
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.3 LM_CONTENT_TYPE_ISFIRST Very rare that Content-Type is the first
+                              header
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.5 LM_MARKETING_ENV_STYLE Suspicious EnvelopeFrom naming convention
+                              seen to be used by spammers.
+  0.3 LM_PROMO_FORMAT        Message may contain a spammy headline!
+  0.2 LM_SUBJ_URG_TOPIC      Subjects with hard end and a embedded colon
+  0.1 KAM_UNSUB1             Unsubscription Spams
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+X-Spam-Flag: NO
+
+--6f70cc2d7e7ab6b3eb1b23bbb28913b7e973c31e53096d0c399c75d7199a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+<https://e-in21.gtolink.in/t/em1/44880/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764=
+c6/32be8780889f11ebb68d02506fc2b3ce ><https://e-in21.gtolink.in/t/em1/44880=
+/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6/06a2b46af64511ee91000295982bf3c5 >
+
+
+If you wish to opt out of all type of emails, click Unsubscribe<https://e-i=
+n21.gtolink.in/t/em/44880/7/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6 >
+
+
+You can update your preferences on the type of emails you want to receive f=
+rom us Mailing Preferences<https://e-in21.gtolink.in/t/em/44880/8/2376e59d-=
+e8b0-41ca-8c5f-2fb25b9764c6 >
+--6f70cc2d7e7ab6b3eb1b23bbb28913b7e973c31e53096d0c399c75d7199a
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Mime-Version: 1.0
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head><title></title><m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><!--=
+[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInc=
+h><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><style>*{box-si=
+zing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inh=
+erit!important;text-decoration:inherit!important}#MessageViewBody a{color:i=
+nherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hi=
+de table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_bloc=
+k img+div{display:none} @media (max-width:620px){.social_block.desktop_hide=
+ .social-table{display:inline-block!important}.mobile_hide{display:none}.ro=
+w-content{width:100%!important}.stack .column{width:100%;display:block}.mob=
+ile_hide{min-height:0;max-height:0;max-width:0;overflow:hidden;font-size:0}=
+.desktop_hide,.desktop_hide table{display:table!important;max-height:none!i=
+mportant}}</style></head><body style=3D"background-color:#f7f7f7;margin:0;p=
+adding:0;-webkit-text-size-adjust:none;text-size-adjust:none"><table class=
+=3D"nl-container" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0=
+;background-color:#f7f7f7"><tbody><tr><td><table class=3D"row row-1" align=
+=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;backg=
+round-color:#fff"><tbody><tr><td><table class=3D"row-content stack" align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#ff=
+f;border-bottom:10px solid transparent;border-left:10px solid transparent;b=
+order-radius:15px;border-right:10px solid transparent;border-top:10px solid=
+ transparent;color:#000;width:600px;margin:0 auto" width=3D"600"><tbody><tr=
+><td class=3D"column column-1" width=3D"100%" style=3D"mso-table-lspace:0;m=
+so-table-rspace:0;font-weight:400;text-align:left;vertical-align:top;border=
+-top:0;border-right:0;border-bottom:0;border-left:0"><table class=3D"image_=
+block block-1" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0"><=
+tr><td class=3D"pad" style=3D"width:100%"><div class=3D"alignment" align=3D=
+"center" style=3D"line-height:10px"><div style=3D"max-width:580px"><img src=
+=3D"https://f2.leadsquaredcdn.com/t/t20191012182636/content/common/images/e=
+mail image-2-01 (1).jpg" style=3D"display:block;height:auto;border:0;width:=
+100%" width=3D"580" height=3D"auto"></div></div></td></tr></table><table cl=
+ass=3D"social_block block-2" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-tab=
+le-rspace:0"><tr><td class=3D"pad" style=3D"padding-bottom:10px;padding-lef=
+t:20px;padding-right:20px;padding-top:40px;text-align:center"><div class=3D=
+"alignment" align=3D"center"><table class=3D"social-table" width=3D"180px" =
+border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" styl=
+e=3D"mso-table-lspace:0;mso-table-rspace:0;display:inline-block"><tr><td st=
+yle=3D"padding:0 2px 0 2px"><a href=3D"https://e-in21.gtolink.in/t/em1/4488=
+0/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6/15b3034b863a11ea8109022edb41208c" =
+ target=3D"_blank"><img src=3D"https://app-rsrc.getbee.io/public/resources/=
+social-networks-icon-sets/circle-color/facebook@2x.png" width=3D"32" height=
+=3D"auto" alt=3D"Facebook" title=3D"Facebook" style=3D"display:block;height=
+:auto;border:0"></a></td><td style=3D"padding:0 2px 0 2px"><a href=3D"https=
+://e-in21.gtolink.in/t/em1/44880/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6/32b=
+e8780889f11ebb68d02506fc2b3ce"  target=3D"_blank"><img src=3D"https://app-r=
+src.getbee.io/public/resources/social-networks-icon-sets/circle-color/twitt=
+er@2x.png" width=3D"32" height=3D"auto" alt=3D"Twitter" title=3D"Twitter" s=
+tyle=3D"display:block;height:auto;border:0"></a></td><td style=3D"padding:0=
+ 2px 0 2px"><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/2376e59d-e8b=
+0-41ca-8c5f-2fb25b9764c6/7ca57f249f1f11eebb320af95b823f2c"  target=3D"_blan=
+k"><img src=3D"https://app-rsrc.getbee.io/public/resources/social-networks-=
+icon-sets/circle-color/instagram@2x.png" width=3D"32" height=3D"auto" alt=
+=3D"Instagram" title=3D"Instagram" style=3D"display:block;height:auto;borde=
+r:0"></a></td><td style=3D"padding:0 2px 0 2px"><a href=3D"https://e-in21.g=
+tolink.in/t/em1/44880/1/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6/06a1e6c2f64511=
+ee91000295982bf3c5"  target=3D"_blank"><img src=3D"https://app-rsrc.getbee.=
+io/public/resources/social-networks-icon-sets/circle-color/linkedin@2x.png"=
+ width=3D"32" height=3D"auto" alt=3D"LinkedIn" title=3D"LinkedIn" style=3D"=
+display:block;height:auto;border:0"></a></td><td style=3D"padding:0 2px 0 2=
+px"><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/2376e59d-e8b0-41ca-8=
+c5f-2fb25b9764c6/06a2b46af64511ee91000295982bf3c5"  target=3D"_blank"><img =
+src=3D"https://app-rsrc.getbee.io/public/resources/social-networks-icon-set=
+s/circle-color/youtube@2x.png" width=3D"32" height=3D"auto" alt=3D"YouTube"=
+ title=3D"YouTube" style=3D"display:block;height:auto;border:0"></a></td></=
+tr></table></div></td></tr></table><table class=3D"text_block block-3" widt=
+h=3D"100%" border=3D"0" cellpadding=3D"5" cellspacing=3D"0" role=3D"present=
+ation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-word=
+"><tr><td class=3D"pad"><div style=3D"font-family:Arial,sans-serif"><div cl=
+ass style=3D"font-size:12px;font-family:Arial,Helvetica Neue,Helvetica,sans=
+-serif;mso-line-height-alt:18px;color:#555;line-height:1.5"><p style=3D"mar=
+gin:0;font-size:14px;text-align:center;mso-line-height-alt:18px"><span styl=
+e=3D"font-size:12px;">If you wish to opt out of all type of emails, click <=
+a style=3D"text-decoration: underline; color: #554fb5;" href=3D"https://e-i=
+n21.gtolink.in/t/em/44880/7/2376e59d-e8b0-41ca-8c5f-2fb25b9764c6" target=3D=
+"_blank">Unsubscribe</a></span></p></div></div></td></tr></table><table cla=
+ss=3D"text_block block-4" width=3D"100%" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0;word-break:break-word"><tr><td class=3D"pad" style=3D"padding-bott=
+om:5px;padding-top:5px"><div style=3D"font-family:Arial,sans-serif"><div cl=
+ass style=3D"font-size:12px;font-family:Arial,Helvetica Neue,Helvetica,sans=
+-serif;mso-line-height-alt:18px;color:#555;line-height:1.5"><p style=3D"mar=
+gin:0;font-size:14px;text-align:center;mso-line-height-alt:18px"><span styl=
+e=3D"font-size:12px;">You can update your preferences on the type of emails=
+ you want to receive from us <a style=3D"text-decoration: underline; color:=
+ #554fb5;" href=3D"https://e-in21.gtolink.in/t/em/44880/8/2376e59d-e8b0-41c=
+a-8c5f-2fb25b9764c6" target=3D"_blank" rel=3D"noopener">Mailing Preferences=
+</a></span></p></div></div></td></tr></table></td></tr></tbody></table></td=
+></tr></tbody></table></td></tr></tbody></table><!-- End --><mxpixettrackin=
+gtag><img src=3D"https://e-in21.gtolink.in/t/em/44880/0/2376e59d-e8b0-41ca-=
+8c5f-2fb25b9764c6" height=3D"1" width=3D"1" /></mxpixettrackingtag> </body>=
+</html>
+--6f70cc2d7e7ab6b3eb1b23bbb28913b7e973c31e53096d0c399c75d7199a--

@@ -1,0 +1,425 @@
+Return-Path: <digitalmarketingservices46@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 1lRYFtjhA2g0FTkAQ+45pw
+	(envelope-from <digitalmarketingservices46@outlook.com>)
+	for <info@go-onriders.com>; Sat, 19 Apr 2025 13:48:08 -0400
+Return-path: <digitalmarketingservices46@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 19 Apr 2025 13:48:08 -0400
+Received: from mail-koreacentralazolkn19013077.outbound.protection.outlook.com ([52.103.74.77]:59399 helo=SEYPR02CU001.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <digitalmarketingservices46@outlook.com>)
+	id 1u6CIS-0000000Fh3e-1rI0
+	for info@go-onriders.com;
+	Sat, 19 Apr 2025 13:48:08 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=splpFODlb8wC6NUHvh8kW1LU6VqAzsIIyewuVRwv3l/4E9VMQ8WcsMZy8ZjpRj46BQiotCEzPZ7EyiInZl6C11P61NGF7YjlSittEfnfE7bFkRW+0UmHDnYP7QR1pDyQYVhzgvhJ7OySY65AXmMswL/hbx/8tbF+p8v9+Kgbn9w9r25gW7Z7k9YMc1Qqx0g/gyY03KTBHfqAvR/cMG3XkkCkV/WhNqyVSSmV3mK+Iz3Hs17uybK9TtCoIa6OZzyKqrqUOVbZcffD+d7fZPDxWDZDJmzE1LDogsYx+n+NcVNlF8gf08p7YqzEDj0DgQFSf8IiHBCoIT1pOJwvEMFD5Q==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=bO9b4EEzEB5z8df+fhq/4UkzVKbXYtfQEM/0FmGlpSk=;
+ b=szovwausZq49yFPsPQq1NZgV7CnrLrPaNSG0zfdnnyzRV4oLZ9XE0qFcv6UY8vC3tp7pbEtQB8egZtejx0WlpH7d58+HvVLCYuFAuneLzQFaF1hGaF5azbCQ1hGG9p+06EJSPPQ07Az15CIUhfZEBYkRL6cH7uaavbNsyLkkjgDHBZRWCXL6IIBCDp73pbVmtu7R/YgxMT00VxxHESfSwiPkDNKOhYHsVnDePyzKkU2jcv+KCCWFfjrcNELieK1QBJwFGaRZLv5XzfF4Lx5QC61SlSQnqdkQjpVHiV93fjbWfF4zqMOrd2Aq4ln/M2g6YVhn2how337HMy/XA7Wx8w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=bO9b4EEzEB5z8df+fhq/4UkzVKbXYtfQEM/0FmGlpSk=;
+ b=euL7wy8UCf+eo7CDTDggEEEa8GI0hOuqiHITgUPQ8VG7nElswwALgAjA3nWv1mIXbf+3f4UD1wTaC2RZBt0SUjU4PLV7jwaD+aNSarbdaUWDO4KFc2dc3lk/mkKyrkRvreFH1dTMpz8MSfK6D2GjAkOVK4ufGlcxROanfSldAlfUIzeZ4BY08wbliJDBnDt2lNiV6v/M7MGPCQa8cwmS5IAGoksSuUiVSmCNJlZ5BW3Zn4HZm6JA9PjgHNCBKo2feVXZw/HYB3nZg0j7/iwXJ2TXr7pV+11+i+d0YaVzY5b6uMGHghNA/R7mf77g1tO0McZZCbQqDQTS4vl2FPxMrA==
+Received: from TY0PR04MB6423.apcprd04.prod.outlook.com (2603:1096:400:279::6)
+ by SEYPR04MB7822.apcprd04.prod.outlook.com (2603:1096:101:1ff::5) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8632.35; Sat, 19 Apr
+ 2025 17:47:06 +0000
+Received: from TY0PR04MB6423.apcprd04.prod.outlook.com
+ ([fe80::f7de:6be9:3122:609c]) by TY0PR04MB6423.apcprd04.prod.outlook.com
+ ([fe80::f7de:6be9:3122:609c%6]) with mapi id 15.20.8632.030; Sat, 19 Apr 2025
+ 17:47:05 +0000
+From: Anushka Yadav <digitalmarketingservices46@outlook.com>
+To: Anushka Yadav <digitalmarketingservices46@outlook.com>
+Subject: Re: Our services.
+Thread-Topic: Our services.
+Thread-Index:
+ AQHbk1rIxTD4UovFOEamU+rs3x91HrN3Y6QYgAGz4ceAAAB0SIAPrFH1gAGh25aABTUomYABDIhRgAFkrAyABuwkwYABQLU6gAFtoQyAAfoXe4AGWe8w//+kL/aAAZm28IABn7CDgAGCliiAAABVrYADIi9u
+Date: Sat, 19 Apr 2025 17:47:05 +0000
+Message-ID:
+ <TY0PR04MB64238ED9CBB1B72DFE55C7E8CEBE2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+References:
+ <TY0PR04MB6423D85C37662528BF370266CE112@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64232195AD3E60ED5E8EC244CE112@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64231666B9254AE3C0AEE0A4CE132@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423E38A304345E1F13BE0CBCE132@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64232AAAE0303AE7F7CBDAAFCE132@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64233F0EA3AC8CD84869812ACE1F2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64232D6F84B272A28C7CF20FCE182@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423DB9395163A2174FD2E1ACE192@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423C75F669E5AB190081339CE1A2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64231FDE95E157901F72D24CCE1A2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423412037573D08233BAD06CE1B2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423D195B0795EA7E3B06024CEE52@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423947162B5B3B74A7FDEF3CEEC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64230E77AEF780C290A4595ACEEE2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64237EAF7F2DB966EFBE860ACEE92@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423150741FBC63B3871E2BDCEF02@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642339C7439B2283900A6D35CEF02@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423873C592EE060340FB0BDCEF22@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642322EF36F99275928292C3CEF22@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423819EAE8F5505860C271FCEFD2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423895D277DE5EA315AA09BCEFD2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423E0CD509F1E08DC541C35CEFD2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642383657F4E9352A56BF2F1CEFC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64236068D10124614742AB6ECEFF2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64232300812555A5B988768ACEFE2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <SEZPR04MB642924F651BC4AD06E672CD6CEFB2@SEZPR04MB6429.apcprd04.prod.outlook.com>
+ <SEZPR04MB64293BF18D7B4BA8E09A76F9CEFB2@SEZPR04MB6429.apcprd04.prod.outlook.com>
+ <TY0PR04MB642369FAFA0D561B51E3126DCEC42@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64230618271ED9FB0E9A0438CEC42@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64230FD007BD6FD77A6CC182CEC72@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64232E576E2186695E4435DFCEC72@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423F8363BCF2557F72F1B3ACEC62@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64239A82E02FD6762D6DA741CEC02@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423AA8D370870E0A4434C80CEC02@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423209E0A30E766FA6857D5CEC32@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <SEZPR04MB642956CDB0646AC1BC78BBF0CECD2@SEZPR04MB6429.apcprd04.prod.outlook.com>
+ <SEZPR04MB6429EC96B1B0BE4B77192370CECD2@SEZPR04MB6429.apcprd04.prod.outlook.com>
+ <TY0PR04MB64236E9E1F21BA93C7CDE974CECC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64233129DC5D90E6434BB4E1CECC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423AE111612A23634A81143CEC92@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642362E11ED2B1A04984CEBCCEC82@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642328D6E2E0694401B0B9D8CECB2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423F0732D60756BB98A141DCECB2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64237208393F6CC5C4600720CED52@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64233162C279E2C3303F36CBCED62@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64231C65011D0A5713486DE1CED12@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423FF550034EEC4EFAFE0B0CED02@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423CA22AFF541FA3500AB1DCEDF2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642342BBE07A5EDF2767367CCEDE2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423756A4AEBD25DF89778F3CEDE2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64239D45915B15721C41A5B5CEA02@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423A8126AD6B3FAF653C77ACEA32@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64237C533AFB8A3DEEA54665CEAC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423FE2622DB7196CA3DC2B5CEAF2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423FACD031BCF3BBEB29907CEAE2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642319875DDC53F1C93F3B59CEAA2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642327ACD6C04F7FB7C9A3FCCEB52@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423103D19A155696FEE7894CEB42@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423D6A0C8547A9FF60FEBEECEB72@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423377AEE624D294474DB7DCEB32@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423FB910F69D7ACEEBE93FECEB32@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB642320D5F5B2EAAC261B9BD0CEB22@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64234F04741065389F63D4C8CEBD2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB6423C5A28E9F2074220CF788CEBC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+ <TY0PR04MB64233E22CAA71869D21361DECEBC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+In-Reply-To:
+ <TY0PR04MB64233E22CAA71869D21361DECEBC2@TY0PR04MB6423.apcprd04.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TY0PR04MB6423:EE_|SEYPR04MB7822:EE_
+x-ms-office365-filtering-correlation-id: 6c57a834-b2f3-4a6a-52e0-08dd7f6a333d
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|19110799003|8060799006|461199028|8062599003|15030799003|15080799006|440099028|3412199025|41001999003|102099032|56899033|1710799026;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?kH/kAIY/Z5sP/DluZOza3kUmbODYXnvaRM6piKbFumS3rDwjhj2CZTkw?=
+ =?Windows-1252?Q?DuwuzYTrJjm5uCBnctIchIiaHSqj9wAfp0RtH09AETN1bbMqgRg3yQEd?=
+ =?Windows-1252?Q?8oVM5mR7F0xnMbi4Fz2VjnktWtdjy+mnXVEZxgfoRTV2ZNlzef8nSEOf?=
+ =?Windows-1252?Q?9UgDrcTnZXLdgfu5Eky8MKC/T9sogln9v/b7gL+uWs9cE3h/Xeqd4JWz?=
+ =?Windows-1252?Q?QZJjDDcX8Ra9BD6uzGyYauDPs2eo/iOFdmtGOVbPZJca6OumEwcsDTBU?=
+ =?Windows-1252?Q?S7A75GaIqFWJLlPOkvGywKEONNExK0VWic/NJD+FO1+oLfwaneJhx4R/?=
+ =?Windows-1252?Q?iCQd4DAgkTdbaM7HX+QVU8zMp93UC3pPSnDByvqkMreM1zmVuGKvwUju?=
+ =?Windows-1252?Q?Mn6AUR9fvl9m44RP1+nOETy7xaIbeGwkcGLS6qNHXSx35wIKLvRo+NuA?=
+ =?Windows-1252?Q?1kaeB30+qOSwCM9Y7/XOtz13Rt0pDiutp5Khz0laqSU3LXzhZYNh0VpM?=
+ =?Windows-1252?Q?yki8PUfZLKHJiEa/qt9WXWQv1W3pY+JVKbDjd5efCr4lhbgghGvuNTRr?=
+ =?Windows-1252?Q?mBzOgEFPdcU3pcLM5X+0vpr+xkCeDK0ZV0OLL2ZgWwK2G5JMLUx5kAmF?=
+ =?Windows-1252?Q?+YW9VLWnU+sd8jCGH1p4KGOOktK5mRUQ3gy85rX6GUlThIkyYbM7hUy1?=
+ =?Windows-1252?Q?3I81eH7nLDSpmqy7+A/zD2Mn3j5gKEpWM51185q0DwRDDvBA6nNLYudx?=
+ =?Windows-1252?Q?6WXVbUm9dzQN9xJFsI8W7F1LWnhPd9fN9EjpI8U89ktxqQNAHNnG9QbI?=
+ =?Windows-1252?Q?8cBJS12LOvjvF68LfSdErxHaFC2S1oJXP0khM5b63Vz5T+aUcj0AO/cM?=
+ =?Windows-1252?Q?yWECRVowGEvS0f1Wb3JrN+SgB+NN3a/n86gFKlWkT/5cGOuxE+QFkca+?=
+ =?Windows-1252?Q?SkI3YeYlu1Da9qVcvo8I4dKXK5IaMn+3fn2NDePzLOJytMVOoC5CPEQG?=
+ =?Windows-1252?Q?BZkNWy6PI92Q471oeDBJOB8qtXQyYwmnua+JFubJkGPOfhrI6b4GBUi9?=
+ =?Windows-1252?Q?6ScwkzvWGo4JSHDcXjZ7mMG1l+PD6n2XMv10wHCM6WS4pE7RzovoNdnd?=
+ =?Windows-1252?Q?2KCj0Xo8s5817wWv+GxWvlB379W/WXx+0J3mBiOKnmuyVJKJ3BGX6KZf?=
+ =?Windows-1252?Q?wEBke6tQMi0eXAFNgZMEgFF23/basoDD4kYtRb/IvvL9zaM+j8+VyimK?=
+ =?Windows-1252?Q?ko46Equ0dFpDpdcDcs8=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?zzlcyXs19BMUOzyQJtRpY1TRwyncN4e0ettdxeNKqC/Y3nUcqIJ9C4LM?=
+ =?Windows-1252?Q?xm3k7xkAcdSYJsCKYEZ1NeCmdhc8GTdC5OsCkRMmQEifUgKyIS8Mnk0U?=
+ =?Windows-1252?Q?Zoo/o5jjSQxUgxlGGp1N+8Ch6xTi/V7UtrH0g6TzRauaYUjFJHQF7xSC?=
+ =?Windows-1252?Q?h3HdFIajJfFpBo59/5x2o8x9ET05fJXs+SHIowKVb3T86mO0VFMJBlVl?=
+ =?Windows-1252?Q?uC1YCgERz8vRVoJMTMmD4EE7+AJnZ/t6mEiVoVp9zKrHcVdeXAXF0nEw?=
+ =?Windows-1252?Q?aWkOtTgh/cYUjFKP6KqPkN+BRdP5EOu770lQBhGFTX9JSDMiKYpwQPvn?=
+ =?Windows-1252?Q?LqtLtzjjMKPuE0LOgCOhR+yr8aN9jxxGtluzjiNQ9BMJoNf9Oa8bQpHw?=
+ =?Windows-1252?Q?yTflxBOdKQRLSWM61feqJxSQmkNwnHjjsbLVBUS886nUs1iMMxFwbGqy?=
+ =?Windows-1252?Q?W5hk4Evn/ic4uUKUpArYpx6M/CXsmx3ZCt3aiNiRmdQfwRrsg6ILbOwQ?=
+ =?Windows-1252?Q?AlZM9/yw/sMTKcCK45Kxaz7Dv0KvACw2cw9oqhVhuChzy0Z4bra8o3zP?=
+ =?Windows-1252?Q?KgKU2nVmtoeyb8pfE1WPQseQPu3lLksCvHIheN/cXSrBUqUDOs28CI2G?=
+ =?Windows-1252?Q?LkERBIP51b5GURyKqfB0fV+dL/fkS1qpBWtd24xOsRxwkeLCvYNf05d3?=
+ =?Windows-1252?Q?I9GXV4fo2r8CCgd5NUWpnF15KwWbNuxLWMHCQvV1TD44AsFuKCv0SQK1?=
+ =?Windows-1252?Q?eRcxE4e3FTe4/HWHc0XLZ+QACrlS6jPKhYIsFUDKvfp9n3WSM2kG8xeC?=
+ =?Windows-1252?Q?CqqA7jQ4bXmIVg0/QmvDL8xQaqpwNu4cNWwtMX5h8l/gN1h9bDA6O7Li?=
+ =?Windows-1252?Q?HAZMCBjcORTF/o52nBN9RK+s/PF15O9k662xxkuM82ZwU1iaOpZmVfHc?=
+ =?Windows-1252?Q?nFhx/osr4q+8QVwXw4mL15lw4CukNOikodqS8/RPRUFffMQvk4UKtGxL?=
+ =?Windows-1252?Q?Zki5TcdWo/RixRC0X0uxUbybWGeFyU2W65nLQcyx99ksTAvgx2ZNMRy1?=
+ =?Windows-1252?Q?VdcNLRhgt+eEgxoKx9EHW9t1Qfq+hf4stmVypgGNaAhevVX1m5SkBLFm?=
+ =?Windows-1252?Q?U3ZgVYn0JEKvHf6RSM6ZSAm7bOq5B0KMVXL4oYnmlKUKBsyALUX9uWxV?=
+ =?Windows-1252?Q?JzzJk1N2+JkCrJfy9xyLAyhrA+wMGpEMIkJkFYXnPB/tdpVMdyJHtXyy?=
+ =?Windows-1252?Q?1IJWzPc4M3He3zUcS+x4Wd9oJNmsf2BrJWVzamJb2k8KMndzAu8JwDzV?=
+ =?Windows-1252?Q?TMMv95pOVOLZRIf4yQX6uCfjvjbp5ezTGvrMUcWHM605yVMk7x9qKK7p?=
+ =?Windows-1252?Q?oVYHXKozpY7tded9MYBLug1hk5G/qbI1S5jUjXK0jhdvS+ygqVg4MS7q?=
+ =?Windows-1252?Q?VYPezm+z8IrLqk8Rh8SLgA=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_TY0PR04MB64238ED9CBB1B72DFE55C7E8CEBE2TY0PR04MB6423apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TY0PR04MB6423.apcprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 6c57a834-b2f3-4a6a-52e0-08dd7f6a333d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 19 Apr 2025 17:47:05.9020
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEYPR04MB7822
+X-MagicSpam-TUUID: e9505996-8175-46b0-bb84-7aa80c254530
+X-MagicSpam-SUUID: 67331a54-a4b1-4386-bd97-a38fd7b0df9e
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I am still waiting for your reply, Please let me know
+    if you are interested in my services below. 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.74.77 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.74.77 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [52.103.74.77 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 ARC_SIGNED             Message has a ARC signature
+  0.0 ARC_VALID              Message has a valid ARC signature
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [digitalmarketingservices46(at)outlook.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [digitalmarketingservices46(at)outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--_000_TY0PR04MB64238ED9CBB1B72DFE55C7E8CEBE2TY0PR04MB6423apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I am still waiting for your reply,
+
+Please let me know if you are interested in my services below.
+
+Thanks,
+
+________________________________
+From: Anushka Yadav
+Sent: Tuesday, January 7, 2025 9:06 PM
+Subject: Re: App
+
+
+Hi,
+
+
+Are you looking for any type Apps/website for your current business? We hav=
+e 100% intensive experience in creating apps/website for:
+
+=95 Education Apps
+=95 Transportation Apps
+=95 Food Delivery & Restaurants Booking Apps
+=95 Logistics Apps
+=95 E-Commerce & M-Commerce Apps
+=95 Real Estate Apps
+=95 New Website Development
+=95 Website Design & Re-Design, Development.
+=95 Website Update
+=95 Lifestyle Apps (Health & Fitness) & many more build apps regarding your=
+ business.
+
+Share your requirements so that we can get back to you with price and other=
+ information.
+
+Thanks,
+Anushka
+
+Note: - If you don=92t want to receive any more emails from us REPLY =93Uns=
+ubscribe=94.
+
+
+--_000_TY0PR04MB64238ED9CBB1B72DFE55C7E8CEBE2TY0PR04MB6423apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Calibri, &quot;sans-ser=
+if&quot;; font-size: 12pt; color: black;">
+Hello,</div>
+<div id=3D"x_x_x_x_x_x_x_x_appendonsend"></div>
+<div id=3D"x_x_x_x_x_x_x_x_divRplyFwdMsg" dir=3D"ltr"></div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Calibri, &quot;sans=
+-serif&quot;; font-size: 12pt; color: black;">
+&nbsp;</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Calibri, &quot;sans=
+-serif&quot;; font-size: 12pt; color: black;">
+I am still waiting for your reply,<br>
+<br>
+Please let me know if you are interested in my services below.<br>
+<br>
+Thanks,</div>
+<div style=3D"direction: ltr; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+<br>
+</div>
+<hr style=3D"direction: ltr; display: inline-block; width: 98%;">
+<div id=3D"x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_=
+x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_x_divRplyFwdMsg=
+" dir=3D"ltr">
+<div style=3D"font-family: Calibri, sans-serif; font-size: 11pt; color: rgb=
+(0, 0, 0);">
+<b>From:</b>&nbsp;Anushka Yadav<br>
+<b>Sent:</b>&nbsp;Tuesday, January 7, 2025 9:06 PM<br>
+<b>Subject:</b>&nbsp;Re: App</div>
+<div>&nbsp;</div>
+</div>
+<p style=3D"direction: ltr; text-align: justify; text-indent: 0px; line-hei=
+ght: normal; background-color: rgb(255, 255, 255); margin: 0in 0in 0.0001pt=
+;">
+<span style=3D"font-family: Calibri, &quot;sans-serif&quot;; font-size: 12p=
+t; color: rgb(0, 0, 0);">Hi,</span></p>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Are you looking for any type Apps/website for your current business? We hav=
+e 100% intensive&nbsp;experience in creating apps/website for:</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Education Apps</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Transportation&nbsp;Apps</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Food Delivery &amp; Restaurants Booking Apps</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Logistics Apps</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 E-Commerce &amp; M-Commerce Apps</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Real Estate Apps</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 New Website Development&nbsp;&nbsp;&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Website Design &amp; Re-Design, Development.</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Website Update</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+=95 Lifestyle Apps (Health &amp; Fitness) &amp; many more build apps regard=
+ing your business.</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+<b>Share your requirements so that we can get back to you with price and ot=
+her information.</b></div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Thanks,</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Anushka&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; line-height: normal; margin: 0in 0in 0.0001pt=
+; font-family: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+<b>Note: -</b>&nbsp;If you don=92t want to receive any more emails from us =
+REPLY<b>&nbsp;=93Unsubscribe=94.</b></div>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; line-heig=
+ht: normal; background-color: rgb(255, 255, 255); margin: 0cm; font-family:=
+ Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_TY0PR04MB64238ED9CBB1B72DFE55C7E8CEBE2TY0PR04MB6423apcp_--

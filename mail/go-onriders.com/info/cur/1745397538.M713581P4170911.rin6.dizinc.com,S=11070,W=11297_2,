@@ -1,0 +1,227 @@
+Return-Path: <pearl@digiquixs.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 8FgGKiKnCGifpD8AQ+45pw
+	(envelope-from <pearl@digiquixs.com>)
+	for <info@go-onriders.com>; Wed, 23 Apr 2025 04:38:58 -0400
+Return-path: <pearl@digiquixs.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 23 Apr 2025 04:38:58 -0400
+Received: from mail-pg1-f193.google.com ([209.85.215.193]:44272)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <pearl@digiquixs.com>)
+	id 1u7VdD-0000000HTmV-3w2M
+	for info@go-onriders.com;
+	Wed, 23 Apr 2025 04:38:58 -0400
+Received: by mail-pg1-f193.google.com with SMTP id 41be03b00d2f7-ae727e87c26so4110745a12.0
+        for <info@go-onriders.com>; Wed, 23 Apr 2025 01:38:37 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=digiquixs-com.20230601.gappssmtp.com; s=20230601; t=1745397495; x=1746002295; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=PouKUvVtOH4I6o0Ud26ikaIJ/AcnmEXGU9nkGlZyO4s=;
+        b=igkXwz6KQScmLuhG0WJMWsYrN6Ag/e/qtl4xn6EfsgeACnFheOIBAOblFyXCTF55kJ
+         YVNFaTrMhjBcFjs4nKUKNXnTzViM3S73WhSEVgwDZNhJFYFTowBuL6E9b6Vk8e5yDXgK
+         1JpZI+fXwn0BRqaDBLnRPuK+ALiaJxDbyh77jrwZjs0o3FdLe8H44sIKqHRhvYguJBEB
+         0Tf7TMwQ8Ttrej0MEWhuC3ci51gBVUZjwcP8MjHlyKugEFy+hfLjDDuKr1I7nxGFCVX6
+         FcWUcEgmPxhzmiv3Xdac1ctQJIy+xWjDD8QIZJmY1ueY5gfbOp9F1uTExOVqYbRmVDC2
+         o7kA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1745397495; x=1746002295;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=PouKUvVtOH4I6o0Ud26ikaIJ/AcnmEXGU9nkGlZyO4s=;
+        b=oWxpgj8nXkvkd3t5j3hTaU/ybTbjATsq2Q523lViQySI8VdkNJyNaMWIXywrHeh/HZ
+         HuLk1yBRkJJ1/kQSdoPIhXEZ5MFel7ebll95QJZbmmUC4aZRdhtZoN5X2iW+yRh6IuaQ
+         qTR1L941lkO7zH1Eotcj6Po8Gr1l7cFHpAfnGp559VAQvS92R4+fj+d4ZehsfTnVqeH4
+         1n92KD4JrCGxETQmysgh0WzcxLifs213tWyS3T53rph1ixd1yurjljPSm1jjj/V3DCRd
+         /mXRwXVQ6JwPJ95CuD2cbcHE7E7cdm85vFII1AOmlf8uI6ymJkl6NsbCmM5GnCs5NaFR
+         gdDQ==
+X-Gm-Message-State: AOJu0YxenilBJjiLdYNZfu1+40lTBSgP0QkwQ5aIzdhCy4lKVH+5fyNp
+	/0n9y7bu7f2B7HkvN2bUaTJMiFMapRqPrQiOqL/adKW9WA67FaCRBwmfGzu48Q598eSClccKygm
+	W3kwIYfQ20URo+Eu9Vem8bQpWAaj2um2t7ReRNwyQHCXlzWz0xoY=
+X-Gm-Gg: ASbGnctEUBL9cPozdJSR8AKsRVTkcqRs21A6eaDJWyNzXVbpFIelHl9FUduBSZMku7Z
+	cSxN8gQnNGhioQivDbMzoQRW2BdlvpGRugw4qB3Zga+hy+kG8PW4wf0iS+wd046GckHLFihdQ8U
+	4J/GnJJqkinQdgH1iC8EAbPtBrp9H/RpGjCg==
+X-Google-Smtp-Source: AGHT+IHrPHY8KzMF5muBzsVlJHTrplzbZjJV1nhfdcpDKVNH6BMEN2iaKCF156IpVY+zfUSHaIY9D5UP2ur90tyBPrw=
+X-Received: by 2002:a17:90b:3f8e:b0:2f6:d266:f462 with SMTP id
+ 98e67ed59e1d1-3087bbba604mr26616339a91.35.1745397495467; Wed, 23 Apr 2025
+ 01:38:15 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 23 Apr 2025 03:38:14 -0500
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 23 Apr 2025 03:38:13 -0500
+MIME-Version: 1.0
+Sender: pearl@digiquixs.com
+From: pearl@digiquixs.com
+Date: Wed, 23 Apr 2025 03:38:14 -0500
+X-Google-Sender-Auth: xR964N8kSRTnTnUFHfWuIvZCLX0
+X-Gm-Features: ATxdqUFJHsfQU7-BDwmOVBYtLmblt6B03ADvZB8enhUz2fPlvefkmaBkAHGRU8I
+Message-ID: <CAFV5r1NMYy2M=sdEreeMusTFuSQAnUasCmFKFGLHn0vNthqazw@mail.gmail.com>
+Subject: Re1: Go-Onriders. Com Website re-designing proposal.
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000b59f4306336e059d"
+X-MagicSpam-TUUID: a3f95f56-040e-4875-abed-68a7948c5ea4
+X-MagicSpam-SUUID: 573b4e6a-22e4-4782-94b5-ac317e641a71
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  *Hi Go-Onriders. Com Team, * *Trust you are doing well.* I
+    recently discovered Website and I am deeply impressed with your product/service
+    offerings. I would love to help you create a website that is as spectacular
+    as everything else you do. 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.215.193 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.215.193 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.215.193 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of empty
+                             lines
+X-Spam-Flag: NO
+
+--000000000000b59f4306336e059d
+Content-Type: text/plain; charset="UTF-8"
+
+*Hi Go-Onriders. Com Team, *
+
+*Trust you are doing well.*
+
+I recently discovered Website and I am deeply impressed with your
+product/service offerings. I would love to help you create a website that
+is as spectacular as everything else you do.
+
+I have spent the past 10 years building beautiful websites for companies.
+My comprehensive knowledge of web design and various content management
+systems makes it easy for me to build completely customized websites. This
+includes websites with advanced features such as eCommerce functionality
+and paid membership areas.
+
+Are you ready to take your website to the next level?
+
+Let's figure out how I can help you.
+
+*Kind Regards*
+
+*Pearl Collins| Digital Marketing Expert*
+
+*--------------------------------------------------------------------*
+
+*Note:* - I will be happy to *send a proposal and pricing* and details.
+
+--000000000000b59f4306336e059d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div di=
+r=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:10=
+7%;font-size:11pt;font-family:Calibri,sans-serif"><b><span lang=3D"EN-US" s=
+tyle=3D"font-size:12pt;line-height:107%">Hi Go-Onriders. Com Team,=C2=A0</s=
+pan></b><span lang=3D"EN-US" style=3D"font-size:12pt;line-height:107%">=C2=
+=A0</span><span style=3D"font-size:12pt;line-height:107%"></span></p><p cla=
+ss=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11p=
+t;font-family:Calibri,sans-serif"><b><span lang=3D"EN-US" style=3D"font-siz=
+e:12pt;line-height:107%">Trust you are doing well.</span></b><span lang=3D"=
+EN-US" style=3D"font-size:12pt;line-height:107%">=C2=A0</span><span style=
+=3D"font-size:12pt;line-height:107%"></span></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11pt;font-family:Calibri=
+,sans-serif"><span lang=3D"EN-US" style=3D"font-size:12pt;line-height:107%"=
+>I recently discovered Website and I am deeply
+impressed with your product/service offerings. I would love to help you cre=
+ate
+a website that is as spectacular as everything else you do.</span></p><p cl=
+ass=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11=
+pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"font-size:=
+12pt;line-height:107%">I have spent the past 10 years building beautiful
+websites for companies. My comprehensive knowledge of web design and variou=
+s
+content management systems makes it easy for me to build completely customi=
+zed
+websites. This includes websites with advanced features such as eCommerce
+functionality and paid membership areas.</span></p><p class=3D"MsoNormal" s=
+tyle=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11pt;font-family:Cali=
+bri,sans-serif"><span lang=3D"EN-US" style=3D"font-size:12pt;line-height:10=
+7%">Are you ready to take your website to the next level?</span></p><p clas=
+s=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11pt=
+;font-family:Calibri,sans-serif">
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;fon=
+t-size:11pt;font-family:Calibri,sans-serif"><span lang=3D"EN-US" style=3D"f=
+ont-size:12pt;line-height:107%">Let&#39;s figure out how I can help you.</s=
+pan></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%=
+;font-size:11pt;font-family:Calibri,sans-serif"><b><span lang=3D"EN-US" sty=
+le=3D"font-size:12pt;line-height:107%">Kind Regards</span></b><span style=
+=3D"font-size:12pt;line-height:107%"></span></p><p class=3D"MsoNormal" styl=
+e=3D"margin:0cm 0cm 8pt;line-height:107%;font-size:11pt;font-family:Calibri=
+,sans-serif"><b><span lang=3D"EN-US" style=3D"font-size:12pt;line-height:10=
+7%">Pearl Collins| Digital Marketing Expert</span></b><span style=3D"font-s=
+ize:12pt;line-height:107%"></span></p><p class=3D"MsoNormal" style=3D"margi=
+n:0cm 0cm 8pt;line-height:107%;font-size:11pt;font-family:Calibri,sans-seri=
+f"><b><span lang=3D"EN-US" style=3D"font-size:12pt;line-height:107%">------=
+--------------------------------------------------------------</span></b><s=
+pan style=3D"font-size:12pt;line-height:107%"></span></p><p class=3D"MsoNor=
+mal" style=3D"margin:0cm 0cm 8pt;background-image:initial;background-positi=
+on:initial;background-size:initial;background-repeat:initial;background-ori=
+gin:initial;background-clip:initial;line-height:115%;font-size:11pt;font-fa=
+mily:Calibri,sans-serif">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;line-height:107%;fon=
+t-size:11pt;font-family:Calibri,sans-serif"><b><span lang=3D"EN-US" style=
+=3D"font-size:12pt;line-height:107%">Note:</span></b><span lang=3D"EN-US" s=
+tyle=3D"font-size:12pt;line-height:107%"> - I will be
+happy to <b>send a proposal and pricing</b> and details.</span></p></div>
+</div>
+</div>
+</div>
+</div>
+
+--000000000000b59f4306336e059d--

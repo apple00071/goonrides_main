@@ -1,0 +1,94 @@
+Return-Path: <export@promote.myaixpert.cn>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 8svoItB8C2aoOwAAQ+45pw
+	(envelope-from <export@promote.myaixpert.cn>)
+	for <info@go-onriders.com>; Mon, 01 Apr 2024 23:34:40 -0400
+Return-path: <export@promote.myaixpert.cn>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 01 Apr 2024 23:34:40 -0400
+Received: from out208-197.dm.aliyun.com ([140.205.208.197]:50307)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <export@promote.myaixpert.cn>)
+	id 1rrUv0-0003Kk-2A
+	for info@go-onriders.com;
+	Mon, 01 Apr 2024 23:34:40 -0400
+X-AliDM-RcptTo: aW5mb0Bnby1vbnJpZGVycy5jb20=
+Feedback-ID: default:export@promote.myaixpert.cn:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=promote.myaixpert.cn; s=default;
+	t=1712028835; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=PGpIzbQBYsUPRfZ3aYXTFc9N/7Re+vj6O0+PxeEOYlo=;
+	b=cSp7ljAZs71MKjA/JOrv6I59di7qKJSvNmMdIUv6Ih2dFgSlDCAigJE6FICNErTIViYvpI0Uh6oPz5fN4/DKmoRxW+JYveCdXI1wn04KDCZ3flYQwMiqQcO/bYWUF+Wo5P354zFUKBaOpb85kNkOwrqAqMJt8SLBJeFvMzDERrQ=
+X-EnvId: 600000074715561047
+Received: from msgdactuatorserv-76d5c5d967-nlqmx(mailfrom:export@promote.myaixpert.cn fp:SMTPD_-VHcCCKcDlB)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Tue, 02 Apr 2024 11:33:55 +0800
+Date: Tue, 2 Apr 2024 11:33:54 +0800 (CST)
+From: Summer Lee <export@promote.myaixpert.cn>
+Reply-To: sqw3@shenqiwei.com
+To: info@go-onriders.com
+Message-ID: XTMMID:ALI_CLOUD:28990100552000024032913637631,28990100539005424040279733741,XTransfer
+Subject: Innovative RC Toys to Boost Your Product Range!
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-MagicSpam-TUUID: dd138d05-1931-4796-81fd-d74d3dd0da28
+X-MagicSpam-SUUID: 1a661d46-aa9f-46b5-afa5-80dea9bb7e6b
+X-Spam-Status: No, score=4.3
+X-Spam-Score: 43
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Esteemed Partner, Quick note from Summer Lee, Marketing
+    Director at Sheng Qi Wei Hong Kong Co., Ltd. Are you ready to elevate your
+    toy inventory with cutting-edge RC toys? Our products not only delight kids
+    but also en [...] 
+ Content analysis details:   (4.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_OBFUSCATE_05_10   BODY: Message is 5% to 10% HTML obfuscation
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  1.0 HTML_IMAGE_ONLY_16     BODY: HTML: images with 1200-1600 bytes of
+                             words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.2 INVALID_MSGID          Message-Id is not valid, according to RFC 2822
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  1.0 LM_MSGID_BAD_FORMAT    Message contains unusual formatting
+  0.3 LM_PROMO_FORMAT        Message may contain a spammy headline!
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+  0.3 LM_OS_GEN_4PARTCOM_ONLY_DKIM Common method by spammers, OS
+                             Generated, RP is hostname not domain
+X-Spam-Flag: NO
+
+<html><body><p>Dear Esteemed Partner,</p><p>Quick note from Summer Lee, Mar=
+keting Director at Sheng Qi Wei Hong Kong Co., Ltd. Are you ready to elevat=
+e your toy inventory with cutting-edge RC toys? Our products not only delig=
+ht kids but also enthusiasts of all ages!</p><p>Limited offer: Respond with=
+in 48 hours for an exclusive sneak peek at our latest designs. Let's propel=
+ your business forward together.</p><p>Best regards,<br>Summer Lee<br>Marke=
+ting Director<br>Sheng Qi Wei Hong Kong Co., Ltd<br>Email: <a href=3D'mailt=
+o:sqw3@shenqiwei.com'>sqw3@shenqiwei.com</a></p></body></html><img height=
+=3D"1" src=3D"https://xtrfr.com/t/1/m41IiM?p=3D1kpU6VkVx-6IaKBrhK_1kpU72q8p=
+-6MkDxBf4" width=3D"1"><div style=3D"text-align: center; font-size: 12px"><=
+div>=E5=A6=82=E6=9E=9C=E4=BD=A0=E4=B8=8D=E6=83=B3=E5=86=8D=E6=94=B6=E5=88=
+=B0=E6=88=91=E4=BB=AC=E7=9A=84=E9=82=AE=E4=BB=B6=EF=BC=8C=E8=AF=B7=E7=82=B9=
+=E5=87=BB<a href=3D"https://www.xtransfer.cn/unsubscribe?p=3D1kpU6VkVx-6IaK=
+BrhK_1kpU72q8p-6MkDxBf4" style=3D"color: #faac58" target=3D"_blank" rel=3D"=
+noopener">=E3=80=8C=E8=BF=99=E9=87=8C=E9=80=80=E8=AE=A2=E3=80=8D</a></div><=
+div>If you do not wish to receive further email messages from us, please cl=
+ick<a href=3D"https://www.xtransfer.cn/unsubscribe?p=3D1kpU6VkVx-6IaKBrhK_1=
+kpU72q8p-6MkDxBf4" style=3D"color: #faac58" target=3D"_blank" rel=3D"noopen=
+er">here</a></div></div>

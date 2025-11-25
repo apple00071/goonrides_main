@@ -1,0 +1,256 @@
+Return-Path: <kina@lexxdigital.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id kH32AAZBFGiMRQsAQ+45pw
+	(envelope-from <kina@lexxdigital.com>)
+	for <info+spam@go-onriders.com>; Thu, 01 May 2025 23:50:30 -0400
+Return-path: <kina@lexxdigital.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 01 May 2025 23:50:30 -0400
+Received: from mail-pl1-f195.google.com ([209.85.214.195]:49306)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <kina@lexxdigital.com>)
+	id 1uAhPx-0000000361i-1d8q
+	for info@go-onriders.com;
+	Thu, 01 May 2025 23:50:29 -0400
+Received: by mail-pl1-f195.google.com with SMTP id d9443c01a7336-22d95f0dda4so25042925ad.2
+        for <info@go-onriders.com>; Thu, 01 May 2025 20:50:05 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lexxdigital-com.20230601.gappssmtp.com; s=20230601; t=1746157784; x=1746762584; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=4EeC2y+ju12aXsdeWowqcv4q+FJj1RSQ5oQ3oV1yqxQ=;
+        b=ZRiZh1wc++8Tox7ePWYg9fVXQjiDOvJQu59N11Fyej43qDdkQbdG0QBaXXbpfJRhxW
+         SQOMcITRjQYMvaiwLZ0dL3IAHQHSe1tjB+dm1fC3hDmH1XrYxdkb26zxbbA73V33ZYMM
+         JUPh80amJgi6mcNq/oYY6L/kRHduoGVDl0s5NDe/G/eVpXNztvP2g4Jy9A9AZctWZtz5
+         XcHTKl3qv7w74srIf4YHMN0h5Z/6UfZkJ3bQ9zFSpTkGw522P4Q4hvVHSBTeclPVOGAd
+         9zdiLthcEWRrga2GT1zaBHcQaMOjGD9KbA28JeCT18tBdAvrnRPxwkHMDMoRE6qDyDMk
+         yUhg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1746157784; x=1746762584;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=4EeC2y+ju12aXsdeWowqcv4q+FJj1RSQ5oQ3oV1yqxQ=;
+        b=teyVQ2NDgNaBY1Yrh0hlPPspACvAAMx5VV21U5sbIp2ssQWGQW9B0UtNtMmqi6m3zm
+         TTEaQEATfY4eXZ6RW1d3f6AMAf7IxSbLUKP7PpvwMXx9tT3MGr8zK66/YbBoRvc0ab/O
+         XwOtG+0eAeqqFqofRQQ8HxDayLaR6D3B5U6pQAu73L6DG6CQRrtubzxgzm7Qofk6HpSw
+         hP7USjEe1m4U8D1h1Pogyp9xknBSvfK/LEEX+aYBYotxSDVfGxZNhZvGiHYgYfAqMaD2
+         jLiWmCDShIxQnIthoyHKd83QqNPKY6FyrlHxsUH69qKdfFsR1DYdAttda/slVrc1zXfM
+         gaQw==
+X-Gm-Message-State: AOJu0YxY1/C4gpr53M1Nx+ojLZXrlBJs1WQVs5wEeO/B3+s3C2YRQLkx
+	/k+2aadx2+P0po3HGGWZj/XGxlh+OnUJ2WpijPE8kahLDWn3vF63C48Fy4eie/UvnZ6drvKQG1T
+	sCFg=
+X-Gm-Gg: ASbGncv97MMQBFXI3edzBRtYXvDwUiMhvaEBOXzvBkIo4l0scCWWGaY0mFqWVEChqCs
+	SVTdhVEapyKYVF1EznPyYy0c2N4CtAdAjYgu6TkfzTWIvtPxmgXmi1VTq1pqaS+mb1vI3DWSEBb
+	0UCdQZrgnXAfS7Mm2DKu37PFsxV380Ryn3qe309Ofh8waMA6KHTp82/2AIiemMw+Ol/uufVzSc0
+	paFukBCW93GUemTrQPUrKVvR+7EKm6dzGZPKaSc+NKBIjDCAYw0RqLcsg5fx2cyVw5Tm3P9G5Be
+	QHBXH/QNvr0IfFjbGQmiZbDiJ4EN6CS6xtxeUM73TgIYczxcp8L+GW4Y
+X-Google-Smtp-Source: AGHT+IH2w421HfSL7jyv7qNsDBAmiJU2entyI3y9bA2MGwwKMlviIEO4xjyRlutUWILMXSpvluNwww==
+X-Received: by 2002:a17:903:2f88:b0:220:c164:6ee1 with SMTP id d9443c01a7336-22e1039fa19mr22202345ad.32.1746157783977;
+        Thu, 01 May 2025 20:49:43 -0700 (PDT)
+Received: from DESKTOP64SH9DS ([43.227.226.182])
+        by smtp.gmail.com with ESMTPSA id d9443c01a7336-22e1093760asm4242415ad.214.2025.05.01.20.49.42
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 01 May 2025 20:49:43 -0700 (PDT)
+From: "Kina" <kina@lexxdigital.com>
+To: <info@go-onriders.com>
+Date: Fri, 2 May 2025 09:16:18 +0530
+Message-ID: <1efa01dbbb15$3cfe07b0$b6fa1710$@lexxdigital.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1EFC_01DBBB43.56B86690"
+X-Mailer: Microsoft Outlook 14.0
+Thread-Index: Adu7DpCOC3byp6YoRFiJxwSRRacibw==
+Content-Language: en-us
+X-MagicSpam-TUUID: d1cf630e-06fe-47b7-a8c6-73af4719b65d
+X-MagicSpam-SUUID: c9f8182d-4c57-4ad4-8c4a-4340e38efa3e
+X-Spam-Status: Yes, score=13.0
+X-Spam-Score: 130
+X-Spam-Bar: +++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I hope all is well with you. Can you please give me an
+    update on my previous mail? 
+ Content analysis details:   (13.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.214.195 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.214.195 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.214.195 listed in bl.score.senderscore.com]
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in lexxdigital.com.wild.pccc.com]
+  4.0 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Re: Removing Credit Card Fees
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_1EFC_01DBBB43.56B86690
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi,
+
+I hope all is well with you.
+
+Can you please give me an update on my previous mail?
+
+Waiting for your valuable response.
+
+Thanks,
+
+---------------------------------------------------------
+
+ 
+
+From: Kina
+
+Sent: Monday, April 26, 2025 10:34 AM
+
+To: info@go-onriders.com
+
+Subject: Eliminating credit Cards Fees
+
+ 
+
+Hi,
+
+Would you be interested in reducing your credit card processing costs by
+50%? We are a wholesale provider and can cut your fees in half. We provide
+processing equipment at no cost with no money down. It costs you ZERO to
+save on all your Processing Fees.
+
+Our company has been in business for over 30 years and has an AAA rating.
+
+May I send you full detailed information? If Interested.
+
+Thanks,
+
+Kina
+
+
+------=_NextPart_000_1EFC_01DBBB43.56B86690
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 14 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Hi,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>I hope all is well with you.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Can you please give me an update =
+on my previous mail?<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Waiting for your valuable response.<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Thanks,<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans =
+MS"'>---------------------------------------------------------<o:p></o:p>=
+</span></p><p class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>From: =
+Kina<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>Sent: Monday, April 26, 2025 =
+10:34 AM<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>To: =
+info@go-onriders.com<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'>Subject: Eliminating credit =
+Cards Fees<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'margin-bottom:0in;margin-bottom:.0001pt;line-height:normal'><spa=
+n style=3D'font-family:"Comic Sans MS"'><o:p>&nbsp;</o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Hi,<o:p></o:p></span></p><p =
+class=3DMsoNormal style=3D'line-height:normal'><span =
+style=3D'font-family:"Comic Sans MS"'>Would you be interested in =
+reducing your credit card processing costs by 50%? We are a wholesale =
+provider and can cut your fees in half. We provide processing equipment =
+at no cost with no money down. It costs you ZERO to save on all your =
+Processing Fees.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Our company has been in business for over 30 years and has an <span =
+style=3D'background:lime;mso-highlight:lime'>AAA =
+rating</span>.<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS";background:lime;mso-highlight:lime'>May I send you full detailed =
+information? If Interested.</span><span style=3D'font-family:"Comic Sans =
+MS"'><o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Thanks,<o:p></o:p></span></p><p class=3DMsoNormal =
+style=3D'line-height:normal'><span style=3D'font-family:"Comic Sans =
+MS"'>Kina<o:p></o:p></span></p></div></body></html>
+------=_NextPart_000_1EFC_01DBBB43.56B86690--
+

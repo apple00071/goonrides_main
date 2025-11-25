@@ -1,0 +1,141 @@
+Return-Path: <shreyas.s@royalenfield.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id fTFGKoypqGUNAwAAQ+45pw
+	(envelope-from <shreyas.s@royalenfield.com>)
+	for <info+spam@go-onriders.com>; Wed, 17 Jan 2024 23:31:08 -0500
+Return-path: <shreyas.s@royalenfield.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 17 Jan 2024 23:31:08 -0500
+Received: from mail-oa1-f71.google.com ([209.85.160.71]:58549)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <shreyas.s@royalenfield.com>)
+	id 1rQK3X-0008QA-1E
+	for info@go-onriders.com;
+	Wed, 17 Jan 2024 23:31:08 -0500
+Received: by mail-oa1-f71.google.com with SMTP id 586e51a60fabf-2107aeb1fa8so2940734fac.0
+        for <info@go-onriders.com>; Wed, 17 Jan 2024 20:30:46 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1705552226; x=1706157026;
+        h=cc:to:from:subject:message-id:in-reply-to:references:date
+         :mime-version:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=dR9WSnBa4B3zRlWmPLgwwB9zm3yk1p9zJH27ERLoi1A=;
+        b=N0YGvv3bXNd/POOj3UmNHqiA7jBf2YonfhLvP0GiiHWnJ6loMTMwzItNfF6uuFVnM4
+         gTMATZ9ApRK3ksx8ES2dcP4LPshfY79GVZ+CWUhRbsiGJk7iVIvUkD6zP/yUFcVaSxHy
+         SylXZO9wzkm5jY6JmEB+ng5hKRWJ5TLoN4Bba49myC5lOuzHyMeLwwPm76viiIndvbAa
+         y6brGX4ngOAMlyECEsI16vqryR3C1EmR++nFJ0vgsyazP/le4hgTfzDFIF3fQ617gzzd
+         8Hy2/i3stHdXTU6NPB3mHsnWRVp4fHFxE4xUnCq39kx3TD4BtxCTm2JO/WUh/yYqrzfp
+         FljA==
+X-Gm-Message-State: AOJu0YwmGT3sZeIDFmPp3AOik9TWxeWGYTj5NQrN8Ix5t7Kgo690tV3e
+	MyIV99CEUCgPnhWiLSRkw4Kv7xLy1++VSnT5yqp6+IK9iBV59iS6zrQ/rli0LHsuuv6VbO2c2K0
+	7yanNcSnu5MAW/odEVBeKblP4HC2qnt1NLVs0zC0s136DVTR1BGTDdrOsUnUmxYnm8BP+
+X-Google-Smtp-Source: AGHT+IF+uZDlbG5m9P9OvxOc0zNmltGq47lQaa3T/+bUrCa8/ovwfUAXrPQYtPUS+cuMN989Erii/m9sMQ87bpIdxYk5CJRmX72AtQ==
+X-Received: by 2002:a05:6870:b909:b0:207:a3a6:ef9c with SMTP id gx9-20020a056870b90900b00207a3a6ef9cmr238250oab.40.1705552225723;
+        Wed, 17 Jan 2024 20:30:25 -0800 (PST)
+MIME-Version: 1.0
+Date: Thu, 18 Jan 2024 09:44:53 +0530
+References: <202401161046121094.1153541.498461.61127@musvc.com>
+	<CADt5ououQnxsejhmj-RXJC0Vc+9iOb=i7vP-cFKq2hpWdmEL2A@mail.gmail.com>
+	<CAJMg+HSRuU6AaBYFba8NtKdy=2waDw4+AQ83Q_c1K+NwRzQuFw@mail.gmail.com>
+In-Reply-To: <CAJMg+HSRuU6AaBYFba8NtKdy=2waDw4+AQ83Q_c1K+NwRzQuFw@mail.gmail.com>
+Message-ID: <CAJMg+HSUvm2yfYYLazw6Urc0S9rTKdsfVe+vLp0JJ8Poh5-ofw@mail.gmail.com>
+From: Shreyas Sureka <shreyas.s@royalenfield.com>
+To: S Mohanakrishnan <smkrishnan@royalenfield.com>, 
+	Chacko Antony <chackoantony@royalenfield.com>, 
+	Prashant Mall Vishen <prashantv@royalenfield.com>
+Cc: Surjeet Singh <zzsurjeetsingh@royalenfield.com>, 
+	Yugandhar Khorate <zzyugandhar@royalenfield.com>, Sumith Raju Samy <zzsumith@royalenfield.com>, 
+	Amit Choudhary <zzamitc@royalenfield.com>
+Content-Type: multipart/alternative; boundary="000000000000b3886f060f309b7a"
+Bcc: info@go-onriders.com
+X-MagicSpam-TUUID: e6081fd9-33fc-41cc-95df-964acbe18af3
+X-MagicSpam-SUUID: cb641a21-5410-4a9d-b6ea-03bef51e0c69
+X-Spam-Status: Yes, score=7.7
+X-Spam-Score: 77
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  <https://drive.google.com/file/d/1hOVIK9Drr-sWIKwn9yjlYSs1uxDRMCkj/view?usp=sharing>
+    
+ Content analysis details:   (7.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 URI_HEX                URI: URI hostname has long hexadecimal sequence
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of
+                             words
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 FREEMAIL               Message originated from 'free' mail service
+  0.9 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  2.8 SCC_BODY_URI_ONLY      No description available.
+  0.2 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: YES
+Subject:  ***SPAM***  The Central Desk of Royal Enfield Rentals | 2023 Recap
+
+--000000000000b3886f060f309b7a
+Content-Type: text/plain; charset="UTF-8"
+
+<https://drive.google.com/file/d/1hOVIK9Drr-sWIKwn9yjlYSs1uxDRMCkj/view?usp=sharing>
+
+--000000000000b3886f060f309b7a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:arial,he=
+lvetica,sans-serif"><br></div><div class=3D"gmail_quote"><div dir=3D"ltr"><=
+div class=3D"gmail_quote"><div dir=3D"ltr"><div class=3D"gmail_quote"><div>=
+<u></u><div style=3D"background-color:#fff;margin:0;padding:0"><table width=
+=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presenta=
+tion" style=3D"background-color:#fff"><tbody><tr><td><table align=3D"center=
+" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation"><tbody><tr><td><table align=3D"center" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"color:#000;width:6=
+00px;margin:0 auto" width=3D"600"><tbody><tr><td width=3D"100%" style=3D"fo=
+nt-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;vertical-a=
+lign:top;border-top:0;border-right:0;border-bottom:0;border-left:0"><table =
+width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation"><tbody><tr><td style=3D"width:100%"><div align=3D"center" style=
+=3D"line-height:10px"><div style=3D"max-width:600px"><a href=3D"https://dri=
+ve.google.com/file/d/1hOVIK9Drr-sWIKwn9yjlYSs1uxDRMCkj/view?usp=3Dsharing" =
+style=3D"outline:none" target=3D"_blank"><img src=3D"https://e5fa864d7a.img=
+dist.com/public/users/Integrators/BeeProAgency/1089733_1075104/Year%20End%2=
+0Emailer.jpg" style=3D"display:block;height:auto;border:0;width:100%" width=
+=3D"600"></a></div></div></td></tr></tbody></table></td></tr></tbody></tabl=
+e></td></tr></tbody></table><table align=3D"center" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"b=
+ackground-color:#fff"><tbody><tr><td><table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"color:#00=
+0;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td width=3D"100%" st=
+yle=3D"font-weight:400;text-align:left;padding-bottom:5px;padding-top:5px;v=
+ertical-align:top;border-top:0;border-right:0;border-bottom:0;border-left:0=
+"><table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation"><tbody><tr>
+<td style=3D"vertical-align:middle;color:#1e0e4b;font-family:Inter,sans-ser=
+if;font-size:15px;padding-bottom:5px;padding-top:5px;text-align:center"><ta=
+ble width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation=
+"><tbody><tr><td style=3D"vertical-align:middle;text-align:center">
+<table style=3D"display:inline-block;padding-left:0;padding-right:0" cellpa=
+dding=3D"0" cellspacing=3D"0" role=3D"presentation"><tbody><tr><td style=3D=
+"vertical-align:middle;text-align:center;padding-top:5px;padding-bottom:5px=
+;padding-left:5px;padding-right:6px"><br></td><td style=3D"font-family:Inte=
+r,sans-serif;font-size:15px;font-weight:undefined;color:#1e0e4b;vertical-al=
+ign:middle;letter-spacing:undefined;text-align:center"></td></tr></tbody></=
+table></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody=
+></table></td></tr></tbody></table></td></tr></tbody></table></div></div></=
+div></div>
+</div></div>
+</div></div>
+
+--000000000000b3886f060f309b7a--

@@ -1,0 +1,655 @@
+Return-Path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id bsa9Ig+G12IyMAAAQ+45pw
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	for <info@go-onriders.com>; Wed, 20 Jul 2022 00:35:27 -0400
+Return-path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 20 Jul 2022 00:35:27 -0400
+Received: from wrqvtvkv.outbound-mail.sendgrid.net ([149.72.120.24]:13662)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	id 1oE1Qk-0002zf-8H
+	for info@go-onriders.com; Wed, 20 Jul 2022 00:35:27 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=interakt.ai;
+	h=content-type:from:mime-version:subject:to:list-unsubscribe:cc;
+	s=s1; bh=2q3xHh/ce7jFGddd6NKZlcFAyd/ULW7vmtwqXhNMdb4=;
+	b=xW1Tw2vcZxCc1RnCKkYz7GGe5BuMaOceopBsc3ppbomBwMZASnGSiul5O+EZc/Mr048y
+	Ahr7bl528lequubBfyHNpNGyTw2ppKClphY0wE6lm/T3AoGTiPSBIw+ux97LkUoqw9MFpc
+	UeMV12zXiNBiHtiZ/3zAS1Haq9HgyubY1T/lIJwWFJLbX8wAqblNY0fLv7cR2nhJlzpJxD
+	IMJRfaPwnpWpfJTT6vMKX3f0ngZVvmTiQONZB/wGKeeH4mRt9idx13PkgAoy1JADMmDONF
+	Cfpaa9QBfULbRwUB4864njlDLgQA13JX6LlcDkf/sjiVN2fwuLj1HjurORXRZXkg==
+Received: by filterdrecv-8f4558975-jr7v9 with SMTP id filterdrecv-8f4558975-jr7v9-1-62D785E4-8
+        2022-07-20 04:34:44.484571064 +0000 UTC m=+622771.423348793
+Received: from MTg4NjczMzE (unknown)
+	by geopod-ismtpd-4-1 (SG) with HTTP
+	id 1MKADYI5SNigjqZUkd_6sw
+	Wed, 20 Jul 2022 04:34:44.295 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=8aabdbd23892ba8546bb2f00dfcdc5675c2cd4ceba7c9585dc948fce0b86
+Date: Wed, 20 Jul 2022 04:34:44 +0000 (UTC)
+From: hello@interakt.ai
+Mime-Version: 1.0
+Message-ID: <1MKADYI5SNigjqZUkd_6sw@geopod-ismtpd-4-1>
+Subject: =?UTF-8?B?4o+z?= Just 4 days left: Your free trial ends soon!
+X-SG-EID: 
+ =?us-ascii?Q?jiXPQcjYl7BW2xnG9rmlikmGbsWRbYFXPgoOIX4h04srlPU2jsM=2FEwLtQrMboc?=
+ =?us-ascii?Q?q9Yq=2F4iASb91x+h3u=2FbjwvhNkPLXclzc8iQOE8j?=
+ =?us-ascii?Q?9i5Tn3CIN1hJcFb0CG4YRgoZP0BBmaL=2FEJIARCf?=
+ =?us-ascii?Q?ZGGL=2FCeUkB11nJzjmaEGU1zXT2QeIv9VTRGbRZ3?=
+ =?us-ascii?Q?2SWgmLYILF0YujcfcAlBSEe3Gp3eoyWBVHA=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKHgAsE=2FCUk5eZaRe5Ltr?=
+ =?us-ascii?Q?cb7iSYDVYlJ39PYF0GFieK8zkvcNLof5VBE6woZ?=
+ =?us-ascii?Q?mU4nh+tD1imw4wfQh7MPW7knKYXYqpi6oL8bAh0?=
+ =?us-ascii?Q?muf3Xkq0k2oTRPVBWDTNjqZdNpqZE8FIB+nK0b=2F?=
+ =?us-ascii?Q?Sm6J707iFyxbwvLhiboIJUVIqol8rhW0ZOYOszO?=
+ =?us-ascii?Q?e6s98p5pKGpG=2F9fir4RsuE=2FEvl00SXh2qY6dzS?=
+To: info@go-onriders.com
+X-Entity-ID: zq9fjstDuAdEFIgk/ktvZg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em3566=2Einterakt=2Eai=3Fsubject=3Dhttps=3A=2F=2Fu188673?=
+ =?us-ascii?Q?31=2Ect=2Esendgrid=2Enet=2Fwf=2Funsubscribe*q*upn?=
+ =?us-ascii?Q?=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHa?=
+ =?us-ascii?Q?GMh5yALzZmvyk41p1zsILxt6x8e0R9t7l-2FL5C?=
+ =?us-ascii?Q?KOYo3l9fjX6-2F69P-2Bh5PMTZLBzI7-2F7Hnc8?=
+ =?us-ascii?Q?-2FkoNYxlNi9FDEW0R7vYIZDmh4mfpBvYH1YPfS?=
+ =?us-ascii?Q?zk0Q28p0bh11oIq7Rei9RpQnkxyVUfqMXleDfF1?=
+ =?us-ascii?Q?bbNiHbyCq3nk7dH8XIRj9rMnLpant-2BTVYPnet?=
+ =?us-ascii?Q?QYfmZNggxpzfJNDDWH6Rty0VvQid5LBx80uPY-2?=
+ =?us-ascii?Q?BGN3pZx8jSNAbBD8e0kfeEv2LL6tp8-2FQvRRir?=
+ =?us-ascii?Q?X2KaKbDETEjI4BDBAnFem0q6qw39ZglfaTSHjq3?=
+ =?us-ascii?Q?-2B0VbVh5dnSTAuWhsqVW7ZLntmDaMG-2F5KPh3?=
+ =?us-ascii?Q?o6GUgpPdgc7Q0pXRafbaUTqFuXQ4-2BOWLI-2Br?=
+ =?us-ascii?Q?X89VnBhtdiTAPtyxLu6efDAppGQVVScoI7iN9D-?=
+ =?us-ascii?Q?2BtipwtGR=3E?=
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ⚠️ Time to level-up ( https://u18867331.ct.sendgrid.net/ls/click?upn=XtSSqkA7o5sYTQ1Kkx-2Fi0sMTOqAmME8tYRPo4yJs3nDxOakvMDyu08i5BRZFNl3YkA1mqzew6VmAgg9dN0XfOg-3D-3DjoYO_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRL
+    [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [149.72.120.24 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [149.72.120.24 listed in wl.mailspike.net]
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.5 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+--8aabdbd23892ba8546bb2f00dfcdc5675c2cd4ceba7c9585dc948fce0b86
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+=E2=9A=A0=EF=B8=8F Time to level-up
+
+( https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0s=
+MTOqAmME8tYRPo4yJs3nDxOakvMDyu08i5BRZFNl3YkA1mqzew6VmAgg9dN0XfOg-3D-3DjoYO_=
+RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXVEPZKK3wlom=
+bVb5GyheCE1tObgedGgQm-2Fj-2FNm85FtIfhGzoOWu5YrFrS0vi4ggOM9m8r7L3MBiQPjpTeyL=
+WMxYeBkg5G9ccz1Ilhuc9RrgRV5bNU7CBmnm9aMPmdRfxRZPOsSv52nayK9fxYDyqam8JGy3v4j=
+cQedRNsRZk1CU5vwnFCFKitKGeGc5wGJK0LP4ffEBFCDdzIu9fmW3dw1XpfBxxQYSBPfXgd1m3B=
+ox3RekYzgtvaH47ifY-2FD-2Fial2oP9-2Fco-2Fe13ijJHrBprdbpEcw57e8b92qDkdmQf5hPO=
+ycAhGeyoe3OiKR0Px8UXlOT411qM-2F8OTwoozKUkaRW3i6WpFaIxYenYljQfnjVNk-3D )
+
+Hey Mohammad,
+
+We=E2=80=99d hate to see you leave so soon!
+
+We hope the 14-day free trial is helping your business take flight with top=
+-notch solutions on WhatsApp.
+
+It=E2=80=99s now time to supercharge your business by signing up for Intera=
+kt's paid plan. =F0=9F=92=AF
+
+If you=E2=80=99re still in two minds about this, we=E2=80=99ll play out the=
+ benefits for you here.
+
+With Interakt you get to =F0=9F=91=87
+
+=E2=9C=85 =C2=A0Send product catalogs to customers on WhatsApp as part of c=
+ampaigns & auto-replies
+=E2=9C=85 =C2=A0Send automated notifications to customers
+=E2=9C=85 =C2=A0Create personalized and contextual campaigns with buttons &=
+ media
+=E2=9C=85 =C2=A0Manage all your WhatsApp contacts in one place
+=E2=9C=85 =C2=A0Get the full picture of your customers while talking to the=
+m with the help of Smart Cards
+
+Interakt caters to India=E2=80=99s fastest-growing businesses and now we wa=
+nt to join forces with you!
+
+Hop on board - just click the button below to subscribe to a plan that suit=
+s your business.
+
+Upgrade Now ( https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sY=
+TQ1Kkx-2Fi0sMTOqAmME8tYRPo4yJs3nDxOakvMDyu08i5BRZFNl3YkA1mqzew6VmAgg9dN0XfO=
+g-3D-3D1JVB_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bS=
+XVEPZKK3wlombVb5GyheCE1tObgedGgQm-2Fj-2FNm85FtIfhGzoOWu5YrFrS0vi4ggOM9m8r7L=
+3MBiQPjpTeyLWMxYeBkg5G9ccz1Ilhuc9RrgRV5bNU7CBmnm9aMPmdRfxRZPOsSv52nayK9fxYD=
+yqam8JGy3v4jcQedRNsRZk1CU5vwnFCFKitKGeGc5wGJK0LP4ffEBFCDdzIu9fmW3dw1dPaqZGa=
+lQhsBm-2FxIMCtdfUruNNAQ7L8Bwhj35yITBcbxtPBxA31EzyxzsOXnc0EG4LytbYCUhBXctA62=
+vRPk6OCUMEiGqVlV689M-2BjuHKdA5vLdKy3hJiAUYsZMqDMtDiEcO0nXvK9MeBbbnX0f9d4-3D=
+ )
+
+Reach out to us on WhatsApp ( https://u18867331.ct.sendgrid.net/ls/click?up=
+n=3DXtSSqkA7o5sYTQ1Kkx-2Fi0u-2B8ATP8C5bIO2AFqOJlnt8KO26tsP2p4GHcNsvFh5b0NRx=
+W-2FnR5K6O4raaZw9XIxEu-2FJCgjc5KVY5ogBAZx9Ju6jgE842Lv3nTXCwHezon-2Fzx8kZYDO=
+cLtejjVGWrEzJC0LdK9gIj2Bx-2BKMLQIH8LnqvMSPPpW85eYB0dGU5GozmQoJvgIXzaL4QWl2R=
+SiMC4KwqnVUZ6hbL4w1CRGxATFQtNQzrh-2B55Eok0dHKAOxkaieT_RYEeg99Ap79leT7lYKY4e=
+aeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXVEPZKK3wlombVb5GyheCE1tObgedGgQm=
+-2Fj-2FNm85FtIfhGzoOWu5YrFrS0vi4ggOM9m8r7L3MBiQPjpTeyLWMxYeBkg5G9ccz1Ilhuc9=
+RrgRV5bNU7CBmnm9aMPmdRfxRZPOsSv52nayK9fxYDyqam8JGy3v4jcQedRNsRZk1CU5vwnFCFK=
+itKGeGc5wGJK0LP4ffEBFCDdzIu9fmW3dw1Vta6IXL0xOu9c1CB-2BzQxU-2FdnQ1e6zFCdfIPY=
+sNwXRqPa5fkGD0Bosvqe0sJw66DuHrsM1oJiY7Yd6uldoEhFtudt7nQerNQvZ2c3YHQ97m5Gldz=
+Mu7mes0uCUVSx-2FtbPL0ZCwiLYAj8OgIIVePTLSs-3D ) if you have any questions an=
+d thanks for being part of the Interakt family.
+
+Regards,
+Team Interakt
+
+Unsubscribe ( <%asm_group_unsubscribe_raw_url%> ) - Unsubscribe Preferences=
+ ( <%asm_preferences_raw_url%> )
+--8aabdbd23892ba8546bb2f00dfcdc5675c2cd4ceba7c9585dc948fce0b86
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; =
+background-color:#FFFFFF;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p>=E2=9A=A0=EF=B8=8F  Time to level-up</p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"d6d4d605-dfac-4021-a0d5-c50a2c6301ac">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0sMTOqAmME8tYRPo4yJs3nDxOakvMDyu08i5BRZFNl3YkA1mqzew6VmAgg9d=
+N0XfOg-3D-3DoUka_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEM=
+Na0bSXVEPZKK3wlombVb5GyheCE1tObgedGgQm-2Fj-2FNm85FtIfhGzoOWu5YrFrS0vi4ggOM9=
+m8r7L3MBiQPjpTeyLWMxYeBkg5G9ccz1Ilhuc9RrgRV5bNU7CBmnm9aMPmdRfxRZPOsSv52nayK=
+9fxYDyqam8JGy3v4jcQedRNsRZk1CU5vwnFCFKitKGeGc5wGJK0LP4ffEBFCDdzIu9fmW3dw1VC=
+Cg-2B0VRTIrOgwWQEZP8rJI764RAZvEkQSTB48SxnTus2XxCdC1zMWIDoFWJV059tSwAzjMeamk=
+HiS1W9l8M-2Bqci369Gpnr6SRaTqzo0Ivebhxs6t7lqyzdK-2FeStp-2F3InERcIT9hWr-2BhRt=
+-2BOUUVoiw-3D"><img class=3D"max-width" border=3D"0" style=3D"display:block=
+; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-s=
+erif; font-size:16px; max-width:100% !important; width:100%; height:auto !i=
+mportant;" width=3D"600" alt=3D"" data-proportionally-constrained=3D"true" =
+data-responsive=3D"true" src=3D"http://cdn.mcauto-images-production.sendgri=
+d.net/ccf6b07b7158c0e6/afe89a7f-9255-4bba-ac17-dda28b0a89b0/1000x300.jpeg">=
+</a></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"6f8b1197-f142-43a0-a23a-f45484360a30" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: start"><span styl=
+e=3D"caret-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-va=
+riant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: s=
+tart; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-s=
+pacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial=
+; text-decoration-color: initial; line-height: 1.38; margin-top: 0pt; margi=
+n-bottom: 0pt; background-color: rgb(255, 255, 255); font-variant-ligatures=
+: normal; font-variant-numeric: normal; font-variant-east-asian: normal; te=
+xt-decoration-line: none; text-decoration-thickness: initial; vertical-alig=
+n: baseline; font-size: 14px; font-family: verdana, geneva, sans-serif">Hey=
+ Mohammad,</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.2; margin-left: 0.329849pt; margin=
+-top: 4.16382pt; margin-bottom: 0pt; background-color: transparent; font-va=
+riant-ligatures: normal; font-variant-numeric: normal; font-variant-east-as=
+ian: normal; text-decoration-line: none; text-decoration-thickness: initial=
+; vertical-align: baseline; font-size: 14px; font-family: verdana, geneva, =
+sans-serif">We=E2=80=99d hate to see you leave so soon!</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-numeric: normal; font-variant-east-asian: normal; text-decor=
+ation-line: none; text-decoration-thickness: initial; vertical-align: basel=
+ine; font-size: 14px; font-family: verdana, geneva, sans-serif">We hope the=
+ 14-day free trial is helping your business take flight with top-notch solu=
+tions on WhatsApp.</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-numeric: normal; font-variant-east-asian: normal; text-decor=
+ation-line: none; text-decoration-thickness: initial; vertical-align: basel=
+ine; font-size: 14px; font-family: verdana, geneva, sans-serif">It=E2=80=99=
+s now time to supercharge your business by signing up for Interakt's paid p=
+lan. =F0=9F=92=AF</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-numeric: normal; font-variant-east-asian: normal; text-decor=
+ation-line: none; text-decoration-thickness: initial; vertical-align: basel=
+ine; font-size: 14px; font-family: verdana, geneva, sans-serif">If you=E2=
+=80=99re still in two minds about this, we=E2=80=99ll play out the benefits=
+ for you here.</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; background-color: transparent; font-variant-ligatures: normal; font-=
+variant-numeric: normal; font-variant-east-asian: normal; text-decoration-l=
+ine: none; text-decoration-thickness: initial; vertical-align: baseline; fo=
+nt-size: 14px; font-family: verdana, geneva, sans-serif">With Interakt you =
+get to =F0=9F=91=87</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.80001; margin-top: 3pt; margin-bot=
+tom: 3pt; background-color: rgb(255, 255, 255); font-variant-ligatures: nor=
+mal; font-variant-numeric: normal; font-variant-east-asian: normal; text-de=
+coration-line: none; text-decoration-thickness: initial; vertical-align: ba=
+seline; font-size: 14px; font-family: verdana, geneva, sans-serif">=E2=9C=
+=85 &nbsp;Send product catalogs to customers on WhatsApp as part of campaig=
+ns &amp; auto-replies</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.80001; margin-top: 3pt; margin-bot=
+tom: 3pt; background-color: rgb(255, 255, 255); font-variant-ligatures: nor=
+mal; font-variant-numeric: normal; font-variant-east-asian: normal; text-de=
+coration-line: none; text-decoration-thickness: initial; vertical-align: ba=
+seline; font-size: 14px; font-family: verdana, geneva, sans-serif">=E2=9C=
+=85 &nbsp;Send automated notifications to customers</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.80001; margin-top: 3pt; margin-bot=
+tom: 3pt; background-color: rgb(255, 255, 255); font-variant-ligatures: nor=
+mal; font-variant-numeric: normal; font-variant-east-asian: normal; text-de=
+coration-line: none; text-decoration-thickness: initial; vertical-align: ba=
+seline; font-size: 14px; font-family: verdana, geneva, sans-serif">=E2=9C=
+=85 &nbsp;Create personalized and contextual campaigns with buttons &amp; m=
+edia</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.80001; margin-top: 3pt; margin-bot=
+tom: 3pt; background-color: rgb(255, 255, 255); font-variant-ligatures: nor=
+mal; font-variant-numeric: normal; font-variant-east-asian: normal; text-de=
+coration-line: none; text-decoration-thickness: initial; vertical-align: ba=
+seline; font-size: 14px; font-family: verdana, geneva, sans-serif">=E2=9C=
+=85 &nbsp;Manage all your WhatsApp contacts in one place&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.80001; margin-top: 3pt; margin-bot=
+tom: 3pt; background-color: rgb(255, 255, 255); font-variant-ligatures: nor=
+mal; font-variant-numeric: normal; font-variant-east-asian: normal; text-de=
+coration-line: none; text-decoration-thickness: initial; vertical-align: ba=
+seline; font-size: 14px; font-family: verdana, geneva, sans-serif">=E2=9C=
+=85 &nbsp;Get the full picture of your customers while talking to them with=
+ the help of Smart Cards</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-numeric: normal; font-variant-east-asian: normal; text-decor=
+ation-line: none; text-decoration-thickness: initial; vertical-align: basel=
+ine; font-size: 14px; font-family: verdana, geneva, sans-serif">Interakt ca=
+ters to India=E2=80=99s fastest-growing businesses and now we want to join =
+forces with you!</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-d=
+ecoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom=
+: 0pt; background-color: rgb(255, 255, 255); font-variant-ligatures: normal=
+; font-variant-numeric: normal; font-variant-east-asian: normal; text-decor=
+ation-line: none; text-decoration-thickness: initial; vertical-align: basel=
+ine; font-size: 14px; font-family: verdana, geneva, sans-serif">Hop on boar=
+d - just click the button below to subscribe to a plan that suits your busi=
+ness.</span></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+module" data-role=3D"module-button" data-type=3D"button" role=3D"module" st=
+yle=3D"table-layout:fixed;" width=3D"100%" data-muid=3D"0b284e88-aff4-497c-=
+b12f-b69bcb5cad41">
+      <tbody>
+        <tr>
+          <td align=3D"center" bgcolor=3D"" class=3D"outer-td" style=3D"pad=
+ding:0px 0px 0px 0px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"wrapper-mobile" style=3D"text-align:center;">
+              <tbody>
+                <tr>
+                <td align=3D"center" bgcolor=3D"#198217" class=3D"inner-td"=
+ style=3D"border-radius:6px; font-size:16px; text-align:center; background-=
+color:inherit;">
+                  <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=
+=3DXtSSqkA7o5sYTQ1Kkx-2Fi0sMTOqAmME8tYRPo4yJs3nDxOakvMDyu08i5BRZFNl3YkA1mqz=
+ew6VmAgg9dN0XfOg-3D-3DHr0b_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFI=
+QfRLaM3hEMNa0bSXVEPZKK3wlombVb5GyheCE1tObgedGgQm-2Fj-2FNm85FtIfhGzoOWu5YrFr=
+S0vi4ggOM9m8r7L3MBiQPjpTeyLWMxYeBkg5G9ccz1Ilhuc9RrgRV5bNU7CBmnm9aMPmdRfxRZP=
+OsSv52nayK9fxYDyqam8JGy3v4jcQedRNsRZk1CU5vwnFCFKitKGeGc5wGJK0LP4ffEBFCDdzIu=
+9fmW3dw1dG6jobZJ59-2BcAkpkI2LHp2lRTxGWEGb1eayjuEmYvgcxlvFD7bIwB5t3H1bfu1MIs=
+hhnPz-2FsX0P88-2BgWuJyIOJT6SY1hXXSRSgqc-2FJXmfJYS8EDSS0XqVY8vCVSxfLnku5dcQ0=
+ezEHUIdcb6Z0Y7Sc-3D" style=3D"background-color:#198217; border:1px solid #0=
+00000; border-color:#000000; border-radius:8px; border-width:1px; color:#ff=
+ffff; display:inline-block; font-weight:normal; letter-spacing:0px; padding=
+:12px 18px 12px 18px; text-align:center; text-decoration:none; border-style=
+:solid; font-size:14px; line-height:normal;" target=3D"_blank">Upgrade Now<=
+/a>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table><table class=3D"module" role=3D"module" data-type=3D"text" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"1b965e25-cea1-49a3-814b-a4fe52fbc526" data-mc-=
+module-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: inherit"><span st=
+yle=3D"font-family: verdana, geneva, sans-serif">Reach out to us on </span>=
+<a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1=
+Kkx-2Fi0u-2B8ATP8C5bIO2AFqOJlnt8KO26tsP2p4GHcNsvFh5b0NRxW-2FnR5K6O4raaZw9XI=
+xEu-2FJCgjc5KVY5ogBAZx9Ju6jgE842Lv3nTXCwHezon-2Fzx8kZYDOcLtejjVGWrEzJC0LdK9=
+gIj2Bx-2BKMLQIH8LnqvMSPPpW85eYB0dGU5GozmQoJvgIXzaL4QWl2RSiMC4KwqnVUZ6hbL4w1=
+CRGxATFQtNQzrh-2B55Eok0dHKAOxkKff-_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T=
+8f7XPdFIQfRLaM3hEMNa0bSXVEPZKK3wlombVb5GyheCE1tObgedGgQm-2Fj-2FNm85FtIfhGzo=
+OWu5YrFrS0vi4ggOM9m8r7L3MBiQPjpTeyLWMxYeBkg5G9ccz1Ilhuc9RrgRV5bNU7CBmnm9aMP=
+mdRfxRZPOsSv52nayK9fxYDyqam8JGy3v4jcQedRNsRZk1CU5vwnFCFKitKGeGc5wGJK0LP4ffE=
+BFCDdzIu9fmW3dw1ZCp570a4l7hFWZqHXOFyKoohqkYce6mMCyO-2Blu7bFhMesE1ksmuAiauxp=
+ObEiu2RBOqgQDBbHmMzif9eAz494yWtdDfAfIwWSg2GD0ksqTZb-2FVllgDdXMXlXPN1Db94B0i=
+DUxIF8MKV3JJQdSIT3j8-3D"><span style=3D"font-family: verdana, geneva, sans-=
+serif">WhatsApp</span></a><span style=3D"font-family: verdana, geneva, sans=
+-serif"> if you have any questions and thanks for being part of the Interak=
+t family.</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: verdana, geneva, sans-serif"><br>
+</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: verdana, geneva, sans-serif">Regards,</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: verdana, geneva, sans-serif">Team Interakt</span></div><div></div=
+></div></td>
+      </tr>
+    </tbody>
+  </table><div data-role=3D"module-unsubscribe" class=3D"module" role=3D"mo=
+dule" data-type=3D"unsubscribe" style=3D"color:#444444; font-size:12px; lin=
+e-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid=
+=3D"4e838cf3-9892-4a6d-94d6-170e474d21e5"><div class=3D"Unsubscribe--addres=
+sLine"></div><p style=3D"font-size:12px; line-height:20px;"><a target=3D"_b=
+lank" class=3D"Unsubscribe--unsubscribeLink zzzzzzz" href=3D"<%asm_group_un=
+subscribe_raw_url%>" style=3D"">Unsubscribe</a> - <a href=3D"<%asm_preferen=
+ces_raw_url%>" target=3D"_blank" class=3D"Unsubscribe--unsubscribePreferenc=
+es" style=3D"">Unsubscribe Preferences</a></p></div></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    If you'd like to unsubscribe and stop receiving these emails <a href=3D=
+"https://u18867331.ct.sendgrid.net/wf/unsubscribe?upn=3DQFWB4BCTtzCIRKos7Yr=
+rfGruvICN-2F3Wl3PHaGMh5yALzZmvyk41p1zsILxt6x8e0R9t7l-2FL5CKOYo3l9fjX6-2F69P=
+-2Bh5PMTZLBzI7-2F7Hnc8-2FkoNYxlNi9FDEW0R7vYIZDmh4mfpBvYH1YPfSzk0Q28p0bh11oI=
+q7Rei9RpQnkxyVUfqMXleDfF1bbNiHbyCq3nk7dH8XIRj9rMnLpant-2BTVYPnetQYfmZNggxpz=
+fJNDDWH6Rty0VvQid5LBx80uPY-2BGN3pZx8jSNAbBD8e0kfeBFnkB7yeU2A9rZLNXKFP98Blf7=
+A5xSpL94REqJVVkjpLpZH2kX1jYXr0x2FVyeLnmhaiVMcAPlcGw-2BeWLK3CUbD9dfz0wXkWKSh=
+ssK1a5-2BH4xkIB-2B812X6fLOWMgBf1YhJIllN0UFeBQQ-2FUSGflFD3IXl0KBqvfdRnLM-2BY=
+I7cie"> click here </a>.<img src=3D"https://u18867331.ct.sendgrid.net/wf/op=
+en?upn=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALzZmvyk41p1zsILxt6x8e0=
+R9t7l-2FL5CKOYo3l9fjX6-2F69P-2Bh5PMTZLBzI7-2F7Hnc8-2FkoNYxlNi9FDEW0R7vYIZDm=
+h4mfpBvYH1YPfSzk0Q28p0bh11oIq7Rei9RpQnkxyVUfqMXleDfF1bbNiHbyCq3nk7dH8XIRj9r=
+MnLpant-2BTVYPnetQYfmZNggxpzfJNDDWH6Rty0VvQid5LBx80uPY-2BGN3pZx8jSNAbBD8e0k=
+feMTMdRFKvW3Xx6f-2FT5fRfrPDC0LqoVwZ4r-2BwDrFwrgSKJbTXyVcGiq4e-2BRx6glXoqk73=
+6sJU5rvzMi61yGAKt6iFTwzl0YRPd441HNQ8gpQM9X8WppUzybLZTaA6CYzP1djnY-2B4pxm4Mx=
+Tw0YEdtSaS0XCcjxJ18oD-2FZTtLTtLnM" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"/></bo=
+dy>
+  </html>
+--8aabdbd23892ba8546bb2f00dfcdc5675c2cd4ceba7c9585dc948fce0b86--

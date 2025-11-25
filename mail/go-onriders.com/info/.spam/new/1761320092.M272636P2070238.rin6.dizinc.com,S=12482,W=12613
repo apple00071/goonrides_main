@@ -1,0 +1,131 @@
+Return-Path: <sales@c3-could.fit>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id jZyBDpyc+2jelh8AQ+45pw
+	(envelope-from <sales@c3-could.fit>)
+	for <info+spam@go-onriders.com>; Fri, 24 Oct 2025 11:34:52 -0400
+Return-path: <sales@c3-could.fit>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 24 Oct 2025 11:34:52 -0400
+Received: from c3-could.fit ([188.132.141.51]:37303)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <sales@c3-could.fit>)
+	id 1vCJoa-00000008gCu-3nqJ
+	for info@go-onriders.com;
+	Fri, 24 Oct 2025 11:34:51 -0400
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=default; d=c3-could.fit;
+ h=Reply-To:From:To:Subject:Date:Message-ID:MIME-Version:Content-Type; i=sales@c3-could.fit;
+ bh=qB98a/5xFvpnk/0aZBwdkOLu0i0=;
+ b=hMn3i6/DFaexBQ5mkSyHnl/hjJ7qmXspEE2oCiqVPTjrn60Zz+E6tcUqb4zeche/QkbnNwXlJzIE
+   A7GK8IrxcMyjKTD70yJKLRChstSMjD+lZB7IE1Ey4PcBa/M54zI/JgD5VNv46JqhJ91dyv8ux3+h
+   4XrFYW6ZdosoO5wTdqE=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=default; d=c3-could.fit;
+ b=P+TCwLuBK6o2RpZ/9KUlMG2sdk+NxsFzj9qDhAYMmu6gGoT+1K0+SuPWsaKvka0cbRyOhaehtEXF
+   a1UkrCJDqg7h7kPj749lMZTeyxJ5seIUHZIPMZyEG/N+7piXIqLYsfdC6ysZL5zWW0A+h/E/RZHB
+   DCVIjsxTMHTPKmMuJS4=;
+Reply-To: edwardharrison54@aol.com
+From: Edward Harrison <sales@c3-could.fit>
+To: info@go-onriders.com
+Date: 24 Oct 2025 23:34:04 +0800
+Message-ID: <20251024233403.A25F2DC68A8E59E9@c3-could.fit>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="----=_NextPart_000_0012_42931726.370BAD1B"
+X-MagicSpam-TUUID: 4a04f837-29ce-4d53-83f6-600d436cbb96
+X-MagicSpam-SUUID: d43ac19e-0c47-4db4-9581-e513272ebe68
+X-Spam-Status: Yes, score=7.7
+X-Spam-Score: 77
+X-Spam-Bar: +++++++
+X-Spam-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22rin6=2Edizinc=2Ec?= =?ISO-8859-1?Q?om=22=2C=0A_has_identified_this_incoming_email_as_pos?= =?ISO-8859-1?Q?sible_spam=2E__The_original=0A_message_has_been_attac?= =?ISO-8859-1?Q?hed_to_this_so_you_can_view_it_or_label=0A_similar_fu?= =?ISO-8859-1?Q?ture_email=2E__If_you_have_any_questions=2C_see=0A_ro?= =?ISO-8859-1?Q?ot=5C=40localhost_for_details=2E=0A_Content_preview=3A_?= =?ISO-8859-1?Q?_Dear_info=2C_I_hope_this_message_finds_you_well=2E_=0A_?= =?ISO-8859-1?Q?Content_analysis_details=3A___=287=2E7_points=2C_5=2E0?= =?ISO-8859-1?Q?_required=29=0A__pts_rule_name______________descripti?= =?ISO-8859-1?Q?on=0A_----_----------------------_-------------------?= =?ISO-8859-1?Q?-------------------------------=0A__0=2E0_URIBL=5FBLO?= =?ISO-8859-1?Q?CKED__________ADMINISTRATOR_NOTICE=3A_The_query_to_UR?= =?ISO-8859-1?Q?IBL_was_blocked=2E=0A_____________________________See?= =?ISO-8859-1?Q?=0A_____________________________http=3A//wiki=2Eapach?= =?ISO-8859-1?Q?e=2Eorg/spamassassin/DnsBlocklists#dnsbl-block=0A____?= =?ISO-8859-1?Q?__________________________for_more_information=2E=0A_?= =?ISO-8859-1?Q?____________________________=5BURI=3A_c3-could=2Efit=5D=0A?= =?ISO-8859-1?Q?__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL=5FBLOCKED_RBL=3A_?= =?ISO-8859-1?Q?ADMINISTRATOR_NOTICE=3A_The_query_to=0A______________?= =?ISO-8859-1?Q?________________Validity_was_blocked=2E__See=0A______?= =?ISO-8859-1?Q?_______________________https=3A//knowledge=2Evalidity?= =?ISO-8859-1?Q?=2Ecom/hc/en-us/articles/20961730681243=0A___________?= =?ISO-8859-1?Q?___________________for_more_information=2E=0A________?= =?ISO-8859-1?Q?____________________=5B188=2E132=2E141=2E51_listed_in?= =?ISO-8859-1?Q?_bl=2Escore=2Esenderscore=2Ecom=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRAT?= =?ISO-8859-1?Q?OR_NOTICE=3A_The=0A_____________________________query?= =?ISO-8859-1?Q?_to_Validity_was_blocked=2E__See=0A__________________?= =?ISO-8859-1?Q?___________https=3A//knowledge=2Evalidity=2Ecom/hc/en?= =?ISO-8859-1?Q?-us/articles/20961730681243=0A_______________________?= =?ISO-8859-1?Q?_______for_more_information=2E=0A____________________?= =?ISO-8859-1?Q?_____=5B188=2E132=2E141=2E51_listed_in_sa-trusted=2Eb?= =?ISO-8859-1?Q?ondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FS?= =?ISO-8859-1?Q?AFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_quer?= =?ISO-8859-1?Q?y_to=0A______________________________Validity_was_blo?= =?ISO-8859-1?Q?cked=2E__See=0A_____________________________https=3A/?= =?ISO-8859-1?Q?/knowledge=2Evalidity=2Ecom/hc/en-us/articles/2096173?= =?ISO-8859-1?Q?0681243=0A______________________________for_more_info?= =?ISO-8859-1?Q?rmation=2E=0A_____________________________=5B188=2E13?= =?ISO-8859-1?Q?2=2E141=2E51_listed_in_sa-accredit=2Ehabeas=2Ecom=5D=0A?= =?ISO-8859-1?Q?_-0=2E0_SPF=5FHELO=5FPASS__________SPF=3A_HELO_matche?= =?ISO-8859-1?Q?s_SPF_record=0A_-0=2E0_SPF=5FPASS_______________SPF=3A_?= =?ISO-8859-1?Q?sender_matches_SPF_record=0A_-0=2E1_DKIM=5FVALID=5FAU?= =?ISO-8859-1?Q?__________Message_has_a_valid_DKIM_or_DK_signature_fr?= =?ISO-8859-1?Q?om_author's=0A_____________________________domain=0A_?= =?ISO-8859-1?Q?_0=2E1_DKIM=5FSIGNED____________Message_has_a_DKIM_or?= =?ISO-8859-1?Q?_DK_signature=2C_not_necessarily_valid=0A_-0=2E1_DKIM?= =?ISO-8859-1?Q?=5FVALID=5FEF__________Message_has_a_valid_DKIM_or_DK?= =?ISO-8859-1?Q?_signature_from=0A_____________________________envelo?= =?ISO-8859-1?Q?pe-from_domain=0A_-0=2E1_DKIM=5FVALID_____________Mes?= =?ISO-8859-1?Q?sage_has_at_least_one_valid_DKIM_or_DK_signature=0A__?= =?ISO-8859-1?Q?0=2E3_FROM=5FFMBLA=5FNEWDOM______From_domain_was_regi?= =?ISO-8859-1?Q?stered_in_last_7_days=0A__0=2E0_MILLION=5FUSD________?= =?ISO-8859-1?Q?____BODY=3A_Talks_about_millions_of_dollars=0A__0=2E2?= =?ISO-8859-1?Q?_FREEMAIL=5FREPLYTO=5FEND=5FDIGIT_Reply-To_freemail_u?= =?ISO-8859-1?Q?sername_ends_in_digit=0A_____________________________?= =?ISO-8859-1?Q?=5Bedwardharrison54=28at=29aol=2Ecom=5D=0A__1=2E1_PDS?= =?ISO-8859-1?Q?=5FOTHER=5FBAD=5FTLD______Untrustworthy_TLDs=0A______?= =?ISO-8859-1?Q?_______________________=5BURI=3A_c3-could=2Efit_=28fi?= =?ISO-8859-1?Q?t=29=5D=0A__0=2E1_MIME=5FHTML=5FONLY_________BODY=3A_?= =?ISO-8859-1?Q?Message_only_has_text/html_MIME_parts=0A__0=2E0_HTML=5FM?= =?ISO-8859-1?Q?ESSAGE___________BODY=3A_HTML_included_in_message=0A_?= =?ISO-8859-1?Q?_0=2E5_FROM=5FSUSPICIOUS=5FNTLD___From_abused_NTLD=0A_?= =?ISO-8859-1?Q?_2=2E0_FROM=5FSUSPICIOUS=5FNTLD=5FFP_From_abused_NTLD?= =?ISO-8859-1?Q?=0A__0=2E0_LOTS=5FOF=5FMONEY__________Huge=2E=2E=2E_s?= =?ISO-8859-1?Q?ums_of_money=0A__1=2E8_FREEMAIL=5FFORGED=5FREPLYTO_Fr?= =?ISO-8859-1?Q?eemail_in_Reply-To=2C_but_not_From=0A__0=2E9_FROM=5FN?= =?ISO-8859-1?Q?TLD=5FREPLY=5FFREEMAIL_From_abused_NTLD_and_Reply-To_?= =?ISO-8859-1?Q?is_FREEMAIL=0A__1=2E0_MONEY=5FFREEMAIL=5FREPTO___Lots?= =?ISO-8859-1?Q?_of_money_from_someone_using_free_email=3F?=
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Investment & Funding Opportunities for Your Organization
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0012_42931726.370BAD1B
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML>
+
+<html><head><title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+</head>
+<body style=3D"margin: 0.4em;"><p>Dear info,</p><p>I hope this message find=
+s you well.</p><p>We represent a global financial advisory firm connecting =
+businesses with private investors and institutional partners. Our investors=
+ are currently seeking opportunities for equity partnerships, debt financin=
+g, and direct project loans, with funding available from USD 1 million to U=
+SD 10 billion across multiple sectors.</p><p>
+We would be pleased to discuss how our network of investors and banking par=
+tners can support your growth and project objectives.</p><p>Please find att=
+ached INVESTMENT_FUNDING_OPPORTUNITY_LETTER for your review. I&#8217;ll be =
+waiting for your response so I can share more detailed information tailored=
+ to your project or organization.</p><p>Kind regards,<br>Edward Harrison<br=
+>Managing Director<br>Sterling Capital Partners Ltd</p></body></html>
+------=_NextPart_000_0012_42931726.370BAD1B
+Content-Type: application/pdf; name="Investment_Funding_Opportunity_Letter.pdf"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Investment_Funding_Opportunity_Letter.pdf"
+
+JVBERi0xLjQKJZOMi54gUmVwb3J0TGFiIEdlbmVyYXRlZCBQREYgZG9jdW1lbnQgaHR0cDov
+L3d3dy5yZXBvcnRsYWIuY29tCjEgMCBvYmoKPDwKL0YxIDIgMCBSIC9GMiAzIDAgUgo+Pgpl
+bmRvYmoKMiAwIG9iago8PAovQmFzZUZvbnQgL0hlbHZldGljYSAvRW5jb2RpbmcgL1dpbkFu
+c2lFbmNvZGluZyAvTmFtZSAvRjEgL1N1YnR5cGUgL1R5cGUxIC9UeXBlIC9Gb250Cj4+CmVu
+ZG9iagozIDAgb2JqCjw8Ci9CYXNlRm9udCAvSGVsdmV0aWNhLUJvbGQgL0VuY29kaW5nIC9X
+aW5BbnNpRW5jb2RpbmcgL05hbWUgL0YyIC9TdWJ0eXBlIC9UeXBlMSAvVHlwZSAvRm9udAo+
+PgplbmRvYmoKNCAwIG9iago8PAovQ29udGVudHMgOCAwIFIgL01lZGlhQm94IFsgMCAwIDU5
+NS4yNzU2IDg0MS44ODk4IF0gL1BhcmVudCA3IDAgUiAvUmVzb3VyY2VzIDw8Ci9Gb250IDEg
+MCBSIC9Qcm9jU2V0IFsgL1BERiAvVGV4dCAvSW1hZ2VCIC9JbWFnZUMgL0ltYWdlSSBdCj4+
+IC9Sb3RhdGUgMCAvVHJhbnMgPDwKCj4+IAogIC9UeXBlIC9QYWdlCj4+CmVuZG9iago1IDAg
+b2JqCjw8Ci9QYWdlTW9kZSAvVXNlTm9uZSAvUGFnZXMgNyAwIFIgL1R5cGUgL0NhdGFsb2cK
+Pj4KZW5kb2JqCjYgMCBvYmoKPDwKL0F1dGhvciAoXChhbm9ueW1vdXNcKSkgL0NyZWF0aW9u
+RGF0ZSAoRDoyMDI1MTAwNjEyMzA0MyswMCcwMCcpIC9DcmVhdG9yIChcKHVuc3BlY2lmaWVk
+XCkpIC9LZXl3b3JkcyAoKSAvTW9kRGF0ZSAoRDoyMDI1MTAwNjEyMzA0MyswMCcwMCcpIC9Q
+cm9kdWNlciAoUmVwb3J0TGFiIFBERiBMaWJyYXJ5IC0gd3d3LnJlcG9ydGxhYi5jb20pIAog
+IC9TdWJqZWN0IChcKHVuc3BlY2lmaWVkXCkpIC9UaXRsZSAoXChhbm9ueW1vdXNcKSkgL1Ry
+YXBwZWQgL0ZhbHNlCj4+CmVuZG9iago3IDAgb2JqCjw8Ci9Db3VudCAxIC9LaWRzIFsgNCAw
+IFIgXSAvVHlwZSAvUGFnZXMKPj4KZW5kb2JqCjggMCBvYmoKPDwKL0ZpbHRlciBbIC9BU0NJ
+STg1RGVjb2RlIC9GbGF0ZURlY29kZSBdIC9MZW5ndGggMTYxNgo+PgpzdHJlYW0KR2F0PSpn
+TiklLCY6TzpTbHBJXEdabmI5UCdKOSImOjdUTUdXU0xhTDoxc0orT1YhM0wiO2gtJ1UzcUEi
+NVtEVWQ8XGJQUC89SFM0RXFcaiYsU106JktZS3JNRj45T1Q/NzF1NTFnPGU+NzJhQFFrXTFr
+O3EnPVldYltXXVdQQHVfPjoyZzdCRUVGcEYkLWpsRUYhSS4oMFU1T1ZrIlZcVzJqQytYUFlK
+JiNYTnNLV2djQj5LOl9nWlNOR3FTPiU1VWIhQSpNLiRkMGxDa1V0S1suZy06OiFybDFpWDsi
+Pzw1PzYhWWIsZnVmbFBdJi1xWW9JNi0tL1xrXGJqZTo+b00yTnVGWiE2XElca1l1LlhkXTk5
+ciFcYFEjTT1aPiVnOydsLjU0XDlfKW1TY0RLVz1FbkAwdDhwazJGQlFaalcxNjFxSUdrLTUz
+cTtjQGFiLXQjVmhoT0FcQCxHJD5wU2VYL0VGc3M7K0ovNG9OSVRDSzQnTHAoUD9TQWUyN0ps
+T1MvK0dWUThaPU4yNCQnWmsnNmVIaC5OXk81Tk9uXlAhJHVjaCksWkBqaHFTQTwoVDRYTnQ7
+OmlLdG4/UD0ySl5ZXygvSTVKZV5WKEMhS2VkJ1NbRWE9QV4yV0VnZG1rPFteMWg6aldXaTEw
+KmFvTzFoO2NQYDxfJ1NkMi9bPVhSSj9sTy01LVFGW1shMDBqOy5IbVNSQXFaLjAyW2UwXT5d
+Ik4vY0kmYCwwWCtpbHFrJC84LWlhSD9DaCo9M18mQ2tTYTlTdUhpPi4+a10qJjAuRShaWlYn
+Sz4oLjFQYCIkL2NlVEtXKz0yQkkjM2tiLUNHOCdhaW1EaWRLIlpVTUwlanI1Ol5UVSlgQnMn
+V0kuSm5yJ0g0YiY3S1tjM1xJSDUvNyFaTFNMSlddLXElLjZBNkE7ZEpdRV50R05SSzBFPm1s
+Lys+NC0+RC44bnRvLVZoUHVaSi1fZ2dVNGhVX1Y6NG1UWjA0bFU3ZzlmRGt1NWRaLjBvKTZx
+KytlXkFvRm1jK15cXGREMlx1U0lzRSNfOD4hcFw+SDpPZ1FrajxwSUc2NjIsaFFDY1tNT2ZU
+QyUvS1M4UWBIRCZRN28lPDJxMz9zL0VXQlpWc2kpcTQjPm1WWkNKQkokJVBYTF1NL2g5bXN1
+MFRLWkNdbW8iNyQhWkMxJ1czWyNTYEVvZF1acD5PajUnN05gMzxiOEBPbXBhYElxY0NhYiss
+dSFwJ3BhK1tNTFZrMHVIPFBuYktbJUVkOCpfN1swQnElaSghKUxyLicqUlskKk9fLGlLRGlz
+Jz4tX29qOjZqSVdPamVHRDkjJytoZExDb1tCOCZVREckXWFAITBkPWFVPmhkVVdVJmE8VCUs
+TUxgKVVTOzJgY01PZDwxPiZFaEZsPEwyXy5hTVFHMkgncjM/PCJxbCs1VTFmKS10ZnUqO1Mh
+UFEoLkpmLTUtOGtcT1xpazhjVlVGZVRRNmI7OW9MNS07UCdQcD4/RSFRL24zJFl0SCJORkxU
+WEYscnQ5PiMiVDhDcmpLLSovOG9DRVlHM2hEIjk/K1FRMDBiNCx1QC5wV0dlP3VfXm1VW2Un
+YGJMPmZRVU01SGtSLXFAbmM7XEs1PnIrZW5YQEBEWGVAcl5KWWphbyJONSwrYEtWNkNFT1JW
+Nj1QLjgzOEhKLDhhMEQtYTxjUzFXOlZbcCxLW1YlYSstImlPLUIuXTxwLVA+UihrMSIwPzhh
+IzdbLz8mUGFhZlFYKkxCJVtZK1JPZ18raVJPPnBHaFpeRGYwRnU+I2Jkby4iczYsJlI+K080
+NTxqLjVrSWZjcGkzcm4vOlNSVkosYWVRRzgtKi00IytRNj8wYk9XSVhaVzQ3Y2xzRUosQG4l
+cSpgIk1dIUJdbmwkPlo0PiwnOUxrckByZ0pyWio3byIzQ2VIOE9DdS4kYGUwWGoqYURSO0lT
+S0RKXCYqS2hUZlUjM19sQ0hxUGpFY2k8NmZiXjNTdTBYV0VDOHBnMzVQWUB0IyN0Wz5GL3Q4
+RFYsYGZuKFo8WTowXWBpK2kvKlgzamhUYXUyVDljKEdZSlUoXWstNElbUWZQQz5wRkxxOjZb
+X2hnMVVJWTJFSDUwcGRdMnJWSCYoc0E7Rm41R0ZvPiUnRlJoWC1wTjBefj5lbmRzdHJlYW0K
+ZW5kb2JqCnhyZWYKMCA5CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDA3MyAwMDAwMCBu
+IAowMDAwMDAwMTE0IDAwMDAwIG4gCjAwMDAwMDAyMjEgMDAwMDAgbiAKMDAwMDAwMDMzMyAw
+MDAwMCBuIAowMDAwMDAwNTM2IDAwMDAwIG4gCjAwMDAwMDA2MDQgMDAwMDAgbiAKMDAwMDAw
+MDg4NyAwMDAwMCBuIAowMDAwMDAwOTQ2IDAwMDAwIG4gCnRyYWlsZXIKPDwKL0lEIApbPDFi
+NmFiNjUyOTY3NjliNTMyOGNlOWVmOTUwZmY1ZGRiPjwxYjZhYjY1Mjk2NzY5YjUzMjhjZTll
+Zjk1MGZmNWRkYj5dCiUgUmVwb3J0TGFiIGdlbmVyYXRlZCBQREYgZG9jdW1lbnQgLS0gZGln
+ZXN0IChodHRwOi8vd3d3LnJlcG9ydGxhYi5jb20pCgovSW5mbyA2IDAgUgovUm9vdCA1IDAg
+UgovU2l6ZSA5Cj4+CnN0YXJ0eHJlZgoyNjUzCiUlRU9GCg==
+
+------=_NextPart_000_0012_42931726.370BAD1B--

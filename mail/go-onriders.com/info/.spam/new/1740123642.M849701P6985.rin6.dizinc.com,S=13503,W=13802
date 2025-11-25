@@ -1,0 +1,299 @@
+Return-Path: <praneel@mobrilztechnologies.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 6OclMvotuGdJGwAAQ+45pw
+	(envelope-from <praneel@mobrilztechnologies.com>)
+	for <info+spam@go-onriders.com>; Fri, 21 Feb 2025 02:40:42 -0500
+Return-path: <praneel@mobrilztechnologies.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 21 Feb 2025 02:40:42 -0500
+Received: from mail-pl1-f195.google.com ([209.85.214.195]:55701)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <praneel@mobrilztechnologies.com>)
+	id 1tlNeN-000000009zC-3gOp
+	for info@go-onriders.com;
+	Fri, 21 Feb 2025 02:40:42 -0500
+Received: by mail-pl1-f195.google.com with SMTP id d9443c01a7336-220bff984a0so34511435ad.3
+        for <info@go-onriders.com>; Thu, 20 Feb 2025 23:40:21 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=mobrilztechnologies-com.20230601.gappssmtp.com; s=20230601; t=1740123600; x=1740728400; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=t6j5jsV0j3PLzzEM60FyFKPVKZl2TLt/kwaKrkNEnnU=;
+        b=XsgAA1N4H9/JmxXXgSlwIHD8MS2RrNmXU6YTaAmpsClk7itRnDFTj1Yv6AW8cDzH7i
+         oWZD8ymQ0lXiSZHO2IFg2qnYd6+3AoumXwdh3xYxgOtpojSHeXb+pVxpbs+kaWsbgbRn
+         fGKPuFOqSSVDOANbLtBkpwlgW4ozXPPri1ihB9JBt0qMqBGB+QVplEtQB08+74hI6v/Y
+         eP7tNxfFf+J9hJkRY1vZx5aAh7LwXe+Fe94W7/U6Wc+UnXYyIg/PTA7kPm2U9t/nndzN
+         h6CkIdRgHLhlLZCeQV7jWA8qt0sO01jTdAOI+QEuxlq77Tetdx5M3cEZtrEOIwA3s74s
+         1aJw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1740123600; x=1740728400;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=t6j5jsV0j3PLzzEM60FyFKPVKZl2TLt/kwaKrkNEnnU=;
+        b=CNAjbNSToaMY3dv37i2FU86+d0UrjlcGIUSele2kssu7820PE17x7PTn4/JtcJdpjv
+         dVGzcyaZjJY/shmWbAjY9bR+KxkyW8qVoqwwjDs+t6tYCZ6zpC5MoB37fmskRUTay5Jb
+         OEnod4RXOJSlQfPCys+HVfFhK5BlxknUrrMMl+aXlB4Q+ptwk4EIGKfUFXWcY07UMS+F
+         20yZU/MGe1RwM/LwDktJUDXRni9JGq0D7EhMQM9eNsZjLJ83ClFuVyFBA2LHQC4Z4+nF
+         TWwgnqT8DWUAiXQNBYElwUZufeZuE+dWcD8WQnN9bz6qobEr4smjygfzrhRHhtmlzSFl
+         itaA==
+X-Gm-Message-State: AOJu0Yyeku9gXRAjvUnUjWD4sZFG/XcjQLx+i56U9kPJ2alykqV93a/i
+	WA0cBlSw4k0IP1lL2TaCd3bkxZE8arqu0XDnwxjkbJXHvXQpRTQKby+ymrP4cSq2mPsaXL7h8JB
+	BRhM=
+X-Gm-Gg: ASbGnctiokQxngIhFg6eaNoQW9IISzkGBKFEuD0NOzuEdbZZiwNh7Gznu6rk4uysTuA
+	oWSEqX68GSoBzCtq5/Y+8C7W8TT096WhIccIlH31/Lq6xUZHU9zfawz8sSlCHxF1dgw2BHdgu85
+	jBy1vKfLrQmoaTqJA7sL5aiusg2SUTQztwz/jSwWGaO7rkcewfnhN5PDFOl1Bnl/CX0Fz8KdGcY
+	krrlngyhjdY074Qu/1TNjWkJSiBCnNT1WpIvORyIGlizMpKwpauCTH+Fj6RXKTfogaob6tsSBio
+	/WjB5qu8oWbqJeukk5yItLrwWqaWt2me00pXFSrUlTjYTC6vpWM+aGQ=
+X-Google-Smtp-Source: AGHT+IHKZCJbV3i/SBb4bVdlz8OH5pbxboKsF4qqg4724SSDchdd93wrmpkxvIDWs/l8CkNRI842bQ==
+X-Received: by 2002:a17:902:d581:b0:21f:617a:f1b2 with SMTP id d9443c01a7336-2219ffd21bamr42748785ad.46.1740123600371;
+        Thu, 20 Feb 2025 23:40:00 -0800 (PST)
+Received: from DESKTOPONO6A2Q ([2401:4900:1c23:5db:b955:d3db:11a2:b247])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-2fceb09f6e0sm648081a91.44.2025.02.20.23.39.58
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 20 Feb 2025 23:39:59 -0800 (PST)
+From: "Praneel" <praneel@mobrilztechnologies.com>
+To: <info@go-onriders.com>
+Date: Fri, 21 Feb 2025 12:59:45 +0530
+Message-ID: <1f5fe01db8433$d0d43bd0$727cb370$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1F5FF_01DB8461.EA8C77D0"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AduDi6l/32nE183ISDmXCDR1P4ybTw==
+Content-Language: en-in
+X-MagicSpam-TUUID: bf736c14-e409-4397-b271-2e8a7af907a8
+X-MagicSpam-SUUID: e11b3434-96a4-4aa1-83de-33efb53d933d
+X-Spam-Status: Yes, score=9.8
+X-Spam-Score: 98
+X-Spam-Bar: +++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info@go-onriders.com, I hope you are fine. We are an India
+    based website design and development company with PHP development offering
+    services at a moderate price. We have a dedicated team of over 100 professionals
+    with over 12 years of experi [...] 
+ Content analysis details:   (9.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in mobrilztechnologies.com.wild.pccc.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.214.195 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.214.195 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.214.195 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 FROM_FMBLA_NEWDOM28    From domain was registered in last 14-28 days
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Website Upgrade Opportunity
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_1F5FF_01DB8461.EA8C77D0
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@go-onriders.com,
+
+ 
+
+I hope you are fine.
+
+ 
+
+We are an India based website design and development company with PHP
+development offering services at a moderate price. We have a dedicated team
+of over 100 professionals with over 12 years of experience and live by the
+idea that design makes a difference.
+
+ 
+
+1. Do you want to create a new company website?
+
+ 
+
+2. Do you want to redesign/revamp your website with a new, modern, and
+industry-standard look?
+
+ 
+
+We use the latest technologies, user-friendly CMS, and frameworks for
+designing a professional website such as: WordPress, Magento 2.0, Core PHP,
+Laravel, Node js, Vue js, React js, Angular js and Shopify.
+
+ 
+
+Let me know if you're ready to talk about a possible website
+redesign/redesign or a new website design.
+
+ 
+
+I am waiting for your reply.
+
+ 
+
+Best regards
+
+Praneel
+
+
+------=_NextPart_000_1F5FF_01DB8461.EA8C77D0
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.xmsonormal, li.xmsonormal, div.xmsonormal
+	{mso-style-name:x_msonormal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p.xxmsonormal, li.xxmsonormal, div.xxmsonormal
+	{mso-style-name:x_xmsonormal;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US link=3Dblue =
+vlink=3Dpurple><div class=3DWordSection1><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span =
+style=3D'font-size:12.0pt'>Hi&nbsp;info@go-onriders.com,</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>I hope you are =
+fine.</span></p><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>We are an India based =
+website design and development company with PHP development offering =
+services at a moderate price. We have a dedicated team of over 100 =
+professionals with over 12 years of experience and live by the idea that =
+design makes a difference.</span></p><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>1. Do you want to create a =
+new company website?</span></p><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>2. Do you want to =
+redesign/revamp your website with a new, modern, and industry-standard =
+look?</span></p><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>We use the latest =
+technologies, user-friendly CMS, and frameworks for designing a =
+professional website such as: WordPress, Magento 2.0, Core PHP, Laravel, =
+Node js, Vue js, React js, Angular js and Shopify.</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>Let me know if you're =
+ready to talk about a possible website redesign/redesign or a new =
+website design.</span></p><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>I am waiting for your =
+reply.</span></p><p class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>&nbsp;</span></p><p =
+class=3Dxxmsonormal =
+style=3D'margin-bottom:0cm;margin-bottom:.0001pt;line-height:normal;backg=
+round:white'><span style=3D'font-size:12.0pt'>Best regards</span></p><p =
+class=3DMsoNormal><span =
+style=3D'font-size:12.0pt;line-height:115%;background:white'>Praneel</spa=
+n></p></div></body></html>
+------=_NextPart_000_1F5FF_01DB8461.EA8C77D0--
+

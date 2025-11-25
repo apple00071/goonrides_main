@@ -1,0 +1,256 @@
+Return-Path: <valentina@logikump.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id mDWoNHMyQGcZZxMAQ+45pw
+	(envelope-from <valentina@logikump.com>)
+	for <info@go-onriders.com>; Fri, 22 Nov 2024 02:27:47 -0500
+Return-path: <valentina@logikump.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 22 Nov 2024 02:27:47 -0500
+Received: from mail-ed1-f68.google.com ([209.85.208.68]:43461)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98)
+	(envelope-from <valentina@logikump.com>)
+	id 1tEO4z-00000005KrU-3Gs8
+	for info@go-onriders.com;
+	Fri, 22 Nov 2024 02:27:47 -0500
+Received: by mail-ed1-f68.google.com with SMTP id 4fb4d7f45d1cf-5cf9ef18ae9so5501447a12.1
+        for <info@go-onriders.com>; Thu, 21 Nov 2024 23:27:26 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=logikump-com.20230601.gappssmtp.com; s=20230601; t=1732260424; x=1732865224; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=/5SwuGXTedwZKFH8cXEm8U/VETMXZlM/8dvG3DicGAs=;
+        b=Ji66iFzrgT1J4wOaOqtopLdto8Tq6ARCi9uvYe/genGt7eNpuhe+tASuejIVKmlPcf
+         u+Zj7DmCUcg5GtU8DWIgLwL5jH4kmhD96/VOVgDtl4gxAJ52B+JA48uzOwfzkDSRJEuv
+         nzgdKaOl0Pey0lw4ewoC2Crcv9bKGZ6rG6u8HIjvQ9plGgOayk4anYWEqA+FaF4Vx5AP
+         kD32h0U7yIzV0TBEG5nswSoFqt3WaIa8pzpxByUXXldfOffnP2mL2juvpXHXfXhNziJh
+         jI6QR2/OUbh9yBYsZ3H6n8shJWZyVYEI7kXLmeOKMr8WWrvs2oD7zL7IRQKXRXfBI4rq
+         ikQQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1732260424; x=1732865224;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=/5SwuGXTedwZKFH8cXEm8U/VETMXZlM/8dvG3DicGAs=;
+        b=Eeuap4lKv6SiH6V2X6vWXk5FTNpTQ4T6pU73Fk1wkZCCOBhkBP1P09CTKiQC60cmTn
+         cVbYfTaRWOnE0M/kHeThafqE4oayqunmiXivva7G3Q/G1zHWqwOZLjFnljk0iO3Cq6MZ
+         PidBKEl0u41WUQk6qHlSALgEo8YhMHWCJ//BYszV62R06PHXIFWXzjivtMOomVj+GoDT
+         tEExLcDJ1g/ASanKvfUClunA4o2iIXyeTE7I6hJGWET4B2ciTjW2scFGz3jGXXtpcMwo
+         uIwvu0uuhVfXyzSksd1BdiAHBWwDG2/+2+jDgY9sbJktJOHx3X3OgVtmXy2Sm3zSN8ka
+         1O4w==
+X-Gm-Message-State: AOJu0YxaPpZkZ2rqsOGUjADxaqGOQ97+Cz3x+rISGzaQICeSKPB3K+ZM
+	qJNDZavj2slI5ESembgqGHpxGf9Q70Ue3n/E/hcCjpm5/BLgGznWBTcovjmgRYAMu3/pc+DV7xI
+	q/7muAZNjjO9KwHJymm647crvYV5TTePSBISyzJ7m/+0TgcD+5GwyNA==
+X-Gm-Gg: ASbGnctGEUXn/9XAAomyxNnc8UwX41hRQOT3qGVLM3IiDxJGip2Al/4HYyD1b76KAD9
+	v1CIpHMyhdgZgQRR/g5pthDq1ckfzszAoVExk6BoWjPBGDqJztbkutH3cFvFPQ7Pm
+X-Google-Smtp-Source: AGHT+IH6Ok3QG62tYjEAPqr7Y/C2DEifx9h1BSb38QFCaKrsHCo1c4IlotHcREbLaoxJdo01OwxX9DA7NW0vxYYJDJM=
+X-Received: by 2002:a17:907:8947:b0:aa5:1f77:c840 with SMTP id
+ a640c23a62f3a-aa51f77ca90mr14907866b.14.1732260423840; Thu, 21 Nov 2024
+ 23:27:03 -0800 (PST)
+Received: from 505484006768 named unknown by gmailapi.google.com with
+ HTTPREST; Fri, 22 Nov 2024 02:27:02 -0500
+MIME-Version: 1.0
+Sender: valentina@logikump.com
+From: valentina@logikump.com
+Date: Fri, 22 Nov 2024 02:27:02 -0500
+X-Google-Sender-Auth: vkwJne20AhDF5v7X9ZMLxXLizrU
+Message-ID: <CAD1JZvZRF=MJyzvgAF_QYZBLZodQPrTWK2b0rNaf8+OThw0rSw@mail.gmail.com>
+Subject: Drive additional traffic to your go-onriders.com
+To: info@go-onriders.com, info@go-onredires.com
+Content-Type: multipart/alternative; boundary="00000000000038d13206277b4f20"
+X-MagicSpam-TUUID: 1e93669a-be36-4606-bc7c-68c2d5ae645f
+X-MagicSpam-SUUID: 22f5c459-c910-4d60-beef-f8a2786dcd3d
+X-Spam-Status: No, score=0.8
+X-Spam-Score: 8
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi go-onriders.com, Hope you are doing well. After analyzing
+    your website I noticed that it’s not ranked well in major search engines.
+    As a web owner, you should realize the value of today’s competitive online
+    business and digital marketing [...] 
+ Content analysis details:   (0.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.208.68 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.208.68 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.208.68 listed in bl.score.senderscore.com]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of empty
+                             lines
+X-Spam-Flag: NO
+
+--00000000000038d13206277b4f20
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi go-onriders.com,
+
+Hope you are doing well.
+
+After analyzing your website I noticed that it=E2=80=99s not ranked well in=
+ major
+search engines. As a web owner, you should realize the value of today=E2=80=
+=99s
+competitive online business and digital marketing prospects. If you do not
+get higher search visibility and organic search traffic you may fall behind
+your competitors.
+
+We found that the ranking of your website has dropped with major
+competitive keywords. Evidently it=E2=80=99s because of unfair techniques a=
+nd
+Google guidelines not being followed properly.
+
+With our alliance, we will shoulder your website through the following
+services to get expected outcomes:
+
+
+- Optimal visibility and incorporate competitive keywords.
+
+
+- Gain impression through online reputation management services
+
+
+- Maximum engagement on Social Media sites.
+
+
+- Unique Content based links for better understanding.
+
+
+- Eliminating technical issues will help search engines to index your web
+pages. These are some low-hanging fruit SEO problems that can dramatically
+improve your site.
+
+Given a chance, we can help you to compete and achieve brand name in the
+web market by incorporating new techniques. Our packages are designed for a
+complete advanced digital marketing experience which includes all the major
+factors of promotion in order to beat your competitors.
+
+I would love to present a detailed analysis report of your website along
+with errors that your website has and ways to improve your Google
+rankings. If you find this interesting, feel free to email us,
+alternatively you can provide me with your phone number and best time to
+call you.
+
+
+
+Regards
+*Valentina*
+
+--00000000000038d13206277b4f20
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:106%"><font =
+size=3D"2" face=3D"verdana, sans-serif"><span style=3D"line-height:106%" la=
+ng=3D"EN-IN">Hi <a href=3D"http://go-onriders.com">go-onriders.com</a>,=C2=
+=A0<br>
+<br>
+Hope you are doing well.<br>
+<br>
+After analyzing your website I noticed that it=E2=80=99s not ranked well in=
+ major
+search engines.=C2=A0As a web owner, you should realize the value of today=
+=E2=80=99s
+competitive online business and digital marketing prospects.=C2=A0If you do=
+ not
+get higher search visibility and organic search traffic you may fall behind
+your competitors.<br>
+<br>
+We found that the ranking of your website has dropped with major competitiv=
+e
+keywords. Evidently it=E2=80=99s because of unfair techniques and Google gu=
+idelines not
+being followed properly.=C2=A0<br>
+<br>
+With our alliance, we will shoulder your website through the following serv=
+ices
+to get expected outcomes:=C2=A0</span></font></p><p class=3D"MsoNormal" sty=
+le=3D"margin:0in 0in 8pt;line-height:106%"><font size=3D"2" face=3D"verdana=
+, sans-serif"><span style=3D"line-height:106%" lang=3D"EN-IN"><br>
+- Optimal visibility and incorporate competitive keywords.</span></font></p=
+><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:106%"><font=
+ size=3D"2" face=3D"verdana, sans-serif"><span style=3D"line-height:106%" l=
+ang=3D"EN-IN"><br>
+- Gain impression through online reputation management services</span></fon=
+t></p><p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:106%">=
+<font size=3D"2" face=3D"verdana, sans-serif"><span style=3D"line-height:10=
+6%" lang=3D"EN-IN"><br>
+- Maximum engagement on Social Media sites.</span></font></p><p class=3D"Ms=
+oNormal" style=3D"margin:0in 0in 8pt;line-height:106%"><font size=3D"2" fac=
+e=3D"verdana, sans-serif"><span style=3D"line-height:106%" lang=3D"EN-IN"><=
+br>
+- Unique Content based links for better understanding.</span></font></p><p =
+class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:106%"><font siz=
+e=3D"2" face=3D"verdana, sans-serif"><span style=3D"line-height:106%" lang=
+=3D"EN-IN"><br>
+- Eliminating technical issues will help search engines to index your web
+pages.=C2=A0<span style=3D"color:black;background:white none repeat scroll =
+0% 0%">These are some
+low-hanging fruit SEO problems that can dramatically improve your site</spa=
+n><span style=3D"color:black">.</span><br>
+<br>
+Given a chance, we can help you to compete and achieve brand name in the we=
+b
+market by incorporating new techniques.=C2=A0Our packages are designed for =
+a
+complete advanced digital marketing experience which includes all the major
+factors of promotion in order to beat your competitors.<br>
+<br>
+I would love to present a detailed analysis report of your website along wi=
+th
+errors that your website has and ways to improve your Google rankings.=C2=
+=A0If
+you find this interesting, feel free to email us, alternatively you can pro=
+vide
+me with your phone number and best time to call you.</span></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:106%"><font =
+size=3D"2" face=3D"verdana, sans-serif"><span style=3D"line-height:106%"><s=
+pan>=C2=A0</span></span></font></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0in 0in 8pt;line-height:106%"><font =
+size=3D"2" face=3D"verdana, sans-serif"><span style=3D"line-height:106%" la=
+ng=3D"EN-IN">Regards</span><span style=3D"line-height:106%"><span></span></=
+span></font></p><b><font size=3D"2" face=3D"verdana, sans-serif">Valentina<=
+/font></b></div>
+
+--00000000000038d13206277b4f20--

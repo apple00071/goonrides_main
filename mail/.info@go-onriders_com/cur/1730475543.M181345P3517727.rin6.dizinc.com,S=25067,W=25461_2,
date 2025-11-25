@@ -1,0 +1,394 @@
+Return-Path: <websitedesigningservices474@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id mM5SChf2JGcfrTUAQ+45pw
+	(envelope-from <websitedesigningservices474@outlook.com>)
+	for <info@go-onriders.com>; Fri, 01 Nov 2024 11:39:03 -0400
+Return-path: <websitedesigningservices474@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 01 Nov 2024 11:39:03 -0400
+Received: from mail-sg2apc01olkn2022.outbound.protection.outlook.com ([40.92.53.22]:31840 helo=APC01-SG2-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98)
+	(envelope-from <websitedesigningservices474@outlook.com>)
+	id 1t6tjs-0000000ElEV-0oJj
+	for info@go-onriders.com;
+	Fri, 01 Nov 2024 11:39:03 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=OhLW3C7s8tA6Cnm1cRyeoSojQaJf6IbojAHSYtVvRxCEyLnfE5wyxv0IT484HsLyfUl5KPT3Sg3TsYp0YfwKGCkoZMwpv7oNURL1eogELxKLOMF9G4X+R424R1Ugk+dyCddE/EY08F1hIU4Kb+a70Qm+sOsEhT8v060v+8ZVu+usVken6JaOFOeJvydzpG0goj88+bPUQ+tl5BD8QXhP6joX21lQr5oiQdAzb3jCbyjFbnmrq/4DrWPaWMPSkOWJoyD96bEIuO8vt9CIhzo9JB2ECmTI15BzWiDlY3PLiEsBF5O+fcGqFT4eThrxgkylWQwk+OANt2uW4JUbWVRI8g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=RuFqVNNm+XxoMRKnIkjb/WO/+eE2YYW/d4DTMOqzNGE=;
+ b=StWuv9Im6UodSnc8wFfubsejc+fettuHsSalsLd04XsTZ12ZKJITNL2XBcgv4O/IJFK+qjLvdps2Mi6Efv9DXHUTE/RKW8VRZHbhM/qtj9hOXef7HL2p/Qzvf8hN0ci/giBcxs4XDmlS1/y29FZp5Vcb9w/R/FXIyfSk7EwYVv/GegWul8WFxcaUSEQCM9fZf86Xr9ucfdx8NWnsXMpU+Y//0vz+tzTUH+TIizyAg84nxxf5sjz+NHJJzNA6ruPLuhVUA9uOH2aK5wmSFH52OGwSY0gXEW/lRZbrfoJNlO5XxoC5GytvehRvZP04I2RvnQ9YKMPqaajisxkt8TAAMw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=RuFqVNNm+XxoMRKnIkjb/WO/+eE2YYW/d4DTMOqzNGE=;
+ b=Mup/cd8h0pd12fwvEOZioJNgqk6JV++bV80uozJbo4oxaiS4YMA2FmUuhfQuRlQa/EBvYLIapsVyMew5GRBeT+0dGbnMYNyzeGdvFlisdoC3bU5WQyavexDcGicuih45E6paL2neySyFH059Gf7pb3xU32gp3QfGvoQYi+gcXYnQs4kasclqWidKMkqgMg5IHMDgYhy21Cw/QmvKAVtN9p4cKRD/pjAPIB+h8G8hFGjHzczvnHHrO5vQT5JsgxkqH3uX+pCgQCL01/nfCO80/NYKJ6pAV6MgpbjFbfQ1DMN9PzpJXkJZmpqAzWUNVcu12GYj+4NAQYFJggcQgodXRw==
+Received: from PUZPR06MB5433.apcprd06.prod.outlook.com (2603:1096:301:e8::8)
+ by SEZPR06MB5438.apcprd06.prod.outlook.com (2603:1096:101:9a::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8137.12; Fri, 1 Nov
+ 2024 15:38:00 +0000
+Received: from PUZPR06MB5433.apcprd06.prod.outlook.com
+ ([fe80::85ee:c365:3dc7:a107]) by PUZPR06MB5433.apcprd06.prod.outlook.com
+ ([fe80::85ee:c365:3dc7:a107%7]) with mapi id 15.20.8137.008; Fri, 1 Nov 2024
+ 15:38:00 +0000
+From: Mohan Saxena <websitedesigningservices474@outlook.com>
+To: Mohan Saxena <websitedesigningservices474@outlook.com>
+Subject: Re: Reminder quote 
+Thread-Topic: Reminder quote 
+Thread-Index: AQHbLHQIokkcOd9Jd0GGSvk6K5yaBQ==
+Date: Fri, 1 Nov 2024 15:38:00 +0000
+Message-ID:
+ <PUZPR06MB543308FEC0B31B37DD4C54F1EC562@PUZPR06MB5433.apcprd06.prod.outlook.com>
+References:
+ <SEZPR06MB6057F24B88D71E61BEEE791EEC159@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB6057C972CF20E0196542C1E1EC149@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB6057E337E6F18C80AB1868D5EC149@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB60571ACF45ACAF6CF6CB7F80EC179@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB605793D542CC3AA946B24E69EC1D9@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB605755BEB1A51DBF9F239236ECE39@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB6057595EEF077E4BCF203380ECEB9@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB60571E4D20C49823EEB5B8DBECED9@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB60574CD7EBED5B91C6116BF7ECD79@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB605766947E01EDCFD199DC24ECA19@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <SEZPR06MB605753DDF5FC067BE1B9EFC6EC919@SEZPR06MB6057.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980322BA6C03F040F962929EC9C9@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980B60C5E2B1A177B4004E3EC649@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59806AB78C9932F4CF8C412DEC6F9@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59800772C504DEB1D6F099F7EC6D9@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980F8AC55B8B6D52BBC46CDEC729@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980269CB0A42F0D10E4311CEC749@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59804B0277D30DEAABF94A4FEC799@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980323FB6B1E36DB27C6FABEC7C9@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980329D984A14C39B585202EC439@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB598026B51975B46043EE928FEC469@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <KL1PR06MB59696D9D0791B41D4709ED24EC489@KL1PR06MB5969.apcprd06.prod.outlook.com>
+ <TYUPR06MB59807205A4CAD41714D83848EC4EA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980213018F2C52F94DC31E7EC53A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB598076AEBF451E11DE2762E0EC54A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980B583722C7314FD0FB67FEC5AA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980F4379954F27CE835CB2DEC58A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980073922DA00C1939939AAEC5CA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <SEZPR06MB5965DDF6819175AD652392B2EC5DA@SEZPR06MB5965.apcprd06.prod.outlook.com>
+ <TYUPR06MB598009FC825C1C1E8DD55066EC22A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980B720FDE9D85E2E8AEE73EC27A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980015DD68C6C5EA85BB803EC29A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59802438DC3142658FD3C270EC2EA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59803B03435F20EB26916B71EC31A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59808210B19F3869F4876C54EC00A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59809CB499DA036B7E642B11EC01A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980B46AEF706E3D8B56249BEC0AA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59804204EE160D83C6FD9DE4EC0BA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <KL1PR06MB596950502E1E5C42100CADDFEC0EA@KL1PR06MB5969.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980E77B30F8DA15B15249C8EC12A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB59802D81F56B5980F1E24376EC1AA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980A71BAE1EDD0905ABD83DECF0A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980AC04F78505BE2D7E50EEECFBA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB598014BF244646DCCC864B06ECF8A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB598014070E5240228A8EC6E0ECC4A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980DF90009C6B463FF1EEAFECCFA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980976A1F650BE088AFD2E3ECCEA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980B8FE18D15D618D29D948ECCDA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980EE51613A17AF4055C93BECDBA@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980B4C3CD44C9EE409FAF20ECA0A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <TYUPR06MB5980E336E20D72824573B0ABECA7A@TYUPR06MB5980.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063D20AC073E0194F81CD37EC95A@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60639E76574174B37B6E0347EC95A@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063C81F9488AC93FD767109EC692@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063B1AA2B1DBDC0B1545E27EC6F2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063259698C20FFE88FD3810EC6C2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60638482955EA3B51AFF944DEC732@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063520D9A8AEBD7302357B3EC722@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60630793D0D5D60D7CCFD477EC4E2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063066EA12AB5879E640374EC4D2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60630CA69651F1EC884AF8B3EC4C2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063FFD02CD479C5F6E3A98FEC572@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60630AF63C16B487DCB1736DEC562@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB606360EB00AADA1D0A8E61A9EC242@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063C7BD79DBE8DD313B5213EC2B2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB606390751A517B8302A999A9EC2B2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063313A0F65EB50B9D3EEDDEC282@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063D6A9DCE6ED353B605E9CEC2C2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60636D04113385E5A3412535EC332@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063CDCE4B231DC1F09F7A44EC3B2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB606318B5DA20D4EEF40A1F22EC3E2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60635249F2F29005907C8288EC3D2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60637FC35ABB8EFEE42D777CEC3C2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60633BEAC9B19BAEEB3F77BCEC032@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60635332B7721DA706C0B563EC022@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB606303F9FCD03A7A56F06D09EC012@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063305959EC66B1D76D2E40EC002@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60637F5B2989B01F6E3AE159EC072@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60637D8E14F1B8372FA15ADCEC0F2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063087B75F5E65816BB5280EC0E2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60635FE4917CED11D9572083EC0D2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60636918B64D990619A15918EC102@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60638F4FFCF52B04E97A405BEC172@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB606352D81B36A9881936EF25EC162@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60638971EF87EAD97466F13DEC192@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB60631164C35A6417169B9981EC182@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <SEYPR06MB6063C18459730BC5CB34F4E3EC1F2@SEYPR06MB6063.apcprd06.prod.outlook.com>
+ <TYZPR06MB604699C572B20B982EBA6DC6ECD02@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB6046F712287BD34086513740ECD02@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB6046CE1D8F8DC03F5AE90A26ECDE2@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB60466BD012F5978E8EDB8C28ECDF2@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB604638ADF7396B7DE9B7D77FECDB2@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB6046A3B4BA8EA0C7B08C15A5ECDB2@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB6046CC0683D19A78CABD4EE0ECA42@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB6046D46DDB3707CD7FCD3B30ECA52@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB604680CD55DABF1BC31B5C7BECA12@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB60467D9555368667F715DA43ECA22@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB60463148F3C2366D0A9B2115ECA32@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB60464FD49D607D272C7CCFE7ECAD2@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB60469D1967EBFF5A4AF5FB16ECA92@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <TYZPR06MB6046C4924DCBFE15881C09BEECA92@TYZPR06MB6046.apcprd06.prod.outlook.com>
+ <KL1PR0601MB5448947EC1D4D9BAA4B50212EC472@KL1PR0601MB5448.apcprd06.prod.outlook.com>
+ <KL1PR0601MB5448BDA6D5D858D15F79E1D7EC472@KL1PR0601MB5448.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433E9191D1C36ABC12519F4EC402@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB543312320F52AAABC28C85C2EC402@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB543376C8D018AC5C57864DBEEC432@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB543312EC5E49FD798EEF21ADEC432@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433EC10296F9F83D3FBAEEAEC4C2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433F6C6293A422F7B5FD423EC4C2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433DC4550FD6BACB626DB38EC4D2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB543317DDE025E369A387CB9DEC4D2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433A2B4B6A958690BACDE6CEC4E2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433877182E4049F08870642EC4F2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433F1E24C3BA02060CD48C5EC4F2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB54339C908651F950F406A3DBEC492@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433459AB58F15ED9D55B092EC4A2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433C66CAE55160A299BB942EC4A2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+ <PUZPR06MB5433A39C46A688E02EFDE714EC4B2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+In-Reply-To:
+ <PUZPR06MB5433A39C46A688E02EFDE714EC4B2@PUZPR06MB5433.apcprd06.prod.outlook.com>
+Accept-Language: en-US, en-IN
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PUZPR06MB5433:EE_|SEZPR06MB5438:EE_
+x-ms-office365-filtering-correlation-id: 3131dce5-7c98-4a2f-9ffa-08dcfa8b2a93
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|19110799003|15030799003|8062599003|15080799006|461199028|8060799006|3412199025|440099028|102099032|1710799026;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?2A0RT7YQjwm8Ak/yBG+LsGi2VyQrCWiAavHLaImJE+GuM04sdwwZ24RU?=
+ =?Windows-1252?Q?2m0tfixQMmTKSRi6TiEl7LBFz1f2jH+9TKtO5ST97k69EWlWptn4Yxas?=
+ =?Windows-1252?Q?NHjFlP0QNaPe6v7SaggnsuRdpVNAjpwG7k0l3WEgFo2mO65Ewa03dUWZ?=
+ =?Windows-1252?Q?gAsukv+/VFKMw9J+CO5c60Jz/3e0PceR6pPu8Q7ebsuVBA2QiUt30jN9?=
+ =?Windows-1252?Q?ZyLZio+rNXis+0TdkNa0ZZddLissNuafQ7nEb1+qs0Cn51QBJuSOZNnE?=
+ =?Windows-1252?Q?DN6JBcf4s6DuV3j+knQB98mZdu+vQVb+ja9dYxr6DHmgBIUElS1n5kUy?=
+ =?Windows-1252?Q?julTJVSyMgon2m0TyjG/V8/7mOTNuZ0DxqIKKKli9Xy+vsrzTNOa1v69?=
+ =?Windows-1252?Q?KZNwVFmg8KWy4PIYGKL9gVFR42xVCU3J6eCl0xM2f3Y+3RbZm9IijDqV?=
+ =?Windows-1252?Q?HAS6Hl2KPHt60ZAMLd16vbyp1Gd393YcfIPD1n8QMhNHmQw82tGFdwIu?=
+ =?Windows-1252?Q?+OoJg/9PUYcQm9ubB4XUsNcs6ep78lISl5eSzUcnQe4q8fZrlQ0zylHR?=
+ =?Windows-1252?Q?ux4Rs8448+VfHyAYLtDlfQAC2mQ0DzVVw65FddkvtZzUDALlV8mA5MHO?=
+ =?Windows-1252?Q?UEyqR8+AXDWmjEnmD3U6THCQxAI3yX/WVYQ/lndulNSdrXRWCeLl6xm2?=
+ =?Windows-1252?Q?8raE55v7JS/hy+0wMnM66DBDVd/0+ynr/9Xt3w3ynrBk6PtX1zgdx84B?=
+ =?Windows-1252?Q?hCQtRr/oagOGYlKbkEbdR+dJm0/Gixuun/rNBj/aiLPOwBUYrAQhChqW?=
+ =?Windows-1252?Q?gc8XnAEWBO5E0Tz1ayzzNrDqXakd4eq6yWHtskTEjVhWKXwysXNoY99y?=
+ =?Windows-1252?Q?qMtWeHwEhsQme0C3804bjgsWAmJlyWYF9bL9+DaIB0nHCUxbXWiFJGT7?=
+ =?Windows-1252?Q?FQw/4YG/OHv2xZYSdzJv4LS9dDr2n6nwI9zK1AcVQe8ggI0k0a7upAaq?=
+ =?Windows-1252?Q?GaZs9ABbiwJrbi22Dmw6A5Dyva4vc647KFFUCJ8F63xzK6zI9oXHNmni?=
+ =?Windows-1252?Q?KxeCMpocUEWzvYGQftWRdpo8tyIPUN3gUUqmzjAtCWUk2KJErXud2Igm?=
+ =?Windows-1252?Q?JSLtsnKs+gDtymlXdcIjL0Xw?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?/Ye+sgxHp4dRefFG+lrvg1DCVD4SBECi0w1JmOSkZjjzLUGftSH+5O8B?=
+ =?Windows-1252?Q?+QdH/ne47ufOBQq7UAch1TGVkA7O9KXg5N2HREinEQhasp2SgEJdrw1Q?=
+ =?Windows-1252?Q?W0SlusJNCVb1/WshYXTErnCd77h8npAdQbiB4M72hphnyvk2eV0qGISx?=
+ =?Windows-1252?Q?MigAyGPLAtLBz47MHQFqXizi9845X0899NoOoD/qYvle3eLrea/iGQnA?=
+ =?Windows-1252?Q?lvuqKvkEtjtOaCT55ZFO+klTtWXoSmQPVkQoW/KFN1Q4CaOtpGYSUlN9?=
+ =?Windows-1252?Q?bD+ozezZUdKdbVyO/O5/C4su46nS34cKix0JS1fdXSH566Qjc7Axxym/?=
+ =?Windows-1252?Q?5s+MT20q6EHz9w1HRpzUP71FfUVxy4MN4dqlO7joz19D69ru7lLbgXPd?=
+ =?Windows-1252?Q?fdg25cugoOMN/l5va4pKdAEEwlbI4l28Ec4qt0rpgkez5DqpBFOsK6Ro?=
+ =?Windows-1252?Q?hMVQzG05Mq043ObxupomHyJPMRyYPxTovWTzJoM372yUrg3wWyrlNlJ8?=
+ =?Windows-1252?Q?Zg3MkKntoqIz77hYKvPknVBiLYj7SHKv196UdRcNzd3Y8cI3tOyk9c0U?=
+ =?Windows-1252?Q?uttT1SBsqL9FS4OpRj75Ff3WPG6w5EvEY5WVVyJail8zlHRD+C7AIKzi?=
+ =?Windows-1252?Q?zmkdIyRwWlXQN2fcCPXD+Mdsze9xoadd42HO/XchzNXEya9EvLJurFYy?=
+ =?Windows-1252?Q?Xr2BgcBc/FndcNBEwK/ySD8YmyZPHIm+8YspTfJZoxmY+JDDapBd1Qz2?=
+ =?Windows-1252?Q?xDXbS9kH3mu1PmyejE0R6mngtsj14MALunukoSHgZRMydBhNKDX/FZzu?=
+ =?Windows-1252?Q?sbQPAO2jbLmNUiKdtDvp60l7p+2Z7q4cEbqOe5PGmElMVMVnsdc0pQvv?=
+ =?Windows-1252?Q?PS22rsy2+RI1e9BLD3RR3kcJnX/BobCNTY0bQboKTp4D0Ch5tYlDnBmb?=
+ =?Windows-1252?Q?S076S313hyFbrvCNoHRlNKmq2x+nioQ2OLpbW0zohPNLZn10qiXObjdN?=
+ =?Windows-1252?Q?W/WnyD1G7nn+rj8ABntppfh44I/4J2htHHVvx2dA++VZiUs+y1R7ailh?=
+ =?Windows-1252?Q?iy0XlYBGPhRKK3hMhPiu1RBV1NEB/ujewREIMobLHWqsUkDAygMX0qe1?=
+ =?Windows-1252?Q?Q4ZJaZkkrmEw4+9s3ufUW4/tQCeursB7o4oXg6bR7ptZVyjmKG7jq1/c?=
+ =?Windows-1252?Q?pPPGmNwgFAbMFku3EQujx/VsxpgQ2PF5PHh5vHhdYAz0iR6+qrgaqVNZ?=
+ =?Windows-1252?Q?ByRpX7tkUXVzY2e+7483ae1V0cmBgWem6KP9swA2Z11HmMoXdZKkTyVk?=
+ =?Windows-1252?Q?pWZsEBWn03rNxwfOoPayKTrV3mwtKf2K+bovJv9GMkguzieZvB4AafGN?=
+ =?Windows-1252?Q?FU7d3Xj1CBXQ0mlfVqudKgSu18o3S0WM3R8MfOSsjnu/nwGL/PvNF6V3?=
+ =?Windows-1252?Q?zk2fZtKeo5YIkQc5rJaVzg=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_PUZPR06MB543308FEC0B31B37DD4C54F1EC562PUZPR06MB5433apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: PUZPR06MB5433.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 3131dce5-7c98-4a2f-9ffa-08dcfa8b2a93
+X-MS-Exchange-CrossTenant-originalarrivaltime: 01 Nov 2024 15:38:00.1098
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR06MB5438
+X-MagicSpam-TUUID: 2189ee34-b40d-40f2-8681-b7f5660b5c3c
+X-MagicSpam-SUUID: 82e54623-bb72-44bf-87f8-21736644a14e
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Just following up to see if you’re interested in
+   our SEO services to boost your online visibility. Let me know if you’d like
+    more info! Thanks, 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.92.53.22 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.92.53.22 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [40.92.53.22 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 ARC_SIGNED             Message has a ARC signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 ARC_VALID              Message has a valid ARC signature
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [websitedesigningservices474(at)outlook.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [websitedesigningservices474(at)outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--_000_PUZPR06MB543308FEC0B31B37DD4C54F1EC562PUZPR06MB5433apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Just following up to see if you=92re interested in our SEO services to boos=
+t your online visibility. Let me know if you=92d like more info!
+
+Thanks,
+
+________________________________
+From: Mohan Saxena <websitedesigningservices474@outlook.com>
+
+Sent: Friday, August 9, 2024 1:42 AM
+
+Subject: SEO?
+
+
+
+Hello,
+
+
+Your website has some errors affecting SEO. Can I send screenshots? We can =
+improve your search rankings.
+
+May I send a Quote & Audit report?
+
+Thanks,
+
+--_000_PUZPR06MB543308FEC0B31B37DD4C54F1EC562PUZPR06MB5433apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Cambria, &quot;serif&qu=
+ot;; font-size: 12pt; color: rgb(0, 0, 0);">
+Hello,</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: rgb(0, 0, 0);">
+Just following up to see if you=92re interested in our SEO services to boos=
+t your online visibility. Let me know if you=92d like more info!</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: rgb(0, 0, 0);">
+Thanks,</div>
+<div style=3D"direction: ltr; font-family: Cambria, &quot;serif&quot;; font=
+-size: 12pt; color: rgb(0, 0, 0);">
+<br>
+</div>
+<hr style=3D"direction: ltr; text-align: left; text-indent: 0px; display: i=
+nline-block; width: 588px;">
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; margin: 0=
+px; font-family: Calibri, sans-serif; font-size: 11pt; color: black;">
+From: Mohan Saxena &lt;websitedesigningservices474@outlook.com&gt;</div>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; margin: 0in=
+ 0px;"><span style=3D"font-family: Calibri, sans-serif; font-size: 11pt; co=
+lor: black; background-color: white;">Sent: Friday, August 9, 2024 1:42 AM<=
+/span></p>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; margin: 0in=
+ 0px;"><span style=3D"font-family: Calibri, sans-serif; font-size: 11pt; co=
+lor: black; background-color: white;">Subject: SEO?</span></p>
+<div style=3D"direction: ltr; text-align: left; text-indent: 0px; margin: 0=
+px; font-size: 12px; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<p style=3D"direction: ltr; text-align: left; text-indent: 0px; line-height=
+: normal; background-color: white; margin: 0cm;">
+<span style=3D"font-family: Cambria, &quot;serif&quot;; font-size: 12pt; co=
+lor: black;">Hello,</span></p>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: black;">
+&nbsp;</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: black;">
+Your website has some errors affecting SEO. Can I send screenshots? We can =
+improve your search rankings.</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: black;">
+&nbsp;</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: black;">
+May I send a Quote &amp; Audit report?</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: black;">
+&nbsp;</div>
+<div style=3D"direction: ltr; margin: 0cm; font-family: Cambria, &quot;seri=
+f&quot;; font-size: 12pt; color: black;">
+Thanks,</div>
+</body>
+</html>
+
+--_000_PUZPR06MB543308FEC0B31B37DD4C54F1EC562PUZPR06MB5433apcp_--

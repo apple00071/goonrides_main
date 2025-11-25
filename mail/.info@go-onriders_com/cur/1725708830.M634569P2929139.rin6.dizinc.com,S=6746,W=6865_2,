@@ -1,0 +1,119 @@
+Return-Path: <wade+f09dc000-6d0c-11ef-b68b-52540052d29f_vt1@bounce-zem.gustodomains.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id KERVJR463GbzsSwAQ+45pw
+	(envelope-from <wade+f09dc000-6d0c-11ef-b68b-52540052d29f_vt1@bounce-zem.gustodomains.com>)
+	for <info@go-onriders.com>; Sat, 07 Sep 2024 07:33:50 -0400
+Return-path: <wade+f09dc000-6d0c-11ef-b68b-52540052d29f_vt1@bounce-zem.gustodomains.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 07 Sep 2024 07:33:50 -0400
+Received: from system-130.eu.transmail.net ([185.20.211.130]:23214)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <wade+f09dc000-6d0c-11ef-b68b-52540052d29f_vt1@bounce-zem.gustodomains.com>)
+	id 1smthQ-0000000CIFH-35kR
+	for info@go-onriders.com;
+	Sat, 07 Sep 2024 07:33:50 -0400
+ARC-Seal: i=1; a=rsa-sha256; t=1725708784; cv=none; 
+	d=zohomail360.eu; s=zohoarc; 
+	b=Pe1fir3welnpANBj+H/SEYqeDSsx8jsVY60HWbmSytZssqYz4j3S3xTAMJAlAaCcxzBmm9Pgv/mplTqP2IiTpG15dODV7vI/8SyRyQu7lhsbYb3EgH/4KU7MgDqk6Umh+HBGmKFEurvm/HQXyB1vdLIy8CKIJJ1cferlhOoPuxk=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail360.eu; s=zohoarc; 
+	t=1725708784; h=Content-Type:Content-Transfer-Encoding:Date:Date:From:From:MIME-Version:Message-ID:Subject:Subject:To:To:Message-Id:Reply-To:Cc; 
+	bh=6098g5oWlwnzgijmP5LRp1e7Yt5HLv66FjBpH78eofM=; 
+	b=X146TxrYM0ExKr+2yrPh2RvK63Kae0aR4dYbzV8GT5Qp4KTgKb3YqLFlFfzEIn38sOVnv52czce/qKOx0ArPAqBBL2rUNqPBQSijAhG1nW9gRQkhmxG1N0X953U/vhy9aVwnKiOlGrl0v7ZRKtYhlNHyaTjRrNH5RCaiPB+n35Y=
+ARC-Authentication-Results: i=1; mx.zohomail360.eu;
+	dkim=pass  header.i=gustodomains.com;
+	spf=pass  smtp.mailfrom=wade+f09dc000-6d0c-11ef-b68b-52540052d29f_vt1@bounce-zem.gustodomains.com;
+	dmarc=pass header.from=<wade@gustodomains.com>
+Received: by mx.zoho.eu with SMTPS id 172570878266320.340879661438635;
+	Sat, 7 Sep 2024 13:33:02 +0200 (CEST)
+DKIM-Signature: a=rsa-sha256; b=VkWsavZ4cknWR4tWMG32a03Mfupa8Yr1ELpQy5nEFCdSxZibnsLwPdwARUX11VfT1vtmIL7Et3ak/3qLTF7joTaD7iD+3RcXk1Mgt5/UJSk6nlqu6L62KTS8XLy9YpdaLNWt9/vj9CsSuG0+E4Tn0kylKJHq1ka/33rEv5Nbsc4=; c=relaxed/relaxed; s=1714435; d=gustodomains.com; v=1; bh=6098g5oWlwnzgijmP5LRp1e7Yt5HLv66FjBpH78eofM=; h=date:from:to:message-id:subject:mime-version:content-type:content-transfer-encoding:date:from:to:message-id:subject;
+Date: Sat, 7 Sep 2024 13:33:02 +0200 (CEST)
+From: Wade Young <wade@gustodomains.com>
+To: info@go-onriders.com
+Message-ID: <13ef.7f185b3e6b086963.m1.f09dc000-6d0c-11ef-b68b-52540052d29f.191cc424800@bounce-zem.gustodomains.com>
+Subject: goonriders.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="b1_or3ZgTfCUob6srbVKwiNWTT5ZVH2NLRlIgsHExhAg"
+Content-Transfer-Encoding: 8bit
+Content-Type-Orig: multipart/alternative;\r\n boundary="b1_or3ZgTfCUob6srbVKwiNWTT5ZVH2NLRlIgsHExhAg"
+Content-Transfer-Encoding-Orig: 8bit
+X-Mailer-Orig: PHPMailer 6.5.1 (https://github.com/PHPMailer/PHPMailer)
+Original-Envelope-Id: 13ef.7f185b3e6b086963.m1.f09dc000-6d0c-11ef-b68b-52540052d29f.191cc424800
+X-JID: 13ef.7f185b3e6b086963.s1.f09dc000-6d0c-11ef-b68b-52540052d29f.191cc424800
+TM-MAIL-JID: 13ef.7f185b3e6b086963.m1.f09dc000-6d0c-11ef-b68b-52540052d29f.191cc424800
+X-App-Message-ID: 13ef.7f185b3e6b086963.m1.f09dc000-6d0c-11ef-b68b-52540052d29f.191cc424800
+X-Report-Abuse: <mailto:abuse+13ef.7f185b3e6b086963.m1.f09dc000-6d0c-11ef-b68b-52540052d29f.191cc424800@zeptomail.eu>
+Message-ID-Orig: <or3ZgTfCUob6srbVKwiNWTT5ZVH2NLRlIgsHExhAg@gustodomains.com>
+X-ZohoMailClient: External
+X-MagicSpam-TUUID: 107e4308-725a-4f02-9d64-af83209c65fd
+X-MagicSpam-SUUID: 1f1d3ecf-45d7-4f47-8ac1-575f76c5122f
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi there!<br/> <br/> Are you interested in owning the domain
+    goonriders.com? Please let me know if you are and I'll send you the details.<br/>
+    <br/> <br/> Have a great day!<br/> <br/> Wade Young <br/> [...] 
+ Content analysis details:   (0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [185.20.211.130 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [185.20.211.130 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--b1_or3ZgTfCUob6srbVKwiNWTT5ZVH2NLRlIgsHExhAg
+Content-Type: text/plain; charset=us-ascii
+
+Hi there!<br/>
+<br/>
+Are you interested in owning the domain goonriders.com? Please let me know if you are and I'll send you the details.<br/>
+<br/>
+<br/>
+Have a great day!<br/>
+<br/>
+Wade Young
+<br/><p><a href='https://gustodomains.com/optout/rCQj3bUQG4K8gsPNm74L' style='text-decoration:underline;color:#999'>Unsubscribe</a></p>
+
+--b1_or3ZgTfCUob6srbVKwiNWTT5ZVH2NLRlIgsHExhAg
+Content-Type: text/html; charset=us-ascii
+
+Hi there!<br/>
+<br/>
+Are you interested in owning the domain goonriders.com? Please let me know if you are and I'll send you the details.<br/>
+<br/>
+<br/>
+Have a great day!<br/>
+<br/>
+Wade Young
+<br/><p><a href='https://gustodomains.com/optout/rCQj3bUQG4K8gsPNm74L' style='text-decoration:underline;color:#999'>Unsubscribe</a></p>
+
+
+--b1_or3ZgTfCUob6srbVKwiNWTT5ZVH2NLRlIgsHExhAg--
+

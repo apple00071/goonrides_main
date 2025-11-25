@@ -1,0 +1,10 @@
+{
+  "name": "go-onriders",
+  "version": "1.0.0",
+  "description": "Go On Riders - Bike Rentals in Hyderabad",
+  "scripts": {
+    "build": "echo 'Build script completed'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

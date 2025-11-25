@@ -1,0 +1,357 @@
+Return-Path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id iDInD66pqWab0QoAQ+45pw
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	for <info@go-onriders.com>; Tue, 30 Jul 2024 23:04:14 -0400
+Return-path: <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 30 Jul 2024 23:04:14 -0400
+Received: from o19837144x29.outbound-mail.sendgrid.net ([198.37.144.29]:39260)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <bounces+5839827-baac-info=go-onriders.com@em3335.leadsquared.com>)
+	id 1sYzdI-00000002yKx-0jaH
+	for info@go-onriders.com;
+	Tue, 30 Jul 2024 23:04:14 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=leadsquared.com;
+	h=content-type:from:mime-version:subject:list-unsubscribe-post:
+	list-unsubscribe:to:cc:content-type:from:subject:to;
+	s=963; bh=C0isTsQGYPSSfPi8joMmO2D8QjM2olQYqqcUbQJfh5g=;
+	b=awkx/LLyp6Djxc5zazMvLxdD63qSg9eD17F720If4rqSTE5ZVy8FyQ2+Xdt0mLcu/OIi
+	U5bI6BHNsncwPJag0HJDe12yrUayeeVI+74kZZbseZ7AcjzZQSrKTqIrmfKUUogL8No7Eu
+	n7uqgOpxiRXzzlMvteRSbT6Lch8Fd5cjUqHciQtst+yqM1DNgSC+yPR9BzNUELfm6qNdUW
+	vkrTS7x4kUMhNGho7r+t711huZnIaj6T+WK+3oLaJgqlwS32wzxgbL1C170XfWS5VJSG7b
+	Lfj+uoeBpzJ5qhJbeFCZKADlwcyGL+pilseb8mDBhvUQmhugnThfvFfeiZidCIWw==
+Received: by recvd-59fcc696fc-f25j5 with SMTP id recvd-59fcc696fc-f25j5-1-66A9A97B-64
+	2024-07-31 03:03:23.676490257 +0000 UTC m=+106915.495927156
+Received: from NTgzOTgyNw (unknown)
+	by geopod-ismtpd-7 (SG) with HTTP
+	id Pvn5uHF0Rb-PFrNdtRXp1A
+	Wed, 31 Jul 2024 03:03:23.562 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=a6570022356c800d126ae3773ceebabbc8ac45b1e8420a5b0ed412884771
+Date: Wed, 31 Jul 2024 03:03:23 +0000 (UTC)
+From: Gayathri Sridhar <marketing@mcube.com>
+Mime-Version: 1.0
+Message-ID: <Pvn5uHF0Rb-PFrNdtRXp1A@geopod-ismtpd-7>
+Subject: Transform Your Customer Support with MCUBE's Cloud Telephony
+ Solutions!
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: 
+ <https://e-in21.gtolink.in/t/em/44880/7/15f2ee68-e7af-4fb0-bd52-de9455ef03a2>
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EDcg3HRskK0UD4e6bhpyjYr3n6gMi006TU1nhUSeJDvb0xN7=2FPeopvN3pF?=
+ =?us-ascii?Q?EFFdbIC7vMVR5jL8A0cpOtR7JJYoOGW6q2j+E1p?=
+ =?us-ascii?Q?juxxAkQbfo=2FzeV=2FjGJ4P9J2oBpyO+MtDF6uHit4?=
+ =?us-ascii?Q?wVocUILTka2O7utHWYyM88BB4xkWvtbYKcbPiFj?=
+ =?us-ascii?Q?pUAZGxYMHGbMar5m5KFjvx8F399Zcpv5gCCpfb5?=
+ =?us-ascii?Q?c3YEsGQ=2FgbdRndsIQRsr9WUl2sVNSRlwwrpcWQo?=
+ =?us-ascii?Q?S=2FDE?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BpTL9BgbK5wfSJMJGMsmprBYjHA+qNefkoZxY?=
+ =?us-ascii?Q?ILQVpIsChTsfiFz1m=2FgpJkxidGFE0QV0yKgdEXR?=
+ =?us-ascii?Q?djW1MXIssUN4DGKAVay1l9JT+H9a4MO8dnhk0F9?=
+ =?us-ascii?Q?ZP5sn7WU4lmIZrd4WEt=2FTjllk9UsNftb7GZJR3o?=
+ =?us-ascii?Q?aF+Lt5Rhx99xyvLvWzVHU90500gs6lFCBP9VE4n?=
+ =?us-ascii?Q?MT87io=2FaX=2FXxHSxYWNQ2ORHcjsZ8TPZ6FL+lU3b?=
+ =?us-ascii?Q?1dhsQhvks7yZyg2uBPXaVGUWlA=3D=3D?=
+To: info@go-onriders.com
+X-Entity-ID: u001.idDaXlz/LTBWXTxrK7I1Cg==
+X-MagicSpam-TUUID: 2986c3f5-c2f5-4ea7-ae91-54564f27f703
+X-MagicSpam-SUUID: cac58f5a-298b-40cf-a130-47542ed4a094
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Greetings from MCUBE! Here's the reality: 70% of customers
+    expect an instant response from Customer Support within just 5 minutes and
+    85% want personalized service through their preferred communication channels.
+    
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE:
+                             The query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [198.37.144.29 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [198.37.144.29 listed in bl.score.senderscore.com]
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.3 LM_CONTENT_TYPE_ISFIRST Very rare that Content-Type is the first
+                              header
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 KAM_UNSUB1             Unsubscription Spams
+  0.5 LM_MARKETING_ENV_STYLE Suspicious EnvelopeFrom naming convention
+                              seen to be used by spammers.
+  0.3 LM_PROMO_FORMAT        Message may contain a spammy headline!
+  0.2 LM_LIST_REMOVE         Message contains any form of unsubscribe method
+X-Spam-Flag: NO
+
+--a6570022356c800d126ae3773ceebabbc8ac45b1e8420a5b0ed412884771
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+Greetings from MCUBE!
+
+Here's the reality: 70% of customers expect an instant response from Custom=
+er Support within just 5 minutes and 85% want personalized service through =
+their preferred communication channels.
+
+How can your team meet these expectations?
+Obviously! with MCUBE's Cloud Telephony Solutions
+Book A Demo<https://e-in21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4fb0-bd52=
+-de9455ef03a2/7c881aa7853211ee8f4c0af95b823f2c >
+
+Advanced Features: Boost productivity with click-to-call, call forwarding, =
+and more
+Insightful Analytics: Leverage call data for informed decision-making.
+Seamless Integration: Connect effortlessly with CRM systems and other tools=
+.
+Multi-Channel Support: Engage customers through voice calls, SMS, and addit=
+ional channels.
+Let's set up a quick demo to show you how our services can boost your busin=
+ess.
+Contact Us Today
+
+Best Regards,
+MCUBE
+<https://e-in21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4fb0-bd52-de9455ef03=
+a2/15b3034b863a11ea8109022edb41208c ><https://e-in21.gtolink.in/t/em1/44880=
+/1/15f2ee68-e7af-4fb0-bd52-de9455ef03a2/06a1e6c2f64511ee91000295982bf3c5 >
+
+If you wish to opt out of all type of emails, click Unsubscribe<https://e-i=
+n21.gtolink.in/t/em/44880/7/15f2ee68-e7af-4fb0-bd52-de9455ef03a2 >
+
+
+You can update your preferences on the type of emails you want to receive f=
+rom us Mailing Preferences<https://e-in21.gtolink.in/t/em/44880/8/15f2ee68-=
+e7af-4fb0-bd52-de9455ef03a2 >
+--a6570022356c800d126ae3773ceebabbc8ac45b1e8420a5b0ed412884771
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Mime-Version: 1.0
+
+<!DOCTYPE html><html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"u=
+rn:schemas-microsoft-com:office:office" lang=3D"en"><head><title></title><m=
+eta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><met=
+a name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1"><!--=
+[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInc=
+h><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]--><style>*{box-si=
+zing:border-box}body{margin:0;padding:0}a[x-apple-data-detectors]{color:inh=
+erit!important;text-decoration:inherit!important}#MessageViewBody a{color:i=
+nherit;text-decoration:none}p{line-height:inherit}.desktop_hide,.desktop_hi=
+de table{mso-hide:all;display:none;max-height:0;overflow:hidden}.image_bloc=
+k img+div{display:none} @media (max-width:620px){.desktop_hide table.icons-=
+outer{display:inline-table!important}.social_block.desktop_hide .social-tab=
+le{display:inline-block!important}.image_block div.fullWidth{max-width:100%=
+!important}.mobile_hide{display:none}.row-content{width:100%!important}.sta=
+ck .column{width:100%;display:block}.mobile_hide{min-height:0;max-height:0;=
+max-width:0;overflow:hidden;font-size:0}.desktop_hide,.desktop_hide table{d=
+isplay:table!important;max-height:none!important}}</style></head><body clas=
+s=3D"body" style=3D"background-color:#f7f7f7;margin:0;padding:0;-webkit-tex=
+t-size-adjust:none;text-size-adjust:none"><table class=3D"nl-container" wid=
+th=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presen=
+tation" style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#f7=
+f7f7"><tbody><tr><td><table class=3D"row row-1" align=3D"center" width=3D"1=
+00%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation"=
+ style=3D"mso-table-lspace:0;mso-table-rspace:0;background-color:#e2e2e2"><=
+tbody><tr><td><table class=3D"row-content stack" align=3D"center" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-=
+table-lspace:0;mso-table-rspace:0;color:#000;border-radius:0;background-col=
+or:#fff;width:600px;margin:0 auto" width=3D"600"><tbody><tr><td class=3D"co=
+lumn column-1" width=3D"100%" style=3D"mso-table-lspace:0;mso-table-rspace:=
+0;font-weight:400;text-align:left;vertical-align:top;border-top:0;border-ri=
+ght:0;border-bottom:0;border-left:0"><table class=3D"icons_block block-1" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pres=
+entation" style=3D"mso-table-lspace:0;mso-table-rspace:0;text-align:center;=
+line-height:0"><tr><td class=3D"pad" style=3D"vertical-align:middle;color:#=
+000;font-family:inherit;font-size:14px;font-weight:400;text-align:center"><=
+table class=3D"icons-outer" cellpadding=3D"0" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;display:inline-ta=
+ble"><tr><td style=3D"vertical-align:middle;text-align:center;padding-top:5=
+px;padding-bottom:5px;padding-left:5px;padding-right:5px"><img class=3D"ico=
+n" src=3D"https://f2.leadsquaredcdn.com/t/t20191012182636/content/common/im=
+ages/MCUBE logo (1).png" height=3D"auto" width=3D"137" align=3D"center" sty=
+le=3D"display:block;height:auto;margin:0 auto;border:0"></td></tr></table><=
+/td></tr></table><table class=3D"image_block block-2" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"width:=
+100%;padding-right:0;padding-left:0"><div class=3D"alignment" align=3D"cent=
+er" style=3D"line-height:10px"><div class=3D"fullWidth" style=3D"max-width:=
+540px"><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4fb=
+0-bd52-de9455ef03a2/2ef9abba49a711ef91000295982bf3c5"  target=3D"_blank" st=
+yle=3D"outline:none" tabindex=3D"-1"><img src=3D"https://f2.leadsquaredcdn.=
+com/t/t20191012182636/content/common/images/CLOUD TELEPHONY BANNER IMG-01_1=
+1zon.jpg" style=3D"display:block;height:auto;border:0;width:100%" width=3D"=
+540" alt=3D"New Trends in Strategic Brand Management" title=3D"New Trends i=
+n Strategic Brand Management" height=3D"auto"></a></div></div></td></tr></t=
+able></td></tr></tbody></table></td></tr></tbody></table><table class=3D"ro=
+w row-2" align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-=
+rspace:0;background-color:#e2e2e2"><tbody><tr><td><table class=3D"row-conte=
+nt stack" align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;color=
+:#000;border-radius:0;background-color:#fff;width:600px;margin:0 auto" widt=
+h=3D"600"><tbody><tr><td class=3D"column column-1" width=3D"100%" style=3D"=
+mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-align:left;paddi=
+ng-bottom:5px;vertical-align:top;border-top:0;border-right:0;border-bottom:=
+0;border-left:0"><table class=3D"text_block block-1" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0;word-break:break-word"><tr><td class=
+=3D"pad" style=3D"padding-bottom:5px;padding-left:30px;padding-right:25px;p=
+adding-top:20px"><div style=3D"font-family:Arial,sans-serif"><div class sty=
+le=3D"font-size:14px;font-family:Arial,'Helvetica Neue',Helvetica,sans-seri=
+f;mso-line-height-alt:16.8px;color:#000;line-height:1.2"><p style=3D"margin=
+:0;font-size:15px;mso-line-height-alt:18px">Greetings from MCUBE!<br><br>He=
+re's the reality: 70% of customers expect an instant response from Customer=
+ Support within just 5 minutes and 85% want personalized service through th=
+eir preferred communication channels.<br><br>How can your team meet these e=
+xpectations?<br><br>Obviously! with MCUBE's Cloud Telephony Solutions</p></=
+div></div></td></tr></table><table class=3D"button_block block-2" width=3D"=
+100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"presentatio=
+n" style=3D"mso-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad"><d=
+iv class=3D"alignment" align=3D"center"><!--[if mso]><v:roundrect xmlns:v=
+=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:off=
+ice:word" href=3D"https://e-in21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4fb=
+0-bd52-de9455ef03a2/7c881aa7853211ee8f4c0af95b823f2c"  style=3D"height:46px=
+;width:146px;v-text-anchor:middle;" arcsize=3D"16%" stroke=3D"false" fillco=
+lor=3D"#0a4b6b"><w:anchorlock/><v:textbox inset=3D"0px,0px,0px,0px"><center=
+ dir=3D"false" style=3D"color:#ffffff;font-family:Arial, sans-serif;font-si=
+ze:18px"><![endif]--><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/15f=
+2ee68-e7af-4fb0-bd52-de9455ef03a2/7c881aa7853211ee8f4c0af95b823f2c"  target=
+=3D"_blank" style=3D"background-color:#0a4b6b;border-bottom:0px solid trans=
+parent;border-left:0px solid transparent;border-radius:7px;border-right:0px=
+ solid transparent;border-top:0px solid transparent;color:#ffffff;display:i=
+nline-block;font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;font=
+-size:18px;font-weight:400;mso-border-alt:none;padding-bottom:5px;padding-t=
+op:5px;text-align:center;text-decoration:none;width:auto;word-break:keep-al=
+l;"><span style=3D"word-break: break-word; padding-left: 15px; padding-righ=
+t: 15px; font-size: 18px; display: inline-block; letter-spacing: normal;"><=
+span style=3D"word-break: break-word; line-height: 36px;"><strong>Book A De=
+mo</strong></span></span></a><!--[if mso]></center></v:textbox></v:roundrec=
+t><![endif]--></div></td></tr></table><table class=3D"text_block block-3" w=
+idth=3D"100%" border=3D"0" cellpadding=3D"10" cellspacing=3D"0" role=3D"pre=
+sentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break-=
+word"><tr><td class=3D"pad"><div style=3D"font-family:sans-serif"><div clas=
+s style=3D"font-size:12px;font-family:Arial,Helvetica Neue,Helvetica,sans-s=
+erif;mso-line-height-alt:21.6px;color:#555;line-height:1.8"><ul style=3D"li=
+ne-height:1.8;mso-line-height-alt:21.6px;font-size:15px"><li><span style=3D=
+"word-break: break-word; font-size: 15px; color: #000000;"><strong>Advanced=
+ Features: </strong>Boost productivity with click-to-call, call forwarding,=
+ and more</span></li><li><p style=3D"margin:0;font-size:15px;mso-line-heigh=
+t-alt:27px"><span style=3D"word-break: break-word; font-size: 15px; color: =
+#000000;"><strong>Insightful Analytics:</strong> Leverage call data for inf=
+ormed decision-making.</span></p></li><li><p style=3D"margin:0;font-size:15=
+px;mso-line-height-alt:27px"><span style=3D"word-break: break-word; font-si=
+ze: 15px; color: #000000;"><strong>Seamless Integration:</strong> Connect e=
+ffortlessly with CRM systems and other tools.</span></p></li><li><p style=
+=3D"margin:0;font-size:15px;mso-line-height-alt:27px"><span style=3D"word-b=
+reak: break-word; font-size: 15px; color: #000000;"><strong>Multi-Channel S=
+upport:</strong> Engage customers through voice calls, SMS, and additional =
+channels.</span></p></li></ul></div></div></td></tr></table><table class=3D=
+"text_block block-4" width=3D"100%" border=3D"0" cellpadding=3D"10" cellspa=
+cing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspa=
+ce:0;word-break:break-word"><tr><td class=3D"pad"><div style=3D"font-family=
+:sans-serif"><div class style=3D"font-size:14px;font-family:Arial,Helvetica=
+ Neue,Helvetica,sans-serif;mso-line-height-alt:16.8px;color:#555;line-heigh=
+t:1.2"><p style=3D"margin:0;mso-line-height-alt:16.8px"><br><span style=3D"=
+word-break: break-word; color: #000000; font-size: 15px;">Let's set up a qu=
+ick demo to show you how our services can boost your business.&nbsp;</span>=
+<br><br><span style=3D"word-break: break-word; color: #000000; font-size: 1=
+5px;">Contact Us Today</span><br><br><span style=3D"word-break: break-word;=
+ color: #000000; font-size: 15px;">Best Regards,</span><br><span style=3D"w=
+ord-break: break-word; color: #000000; font-size: 15px;">MCUBE</span></p></=
+div></div></td></tr></table></td></tr></tbody></table></td></tr></tbody></t=
+able><table class=3D"row row-3" align=3D"center" width=3D"100%" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-ta=
+ble-lspace:0;mso-table-rspace:0;background-color:#e2e2e2"><tbody><tr><td><t=
+able class=3D"row-content stack" align=3D"center" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;=
+mso-table-rspace:0;color:#000;border-radius:0;background-color:#fff;border-=
+bottom:10px solid transparent;border-left:10px solid transparent;border-rig=
+ht:10px solid transparent;border-top:10px solid transparent;width:600px;mar=
+gin:0 auto" width=3D"600"><tbody><tr><td class=3D"column column-1" width=3D=
+"100%" style=3D"mso-table-lspace:0;mso-table-rspace:0;font-weight:400;text-=
+align:left;vertical-align:top;border-top:0;border-right:0;border-bottom:0;b=
+order-left:0"><table class=3D"social_block block-1" width=3D"100%" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"m=
+so-table-lspace:0;mso-table-rspace:0"><tr><td class=3D"pad" style=3D"paddin=
+g-bottom:10px;padding-left:20px;padding-right:20px;padding-top:5px;text-ali=
+gn:center"><div class=3D"alignment" align=3D"center"><table class=3D"social=
+-table" width=3D"180px" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" ro=
+le=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;display:=
+inline-block"><tr><td style=3D"padding:0 2px 0 2px"><a href=3D"https://e-in=
+21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4fb0-bd52-de9455ef03a2/15b3034b86=
+3a11ea8109022edb41208c"  target=3D"_blank"><img src=3D"https://app-rsrc.get=
+bee.io/public/resources/social-networks-icon-sets/circle-color/facebook@2x.=
+png" width=3D"32" height=3D"auto" alt=3D"Facebook" title=3D"Facebook" style=
+=3D"display:block;height:auto;border:0"></a></td><td style=3D"padding:0 2px=
+ 0 2px"><a href=3D"https://e-in21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4f=
+b0-bd52-de9455ef03a2/32be8780889f11ebb68d02506fc2b3ce"  target=3D"_blank"><=
+img src=3D"https://app-rsrc.getbee.io/public/resources/social-networks-icon=
+-sets/circle-color/twitter@2x.png" width=3D"32" height=3D"auto" alt=3D"Twit=
+ter" title=3D"Twitter" style=3D"display:block;height:auto;border:0"></a></t=
+d><td style=3D"padding:0 2px 0 2px"><a href=3D"https://e-in21.gtolink.in/t/=
+em1/44880/1/15f2ee68-e7af-4fb0-bd52-de9455ef03a2/7ca57f249f1f11eebb320af95b=
+823f2c"  target=3D"_blank"><img src=3D"https://app-rsrc.getbee.io/public/re=
+sources/social-networks-icon-sets/circle-color/instagram@2x.png" width=3D"3=
+2" height=3D"auto" alt=3D"Instagram" title=3D"Instagram" style=3D"display:b=
+lock;height:auto;border:0"></a></td><td style=3D"padding:0 2px 0 2px"><a hr=
+ef=3D"https://e-in21.gtolink.in/t/em1/44880/1/15f2ee68-e7af-4fb0-bd52-de945=
+5ef03a2/06a1e6c2f64511ee91000295982bf3c5"  target=3D"_blank"><img src=3D"ht=
+tps://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/circle-=
+color/linkedin@2x.png" width=3D"32" height=3D"auto" alt=3D"LinkedIn" title=
+=3D"LinkedIn" style=3D"display:block;height:auto;border:0"></a></td><td sty=
+le=3D"padding:0 2px 0 2px"><a href=3D"https://e-in21.gtolink.in/t/em1/44880=
+/1/15f2ee68-e7af-4fb0-bd52-de9455ef03a2/06a2b46af64511ee91000295982bf3c5"  =
+target=3D"_blank"><img src=3D"https://app-rsrc.getbee.io/public/resources/s=
+ocial-networks-icon-sets/circle-color/youtube@2x.png" width=3D"32" height=
+=3D"auto" alt=3D"YouTube" title=3D"YouTube" style=3D"display:block;height:a=
+uto;border:0"></a></td></tr></table></div></td></tr></table><table class=3D=
+"text_block block-2" width=3D"100%" border=3D"0" cellpadding=3D"5" cellspac=
+ing=3D"0" role=3D"presentation" style=3D"mso-table-lspace:0;mso-table-rspac=
+e:0;word-break:break-word"><tr><td class=3D"pad"><div style=3D"font-family:=
+Arial,sans-serif"><div class style=3D"font-size:12px;font-family:Arial,Helv=
+etica Neue,Helvetica,sans-serif;mso-line-height-alt:18px;color:#555;line-he=
+ight:1.5"><p style=3D"margin:0;font-size:14px;text-align:center;mso-line-he=
+ight-alt:18px"><span style=3D"word-break: break-word; font-size: 12px;">If =
+you wish to opt out of all type of emails, click <a style=3D"text-decoratio=
+n: underline; color: #554fb5;" href=3D"https://e-in21.gtolink.in/t/em/44880=
+/7/15f2ee68-e7af-4fb0-bd52-de9455ef03a2" target=3D"_blank">Unsubscribe</a><=
+/span></p></div></div></td></tr></table><table class=3D"text_block block-3"=
+ width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"pr=
+esentation" style=3D"mso-table-lspace:0;mso-table-rspace:0;word-break:break=
+-word"><tr><td class=3D"pad" style=3D"padding-bottom:5px;padding-top:5px"><=
+div style=3D"font-family:Arial,sans-serif"><div class style=3D"font-size:12=
+px;font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;mso-line-height-=
+alt:18px;color:#555;line-height:1.5"><p style=3D"margin:0;font-size:14px;te=
+xt-align:center;mso-line-height-alt:18px"><span style=3D"word-break: break-=
+word; font-size: 12px;">You can update your preferences on the type of emai=
+ls you want to receive from us <a style=3D"text-decoration: underline; colo=
+r: #554fb5;" href=3D"https://e-in21.gtolink.in/t/em/44880/8/15f2ee68-e7af-4=
+fb0-bd52-de9455ef03a2" target=3D"_blank" rel=3D"noopener">Mailing Preferenc=
+es</a></span></p></div></div></td></tr></table></td></tr></tbody></table></=
+td></tr></tbody></table></td></tr></tbody></table><!-- End --><mxpixettrack=
+ingtag><img src=3D"https://e-in21.gtolink.in/t/em/44880/0/15f2ee68-e7af-4fb=
+0-bd52-de9455ef03a2" height=3D"1" width=3D"1" /></mxpixettrackingtag> </bod=
+y></html>
+--a6570022356c800d126ae3773ceebabbc8ac45b1e8420a5b0ed412884771--

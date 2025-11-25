@@ -1,0 +1,137 @@
+Return-Path: <marewy473@hotmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id cLLdBBGrsGUROAAAQ+45pw
+	(envelope-from <marewy473@hotmail.com>)
+	for <info+spam@go-onriders.com>; Wed, 24 Jan 2024 01:15:45 -0500
+Return-path: <marewy473@hotmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 24 Jan 2024 01:15:45 -0500
+Received: from mail-sgaapc01olkn2058.outbound.protection.outlook.com ([40.92.53.58]:42880 helo=APC01-SG2-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.96.2)
+	(envelope-from <marewy473@hotmail.com>)
+	id 1rSWY2-0003wk-37
+	for info@go-onriders.com;
+	Wed, 24 Jan 2024 01:15:45 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=MNWQsbCOKuKEofp248tyomXBTKEVnuOF1y40arIveve+1j8Uo8ONrstHV4G67+BC7TrnHt4FguP61u6SldGWRjVCOhcldpP+0ioMMffnA2HnLA9+Vs1BU79hcdxvS+GS2nxaw1v03YFQJhgPW/nrpQ+DJxlbsToOD0dyBfNhoesvrm2CmgC03WnnZXHOV22gAcn++J64nQHB6IxtxT9v3rGuGfTBw4sD9elUP8Br6v7YupNk9np07iT0+9gNna0jbdg38y8fgl/As42SyDVatD0i0DVTSyyW1Dj8mMCmSaQIEo4MBttEr8mGWkTkuFfCqrNC9Wiio9m38fM7Mkkm0g==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=r1zaIkMTvqtJFNaB7m3heS+0ItFVfcPQsSMTp7ANuo8=;
+ b=RmyMwTNO0kqgdRj1rG6CLXH3thnitRbiA1fio1SshRbtJ+OONMvF8Xl4B3OLtaXlA87MbPfNJiM71ItA7tuTaJcXe9Jr7IT3rtTeLGH5fjiyzFguhCGZskl11dVBnA0CZYaLSfc83xC6wCQimBZSod1yCTsLKApqat15/TSQrNpAnUyjcEhcEIIHutWJoOwVUKwObHZXBnCch+Tsixp/2E3F/ZWjldV/Npx+4wS7KRHsMXcGjsAFIoJ8cVnyYYaZku3YmipOW9hBy6/2JpNuFwm3Dh8PEcoUaGV97MovMYD4jWmPJacOABb5wKiR5T9a61G8s2c+jhsyziPYTujYJQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=r1zaIkMTvqtJFNaB7m3heS+0ItFVfcPQsSMTp7ANuo8=;
+ b=CKX5RNSXRMrav8vwUy+Y9O9V+fRFzYef3d1AkcxtydtjZlJz5cm7i4bcMkhK+zjM57hqfmgKE83sHCZEGCb13umbqkkcY4amyAk5h80WNDUclWZtfvzoiwiRxv3VhQKTPzAcMXprZAo/Sw47rgYU1YdF4EWHPWQF1+ug9YTIhPbjZnjeKgn8y//PfOGH5pSxf/wQP0QMZ4ib1Cix050J9Qxvn94E5/VR3Kjb8XmDbmlO482TD1B7Z/fXSGIw3l1czNI8Q5xQC6XpDUPwRXFB2HkhMPyY4ONOc07PPx/pEUrjwkuWqqV8IEFKKZqd5tz+1X6/So+vHMlkrq1xbpsp/Q==
+Received: from SEYPR06MB6706.apcprd06.prod.outlook.com (2603:1096:101:167::7)
+ by JH0PR06MB6739.apcprd06.prod.outlook.com (2603:1096:990:35::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7202.37; Wed, 24 Jan
+ 2024 06:13:48 +0000
+Received: from SEYPR06MB6706.apcprd06.prod.outlook.com
+ ([fe80::5082:a4f9:66f5:a4c4]) by SEYPR06MB6706.apcprd06.prod.outlook.com
+ ([fe80::5082:a4f9:66f5:a4c4%3]) with mapi id 15.20.7228.022; Wed, 24 Jan 2024
+ 06:13:48 +0000
+From: Harmony Runge <marewy473@hotmail.com>
+To: info@asianaracine.com
+Content-Type: text/plain
+Date: Wed, 24 Jan 2024 06:13:44 +0000
+X-TMN: [HH/Th37kdymwJ4mSEvWnWfWzyuJkhl8y]
+X-ClientProxiedBy: FR0P281CA0176.DEUP281.PROD.OUTLOOK.COM
+ (2603:10a6:d10:b4::15) To SEYPR06MB6706.apcprd06.prod.outlook.com
+ (2603:1096:101:167::7)
+Message-ID:
+ <SEYPR06MB670640873CD4987571D786C0EA7B2@SEYPR06MB6706.apcprd06.prod.outlook.com>
+MIME-Version: 1.0
+X-MS-Exchange-MessageSentRepresentingType: 1
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: SEYPR06MB6706:EE_|JH0PR06MB6739:EE_
+X-MS-Office365-Filtering-Correlation-Id: 55019737-9316-415a-969a-08dc1ca39f47
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	NcRxH8FjQ9BNKrtrklNR0tbcwFdNKNQ0dkE7uuHlt2Jk58HsnYr4OdjCXt+Wv4TbmvAHOTVqCU98pBFFssTFfslcBA+lw+ZGXPypLeNPipQJ83HjO4QBwtdizEVkFxHgXvy8aMS5zCw0awVwkyBqV7t71PQJK6YuyAgL57mMegJ4wBYYX5eEomtLg3KmV1zMj16LYeNNM4ADJ20wTHVbAQT6LaPGeZd8c/FVF+Gt3zd/x2IgMPbOg0/ICC+PM4YWK/boJZfZo16c7e9maY+ezC2eXrUy3WE2jRhY1JVtsY2rxi7qs6FNDqyOa12TDj/dsCjZUt/ddn7Mda7dPcLVY026/aw3MXxNITUFu+MQPusdRKIRr17jMzz9oZ6OiuwgLRX9AU6hQyjeqnlBwusAp78DRbFyYqsMDFl1eLaRlusvGzU1HpCYcAt0BhbNqVxwaNq09DiVF4GOdL+QVIhAYZqGWNjtDrZMcHfxdYlIIeIQLPacCd0c7lyGqFqKSitwAbxJA6S/FZVAsyj+j0VZgCrpW/tq3sELUUf0fxIOcWKebMNefJPtw2VHUwPiQfVS7l/puO7GF0gMBz4KnuSP1yGOwuBBKPE1V95jYSdnXT4XnNIr+jc0l/mwGjY4OFRs/X8iFxmAy5RzzaTS8OaCXp/ZK+YIagL/GZEQI1dGxJAe3ugR/qsAv2csB1VdgATINoejSn9FXGXXZ96AoqF22d0XOBrY9UhB4Lf/mh3bYIGjXRSL//nwLanlXRL8O7PWsCDPsh6ME5+VQOhdBhFlbg902xlR26Oe1buujwE3Pd603pC3fAjvfVPKREe9QAEk089P6Ih4cRuWwVJjTPz+cHl7Tx2IsDM+H6b0tCcOBIIH/LGUhy83ZWv3DcqXIPed1sVPqyerqafSS12di5CHE5cN2hNfXuPmAMNd+MxmOqaKHUj4NpQgB1Hq07gakL2S
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	=?us-ascii?Q?6NgVpnWmuqGmPDYzszNqH5jm83Nv4h/+hI63DR7oPMuNkLaHxMIb6+Ex0xaL?=
+ =?us-ascii?Q?nv9sorpXKYE90qFiGQZfwbMVNKDeMHhYlbGH24ernZ2GEb7ApzdL11cwIgNp?=
+ =?us-ascii?Q?MljeKPiQWz2vW8h+Uz19dYHI+PSuaTjsl3MrNSr8GTdO5C7uac5L9CGBOHop?=
+ =?us-ascii?Q?+YUrUjjVx4oFW0/agwKKkf8i7oXyz0EiKLcaSKpdJpfnwHfIoY0hbiDskQXM?=
+ =?us-ascii?Q?L3D3V/UMIDIXIyuwB32vGUS4ObKL2Lwc3dOBcBYqxLbleDk3kqa72MBsZG0z?=
+ =?us-ascii?Q?nZIMmkHHCJSBHVlQ8oQRINwEhz4Nj4+Qsfd/iD36uxkwj/g+V1OFWRHjNqXb?=
+ =?us-ascii?Q?RdN78L/CZ7aPwDX/2bDN0f/RZ5lDrp2m7ptEU8r06HZTTvvKhyl0ygAJRqSU?=
+ =?us-ascii?Q?dkj+5J1U3/YLRyLn+v/XOA2SRKFG+y6WNgAI6ymvp4QJD+B9AxsIyuPtoUTU?=
+ =?us-ascii?Q?5UlhnGzVsKwQBI5gZKOhg+PI5KW9gKVZIL6UWSuY4xOZFNyFyBBzrCYL4vhi?=
+ =?us-ascii?Q?rcGvGxt7qDeshMD3rdw0dIMX5mS2XXASfipuZZxBdPawLG49ZqDYgOg6QpYY?=
+ =?us-ascii?Q?YiFweLDOAQQpTZoPEDAg1+cW8V0uyLLySBDSn0FCGFdtDB8Dy1b7rBVllMSg?=
+ =?us-ascii?Q?ddM3wT8chDR9raf0YoOb9hyMRWfptvB1leke2gCD1fsNW8gnm9JDRcYsrM0j?=
+ =?us-ascii?Q?pUaHh9lGiipn1mqwir8vdofcdJofJpIrjOPedliG8IctPpXYo46mUIDQzse9?=
+ =?us-ascii?Q?8IS9vyEtF57tVYA+AWHrMmxj2MTUyP0mvKaZ11iRo9Fz0/KeePt7psmYnCYo?=
+ =?us-ascii?Q?HwV/7FbU9Q0/UgD/gikORtf+GiPL3RD6QkRJqrDkbLC4lewoj9aRczbmH0Em?=
+ =?us-ascii?Q?bSE+XZJJ9N98TpCM4cJO2ceNmulvxbXbiQTTsHPp9uZ3/PTYka14HMvJUJdJ?=
+ =?us-ascii?Q?O+ZXQhJmlgj8lN2ZqYYaMbSoGLgSFOcgVKmd2WHU31A5FEu0E+vgPT5XsnKN?=
+ =?us-ascii?Q?GyT0FQ/yHq9nIYtj5wQ3JUWw8zupvztXgFA6xW/ZHsaWPesD3W6TOYfjDx50?=
+ =?us-ascii?Q?7eNFMXXOQRwXcvqkT3OCfd5tUTmgq2uiacO7hatiF8K+m7+7zJSoYSBJSvrz?=
+ =?us-ascii?Q?5dj87HHojQOHIJ2oVNeghamU35PlfcPVMGavDrPI4EBJ9VbZss7d9JnGdaRz?=
+ =?us-ascii?Q?8WvTl51Q7cT65W8VHvu6a1JQxvLHhlk6lkqEWg=3D=3D?=
+X-OriginatorOrg: sct-15-20-4755-11-msonline-outlook-3208f.templateTenant
+X-MS-Exchange-CrossTenant-Network-Message-Id: 55019737-9316-415a-969a-08dc1ca39f47
+X-MS-Exchange-CrossTenant-AuthSource: SEYPR06MB6706.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 24 Jan 2024 06:13:46.3097
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg:
+	00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JH0PR06MB6739
+X-MagicSpam-TUUID: 1870ba75-6b02-453a-a63f-c9a4fd86687e
+X-MagicSpam-SUUID: 101e0646-f525-45b1-bb41-38f12f4c8298
+X-Spam-Status: Yes, score=11.4
+X-Spam-Score: 114
+X-Spam-Bar: +++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  A great offer for web developers. Details: https://zetds.seychellesyoga.com/admin-info
+    
+ Content analysis details:   (11.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [marewy473[at]hotmail.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [marewy473[at]hotmail.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  3.0 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  1.5 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.1 LM_CATFISH_GENERIC_PAT Generic message pattern seen in Catfish
+                             spam.
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  2.9 SCC_BODY_URI_ONLY      No description available.
+  0.5 LM_RECEIVED_THROUGH_ONMICROSOFT Received from a leaky source.
+  1.0 LM_WEB_DESIGN_BODY     Body contains references to web design
+                             proposals.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  hоsting #4665967-658-amd
+
+
+A great offer for web developers. Details: https://zetds.seychellesyoga.com/admin-info

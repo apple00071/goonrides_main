@@ -1,0 +1,294 @@
+Return-Path: <rituverma552@hotmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id HL7EER5V4GYWHi4AQ+45pw
+	(envelope-from <rituverma552@hotmail.com>)
+	for <info+spam@go-onriders.com>; Tue, 10 Sep 2024 10:18:06 -0400
+Return-path: <rituverma552@hotmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 10 Sep 2024 10:18:06 -0400
+Received: from mail-eastasiaazolkn19010000.outbound.protection.outlook.com ([52.103.64.0]:5251 helo=HK2PR02CU002.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <rituverma552@hotmail.com>)
+	id 1so1gz-0000000Cg4P-490z
+	for info@go-onriders.com;
+	Tue, 10 Sep 2024 10:18:06 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=fqbgJ+FZ0hHq4OwxrGUqO2C9dpXuLAwqXfsVxtMeJ/SWzVs2TONOnaduvp37k7tQWxsgStrgKjRJmne5e3aLO8IvEGRoYrLrAWlk+uNI0y5dVEdDnj/pZPPDT/Q+eEqzoohNJL24zcGU1UlnOOnUBC1bcgttzY/I0Ev9TkleygH/u82fu+F8Fe6W6Ou1zBQWmlvqSByP4+1D6v+w07kagIjgZqHCdGHuG7Jnb+COGoOW3RLS/Uy7PRR/msbeHI8/Jmch3pjDibPe0iNJIAQBty8bzoAQMdQID7yM6KG4fuLNLy1XPZvWamX9r/A7izqndVBeWjF1Zx4qakE9opMSNg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Yze17vEAdPwhYI9dlnD4rgpVmHEBxl2ZBB4l+jQ1gis=;
+ b=q5DO5Vf1IoWJGN6WgNsVDGexVKjeOtEYjk7b+kDskk+TlKJSvFxg7ZaFGJqxPFCqW1FFle017IpwgtrAZ1UgWRTKqKWZeb7Sz0C9jp+gcjnfQC2U/o4FGkHrWR68eFkwmWUgGLXHj+mto3IQJB4Fmv/1UZrU7DtEkxHyJl3L9f9DvOzQEZzfJ6Ip8ONyQlzFx+PL59dDAC04/vRXthIM9oZqo8h0NmMGv56ZIJWqft1rKbAedcxYQwjlARFALxy3znm/8Sx55+culGsOZlkXK6QpGvferoMu/hD+2RYxx13MeQYI2GUovCWYCGHMmL8nRL6Gi1RtsLrCq1dZx4WwsA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Yze17vEAdPwhYI9dlnD4rgpVmHEBxl2ZBB4l+jQ1gis=;
+ b=S8BFHwmunCoEqM1ImsFaTsgLsjXECkRiJdR05+XPktDMsUDb+Equk59qi1/9RqnUmqpGITU9ARIbFg0+2ZGvLCYq7x3mejGvSx7ViC7ZT1RfjfOjT8WTKGBHECKHr/fCkI1f+wxB72vudlm7fhVBXl9y09Z2o76T0qqmC2AFdFaipiO1SD/22888RF5JM88nBaNj4udVXP9oa20m6Uc3cxcyFL7A3L/Y6HBHEoS86P9UZl8/2UcwBdEdpasEV7YmQTGxvlJjSiOWaDn1p3XeIllIVhFHZqmax8+jVSxxC/jkiHRDmZL4mJ/mgYG2pl+KsVPQpyhIYYHZM/S7loRZqg==
+Received: from SEYPR01MB4152.apcprd01.prod.exchangelabs.com
+ (2603:1096:101:54::10) by JH0PR01MB5539.apcprd01.prod.exchangelabs.com
+ (2603:1096:990:11::6) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7939.23; Tue, 10 Sep
+ 2024 14:16:18 +0000
+Received: from SEYPR01MB4152.apcprd01.prod.exchangelabs.com
+ ([fe80::12bf:d8e6:1f59:5112]) by SEYPR01MB4152.apcprd01.prod.exchangelabs.com
+ ([fe80::12bf:d8e6:1f59:5112%4]) with mapi id 15.20.7939.022; Tue, 10 Sep 2024
+ 14:16:18 +0000
+From: ritu verma <rituverma552@hotmail.com>
+Thread-Topic: Re:Logistics App ...?
+Thread-Index: AQHbA4sG1OrZhp4/cUaiMD7Ud3fiKg==
+Date: Tue, 10 Sep 2024 14:16:15 +0000
+Message-ID:
+ <SEYPR01MB4152E4F1D4436F4C747EB03E8A9A2@SEYPR01MB4152.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US, en-IN
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-tmn: [C3xfYVwKwZzShHBMJx9rRvW92917MKLB]
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SEYPR01MB4152:EE_|JH0PR01MB5539:EE_
+x-ms-office365-filtering-correlation-id: 0d66f55d-9b65-4396-ce52-08dcd1a321ef
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15080799006|461199028|15030799003|8060799006|19110799003|56899033|102099032|440099028|3412199025;
+x-microsoft-antispam-message-info:
+ 81jiBWXj+35qO27/uco/SlZMMGIuddiT00/198oBttXs38AMuD7CTG5BhrqrMucME6sSanj1rAn4YzoJqyAGWaBkGAViBJZ0cvJs4FFuH84R55qg4k5VkrdVqK0jvQOxXtO1CENMS/UwiAIvnAiH8IH/ruow47dzNi1dssqWI6cLnZ0qX9asYj3ZgfUg0ARlLe+wDA24t3IpV4i4UqrJZR//odtlwHWsc8gsL5ouY6OIzulCiZwtTPHwcA6W3A9qRyE67e9nnO6a+PQPQP5dDu+YwXqg4XG6tw9Rh0PCXNPDBd30qjbnHgIU3KJduaSalFqL92tQ9ffgBV6QdFfsWanY7TZ4arS4OFe+W6UmxLPF3X7HCsDnd/3vVCLLEYZ1irnWnOCAIa4guLDIwmOa7a9kaIWuDDIZYaBK3umz5/c/2tZvguIyNzJvwiHd+Kpjn1XNezLgufjmbjtHoTLlGwJLrg4XIsfgzfwmXc7i7cj5XfXQkAVllPIahIC9ArwtnTfXp5bhPtybuDAG+fesZQaAZHoP0e3DpfFngKZcnDRSwTVsUOl0412Zwgkz8nTnyNsjRuZa9BzxE+Xx6w68gG4QA4QhBl38tVhWvilehsu8yOKmlV4o5MW4miI8Mres+eq9bTrWfRn62S28mgHfTuZkCka6DytLKeXaxMHUEXmiv9I1KCd5fw2oNMWyU39/K2ffhdjbx2CvINDSz6UjqA==
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?WBw14nIFCMqgEDJj2y/4lW9Z+0kvSd9vZLgkanoQ994TupjJ8cDQIW2R?=
+ =?Windows-1252?Q?nEEICYZ7k4cLd2u1xSs7Exdl9izTTqWJaLAU0ZrK9BSxhfDRqAUp6bZF?=
+ =?Windows-1252?Q?JhuHa4mBqgdM8OKX6V/TK2zD66l/95UqpBV3wUAQ7F4GVNidA6YXFEBy?=
+ =?Windows-1252?Q?0U/kH++ilXxLBelwzmU/gbtA9Ak60xMHlOUkd8xvkWkknGsNJq0Y+Myj?=
+ =?Windows-1252?Q?ENudzQdj97Wa9vKkJ+QbV77mY0PRIEhfM58t7nxB/ZXxjqSLkvMj/rHn?=
+ =?Windows-1252?Q?j/hJaGhAVCqiP+jiKS9DUIXQdeTgAb/hvYNlAkI+79ZG6uE092Q/wF4v?=
+ =?Windows-1252?Q?6n8RHO90zTpALu9vSJfVFRwOAi9zd65icmYjFVNvt2F6So6r6cKzTNfs?=
+ =?Windows-1252?Q?B6v2023p81r3TL1WTYERdirT5UaSdysUMB2N1bDdsjauTCBQb1W+H3/e?=
+ =?Windows-1252?Q?JezTT7V5IjSFkxJq6ziFNb8x+W9EbfmkZeKHN0oUvwuAscDhYBkSEhCV?=
+ =?Windows-1252?Q?4vd1tbAX416aMqNZoRxily0jFhmr8GuY+dFY0nWeB3EggDVEENZ1TNm0?=
+ =?Windows-1252?Q?dLWBkWTA9GVYVO+qKN68M0P7MUJFyr27qNRog4OmkTByunoOFUhODm7i?=
+ =?Windows-1252?Q?XLZiHz7ZVKHRped55FB/cu7jlTDNNr9GgVSTxIGO3K18kuwGfhfOliUc?=
+ =?Windows-1252?Q?9ZX7QWOfqjpcguN1N9yRQLDE8TGy6rb1syke+3nNVkUNK4BPx3XaTysT?=
+ =?Windows-1252?Q?1GvABI+wr0/FDwuN8H3tkWCowbr3iA8KoclFv/wekkFaH3xd/KfLLsEv?=
+ =?Windows-1252?Q?+FaTY8xRfkkK99zBFimuPU5x4hl/iEAn+9++uQGvL1I+LdDAxt7QLoKm?=
+ =?Windows-1252?Q?MEnbMaH76Tzua9Rl592z5RNV1pOpBUXWI/JeINs8nRmk2rWtwszRGNu+?=
+ =?Windows-1252?Q?5Nc/02GIs4IsKn32LNiIshWnGIFjkDa2LxzKOrFKN/9kOS3x90N71K9b?=
+ =?Windows-1252?Q?z2q8+JGAeOPSKykJdQ2/oxhBsZJ9OJ3VZpw7J/gITCU7uEf9JTk1bIW+?=
+ =?Windows-1252?Q?XYvH+XqMETtWZ1CMY+2yI+vODPC0rW8j67d13QfDQWibI/R65QhgZ0ON?=
+ =?Windows-1252?Q?PRb7hxoTji9AjnI1A0qVfC2yFbcDbuYPeR6ZwQqLOlayYo9Ch7tg2Z2g?=
+ =?Windows-1252?Q?jzdAu6ygfywyQQMQHQ04NV582iJ7i1KCVpDD7r1E/RsTWoIMNu62JRlv?=
+ =?Windows-1252?Q?IR4V3aWaMnibFpkegzlykm6L8FcwrhRCo7Z9RJmJ/YJmYdZz4DhzopCh?=
+ =?Windows-1252?Q?XBIdqm0KnaXdKmpNyy6J8kZZ3jE=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SEYPR01MB4152E4F1D4436F4C747EB03E8A9A2SEYPR01MB4152apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-7719-20-msonline-outlook-b4c57.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SEYPR01MB4152.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0d66f55d-9b65-4396-ce52-08dcd1a321ef
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Sep 2024 14:16:15.8604
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: JH0PR01MB5539
+X-MagicSpam-TUUID: 809df7a3-7d86-4baf-8f49-e4ca51d72e40
+X-MagicSpam-SUUID: e88b54c8-aac4-4b1b-9b32-3aac7c03662b
+X-Spam-Status: Yes, score=20.6
+X-Spam-Score: 206
+X-Spam-Bar: ++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi, I haven’t heard from you. Would you be open for a conversation?
+    If interested in my services, please share your availability for a quick
+   discuss. I am waiting for your reply 
+ Content analysis details:   (20.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [rituverma552[at]hotmail.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.64.0 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.64.0 listed in bl.score.senderscore.com]
+  0.3 MISSING_HEADERS        Missing To: header
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [rituverma552[at]hotmail.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  1.0 LM_MSGID_RESEMBLES_BOUNDARY Common trick by spam engines, msgid
+                             is part of the boundary
+  0.5 LM_IS_AZURE_IP         RBL: Last External Relay is on RATS-AZURE
+                             [52.103.64.0 listed in azure.spamrats.com]
+  0.3 LM_SEO_ONMICROSOFT_BOUNDARY BODY: Content type associated with
+                             seo emails sent from Onmicrosoft
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  2.3 MALFORMED_FREEMAIL     Bad headers on message from free email
+                             service
+  0.2 LM_RECEIVED_THROUGH_ONMICROSOFT Received from a leaky source.
+  1.0 LM_FREEMAIL_FROM_HOSTING_SOURCE Freemail from address. Sent by
+                             Hosting IP space.
+  0.1 LM_MOBILE_APP_TAGS     Body contains 2+ references to Mobile App
+                             Development
+  1.0 LM_NO_LOGICAL_RECIPS   Emails normally at least specify one
+                             logical To or Cc
+  0.3 LM_FREEMAIL_NORECIPS   Message originated from freemail, no
+                             logical recipients.
+  5.0 LM_OUTLOOK_OFFSHORE_DEV1 Source is outlook server. Hits multiple
+                              offshore marketing rules.
+  5.0 LM_FREEMAIL_OFFSHORE_DEV4 Score bump for hitting multiple
+                             offshore marketing rules. Short message
+                             from Freemail source.
+  3.5 LM_FAKE_INTEREST_FREEMAIL1 From freemail to no logical recips
+                             mentioning products or payment.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Re:Logistics App ...?
+
+--_000_SEYPR01MB4152E4F1D4436F4C747EB03E8A9A2SEYPR01MB4152apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi,
+
+I haven=92t heard from you. Would you be open for a conversation? If intere=
+sted in my services, please share your availability for a quick discuss.
+
+I am waiting for your reply
+
+Thanks,
+
+From: Olive
+Sent: 30 August 2024 04:06 PM
+Subject: Re: App!!Development..?
+
+Hi,
+
+We are a mobile application design and development company, we have seen th=
+at your email is associated with Taxi / Car Rental app including:
+
+*Taxi / Car Rental app
+
+*Car Hire App
+
+*Tour /Travel Booking App
+
+*Transport / Logistics App
+
+*Towing App
+
+*Limo/ Bus Booking App
+
+Android and iOS Mobile Applications with much more advanced features.
+
+Would you like to build a mobile app?
+
+If interested, Please share your requirements so that I can send you a pric=
+e quotation with the best offer.
+
+Regards,
+
+Ritu
+
+--_000_SEYPR01MB4152E4F1D4436F4C747EB03E8A9A2SEYPR01MB4152apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<p class=3D"elementToProof" style=3D"line-height: 1.284; margin: 0cm 0cm 8p=
+t;"><span style=3D"font-family: Calibri, &quot;sans-serif&quot;; font-size:=
+ 11pt; color: rgb(0, 0, 0);">Hi,</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">I haven=92t heard from you. Would you be open for a conversation? If in=
+terested in my services, please share your availability
+ for a quick discuss.</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">I am waiting for your reply</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">Thanks,</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);"><b>From:</b>&nbsp;Olive<br>
+<b>Sent: </b>30 August 2024 04:06 PM<br>
+<b>Subject:</b>&nbsp;Re: App!!Development..?</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">Hi,</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">We are a mobile application design and development company, we have see=
+n that your email is associated with Taxi / Car
+ Rental app including:</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: Calibri,=
+ &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0);">*Taxi / Car=
+ Rental app</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: Calibri,=
+ &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0);">*Car Hire A=
+pp</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: Calibri,=
+ &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0);">*Tour /Trav=
+el Booking App&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: Calibri,=
+ &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0);">*Transport =
+/ Logistics App&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: Calibri,=
+ &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0);">*Towing App=
+&nbsp;</span></p>
+<p style=3D"margin: 0cm 0cm 0.0001pt;"><span style=3D"font-family: Calibri,=
+ &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0);">*Limo/ Bus =
+Booking App&nbsp;</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 12pt; color: rgb(0, 0, 0=
+); line-height: 107%;">Android and iOS Mobile Applications</span><span styl=
+e=3D"font-family: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: =
+rgb(0, 0, 0);">&nbsp;with
+ much more advanced features.&nbsp;</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">Would you like to build a mobile app?</span></p>
+<p style=3D"line-height: 1.284; margin: 0cm 0cm 8pt;"><span style=3D"font-f=
+amily: Calibri, &quot;sans-serif&quot;; font-size: 11pt; color: rgb(0, 0, 0=
+);">If interested, Please share your requirements so that I can send you a =
+price quotation with the best offer.</span></p>
+<p class=3D"elementToProof" style=3D"line-height: 1.284; margin: 0cm 0cm 8p=
+t;"><span style=3D"font-family: Calibri, &quot;sans-serif&quot;; font-size:=
+ 11pt; color: rgb(0, 0, 0);">Regards,</span></p>
+<p class=3D"elementToProof" style=3D"line-height: 1.284; margin: 0cm 0cm 8p=
+t;"><span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontServ=
+ice, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);"=
+>Ritu</span></p>
+</body>
+</html>
+
+--_000_SEYPR01MB4152E4F1D4436F4C747EB03E8A9A2SEYPR01MB4152apcp_--

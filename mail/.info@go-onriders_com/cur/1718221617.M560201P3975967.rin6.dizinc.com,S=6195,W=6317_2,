@@ -1,0 +1,122 @@
+Return-Path: <anuradhadaga@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id kJnYIDH7aWYfqzwAQ+45pw
+	(envelope-from <anuradhadaga@gmail.com>)
+	for <info@go-onriders.com>; Wed, 12 Jun 2024 15:46:57 -0400
+Return-path: <anuradhadaga@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 12 Jun 2024 15:46:57 -0400
+Received: from mail-lj1-f180.google.com ([209.85.208.180]:39139)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <anuradhadaga@gmail.com>)
+	id 1sHTvu-0000000GgGt-053E
+	for info@go-onriders.com;
+	Wed, 12 Jun 2024 15:46:57 -0400
+Received: by mail-lj1-f180.google.com with SMTP id 38308e7fff4ca-2ebf5987909so182811fa.0
+        for <info@go-onriders.com>; Wed, 12 Jun 2024 12:46:36 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1718221574; x=1718826374; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=F8ctf8bGNsVHOVlDFVjNjb2petzb+KtLjmjR/Lg7tIQ=;
+        b=gCkFLf+y3I2SJg3FNTrLhGB2WMF101mIykELhCMyrJ0yUssZm5Qc1qGTC5nBddGoCQ
+         DzO7sNTGYlodTlcE3ub2YXp0tdmHaeoNIblsB+7HruSytklvUaQgD+naEk2e53Tg2R0j
+         GPlQ4ACCAnBp6RnXgmwD3JfXxRqZJKum3Wo3wBPRs6Mgklx9H23iH4QZLiOoEVGI5NbJ
+         5HIc3lfI8xPcWulqTfLNwvRk48f6nLWwGqoEMyxJWOEkPJD2j1DfLsWCF4Vgp0+HDC27
+         QMNxmpnYwm92W2M//TBjPve6o3LU6Sb9jW+nJL3XKQfCE76iyF8jSJ9hixx2PHTdnPcX
+         GyUw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1718221574; x=1718826374;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=F8ctf8bGNsVHOVlDFVjNjb2petzb+KtLjmjR/Lg7tIQ=;
+        b=XbJDY8ebVwETPoMPs4IrIR5jLh1l6xVL0Sxad22/oAbrVdnszM+mK32AVF/HKOPe2l
+         X74I2wHpwHSmbRuGxfEoKqIKzmuWdrKmoCSzwavip7Q68beXcsrMdO5L+Q6RQOQDZSNf
+         VxRzXpRFwQajNF04H/WM8GppXTBfZu2FbTuJayGgITQTJajOiLwcTYt4R6KlnDAsES5N
+         i0g2lMx0vodq9VqiwK5Hr5ZHPvnUcXulpxZkN2Ji3Qhqg1bVIsDSgJ4t9J3BlybkLuq7
+         850hWfAaFmTN4LLech0Xn3x0Tbqbaee9kUnoaZJq/88gH/exbCSEmJKS96Ymf6HlqYVk
+         Semg==
+X-Gm-Message-State: AOJu0YxzCez/pRON0Ejqu0q5qx57+4NZ5UdIw7K6hZdyPtH5Zvp4Mq4U
+	FzxzhKpuDKWE9DfC1eN52PtE43fcf4j6qhS84FK71uEXVKweOo61VCyqBCKsb3xk5uInp4S5ANC
+	HPcJfLvqV4fWaWyb+/tAUmABv0glUuQ==
+X-Google-Smtp-Source: AGHT+IG8q5HJfvtAzGRyYgMVNCgpxSl5/1V14f9cft1FT6TNlymCzvU5WDsJv83C3cw260ySLSw+Xk/rwMPU9DSjXCc=
+X-Received: by 2002:a2e:311:0:b0:2eb:de36:6775 with SMTP id
+ 38308e7fff4ca-2ebfc9a2d46mr15255881fa.4.1718221574133; Wed, 12 Jun 2024
+ 12:46:14 -0700 (PDT)
+MIME-Version: 1.0
+From: Anuradha daga <anuradhadaga@gmail.com>
+Date: Wed, 12 Jun 2024 14:46:02 -0500
+Message-ID: <CACTZ6Wa8aXg=M78o_icQ_MFmUMD=XpkdynYvRLrT7KHNvhkunQ@mail.gmail.com>
+Subject: e-bike rental
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="000000000000926304061ab6a25f"
+X-MagicSpam-TUUID: 3abb90ca-c82a-44d4-a83f-db381006c7e3
+X-MagicSpam-SUUID: b9eafd38-432a-4539-b374-0858a2413441
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello - I would like to rent an electric bike. What options
+    do you have? Share rental price and details Is there any whats app number
+    to reach ? 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.1 LM_HDR_ORDER_GOOGLE_GROUPS1 Header order reflects that of a
+                             known google groups spammer
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.208.180 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.208.180 listed in sa-trusted.bondedsender.org]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [anuradhadaga[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  1.0 FREEMAIL               Message originated from 'free' mail service
+X-Spam-Flag: NO
+
+--000000000000926304061ab6a25f
+Content-Type: text/plain; charset="UTF-8"
+
+Hello -
+
+I would like to rent an electric bike. What options do you have? Share
+rental price and details
+
+Is there any whats app number to reach ?
+
+Thanks
+Anu
+
+--000000000000926304061ab6a25f
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Hello -<div><br></div><div>I would like to rent an electri=
+c bike. What options do you have? Share rental price and details</div><div>=
+<br></div><div>Is there any whats app number to reach ?</div><div><br></div=
+><div>Thanks</div><div>Anu</div></div>
+
+--000000000000926304061ab6a25f--

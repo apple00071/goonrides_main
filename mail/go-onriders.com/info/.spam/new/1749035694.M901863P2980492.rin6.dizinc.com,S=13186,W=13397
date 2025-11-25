@@ -1,0 +1,211 @@
+Return-Path: <anders@smartstreamingott.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id qE88Na4qQGiMei0AQ+45pw
+	(envelope-from <anders@smartstreamingott.com>)
+	for <info+spam@go-onriders.com>; Wed, 04 Jun 2025 07:14:54 -0400
+Return-path: <anders@smartstreamingott.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 04 Jun 2025 07:14:54 -0400
+Received: from mail-io1-f68.google.com ([209.85.166.68]:48342)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <anders@smartstreamingott.com>)
+	id 1uMm57-0000000Chhn-20Ff
+	for info@go-onriders.com;
+	Wed, 04 Jun 2025 07:14:54 -0400
+Received: by mail-io1-f68.google.com with SMTP id ca18e2360f4ac-86cfc1b6dcaso171450639f.0
+        for <info@go-onriders.com>; Wed, 04 Jun 2025 04:14:33 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1749035652; x=1749640452; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=ALJaMFhAj1qIB6JJTQjIsjpG7EAAY/zwVkbBtcSnMPM=;
+        b=bNj1eI3Fls3Gpxgtfto4Pc3GRlcVv3+06+lcWDNaMqJBiZeKa5N26q5bMFiDSsryIQ
+         bGhBb4W/0kC/pUuaHastH80jf7yX5QkU7tAETgNVY0JPIQ2WHvZWQy+EwAyX23Oo3dG4
+         tAuZUdbtezaQGwGUgMi9JT1gsujCvbF3FKn9ZJnChIEaRv7bv6iDmLpQqZEvr+n0mxPR
+         EZzC+ABPDB+ipGTn2qxgFxs5PAZDmJMPzKEnFN4YUGYW/AQv1li+zeOJzvO158BGbPF9
+         kxUvja1DTcCoDcdHS/4pQ2S00Lm/GsrxQGo4rYWLlBmmSmkwbiNeEeNqOzPC6dY8BFR6
+         Bcjw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1749035652; x=1749640452;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=ALJaMFhAj1qIB6JJTQjIsjpG7EAAY/zwVkbBtcSnMPM=;
+        b=sD3OqYpjALGv8T2fZbDZDstd9xRnzajyHaauWaRlWPyaChPR84UEzczfUBdpCB/tFy
+         IIICjqYzdAAN0BL5GGhmbdqt5G7L2gwFrQeDeWDBZtzlBjBrR1t/XTa3uMMeYc8BUVx0
+         rmJLpBBseHpMF2fBvAe2lZA1OBIPcSzsTz6jT6dq1yMcnCbKLG5W/VYdtCFVBAXFR+5V
+         udqpQCU9zj+VGEROgMruLBCfGHGfYC4/HghELXwxC/n+IzZ2kPcsLovizutPePsV7A0m
+         0osOcAmCGcbGMkJwsak5V98J9+fyAAMFr9EUl4/UmPB4GHg2Mrbaf8v/I2ZapM1jccVM
+         KuLg==
+X-Gm-Message-State: AOJu0YyR2cfybpw+Ch2WYFOnm429eZ94hWclj1L4viMbyMHGQKOX6y3I
+	RID6ybWX79O2iTkHweJDyIgp62Uoq4zQxSUWstDBhpliknMNy352vCpWVRGFejmrfTPTCmSpQ+P
+	RxCTApFHzYGufWN82EFuMPDpUl2/sIYMjkEQfSrBMGQqSBLN0e4IBjLQ=
+X-Gm-Gg: ASbGnctiiDx0d5BreFEhkoHL8y1daZZ2LAGWEi3Vf/GJ/kG84Y6Yachpg1OqFgOlRm3
+	25XfvFk0xC2L6leUSoljL1PYhmBoWvRk+0vXdI1x0gbL3K+pp2C9DXQqeoNps46VpPV0enLT0gb
+	ZJ3/9LrgF+0AF6b28EcVpbclWSwwgdiwPjUfiKQq8mhRTP
+X-Google-Smtp-Source: AGHT+IFsZrKy7l5AyOSNlWFzBTcHmBs3wCse18lKaPkItZRLm3OVwa2Gumt9YunoADqfuzm8/7HBJ7x+wkD/dUeV0VE=
+X-Received: by 2002:a05:6e02:1988:b0:3dc:7f3b:aca9 with SMTP id
+ e9e14a558f8ab-3ddbed62b1bmr22029895ab.14.1749035651537; Wed, 04 Jun 2025
+ 04:14:11 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 4 Jun 2025 07:14:10 -0400
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 4 Jun 2025 04:14:09 -0700
+MIME-Version: 1.0
+Sender: "Anders Scott, " <anders@smartstreamingott.com>
+From: "Anders Scott, " <anders@smartstreamingott.com>
+Date: Wed, 4 Jun 2025 07:14:10 -0400
+X-Google-Sender-Auth: 7Pk-6EBOf7q8MBU9H2hahLnQ3No
+X-Gm-Features: AX0GCFurm_8G922D6MiTLlRtRuQ-oVP-8cRzNg2TLBNesYkTkOaJJYV35GLyjRw
+Message-ID: <CAK4L=cqry7H8cFNrhSXXo43EGUcar_hDouryQvUmZv4oehF8+w@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000b5ac640636bd18de"
+X-MagicSpam-TUUID: c0435642-c63e-45fa-bcc6-5f6995532a8f
+X-MagicSpam-SUUID: c28dc7e0-c31f-4601-baf4-1d13060ba712
+X-Spam-Status: Yes, score=10.0
+X-Spam-Score: 100
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello* go-onriders.com <https://smartstreamingott-dot-yamm-track.appspot.com/28QeutLuTkZaatoI_h6RRxP-DAcSgSZnhIyNhTGGCEIxoCqY6lwFxGpazVuzro7H1JeSCR_VFtVwsD115Q-9fHBicX8lnO_DQV__66PH28FBOGp_O72BEITGsZ3
+    [...] 
+ Content analysis details:   (10.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in smartstreamingott.com.wild.pccc.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.166.68 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.166.68 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.166.68 listed in sa-trusted.bondedsender.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                            [URI: smartstreamingott-dot-yamm-track.appspot.com]
+                             [URI: go-onriders.com]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.2 KAM_DMARC_NONE         DKIM has Failed or SPF has failed on the message and
+                             the domain has no DMARC policy
+  0.8 KAM_ADVERT2            BODY: This is probably an unwanted commercial email...
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  go-onriders.com : SEO Package/ Proposal.?
+
+--000000000000b5ac640636bd18de
+Content-Type: text/plain; charset="UTF-8"
+
+Hello* go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/28QeutLuTkZaatoI_h6RRxP-DAcSgSZnhIyNhTGGCEIxoCqY6lwFxGpazVuzro7H1JeSCR_VFtVwsD115Q-9fHBicX8lnO_DQV__66PH28FBOGp_O72BEITGsZ3p0SNaoC6QeMCa_IkhS9Sv-gt3qyWFA9mH8TFkxScK9JPK4tSWw5Mk8>*
+,
+
+I checked your website *go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/2FhTPbW6qezzBLDlBZzbQx45UYHX3HdPbGus2GxGOT05qCqY6lwEM34CqC3PPPUAllgF_JCX90coVvZxpIiAgi5BsMjfSYYVRgV-K2poQo3HzguC272PeONIqWTFSkG3gq5nQo-NYYZtnm6d4JtKq6hOxQQMV6ZvwF1y1QLXDzmenIExB>*.
+You have an impressive site *go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/23FdRRWNbBYAvkuxphd9SQzyKRSDhT1VtEL0mIrNg5XlrCqY6lwHZ9uqAqPArIInkdSDLGcegVtwsZ75iz3rlrScyGnMWvBK3KLZPTKzMHSsaRCaEIvmj3oqrxWgJyTbwzB1Zxh1mTsdpK4oiS5a9SjMR4T5xgVqK_XzDkjtrRm0ZdGeG>*
+but
+ranking is not good on Google and Bing.
+
+Would you like to optimize your site *go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/2v3tkwRcP1JmLqTh_iEuUEyDB_NePzIlEm4xvUQGwJMZyCqY6lwGV7iqbWoua2NVfUi6JzcNiDy2uZ_3LtW2iV3HfG38yuPLasr3cSDkIclHF4EDm3HSahVodhGOCV_Hw6CFGn8cOQvG-vkJ4vXHp5Rhz0exTEcbZgOYThzUZdKK7ynwb>*?
+I will be happy to share with you our pricing and proposals.
+
+May I send you Quote/ Package/ Proposal.?
+
+Let me know how I can assist you with your project!
+
+Regards,
+
+*Anders Scott*
+ ----------------------------------------------
+Note: If you are not interested, please
+
+reply here to remove.
+[image: beacon]
+
+--000000000000b5ac640636bd18de
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"direction:ltr;margin:0px;font-family:Aptos,A=
+ptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif;font-siz=
+e:12pt;color:rgb(0,0,0)">Hello<b>=C2=A0<a href=3D"https://smartstreamingott=
+-dot-yamm-track.appspot.com/28QeutLuTkZaatoI_h6RRxP-DAcSgSZnhIyNhTGGCEIxoCq=
+Y6lwFxGpazVuzro7H1JeSCR_VFtVwsD115Q-9fHBicX8lnO_DQV__66PH28FBOGp_O72BEITGsZ=
+3p0SNaoC6QeMCa_IkhS9Sv-gt3qyWFA9mH8TFkxScK9JPK4tSWw5Mk8" rel=3D"nofollow">g=
+o-onriders.com</a></b>,</div><div style=3D"direction:ltr;margin:0px;font-fa=
+mily:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-se=
+rif;font-size:12pt;color:rgb(0,0,0)">=C2=A0 =C2=A0 =C2=A0</div><div style=
+=3D"direction:ltr;margin:0px;font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSF=
+ontService,Calibri,Helvetica,sans-serif;font-size:12pt;color:rgb(0,0,0)">I =
+checked your website=C2=A0<b><a href=3D"https://smartstreamingott-dot-yamm-=
+track.appspot.com/2FhTPbW6qezzBLDlBZzbQx45UYHX3HdPbGus2GxGOT05qCqY6lwEM34Cq=
+C3PPPUAllgF_JCX90coVvZxpIiAgi5BsMjfSYYVRgV-K2poQo3HzguC272PeONIqWTFSkG3gq5n=
+Qo-NYYZtnm6d4JtKq6hOxQQMV6ZvwF1y1QLXDzmenIExB" rel=3D"nofollow">go-onriders=
+.com</a></b><span style=3D"font-size:12pt">. You have an impressive site=C2=
+=A0</span><b><a href=3D"https://smartstreamingott-dot-yamm-track.appspot.co=
+m/23FdRRWNbBYAvkuxphd9SQzyKRSDhT1VtEL0mIrNg5XlrCqY6lwHZ9uqAqPArIInkdSDLGceg=
+VtwsZ75iz3rlrScyGnMWvBK3KLZPTKzMHSsaRCaEIvmj3oqrxWgJyTbwzB1Zxh1mTsdpK4oiS5a=
+9SjMR4T5xgVqK_XzDkjtrRm0ZdGeG" rel=3D"nofollow">go-onriders.com</a></b><spa=
+n style=3D"font-size:12pt">=C2=A0but ranking is not good on Google and Bing=
+.</span></div><div style=3D"direction:ltr;margin:0px;font-family:Aptos,Apto=
+s_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif;font-size:1=
+2pt;color:rgb(0,0,0)">=C2=A0 =C2=A0 =C2=A0</div><div style=3D"direction:ltr=
+;margin:0px;font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibr=
+i,Helvetica,sans-serif;font-size:12pt;color:rgb(0,0,0)">Would you like to o=
+ptimize your site=C2=A0<b><a href=3D"https://smartstreamingott-dot-yamm-tra=
+ck.appspot.com/2v3tkwRcP1JmLqTh_iEuUEyDB_NePzIlEm4xvUQGwJMZyCqY6lwGV7iqbWou=
+a2NVfUi6JzcNiDy2uZ_3LtW2iV3HfG38yuPLasr3cSDkIclHF4EDm3HSahVodhGOCV_Hw6CFGn8=
+cOQvG-vkJ4vXHp5Rhz0exTEcbZgOYThzUZdKK7ynwb" rel=3D"nofollow">go-onriders.co=
+m</a></b><span style=3D"font-size:12pt">? I will be happy to share with you=
+ our=C2=A0<span style=3D"background-color:rgb(0,255,0)">pricing and proposa=
+ls.</span></span></div><div style=3D"direction:ltr;margin:0px;font-family:A=
+ptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-serif;fo=
+nt-size:12pt;color:rgb(0,0,0)">=C2=A0 =C2=A0 =C2=A0</div><div style=3D"dire=
+ction:ltr;margin:0px;font-family:Aptos,Aptos_EmbeddedFont,Aptos_MSFontServi=
+ce,Calibri,Helvetica,sans-serif;font-size:12pt;color:rgb(0,0,0)"><span styl=
+e=3D"background-color:rgb(255,255,0)">May I send you Quote/ Package/ Propos=
+al.?=C2=A0=C2=A0</span></div><div style=3D"direction:ltr;margin:0px;font-fa=
+mily:Aptos,Aptos_EmbeddedFont,Aptos_MSFontService,Calibri,Helvetica,sans-se=
+rif;font-size:12pt;color:rgb(0,0,0)"><p style=3D"color:rgb(34,34,34);font-f=
+amily:Arial,Helvetica,sans-serif;font-size:small"><font face=3D"verdana, sa=
+ns-serif">Let me know how I can assist you with your project!</font></p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;color:rgb(34,34,34);font-fa=
+mily:Arial,Helvetica,sans-serif;font-size:small;line-height:13.91px"><span =
+lang=3D"EN-US"><font face=3D"verdana, sans-serif">Regards,</font></span></p=
+><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;color:rgb(34,34,34);fon=
+t-family:Arial,Helvetica,sans-serif;font-size:small;line-height:13.91px"><b=
+ style=3D"font-family:Arial,sans-serif;font-size:14.6667px"><span lang=3D"E=
+N-US" style=3D"font-family:Verdana,sans-serif">Anders Scott</span></b><font=
+ face=3D"verdana, sans-serif"><span lang=3D"EN-US"><br>=C2=A0--------------=
+--------------------------------<br>Note: If you are not interested, please=
+</span></font></p><p style=3D"color:rgb(34,34,34);font-family:Arial,Helveti=
+ca,sans-serif;font-size:small"></p><p class=3D"MsoNormal" style=3D"margin:0=
+cm 0cm 8pt;color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif;font-=
+size:small;line-height:13.91px"><font face=3D"verdana, sans-serif">reply he=
+re to remove.</font></p></div></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2frDSphV_T=
+XUyh4oDB2K-9bpx8v15K5TkwJ3Ir4G35P5mCqY6lwFZHG3hOT3LOXWndvG2iMfef9RwFyYpLtMl=
+NR2ZP4ACIXlbQ8C_XlCtJYD2PsYwy7yI0lrYISryqoERBt-UHvVhLpNzRsGsRCpNnZSnD6pJ4WM=
+i4mw" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; displa=
+y:none!important;">
+
+--000000000000b5ac640636bd18de--

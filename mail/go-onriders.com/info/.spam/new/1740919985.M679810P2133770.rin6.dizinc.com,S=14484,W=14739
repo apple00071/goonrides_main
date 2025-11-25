@@ -1,0 +1,255 @@
+Return-Path: <jesse@smartstreamingott.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id AEj+J7FUxGcKjyAAQ+45pw
+	(envelope-from <jesse@smartstreamingott.com>)
+	for <info+spam@go-onriders.com>; Sun, 02 Mar 2025 07:53:05 -0500
+Return-path: <jesse@smartstreamingott.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 02 Mar 2025 07:53:05 -0500
+Received: from mail-il1-f171.google.com ([209.85.166.171]:49571)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <jesse@smartstreamingott.com>)
+	id 1toioa-00000008xCg-35fS
+	for info@go-onriders.com;
+	Sun, 02 Mar 2025 07:53:05 -0500
+Received: by mail-il1-f171.google.com with SMTP id e9e14a558f8ab-3ce868498d3so11673515ab.3
+        for <info@go-onriders.com>; Sun, 02 Mar 2025 04:52:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=smartstreamingott-com.20230601.gappssmtp.com; s=20230601; t=1740919943; x=1741524743; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=MCVt44okrpNNZR74qJTsa8FddoOjq0q6kr3cJ/ViFts=;
+        b=fb1w3FoY9Y5TWUTgKavwYaXp3Se3C/oOu7m6YXFMUnWYLd+IHd2KMwxIhuOwj78I2j
+         eCK1dCx3Ctx24vdDqfaGPdbMzlOeh8p/rN9tMwWGYz9aUIx/4TWiyfxLNRTRpp+HkJZv
+         jkpku1pcOreT3L0NNE++WIefpy4CXuvRra+VX+CRcfapNZ4wLzKyCIaJLd+G/5apLgwP
+         r3P3vsogySJKBPNrvyO3LLW5iBBEhUZ1hfBcmfLppk1jb5UPY92bCQjXEB2XkGQ7jGDO
+         YD8i5qIcLZ5tLOxA85ydtlGLtI6eXGqEG1VYtRTJZX5alh2o9d2b+uvnLgnGXnqxrYCD
+         90aw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1740919943; x=1741524743;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=MCVt44okrpNNZR74qJTsa8FddoOjq0q6kr3cJ/ViFts=;
+        b=NbAfWznpJkGUtCTCfiJgvd/fY0pXI3B/aAEiICkqBaOMQEjnSWafbjSB1fuf2lUOlD
+         Gd/p6llXbMm6+TEGDvneJw3ISjONT9K21GKfQrw8UhRPImHTLxWSJlDqXpu+OtbC7xaM
+         5vGe6UsKbblKdk3c7AxiOQ/unJ3gMSB+x2ZqZ+NvecbbxsxAzU8hwKR7Q3D+faLBPGvz
+         hPYF9xv1Oj/PPmWQEcl4um+BIXE8buxQjmYsFZrd8q757moz/JkfPaEZntP3qu9AHQ6b
+         9aTzasVpYZsJ70bhxzhK+60bT70KgIBmrTAanwaSc3UN7jbSux4JSh+qomEwEthqsNtd
+         kHww==
+X-Gm-Message-State: AOJu0Yy9DyDjESnCxeTZKSx//Um/jm+VdwROWOljVmvhscdyYCj1CAbG
+	fDBRY6gTkKA8Gckynfx82g+CZBNaatn5594q5YSZQGDV97fGocNdSYoiISB+BhX8gD6TRECD3h4
+	HkmZa3MoygHsux1kEdhn6vyws5jQGMTgPCyYMPIEQiYjZOtPV
+X-Gm-Gg: ASbGnctlNeMhdX/PfXHcyas2PUuY2DsVICpn14HRR0zui0/Ldhd6F5lEjAFtZTARuHx
+	OTRQBzW9RKxnLLw6aw4snAI5KFFiJTJix8mDJynaGhDVaf2h2RPL5lLuij1j5xJxjKp8rB+BqxO
+	IOuAJg0SjD5r0vWBKCMCvSFX6ccKbGZ5J9qoOVh4+H13TtjUou9EdsRgw=
+X-Google-Smtp-Source: AGHT+IFEvwVQ/jVlg25AS/zTtKMjbxwzzfB+iOlsqdR8eIEE357DSLpk74A45ApWOl9MP4bYhV/B8zs30aSGDdO0pkw=
+X-Received: by 2002:a05:6e02:1fc9:b0:3d3:fbae:3978 with SMTP id
+ e9e14a558f8ab-3d3fbae3ab5mr32869115ab.9.1740919943146; Sun, 02 Mar 2025
+ 04:52:23 -0800 (PST)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 2 Mar 2025 04:52:22 -0800
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 2 Mar 2025 04:52:22 -0800
+MIME-Version: 1.0
+Sender: "Jesse Langer," <jesse@smartstreamingott.com>
+From: "Jesse Langer," <jesse@smartstreamingott.com>
+Date: Sun, 2 Mar 2025 04:52:22 -0800
+X-Google-Sender-Auth: 8GK510oLgaEMibNceNr04hqUhGI
+X-Gm-Features: AQ5f1JqFDuCFaf6aDSOh_sZpKTRNnq0lV2TPDTYGyZQU6svwrFyZb3FZHe2_Sl8
+Message-ID: <CAJhfFYByzJRV2JUNNRx2KHKU8FbzAhNCSmmY8hFS-eS0PW88wg@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000cb4785062f5b821c"
+X-MagicSpam-TUUID: e167f089-e7ae-4ab9-b1f1-0e0198ac0d3a
+X-MagicSpam-SUUID: 9cac339f-73da-4518-8049-7e647282bea7
+X-Spam-Status: Yes, score=11.3
+X-Spam-Score: 113
+X-Spam-Bar: +++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear *go-onriders.com <https://smartstreamingott-dot-yamm-track.appspot.com/2aLO34o35skShuvb6pIXMmvBj9Woszp52XHnVhJaVHXnvKOpWlQGj1wBNg6QG36lAKRRKutEztcRVW25tYj269saYrIyBx5Tko_TgfhczcSQyNxH3wX8BVNk_6GX
+    [...] 
+ Content analysis details:   (11.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.166.171 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.166.171 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.166.171 listed in bl.score.senderscore.com]
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in smartstreamingott.com.wild.pccc.com]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.2 KAM_DMARC_NONE         DKIM has Failed or SPF has failed on the message and
+                             the domain has no DMARC policy
+  0.8 KAM_ADVERT2            BODY: This is probably an unwanted commercial email...
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.2 NEW_PRODUCTS           No description available.
+X-Spam-Flag: YES
+Subject:  ***SPAM***  go-onriders.com : Can i send a Proposal..
+
+--000000000000cb4785062f5b821c
+Content-Type: text/plain; charset="UTF-8"
+
+Dear *go-onriders.com
+<https://smartstreamingott-dot-yamm-track.appspot.com/2aLO34o35skShuvb6pIXMmvBj9Woszp52XHnVhJaVHXnvKOpWlQGj1wBNg6QG36lAKRRKutEztcRVW25tYj269saYrIyBx5Tko_TgfhczcSQyNxH3wX8BVNk_6GXmLbod8dh8MRnlBlsEboOziROAiRTrTkVfNJ3R5Zx96atedZRa_XiHIw>
+*
+Owner,
+
+
+
+Are you looking to take your online presence to the next level and achieve
+remarkable results in the digital world?
+
+
+
+We're thrilled to introduce our top-notch SEO and digital marketing
+services tailored to drive traffic*, boost your brand's visibility, and
+maximize your ROI.*
+
+
+
+*Here's what we can offer:*
+
+   - Expert SEO Strategies
+   - Content Marketing
+   - Pay-Per-Click Advertising
+   - Social Media Marketing
+   - Email Marketing
+
+Ready to see your digital marketing efforts pay off like never before?
+Let's work together to make it happen!
+
+
+
+If you're *interested,* please share your requirements and ideas. For
+direct contact, you can also provide your Phone No & Skype ID.
+
+
+
+*I am waiting for your reply.*
+
+
+
+Regards,
+
+
+
+*Jesse Langer,*
+
+----------------------------------------------
+Note: If you are not interested, please
+
+reply here to remove
+[image: beacon]
+
+--000000000000cb4785062f5b821c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:12.=
+65pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" styl=
+e=3D"font-family:Verdana,sans-serif">Dear=C2=A0<b><a href=3D"https://smarts=
+treamingott-dot-yamm-track.appspot.com/2aLO34o35skShuvb6pIXMmvBj9Woszp52XHn=
+VhJaVHXnvKOpWlQGj1wBNg6QG36lAKRRKutEztcRVW25tYj269saYrIyBx5Tko_TgfhczcSQyNx=
+H3wX8BVNk_6GXmLbod8dh8MRnlBlsEboOziROAiRTrTkVfNJ3R5Zx96atedZRa_XiHIw" rel=
+=3D"nofollow">go-onriders.com</a>=C2=A0</b>Owner,</span><span lang=3D"EN-US=
+"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:12.65pt=
+;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D=
+"font-family:Verdana,sans-serif">=C2=A0</span><span lang=3D"EN-US"></span><=
+/p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:12.65pt;font-size=
+:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-fami=
+ly:Verdana,sans-serif">Are you looking to take your online presence to the =
+next level and achieve remarkable results in the digital world?</span><span=
+ lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-=
+height:12.65pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"E=
+N-US" style=3D"font-family:Verdana,sans-serif">=C2=A0</span><span lang=3D"E=
+N-US"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:12.=
+65pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" styl=
+e=3D"font-family:Verdana,sans-serif">We&#39;re thrilled to introduce our to=
+p-notch SEO and digital marketing services tailored to drive traffic<b>, bo=
+ost your brand&#39;s visibility, and maximize your ROI.</b></span><span lan=
+g=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-heig=
+ht:12.65pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US=
+" style=3D"font-family:Verdana,sans-serif">=C2=A0</span><span lang=3D"EN-US=
+"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:12.65pt=
+;font-size:11pt;font-family:Arial,sans-serif"><b><span lang=3D"EN-US" style=
+=3D"font-family:Verdana,sans-serif">Here&#39;s what we can offer:</span></b=
+><span lang=3D"EN-US"></span></p><ul type=3D"disc" style=3D"margin-bottom:0=
+cm"><li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;font-siz=
+e:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-fam=
+ily:Verdana,sans-serif">Expert SEO Strategies</span><span lang=3D"EN-US"></=
+span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;fo=
+nt-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"fo=
+nt-family:Verdana,sans-serif">Content Marketing</span><span lang=3D"EN-US">=
+</span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-height:normal;=
+font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=3D"=
+font-family:Verdana,sans-serif">Pay-Per-Click Advertising</span><span lang=
+=3D"EN-US"></span></li><li class=3D"MsoNormal" style=3D"margin:0cm;line-hei=
+ght:normal;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN-US=
+" style=3D"font-family:Verdana,sans-serif">Social Media Marketing</span><sp=
+an lang=3D"EN-US"></span></li><li class=3D"MsoNormal" style=3D"margin:0cm;l=
+ine-height:normal;font-size:11pt;font-family:Arial,sans-serif"><span lang=
+=3D"EN-US" style=3D"font-family:Verdana,sans-serif">Email Marketing</span><=
+span lang=3D"EN-US"></span></li></ul><p class=3D"MsoNormal" style=3D"margin=
+:0cm;line-height:12.65pt;font-size:11pt;font-family:Arial,sans-serif"><span=
+ lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">Ready to see your =
+digital marketing efforts pay off like never before? Let&#39;s work togethe=
+r to make it happen!</span><span lang=3D"EN-US"></span></p><p class=3D"MsoN=
+ormal" style=3D"margin:0cm;line-height:12.65pt;font-size:11pt;font-family:A=
+rial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-ser=
+if">=C2=A0</span><span lang=3D"EN-US"></span></p><p class=3D"MsoNormal" sty=
+le=3D"margin:0cm;line-height:12.65pt;font-size:11pt;font-family:Arial,sans-=
+serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">If you=
+&#39;re=C2=A0<b>interested,</b>=C2=A0please share your requirements and ide=
+as. For direct contact, you can also provide your Phone No &amp; Skype ID.<=
+/span><span lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"margi=
+n:0cm;line-height:12.65pt;font-size:11pt;font-family:Arial,sans-serif"><spa=
+n lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">=C2=A0</span><spa=
+n lang=3D"EN-US"></span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line=
+-height:12.65pt;font-size:11pt;font-family:Arial,sans-serif"><b><span lang=
+=3D"EN-US" style=3D"font-family:Verdana,sans-serif;color:black">I am waitin=
+g for your reply.</span></b><span lang=3D"EN-US"></span></p><p class=3D"Mso=
+Normal" style=3D"margin:0cm;line-height:12.65pt;font-size:11pt;font-family:=
+Arial,sans-serif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-se=
+rif;color:black">=C2=A0</span><span lang=3D"EN-US"></span></p><p style=3D"m=
+argin:0cm;font-size:12pt;font-family:&quot;Times New Roman&quot;,serif"><sp=
+an lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">Regards,</span><=
+span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif"></span></p><p st=
+yle=3D"margin:0cm;font-size:12pt;font-family:&quot;Times New Roman&quot;,se=
+rif"><span lang=3D"EN-US" style=3D"font-family:Verdana,sans-serif">=C2=A0</=
+span><span lang=3D"EN-US" style=3D"font-family:Arial,sans-serif"></span></p=
+><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-height:12.65pt;fo=
+nt-size:11pt;font-family:Arial,sans-serif"><b><span lang=3D"EN-US" style=3D=
+"font-family:Verdana,sans-serif"><font color=3D"#1f1f1f">Jesse Langer,</fon=
+t></span></b></p><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 10pt;line-h=
+eight:12.65pt;font-size:11pt;font-family:Arial,sans-serif"><span lang=3D"EN=
+-US" style=3D"font-family:Verdana,sans-serif">-----------------------------=
+-----------------<br>Note: If you are not interested, please</span><span la=
+ng=3D"EN-US"></span></p><p style=3D"margin:0cm;font-size:12pt;font-family:&=
+quot;Times New Roman&quot;,serif"><span lang=3D"EN-US" style=3D"font-family=
+:Verdana,sans-serif">reply here to remove</span></p></div>
+<img src=3D"https://smartstreamingott-dot-yamm-track.appspot.com/2ZBa1OpS7n=
+951PsLBvxZV-vQvtQyd_xjd9FTEsdVfNb7sKOpWlQEnKvssP_Pz6uNCP9qgvOvBE6olYj-RjGT5=
+2n-4MFTCrcmDNxkVbFab-jqdOiXvlzpknFfCSLPIBb9j-3GCgqetyImPvhdRcK6-1srVDofeOmu=
+V6OYL" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; displ=
+ay:none!important;">
+
+--000000000000cb4785062f5b821c--

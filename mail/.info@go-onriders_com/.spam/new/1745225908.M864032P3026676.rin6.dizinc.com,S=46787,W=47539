@@ -1,0 +1,752 @@
+Return-Path: <emma.perez1+bncBCOZTJP3SQOBBZUQTDAAMGQEEIDXUWI@digioncreator.in>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id p2DyMrQIBmj0Li4AQ+45pw
+	(envelope-from <emma.perez1+bncBCOZTJP3SQOBBZUQTDAAMGQEEIDXUWI@digioncreator.in>)
+	for <info+spam@go-onriders.com>; Mon, 21 Apr 2025 04:58:28 -0400
+Return-path: <emma.perez1+bncBCOZTJP3SQOBBZUQTDAAMGQEEIDXUWI@digioncreator.in>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 21 Apr 2025 04:58:28 -0400
+Received: from mail-wm1-f79.google.com ([209.85.128.79]:48566)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <emma.perez1+bncBCOZTJP3SQOBBZUQTDAAMGQEEIDXUWI@digioncreator.in>)
+	id 1u6myy-0000000Cfww-3N4L
+	for info@go-onriders.com;
+	Mon, 21 Apr 2025 04:58:28 -0400
+Received: by mail-wm1-f79.google.com with SMTP id 5b1f17b1804b1-43cf44b66f7sf23027005e9.1
+        for <info@go-onriders.com>; Mon, 21 Apr 2025 01:58:06 -0700 (PDT)
+ARC-Seal: i=3; a=rsa-sha256; t=1745225865; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=J+GozSz4FterMSGWJvB5m+WUPzMZTjWFIFYi0Njd6zUxaNipDQFialLtOqTF1bTXQP
+         FZ2mIPOCSeDBo8NmAP7RO60r3poIjDiW/YweW0WygLwGUBbN8WQgFQAA+GbnVdsERHGv
+         hg5Pb/eV00anVi146uocOabJ9465go8KRdY3pE9kTpt2BtqfblSdPUy9PrFAyO2BKi/F
+         L2rTungsfonuMI2s8uErpnfd84rJg2GITIZERI9Z+e73WxSG0qKZpY3NkdUAlqqXiuR9
+         B49VfNjyVbpqny9m0MzXyEBy9bxvejtXGn51hRyPTpEt5H8+BvwabHrMT8hAcvIcq8aA
+         49VQ==
+ARC-Message-Signature: i=3; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to:user-agent:importance
+         :mime-version:subject:references:in-reply-to:message-id:from:date
+         :dkim-signature;
+        bh=IfZgSzj62ycWKcOMCD6/YrXlTiHjoLJA9h/5fj0OjnY=;
+        fh=Ka9a4zsq8yyl2rlMXvWoIPgRV1y6uiIJounaWHp+8ac=;
+        b=aIM5d0SvgHX1LXd2I9PnQBxxkTVBE/0y2trTA6Q7Dy4lgASufv3tinmlouVeFlwk+u
+         P6wYefrk6D5Opyqx9AkVoV5Q/l5WRNOfH+UeHfU4PlxPsuU0bJVDJqa+dFfebK2h6Rw8
+         vcF6k0YqHJyTdOHQx/ohQQ9AgrQEJIiQt/2E9vzwHKqhiezu0zYwJVvPhKiWB/M1dM2o
+         R3KlP+4aejGZv8hbtbLqmQR1X3JX8M1oqwX9puV2WnnZn4uqW5gBJN9GfCOJfpS9fFt6
+         UYmOnZrOfo7+98lW5djQ8dSyjhE7sbeNM1Am8SaqcLXOAI3KVq22R9sV44EExlWx2rIr
+         Uvow==;
+        darn=go-onriders.com
+ARC-Authentication-Results: i=3; mx.google.com;
+       dkim=pass header.i=@zohomail.eu header.s=zoho header.b=fXkqLktE;
+       arc=pass (i=1 spf=pass spfdomain=zohomail.eu dkim=pass dkdomain=zohomail.eu dmarc=pass fromdomain=zohomail.eu>);
+       spf=pass (google.com: domain of emma.perez@zohomail.eu designates 136.143.171.99 as permitted sender) smtp.mailfrom=emma.perez@zohomail.eu;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zohomail.eu
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=digioncreator.in; s=google; t=1745225865; x=1745830665; darn=go-onriders.com;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:user-agent
+         :importance:mime-version:subject:references:in-reply-to:message-id
+         :from:date:from:to:cc:subject:date:message-id:reply-to;
+        bh=IfZgSzj62ycWKcOMCD6/YrXlTiHjoLJA9h/5fj0OjnY=;
+        b=2b9KqWiduaCMdWwfx7QD59v7cBnQ7zDAhzSRIqMx9If3HvtDNXsAViprDwTxN/KiMU
+         Mz2PItgn+T/QBcpWs2YTOPBDtPhrLf/fAmYPkrooPwfzr1Nm3P6/gU326quuGxsmFiNC
+         EIbh0pzUfuo+44BGWY6DHzSiTblN1XAzgiP4U=
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1745225865; x=1745830665;
+        h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post
+         :x-spam-checked-in-group:list-id:mailing-list:precedence:reply-to
+         :x-original-authentication-results:x-original-sender:user-agent
+         :importance:mime-version:subject:references:in-reply-to:message-id
+         :from:date:x-beenthere:x-gm-message-state:from:to:cc:subject:date
+         :message-id:reply-to;
+        bh=IfZgSzj62ycWKcOMCD6/YrXlTiHjoLJA9h/5fj0OjnY=;
+        b=PM7yv7XcQfWw/IAWYUCSQxlAops8uJHRe3X+P31uEGglxOkS60Nvv3UO7h/IUIfvJ2
+         u3HHJ738pqv28dda7EctPMWBCkEsO42aFugjhOuKNzarwvD6XJsVD5L2IpGo3Bjbbd1m
+         /qHyiIAiW7lEaPK5bwMOPu7oxfTRya94GF8Uq6fxibbL9P5r47oRPkvDG0N7gg+t2ASf
+         UscZOeWqCF3jZAVg/H0rzUJ6OjwnEA7akGyDYSaYCnAWK0JsUPcfaH1GEuSFFjf3Tgw9
+         f3EQSDcTODu9zi6bfQ5LeivmR5ry4Q+YeYIA5Qo3fcLYzwv6wxznue5TcwvgCH/gJwwp
+         QqtQ==
+X-Forwarded-Encrypted: i=3; AJvYcCVwQv9/GivYdl4hHzqGRB9yMYSO7wsjFqbpRZ5zs37za0hXZbDhVkItNPrwjtwd/qnkeHzO@go-onriders.com
+X-Gm-Message-State: AOJu0YxUouPLZPboo3+tQ3kugAIB3YVnfmqpXc+jxqdgETU7J2AiAE1I
+	+uPtkz7qwbexK6pgyN6gjO9TvzsDQAAK/2RB1pT2TVyM7AONvyVgDYrk6umHNsc=
+X-Google-Smtp-Source: AGHT+IHZssYEDIJrg+Bh+TyuVaZbb9O6/UN4icwozvvaVzpvokgUlB2jjwIhUJGupqwKwPBzYzeriw==
+X-Received: by 2002:a05:600c:548e:b0:43d:526:e0ce with SMTP id 5b1f17b1804b1-4406abff888mr80971725e9.21.1745225864944;
+        Mon, 21 Apr 2025 01:57:44 -0700 (PDT)
+X-BeenThere: emma.perez1@digioncreator.in; h=ARLLPAI+lPjT/x2UlXaDOnIKz8dqIhGZplqcK4h70zTTIXFLOA==
+Received: by 2002:a5d:6dac:0:b0:39e:cbcb:8a72 with SMTP id ffacd0b85a97d-39ee8f6cc33ls2188378f8f.1.-pod-prod-03-eu;
+ Mon, 21 Apr 2025 01:57:09 -0700 (PDT)
+X-Forwarded-Encrypted: i=3; AJvYcCX27LvHf2mlnYIsTQn0m2PUL9NAM0DT4yJFKGfqyEkeLXjcVetmfzwZoifUSUneUpCyWOpRYcxRrGVdng==@digioncreator.in
+X-Received: by 2002:a05:6000:40ce:b0:39c:1258:2dc9 with SMTP id ffacd0b85a97d-39efbaf20c1mr7104601f8f.58.1745225828632;
+        Mon, 21 Apr 2025 01:57:08 -0700 (PDT)
+ARC-Seal: i=2; a=rsa-sha256; t=1745225828; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=EeXocLjhCZjuStgQdtJRqxuP1klNqxys7xU5L8r39g6VUcHYxaQJLddhelmTi2TFUQ
+         0xVJYvYX0s39egM5vZNy+7jrm5aAPFeVvJ1YYI3xKTW3HONyUWfcM63BBfxKIKzRrtoI
+         rYBcKEqvDOzzrhR1Z9084rcS9XRMZgpbPiEPVI0zpC3r7Kqc2zKW2HQot0HTgezej3Lj
+         q9hgc/yH7ivMj6/1UQfL55mJLkvRYxFDyIcn/x9hdoUIc0M5IN2aO04Kk7h9DqSaRt6H
+         ynpgBKwbzQ1qzkLgjwyEnmBl6x6bOfJJDYG2k5Ke0uZuor27qgnXzCHAVGUdpVzPOdUV
+         46bw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=user-agent:importance:mime-version:subject:references:in-reply-to
+         :message-id:from:date:dkim-signature;
+        bh=IfZgSzj62ycWKcOMCD6/YrXlTiHjoLJA9h/5fj0OjnY=;
+        fh=47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=;
+        b=WRrkUoe+Rw8vk4fBI4pRdcDf11qACzkAXS1NVyYBW9wsM9asN7RpfflvNJ4+UGLUyB
+         qw4u5phxE0FjLxoEImzC7BrNtiuE86EklydvC2dtes7sR4r7rEBpe5r+ISGy18v1cy3R
+         Lv07u0PpC3j+TmWycpcMVT0VLncYLYGxfLWvZbmwle8uSXGtUoH3MvbegvalIIyEWa0t
+         fhMuV5cSLgiQ1wfDoDsWbA3lQRTvCVmRlqPra6olQ6M0j8u2ci/G8A40R8B9i/GS+HFB
+         CLQ0nR2u7hTDBqhZVLbOqIjWtsksZpjTP/KXL8W4pRCGQe6FKhOlWC/uyIK6LDxLDwVA
+         phzQ==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@zohomail.eu header.s=zoho header.b=fXkqLktE;
+       arc=pass (i=1 spf=pass spfdomain=zohomail.eu dkim=pass dkdomain=zohomail.eu dmarc=pass fromdomain=zohomail.eu>);
+       spf=pass (google.com: domain of emma.perez@zohomail.eu designates 136.143.171.99 as permitted sender) smtp.mailfrom=emma.perez@zohomail.eu;
+       dmarc=pass (p=REJECT sp=REJECT dis=NONE) header.from=zohomail.eu
+Received: from sender2-pp-o99.zoho.eu (sender2-pp-o99.zoho.eu. [136.143.171.99])
+        by mx.google.com with ESMTPS id ffacd0b85a97d-39efa499397si4754302f8f.600.2025.04.21.01.57.08
+        for <emma.perez1@digioncreator.in>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 21 Apr 2025 01:57:08 -0700 (PDT)
+Received-SPF: pass (google.com: domain of emma.perez@zohomail.eu designates 136.143.171.99 as permitted sender) client-ip=136.143.171.99;
+ARC-Seal: i=1; a=rsa-sha256; t=1745225826; cv=none; 
+	d=zohomail.eu; s=zohoarc; 
+	b=IwX/It11vy4a4nlkHkCNfxQl6HDk6rhh7QK6Q0NH4O+JFEpRQPrU+iE2AVTZNV8oImn2UvgZjHUYFFHVykH75sxJNht/M+CKBpfEu8M2iATgOFONfS8OTbUy9OoAuNOmG+3tGBVs4KxdCCQEy+wsOhfHaMh3KBEgENCzMB9kJGE=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=zohomail.eu; s=zohoarc; 
+	t=1745225826; h=Content-Type:Date:Date:From:From:In-Reply-To:MIME-Version:Message-ID:References:Subject:Subject:Message-Id:Reply-To:To:Cc; 
+	bh=IfZgSzj62ycWKcOMCD6/YrXlTiHjoLJA9h/5fj0OjnY=; 
+	b=kuiVRkfx18cHfC0AOzPwLYS0ryTaetXEEyvx9yY5rrnqYptQf0CnliCTFu/yD3qGl00yIRIq55LCPRtaspOOdclteq2EfYvOcDIeVZjkX/QGHDiNG7CMb3+D6PtY5BmqY5eQ7yX+zBeETC+DFPAh4/tdaCPGt5oyntq134J9Msk=
+ARC-Authentication-Results: i=1; mx.zohomail.eu;
+	dkim=pass  header.i=zohomail.eu;
+	spf=pass  smtp.mailfrom=emma.perez@zohomail.eu;
+	dmarc=pass header.from=<emma.perez@zohomail.eu>
+Received: from mail.zoho.eu by mx.zoho.eu
+	with SMTP id 1745225824824560.4226590901935; Mon, 21 Apr 2025 10:57:04 +0200 (CEST)
+Received: from  [106.219.164.110] by mail.zoho.eu
+	with HTTP;Mon, 21 Apr 2025 10:57:04 +0200 (CEST)
+Date: Mon, 21 Apr 2025 10:57:04 +0200
+From: "'Emma Perez' via emma.perez1" <emma.perez1@digioncreator.in>
+Bcc: emmaperez1 <emma.perez1@digioncreator.in>
+Message-Id: <1965790b9db.def5015c179372.8622815444189168933@zohomail.eu>
+In-Reply-To: <194f51fbd3b.b57a0b30275914.4159039652988847191@zohomail.eu>
+References: <194f51fbd3b.b57a0b30275914.4159039652988847191@zohomail.eu>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_439158_1352601622.1745225824732"
+Importance: Medium
+User-Agent: Zoho Mail
+X-Mailer: Zoho Mail
+X-Original-Sender: emma.perez@zohomail.eu
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@zohomail.eu header.s=zoho header.b=fXkqLktE;       arc=pass (i=1
+ spf=pass spfdomain=zohomail.eu dkim=pass dkdomain=zohomail.eu dmarc=pass
+ fromdomain=zohomail.eu>);       spf=pass (google.com: domain of
+ emma.perez@zohomail.eu designates 136.143.171.99 as permitted sender)
+ smtp.mailfrom=emma.perez@zohomail.eu;       dmarc=pass (p=REJECT sp=REJECT
+ dis=NONE) header.from=zohomail.eu
+X-Original-From: Emma Perez <emma.perez@zohomail.eu>
+Reply-To: Emma Perez <emma.perez@zohomail.eu>
+Precedence: list
+Mailing-list: list emma.perez1@digioncreator.in; contact emma.perez1+owners@digioncreator.in
+List-ID: <emma.perez1.digioncreator.in>
+X-Spam-Checked-In-Group: emma.perez1@digioncreator.in
+X-Google-Group-Id: 124659640988
+List-Post: <https://groups.google.com/a/digioncreator.in/group/emma.perez1/post>,
+ <mailto:emma.perez1@digioncreator.in>
+List-Help: <https://support.google.com/a/digioncreator.in/bin/topic.py?topic=25838>,
+ <mailto:emma.perez1+help@digioncreator.in>
+List-Archive: <https://groups.google.com/a/digioncreator.in/group/emma.perez1/>
+List-Subscribe: <https://groups.google.com/a/digioncreator.in/group/emma.perez1/subscribe>,
+ <mailto:emma.perez1+subscribe@digioncreator.in>
+List-Unsubscribe: <mailto:googlegroups-manage+124659640988+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/digioncreator.in/group/emma.perez1/subscribe>
+X-MagicSpam-TUUID: 80057089-1e63-44e7-8892-5793167b75a3
+X-MagicSpam-SUUID: b6327015-8fd8-4857-9fed-8d11c87595c4
+X-Spam-Status: Yes, score=10.0
+X-Spam-Score: 100
+X-Spam-Bar: ++++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Hope you're doing well. I’m following up on my previous
+    email regarding your mobile app idea. If you’re still interested in developing
+    an iOS or Android app, just let me know the type of app you're planning. 
+ Content analysis details:   (10.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  8.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URI: digioncreator.in]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.128.79 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.128.79 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.128.79 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 ARC_VALID              Message has a valid ARC signature
+  0.0 ARC_SIGNED             Message has a ARC signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  1.2 MISSING_HEADERS        Missing To: header
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.9 REPLYTO_WITHOUT_TO_CC  No description available.
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Re: Transform Your Rental Business with a Custom App!!
+
+------=_Part_439158_1352601622.1745225824732
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,=20
+
+
+
+Hope you're doing well.
+
+
+
+I=E2=80=99m following up on my previous email regarding your mobile app ide=
+a. If you=E2=80=99re still interested in developing an iOS or Android app, =
+just let me know the type of app you're planning.
+
+
+
+I=E2=80=99ll connect you with our consultant to help move things forward.
+
+
+
+Looking forward to your reply.
+
+
+
+Thank You!
+
+
+
+
+
+
+
+---- On Tue, 11 Feb 2025 14:08:05 +0100 Emma Perez <emma.perez@zohomail.eu>=
+ wrote ---
+
+
+
+Hi Sir/Ma'am,
+
+=C2=A0
+
+We build accessible and affordable Rental Services app's for all the entrep=
+reneurs around the world to start their own marketplace.
+
+=C2=A0
+
+We develop apps for various industries:
+
+Car Rental Apps
+
+
+Clothing and Fashion Rental Apps
+
+
+Equipment and Tool Rental Apps
+
+
+Real Estate Rental Apps
+
+
+Event Management Apps
+
+
+Event Equipment Rental Apps
+
+
+Bike, Scooter, and E-scooter Rental Apps
+
+
+Custom Rental Services Apps
+
+
+Cleaning Services Apps
+
+
+Residential & Commercial Cleaning Apps
+
+
+Restaurant Apps
+
+
+Business Apps
+
+
+Medication Tracking Apps
+
+
+Booking and ticketing Apps
+
+
+E-Commerce & M-Commerce Apps
+
+
+Logistics Services Apps
+
+
+Cab & Taxi booking Apps
+
+
+Education & E-Learning Apps
+
+
+Healthcare and fitness Apps
+
+
+Products-Based Apps
+
+
+Travel & Tours Apps
+
+
+Social Median & Dating Apps
+
+
+
+
+
+May I know what kind of mobile app you are looking for? Then I can send you=
+ our portfolio and pricing.
+
+=C2=A0
+
+Thanks,
+
+Emma
+------=_Part_439158_1352601622.1745225824732
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>=
+<meta content=3D"text/html;charset=3DUTF-8" http-equiv=3D"Content-Type"></h=
+ead><body ><div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif=
+; font-size: 10pt;"><div><span class=3D"size" style=3D"font-size: 14.666666=
+666666666px">Hello, </span><span class=3D"size" style=3D"font-size: 14.6666=
+66666666666px"><br></span></div><div><span class=3D"size" style=3D"font-siz=
+e: 14.666666666666666px"><br></span></div><div><span class=3D"size" style=
+=3D"font-size: 14.666666666666666px">Hope you're doing well.</span><span cl=
+ass=3D"size" style=3D"font-size: 14.666666666666666px"><br></span></div><di=
+v><span class=3D"size" style=3D"font-size: 14.666666666666666px"><br></span=
+></div><div><span class=3D"size" style=3D"font-size: 14.666666666666666px">=
+I=E2=80=99m following up on my previous email regarding your mobile app ide=
+a. If you=E2=80=99re still interested in developing an iOS or Android app, =
+just let me know the type of app you're planning.</span><span class=3D"size=
+" style=3D"font-size: 14.666666666666666px"><br></span></div><div><span cla=
+ss=3D"size" style=3D"font-size: 14.666666666666666px"><br></span></div><div=
+><span class=3D"size" style=3D"font-size: 14.666666666666666px">I=E2=80=99l=
+l connect you with our consultant to help move things forward.</span><span =
+class=3D"size" style=3D"font-size: 14.666666666666666px"><br></span></div><=
+div><span class=3D"size" style=3D"font-size: 14.666666666666666px"><br></sp=
+an></div><div><span class=3D"size" style=3D"font-size: 14.666666666666666px=
+">Looking forward to your reply.</span><span class=3D"size" style=3D"font-s=
+ize: 14.666666666666666px"><br></span></div><div><span class=3D"size" style=
+=3D"font-size: 14.666666666666666px"><br></span></div><div><span class=3D"s=
+ize" style=3D"font-size: 14.666666666666666px">Thank You!</span><span class=
+=3D"size" style=3D"font-size: 14.666666666666666px"><br></span></div><div><=
+br></div><div class=3D"zmail_extra_hr" style=3D"border-top: 1px solid rgb(2=
+04, 204, 204); height: 0px; margin-top: 10px; margin-bottom: 10px; line-hei=
+ght: 0px;"><br></div><div class=3D"zmail_extra" data-zbluepencil-ignore=3D"=
+true"><div><br></div><div id=3D"Zm-_Id_-Sgn1">---- On Tue, 11 Feb 2025 14:0=
+8:05 +0100 <b>Emma Perez &lt;emma.perez@zohomail.eu&gt;</b> wrote ---<br></=
+div><div><br></div><blockquote id=3D"blockquote_zmail" style=3D"margin: 0px=
+;"><div><div style=3D"font-family: Verdana, Arial, Helvetica, sans-serif; f=
+ont-size: 10pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin: 0pt 30pt;=
+"><span class=3D"highlight" style=3D"background-color: rgb(255, 255, 255); =
+line-height: 1.2; margin: 0pt 30pt;"><span class=3D"highlight" style=3D"bac=
+kground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb=
+(34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-serif"=
+><span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-styl=
+e: normal; font-variant: normal; text-decoration: none; vertical-align: bas=
+eline; white-space: pre-wrap;">Hi Sir/Ma'am,</span></span></span></span><br=
+></span></p><p dir=3D"ltr" style=3D"line-height: 1.2; margin: 0pt 30pt;"><s=
+pan class=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line=
+-height: 1.2; margin: 0pt 30pt;"><span class=3D"highlight" style=3D"backgro=
+und-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34,=
+ 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-serif"><sp=
+an class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-style: n=
+ormal; font-variant: normal; text-decoration: none; vertical-align: baselin=
+e; white-space: pre-wrap;">&nbsp;</span></span></span></span><br></span></p=
+><p dir=3D"ltr" style=3D"line-height: 1.2; margin: 0pt 30pt;"><span class=
+=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line-height: =
+1.2; margin: 0pt 30pt;"><span class=3D"highlight" style=3D"background-color=
+:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"=
+><span class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=
+=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; f=
+ont-variant: normal; text-decoration: none; vertical-align: baseline; white=
+-space: pre-wrap;">We build accessible and affordable <b>Rental Services ap=
+p's</b> for all the entrepreneurs around the world to start their own marke=
+tplace.</span></span></span></span><br></span></p><p dir=3D"ltr" style=3D"l=
+ine-height: 1.2; margin: 0pt 30pt;"><span class=3D"highlight" style=3D"back=
+ground-color: rgb(255, 255, 255); line-height: 1.2; margin: 0pt 30pt;"><spa=
+n class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span c=
+lass=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=
+=3D"font-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-size=
+: 11pt; font-weight: 500; font-style: normal; font-variant: normal; text-de=
+coration: none; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</s=
+pan></span></span></span><br></span></p><p dir=3D"ltr" style=3D"line-height=
+: 1.2; margin: 0pt 30pt;"><span class=3D"highlight" style=3D"background-col=
+or: rgb(255, 255, 255); line-height: 1.2; margin: 0pt 30pt;"><span class=3D=
+"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"co=
+lour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=3D"font-fa=
+mily:Nunito, sans-serif"><span class=3D"size" style=3D"font-size: 11pt; fon=
+t-weight: 500; font-style: normal; font-variant: normal; text-decoration: n=
+one; vertical-align: baseline; white-space: pre-wrap;"><b>We develop apps f=
+or various industries:</b></span></span></span></span><br></span></p><ul st=
+yle=3D"margin-top: 0; margin-bottom: 0"><li dir=3D"ltr" style=3D"list-style=
+-type: disc; font-size: 11pt; font-family: Nunito, sans-serif; color: rgb(3=
+4, 34, 34); background-color: transparent; font-weight: 500; font-style: no=
+rmal; font-variant: normal; text-decoration: none; vertical-align: baseline=
+; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"line-he=
+ight: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span =
+class=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line-hei=
+ght: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span c=
+lass=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span clas=
+s=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=3D"=
+font-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-size: 11=
+pt; font-weight: 500; font-style: normal; font-variant: normal; text-decora=
+tion: none; vertical-align: baseline; white-space: pre-wrap;">Car Rental Ap=
+ps</span></span></span></span><br></span></p></li><li dir=3D"ltr" style=3D"=
+list-style-type: disc; font-size: 11pt; font-family: Nunito, sans-serif; co=
+lor: rgb(34, 34, 34); background-color: transparent; font-weight: 500; font=
+-style: normal; font-variant: normal; text-decoration: none; vertical-align=
+: baseline; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=
+=3D"line-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0=
+pt;"><span class=3D"highlight" style=3D"background-color: rgb(255, 255, 255=
+); line-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0p=
+t;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"=
+><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font=
+" style=3D"font-family:Nunito, sans-serif"><span class=3D"size" style=3D"fo=
+nt-size: 11pt; font-weight: 500; font-style: normal; font-variant: normal; =
+text-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Cl=
+othing and Fashion Rental Apps</span></span></span></span><br></span></p></=
+li><li dir=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt; font-fa=
+mily: Nunito, sans-serif; color: rgb(34, 34, 34); background-color: transpa=
+rent; font-weight: 500; font-style: normal; font-variant: normal; text-deco=
+ration: none; vertical-align: baseline; white-space: pre-wrap; margin-left:=
+ 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt; margin=
+-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"backgrou=
+nd-color: rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt; margin-=
+top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"backgroun=
+d-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 3=
+4, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-serif"><span=
+ class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-style: nor=
+mal; font-variant: normal; text-decoration: none; vertical-align: baseline;=
+ white-space: pre-wrap;">Equipment and Tool Rental Apps</span></span></span=
+></span><br></span></p></li><li dir=3D"ltr" style=3D"list-style-type: disc;=
+ font-size: 11pt; font-family: Nunito, sans-serif; color: rgb(34, 34, 34); =
+background-color: transparent; font-weight: 500; font-style: normal; font-v=
+ariant: normal; text-decoration: none; vertical-align: baseline; white-spac=
+e: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; m=
+argin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"hig=
+hlight" style=3D"background-color: rgb(255, 255, 255); line-height: 1.2; ma=
+rgin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"high=
+light" style=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour"=
+ style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=3D"font-family:=
+Nunito, sans-serif"><span class=3D"size" style=3D"font-size: 11pt; font-wei=
+ght: 500; font-style: normal; font-variant: normal; text-decoration: none; =
+vertical-align: baseline; white-space: pre-wrap;">Real Estate Rental Apps</=
+span></span></span></span><br></span></p></li><li dir=3D"ltr" style=3D"list=
+-style-type: disc; font-size: 11pt; font-family: Nunito, sans-serif; color:=
+ rgb(34, 34, 34); background-color: transparent; font-weight: 500; font-sty=
+le: normal; font-variant: normal; text-decoration: none; vertical-align: ba=
+seline; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"l=
+ine-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;">=
+<span class=3D"highlight" style=3D"background-color: rgb(255, 255, 255); li=
+ne-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><=
+span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><spa=
+n class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" sty=
+le=3D"font-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-si=
+ze: 11pt; font-weight: 500; font-style: normal; font-variant: normal; text-=
+decoration: none; vertical-align: baseline; white-space: pre-wrap;">Event M=
+anagement Apps</span></span></span></span><br></span></p></li><li dir=3D"lt=
+r" style=3D"list-style-type: disc; font-size: 11pt; font-family: Nunito, sa=
+ns-serif; color: rgb(34, 34, 34); background-color: transparent; font-weigh=
+t: 500; font-style: normal; font-variant: normal; text-decoration: none; ve=
+rtical-align: baseline; white-space: pre-wrap; margin-left: 36pt"><p dir=3D=
+"ltr" style=3D"line-height: 1.2; margin-right: 30pt; margin-top: 0px; margi=
+n-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color: rgb(25=
+5, 255, 255); line-height: 1.2; margin-right: 30pt; margin-top: 0px; margin=
+-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color:rgb(255,=
+ 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span cl=
+ass=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"size" =
+style=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-varian=
+t: normal; text-decoration: none; vertical-align: baseline; white-space: pr=
+e-wrap;">Event Equipment Rental Apps</span></span></span></span><br></span>=
+</p></li><li dir=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt; f=
+ont-family: Nunito, sans-serif; color: rgb(34, 34, 34); background-color: t=
+ransparent; font-weight: 500; font-style: normal; font-variant: normal; tex=
+t-decoration: none; vertical-align: baseline; white-space: pre-wrap; margin=
+-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt; =
+margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"ba=
+ckground-color: rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt; m=
+argin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"bac=
+kground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb=
+(34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-serif"=
+><span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-styl=
+e: normal; font-variant: normal; text-decoration: none; vertical-align: bas=
+eline; white-space: pre-wrap;">Bike, Scooter, and E-scooter Rental Apps</sp=
+an></span></span></span><br></span></p></li><li dir=3D"ltr" style=3D"list-s=
+tyle-type: disc; font-size: 11pt; font-family: Nunito, sans-serif; color: r=
+gb(34, 34, 34); background-color: transparent; font-weight: 500; font-style=
+: normal; font-variant: normal; text-decoration: none; vertical-align: base=
+line; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"lin=
+e-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><s=
+pan class=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line=
+-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><sp=
+an class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span =
+class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=
+=3D"font-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-size=
+: 11pt; font-weight: 500; font-style: normal; font-variant: normal; text-de=
+coration: none; vertical-align: baseline; white-space: pre-wrap;">Custom Re=
+ntal Services Apps</span></span></span></span><br></span></p></li><li dir=
+=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt; font-family: Nuni=
+to, sans-serif; color: rgb(34, 34, 34); background-color: transparent; font=
+-weight: 500; font-style: normal; font-variant: normal; text-decoration: no=
+ne; vertical-align: baseline; white-space: pre-wrap; margin-left: 36pt"><p =
+dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt; margin-top: 0px;=
+ margin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color: =
+rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt; margin-top: 0px; =
+margin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color:rg=
+b(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><s=
+pan class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"=
+size" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-=
+variant: normal; text-decoration: none; vertical-align: baseline; white-spa=
+ce: pre-wrap;">Cleaning Services Apps</span></span></span></span><br></span=
+></p></li><li dir=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt; =
+font-family: Nunito, sans-serif; color: rgb(34, 34, 34); background-color: =
+transparent; font-weight: 500; font-style: normal; font-variant: normal; te=
+xt-decoration: none; vertical-align: baseline; white-space: pre-wrap; margi=
+n-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt;=
+ margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"b=
+ackground-color: rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt; =
+margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"ba=
+ckground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rg=
+b(34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-serif=
+"><span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-sty=
+le: normal; font-variant: normal; text-decoration: none; vertical-align: ba=
+seline; white-space: pre-wrap;">Residential &amp; Commercial Cleaning Apps<=
+/span></span></span></span><br></span></p></li><li dir=3D"ltr" style=3D"lis=
+t-style-type: disc; font-size: 11pt; font-family: Nunito, sans-serif; color=
+: rgb(34, 34, 34); background-color: transparent; font-weight: 500; font-st=
+yle: normal; font-variant: normal; text-decoration: none; vertical-align: b=
+aseline; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"=
+line-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"=
+><span class=3D"highlight" style=3D"background-color: rgb(255, 255, 255); l=
+ine-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;">=
+<span class=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><sp=
+an class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" st=
+yle=3D"font-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-s=
+ize: 11pt; font-weight: 500; font-style: normal; font-variant: normal; text=
+-decoration: none; vertical-align: baseline; white-space: pre-wrap;">Restau=
+rant Apps</span></span></span></span><br></span></p></li><li dir=3D"ltr" st=
+yle=3D"list-style-type: disc; font-size: 11pt; font-family: Nunito, sans-se=
+rif; color: rgb(34, 34, 34); background-color: transparent; font-weight: 50=
+0; font-style: normal; font-variant: normal; text-decoration: none; vertica=
+l-align: baseline; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr"=
+ style=3D"line-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bot=
+tom: 0pt;"><span class=3D"highlight" style=3D"background-color: rgb(255, 25=
+5, 255); line-height: 1.2; margin-right: 30pt; margin-top: 0px; margin-bott=
+om: 0pt;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255,=
+ 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=
+=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"size" sty=
+le=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-variant: =
+normal; text-decoration: none; vertical-align: baseline; white-space: pre-w=
+rap;">Business Apps</span></span></span></span><br></span></p></li><li dir=
+=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt; font-family: Nuni=
+to, sans-serif; color: rgb(34, 34, 34); background-color: transparent; font=
+-weight: 500; font-style: normal; font-variant: normal; text-decoration: no=
+ne; vertical-align: baseline; white-space: pre-wrap; margin-left: 36pt"><p =
+dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt; margin-top: 0px;=
+ margin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color: =
+rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt; margin-top: 0px; =
+margin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color:rg=
+b(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><s=
+pan class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"=
+size" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-=
+variant: normal; text-decoration: none; vertical-align: baseline; white-spa=
+ce: pre-wrap;">Medication Tracking Apps</span></span></span></span><br></sp=
+an></p></li><li dir=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt=
+; font-family: Nunito, sans-serif; color: rgb(34, 34, 34); background-color=
+: transparent; font-weight: 500; font-style: normal; font-variant: normal; =
+text-decoration: none; vertical-align: baseline; white-space: pre-wrap; mar=
+gin-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30p=
+t; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D=
+"background-color: rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt=
+; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"=
+background-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:=
+rgb(34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-ser=
+if"><span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-s=
+tyle: normal; font-variant: normal; text-decoration: none; vertical-align: =
+baseline; white-space: pre-wrap;">Booking and ticketing Apps</span></span><=
+/span></span><br></span></p></li><li dir=3D"ltr" style=3D"list-style-type: =
+disc; font-size: 11pt; font-family: Nunito, sans-serif; color: rgb(34, 34, =
+34); background-color: transparent; font-weight: 500; font-style: normal; f=
+ont-variant: normal; text-decoration: none; vertical-align: baseline; white=
+-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1=
+.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span class=
+=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line-height: =
+1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span class=
+=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=3D=
+"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=3D"font=
+-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-size: 11pt; =
+font-weight: 500; font-style: normal; font-variant: normal; text-decoration=
+: none; vertical-align: baseline; white-space: pre-wrap;">E-Commerce &amp; =
+M-Commerce Apps</span></span></span></span><br></span></p></li><li dir=3D"l=
+tr" style=3D"list-style-type: disc; font-size: 11pt; font-family: Nunito, s=
+ans-serif; color: rgb(34, 34, 34); background-color: transparent; font-weig=
+ht: 500; font-style: normal; font-variant: normal; text-decoration: none; v=
+ertical-align: baseline; white-space: pre-wrap; margin-left: 36pt"><p dir=
+=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt; margin-top: 0px; ma=
+rgin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color: rgb=
+(255, 255, 255); line-height: 1.2; margin-right: 30pt; margin-top: 0px; mar=
+gin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color:rgb(2=
+55, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span=
+ class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"siz=
+e" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-var=
+iant: normal; text-decoration: none; vertical-align: baseline; white-space:=
+ pre-wrap;">Logistics Services Apps</span></span></span></span><br></span><=
+/p></li><li dir=3D"ltr" style=3D"list-style-type: disc; font-size: 11pt; fo=
+nt-family: Nunito, sans-serif; color: rgb(34, 34, 34); background-color: tr=
+ansparent; font-weight: 500; font-style: normal; font-variant: normal; text=
+-decoration: none; vertical-align: baseline; white-space: pre-wrap; margin-=
+left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin-right: 30pt; m=
+argin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"bac=
+kground-color: rgb(255, 255, 255); line-height: 1.2; margin-right: 30pt; ma=
+rgin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"back=
+ground-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(=
+34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans-serif">=
+<span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-style=
+: normal; font-variant: normal; text-decoration: none; vertical-align: base=
+line; white-space: pre-wrap;">Cab &amp; Taxi booking Apps</span></span></sp=
+an></span><br></span></p></li><li dir=3D"ltr" style=3D"list-style-type: dis=
+c; font-size: 11pt; font-family: Nunito, sans-serif; color: rgb(34, 34, 34)=
+; background-color: transparent; font-weight: 500; font-style: normal; font=
+-variant: normal; text-decoration: none; vertical-align: baseline; white-sp=
+ace: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2;=
+ margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=3D"b=
+ackground-color: rgb(255, 255, 255); line-height: 1.2; margin-top: 0px; mar=
+gin-bottom: 0pt;"><span class=3D"highlight" style=3D"background-color:rgb(2=
+55, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span=
+ class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"siz=
+e" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-var=
+iant: normal; text-decoration: none; vertical-align: baseline; white-space:=
+ pre-wrap;">Education &amp; E-Learning Apps</span></span></span></span><br>=
+</span></p></li><li dir=3D"ltr" style=3D"list-style-type: disc; font-size: =
+11pt; font-family: Nunito, sans-serif; color: rgb(34, 34, 34); background-c=
+olor: transparent; font-weight: 500; font-style: normal; font-variant: norm=
+al; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;=
+ margin-left: 36pt"><p dir=3D"ltr" style=3D"line-height: 1.2; margin-right:=
+ 30pt; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" styl=
+e=3D"background-color: rgb(255, 255, 255); line-height: 1.2; margin-right: =
+30pt; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=
+=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"co=
+lor:rgb(34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans=
+-serif"><span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; fo=
+nt-style: normal; font-variant: normal; text-decoration: none; vertical-ali=
+gn: baseline; white-space: pre-wrap;">Healthcare and fitness Apps</span></s=
+pan></span></span><br></span></p></li><li dir=3D"ltr" style=3D"list-style-t=
+ype: disc; font-size: 11pt; font-family: Nunito, sans-serif; color: rgb(34,=
+ 34, 34); background-color: transparent; font-weight: 500; font-style: norm=
+al; font-variant: normal; text-decoration: none; vertical-align: baseline; =
+white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"line-heig=
+ht: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span cl=
+ass=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line-heigh=
+t: 1.2; margin-right: 30pt; margin-top: 0px; margin-bottom: 0pt;"><span cla=
+ss=3D"highlight" style=3D"background-color:rgb(255, 255, 255)"><span class=
+=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=3D"font" style=3D"f=
+ont-family:Nunito, sans-serif"><span class=3D"size" style=3D"font-size: 11p=
+t; font-weight: 500; font-style: normal; font-variant: normal; text-decorat=
+ion: none; vertical-align: baseline; white-space: pre-wrap;">Products-Based=
+ Apps</span></span></span></span><br></span></p></li><li dir=3D"ltr" style=
+=3D"list-style-type: disc; font-size: 11pt; font-family: Nunito, sans-serif=
+; color: rgb(34, 34, 34); background-color: transparent; font-weight: 500; =
+font-style: normal; font-variant: normal; text-decoration: none; vertical-a=
+lign: baseline; white-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" st=
+yle=3D"line-height: 1.2; margin-top: 0px; margin-bottom: 0pt;"><span class=
+=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line-height: =
+1.2; margin-top: 0px; margin-bottom: 0pt;"><span class=3D"highlight" style=
+=3D"background-color:rgb(255, 255, 255)"><span class=3D"colour" style=3D"co=
+lor:rgb(34, 34, 34)"><span class=3D"font" style=3D"font-family:Nunito, sans=
+-serif"><span class=3D"size" style=3D"font-size: 11pt; font-weight: 500; fo=
+nt-style: normal; font-variant: normal; text-decoration: none; vertical-ali=
+gn: baseline; white-space: pre-wrap;">Travel &amp; Tours Apps</span></span>=
+</span></span><br></span></p></li><li dir=3D"ltr" style=3D"list-style-type:=
+ disc; font-size: 11pt; font-family: Nunito, sans-serif; color: rgb(34, 34,=
+ 34); background-color: transparent; font-weight: 500; font-style: normal; =
+font-variant: normal; text-decoration: none; vertical-align: baseline; whit=
+e-space: pre-wrap; margin-left: 36pt"><p dir=3D"ltr" style=3D"line-height: =
+1.2; margin-top: 0px; margin-bottom: 10pt;"><span class=3D"highlight" style=
+=3D"background-color: rgb(255, 255, 255); line-height: 1.2; margin-top: 0px=
+; margin-bottom: 10pt;"><span class=3D"highlight" style=3D"background-color=
+:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"=
+><span class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=
+=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; f=
+ont-variant: normal; text-decoration: none; vertical-align: baseline; white=
+-space: pre-wrap;">Social Median &amp; Dating Apps</span></span></span></sp=
+an><br></span></p></li></ul><p dir=3D"ltr" style=3D"line-height: 1.2; margi=
+n: 0pt 30pt;"><span class=3D"highlight" style=3D"background-color: rgb(255,=
+ 255, 255); line-height: 1.2; margin: 0pt 30pt;"><br></span></p><p dir=3D"l=
+tr" style=3D"line-height: 1.2; margin: 0pt 30pt;"><span class=3D"highlight"=
+ style=3D"background-color: rgb(255, 255, 255); line-height: 1.2; margin: 0=
+pt 30pt;"><span class=3D"highlight" style=3D"background-color:rgb(255, 255,=
+ 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=
+=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"size" sty=
+le=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-variant: =
+normal; text-decoration: none; vertical-align: baseline; white-space: pre-w=
+rap;">May I know what kind of mobile app you are looking for? Then I can se=
+nd you our portfolio and pricing.</span></span></span></span><br></span></p=
+><p dir=3D"ltr" style=3D"line-height: 1.2; margin: 0pt 30pt;"><span class=
+=3D"highlight" style=3D"background-color: rgb(255, 255, 255); line-height: =
+1.2; margin: 0pt 30pt;"><span class=3D"highlight" style=3D"background-color=
+:rgb(255, 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"=
+><span class=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=
+=3D"size" style=3D"font-size: 11pt; font-weight: 500; font-style: normal; f=
+ont-variant: normal; text-decoration: none; vertical-align: baseline; white=
+-space: pre-wrap;">&nbsp;</span></span></span></span><br></span></p><p dir=
+=3D"ltr" style=3D"line-height: 1.2; margin: 0pt 30pt;"><span class=3D"highl=
+ight" style=3D"background-color: rgb(255, 255, 255); line-height: 1.2; marg=
+in: 0pt 30pt;"><span class=3D"highlight" style=3D"background-color:rgb(255,=
+ 255, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span cl=
+ass=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"size" =
+style=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-varian=
+t: normal; text-decoration: none; vertical-align: baseline; white-space: pr=
+e-wrap;"><b>Thanks,</b></span></span></span></span><br></span></p><p dir=3D=
+"ltr" style=3D"line-height: 1.2; margin: 0pt 30pt;"><span class=3D"highligh=
+t" style=3D"background-color: rgb(255, 255, 255); line-height: 1.2; margin:=
+ 0pt 30pt;"><span class=3D"highlight" style=3D"background-color:rgb(255, 25=
+5, 255)"><span class=3D"colour" style=3D"color:rgb(34, 34, 34)"><span class=
+=3D"font" style=3D"font-family:Nunito, sans-serif"><span class=3D"size" sty=
+le=3D"font-size: 11pt; font-weight: 500; font-style: normal; font-variant: =
+normal; text-decoration: none; vertical-align: baseline; white-space: pre-w=
+rap;">Emma</span></span></span></span><br></span></p><div><br></div></div><=
+br></div></blockquote></div><div><br></div></div><br></body></html>
+------=_Part_439158_1352601622.1745225824732--
+

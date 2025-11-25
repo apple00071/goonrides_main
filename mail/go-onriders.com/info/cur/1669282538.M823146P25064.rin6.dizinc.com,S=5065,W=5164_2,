@@ -1,0 +1,99 @@
+Return-Path: <borkuteanmolvishal@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id mN2kMOo6f2PoYQAAQ+45pw
+	(envelope-from <borkuteanmolvishal@gmail.com>)
+	for <info@go-onriders.com>; Thu, 24 Nov 2022 04:35:38 -0500
+Return-path: <borkuteanmolvishal@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Thu, 24 Nov 2022 04:35:38 -0500
+Received: from mail-ed1-f46.google.com ([209.85.208.46]:35597)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <borkuteanmolvishal@gmail.com>)
+	id 1oy8dt-0008Be-LG
+	for info@go-onriders.com;
+	Thu, 24 Nov 2022 04:35:38 -0500
+Received: by mail-ed1-f46.google.com with SMTP id x2so1786673edd.2
+        for <info@go-onriders.com>; Thu, 24 Nov 2022 01:35:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=4HQWhUX9iLQFeBlR212V6uotP1BeRVokiJwKLxOe/Og=;
+        b=TXYGJGUkaAc/Otm8zcS8lelhKO9YFVclGX2uV4EeZvmd/9oxIlV2tYwFOBjfaXIfrU
+         r0TMe1DanFMBZpopc3NuK/v+Idy7SD4ZLdL07k1lVaqlsG2zygC8doBG8LMOLGG1dhAV
+         EyGdYltm0ABIbLweX74QVwfhEAQqS6MjwpGPcW+5c47cRMSbrrlO5YEZ8541gbalTpVL
+         t1WtFmn+lR1tSKKWuj0IWafdQn3yBso1cbm0Sf3ly6CDoOLFqjm8lp05tACVFBG5uPeb
+         19s2Jo/xAIIXpInPvoieUefyyR9z8SgUia9P3dTzMymQrupZEQ32cmATtJRsc8RqSbcq
+         dG9A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=4HQWhUX9iLQFeBlR212V6uotP1BeRVokiJwKLxOe/Og=;
+        b=lqG3jd1Bm08E957YKYE4fsvehp8wyQiXdT2gcmsEHrcQA9I2vLtWc+26fCqz9LjGP4
+         pSoU4wcaHICYH2driDrDMki2eJCyfWPs/C+prK3B0BjVEzqKdpov7A317ZGLcO5/GBFR
+         qP2ErPajABGwgx8A0sE5kuqRui8cHMIsDXTiFoRtnAnumbQpIN8FSlqyCDm/p+mPdtYd
+         DCVMEkw7AJRxVzibKTDSsk57AGnBahPinvExndXg7GaViu5gohEoYwWQyPq4fLNUp41j
+         dQa3tNSJ3ivV/G/u8vSgjmE/i+e6jXTBqyfdKgNVjs9P8EnJzkomcsnygkK6SEAXG478
+         y/nQ==
+X-Gm-Message-State: ANoB5pnvskrtRpGFyeb2m1rzs/O/rbg345+aKVEC52ksckDGeVnMben+
+	CJNgBx6C/maCNt58+n/sO1iYgY0PMoQAe7OxCeEJM6/p
+X-Google-Smtp-Source: AA0mqf7xiR+LOsVpg3EQG7VgmsDHeobqPiYXOxp8vyKDRFCe5m/BZcUMTd9wVR0W2Oqevha8rPM5dQ95tWHTAjSgAJo=
+X-Received: by 2002:a50:fb05:0:b0:464:718c:b266 with SMTP id
+ d5-20020a50fb05000000b00464718cb266mr28975054edq.320.1669282496097; Thu, 24
+ Nov 2022 01:34:56 -0800 (PST)
+MIME-Version: 1.0
+From: Borkute Vishal <borkuteanmolvishal@gmail.com>
+Date: Thu, 24 Nov 2022 15:04:44 +0530
+Message-ID: <CAJtQ0H4o=HW6UTjfxbKY5Z0dx4eF8DqQNMAi3Y5hc3ZLU7mMkQ@mail.gmail.com>
+Subject: 
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="00000000000035b0e505ee341e40"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Do i need to deposite any security money for scooty rental
+    for 1 day? Do i need to deposite any security money for scooty rental for
+    1 day? 
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.208.46 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [borkuteanmolvishal[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.46 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--00000000000035b0e505ee341e40
+Content-Type: text/plain; charset="UTF-8"
+
+Do i need to deposite any security money for scooty rental for 1 day?
+
+--00000000000035b0e505ee341e40
+Content-Type: text/html; charset="UTF-8"
+
+<div dir="auto">Do i need to deposite any security money for scooty rental for 1 day?</div>
+
+--00000000000035b0e505ee341e40--

@@ -1,0 +1,699 @@
+Return-Path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id +IjSCx2p1WKbeAAAQ+45pw
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	for <info@go-onriders.com>; Mon, 18 Jul 2022 14:40:29 -0400
+Return-path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 18 Jul 2022 14:40:29 -0400
+Received: from wrqvtvkv.outbound-mail.sendgrid.net ([149.72.120.24]:17726)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	id 1oDVfP-00083f-Sc
+	for info@go-onriders.com; Mon, 18 Jul 2022 14:40:29 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=interakt.ai;
+	h=content-type:from:mime-version:subject:to:list-unsubscribe:cc;
+	s=s1; bh=MMu2UnEDkZzs/HfFQe8D5iBDJdDq0Q48scYguJYawm0=;
+	b=Vxfo6PGCdXWUGGcYLuSrgHWM3Az8ZXBeikj1hxbznr6xrWybNaMipniEv++JcdpH8alz
+	HTdqvzyTtlNS25brgF+DY37ljoKTO9F8LvLsGlHvlQqUcutFJ5+4mM7gLfkgvZga9XnDI+
+	nmeYdf6R5+4bQ+6/8b4rnZns4vlmzNfO1GM94tlu/owdZmomzX24ZIYG376Lo3Clay9TpI
+	EHBbWvxUoCOhfi+vUKQYieqA6iYmafY6YN+uXAMPdCyxMQMz8/cZb1PiYNHiMCh5W7IAu0
+	5rTT+UcFE90jEp2RnmhgmOELSJlxwdGOfA6q2KmceOjPXWD2kGBdoNlxmlfC4EjA==
+Received: by filterdrecv-9bf864f8c-fdnm9 with SMTP id filterdrecv-9bf864f8c-fdnm9-1-62D5A8F2-11
+        2022-07-18 18:39:46.527180085 +0000 UTC m=+500669.368372613
+Received: from MTg4NjczMzE (unknown)
+	by geopod-ismtpd-5-0 (SG) with HTTP
+	id 897arWd1RfOdl8ao2lDpFw
+	Mon, 18 Jul 2022 18:39:46.230 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=875865261edc0f5db3515bacfd8c0da0abf48f70c5ceb801f5f6390f2efb
+Date: Mon, 18 Jul 2022 18:39:46 +0000 (UTC)
+From: hello@interakt.ai
+Mime-Version: 1.0
+Message-ID: <897arWd1RfOdl8ao2lDpFw@geopod-ismtpd-5-0>
+Subject: How is your free trial journey going?
+X-SG-EID: 
+ =?us-ascii?Q?jiXPQcjYl7BW2xnG9rmlikmGbsWRbYFXPgoOIX4h04ulfMD3qsy7ZhNlQ9HpPH?=
+ =?us-ascii?Q?NNwnSGAc88Yk+tSzTaSUI=2FfRj4FwXOzwQEJ2Mq2?=
+ =?us-ascii?Q?BDl6VOXXQBHM+BOx8gZYjlSyzsWfFEsrSwRU3HL?=
+ =?us-ascii?Q?lKvOZnDGFcm444+qZ0H2QNRqyPpfAYz8iqHbCD+?=
+ =?us-ascii?Q?zruQl=2FRQMPEoz+4zc7K5BYXNO53lo51JnHg=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb8raWjw0ZPf1VmjsCkspi=2FKHgAsE=2FCUk5eZaRe5Ltr?=
+ =?us-ascii?Q?cbMubQ4nPoAyyDE=2FV8RzuEfwc7S=2Fawd9uQ1EMCp?=
+ =?us-ascii?Q?V5g66S4gOj7niJdpj10Fk7w90WqUozg=2F0gYoRxx?=
+ =?us-ascii?Q?V6r56Vg0UaG0WwiTtnf0o6w5qRnZT8j5jfCd=2FNE?=
+ =?us-ascii?Q?3u20QZ8mwdNbs?=
+To: info@go-onriders.com
+X-Entity-ID: zq9fjstDuAdEFIgk/ktvZg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em3566=2Einterakt=2Eai=3Fsubject=3Dhttps=3A=2F=2Fu188673?=
+ =?us-ascii?Q?31=2Ect=2Esendgrid=2Enet=2Fwf=2Funsubscribe*q*upn?=
+ =?us-ascii?Q?=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHa?=
+ =?us-ascii?Q?GMh5yALzZmvyk41p1zsILxt6x8e0WocT3Kp-2BN?=
+ =?us-ascii?Q?73uKNiU0tJcj0w-2ByOfd5bkb-2Bp130SGbKexz?=
+ =?us-ascii?Q?El-2BGP4IR4TFulirG6bovBPYYqgnThUBSZbLWK?=
+ =?us-ascii?Q?LJ-2F0ICGWeMiS3yOhJ1daStR-2F93v-2FCfvvD?=
+ =?us-ascii?Q?gRDHXu51Yn24o5IaTCSKxyDEAIYPSKeyKoQCymZ?=
+ =?us-ascii?Q?CY7kVNMbzouSkaLRJ-2BP-2F-2BC6d23jr4YKZs?=
+ =?us-ascii?Q?IDNNrD8QfyVwfqZbanZNQA-2B-2FBaO4VuR2RiY?=
+ =?us-ascii?Q?2uqHiXFvh8IEpJYybY5KrAhPMHFyWjdcBIHu6-2?=
+ =?us-ascii?Q?BrDrAzJn8qryYd1CF8YESEi-2Beduc5BvKy5bn-?=
+ =?us-ascii?Q?2FfhfErzSirPZPCLne45AZSJszw=3E?=
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  ( https://u18867331.ct.sendgrid.net/ls/click?upn=XtSSqkA7o5sYTQ1Kkx-2Fi0u-2B8ATP8C5bIO2AFqOJlnt8KO26tsP2p4GHcNsvFh5b0NRxW-2FnR5K6O4raaZw9XIxEu-2FJCgjc5KVY5ogBAZx9Ju6jgE842Lv3nTXCwHezon-2Fzx8kZYDOcLtej
+    [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [149.72.120.24 listed in list.dnswl.org]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [149.72.120.24 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.5 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+--875865261edc0f5db3515bacfd8c0da0abf48f70c5ceb801f5f6390f2efb
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+( https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0u=
+-2B8ATP8C5bIO2AFqOJlnt8KO26tsP2p4GHcNsvFh5b0NRxW-2FnR5K6O4raaZw9XIxEu-2FJCg=
+jc5KVY5ogBAZx9Ju6jgE842Lv3nTXCwHezon-2Fzx8kZYDOcLtejjVGWrEzJC0LdK9gIj2Bx-2B=
+KMLQIH8LnqvMSPPpW85eYB0dGU5GozmQoJvgIXzaL4QWl2RSiMC4KwqnVUZ6hbL4w1CRGxATHOu=
+MqO4u0OOVrnkkYSjYcVANxB_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfR=
+LaM3hEMNa0bSXr-2F6Vh3nPG7ckXaYA3roIoJI1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03=
+hLSPInCb2a-2BHs-2FiZmo07DclOiBlk7E0Gv2JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYb=
+X7VLB7DzUsitrdg7i-2FygUaZ03ayp50xNzbG-2FH9Ik92neWJ6U61SS88ZKCgVZHLe84CAMRRN=
+MKxf2QUixdGPMGxa4SwEOMK7XTxwUAZ0oJGBv7sAgNKtmbBAngCjRdOBzPjDB1IjDosDJM1utzw=
+-2FWkNzq8v5dGpjcV1gNkmf0mbvM-3D )
+
+Hi Mohammad ,
+
+It=E2=80=99s been a while since you signed up for Interakt. We just wanted =
+to check back in and introduce you to some of our amazing features:
+
+=E2=9C=85=C2=A0 Add unlimited agents & respond to queries instantly via a s=
+ingle number
+=E2=9C=85=C2=A0 Send automated, bulk notifications to customers
+=E2=9C=85=C2=A0 Create personalized and contextual campaigns with buttons &=
+ media
+=E2=9C=85=C2=A0 Manage all your WhatsApp contacts in one place
+=E2=9C=85=C2=A0 Get the full picture of your customers while talking to the=
+m with the help of Smart
+Cards
+
+Interakt caters to India=E2=80=99s 500+ fastest-growing businesses and now =
+we want to join forces with you!
+
+Connect your own number by completing the steps below:
+Create your Facebook & WhatsApp Business Account, if not already done
+Verify the number you want to link with Interakt to start Interakting!
+
+Click to know more about how to get started with Interakt ( https://u188673=
+31.ct.sendgrid.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0p10t6Oq8PAxEQ4GQFQ=
+5wlc-3D9idu_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bS=
+Xr-2F6Vh3nPG7ckXaYA3roIoJI1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03hLSPInCb2a-2=
+BHs-2FiZmo07DclOiBlk7E0Gv2JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYbX7VLB7DzUsit=
+rdg7i-2FygUaeFX3srBx3d3hfv5ANTPgYxt8Lw0XBAhw7fLTdWHi4fW850EVljM74eXG1A6nprd=
+Jlb1DRwxFdtAo-2ByLWOc-2BKMlMiBoJX-2B6Ngq9ZkoHdgTj-2BcVop-2BEuYMsf9BECrdPaGv=
+hdYS4Y-2BOn5BrpGSdwBnSkE-3D )
+
+Register for our [LIVE] demo session ( https://u18867331.ct.sendgrid.net/ls=
+/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0q9s5EHxlwzAQr-2BG4xdA0VKkDg3OOBtfQXX9kW=
+SU3EpLMIuxf8nbl-2F-2FfZP5zIpjZURT-2Fy482e7Q47dSuh47x3Ek-3DktBL_RYEeg99Ap79l=
+eT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXr-2F6Vh3nPG7ckXaYA3roIo=
+JI1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03hLSPInCb2a-2BHs-2FiZmo07DclOiBlk7E0G=
+v2JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYbX7VLB7DzUsitrdg7i-2FygUaQiyw-2FtJqeI=
+J0HHoUICB5Ch8ldrnFg-2FdJ38tHhMSLLzSSduH30ORUPGxhg0ZuKc4-2BKcu6Io418n4EkxbfF=
+-2BHYY7RYfNkJjhKRhWQQySmTDE7Yri67yhUucumDywAjhebarw-2BcJlepjBzJxvmvlDiNhQ-3=
+D ) at your preferred time between Monday to Friday from 3 PM to 4 PM.
+
+Feel free to reach out to us on WhatsApp ( https://u18867331.ct.sendgrid.ne=
+t/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0iSuiB-2BqY9UxcBbLhjCmSP4-3DalDR_RYE=
+eg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXr-2F6Vh3nPG7ck=
+XaYA3roIoJI1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03hLSPInCb2a-2BHs-2FiZmo07Dcl=
+OiBlk7E0Gv2JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYbX7VLB7DzUsitrdg7i-2FygUaWp3=
+8UMaMjLRXxOrgy0L3smV024B5rhf0p0bH0o3RD3Xl9ogqKmtqK4ST9cHeCvl7v-2Bxnh5k5rh-2=
+F5lUwrrtoA-2FtZTlhCT3VVLTBA1p1GzB0oinFSSJ2qeDBmig-2FJwPRXlN0n-2FDYj0dlrBqV2=
+hUWlOy4-3D ) if you have any queries regarding the process for starting the=
+ free trial.
+
+Unsubscribe ( <%asm_group_unsubscribe_raw_url%> ) - Unsubscribe Preferences=
+ ( <%asm_preferences_raw_url%> )
+--875865261edc0f5db3515bacfd8c0da0abf48f70c5ceb801f5f6390f2efb
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+    <style>
+      @media screen and (max-width:480px) {
+        table\0 {
+          width: 480px !important;
+          }
+      }
+    </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; color:#000000; background-color:#FFFFFF; font-family:ar=
+ial,helvetica,sans-serif;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p></p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"9cb05135-af44-46a0-9b20-1f8e12748c98">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0u-2B8ATP8C5bIO2AFqOJlnt8KO26tsP2p4GHcNsvFh5b0NRxW-2FnR5K6O4=
+raaZw9XIxEu-2FJCgjc5KVY5ogBAZx9Ju6jgE842Lv3nTXCwHezon-2Fzx8kZYDOcLtejjVGWrE=
+zJC0LdK9gIj2Bx-2BKMLQIH8LnqvMSPPpW85eYB0dGU5GozmQoJvgIXzaL4QWl2RSiMC4KwqnVU=
+Z6hbL4w1CRGxATHOuMqO4u0OOVrnkkYSjYcV8b15_RYEeg99Ap79leT7lYKY4eaeyUmrwHXNDIK=
+uXmY6T8f7XPdFIQfRLaM3hEMNa0bSXr-2F6Vh3nPG7ckXaYA3roIoJI1dkdubHNp-2FPWI3b-2B=
+K4Th3YQMko1OlcM03hLSPInCb2a-2BHs-2FiZmo07DclOiBlk7E0Gv2JlBXAFXMNHDEkUBewTKe=
+wbysEztzDJChdEHYbX7VLB7DzUsitrdg7i-2FygUaZihWcfJFkOgh4UiF8pPQs7DJm7rkzaH2Xz=
+-2BRA5cHA8QU7-2Fu2BWQLNoMuomWShF2k2BXzJhJWXpeNjZGgVRQqWBjjFutvSFP1FkuznjYyx=
+RYBpC8Z51RbJK0ODAyhF8U8Wx9veukjTbU-2BxAg9DZ3pEM-3D"><img class=3D"max-width=
+" border=3D"0" style=3D"display:block; color:#000000; text-decoration:none;=
+ font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !=
+important; width:100%; height:auto !important;" width=3D"600" alt=3D"" data=
+-proportionally-constrained=3D"true" data-responsive=3D"true" src=3D"http:/=
+/cdn.mcauto-images-production.sendgrid.net/ccf6b07b7158c0e6/25ab983d-b36e-4=
+865-abff-7b9d576bc37c/1000x300.jpeg"></a></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"2d79fdd8-1051-4e9c-bf56-173c656fdee6" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: start"><span styl=
+e=3D"caret-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-va=
+riant-caps: normal; font-weight: 400; letter-spacing: normal; text-align: s=
+tart; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-s=
+pacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; te=
+xt-decoration-thickness: initial; text-decoration-style: initial; text-deco=
+ration-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0=
+pt; font-size: 12pt; font-family: Arial; background-color: transparent; fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">Hi </span><span style=3D"caret-color: rgb(0, 0, 0); color: #00=
+0000; font-style: normal; font-variant-caps: normal; font-weight: 400; lett=
+er-spacing: normal; text-align: start; text-indent: 0px; text-transform: no=
+ne; white-space: pre-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0p=
+x; text-decoration-line: none; text-decoration-thickness: initial; text-dec=
+oration-style: initial; text-decoration-color: initial; line-height: 1.38; =
+margin-top: 0pt; margin-bottom: 0pt; font-size: 11pt; font-family: Arial; b=
+ackground-color: transparent; font-variant-ligatures: normal; font-variant-=
+east-asian: normal; vertical-align: baseline">Mohammad</span><span style=3D=
+"caret-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-varian=
+t-caps: normal; font-weight: 400; letter-spacing: normal; text-align: start=
+; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spaci=
+ng: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-d=
+ecoration-thickness: initial; text-decoration-style: initial; text-decorati=
+on-color: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; =
+font-size: 12pt; font-family: Arial; background-color: transparent; font-va=
+riant-ligatures: normal; font-variant-east-asian: normal; vertical-align: b=
+aseline">,</span></div>
+<div style=3D"font-family: inherit; text-align: start"><br>
+</div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-s=
+ize: 11pt; font-family: Arial; background-color: transparent; font-variant-=
+ligatures: normal; font-variant-east-asian: normal; vertical-align: baselin=
+e">It=E2=80=99s been a while since you signed up for Interakt. We just want=
+ed to check back in and introduce you to some of our amazing features:</spa=
+n><br>
+</div>
+<div style=3D"font-family: inherit; text-align: start"><br></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.80001; margin-top: 3pt; margin-bottom: 3pt; fon=
+t-size: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">=E2=9C=85&nbsp; Add unlimited agents &amp; respond to queries =
+instantly via a single number</span></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.80001; margin-top: 3pt; margin-bottom: 3pt; fon=
+t-size: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">=E2=9C=85&nbsp; Send automated, bulk notifications to customer=
+s</span></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.80001; margin-top: 3pt; margin-bottom: 3pt; fon=
+t-size: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">=E2=9C=85&nbsp; Create personalized and contextual campaigns w=
+ith buttons &amp; media</span></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.80001; margin-top: 3pt; margin-bottom: 3pt; fon=
+t-size: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">=E2=9C=85&nbsp; Manage all your WhatsApp contacts in one place=
+&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.80001; margin-top: 3pt; margin-bottom: 3pt; fon=
+t-size: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">=E2=9C=85&nbsp; Get the full picture of your customers while t=
+alking to them with the help of Smart&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.80001; margin-top: 3pt; margin-bottom: 3pt; fon=
+t-size: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); fon=
+t-variant-ligatures: normal; font-variant-east-asian: normal; vertical-alig=
+n: baseline">Cards</span><br>
+</div>
+<div style=3D"font-family: inherit; text-align: start"><br></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-s=
+ize: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); font-v=
+ariant-ligatures: normal; font-variant-east-asian: normal; vertical-align: =
+baseline">Interakt caters to India=E2=80=99s 500+ fastest-growing businesse=
+s and now we want to join forces with you!&nbsp;</span><br>
+</div>
+<div style=3D"font-family: inherit; text-align: start"><br></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-s=
+ize: 11pt; font-family: Arial; background-color: rgb(255, 255, 255); font-v=
+ariant-ligatures: normal; font-variant-east-asian: normal; vertical-align: =
+baseline">Connect your own number by completing the steps below:&nbsp;</spa=
+n></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; margin-top: 0pt; margin-bottom: 0pt; padding-inline-start: 48p=
+x; list-style-type: disc; font-size: 11pt; font-family: Arial; background-c=
+olor: transparent; font-variant-ligatures: normal; font-variant-east-asian:=
+ normal; vertical-align: baseline; line-height: 1.38">Create your Facebook =
+&amp; WhatsApp Business Account, if not already done</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"car=
+et-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-ca=
+ps: normal; font-weight: 400; letter-spacing: normal; text-align: start; te=
+xt-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: =
+0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decor=
+ation-thickness: initial; text-decoration-style: initial; text-decoration-c=
+olor: initial; margin-top: 0pt; margin-bottom: 0pt; padding-inline-start: 4=
+8px; list-style-type: disc; font-size: 11pt; font-family: Arial; background=
+-color: transparent; font-variant-ligatures: normal; font-variant-east-asia=
+n: normal; vertical-align: baseline; line-height: 1.38">Verify the number y=
+ou want to link with Interakt to start Interakting!</span><br>
+</div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: italic; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-s=
+ize: 11pt; font-family: Arial; background-color: transparent; font-variant-=
+ligatures: normal; font-variant-east-asian: normal; vertical-align: baselin=
+e">Click to know more about </span><a href=3D"https://u18867331.ct.sendgrid=
+.net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0p10t6Oq8PAxEQ4GQFQ5wlc-3D_cFc_RY=
+Eeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXr-2F6Vh3nPG7c=
+kXaYA3roIoJI1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03hLSPInCb2a-2BHs-2FiZmo07Dc=
+lOiBlk7E0Gv2JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYbX7VLB7DzUsitrdg7i-2FygUaUZ=
+dxxrBlntTFOtQJ5mayL1RbCP0p1ZS7pABAeKks0UuY1kNvFHPGKSoaBn8chtchMSfjF4127vmR3=
+4P5kX-2FQrnvXv-2FoW3XNWVlkyVxfM8OFm75UFiX65gwx6PfR5AcVEg3bhjnZ0PEPddy211LL9=
+Xs-3D" title=3D"&lt;span style=3D&quot;font-size: 11pt; font-family: Arial;=
+ color: rgb(17, 85, 204); background-color: transparent; font-weight: 400; =
+font-style: italic; font-variant-ligatures: normal; font-variant-caps: norm=
+al; font-variant-east-asian: normal; font-variant-position: normal; text-de=
+coration: underline; text-decoration-skip: none; vertical-align: baseline; =
+white-space: pre-wrap;&quot;&gt;how to get started with Interakt&lt;/span&g=
+t;"><span style=3D"caret-color: rgb(0, 0, 0); color: #1155cc; font-style: i=
+talic; font-variant-caps: normal; font-weight: 400; letter-spacing: normal;=
+ text-align: start; text-indent: 0px; text-transform: none; white-space: pr=
+e-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-=
+line: underline; text-decoration-thickness: initial; text-decoration-style:=
+ initial; text-decoration-color: initial; line-height: 1.38; margin-top: 0p=
+t; margin-bottom: 0pt; font-size: 11pt; font-family: Arial; background-colo=
+r: transparent; font-variant-ligatures: normal; font-variant-east-asian: no=
+rmal; vertical-align: baseline">how to get started with Interakt</span></a>=
+<br>
+</div>
+<div style=3D"font-family: inherit; text-align: start"><br></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"caret=
+-color: rgb(0, 0, 0); color: #000000; font-style: normal; font-variant-caps=
+: normal; font-weight: 400; letter-spacing: normal; text-align: start; text=
+-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0p=
+x; -webkit-text-stroke-width: 0px; text-decoration-line: none; text-decorat=
+ion-thickness: initial; text-decoration-style: initial; text-decoration-col=
+or: initial; line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt; font-s=
+ize: 11pt; font-family: Arial; background-color: transparent; font-variant-=
+ligatures: normal; font-variant-east-asian: normal; vertical-align: baselin=
+e">Register for our</span><a href=3D"https://u18867331.ct.sendgrid.net/ls/c=
+lick?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0q9s5EHxlwzAQr-2BG4xdA0VKkDg3OOBtfQXX9kWSU=
+3EpLMIuxf8nbl-2F-2FfZP5zIpjZURT-2Fy482e7Q47dSuh47x3Ek-3DFrEi_RYEeg99Ap79leT=
+7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXr-2F6Vh3nPG7ckXaYA3roIoJI=
+1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03hLSPInCb2a-2BHs-2FiZmo07DclOiBlk7E0Gv2=
+JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYbX7VLB7DzUsitrdg7i-2FygUaWdpA-2FxG5ZMTT=
+Vk17bjBrIdUTaPij7tnFm7I8JuP97-2BxeADp1Lqf6uFA2Zr0ZrJFw093Iey-2FnqIzdOsiZUnv=
+FWkOtTSbAIBRXrpyY1DTlpx6sp4kfwYPYjLQ-2F6lYZWAGpTWcYz9WvojhLBgb21gE-2BVo-3D"=
+><span style=3D"caret-color: rgb(0, 0, 0); color: #000000; font-style: norm=
+al; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; te=
+xt-align: start; text-indent: 0px; text-transform: none; white-space: pre-w=
+rap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-lin=
+e: none; text-decoration-thickness: initial; text-decoration-style: initial=
+; text-decoration-color: initial; line-height: 1.38; margin-top: 0pt; margi=
+n-bottom: 0pt; font-size: 11pt; font-family: Arial; background-color: trans=
+parent; font-variant-ligatures: normal; font-variant-east-asian: normal; ve=
+rtical-align: baseline"> </span><span style=3D"caret-color: rgb(0, 0, 0); f=
+ont-style: normal; font-variant-caps: normal; font-weight: 400; letter-spac=
+ing: normal; text-align: start; text-indent: 0px; text-transform: none; whi=
+te-space: pre-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0px; text=
+-decoration-line: none; text-decoration-thickness: initial; text-decoration=
+-style: initial; text-decoration-color: initial; line-height: 1.38; margin-=
+top: 0pt; margin-bottom: 0pt; font-size: 11pt; font-family: Arial; backgrou=
+nd-color: transparent; font-variant-ligatures: normal; font-variant-east-as=
+ian: normal; vertical-align: baseline">[LIVE] demo session</span></a><span =
+style=3D"caret-color: rgb(0, 0, 0); color: #000000; font-style: normal; fon=
+t-variant-caps: normal; font-weight: 400; letter-spacing: normal; text-alig=
+n: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; wo=
+rd-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none=
+; text-decoration-thickness: initial; text-decoration-style: initial; text-=
+decoration-color: initial; line-height: 1.38; margin-top: 0pt; margin-botto=
+m: 0pt; font-size: 11pt; font-family: Arial; background-color: transparent;=
+ font-variant-ligatures: normal; font-variant-east-asian: normal; vertical-=
+align: baseline"> at your preferred time between Monday to Friday from 3 PM=
+ to 4 PM.</span></div>
+<div style=3D"font-family: inherit; text-align: start"><br></div>
+<div style=3D"font-family: inherit; text-align: start"><span style=3D"font-=
+style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing:=
+ normal; text-align: start; text-indent: 0px; text-transform: none; word-sp=
+acing: 0px; -webkit-text-stroke-width: 0px; text-decoration-line: none; tex=
+t-decoration-thickness: initial; text-decoration-style: initial; text-decor=
+ation-color: initial; font-size: 11pt; font-family: Arial; color: #000000; =
+background-color: transparent; font-variant-ligatures: normal; font-variant=
+-east-asian: normal; vertical-align: baseline; white-space: pre-wrap">Feel =
+free to reach out to us on </span><a href=3D"https://u18867331.ct.sendgrid.=
+net/ls/click?upn=3DXtSSqkA7o5sYTQ1Kkx-2Fi0iSuiB-2BqY9UxcBbLhjCmSP4-3D_hHJ_R=
+YEeg99Ap79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f7XPdFIQfRLaM3hEMNa0bSXr-2F6Vh3nPG7=
+ckXaYA3roIoJI1dkdubHNp-2FPWI3b-2BK4Th3YQMko1OlcM03hLSPInCb2a-2BHs-2FiZmo07D=
+clOiBlk7E0Gv2JlBXAFXMNHDEkUBewTKewbysEztzDJChdEHYbX7VLB7DzUsitrdg7i-2FygUae=
+o5x2MtiO1mvfg7LPGOSeQv32qaNdgDBm4pnWY-2BtcRLCvzuHoQ2Sk7tDHU8yk-2BPyCF8alAZM=
+0mNdwWCsqqj-2Bkmbz3Q7O82bKo4evDD8lS5-2B3vaxV9M61ePK4P1rf-2Bcxi8HKuTuszsFunD=
+q-2Bvef4sPY-3D" title=3D"&lt;span style=3D&quot;font-size: 11pt; font-famil=
+y: Arial; color: rgb(17, 85, 204); background-color: transparent; font-weig=
+ht: 400; font-style: normal; font-variant-ligatures: normal; font-variant-c=
+aps: normal; font-variant-east-asian: normal; font-variant-position: normal=
+; text-decoration: underline; text-decoration-skip: none; vertical-align: b=
+aseline; white-space: pre-wrap;&quot;&gt;WhatsApp &lt;/span&gt;"><span styl=
+e=3D"font-style: normal; font-variant-caps: normal; font-weight: 400; lette=
+r-spacing: normal; text-align: start; text-indent: 0px; text-transform: non=
+e; white-space: pre-wrap; word-spacing: 0px; -webkit-text-stroke-width: 0px=
+; text-decoration-line: underline; text-decoration-thickness: initial; text=
+-decoration-style: initial; text-decoration-color: initial; font-size: 11pt=
+; font-family: Arial; color: #1155cc; background-color: transparent; font-v=
+ariant-ligatures: normal; font-variant-east-asian: normal; vertical-align: =
+baseline">WhatsApp </span></a><span style=3D"font-style: normal; font-varia=
+nt-caps: normal; font-weight: 400; letter-spacing: normal; text-align: star=
+t; text-indent: 0px; text-transform: none; word-spacing: 0px; -webkit-text-=
+stroke-width: 0px; text-decoration-line: none; text-decoration-thickness: i=
+nitial; text-decoration-style: initial; text-decoration-color: initial; fon=
+t-size: 11pt; font-family: Arial; color: #000000; background-color: transpa=
+rent; font-variant-ligatures: normal; font-variant-east-asian: normal; vert=
+ical-align: baseline; white-space: pre-wrap">if you have any queries regard=
+ing the process for starting the free trial.&nbsp;</span></div><div></div><=
+/div></td>
+      </tr>
+    </tbody>
+  </table><div data-role=3D"module-unsubscribe" class=3D"module" role=3D"mo=
+dule" data-type=3D"unsubscribe" style=3D"color:#444444; font-size:12px; lin=
+e-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid=
+=3D"4e838cf3-9892-4a6d-94d6-170e474d21e5"><div class=3D"Unsubscribe--addres=
+sLine"></div><p style=3D"font-size:12px; line-height:20px;"><a target=3D"_b=
+lank" class=3D"Unsubscribe--unsubscribeLink zzzzzzz" href=3D"<%asm_group_un=
+subscribe_raw_url%>" style=3D"">Unsubscribe</a> - <a href=3D"<%asm_preferen=
+ces_raw_url%>" target=3D"_blank" class=3D"Unsubscribe--unsubscribePreferenc=
+es" style=3D"">Unsubscribe Preferences</a></p></div></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    If you'd like to unsubscribe and stop receiving these emails <a href=3D=
+"https://u18867331.ct.sendgrid.net/wf/unsubscribe?upn=3DQFWB4BCTtzCIRKos7Yr=
+rfGruvICN-2F3Wl3PHaGMh5yALzZmvyk41p1zsILxt6x8e0WocT3Kp-2BN73uKNiU0tJcj0w-2B=
+yOfd5bkb-2Bp130SGbKexzEl-2BGP4IR4TFulirG6bovBPYYqgnThUBSZbLWKLJ-2F0ICGWeMiS=
+3yOhJ1daStR-2F93v-2FCfvvDgRDHXu51Yn24o5IaTCSKxyDEAIYPSKeyKoQOE8XuCqbq-2FbP1=
+r-2FAOBQQyyr2VR4GGPbmRNhY7dFmhYiFL69CP7kg2eiwFzD8Jsl9H943jtBt6NeMNexbeuj-2B=
+g7ccSC41MFJdlgqq8Wee7MLkwCFtjOwkkTAlKYmSKCoQ-2B6GEieIbLJzqBIwOvmB-2FRXz6Vgm=
+Mz7bFqA7hQVhK2NF"> click here </a>.<img src=3D"https://u18867331.ct.sendgri=
+d.net/wf/open?upn=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALzZmvyk41p1=
+zsILxt6x8e0WocT3Kp-2BN73uKNiU0tJcj0w-2ByOfd5bkb-2Bp130SGbKexzEl-2BGP4IR4TFu=
+lirG6bovBPYYqgnThUBSZbLWKLJ-2F0ICGWeMiS3yOhJ1daStR-2F93v-2FCfvvDgRDHXu51Yn2=
+4o5IaTCSKxyDEAIYPSKeyKoQHD5XTPk6Gt2A4hw41xkgpVC5qCps0zVUu394VcR1YXbhNMcO7lL=
+YoBbY6U-2BGz2aofyrvVcBL6ljZWiu9Xwk8XWU16ItncNBMHJsyOr9qqFNzF2wezcrhpX-2BCWR=
+Ybgz8zeW3-2Fq1VjOk5ObbO0AIDWzjYE81XMolg-2FtCpe3elUnr3" alt=3D"" width=3D"1"=
+ height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !import=
+ant;border-width:0 !important;margin-top:0 !important;margin-bottom:0 !impo=
+rtant;margin-right:0 !important;margin-left:0 !important;padding-top:0 !imp=
+ortant;padding-bottom:0 !important;padding-right:0 !important;padding-left:=
+0 !important;"/></body>
+  </html>
+--875865261edc0f5db3515bacfd8c0da0abf48f70c5ceb801f5f6390f2efb--

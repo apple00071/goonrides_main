@@ -1,0 +1,211 @@
+Return-Path: <kim@aiwebproservice.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yMW0Es489mcZcgwAQ+45pw
+	(envelope-from <kim@aiwebproservice.com>)
+	for <info+spam@go-onriders.com>; Wed, 09 Apr 2025 05:24:30 -0400
+Return-path: <kim@aiwebproservice.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Wed, 09 Apr 2025 05:24:30 -0400
+Received: from mail-ua1-f68.google.com ([209.85.222.68]:40595)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <kim@aiwebproservice.com>)
+	id 1u2RfZ-00000003QDo-0Rh1
+	for info@go-onriders.com;
+	Wed, 09 Apr 2025 05:24:30 -0400
+Received: by mail-ua1-f68.google.com with SMTP id a1e0cc1a2514c-86ca7d2bda0so141738241.2
+        for <info@go-onriders.com>; Wed, 09 Apr 2025 02:24:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aiwebproservice-com.20230601.gappssmtp.com; s=20230601; t=1744190627; x=1744795427; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=9JDkqmbIM6mh4Azw47Q7wPmPjVukafuBc1msevEwm1w=;
+        b=XQ9KrqwFUD78lwG4ch8SBUX4n/zGgG2hi9wnPpMFzJVSWnew9kWXFqUyN3JTEqUpZ/
+         SJEUQdtrc44eSajpUCLPgGh6k0T6QW5pwr0lVOt75f0OIjQgQuW3/omuJqyh0MFmiI5g
+         fZOcBo+xKuwl7KPJBzQqrFf2x7RcBWyQJtJZQ4H4YAbUxnaJzyRToddUl6nQNBCtbwDJ
+         L0vKMh1lQWBHvzNduVfmbqgaiylowOwz6tmze0Nq2zB/MJ86GPyitpXaenkLXdDNFJFb
+         OvC0TwY6W3gwYymSln9Fh81SIvyMQl6B0Fb5X/a5YBLBPRrTWdPnUlc2Q4l4zXQu7vMR
+         Zqeg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1744190627; x=1744795427;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=9JDkqmbIM6mh4Azw47Q7wPmPjVukafuBc1msevEwm1w=;
+        b=YWZbE525z2BYpqRTuKAXe5oJ/wCp5DOvNCLW2XCDzfMkjmo9nHTpzGGtcyIpkTm2hb
+         mkoeOsTqtLX9SMUcCuqLEmEhGc5XZryVxsJPmmG0xuaCqN7eKhq2i+HNorxAG5UTELcc
+         OYqzjqSvFVjyfHe56xe21qoCyoFlrYBzH2apDGHCxHR5Wu3n9o1qs2lG6fxW7r0lq34A
+         9H2tY8+eqJJpJZWUpUL2DLYfFpBlHfuXw4I2t11c/EwR3QCO6qvRxYoHWcFBr20HgCIM
+         ZSiZ6eEo9gwMlYbZdsEwRZbzfgjDdOxTZ8RqFCl4L1GN0t8pdtrSRHYnxb6HRLj/ycJW
+         Pj1A==
+X-Gm-Message-State: AOJu0YwqLQvfTCkf85/NVTNDkzGuJJjw9qud6Ttzr7AS8ASNoxtlH0DV
+	G3Apu1vvXFNbcWk2H3GX7OFOZHIjkAsBus2MTgpWasKon4EZBSR74qaqGSmgrxqXNM9xcRmDSoa
+	LHaJXKxOvPbYIox750v5Fx+QroeUn7TfzsMLpOjGhyERXCqR1etc=
+X-Gm-Gg: ASbGncvRteKxt6pgoh8vXa/t7nYHN39Iz/BbG7IcqUt+GJFDWqgDXkDJK7OK9fCwprx
+	MzT8DZxPkba4/2aPuLCtqNFJ4lnB7tQa9vblNmnZYCwtY1dmsybVo3KQGZwbZlpQNzxvQ+3Uzph
+	bpnxce7fhRjaGlBDY69FM=
+X-Google-Smtp-Source: AGHT+IEmN62gbxDUpa+QToBqfTynVTQ4n9JPvn23nOiSILzzttjHd2QkNreJ0xgwqnZ3W7KdoCqwqLpiBFDt0ev5Ozw=
+X-Received: by 2002:a05:6102:3309:b0:4c4:e218:b8ed with SMTP id
+ ada2fe7eead31-4c9c415c56emr447234137.2.1744190627037; Wed, 09 Apr 2025
+ 02:23:47 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 9 Apr 2025 02:23:44 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Wed, 9 Apr 2025 02:23:42 -0700
+MIME-Version: 1.0
+Sender: Kim Cross <kim@aiwebproservice.com>
+From: Kim Cross <kim@aiwebproservice.com>
+Date: Wed, 9 Apr 2025 02:23:44 -0700
+X-Google-Sender-Auth: bKIOsYxV6IQskz-8W8BPXa-KlUY
+X-Gm-Features: ATxdqUFNu9tTXs0XzlfgP_SzA10Y6srjqYHkeoAoG_0M6EE12Z4cNz-DvyHXRQE
+Message-ID: <CAG16Yxr7DK9jsNa5UPPhFzsPbWYWmEOO-gOQ+sY4LiBAyz8s5Q@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000bec9cc06325506f4"
+X-MagicSpam-TUUID: e992d2f4-88b3-4975-8cf6-d56b8d2632dd
+X-MagicSpam-SUUID: 9ea1d644-8829-4ec2-93b0-afabe1d3c31d
+X-Spam-Status: Yes, score=7.5
+X-Spam-Score: 75
+X-Spam-Bar: +++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, I was going through your website and I found it impressive!!!
+    However, when I search for your business keywords I see your competitors
+   ranked on 1st page whereas I am unable to see your website anywhe [...] 
+ Content analysis details:   (7.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: aiwebproservice-dot-yamm-track.appspot.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.222.68 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.222.68 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.222.68 listed in sa-trusted.bondedsender.org]
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  7.5 KAM_SEARCH             Spammers hawking SEO
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Re: go-onriders.com: 1st Page of Google!!!
+
+--000000000000bec9cc06325506f4
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I was going through your website and I found it impressive!!! However, when
+I search for your business keywords I see your competitors ranked on 1st
+page whereas I am unable to see your website anywhere on the first page of
+search engine results.
+
+Your website is great in terms of design and content. However, it doesn=E2=
+=80=99t
+follow Search Engine Guidelines. So, it has a very low visibility in search
+results.
+
+If you are interested then I will send you SEO package and price list.
+
+Kind Regards,
+
+
+
+Kim Cross! Business Development Executive
+
+--------------------------------------------------------
+*Note:* - Our next conversation will be on my corporate Email ID. If this
+is something you are interested, please respond to this email. If this is
+not your interest, don't worry, we will not email you again.
+[image: beacon]
+
+--000000000000bec9cc06325506f4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-al=
+ign:justify;line-height:normal;font-size:11pt;font-family:Calibri,&quot;san=
+s-serif&quot;"><span lang=3D"EN-US" style=3D"font-family:Arial,&quot;sans-s=
+erif&quot;">Hello,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-=
+height:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><s=
+pan lang=3D"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">I was=
+ going through your website and
+I found it impressive!!! However, when I search for your business keywords =
+I
+see your competitors ranked on 1st page whereas I am unable to see your web=
+site
+anywhere on the first page of search engine results.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-=
+height:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><s=
+pan lang=3D"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">Your =
+website is great in terms of
+design and content. However, it doesn=E2=80=99t follow Search Engine Guidel=
+ines. So, it
+has a very low visibility in search results.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-=
+height:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><s=
+pan lang=3D"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">If yo=
+u are interested then I will
+send you SEO package and price list.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D=
+"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">Kind
+Regards,</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:normal;=
+background-image:initial;background-position:initial;background-size:initia=
+l;background-repeat:initial;background-origin:initial;background-clip:initi=
+al;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span lang=3D=
+"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">=C2=A0</span></p=
+>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-=
+height:106%;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><spa=
+n lang=3D"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">Kim Cro=
+ss!
+Business Development Executive=C2=A0</span><span lang=3D"EN-US" style=3D"fo=
+nt-family:Arial,&quot;sans-serif&quot;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin:0cm 0cm 8pt;text-align:justify;line-=
+height:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><s=
+pan lang=3D"EN-US" style=3D"font-family:Arial,&quot;sans-serif&quot;">-----=
+---------------------------------------------------</span></p>
+
+<b><span lang=3D"EN-US" style=3D"font-size:11pt;line-height:115%;font-famil=
+y:Arial,&quot;sans-serif&quot;;color:black">Note:</span></b><span lang=3D"E=
+N-US" style=3D"font-size:11pt;line-height:115%;font-family:Arial,&quot;sans=
+-serif&quot;;color:black">=C2=A0- Our next
+conversation will be on my corporate Email ID. If this is something you are
+interested, please respond to this email. If this is not your interest, don=
+&#39;t
+worry, we will not email you again.</span></div>
+<img src=3D"https://aiwebproservice-dot-yamm-track.appspot.com/2B_VZdRV81DV=
+e4lTLERmpvn9Rq5idj6VOevoFgxlCtk8jytwZlgEScTPLC6M0YSBB8EO6vSYz_1a_VNIv6XsVvu=
+hXuGoVn58lrgPKygYlizLKTbwfiFnjuCeUU4V8303sNk8TeCfRL-CnVEdtRIemJQrVlomvfmj_k=
+TRttoY" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; disp=
+lay:none!important;">
+
+--000000000000bec9cc06325506f4--

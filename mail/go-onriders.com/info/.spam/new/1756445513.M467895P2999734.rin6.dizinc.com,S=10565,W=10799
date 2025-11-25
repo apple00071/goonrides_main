@@ -1,0 +1,234 @@
+Return-Path: <rishabh@up2rank.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id yIteG0k7sWi2xS0AQ+45pw
+	(envelope-from <rishabh@up2rank.com>)
+	for <info+spam@go-onriders.com>; Fri, 29 Aug 2025 01:31:53 -0400
+Return-path: <rishabh@up2rank.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Fri, 29 Aug 2025 01:31:53 -0400
+Received: from mail-pj1-f68.google.com ([209.85.216.68]:49381)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <rishabh@up2rank.com>)
+	id 1urriL-0000000CaJB-0znp
+	for info@go-onriders.com;
+	Fri, 29 Aug 2025 01:31:53 -0400
+Received: by mail-pj1-f68.google.com with SMTP id 98e67ed59e1d1-3253f2a7679so2050754a91.2
+        for <info@go-onriders.com>; Thu, 28 Aug 2025 22:31:31 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=up2rank-com.20230601.gappssmtp.com; s=20230601; t=1756445470; x=1757050270; darn=go-onriders.com;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=SscGJHPs0am7DNhDDsbgE9CuKJtWDOhZFBLjLbj8HiQ=;
+        b=3CJSo4Z6AOTrIqCs4TK+E/oKxhx14oVBmlg4lDcgaqQqhAsY3b5bD508A6jNCa7CbL
+         80h9hjgsruhucGyAMBaMscqDNzP27LwuGZPMKVtAv16uUWdxVrocjQOJBv5zt1NC/kG8
+         JYBVodu9dd5KPuAuiNmtTXyqAHvLJuhB2aC09UlsHsnHHIbFM7faZly2l29P7EY9aXhz
+         RNUljG/WZsnXus29INRR7lcxbvGZMNGLBAhKMMMI+QtWyHIE1oSYjoqBqqbp6W2KNO4T
+         TC5kBV4/M1+mImepWFSqlEDdy44DLkQxDJtmojhXDCCGZZ9eyN65QJmysDwG4O4aUhGJ
+         mlWQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1756445470; x=1757050270;
+        h=content-language:thread-index:mime-version:message-id:date:subject
+         :to:from:x-gm-message-state:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=SscGJHPs0am7DNhDDsbgE9CuKJtWDOhZFBLjLbj8HiQ=;
+        b=g0K6dDDCcBubtvHQbYxoX50oXEeogJwMEivumEou0n7ks8fy2MjO8z6/kXB936Cv0u
+         CObM7Za1ZcfAoWVthbrNMm3it5PNM5PrS2cd9lA2AYMdSWCbAHpxhte3DnV3GS4WadGX
+         PlwuqKaZBbLGzDsVHoZ9ajUuyayvPqmmTf1VYf05F2Osr5NB8UB0NZBNuXFJNkKudhwH
+         Czcurr/Dggovf2Y+HO21RK3bKXGPOAZTCDftVRhEWR0HVLJN6ji3nHWPODbXNJqvlLti
+         X1I1q1Bk9TpVelgotCiccxDZCXIRP7msKOnxMOplaZXHnFViH8eMDXUu05TdLHuunDUK
+         HDzg==
+X-Gm-Message-State: AOJu0YwjvNMBEWG9F0QMFTDPN69TNXcvDFzFhpkdaQxZNpHQtE7TQI+W
+	uJC6P1KinpRocdIqsWZS7RcZkaH9eqYNbS4FEJlIEujfZ8/6wGTHZsx5BKtTr7tN95KZhqPijSn
+	2wLR9ki8=
+X-Gm-Gg: ASbGncs/lxURjjBIevg4LPsup31jK1ROVhKAvrecfy3TsdA1Vb84YsYmBndDwwhfa+F
+	NI7oV+J5nXlHgfxTIPoN5UE3sPwHYmtNowsbz0nxM9WZs5mTQTlAsQMQSiRDR0JcRtbcqlGDY0l
+	TEfjmyA64E/Vwzo2a7krR3P9mlcZrtj29TURv0feWuGReJg6TDfWCqW3gu66ZivnR1CJnff/7JE
+	SFnpQwvgXJJM8o2qWxm1dKh2+CuNKwO+SooQpXsZOVCN7vtw08dW3nvkcvMFZMKhR8M1681JR6o
+	+SJ0rMMMv3NXyhKOLA3EbwephzXOC4+RU/LPda3E6KyfZcVfoRluQJvepIMq4QcTYoHNwOFPQvi
+	D9CIqbG/0zAaImWzsW8i+FLA5EqzHAtMOqrniIlF7IDmJZSXYYNtDk8UQqJA=
+X-Google-Smtp-Source: AGHT+IHAK+ulsCPCWEvHrxJ6nX9pXQKAknfhTlOoC7IMTxM8W/WkA1JkjewaJ7h06nrAywKxbSqMAw==
+X-Received: by 2002:a17:90b:38d2:b0:327:c9bb:be4c with SMTP id 98e67ed59e1d1-327c9bbc051mr4353918a91.2.1756445469451;
+        Thu, 28 Aug 2025 22:31:09 -0700 (PDT)
+Received: from Mobrilz ([2401:4900:1c65:5ce9:a9bd:8f84:3d76:5fbc])
+        by smtp.gmail.com with ESMTPSA id 98e67ed59e1d1-327d93317f0sm1437840a91.6.2025.08.28.22.31.08
+        for <info@go-onriders.com>
+        (version=TLS1_2 cipher=ECDHE-ECDSA-AES128-GCM-SHA256 bits=128/128);
+        Thu, 28 Aug 2025 22:31:09 -0700 (PDT)
+From: "Rishabh" <rishabh@up2rank.com>
+To: <info@go-onriders.com>
+Date: Fri, 29 Aug 2025 10:57:36 +0530
+Message-ID: <c78401dc18a6$2220b980$66622c80$@com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_C785_01DC18D4.3BD8F580"
+X-Mailer: Microsoft Office Outlook 12.0
+Thread-Index: AdwX/WpouR1fyz/+Ta6aKPn7T5VBsw==
+Content-Language: en-us
+X-MagicSpam-TUUID: 7e1d9d20-f62e-4ecf-b7d6-c9b91d1d8100
+X-MagicSpam-SUUID: 307456c5-b6fa-4433-835d-a91716fe8cdb
+X-Spam-Status: Yes, score=9.8
+X-Spam-Score: 98
+X-Spam-Bar: +++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info@go-onriders.com, Do you need a new website or want
+    to improve your current one? We're a team from India, ready to provide customized
+    solutions for your business. 
+ Content analysis details:   (9.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.216.68 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [209.85.216.68 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.216.68 listed in sa-accredit.habeas.com]
+  9.0 KAM_FROM_URIBL_PCCC    RBL: From address listed in PCCC WILD RBL
+                             (https://raptor.pccc.com/RBL)
+                             [listed in up2rank.com.wild.pccc.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 FROM_FMBLA_NEWDOM28    From domain was registered in last 14-28 days
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Website design/redesign/ Upgrade ?
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_C785_01DC18D4.3BD8F580
+Content-Type: text/plain;
+	charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Hi info@go-onriders.com,
+
+ 
+
+Do you need a new website or want to improve your current one? 
+
+ 
+
+We're a team from India, ready to provide customized solutions for your
+business.
+
+ 
+
+I'd love to share our portfolio and work with you to create something that
+fits your needs perfectly. Share your ideas, or let me know your WhatsApp
+number for quick communication.
+
+ 
+
+Looking forward to connecting with you!
+
+ 
+
+Best regards,
+Rishabh
+
+ 
+
+
+------=_NextPart_000_C785_01DC18D4.3BD8F580
+Content-Type: text/html;
+	charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><META =
+HTTP-EQUIV=3D"Content-Type" CONTENT=3D"text/html; =
+charset=3Dus-ascii"><meta name=3DGenerator content=3D"Microsoft Word 12 =
+(filtered medium)"><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DEN-US><div =
+class=3DWordSection1><p style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Hi =
+info@go-onriders.com,</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Do you need a new website =
+or want to improve your current one? </span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>We&#8217;re a team from =
+India, ready to provide customized solutions for your =
+business.</span></p><p style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>I&#8217;d love to share our =
+portfolio and work with you to create something that fits your needs =
+perfectly. Share your ideas, or let me know your WhatsApp number for =
+quick communication.</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Looking forward to =
+connecting with you!</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>&nbsp;</span></p><p =
+style=3D'margin:0in;margin-bottom:.0001pt'><span =
+style=3D'font-family:"Calibri","sans-serif"'>Best =
+regards,<br>Rishabh</span></p><p =
+class=3DMsoNormal><o:p>&nbsp;</o:p></p></div></body></html>
+------=_NextPart_000_C785_01DC18D4.3BD8F580--
+

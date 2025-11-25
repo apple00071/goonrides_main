@@ -1,0 +1,220 @@
+Return-Path: <e.tkachuk@getrentacar.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 6PNaFO+3j2ClBgAAQ+45pw
+	(envelope-from <e.tkachuk@getrentacar.com>)
+	for <info@go-onriders.com>; Mon, 03 May 2021 04:44:31 -0400
+Return-path: <e.tkachuk@getrentacar.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 03 May 2021 04:44:31 -0400
+Received: from mail-pf1-f180.google.com ([209.85.210.180]:36401)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <e.tkachuk@getrentacar.com>)
+	id 1ldUBl-0000mD-VO
+	for info@go-onriders.com; Mon, 03 May 2021 04:44:31 -0400
+Received: by mail-pf1-f180.google.com with SMTP id p4so3674488pfo.3
+        for <info@go-onriders.com>; Mon, 03 May 2021 01:44:04 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=getrentacar.com; s=google;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=AxI7b0H4KRA+Mok5oLsZSQCMiax3RGZ6o3nh+e8clZg=;
+        b=gEz5rVrMBifJoudsVR24LC0lpwkNkO1ZQsEFUX+dmxKlMAcSPduv87dv4+8pB+uYe1
+         UyevKmWjFRPhtp/R4MXz+EIdtNNcUjhLyRgRyKQcm94jOXyEF0tHkEN3JNQyBtgE7HyY
+         A2SPEeEwie+ALM1OD7gSu9dVIAGcHa5EA/fY3iB4jItaVJK8gnuaKzE2IjBvXD1R6U4g
+         KDk5ZW2l/7WB7e34HJmHiZkhc5SIHlFh8hyuQwaFlG4CELs1wai0vhbrJ5gDjDr9oDcA
+         Zk2PWZ5udjR5N04x8XqV05wt7FMwVU3HxK0h+rv4i0h106KRiYcO0NmCNKMINXz2E9dh
+         rEwg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=AxI7b0H4KRA+Mok5oLsZSQCMiax3RGZ6o3nh+e8clZg=;
+        b=BMOZzsTV1chlB+Q+E1Ijzi6scKca1Prlr6akyyT6XZqgP+/6y9wxd0IaO5XJo3LoLp
+         4sqK9ILkAZN0+smT2E7xoq1+rVdVZBs4ePiCFW0EYCYM2/APDbhVQ7sKx+EhABAYvHz7
+         VXyZ2FzWqPxuI6QzA7N89xgqan5aqZ/9CHZn+RLUfYwyC7qMFDdByjXelXRu8vgFYRv7
+         3ecyPVFl4AujW50Im08gPxAhkM993Pe///COCIejEARK3TG/BAQ57m3Rm2a5I/K8zmxi
+         nOCk5AmsQ/aGq0q2DcuPAOO5lDASr9scH0wGbyPUbUdq0rXnrRI4YFmmfoGktyvIgQw/
+         gr7A==
+X-Gm-Message-State: AOAM533xaiukqkxpaTThcqPKRN9fgmrsTmqUykB0KNQqkqpP/tjsHnCX
+	ShK5emKxvGVwTNxWEHfzO0A3HoyA1i25P/vumwg8jA==
+X-Google-Smtp-Source: ABdhPJw0SqZlYFRXXZHtROhKnv5DT1QROl4z1A8y/DMV+tvairu88Wkq+zOaQKc7yUx3nB/1ZEdG1mXr3T5nirZcHoA=
+X-Received: by 2002:a63:1d46:: with SMTP id d6mr17516483pgm.60.1620031423142;
+ Mon, 03 May 2021 01:43:43 -0700 (PDT)
+MIME-Version: 1.0
+From: Eugenia Tkachuk <e.tkachuk@getrentacar.com>
+Date: Mon, 3 May 2021 18:43:32 +1000
+Message-ID: <CABhSYp33-16q_ssf+zcL2oOSWb0nqpVqYWxUXMxds8apjJ0Tig@mail.gmail.com>
+Subject: Cooperation with GetRentacar.com
+To: booking@navyaselfdrivecars.com
+Content-Type: multipart/alternative; boundary="000000000000806e1c05c168f5e8"
+Bcc: info@go-onriders.com
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Sir/Madam, The global car rental service offers you cooperation.
+    We are a marketplace for vehicle rentals around the world. - Attract global
+    clients with your fleet; - Offer your vehicles to relevant tender requests;
+    - Our support team operates 24/7; - No fees for using the service. 
+ Content analysis details:   (1.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.7 DEAR_SOMETHING         BODY: Contains 'Dear (something)'
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: getrentacar.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+--000000000000806e1c05c168f5e8
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Sir/Madam,
+
+The global car rental service offers you cooperation.
+We are a marketplace for vehicle rentals around the world.
+
+
+   - Attract global clients with your fleet;
+   - Offer your vehicles to relevant tender requests;
+   - Our support team operates 24/7;
+   - No fees for using the service.
+
+
+Furthermore:
+
+
+   - You decide who to rent to and the rental price;
+   - All rental conditions are yours;
+   - Detailed and flexible account settings will make your offer unique and
+   attractive to clients;
+   - Our commission is only 10% of the rental price.
+
+
+To join and start earning money with us, please follow the link
+https://getrentacar.com/en-US/arenda-avto/cabinet/registration#owner
+
+Please contact me via WhatsApp (+7994106 62 69) if you have any questions.
+
+
+-- 
+
+*GetRentacar.com*
+
+
+
+*Eugenia **| Owners Manager   +7 994 106 62 69 (WA only)*
+
+*a: *GetRentacar | 9E. Loockerman Street, Suite 311, Dover, County of Kent,
+State of Delaware, 19901, USA
+
+*e:* owner@getrentacar.com
+
+*p:*USA +1 786 460 8707
+
+   UK +44 20 4577 1867
+
+   CH +41 22 501 74 49
+
+   RU  +7 499 490 5282
+
+--000000000000806e1c05c168f5e8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div style=3D"margin:0px">Dear Sir/Madam,=
+</div><div style=3D"margin:0px"><br></div><div style=3D"margin:0px">The glo=
+bal car rental service offers you cooperation.</div><div style=3D"margin:0p=
+x">We are a marketplace for vehicle rentals around the world.</div><div sty=
+le=3D"margin:0px"><br></div><ul style=3D"padding:0px 0px 0px 1.3em;margin:0=
+px;list-style-position:outside"><li style=3D"margin-left:15px">Attract glob=
+al clients with your fleet;</li><li style=3D"margin-left:15px">Offer your v=
+ehicles to relevant tender requests;</li><li style=3D"margin-left:15px">Our=
+ support team operates 24/7;</li><li style=3D"margin-left:15px">No fees for=
+ using the service.</li></ul><div style=3D"margin:0px"><br>Furthermore:<br>=
+<br></div><ul style=3D"padding:0px 0px 0px 1.3em;margin:0px;list-style-posi=
+tion:outside"><li style=3D"margin-left:15px">You decide who to rent to and =
+the rental price;</li><li style=3D"margin-left:15px">All rental conditions =
+are yours;</li><li style=3D"margin-left:15px">Detailed and flexible account=
+ settings will make your offer unique and attractive to clients;</li><li st=
+yle=3D"margin-left:15px">Our commission is only 10% of the rental price.</l=
+i></ul><div style=3D"margin:0px"><br></div><div style=3D"margin:0px">To joi=
+n and start earning money with us, please follow the link<br><a href=3D"htt=
+ps://getrentacar.com/en-US/arenda-avto/cabinet/registration#owner" rel=3D"n=
+oreferrer" style=3D"color:rgb(27,106,201)" target=3D"_blank">https://getren=
+tacar.com/en-US/arenda-avto/cabinet/registration#owner</a></div><div style=
+=3D"margin:0px"><br></div><div style=3D"margin:0px">Please contact me via W=
+hatsApp (+7994106 62 69) if you have any questions.</div></div><br clear=3D=
+"all"><div><br></div>-- <br><div dir=3D"ltr" class=3D"gmail_signature" data=
+-smartmail=3D"gmail_signature"><div dir=3D"ltr"><p class=3D"MsoNormal" styl=
+e=3D"margin:0cm 0cm 0cm 7.05pt;line-height:16.8667px;font-size:11pt;font-fa=
+mily:Arial,sans-serif;color:rgb(0,0,0)"><b>GetRentacar.com</b></p><p class=
+=3D"MsoNormal" style=3D"margin:0cm 0cm 0cm 7.05pt;line-height:16.8667px;fon=
+t-size:11pt;font-family:Arial,sans-serif;color:rgb(0,0,0)"><b><span lang=3D=
+"ru" style=3D"font-size:5pt;line-height:7.66667px">=C2=A0</span></b></p><ta=
+ble width=3D"379" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" style=3D=
+"color:rgb(34,34,34);border-collapse:collapse"><tbody><tr style=3D"height:1=
+6.5pt"><td width=3D"379" valign=3D"top" style=3D"width:284.25pt;padding:0cm=
+ 0cm 4pt 8pt;height:16.5pt"><p class=3D"MsoNormal" style=3D"margin:0cm;line=
+-height:16.8667px;font-family:Arial,sans-serif"><span lang=3D"EN-US" style=
+=3D"font-size:11pt"><b><font color=3D"#f1c232">Eugenia=C2=A0</font></b></sp=
+an><b><span lang=3D"EN-US"><span style=3D"font-size:11pt">| Owners Manager<=
+/span><font size=3D"1">=C2=A0 =C2=A0+7 994 106 62 69 (WA only)</font></span=
+></b></p></td></tr><tr style=3D"height:58.5pt"><td width=3D"379" valign=3D"=
+top" style=3D"width:284.25pt;padding:4pt 0cm 4pt 8pt;height:58.5pt"><p clas=
+s=3D"MsoNormal" style=3D"margin:0cm;line-height:18.6267px"><b style=3D"font=
+-family:Arial,sans-serif;font-size:11pt"><span lang=3D"EN-US" style=3D"font=
+-size:10pt;line-height:16.9333px"><font color=3D"#f1c232">a:</font></span><=
+span lang=3D"EN-US" style=3D"font-size:10pt;line-height:16.9333px;color:rgb=
+(251,99,3)">=C2=A0</span></b><span lang=3D"EN-US" style=3D"font-family:Aria=
+l,sans-serif;font-size:10pt;line-height:16.9333px;color:rgb(68,68,68)">GetR=
+entacar |=C2=A0</span><font face=3D"Arial, sans-serif" color=3D"#444444"><s=
+pan style=3D"font-size:13.3333px">9E. Loockerman Street, Suite 311, Dover, =
+County of Kent, State of=C2=A0</span></font><span style=3D"font-size:13.333=
+3px;color:rgb(68,68,68);font-family:Arial,sans-serif">Delaware, 19901, USA<=
+/span></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:18.6267px;=
+font-size:11pt;font-family:Arial,sans-serif"><b><span lang=3D"EN-US" style=
+=3D"font-size:10pt;line-height:16.9333px"><font color=3D"#f1c232">e:</font>=
+</span></b><span style=3D"font-family:Roboto,RobotoDraft,Helvetica,Arial,sa=
+ns-serif;font-size:small">=C2=A0<a href=3D"mailto:owner@getrentacar.com" ta=
+rget=3D"_blank">owner@getrentacar.com</a>=C2=A0</span></p><p class=3D"MsoNo=
+rmal" style=3D"margin:0cm;line-height:18.6267px"><b style=3D"font-family:Ar=
+ial,sans-serif;font-size:11pt"><span lang=3D"ru" style=3D"font-size:10pt;li=
+ne-height:16.9333px"><font color=3D"#f1c232">p:</font></span></b><span lang=
+=3D"ru" style=3D"font-family:Arial,sans-serif;font-size:10pt;line-height:16=
+.9333px;color:rgb(68,68,68)">USA=C2=A0</span><font face=3D"Arial, sans-seri=
+f" color=3D"#444444"><span style=3D"font-size:13.3333px">+1 786 460 8707</s=
+pan></font></p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:18.62=
+67px"><font face=3D"Arial, sans-serif" color=3D"#444444"><span style=3D"fon=
+t-size:13.3333px">=C2=A0=C2=A0 UK=C2=A0</span><span style=3D"font-size:13.3=
+333px">+44 20 4577 1867</span></font></p><p class=3D"MsoNormal" style=3D"ma=
+rgin:0cm;line-height:18.6267px"><font face=3D"Arial, sans-serif" color=3D"#=
+444444"><span style=3D"font-size:13.3333px">=C2=A0=C2=A0 CH=C2=A0+41 22 501=
+ 74 49</span><br></font></p><p class=3D"MsoNormal" style=3D"margin:0cm;line=
+-height:18.6267px"><span style=3D"color:rgb(68,68,68);font-family:Arial,san=
+s-serif;font-size:13.3333px">=C2=A0=C2=A0 RU=C2=A0 +7 499 490 5282</span></=
+p><p class=3D"MsoNormal" style=3D"margin:0cm;line-height:18.6267px"><span s=
+tyle=3D"color:rgb(68,68,68);font-family:Arial,sans-serif;font-size:13.3333p=
+x"><img src=3D"https://drive.google.com/uc?id=3D1F4AD6LO_77FlxxTz0PpIX3YCGH=
+DsvWZn&amp;export=3Ddownload" width=3D"96" height=3D"96"><img src=3D"https:=
+//docs.google.com/uc?export=3Ddownload&amp;id=3D1fg2XyvVUbVbuTes6bQ4KmkJ7xp=
+GKAZTE&amp;revid=3D0ByUmrkp_VBbbTWxkdlgrN29rclBUYzZ4YnN1UW1wUU85SzZVPQ" wid=
+th=3D"200" height=3D"63"><br></span></p></td></tr></tbody></table></div></d=
+iv></div>
+
+--000000000000806e1c05c168f5e8--

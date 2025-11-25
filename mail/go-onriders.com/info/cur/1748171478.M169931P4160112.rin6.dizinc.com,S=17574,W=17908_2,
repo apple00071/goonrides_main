@@ -1,0 +1,334 @@
+Return-Path: <ranigop9@outlook.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id KFqmCdb6Mmhwej8AQ+45pw
+	(envelope-from <ranigop9@outlook.com>)
+	for <info@go-onriders.com>; Sun, 25 May 2025 07:11:18 -0400
+Return-path: <ranigop9@outlook.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 25 May 2025 07:11:18 -0400
+Received: from mail-koreacentralazolkn19013073.outbound.protection.outlook.com ([52.103.74.73]:61767 helo=SEYPR02CU001.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.1)
+	(envelope-from <ranigop9@outlook.com>)
+	id 1uJ9GA-0000000HSQi-00Bb
+	for info@go-onriders.com;
+	Sun, 25 May 2025 07:11:18 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=Orej0eWkHaJRyOSTkgTeu5PKvfd3y64N1HE9LbE7sWsuNByKdPvOJO2OL1ANzQ19Yy/LpufY3K2G47N2BlkMtxkLq8yJFQggNL06eAo7ODVFb9Y4oS6A+QbIN2ayLYYhF4yojIMVh57IZ7BSgimYteF1tcv+iGtrNAkK+i9K1wmyrr1KSOL4Bt7Mra9Tn6oYP/NruP3gwfkZQ7DSNtAE6lU+J1AJAaPaBFBVd2+gFyUPT/LXVwlLBhoHctFsPhIQmcfzOaGAzhdCoUs+LY/gJH5rn99GdzmxDROc9Z29X24eXeXAUTX9QraPMM/p+iAO0x51WjJeXls78smmMgJPRA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=Gw5qCULO6/fPQF3VIrb4Z4CQG/UYhuLHMShmO75k5QU=;
+ b=hia2wttzARIlOE3rkQ7dvCN+L0zrofkaOivXc/xpsOXria+xBWztchldXT4SOyf7085KqLFpre1vRDHQHFC9ZmRMSq8RPRtj+hVTCU1c/iPD1LOkOUu9eCQiIeR05zUxUiTT8o51dosIDLJ6UFtxIi24ry78G5loN6MrbqfAjr8J3F7KEp9Z3aIz5Fug0BiNZUT7JZ2StZiLPCIQ+4NCGFwRO2bo8FhcP3WNO355jHs8Y1ZRVmkwxizco6l5HIgNkJMQJlMh9MTqdeQotYyU/xjjp6SgryIrX+Pp0UBDNnlq28Mwb0XoomR5H60D2KCITcK1oig9dzsZANwJS8tU/A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=outlook.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=Gw5qCULO6/fPQF3VIrb4Z4CQG/UYhuLHMShmO75k5QU=;
+ b=XZUMb6Ah5Fk6sVhd/DlfdhdZDhNanO8JxusM6WbvpuZAxOSvh8yGJx0Resk+lZw2p4ucQVFDfGJnO3z9We3m8BmFrqSaYLNP5seExbaZ713L2ufuAuy6YwK9RDtU+2DfLOXDPLRhhIrv7a0aAFek4tHDt9mTVrAV5iKg2evEvnj2f3DoXY/62XGmnInbmxRscMrYgSOHHdwAKfYK+Eg7j0n0RcyADm2pPt3YoB0wqwSwiBSBVifqzXaKjRNnEqjTH0axmt6VitwyYjja/aU+rNkE51M9UqtNYYGY7ZTGwAqCsvwmdiVYdi6RssZNv+1JA6FnZ+GMTGupPkcgRo4Oig==
+Received: from SEZPR01MB5223.apcprd01.prod.exchangelabs.com
+ (2603:1096:101:ea::5) by TY2PPF39E65E154.apcprd01.prod.exchangelabs.com
+ (2603:1096:408::398) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8769.20; Sun, 25 May
+ 2025 11:09:46 +0000
+Received: from SEZPR01MB5223.apcprd01.prod.exchangelabs.com
+ ([fe80::26bf:23ac:d447:74f]) by SEZPR01MB5223.apcprd01.prod.exchangelabs.com
+ ([fe80::26bf:23ac:d447:74f%7]) with mapi id 15.20.8769.019; Sun, 25 May 2025
+ 11:09:46 +0000
+From: Rani Sinhg <ranigop9@outlook.com>
+To: Rani Sinhg <ranigop9@outlook.com>
+Subject: Re: Web Master
+Thread-Topic: Web Master
+Thread-Index: AQHbyhf+6+GIisudyUeN8euzF2p2k7PjNpzm
+Date: Sun, 25 May 2025 11:09:45 +0000
+Message-ID:
+ <SEZPR01MB5223A7759EF8B2A73E30DA3C899AA@SEZPR01MB5223.apcprd01.prod.exchangelabs.com>
+References:
+ <SEZPR01MB52231816FEC60E9041F58267899EA@SEZPR01MB5223.apcprd01.prod.exchangelabs.com>
+In-Reply-To:
+ <SEZPR01MB52231816FEC60E9041F58267899EA@SEZPR01MB5223.apcprd01.prod.exchangelabs.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SEZPR01MB5223:EE_|TY2PPF39E65E154:EE_
+x-ms-office365-filtering-correlation-id: c4039b84-1bda-45fc-74e8-08dd9b7ca828
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|8062599006|8060799009|461199028|15080799009|7092599006|19110799006|15030799003|440099028|3412199025|102099032|1710799026;
+x-microsoft-antispam-message-info:
+ =?us-ascii?Q?4HmBRAwSUh8X0L3E6rRkCeg5JBjwS1B9w8nhHiEea5We25JW3+fsFtFCyD3P?=
+ =?us-ascii?Q?t6PbJMPY8if07b59/WkqnPjF4QGV889V5Gk/84N6Hvlsx9EZO4Xyu0DuSKHs?=
+ =?us-ascii?Q?mhgaB2lPM2EsdSvV3Gd8B1jNi9xm/mCaSxNzTEwGf9kK7nBkMqs66hjuMhL/?=
+ =?us-ascii?Q?YQ7cbGyMBsQi+/cce5wmH3b6VMusokunKUiA7v49FZf1l9Uj/SpMPE6URp2e?=
+ =?us-ascii?Q?9mEqjFpnvt5t5V81Bo9DIr2JpyVkTzQJR3NqVMyf3ecfZvTuMgQyaWr+oKPB?=
+ =?us-ascii?Q?RisA2/k3gPyjztozvN6Ls09tg8/OnsIkMwdGsF++5AenETOQfBArYa294CMQ?=
+ =?us-ascii?Q?lsxsuxPNOeNj+cKjm3DXnHJNpRIxtt/oF2EPTYNVO3+dvYqczpEoFjmVb9Go?=
+ =?us-ascii?Q?JKDDfq0rdbfaK9qsBFINr4gy/NIutdMGRsI4SgAVmvhnJDuD47dxWo6dSuEV?=
+ =?us-ascii?Q?jYpOKNAjfkyA8AH5hcc5wO249eMPdfzw81rBuzWHLwu8Cz5ts+IIoYL/77Dd?=
+ =?us-ascii?Q?Nstl/hX85Izi9gaIH3k/CKa8Q1mp2r1jgy7T43+MK4rZDZffZdiC10+cvUdB?=
+ =?us-ascii?Q?3X4xYAe9xb6KTzO6ss+Je/5MO+V7+ICXFTfubcar8e6AEPBi3ewfP4YXKlkH?=
+ =?us-ascii?Q?Dg9El2+fh/8PmIwmMOz5Ou551SyIxrv8uySgPFjRrgrfQNZa2unldbgVbE6w?=
+ =?us-ascii?Q?gfvOF8z7Hv84zdLsBtdtBC14UkmgJl3VelltKdZSygkHnUwpnhdLi3uJ5bw1?=
+ =?us-ascii?Q?W0TM3kSkKNl5XBMgXcxgey1r3v6OSbHaK70eMBhbdYj2EEUPS9lwcn8WSdOH?=
+ =?us-ascii?Q?f4EI99Nr5XQaG30lW8ClvOua8TlHOWZH9263scXgDLHC0i+UVQYlpy3v7IQ2?=
+ =?us-ascii?Q?5+GvfnXVZBhQDeVfH/OR2j7xetMIbFXaBJHTRhW2qyQgcv5iqqdmc1LNRjwJ?=
+ =?us-ascii?Q?Ex3Ly7kLg8a02D3gLf1iGfIsUijgckmHlxecatTPjUqGH7TdO+F0mKdHibkz?=
+ =?us-ascii?Q?YdYEsBELp3iiEHleeLzSgZ5c23NV4wRY3w2LnE32EjExUFkfgD30X8sMZQ3e?=
+ =?us-ascii?Q?e3M/LdXoonFo9khWzoz79hwqUnYVoPuF6RpR8H3B+iJHPpAeeiBSz0wWL7Jb?=
+ =?us-ascii?Q?tlXcxpKZroyPJ7cYdfac6uDrO4lGHYsHjuI4AnlIH2cO5xsuLDOvXek=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?4S5bMn7HfozAf1BBYrHya6J6D4Zffa+YE76GoOvjVwI3oox6fQMh/lwxaKXF?=
+ =?us-ascii?Q?5Z6USr8i6pFit7tU3itKX6tbSTZeED5nj1JtfZkSJp/Xe53JASlCXJQ7ImJ2?=
+ =?us-ascii?Q?/RTWqOFyWQj6yXg4l0scd2zx6d0BPK/23G/GhcUvsO4eBoOKgju14csogQX5?=
+ =?us-ascii?Q?FYYMoAXW9ZbSAafZgeDinOX4mNblT0bFWy7tMCjdC6vV1wPebVzju/0hVsIX?=
+ =?us-ascii?Q?I1t4AJ+pHtOm+bxdR//stuXYL0iy1dImhXHnbllRHo6G85VhZQjZAWSnpCXQ?=
+ =?us-ascii?Q?56z9UZ/VRhPQcxcLtEyyuv5IaqSfwMdBOZCZfF42jkj1RuuDHBlRJAzrC8rT?=
+ =?us-ascii?Q?DJJZ7yRPr64PHqPmXL8LKAqT8ZMkxxNi9OHg/FRhr3KFL1S5afHcJAAUIEQ8?=
+ =?us-ascii?Q?MkKnh+/iA8FhBgzWwQZWDXvv4VNpI2Rg9zEjdKk/OqzJuZfzs8JdRtSYAaPF?=
+ =?us-ascii?Q?1S3IsVY3nk70/7s1+Xly0yiY4VB4Zf690OGPC0RP23LR2rFCFngM+jDnRaFZ?=
+ =?us-ascii?Q?mIpKYWBYxzPOlQcc02ryLz+RLCPoR56/RKEAdoMNEX3nm7/jtyM1fty/ZDhN?=
+ =?us-ascii?Q?QS5q8VK0uwSqzP5ybWgrfaSqNG24eScZibPo3+rcMpYQNZ6AhOKSukh6gN97?=
+ =?us-ascii?Q?I5v35mu/k+6NylvVEpVqamQDisB4Fi8IjirT2E8krffIsoyEW3zEinbMqd6u?=
+ =?us-ascii?Q?8zuFvQdSsWg1dd9/WcguMUBoef3ydTyVJlnO0aA7FvOxd0+/KagyAkOZeqRS?=
+ =?us-ascii?Q?j9kGfwoxeOQzoSwZLkotaC9M0KhJpYNyjNhpiDUJd1/ftUxpW496B/OpRDBD?=
+ =?us-ascii?Q?7cKCoKwSLT4aHid1+TgkoY09LLCR2BcWkgNnbHhmnbr+LKBvMy7HrZjUOlyO?=
+ =?us-ascii?Q?6k0swCIbhkWZwcNEAw0OKHFbQ0irOafaKQJfBI3LvMqfJlAt8egGB1UQf07F?=
+ =?us-ascii?Q?DOs8cbY4TC93vPfdchlGEJatbjMCrcxm7HUiIWikGpIlY4DXnSJLKJ6gLn75?=
+ =?us-ascii?Q?Ejufro0PlPaJkUIksvY2mw43UKrfnzO8rKNIQo597Op7JIIQKLQirKBLCpjF?=
+ =?us-ascii?Q?qFoK+JxCqc6NU5q2NWheLmoZvODEB0AM4jOlP0ieidOtVU4kG0FaCcsH7+zC?=
+ =?us-ascii?Q?2GrFfGCg8A43Zj+sVUbQEXtk8rJirxCsaAAa2dUKxYN2srbl4RkqB4T99fKc?=
+ =?us-ascii?Q?sSCpqLuCSpobnp+7MsCaEzYG9b3A36EYIzPLO9Mh7wV1cnd+efFdb2/XtnT6?=
+ =?us-ascii?Q?OesvAbQn4PFthGmd+kTJCIgWrl+Crew9/tMjOEMvJTy6uGJ+S/ACMRafm62t?=
+ =?us-ascii?Q?PFM=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_SEZPR01MB5223A7759EF8B2A73E30DA3C899AASEZPR01MB5223apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: SEZPR01MB5223.apcprd01.prod.exchangelabs.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: c4039b84-1bda-45fc-74e8-08dd9b7ca828
+X-MS-Exchange-CrossTenant-originalarrivaltime: 25 May 2025 11:09:45.5934
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: TY2PPF39E65E154
+X-MagicSpam-TUUID: 5661ad21-c34b-4087-b103-c93a96d44c69
+X-MagicSpam-SUUID: 76156420-35ae-4b44-9545-0218226326f3
+X-Spam-Status: No, score=-0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Just a quick reminder about the our last sent mail.
+    We are really looking forward to receive your answer so that we can get to
+    any final conclusion. 
+ Content analysis details:   (-0.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [52.103.74.73 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.74.73 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [52.103.74.73 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 ARC_VALID              Message has a valid ARC signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 ARC_SIGNED             Message has a ARC signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends in
+                             digit
+                             [ranigop9(at)outlook.com]
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [ranigop9(at)outlook.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: NO
+
+--_000_SEZPR01MB5223A7759EF8B2A73E30DA3C899AASEZPR01MB5223apcp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+Just a quick reminder about the our last sent mail.
+
+We are really looking forward to receive your answer so that we can get to =
+any final conclusion.
+
+Thanks,
+Rani Singh
+
+________________________________
+From: Rani Sinhg
+Sent: Wednesday, May 21, 2025 12:48 PM
+Subject: Web Master
+
+Hello,
+
+We are India (Delhi NCR) based IT services provider company. Our main focus=
+ is on website design & development with CMS-based solutions.
+
+I'm reaching out to see if there is anything that would like to upgrade, re=
+pair, or redesign on your site or if you'd like to build a new site complet=
+ely.
+
+If you are interested, please share the full requirement in detail so that =
+we can review & provide you an estimation in accordance.
+
+Looking forward to hearing from you.
+
+Thanks,
+Rani Singh
+
+--_000_SEZPR01MB5223A7759EF8B2A73E30DA3C899AASEZPR01MB5223apcp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Hello,</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Just a quick reminder about the our last sent mail.</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+We are really looking forward to receive your answer so that we can get to =
+any final conclusion.</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Thanks,</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Rani Singh</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div id=3D"appendonsend"></div>
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>From:</b> Rani Sinhg<br>
+<b>Sent:</b> Wednesday, May 21, 2025 12:48 PM<br>
+<b>Subject:</b> Web Master</font>
+<div>&nbsp;</div>
+</div>
+<style type=3D"text/css" style=3D"display:none">
+<!--
+p
+	{margin-top:0;
+	margin-bottom:0}
+-->
+</style>
+<div dir=3D"ltr">
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+Hello,</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+We are India (Delhi NCR) based IT services provider company. Our main focus=
+ is on website design &amp; development with CMS-based solutions.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+I'm reaching out to see if there is anything that would like to upgrade, re=
+pair, or redesign on your site or if you'd like to build a new site complet=
+ely.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+If you are interested, please share the full requirement in detail so that =
+we can review &amp; provide you an estimation in accordance.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+Looking forward to hearing from you.</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+<br>
+</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+Thanks,</div>
+<div class=3D"x_elementToProof" style=3D"font-family:Aptos,Aptos_EmbeddedFo=
+nt,Aptos_MSFontService,Calibri,Helvetica,sans-serif; font-size:12pt; color:=
+rgb(0,0,0)">
+Rani Singh</div>
+</div>
+</body>
+</html>
+
+--_000_SEZPR01MB5223A7759EF8B2A73E30DA3C899AASEZPR01MB5223apcp_--

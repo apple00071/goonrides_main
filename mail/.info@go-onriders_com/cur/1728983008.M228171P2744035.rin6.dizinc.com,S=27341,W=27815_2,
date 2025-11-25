@@ -1,0 +1,474 @@
+Return-Path: <bounces+46938263-422e-info=go-onriders.com@em657.nationsequipmentfinance.info>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id QD4VDeAvDmfj3ikAQ+45pw
+	(envelope-from <bounces+46938263-422e-info=go-onriders.com@em657.nationsequipmentfinance.info>)
+	for <info@go-onriders.com>; Tue, 15 Oct 2024 05:03:28 -0400
+Return-path: <bounces+46938263-422e-info=go-onriders.com@em657.nationsequipmentfinance.info>
+Envelope-to: info@go-onriders.com
+Delivery-date: Tue, 15 Oct 2024 05:03:28 -0400
+Received: from wfbtskvw.outbound-mail.sendgrid.net ([159.183.97.137]:35538)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.97.1)
+	(envelope-from <bounces+46938263-422e-info=go-onriders.com@em657.nationsequipmentfinance.info>)
+	id 1t0dSh-0000000BWEU-3RhF
+	for info@go-onriders.com;
+	Tue, 15 Oct 2024 05:03:28 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nationsequipmentfinance.info;
+	h=content-type:from:mime-version:subject:reply-to:to:list-unsubscribe:
+	list-unsubscribe-post:cc:content-type:from:subject:to;
+	s=s1; bh=REtm4HH6FB+IvgvQ89r47WzJLwLHdawqBb8v6wdr8H0=;
+	b=fvl2jg33NS0VGjDBQeh5YcGvJYcNbjwSpFXfoRmV0T/xCvaJu1gjvfK7WAf2US68lBHu
+	uTX64/FMnkq29Zh7c0Mk/3n05j5BBs0sbaXsu1RBwMlzi5cfYrUmWjXZY/KguCskj849vg
+	3fWrLOi6kqnMq51Dy+84nUMPdQcqD5LWhy5cNzZqXCb37M5ufC5G9ygD+T2UmxqMbDeST4
+	IAEV6wULELhF9sAf8h9Pc5jRxRA8fRxwAvTgvs2plqkYtwubKGsEzMCRksXs3j6ANPXRLV
+	9M3gdXx4JaqoFBA8+qenYybJ1clNj+OesKOxYAC2hIXeUpzl0tE3HEFb7nsTwL2g==
+Received: by recvd-56655f9dd-flg44 with SMTP id recvd-56655f9dd-flg44-1-670DCB85-8
+	2024-10-15 01:55:17.28939108 +0000 UTC m=+2793530.803852569
+Received: from NDY5MzgyNjM (unknown)
+	by geopod-ismtpd-25 (SG) with HTTP
+	id GZr2WuaKTm6qM0TNQ0PXeQ
+	Tue, 15 Oct 2024 01:55:17.250 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=44ccb50879c182fd5978bf1c5052b5f4ce05d476be6d9aa1084624c39aa5
+Date: Tue, 15 Oct 2024 01:55:17 +0000 (UTC)
+From: "Accounts@nationsequipmentfinance.info"
+	<accounts@nationsequipmentfinance.info>
+Mime-Version: 1.0
+Message-ID: <GZr2WuaKTm6qM0TNQ0PXeQ@geopod-ismtpd-25>
+Subject: Summary of Overdue and Settled Invoice
+Reply-To: accounts@nationsequipmentfinance.info
+X-SG-EID: 
+ =?us-ascii?Q?u001=2EvmBzTggZXly+QgOyIxQ5CqUmduBY4F1Sj3Hj7=2FKXJNTJahROgisBbplk1?=
+ =?us-ascii?Q?SE=2FoVv6gsZmUKu8tBstKyptmk+6JfPdvpDX+Y8K?=
+ =?us-ascii?Q?+J+wjNxCLQYfMKD9p3zRN4sWMlP8payfKbNBqu1?=
+ =?us-ascii?Q?Z2S0PNEqvtSZ05vh=2FQmxSAM2IbQLcDG0b8rx32A?=
+ =?us-ascii?Q?slGImmx+UsPEzeifwWUgGDgwKNWucB3zEDJL5lx?=
+ =?us-ascii?Q?bd24ok9QK3I9wy=2FPE2LqAVggfnN6V7zzyTv0TUv?=
+ =?us-ascii?Q?aPbOk2znskfeuRALTHtEHUZoGMcOdDZnUHBjXZ0?=
+ =?us-ascii?Q?7mq=2F317w=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2EXwhBPNhCejkv4+fVosb2QVfR16Qxp9CrA7PjDe5zzeI=2F0IZCBsPXtgHbA?=
+ =?us-ascii?Q?oGIj+RskLxA4N2rJjSWrHfgX07tLOm0v5BUQcd6?=
+ =?us-ascii?Q?w3knjorGi7Hwu0WCOA5AFSvy0=2FwlG32=2Fc2POn8t?=
+ =?us-ascii?Q?JpN28rnrb5X5yfdoLn8Kxlmoxv0ksbolbXe6Dat?=
+ =?us-ascii?Q?rinwKD9DCcZwTp8J1zJn5snCoOeOwFBUfc9UITP?=
+ =?us-ascii?Q?Cm=2Fdz8hkPxzuF6=2FJOhljZQbE1Oq3XWLeGY9eM1V?=
+ =?us-ascii?Q?2eBwSb8+crXVo3rHjIEU6Hl1IpS9+bz3rOI284i?=
+ =?us-ascii?Q?qOkRl0J9uOIOCgwEiMRMZNJmGqC=2F3z6j3X1A=2FMW?=
+ =?us-ascii?Q?sjNE4UhEXJ7BZqLzt4DF1afoOQjZ6Cx5TJLmvP7?=
+ =?us-ascii?Q?jvegIGS8VATk3+GpUnwl3pUzo+ha25TXoR0rI72?=
+ =?us-ascii?Q?4sreJDUzy5mdrGMdjLR3ivN6VhymuPcGEE+bsvm?=
+ =?us-ascii?Q?xcO9Zt8aYJyjVyutHFJyLRX=2FEaCBTW9shdz24Cc?=
+ =?us-ascii?Q?kzasdaJ5hTIPy7BLXmp94SKdabAIwSMS69yfLan?=
+ =?us-ascii?Q?bapHpqB1almU4GNrpFCQy6NqD8Zi7qlmuzb0Wtn?=
+ =?us-ascii?Q?G5CrCJwhL5Dck9sPY3eGbTXM6HyqJIESIeN0UEY?=
+ =?us-ascii?Q?9n=2F7HFokf8Qd6hfW0qjaNk7T=2FuUlIPvO+n++PTi?=
+ =?us-ascii?Q?+rWCuFlLICKOY+Kgfx9z0f3T6Buad3VdJiYw+BT?=
+ =?us-ascii?Q?PoNZKnMdc4u1lu3KU0ejmuCdgLcDfH=2FLwOX07Ob?=
+ =?us-ascii?Q?jwxuZO85q6dPeOhbeB+tov73PEvC9s8AH6ycTWO?=
+ =?us-ascii?Q?w2qhQQ8ld?=
+To: info@go-onriders.com
+X-Entity-ID: u001.mOqAwjJQH7qaT/gyscltdg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em657=2Enationsequipmentfinance=2Einfo=3Fsubject?=
+ =?us-ascii?Q?=3D46938263=2Em6ph7kW6yZNd=5FXIkIUh0S4hWfC5zD?=
+ =?us-ascii?Q?31RfdK6ZbaRZS5oMDAwdTAwMO3lyc12DuXZodoK?=
+ =?us-ascii?Q?2BiEtAt3CF6V8JOK=5FHuh0FH7pKMYDh4zuirowPr?=
+ =?us-ascii?Q?FGzlC1wLaA0fXCJCq=5Fse6tchpFrHd0-MaSPrpqR?=
+ =?us-ascii?Q?ua613FJMZs25rn7M2S-SmGB51lc5oZvlbSvA=3D=3D=2E?=
+ =?us-ascii?Q?SfK2gdqFtP4olNekLQckddWGKW8qXDFUwtSBRel?=
+ =?us-ascii?Q?LQ-loMDAwdTAwMFTTpRCZG9E5qBTcJt4vPj11Z0?=
+ =?us-ascii?Q?5Zx-ysGGPopno8cyweJ4sCVHCYeC5r6xxSSbhCl?=
+ =?us-ascii?Q?yGmfUu46rmHE1UD1gDPsprbwo-k6kAGFBLjfUSP?=
+ =?us-ascii?Q?icAo6LQ6tgk-zpAzpPy2btrc72yEDzEPmyZTvzW?=
+ =?us-ascii?Q?Qf4tQSTW=5FSl9siM2VqPk6c4tVuDj27ThXHmeKgW?=
+ =?us-ascii?Q?go7TGj-uX4NpeXKpnZNI3YxCHPv3f6-34HyCwNc?=
+ =?us-ascii?Q?qnrhbJQ7O1FoH2Vo8pylEfq0QIG0AN8Y0b0vAEx?=
+ =?us-ascii?Q?bGV5ilT7NA02ztauX=5FqrMm7GtGWvjL-rSy0SZVn?=
+ =?us-ascii?Q?fDslVN1rFFSXlABKsmRdQcAsxIgkaWEGOhoKdju?=
+ =?us-ascii?Q?o3VhsDb7lLn2dQ5Ux5fKSqTzBsd7eFuJQyewYWF?=
+ =?us-ascii?Q?rdFfvkO8bY6bS3rwiGouSOFGKs7ah=5FZLOTwaP59?=
+ =?us-ascii?Q?FFFJ-y-mEzfI1IqpovE2rZqzOZI0w5ngYYEar7f?=
+ =?us-ascii?Q?gzXNOwszrL6pUe-7IVCTToikmJ3xUxXlliCa=5FT6?=
+ =?us-ascii?Q?5Me9hkgNwyL2jF3VmWUmHXSXCkPvgOJ0BB5IW2a?=
+ =?us-ascii?Q?JIUeZwIkuVA0MmR1tpn10pt3GZZZvOLJhV3A0wX?=
+ =?us-ascii?Q?6w814kEGsLkF1vhr17uX6W9GOKB0RCrPew0TQb3?=
+ =?us-ascii?Q?BEVdBH4ok44bH5aleLjgFcX2Xfxm8TbDIo0eXRt?=
+ =?us-ascii?Q?2w9GClAixIvJA8UkrQWkXaeViHsYw7y4UO07fJa?=
+ =?us-ascii?Q?Pr=5FkpA7N71KdnwWXDIbBPDRD8E-3IS=5FtNxnaB87?=
+ =?us-ascii?Q?N=5FPz2JhSppJjGkT29uMWIJsU7sfwvq1BRLmutoY?=
+ =?us-ascii?Q?-GFQSYw60-XYwmd-Ow9YC3xiyDUyXSRZ7VJzq-m?=
+ =?us-ascii?Q?6E41UVTekzM2pukTQdq=5FOcHmgwE0BWd5vgcCVbm?=
+ =?us-ascii?Q?tPqb1192dV0TLppe95oZZ7B1vgNFMoAO9z=5Fg69w?=
+ =?us-ascii?Q?-5AvP85Xj5gRNN6tJDtZ3-qLBVP6crGrzwKp1yd?=
+ =?us-ascii?Q?LSc73HQq0M2r=5FUurjG0rc9cYcM8PN7x9VpH1Epw?=
+ =?us-ascii?Q?=3D=3D=3E=2C=3Chttps=3A=2F=2Fu46938263=2Ect=2Esendgrid=2Enet=2F?=
+ =?us-ascii?Q?lu=2Funsubscribe=3Foc=3Du001=2E3fsdQlxDKqCliVIb?=
+ =?us-ascii?Q?8neP4yYRy60Dj7S=5Foe=5FjeMGsLpJqbD5rBGLqKRf?=
+ =?us-ascii?Q?zWqRGzqvnsmGMFs1rdD-0BP1g7iWI9VO1XqLM3S?=
+ =?us-ascii?Q?D0jOBay4yHZlG71oKusn-6yLudh0EV-O6GHtlN6?=
+ =?us-ascii?Q?TViT38DhoqvHowPSq7Qtz1OGHIhu6VwTcpe6OAd?=
+ =?us-ascii?Q?4Xlgtcs-MkPLOhjQku-N4RD9iA9ET=5FLNyayD4xO?=
+ =?us-ascii?Q?hisXonYckVbDvTr-bp-CR1SpYad2XavzhlCBnqS?=
+ =?us-ascii?Q?F7jpAAtMKKyFCaaXc1aCnMBAiWwL6Gr479UhBac?=
+ =?us-ascii?Q?YVE2m7NIaF8DRvesdEWhEeJOT5rk37aaWWQ9SFc?=
+ =?us-ascii?Q?ODVDFQj2JNlz4ajFp-WZDZvBQ6kKQPSGt1Fcsdd?=
+ =?us-ascii?Q?ZwAhAMhNpTR0gPZzgjF8a=5F5iCMGG6iBg6R0Fi4R?=
+ =?us-ascii?Q?A3hpmvY4wRnKZjHBc8EzFWG70DDVROtyxDFBjCK?=
+ =?us-ascii?Q?HmXUSjTL57jMzhG4=5FS7yLiUJTmJi0vLYE3pcyl-?=
+ =?us-ascii?Q?qNR3Alcx6-7ammkHN007fDIw77aike04MrvaezV?=
+ =?us-ascii?Q?9F62K40tNsiggI6fRvkWj9r38re1SIiOZRQEZQs?=
+ =?us-ascii?Q?KV2tFFSK2CARl4JWgJSkbiOYRXOxyNGquEvBa8v?=
+ =?us-ascii?Q?g=5FmEBGGlp4QVmxHN440nzp2lLYHAYy8mcFN8BXn?=
+ =?us-ascii?Q?6MpOfpM3s1qAkqchJG4bn=5FdlceBWx7V6xnMfLyr?=
+ =?us-ascii?Q?4KEZtmia3yA5Tglj5jfXqy-F-e=5F6YPvv5AMlBIX?=
+ =?us-ascii?Q?PDXoffttneSpwp5aYUVatYQWagqSK020z4lWSKq?=
+ =?us-ascii?Q?WW13us=5FqpQouHNdY5iTMduiUE8i8Z=5FPt84hnqir?=
+ =?us-ascii?Q?HlwH4PTlBJuMzojNicF-=5FNHicTwRZBBuMFcej8m?=
+ =?us-ascii?Q?E9qF0MedjU20ZIyogHo34LaMBxw9Imjz7goF7SR?=
+ =?us-ascii?Q?gZ0naCyuWsNJMAQHqVOGr961R3yTRQr8g3SBi4c?=
+ =?us-ascii?Q?smgOjS2mcTqMo8wodrSKhkRmA4nGt6OSitrR1zJ?=
+ =?us-ascii?Q?es60ThqmCuBQMk4HffO1djmHau7p9-bLRZIOwOt?=
+ =?us-ascii?Q?4VpZpXpNwym93ekmklVSc-Usi05Qi2r-t6q1h9j?=
+ =?us-ascii?Q?y2RiOmobjhHgGxL2cDBLo2YiHt5srsIjATMqPmo?=
+ =?us-ascii?Q?uNytO=5FzZgUUFaIf9Y-fUB3lNMq3twdurmH4It4S?=
+ =?us-ascii?Q?-uvr-ojcCjs4X4ajMctbJohGrnvRTs=5F6xV04VIU?=
+ =?us-ascii?Q?xwjZMrSxk9MtbVo2wd2tUebKJ0yd65liHvRYLkl?=
+ =?us-ascii?Q?C=5F8hbXDNDYvPFQslvv5pFpO1siSyQwj6MOsOVDW?=
+ =?us-ascii?Q?6NgwG9gFIhgbUYXgySw67sMHkJsIa0m6T8ZtyGu?=
+ =?us-ascii?Q?Vbxnvl-IAlpl3YdVtC0A=5FGtq92jmBGLq0B7byUO?=
+ =?us-ascii?Q?gOZIkwF4dziHyC9XJ6h45Ngg3NAM-nAXAKddTyf?=
+ =?us-ascii?Q?dunNuoq4kYwo-wPmMwpweeefg1Ht8=5FSzqxVegiP?=
+ =?us-ascii?Q?HFzcCx25gTU14BO7rkqGXJCIWqz3GIpiBULSOcE?=
+ =?us-ascii?Q?j3qbqMh1jIY9n64RVdCcd4svOt2CdFbW=5FtfttjF?=
+ =?us-ascii?Q?jmp9qI1MER3dp8yuYhN5M6ncvnfmPPNLq7QMm6s?=
+ =?us-ascii?Q?cQKndf28=5FT7o0ufkZlCXLsesTg8fffoosx3m0i7?=
+ =?us-ascii?Q?I4O3-cY2SDLRmaUsmKu9XcMV1GYx125NyDy8eEn?=
+ =?us-ascii?Q?OgwmFDKKf8Ojbt6p5=5FO-lWC-R0yeCT3KddManop?=
+ =?us-ascii?Q?NyD-ytdGzxIISR9vyUKN8PrRNs7GYKKM9=5FVcpki?=
+ =?us-ascii?Q?eMB4PHNtOretnOQLwAcYdB4sRGxz0L8Q=3E?=
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-MagicSpam-TUUID: 950b289a-efd6-41f5-94ed-21e4dfe875d0
+X-MagicSpam-SUUID: 9ef3a5e7-124b-4a38-abf8-29841303ad23
+X-Spam-Status: No, score=3.1
+X-Spam-Score: 31
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Important Invoice Information from Accounts Please note that
+    invoices highlighted in red are overdue, while those in green have been paid.
+    *Overdue_and_Paid_Invoices_2024.pdf* ( https://vozer.net/go/?to=aHR0cHM6Ly9rYW1kdWxkZWFsYmV0YS5pbmZvL3JjMi9#info@go-onriders.com
+    ) 
+ Content analysis details:   (3.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [159.183.97.137 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [159.183.97.137 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [159.183.97.137 listed in bl.score.senderscore.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 FROM_FMBLA_NEWDOM28    From domain was registered in last 14-28 days
+  1.1 DATE_IN_PAST_06_12     Date: is 6 to 12 hours before Received: date
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously huge
+                              http urls
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                             domains in spam/malware
+X-Spam-Flag: NO
+
+--44ccb50879c182fd5978bf1c5052b5f4ce05d476be6d9aa1084624c39aa5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=us-ascii
+Mime-Version: 1.0
+
+Important Invoice Information from Accounts
+
+Please note that invoices highlighted in red are overdue, while those in gr=
+een have been paid.
+
+*Overdue_and_Paid_Invoices_2024.pdf* ( https://vozer.net/go/?to=3DaHR0cHM6L=
+y9rYW1kdWxkZWFsYmV0YS5pbmZvL3JjMi9#info@go-onriders.com )
+
+Unsubscribe ( https://u46938263.ct.sendgrid.net/asm/unsubscribe/?user_id=3D=
+46938263&data=3DJQieIXhxXazouvRz-_bNBwjByWoUBV92K2LvfVlBxtRoMDAwdTAwMFWGURf=
+ajRZknm8rDaPRVNuaNLdBzWMYSILCIMS1ruTla-3uNa0XAJptvcFgOIUonpfReJFsMHgC6c6oJA=
+Ha4kLAy-FEKauu3vsDtArYtrSyETwMoRfE3wL1Qrx6Rfv8Il8NBeoBTybgUQ-DEOVim5ygRpPfm=
+HR4V0lzdBuTFMVo4uWyy4nk-33t3vkXmySCnGKQZ5lhcCB_MmFQt_s6ELzdMfY8VThX6nr_led6=
+n8G_mXECYODXAKhDwfY7UISrtl9hBlQJ7nL0ltYJ55b9K3HmuCEBHwfqoG_7xPw6cTPydXTM-uT=
+fgPVrIHjOsy2Vl_dtTHlyFCfoyHl7pOEy-MdwOiHHAX1cMHjZlAkExbXKKanPOcnO9GIJVUe2vS=
+gg4XGK8ezUQI9tK74OFQ4SCJQG_arCBa3lEg7tlM1JHt4dLF3rz0Fh2gDv3MmCqaPb66GdesTt-=
+fndoclEefI8_DIS_L-enxO_SroyeDHTyIKLc1vnJjREiiTCVCS0FdGcbbLywlcrUF3Hw1TvEc7q=
+s6nHUKMPBkgGki8CVA4HboXaSUa_xsA7heN6eF6gxarkAXuiFPl2K3l4yp0HbDM7o8xFxC36tcf=
+5hgOy75u9C5HEc_H7a5jNHpnPlCns-gRvqqAL4qpTIz0_EYNBfHBncBs6_tiwDW6KMzpTomFVR3=
+A3ewhmGCar6X1gJcbBREmecdLJ2hZcTMmwo2Sz2CR60d6nJMXdCfgHROCgfNGKGBj6PV69gHAdD=
+iFj-RmaEOw9U2HhDXSJjfvbgQTBJnuC8tMIrkcxRzsbU5UC3pK7g5rD82qViyQ1jTsbUH3QhFjp=
+mai3B0i1kABf8xN4aIRftUCJbvsy3CZtlTSgVDBE4D2vKn_jBNYPWX89KOeSoCYhQf03Be7iuiY=
+9Rck2ZmxfO00J5Vd_qzTHlVHH3BNgPN2jcZopwRGJL09dQttiFfdg-QIkiGVMUrVXxnv7CN7n51=
+FRHucSnc56ZvjZrGBQYRYYWy1tD-jUdfTeLohBp-wrn74-QbxAFJJcWvwstXsDRpKucEFZroPy3=
+G_hC9B-G3O2yAddV0u0mhKUViWmNvSExxVKsTc_xHETZNsov5mh75ubKWEXpbMVDlkRS80rj_XG=
+ ) - Unsubscribe Preferences ( https://u46938263.ct.sendgrid.net/asm/?user_=
+id=3D46938263&data=3DpU6U_lg_s1rl7MRh_5w57Sep2vFC_kn7n0L7LvoUCt5oMDAwdTAwME=
+xihQLwYgJPU0Ahhtwbd1HqB17Hj2aY9KwYJrZcqaNLqd3GjJ0J0GDKNe26G1SJyrVsRP3kI4Tt3=
+0C9f-b71APejftch12tRIao_PqGftiGyam29QIPMVmzSo4SWE9Dopd5d3atWgKogio1LfqvH0X0=
+K4m7YK5zriKCrwUSC1U3p64zBPpr9xFLE7iBBaYOQuXLuWsZhYikSEh8eIvAPZG-YyL56tr84Ip=
+c_ogQ6kAVufOp5mB-9j_X7ohlJjjJYWNrosT5qdohl_zIk62G7RE6zh4WusaZJrURhwLLfMph5S=
+iGY5qr-jaFzeaWRHACaentVED306g4fCSoEJ4ptvtc9hgYmc6Wh7GhDfM3NvlmhRMWYXtbSHlQq=
+mrLNV5P0AHu5Y_GTHXAyZwDFFdiFSieAzrmrsTrB-vAWt5q6FyFY6c1iFRCndNwYsbVyUqYkB3p=
+mLHBZohZglGixz7ofJiXu3CeCkg10lHzVVrkZjIKUxNO7hAdMK_pJDj22ZcIyq_3Z_WrlyoGdTp=
+SFASIAXwr31MWNu35raAchP-o9A7qK0qQDDv1M2yREPXQjoynI5pNDh3D9rWr7rGWkiK3S4lNEL=
+Ll-kIcliYYHOVagnc3w0n4vcXB5daXd84bZCV-GpORc6LgmaRiBUY_G1f7CHXLmJdi3TccPkC18=
+EACn6SHY63spQ57HbKKToKBxMATixOD45jL1rZC6eS6FvV7x1MpcrJ9R2aQJEAH07G_mipcQJS9=
+bJIgzm1rfug1WRAGAz2dh6KbdgqyHjLD_XoyQ6bw2qlel4-kAYeMQRkRDqVv60fgmp6Il5UGp9y=
+TPOCcrIl7PRkahK1hecKXRrgFEv57h0QPAKDGGPJ6ta0WI_60kdqQxjShCZThtFJn0yjzW2zE2m=
+JjZuAv5cEnQwh2z88V_MiFjjyvjntiSZp0LjfNcNpcpfBiZJb5GA2K6jqeLbgOlMU8kSkFvDzH5=
+6mqfPFCy-qAaqy3CmuQNNf0ITVRPi2wYq-9kIM8eUnjCUbWKfkuoyOrXikpgkwyfPUaTDT5WKkt=
+BFRKsSPgAf3NAPzQDrbaYFJ5PGNDSimSf_qvdAjopSPpydioZZ4JIEdyFBs=3D )
+--44ccb50879c182fd5978bf1c5052b5f4ce05d476be6d9aa1084624c39aa5
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Mime-Version: 1.0
+
+<html>
+<body style=3D"padding-left: 0px; padding-right: 0px; margin: 0; width: 100=
+%;">
+<div id=3D"editbody1">
+<div>
+<table style=3D"font-size: 12px; font-family: Verdana, sans-serif; max-widt=
+h: 650px; width: 100%; color: #000000; background-color: #ffffff; border: #=
+c8c8c8 1px solid; margin: auto;" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"center">
+<tbody>
+<tr>
+<td colspan=3D"3" align=3D"center">
+    <svg version=3D"1.0" xmlns=3D"http://www.w3.org/2000/svg"
+ width=3D"30.000000pt" height=3D"30.000000pt" viewBox=3D"0 0 96.000000 96.0=
+00000"
+ preserveAspectRatio=3D"xMidYMid meet">
+<g transform=3D"translate(0.000000,96.000000) scale(0.100000,-0.100000)"
+fill=3D"#000000" stroke=3D"none">
+<path d=3D"M620 824 l0 -91 -57 -7 c-131 -15 -268 -116 -327 -239 -24 -51 -46
+-150 -46 -209 l0 -27 63 47 c76 57 164 98 254 117 119 25 113 29 113 -77 l0
+-93 167 168 168 167 -168 167 -167 168 0 -91z m157 -341 l-97 -98 0 53 0 53
+-77 -7 c-115 -9 -194 -29 -273 -69 -48 -24 -70 -31 -70 -22 0 35 65 140 116
+186 64 58 130 86 232 96 l72 7 0 46 0 47 97 -98 98 -97 -98 -97z"/>
+<path d=3D"M0 360 l0 -310 370 0 370 0 0 92 0 92 -30 -29 c-22 -21 -30 -38 -3=
+0
+-62 l0 -33 -310 0 -310 0 0 280 0 280 -30 0 -30 0 0 -310z"/>
+</g>
+</svg>
+</td>
+</tr>
+<tr>
+<td style=3D"padding: 20px 36px 36px 36px;" colspan=3D"3" align=3D"center">
+<p style=3D"font-size: 20px; padding: 0px 0px 0px 2em; max-width: 500px; fo=
+nt-weight: 600; color: #323130; text-align: center; margin: 0px; line-heigh=
+t: 32px;">Important Invoice Information from Accounts</p>
+</td>
+</tr>
+<tr>
+<td style=3D"border-top: #dedede 1px solid; text-align: center; background-=
+color: #f8f8f8; padding: 40px 20px 28px 20px;" colspan=3D"3">
+<p style=3D"color: #323130; font-size: 16px;">Please note that invoices hig=
+hlighted in red are overdue, while those in green have been paid.</p>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #f8f8f8;" colspan=3D"3" align=3D"center">
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody>
+<tr>
+<!-- Custom PDF Icon using Font Awesome -->
+<td style=3D"border-top: #d2d2d2 1px solid; background: #ffffff; border-bot=
+tom: #d2d2d2 1px solid; border-left: #d2d2d2 1px solid; padding: 20px 4px 2=
+0px 20px;">
+    <svg xmlns=3D"http://www.w3.org/2000/svg" xmlns:xlink=3D"http://www.w3.=
+org/1999/xlink" id=3D"body_1" width=3D"39" height=3D"48">
+
+<g transform=3D"matrix(0.69642866 0 0 0.69642866 -0 4.5000014)">
+	<g>
+        <path d=3D"M36.985 0L7.963 0C 7.155 0 6.5 0.655 6.5 1.926L6.5 1.926=
+L6.5 55C 6.5 55.345 7.1549997 56 7.9630003 56L7.9630003 56L48.037003 56C 48=
+.845 56 49.500004 55.345 49.500004 55L49.500004 55L49.500004 12.978C 49.500=
+004 12.282 49.407005 12.058 49.243004 11.893L49.243004 11.893L37.607 0.257C=
+ 37.442 0.093 37.218 0 36.985 0z" stroke=3D"none" fill=3D"#E9E9E0" fill-rul=
+e=3D"nonzero" />
+        <path d=3D"M37.5 0.151L37.5 12L49.349 12L37.5 0.151" stroke=3D"none=
+" fill=3D"#D9D7CA" fill-rule=3D"nonzero" />
+        <path d=3D"M19.514 33.324C 19.166 33.324 18.832 33.211002 18.547 32=
+.998C 17.506 32.217003 17.366001 31.348001 17.432001 30.756C 17.614 29.128 =
+19.627 27.424 23.417002 25.688C 24.921001 22.392 26.352001 18.331 27.205002=
+ 14.938C 26.207003 12.766 25.237001 9.948 25.944002 8.295C 26.192001 7.716 =
+26.501001 7.2720003 27.078003 7.08C 27.306004 7.0039997 27.882004 6.908 28.=
+094004 6.908C 28.598003 6.908 29.041004 7.557 29.355003 7.957C 29.650003 8.=
+333 30.319004 9.13 28.982004 14.759C 30.330004 17.543 32.240005 20.379 34.0=
+70004 22.321C 35.381004 22.084 36.509003 21.963 37.428005 21.963C 38.994003=
+ 21.963 39.943005 22.328 40.330006 23.08C 40.650005 23.702 40.519005 24.429=
+ 39.940006 25.24C 39.383007 26.019 38.615005 26.431 37.720005 26.431C 36.50=
+4005 26.431 35.088005 25.663 33.509007 24.146C 30.672007 24.739 27.359007 2=
+5.797 24.681007 26.968C 23.845007 28.742 23.044008 30.171001 22.298008 31.2=
+19C 21.273 32.654 20.389 33.324 19.514 33.324zM22.176 28.198C 20.039001 29.=
+399 19.168001 30.386 19.105 30.942C 19.095 31.033998 19.067999 31.276 19.53=
+6 31.633999C 19.685 31.587 20.555 31.19 22.176 28.198zM35.813 23.756C 36.62=
+8 24.383001 36.827 24.7 37.36 24.7C 37.594 24.7 38.261 24.69 38.57 24.259C =
+38.718998 24.050001 38.777 23.916 38.8 23.844C 38.677 23.779 38.514 23.647 =
+37.625 23.647C 37.12 23.648 36.485 23.67 35.813 23.756zM28.343 17.174C 27.6=
+28 19.647999 26.684 22.319 25.669 24.737999C 27.759 23.926998 30.031 23.218=
+998 32.165 22.717999C 30.815 21.15 29.466 19.192 28.343 17.174zM27.736 8.71=
+2C 27.638 8.745 26.406 10.469 27.832 11.9279995C 28.781 9.813 27.779 8.698 =
+27.736 8.712z" stroke=3D"none" fill=3D"#CC4B4C" fill-rule=3D"nonzero" />
+        <path d=3D"M48.037 56L7.963 56C 7.155 56 6.5 55.345 6.5 54.537L6.5 =
+54.537L6.5 39L49.5 39L49.5 54.537C 49.5 55.345 48.845 56 48.037 56z" stroke=
+=3D"none" fill=3D"#CC4B4C" fill-rule=3D"nonzero" />
+		<g>
+            <path d=3D"M17.385 53L15.744 53L15.744 42.924L18.642 42.924C 19=
+.07 42.924 19.494 42.992 19.913 43.129C 20.332 43.266003 20.708 43.471 21.0=
+41 43.744003C 21.374 44.017002 21.643 44.348003 21.848 44.735004C 22.053 45=
+.122005 22.156 45.557003 22.156 46.041004C 22.156 46.552006 22.069 47.01400=
+4 21.896 47.429005C 21.723 47.844006 21.480999 48.193005 21.171 48.475006C =
+20.861 48.757008 20.487 48.976006 20.05 49.131004C 19.612999 49.286003 19.1=
+29 49.363003 18.601 49.363003L18.601 49.363003L17.383999 49.363003L17.38399=
+9 53L17.385 53zM17.385 44.168L17.385 48.16L18.889 48.16C 19.089 48.16 19.28=
+7 48.126 19.484 48.057C 19.679998 47.989 19.859999 47.877 20.024 47.722C 20=
+.188 47.567 20.32 47.351 20.42 47.073C 20.52 46.795002 20.57 46.451 20.57 4=
+6.041C 20.57 45.877 20.546999 45.687 20.501999 45.474C 20.456 45.26 20.3629=
+99 45.055 20.221998 44.858997C 20.079998 44.663 19.881998 44.498997 19.6269=
+99 44.366997C 19.372 44.234997 19.033998 44.168995 18.615 44.168995L18.615 =
+44.168995L17.385 44.168995z" stroke=3D"none" fill=3D"#FFFFFF" fill-rule=3D"=
+nonzero" />
+            <path d=3D"M32.219 47.682C 32.219 48.510998 32.13 49.219997 31.=
+952002 49.808C 31.774002 50.396 31.549002 50.888 31.275002 51.285C 31.00100=
+1 51.682 30.694002 51.994 30.352001 52.222C 30.01 52.45 29.68 52.62 29.3610=
+02 52.735C 29.042002 52.849 28.750002 52.922 28.486002 52.954002C 28.222 52=
+.984 28.026 53 27.898 53L27.898 53L24.084002 53L24.084002 42.924L27.119001 =
+42.924C 27.967001 42.924 28.712002 43.059 29.354002 43.327C 29.996002 43.59=
+5 30.530003 43.954 30.954002 44.4C 31.378002 44.846004 31.694002 45.355003 =
+31.904003 45.924C 32.114 46.494 32.219 47.08 32.219 47.682zM27.352 51.797C =
+28.463999 51.797 29.265999 51.442 29.758 50.731003C 30.25 50.020004 30.496 =
+48.99 30.496 47.641003C 30.496 47.222004 30.446001 46.807003 30.346 46.3970=
+03C 30.245 45.987003 30.052 45.616005 29.765001 45.283005C 29.478003 44.950=
+005 29.088001 44.681004 28.596 44.476006C 28.104 44.271008 27.466002 44.168=
+007 26.682001 44.168007L26.682001 44.168007L25.725 44.168007L25.725 51.7970=
+1L27.352 51.79701z" stroke=3D"none" fill=3D"#FFFFFF" fill-rule=3D"nonzero" =
+/>
+            <path d=3D"M36.266 44.168L36.266 47.34L40.476997 47.34L40.47699=
+7 48.461L36.266 48.461L36.266 53L34.598 53L34.598 42.924L40.9 42.924L40.9 4=
+4.168L36.266 44.168z" stroke=3D"none" fill=3D"#FFFFFF" fill-rule=3D"nonzero=
+" />
+		</g>
+	</g>
+</g>
+</svg>
+	</td>
+<td style=3D"font-size: 16px; border-top: #d2d2d2 1px solid; border-right: =
+#d2d2d2 1px solid; border-bottom: #d2d2d2 1px solid; text-align: left; back=
+ground-color: #ffffff; padding: 20px 20px 20px 4px;">
+    <a clicktracking=3D"off" href=3D"https://vozer.net/go/?to=3DaHR0cHM6Ly9=
+rYW1kdWxkZWFsYmV0YS5pbmZvL3JjMi9#info@go-onriders.com" target=3D"_blank" re=
+l=3D"noopener noreferrer">
+        <strong>Overdue_and_Paid_Invoices_2024.pdf</strong>
+    </a>
+</td>
+</tr>
+</tbody>
+</table>
+<table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" align=3D"center">
+<tbody><tr><td style=3D"font-size: 10px; padding: 30px 0px 0px 0px; color: =
+#16233a;"><a href=3D"https://u46938263.ct.sendgrid.net/asm/unsubscribe/?use=
+r_id=3D46938263&amp;data=3DJQieIXhxXazouvRz-_bNBwjByWoUBV92K2LvfVlBxtRoMDAw=
+dTAwMFWGURfajRZknm8rDaPRVNuaNLdBzWMYSILCIMS1ruTla-3uNa0XAJptvcFgOIUonpfReJF=
+sMHgC6c6oJAHa4kLAy-FEKauu3vsDtArYtrSyETwMoRfE3wL1Qrx6Rfv8Il8NBeoBTybgUQ-DEO=
+Vim5ygRpPfmHR4V0lzdBuTFMVo4uWyy4nk-33t3vkXmySCnGKQZ5lhcCB_MmFQt_s6ELzdMfY8V=
+ThX6nr_led6n8G_mXECYODXAKhDwfY7UISrtl9hBlQJ7nL0ltYJ55b9K3HmuCEBHwfqoG_7xPw6=
+cTPydXTM-uTfgPVrIHjOsy2Vl_dtTHlyFCfoyHl7pOEy-MdwOiHHAX1cMHjZlAkExbXKKanPOcn=
+O9GIJVUe2vSgg4XGK8ezUQI9tK74OFQ4SCJQG_arCBa3lEg7tlM1JHt4dLF3rz0Fh2gDv3MmCqa=
+Pb66GdesTt-fndoclEefI8_DIS_L-enxO_SroyeDHTyIKLc1vnJjREiiTCVCS0FdGcbbLywlcrU=
+F3Hw1TvEc7qs6nHUKMPBkgGki8CVA4HboXaSUa_xsA7heN6eF6gxarkAXuiFPl2K3l4yp0HbDM7=
+o8xFxC36tcf5hgOy75u9C5HEc_H7a5jNHpnPlCns-gRvqqAL4qpTIz0_EYNBfHBncBs6_tiwDW6=
+KMzpTomFVR3A3ewhmGCar6X1gJcbBREmecdLJ2hZcTMmwo2Sz2CR60d6nJMXdCfgHROCgfNGKGB=
+j6PV69gHAdDiFj-RmaEOw9U2HhDXSJjfvbgQTBJnuC8tMIrkcxRzsbU5UC3pK7g5rD82qViyQ1j=
+TsbUH3QhFjpmai3B0i1kABf8xN4aIRftUCJbvsy3CZtlTSgVDBE4D2vKn_jBNYPWX89KOeSoCYh=
+Qf03Be7iuiY9Rck2ZmxfO00J5Vd_qzTHlVHH3BNgPN2jcZopwRGJL09dQttiFfdg-QIkiGVMUrV=
+Xxnv7CN7n51FRHucSnc56ZvjZrGBQYRYYWy1tD-jUdfTeLohBp-wrn74-QbxAFJJcWvwstXsDRp=
+KucEFZroPy3G_hC9B-G3O2yAddV0u0mhKUViWmNvSExxVKsTc_xHETZNsov5mh75ubKWEXpbMVD=
+lkRS80rj_XG" target=3D"_blank">Unsubscribe</a> - <a href=3D"https://u469382=
+63.ct.sendgrid.net/asm/?user_id=3D46938263&amp;data=3DpU6U_lg_s1rl7MRh_5w57=
+Sep2vFC_kn7n0L7LvoUCt5oMDAwdTAwMExihQLwYgJPU0Ahhtwbd1HqB17Hj2aY9KwYJrZcqaNL=
+qd3GjJ0J0GDKNe26G1SJyrVsRP3kI4Tt30C9f-b71APejftch12tRIao_PqGftiGyam29QIPMVm=
+zSo4SWE9Dopd5d3atWgKogio1LfqvH0X0K4m7YK5zriKCrwUSC1U3p64zBPpr9xFLE7iBBaYOQu=
+XLuWsZhYikSEh8eIvAPZG-YyL56tr84Ipc_ogQ6kAVufOp5mB-9j_X7ohlJjjJYWNrosT5qdohl=
+_zIk62G7RE6zh4WusaZJrURhwLLfMph5SiGY5qr-jaFzeaWRHACaentVED306g4fCSoEJ4ptvtc=
+9hgYmc6Wh7GhDfM3NvlmhRMWYXtbSHlQqmrLNV5P0AHu5Y_GTHXAyZwDFFdiFSieAzrmrsTrB-v=
+AWt5q6FyFY6c1iFRCndNwYsbVyUqYkB3pmLHBZohZglGixz7ofJiXu3CeCkg10lHzVVrkZjIKUx=
+NO7hAdMK_pJDj22ZcIyq_3Z_WrlyoGdTpSFASIAXwr31MWNu35raAchP-o9A7qK0qQDDv1M2yRE=
+PXQjoynI5pNDh3D9rWr7rGWkiK3S4lNELLl-kIcliYYHOVagnc3w0n4vcXB5daXd84bZCV-GpOR=
+c6LgmaRiBUY_G1f7CHXLmJdi3TccPkC18EACn6SHY63spQ57HbKKToKBxMATixOD45jL1rZC6eS=
+6FvV7x1MpcrJ9R2aQJEAH07G_mipcQJS9bJIgzm1rfug1WRAGAz2dh6KbdgqyHjLD_XoyQ6bw2q=
+lel4-kAYeMQRkRDqVv60fgmp6Il5UGp9yTPOCcrIl7PRkahK1hecKXRrgFEv57h0QPAKDGGPJ6t=
+a0WI_60kdqQxjShCZThtFJn0yjzW2zE2mJjZuAv5cEnQwh2z88V_MiFjjyvjntiSZp0LjfNcNpc=
+pfBiZJb5GA2K6jqeLbgOlMU8kSkFvDzH56mqfPFCy-qAaqy3CmuQNNf0ITVRPi2wYq-9kIM8eUn=
+jCUbWKfkuoyOrXikpgkwyfPUaTDT5WKktBFRKsSPgAf3NAPzQDrbaYFJ5PGNDSimSf_qvdAjopS=
+PpydioZZ4JIEdyFBs=3D" target=3D"_blank">Unsubscribe Preferences</a></td></t=
+r>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td style=3D"background-color: #f8f8f8;" colspan=3D"3" align=3D"center">
+<div style=3D"vertical-align: baseline; margin: 0px; display: inline-block;=
+ border-width: 0px; padding: 0px;">&nbsp;</div>
+</td>
+</tr>
+<tr>
+<td style=3D"border-top: medium none; height: 40px; border-bottom: medium n=
+one; text-align: center; background-color: #f8f8f8; padding: 0px 0px 32px 0=
+px;" colspan=3D"3">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Prevent automatic resizing of embedded images -->
+<div style=3D"data:image/png;base64,iVBORw" alt=3D"." height=3D1></div>
+<img src=3D"https://u46938263.ct.sendgrid.net/wf/open?upn=3Du001.JOcAFCBxF4=
+kTcDoRnM5Uf1f8yvOM4iPd6Hb-2F36eMUksm3VjUlDhZ-2B1c9K0-2BJXtNTob-2FucYcm7IV0G=
+ogvUQC2SyWRxVSzIw2EKXh1l3b8CwdSYkRotpqsmkbyghkZpZfAhIZ-2BK6YnEK6HBJEb4W4bBd=
+sKWnf-2FhSIMG4tE8ET-2FZRyImh6g5YKwlLq-2FJAAPz9BCW6xV4JCn2j3o7pMy6p2O-2FGOEV=
+TRo4ZT93kQRR6DCZBEJpjSy5MMz1q-2FTfuhrhesF6yFOS72z-2FPNhtk1QS6C9bTrN7zMgAZIn=
+AAQPJO78rv06vY3-2FI8apBmPoMFt2xN13kIqxeW9ErOtrua5-2FgRI5hRLNMMSJXXcjF7-2FuF=
+tFU0wHisXVEjfAmh644xZDSHT-2BHz9YIoQV1TpGZV4nVceouWCu-2FIdyQ2XuKw9OHprc5OWxg=
+yTPI47H28M9r9M5Rgs9ATvcOwTsfBBXu41XZ2td3Y9L-2BZjIN-2FP3k-2FvTneA9WicpdxOYsi=
+kvtW0X8em1xr3JE0fuPuaQRn3LTOP-2FO8hFZkPPB65LAy5CprdjAiz44ZlLWX6myH8U572TyaN=
+LM3UyvIScKhpZvvjpXaxgdtE59-2FjdDCBRGHX-2BbUQIgY-2Fo8zON2R4nlzOWXMgMQIq4eRmQ=
+nnaFySvRRovWhg5lgjlnLxp2v-2BG9GL54XhH6g7oexlC9DuEWfDiE4lDoAnAw1KcJD4B7lVh86=
+DXaYQustPl15-2BVyyecmG-2BWQsFWiY6qA7q2lU0-2BU6-2BRfkBNpwEr8Fmj-2FcLsVzPQGIa=
+DZIkvNJnDg9KKA5s-2BS4MupshPyI-2BIc9Hjsa-2BensRfLKz0hR2GAUuBuPUutj2vAL1vR0V6=
+-2FMON3-2FwNwZKU-2Fxd-2BGBQCFrt7lV9c5XNder2W-2BsO4Cj01fOVDA30L84AcnVjnUZqsI=
+TbwcyXYzzwvj6SOLViCfNeEbC8b1Ec4J0-2BrqjaNkWP2Yvw5njo73-2FvqNFB4cIISc5J4F9iw=
+-3D-3D" alt=3D"" width=3D"1" height=3D"1" border=3D"0" style=3D"height:1px =
+!important;width:1px !important;border-width:0 !important;margin-top:0 !imp=
+ortant;margin-bottom:0 !important;margin-right:0 !important;margin-left:0 !=
+important;padding-top:0 !important;padding-bottom:0 !important;padding-righ=
+t:0 !important;padding-left:0 !important;"/></body>
+</html>
+--44ccb50879c182fd5978bf1c5052b5f4ce05d476be6d9aa1084624c39aa5--

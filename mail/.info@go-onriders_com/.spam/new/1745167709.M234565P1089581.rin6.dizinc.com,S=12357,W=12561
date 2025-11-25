@@ -1,0 +1,204 @@
+Return-Path: <jake@aiwebproservice.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id SIZqDV0lBWgtoBAAQ+45pw
+	(envelope-from <jake@aiwebproservice.com>)
+	for <info+spam@go-onriders.com>; Sun, 20 Apr 2025 12:48:29 -0400
+Return-path: <jake@aiwebproservice.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 20 Apr 2025 12:48:29 -0400
+Received: from mail-qk1-f194.google.com ([209.85.222.194]:60600)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <jake@aiwebproservice.com>)
+	id 1u6XqH-00000004ZWQ-02Dl
+	for info@go-onriders.com;
+	Sun, 20 Apr 2025 12:48:29 -0400
+Received: by mail-qk1-f194.google.com with SMTP id af79cd13be357-7c5675dec99so314031185a.0
+        for <info@go-onriders.com>; Sun, 20 Apr 2025 09:48:07 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=aiwebproservice-com.20230601.gappssmtp.com; s=20230601; t=1745167666; x=1745772466; darn=go-onriders.com;
+        h=to:subject:message-id:date:from:sender:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=+Dr6yMSunOSyI3EBMJNGIV2/jiWiCSHMT2E7IXDnnZ8=;
+        b=J7+r8OR5CDQEKzHn5/EffwH9C67+0UMOe9j0hcavj3ErJfD8dzw2ftFCfu55Y/M0Af
+         jJVaXa2PYUlTpSXJEZNTw8uD2tYv3VKQUiofHdzAiC5mLqyEWOfPWU3McJbmuVYJdWYp
+         lvfpSbz1NNExXfxuOFQ2mbYlZMV0Gfvf8iP6kULgYPKXqFIu98R03BELTpJamDmTtCgd
+         kLhMMyZi9HZKXsbhYt1YEpq+F1R9F+xH2INg6y1W8ihR4LZDjBHsKHq69dhMUO0gqVPA
+         2rL9PIRUh2at8iwTp0ls+BpusJHTBb2m0/F63/Gy72rA9s66TycReyvO58HRxg8bcBjA
+         M7fw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1745167666; x=1745772466;
+        h=to:subject:message-id:date:from:sender:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=+Dr6yMSunOSyI3EBMJNGIV2/jiWiCSHMT2E7IXDnnZ8=;
+        b=qRQdaOLIIvT1jk5MGhoKRDom7PXnYqr4B0YeEAq8zdfCfQFV+pAz0AyhVlzOX7JtNq
+         A14H/K3VPZ3Fp6IWcn48VGUwg3ZLa1BZvboWClK4F8xN4T/6+x/O6qY8I/UldFO4fdac
+         HbLJ8S1gdqI3KXQ0rp9yze2mawB3OFrQw1akmspSjWrOg+jkqEn4zaBwUm0xif2pse1F
+         NZ+VeCaoHwYS06Jm/I5mxjTr63hpaxxsARx+lREDUISR70I8XEJ1SplcgboZOb+n5Bpv
+         9USoiKY1u0MG5ng1zptXX4Txj3U5oxrSXCZinq3E+xccj9z9MJ2pCfauTfFQmztqPJSi
+         HLEg==
+X-Gm-Message-State: AOJu0YzrvoS25oFN513tBD7VR1sYhb25tcF5aHYgzBMATk4fuPPOmpHR
+	/zQKh6O5uuFk70fFJBTDNV67dpeu9+Sb8xhc2+nY4EssyXju3I5PSaAYF+QEhrwfNLVl6wzeK2L
+	j6vQ3qROIm5Y9z5RPBIX843P5UVRjrW67UrTK/VTVnLfznZpkWWk=
+X-Gm-Gg: ASbGnctbnXmWeSurLV31NGJLxOI7lmx1dPyR7IV0QWbgXFjuc1p4T4pswlhL8tGRQLY
+	pPVNR+3/awAcR0mma2u4CTYtlKDyYN76YsM2S/3hB2NPAxzubBhV5pO471CtH64JdASDbN7wsiu
+	JZMQeXmyDE9LDDnhFTTODwWT+zGGOi1+NPWe8BqpMyIgI5lRKOsvk=
+X-Google-Smtp-Source: AGHT+IH+A/hBTmAq2eUwT8isS8qXmQnSBLXOuVX35N3Bmuk6DT03cI54GeuBORfqjwdRv2SPsG1oVZ9v8GKYY5EWN34=
+X-Received: by 2002:a05:620a:4093:b0:7c5:43b4:fa97 with SMTP id
+ af79cd13be357-7c9280605b4mr1692029385a.53.1745167666672; Sun, 20 Apr 2025
+ 09:47:46 -0700 (PDT)
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 20 Apr 2025 09:47:46 -0700
+Received: from 52669349336 named unknown by gmailapi.google.com with HTTPREST;
+ Sun, 20 Apr 2025 09:47:45 -0700
+MIME-Version: 1.0
+Sender: "Jack Schofield," <jake@aiwebproservice.com>
+From: "Jack Schofield," <jake@aiwebproservice.com>
+Date: Sun, 20 Apr 2025 09:47:46 -0700
+X-Google-Sender-Auth: QBQYUA4ec9AfsofVETouJRlg7uE
+X-Gm-Features: ATxdqUEz6fC-OjH0iNrVsZm9bxF3TyVobs8c9mBaJsw-X8Lapeb6kqcXOHMTHUo
+Message-ID: <CAP__Cu78=mDq-U4cgSWLwkdqLtwjuw=AaJ6ut61_j=3Kmpzn8w@mail.gmail.com>
+To: Info <info@go-onriders.com>
+Content-Type: multipart/alternative; boundary="000000000000d88ed90633388254"
+X-MagicSpam-TUUID: 4ccbd7e0-0cde-4750-96e9-7b1446c2f318
+X-MagicSpam-SUUID: a869e28f-c912-41a0-9497-bee0f25253c1
+X-Spam-Status: Yes, score=8.8
+X-Spam-Score: 88
+X-Spam-Bar: ++++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello* go-onriders.com <https://aiwebproservice-dot-yamm-track.appspot.com/2NfYxAGf14Ji-9kCzSkKmVFFjkAYgFQ-nLQrRfQO2OcKbRxlUlgHWmdslnjRuIS37B6chco0eLOrqEEdC9LSRhbZvo1jPIqXXab2zqI8EMoXtTtafqj7YpSmm4sY8
+    [...] 
+ Content analysis details:   (8.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                         [209.85.222.194 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [209.85.222.194 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [209.85.222.194 listed in bl.score.senderscore.com]
+  8.0 URIBL_BLACK            Contains an URL listed in the URIBL blacklist
+                             [URI: aiwebproservice-dot-yamm-track.appspot.com]
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 KAM_ADVERT2            BODY: This is probably an unwanted commercial email...
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+X-Spam-Flag: YES
+Subject:  ***SPAM***  go-onriders.com : SEO Package/ Proposal.?
+
+--000000000000d88ed90633388254
+Content-Type: text/plain; charset="UTF-8"
+
+Hello* go-onriders.com
+<https://aiwebproservice-dot-yamm-track.appspot.com/2NfYxAGf14Ji-9kCzSkKmVFFjkAYgFQ-nLQrRfQO2OcKbRxlUlgHWmdslnjRuIS37B6chco0eLOrqEEdC9LSRhbZvo1jPIqXXab2zqI8EMoXtTtafqj7YpSmm4sY8hApqZORc8pLAWgeFJBDs2C1TaTFAkEkLdWUh0BZ_VCEbIvpWvBZuAtAMZQ>*
+
+
+
+I checked your website *go-onriders.com
+<https://aiwebproservice-dot-yamm-track.appspot.com/2h1yZIEv7a3I_b_qcKxQit7RzN8r_1BU4DROq2q5FKIqsRxlUlgE4gaafnWbOsPEI-UJwnCSQZgn-ktOhnvtlviQmmK_6mrPNT9NQ91PPkNNaSBpUR4ZyB7i4-_ZY16wTj2EP9gTlMWX6bebGLi882NcvJx4Tiu3lOEvLCOW83rnjIuIWdJE9Wg>*
+ . You have an impressive site *go-onriders.com
+<https://aiwebproservice-dot-yamm-track.appspot.com/2SmTPKepAV1pt5KSEExhyXencKF0nrm-f02uDvrgUL92zRxlUlgG2knMvlE3u7Mq7LWHH8pGMlniw-vZHElZ6eH6alOzPBl_17lo6KyatQtdLjQS8tEyLh5Qm1MjSa8KgmyhjKfLpkaSux98RTDT7V-V4ZWNIfqTh85vBULza9avIQsRgnVeFmQ>*
+ but ranking is not good on Google and Bing.
+
+
+
+Would you like to optimize your site *go-onriders.com
+<https://aiwebproservice-dot-yamm-track.appspot.com/2GHkE6kM3GqnrD3fZn__lfwxufnX2sJ8zDApMdz37Fta5RxlUlgFaIlXuFbiNtpSHRC_OQtsFaSudTCCxVTgjhIXe40943bvUOKytLgG9anUpZOoV8i5CJ127_GsHxtFuG_GuvN4e2UVKqyKlOOWrRag0Bb7z3hgNBIogjv3EHDbnrz0kJSIK5w>*?
+I will be happy to share with you our pricing and proposals.
+
+
+
+May I send you Quote/ Package/ Proposal.?
+
+Let me know how I can assist you with your project!
+
+Regards,
+
+Jack Schofield
+
+ ----------------------------------------------
+Note: If you are not interested, please
+
+reply here to remove.
+[image: beacon]
+
+--000000000000d88ed90633388254
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div><p class=3D"MsoNormal" style=3D"margin-right:0in;marg=
+in-left:0in"><span style=3D"color:black"><font face=3D"verdana, sans-serif"=
+>Hello<b>=C2=A0<a href=3D"https://aiwebproservice-dot-yamm-track.appspot.co=
+m/2NfYxAGf14Ji-9kCzSkKmVFFjkAYgFQ-nLQrRfQO2OcKbRxlUlgHWmdslnjRuIS37B6chco0e=
+LOrqEEdC9LSRhbZvo1jPIqXXab2zqI8EMoXtTtafqj7YpSmm4sY8hApqZORc8pLAWgeFJBDs2C1=
+TaTFAkEkLdWUh0BZ_VCEbIvpWvBZuAtAMZQ" rel=3D"nofollow">go-onriders.com</a></=
+b></font></span></p></div><div><p class=3D"MsoNormal" style=3D"margin-right=
+:0in;margin-left:0in"><span style=3D"color:black"><font face=3D"verdana, sa=
+ns-serif">=C2=A0 =C2=A0 =C2=A0<u></u><u></u></font></span></p></div><div><p=
+ class=3D"MsoNormal" style=3D"margin-right:0in;margin-left:0in"><font face=
+=3D"verdana, sans-serif"><span style=3D"color:black">I checked your website=
+=C2=A0</span><b style=3D"color:rgb(0,0,0)"><a href=3D"https://aiwebproservi=
+ce-dot-yamm-track.appspot.com/2h1yZIEv7a3I_b_qcKxQit7RzN8r_1BU4DROq2q5FKIqs=
+RxlUlgE4gaafnWbOsPEI-UJwnCSQZgn-ktOhnvtlviQmmK_6mrPNT9NQ91PPkNNaSBpUR4ZyB7i=
+4-_ZY16wTj2EP9gTlMWX6bebGLi882NcvJx4Tiu3lOEvLCOW83rnjIuIWdJE9Wg" rel=3D"nof=
+ollow">go-onriders.com</a></b>=C2=A0<span style=3D"color:black">. You have =
+an impressive site=C2=A0</span><b style=3D"color:rgb(0,0,0)"><a href=3D"htt=
+ps://aiwebproservice-dot-yamm-track.appspot.com/2SmTPKepAV1pt5KSEExhyXencKF=
+0nrm-f02uDvrgUL92zRxlUlgG2knMvlE3u7Mq7LWHH8pGMlniw-vZHElZ6eH6alOzPBl_17lo6K=
+yatQtdLjQS8tEyLh5Qm1MjSa8KgmyhjKfLpkaSux98RTDT7V-V4ZWNIfqTh85vBULza9avIQsRg=
+nVeFmQ" rel=3D"nofollow">go-onriders.com</a></b>=C2=A0<span style=3D"color:=
+black">but ranking is not good on Google and Bing.<u></u><u></u></span></fo=
+nt></p></div><div><p class=3D"MsoNormal" style=3D"margin-right:0in;margin-l=
+eft:0in"><span style=3D"color:black"><font face=3D"verdana, sans-serif">=C2=
+=A0 =C2=A0 =C2=A0<u></u><u></u></font></span></p></div><div><p class=3D"Mso=
+Normal" style=3D"margin-right:0in;margin-left:0in"><font face=3D"verdana, s=
+ans-serif"><span style=3D"color:black">Would you like to optimize your site=
+</span>=C2=A0<b style=3D"color:rgb(0,0,0)"><a href=3D"https://aiwebproservi=
+ce-dot-yamm-track.appspot.com/2GHkE6kM3GqnrD3fZn__lfwxufnX2sJ8zDApMdz37Fta5=
+RxlUlgFaIlXuFbiNtpSHRC_OQtsFaSudTCCxVTgjhIXe40943bvUOKytLgG9anUpZOoV8i5CJ12=
+7_GsHxtFuG_GuvN4e2UVKqyKlOOWrRag0Bb7z3hgNBIogjv3EHDbnrz0kJSIK5w" rel=3D"nof=
+ollow">go-onriders.com</a></b><span style=3D"color:black">? I will be happy=
+ to share with you our=C2=A0<span style=3D"background:lime">pricing and pro=
+posals.</span><u></u><u></u></span></font></p></div><div><p class=3D"MsoNor=
+mal" style=3D"margin-right:0in;margin-left:0in"><span style=3D"color:black"=
+><font face=3D"verdana, sans-serif">=C2=A0 =C2=A0 =C2=A0<u></u><u></u></fon=
+t></span></p></div><div><p class=3D"MsoNormal" style=3D"margin-right:0in;ma=
+rgin-left:0in"><font face=3D"verdana, sans-serif"><span style=3D"color:blac=
+k;background:yellow">May I send you Quote/ Package/ Proposal.?=C2=A0=C2=A0<=
+/span><span style=3D"color:black"><u></u><u></u></span></font></p></div><di=
+v><p style=3D"margin-right:0in;margin-left:0in"><font face=3D"verdana, sans=
+-serif">Let me know how I can assist you with your project!<u></u><u></u></=
+font></p><p class=3D"MsoNormal" style=3D"margin-right:0in;margin-bottom:8pt=
+;margin-left:0in"><font face=3D"verdana, sans-serif">Regards,</font></p><p =
+class=3D"MsoNormal" style=3D"margin:0cm 0cm 0.0001pt;line-height:11.2pt;bac=
+kground-image:initial;background-position:initial;background-size:initial;b=
+ackground-repeat:initial;background-origin:initial;background-clip:initial"=
+><font face=3D"Verdana, sans-serif">Jack Schofield</font></p><p class=3D"Ms=
+oNormal" style=3D"margin-right:0in;margin-bottom:8pt;margin-left:0in"><font=
+ face=3D"verdana, sans-serif">=C2=A0---------------------------------------=
+-------<br>Note: If you are not interested, please<u></u><u></u></font></p>=
+<p class=3D"MsoNormal" style=3D"margin-right:0in;margin-bottom:8pt;margin-l=
+eft:0in"><font face=3D"verdana, sans-serif">reply here to remove.</font></p=
+></div></div>
+<img src=3D"https://aiwebproservice-dot-yamm-track.appspot.com/28dnAaLdSf4H=
+4yR12QXYpre-Gdu0BtTGGnq1kYQ3_b_RwRxlUlgEVAbeQk0DFk3mwdbXfv1e1iYkZKqC7O-3Rlt=
+FzhqCD2TzFL-oCZEbbWvGlQvTlkalyL2sPeICcMpTbzAfZfz-_no6w8ooYN0mQFLDq4w5AbgZQo=
+wGyHnvT" width=3D"1" height=3D"1" alt=3D"beacon" style=3D"display:none; dis=
+play:none!important;">
+
+--000000000000d88ed90633388254--

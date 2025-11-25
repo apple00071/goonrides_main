@@ -1,0 +1,665 @@
+Return-Path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id 0CdpOnDW8GKsLwAAQ+45pw
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	for <info@go-onriders.com>; Mon, 08 Aug 2022 05:25:04 -0400
+Return-path: <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 08 Aug 2022 05:25:04 -0400
+Received: from wrqvtvkv.outbound-mail.sendgrid.net ([149.72.120.24]:41456)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounces+18867331-1bf7-info=go-onriders.com@em3566.interakt.ai>)
+	id 1oKz0R-0001ro-Tq
+	for info@go-onriders.com; Mon, 08 Aug 2022 05:25:04 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=interakt.ai;
+	h=content-type:from:mime-version:subject:reply-to:to:list-unsubscribe:
+	cc;
+	s=s1; bh=BVyeM0Kw7ZaXKMN4397eiKzapIEYeVOlolYF+dAdUtY=;
+	b=m2tDaikRP6wiW+K+2r7tRW61VubnFfkimyiWKZUihVxSMu/YoTXDiBVrLYsZOvkESk78
+	wWpVxP9/oOiObwatKX3GLUBazfj1va8JJ0dU3CHgihGOw/Ziy+cGMCZB0yBPw0R6W5uxw+
+	ILVYOIlTM/iFJqVKGd2CWyKK4s8kZ3PvecykFCpMkF4wYPzLfaRZOr56bLODN9QmdD8+ht
+	nB5YB/IwDW1n4F8MbP2txANjvUFweV6aFIJgyzh/Qg9efbSwyk8yOUHVrFWtAOsR1fvwl2
+	M2E5ONW75f3BDDHNiQeJKLLTKi1ef+n5DNs5x7tDuzQEy6xw04GKzKF9in3KNrgQ==
+Received: by filterdrecv-846bc987b5-2ngxl with SMTP id filterdrecv-846bc987b5-2ngxl-1-62F0D644-23
+        2022-08-08 09:24:20.461629226 +0000 UTC m=+1516795.323860556
+Received: from MTg4NjczMzE (unknown)
+	by geopod-ismtpd-3-1 (SG) with HTTP
+	id LTA_uMFMTH2B2X2y-SnHoQ
+	Mon, 08 Aug 2022 09:24:20.412 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=8be4dcc1bf23135cc7b7be6c5d0c0d2c4a77ce7d2fd2c58c49392ee848ba
+Date: Mon, 08 Aug 2022 09:24:22 +0000 (UTC)
+From: Team interakt <hello@interakt.ai>
+Mime-Version: 1.0
+Message-ID: <LTA_uMFMTH2B2X2y-SnHoQ@geopod-ismtpd-3-1>
+Subject: D2C Masterclass with experts from Shopify & WhatsApp | Register Now
+Reply-To: support@interakt.ai
+X-SG-EID: 
+ =?us-ascii?Q?tZ5lMlOwv4qvkJKB+uUUpZCJt5k+bCwQ5=2FVm1dLnFpGIOgFuzW+=2FeJ4CqbwbTt?=
+ =?us-ascii?Q?QUfKrDhBKphPh8VT5vq5AfCfUF5QttnReISRj+S?=
+ =?us-ascii?Q?2aPpDyld3wwDnjxX8ZBJg79qGLUhHpgPryd=2FAHH?=
+ =?us-ascii?Q?CbvaG7GuFc00sSi50OlOv41H1xUZAtuGo1bNtNK?=
+ =?us-ascii?Q?SdJtbZzLxTADUGAWuficm=2FVPLAzMb+hmXIRlmue?=
+ =?us-ascii?Q?lkTycCTGC0FyvvGpIgLDfL7i7BpiNUqyIVA5bn?=
+X-SG-ID: 
+ =?us-ascii?Q?se=2F49CGmbS0sfR97ImeXvORLzTKaseml+OpibdHqvdXSSZEEo5XvojB3SOt43H?=
+ =?us-ascii?Q?hLnE+Cu1qPxW3368szjlyOde8ZkZALHWCxgEZMN?=
+ =?us-ascii?Q?h6EORexb1p9B4+0gc=2F=2FGkpQqt2aP3hUalqLV5Re?=
+ =?us-ascii?Q?55h3pqU2mcIyPc9e=2FjDDyiz14hcUFvZaAiuuH=2FC?=
+ =?us-ascii?Q?s1KNP6fyDBJ4mcYZzSpkxO4Arhxa2mN3pEM6F3F?=
+ =?us-ascii?Q?nGzOCNRS2BCswmDJEXaOTTjBTcERf8FqBySy4eL?=
+ =?us-ascii?Q?dMSd9GYg9xE6FYjzxIhzvrTCwTA6z0wgObavt0i?=
+ =?us-ascii?Q?G32K19v0Qu6z5aD+ms9=2Feuo=2F28sVAhl4u5T4H8q?=
+ =?us-ascii?Q?CN0XTBGpTDHP9Hqm186Vx6Vhd7wfRhvxaTmt0=2F0?=
+ =?us-ascii?Q?AgmUpTHcy0yQjsTe0GQhGufi6PpcpgLunarefZp?=
+ =?us-ascii?Q?pkpCGlqKlM9BcRl=2FgsNugsCzfr=2FSaKEgKSWZ8wI?=
+ =?us-ascii?Q?P5I+mhPO9nS=2FQ+tWjuf2NCgvVtLmkNFjUW=2FHgZy?=
+ =?us-ascii?Q?SvN6X4phPleqsXOEMuyiHJWbT79ReAVXC3vQMmk?=
+ =?us-ascii?Q?8s3+xOQvd7B3FvaFWHpK9nIi4tDTZVn0+J9l06V?=
+ =?us-ascii?Q?Zx2dZYQHSHIgQb9LW+VXRzsdz8YgDAVrx1nntWF?=
+ =?us-ascii?Q?RB2rBhfXSrv2nYgjOnUVEEZoyWnMf85BE8vOLEu?=
+ =?us-ascii?Q?YFQ22Yn8kK+4haOxjzl=2FMIHP5JiOy+bvoVDvPYD?=
+ =?us-ascii?Q?v=2FwYb30sOTV1DFgEZalrc3Qh+vgvRDZhw63ZsgE?=
+ =?us-ascii?Q?+5rLQlC2la0Uu0pYb7Aub3gIz6=2F5XG1YaG9q0dy?=
+ =?us-ascii?Q?WoeXbDEHYRh6gCFttcxk4R3Um=2FyfAN2Xr0OT53y?=
+ =?us-ascii?Q?wewduXDY=3D?=
+To: Go onrides Bike rentals in Hyderabad <info@go-onriders.com>
+X-Entity-ID: zq9fjstDuAdEFIgk/ktvZg==
+List-Unsubscribe: 
+ =?us-ascii?Q?=3Cmailto=3Aunsubscribe=40em3566=2Einterakt=2Eai=3Fsubject=3Dhttps=3A=2F=2Fu188673?=
+ =?us-ascii?Q?31=2Ect=2Esendgrid=2Enet=2Fwf=2Funsubscribe*q*upn?=
+ =?us-ascii?Q?=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHa?=
+ =?us-ascii?Q?GMh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY?=
+ =?us-ascii?Q?-2ByQ0tFJ-2BRMLB5YwVS9ZZ5HknQYdcYohlckc?=
+ =?us-ascii?Q?8pXBKld-2BstiVvtORwiE3BuuIq1c6UmIiSR2Fl?=
+ =?us-ascii?Q?NJoYuu-2BctZK-2Bi3J1QOTD4xNaMQFz27A-2BD?=
+ =?us-ascii?Q?FpyWO5IdfmjxACud7-2Fb4DWXhPuDd0OaXUDU98?=
+ =?us-ascii?Q?nsuH5eqtjxClci0oxBuXgZYFhy9g3LEm9dxJQHS?=
+ =?us-ascii?Q?nvt3CCMWvKEYEbbREDkkJecaxjxU4sOgg9TgOKg?=
+ =?us-ascii?Q?fo08-2FNg6nIFvkaQ6LNtZ3yKr1KuSg2PBj8jpe?=
+ =?us-ascii?Q?C0pkInXfFku4YT2YTVYq-2FMMIe0HBw7UlIJmeH?=
+ =?us-ascii?Q?OOIQAVgdiENBStvjWEupTyZI7hUqZrHepZ4-2FA?=
+ =?us-ascii?Q?25ok1O6HNCxdbEb-2BpWhZljzAFUo-2BoQ1Yueh?=
+ =?us-ascii?Q?jrXFqSZ-2B3q1dLgGDJDQwo6pblofB-2BH3zKbW?=
+ =?us-ascii?Q?F57DUxm9ZfOT8nSU2-2BEUSLmYpwEzuFxOyK-2B?=
+ =?us-ascii?Q?X-2BrupIGzBd1Bhk9aLwLxEagh-2BSYzpxyYNib?=
+ =?us-ascii?Q?cARLSJ1y64a8jZE4KNjb6RO6rVC3W6KRLqojN4U?=
+ =?us-ascii?Q?xGBteUUQaXjhs1T60qCVKbqweMCsuheiuIa-2Bm?=
+ =?us-ascii?Q?VGRVfEeJ5skOvBu0i4QQXn5MOAyrG1yn4iEO6-2?=
+ =?us-ascii?Q?B2MahGRDUEnKHihBpHUiZd2OZCXqJ66XiLXv-2B?=
+ =?us-ascii?Q?Td7EyuwApLCGlroVm0mJ5mzy-2BjWTYrNQmfpGz?=
+ =?us-ascii?Q?bI24DA-2Ff0lN0nYOVx-2BSk4BGG2cZKjcktDZy?=
+ =?us-ascii?Q?F6XXYdRVD1a6fbCU9bq-2BmCsuqSnf4-2BqzJe7?=
+ =?us-ascii?Q?QdImnFNLQq1A-2FV-2Bvrl8pnk9AF8UmBF114B-?=
+ =?us-ascii?Q?2FLhrZ7coTq-2BzC-2BEytJ8-2BCDDReeg-2FC8?=
+ =?us-ascii?Q?0xiLMlVmyT8QyYCNigS5DNWmoqBRp0hO71Rmkso?=
+ =?us-ascii?Q?YGCSYku7ggAjkF-2Fz0YIuEJidTGN1Cysbw5Va5?=
+ =?us-ascii?Q?eVSIxh3SB88-2FJX1NaSTlZacMxqVmXgVj8SQOw?=
+ =?us-ascii?Q?OJ7Z5-2B5axqraKZw08mTzkcswpPVb3NafZ1Nmo?=
+ =?us-ascii?Q?W43eg8YehTFdtNsBZ5IV72oFCQknKFP7A-3D-3D?= =?us-ascii?Q?=3E?=
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Learn from the experts - Transforming the future of commerce
+    on Shopify Interakt | Webinar ( https://us06web.zoom.us/webinar/register/6916595985133/WN_zisdl-FKQkGkyarViln4UQ
+    ) Hi Go onrides Bike rentals in Hyderabad, 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [149.72.120.24 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [149.72.120.24 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  1.5 SENDGRID_REDIR         Redirect URI via Sendgrid
+X-Spam-Flag: NO
+
+--8be4dcc1bf23135cc7b7be6c5d0c0d2c4a77ce7d2fd2c58c49392ee848ba
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=utf-8
+Mime-Version: 1.0
+
+Learn from the experts - Transforming the future of commerce on Shopify
+
+Interakt | Webinar ( https://us06web.zoom.us/webinar/register/6916595985133=
+/WN_zisdl-FKQkGkyarViln4UQ )
+
+Hi Go onrides Bike rentals in Hyderabad,
+
+Did you register for our first-ever D2C Masterclass coming up this Wednesda=
+y?
+
+Looks like it slipped your sight so, we are here to remind you again!
+
+Don=E2=80=99t miss the chance to listen to the industry experts from Shopif=
+y & WhatsApp on 10th August, 4 PM onwards, sharing their secret formulas ab=
+out:
+
+*- How to use WhatsApp to drive 4X revenue from your online sales in a year=
+*
+
+*- How to maximize conversions with WhatsApp-Shopify integration*
+
+*- How to retain existing customers and engage new ones using Interakt=E2=
+=80=99s powerful WhatsApp Business Platform*
+
+1000s of businesses like you, aiming to make the most out of the upcoming f=
+estive season, have already registered for this event.
+
+In these 45 minutes, you=E2=80=99ll gain actionable insights that you can p=
+ractice to boost your sales this festive season!
+
+So, why wait? Join the experts at Interakt=E2=80=99s D2C Masterclass sessio=
+n and get ready to skyrocket your sales during the festive rush!
+
+Register Now ( https://us06web.zoom.us/webinar/register/4716595150333/WN_zi=
+sdl-FKQkGkyarViln4UQ )
+
+Regards,
+Team Interakt
+
+Team interakt
+
+Jio Haptik Technologies Pvt Ltd, A-801, Cello Triumph, IB Patel Road, Goreg=
+aon East , Mumbai ,  400063
+
+Unsubscribe ( https://u18867331.ct.sendgrid.net/wf/unsubscribe?upn=3DQFWB4B=
+CTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY-2By=
+Q0tFJ-2BRMLB5YwVS9ZZ5HknQYdcYohlckc8pXBKld-2BstiVvtORwiE3BuuIq1c6UmIiSR2FlN=
+JoYuu-2BctZK-2Bi3J1QOTD4xNaMQFz27A-2BDFpyWO5IdfmjxACud7-2Fb4DWXhPuDd0OaXUDU=
+98nsuH5eqtjxClci0oxBuXgZYFhy9g3LEm9dxJQHSnvt3CCMWvKEYEbbREDkkJecaxjxU4sOgg9=
+TgOKgfo08-2FNg6nIFvkaQ6LNtZ3yKr1KuSg2PBj8jpeC0pkInXfFku4YT2YTVYq-2FMMIe0HBw=
+7UlIJmeHOOIQAVgdiENBStvjWEupTyZI7hUqZrHepZ4-2FA25ok1O6HNCxdbEb-2BpWhZljzAFU=
+o-2BoQ1YuehjrXFqSZ-2B3q1dLgGDJDQwo6pblofB-2BH3zKbWF57DUxm9ZfOT8nSU2-2BEUSLm=
+YpwEzuFxOyK-2BX-2BrupIGzBd1Bhk9aLwLxEagh-2BSYzpxyYNibcARLSJ1y64a8jZE4KNjb6R=
+O6rVC3W6KRLqojN4UxGBteUUQaXjhs1T60qCVKbqweMCsuheiuIa-2BmVGRVfEeJ5skOvBu0i4Q=
+QXn5MOAyrG1yn4iEO6-2B2MahGRDUEnKHihBpHUiZd2OZCXqJ66XiLXv-2BTd7EyuwApLCGlroV=
+m0mJ5mzy-2BjWTYrNQmfpGzbI24DA-2Ff0lN0nYOVx-2BSk4BGG2cZKjcktDZyF6XXYdRVD1a6f=
+bCU9bq-2BmCsuqSnf4-2BqzJe7QdImnFNLQq1A-2FV-2Bvrl8pnk9AF8UmBF114dGXjwusP3bIb=
+ikPsT-2BiZ3IghSDW9A1FiOBIRzsZR6msPZrKB97sVRwrxjNQb0XtiMlW2d0-2BGg5WjqMNu8Wi=
+GIU2tICnaRk9Z4xkPWMExq8bxFh6fFt2O2apymRer63Dye2Z8nzHkUUuZWUobBhgcJkjgdoiMDs=
+7Pw6hk0nScf9LqIzTUkvgIo2QCqgwZFMMwRmgxUGnBMfFmNTjXQeCWVA-3D-3D )
+--8be4dcc1bf23135cc7b7be6c5d0c0d2c4a77ce7d2fd2c58c49392ee848ba
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Mime-Version: 1.0
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html data-editor-version=3D"2" class=3D"sg-campaigns" xmlns=3D"http://www.=
+w3.org/1999/xhtml">
+    <head>
+      <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scal=
+e=3D1, minimum-scale=3D1, maximum-scale=3D1">
+      <!--[if !mso]><!-->
+      <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3DEdge">
+      <!--<![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+      <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+      </xml>
+      <![endif]-->
+      <!--[if (gte mso 9)|(IE)]>
+  <style type=3D"text/css">
+    body {width: 600px;margin: 0 auto;}
+    table {border-collapse: collapse;}
+    table, td {mso-table-lspace: 0pt;mso-table-rspace: 0pt;}
+    img {-ms-interpolation-mode: bicubic;}
+  </style>
+<![endif]-->
+      <style type=3D"text/css">
+    body, p, div {
+      font-family: arial,helvetica,sans-serif;
+      font-size: 14px;
+    }
+    body {
+      color: #000000;
+    }
+    body a {
+      color: #1188E6;
+      text-decoration: none;
+    }
+    p { margin: 0; padding: 0; }
+    table.wrapper {
+      width:100% !important;
+      table-layout: fixed;
+      -webkit-font-smoothing: antialiased;
+      -webkit-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+    }
+    img.max-width {
+      max-width: 100% !important;
+    }
+    .column.of-2 {
+      width: 50%;
+    }
+    .column.of-3 {
+      width: 33.333%;
+    }
+    .column.of-4 {
+      width: 25%;
+    }
+    ul ul ul ul  {
+      list-style-type: disc !important;
+    }
+    ol ol {
+      list-style-type: lower-roman !important;
+    }
+    ol ol ol {
+      list-style-type: lower-latin !important;
+    }
+    ol ol ol ol {
+      list-style-type: decimal !important;
+    }
+    @media screen and (max-width:480px) {
+      .preheader .rightColumnContent,
+      .footer .rightColumnContent {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent div,
+      .preheader .rightColumnContent span,
+      .footer .rightColumnContent div,
+      .footer .rightColumnContent span {
+        text-align: left !important;
+      }
+      .preheader .rightColumnContent,
+      .preheader .leftColumnContent {
+        font-size: 80% !important;
+        padding: 5px 0;
+      }
+      table.wrapper-mobile {
+        width: 100% !important;
+        table-layout: fixed;
+      }
+      img.max-width {
+        height: auto !important;
+        max-width: 100% !important;
+      }
+      a.bulletproof-button {
+        display: block !important;
+        width: auto !important;
+        font-size: 80%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+      .columns {
+        width: 100% !important;
+      }
+      .column {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+      .social-icon-column {
+        display: inline-block !important;
+      }
+    }
+  </style>
+    <style>
+      @media screen and (max-width:480px) {
+        table\0 {
+          width: 480px !important;
+          }
+      }
+    </style>
+      <!--user entered Head Start--><!--End Head user entered-->
+    </head>
+    <body>
+      <center class=3D"wrapper" data-link-color=3D"#1188E6" data-body-style=
+=3D"font-size:14px; font-family:arial,helvetica,sans-serif; color:#000000; =
+background-color:#FFFFFF;">
+        <div class=3D"webkit">
+          <table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"=
+100%" class=3D"wrapper" bgcolor=3D"#FFFFFF">
+            <tr>
+              <td valign=3D"top" bgcolor=3D"#FFFFFF" width=3D"100%">
+                <table width=3D"100%" role=3D"content-container" class=3D"o=
+uter" align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                  <tr>
+                    <td width=3D"100%">
+                      <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                        <tr>
+                          <td>
+                            <!--[if mso]>
+    <center>
+    <table><tr><td width=3D"600">
+  <![endif]-->
+                                    <table width=3D"100%" cellpadding=3D"0"=
+ cellspacing=3D"0" border=3D"0" style=3D"width:100%; max-width:600px;" alig=
+n=3D"center">
+                                      <tr>
+                                        <td role=3D"modules-container" styl=
+e=3D"padding:0px 0px 0px 0px; color:#000000; text-align:left;" bgcolor=3D"#=
+FFFFFF" width=3D"100%" align=3D"left"><table class=3D"module preheader preh=
+eader-hide" role=3D"module" data-type=3D"preheader" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"display: none !important;=
+ mso-hide: all; visibility: hidden; opacity: 0; color: transparent; height:=
+ 0; width: 0;">
+    <tr>
+      <td role=3D"module-content">
+        <p>Learn from the experts - Transforming the future of commerce on =
+Shopify</p>
+      </td>
+    </tr>
+  </table><table class=3D"wrapper" role=3D"module" data-type=3D"image" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"2b8d32af-2eed-42bf-baf9-ddb9b860347b">
+    <tbody>
+      <tr>
+        <td style=3D"font-size:6px; line-height:10px; padding:0px 0px 0px 0=
+px;" valign=3D"top" align=3D"center">
+         =20
+        <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=3DXtSSqkA=
+7o5sYTQ1Kkx-2Fi0joMNWdIbZhvohsQszjEtLmgyH-2Fcc-2Fh9m7sDA6EEda3ToU93oHZ1AkWR=
+TRo26bYCxMc5UWQKTJpUgyU-2BlJoWFm0CLux-2FQo5mrxVAfokzPvVvzRCf_RYEeg99Ap79leT=
+7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwKvfA9i5Pezpm96PohftCjL3uU=
+geJP-2B13RandPurmedDIMQGSyZjJWcz0JrXyyWF2jq35AOj5V2UUlm-2FBcqVeVGwtPhlbrCc5=
+0ckIVRDyMuFUX9GcXO2h2Et-2FEu9HTGZ8cTZjXQAZ6SVawAIDNFTvLxmttRBQKp6TODRx4lEwy=
+2leJWgimrrnaIwxOtOUlb89Y5MegyLAmN31BMFbYYpPy-2Fu4D-2B-2Byp6RBzrnLEInpXrfYKC=
+jSU7Sg1SLmhGLhO3YLyg8MiZLgohhOTfghUnDnX1p0UozuIO8J3ZZM8nhNu1LcWTc0bEE04kCKH=
+wZHwbmgzvTeE0RWfodywDSodcM8JtdLWqSM1NaE0W2Qy5TjqEm5V3grXoZoZNX43xUjTy5fPOc8=
+-2FXf7Hfb-2Fla6rpxk0jxOr72t4-2Fho-2FCTejepMbp2WqJKjRUKrC96GsVVKEgdXqxfNS7Qj=
+knGAZbRcFT1KNHz5YEcEmxEZOkz726OABIAL0Ug4gvSAtRl5ITwHEI4P7xRVFALDENeORcnV6Jy=
+YS-2FcLHs2Z-2BudloBh80LiOWt5Yxm0jJ-2FWvhfgeRtZbB-2FLyeGnRxI-2FAps4Fe25MOvWf=
+98DUZlDsVv-2FJmX18qMP7moFViLTCHSZwMCraShgu2Z40iTRxvx7NLtOERzu33N-2FsQSIJBQD=
+ZpsZUs35ergWN-2BwcyQzjA0U5V7Fb015Pg9oYFP-2Bn-2BT8hetD3yGfhx7bwtiFzOcj5m4dfd=
+K4TWFouyF6QXvGawhCtLDjqmZvLQUj-2Fkf57xkTPTO-2BQbKY61SgOEOLAF7ui7XPwUjp80HQP=
+huLrRsHVaqRXcTTscjShPNJwaig8d-2FEHuNiynHN6qGQ-2BC2PczUygXT9ZBl2PGuY1buupc9F=
+FpfqBwGJwWny393jbURaXQNM-2BtXrhW7rY-2FfsKan0z2kP0Tk3-2BU2tahmV8X8tox2bK1A4w=
+V7XMG8Osv94KRG"><img class=3D"max-width" border=3D"0" style=3D"display:bloc=
+k; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-=
+serif; font-size:16px; max-width:100% !important; width:100%; height:auto !=
+important;" width=3D"600" alt=3D"Interakt | Webinar" data-proportionally-co=
+nstrained=3D"true" data-responsive=3D"true" src=3D"http://cdn.mcauto-images=
+-production.sendgrid.net/ccf6b07b7158c0e6/daeaaef3-59d2-40ee-9862-fdb0f28e2=
+a0d/1200x628.png"></a></td>
+      </tr>
+    </tbody>
+  </table><table class=3D"module" role=3D"module" data-type=3D"text" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-la=
+yout: fixed;" data-muid=3D"105758fc-a719-446c-ae9a-556e4ac3aae1" data-mc-mo=
+dule-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit; background-color:#ffffff;" height=3D"100%" valign=3D"top" bgcolo=
+r=3D"#ffffff" role=3D"module-content"><div><div style=3D"font-family: inher=
+it; text-align: inherit"><span style=3D"line-height: 1.76087; background-co=
+lor: transparent; margin-top: 0pt; margin-bottom: 0pt; color: #000000; font=
+-weight: 400; font-style: normal; font-variant-ligatures: normal; font-vari=
+ant-caps: normal; font-variant-numeric: normal; font-variant-east-asian: no=
+rmal; text-decoration-line: none; text-decoration-thickness: initial; text-=
+decoration-style: initial; text-decoration-color: initial; vertical-align: =
+baseline; white-space: pre-wrap; font-family: arial,helvetica,sans-serif; f=
+ont-size: 13px">Hi Go onrides Bike rentals in Hyderabad,</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: arial,helvetica,sans-serif; font-size: 13px">&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"lin=
+e-height: 1.76087; background-color: transparent; margin-top: 0pt; margin-b=
+ottom: 0pt; color: #000000; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-thickness: initial; text-decoration-style: initial; text-decoration-=
+color: initial; vertical-align: baseline; white-space: pre-wrap; font-famil=
+y: arial,helvetica,sans-serif; font-size: 13px">Did you register for our fi=
+rst-ever D2C Masterclass coming up this Wednesday?</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: arial,helvetica,sans-serif; font-size: 13px">&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"lin=
+e-height: 1.76087; background-color: transparent; margin-top: 0pt; margin-b=
+ottom: 0pt; color: #000000; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-thickness: initial; text-decoration-style: initial; text-decoration-=
+color: initial; vertical-align: baseline; white-space: pre-wrap; font-famil=
+y: arial,helvetica,sans-serif; font-size: 13px">Looks like it slipped your =
+sight so, we are here to remind you again!</span><span style=3D"font-family=
+: arial,helvetica,sans-serif; font-size: 13px"><br>
+<br>
+</span><span style=3D"line-height: 1.76087; background-color: transparent; =
+margin-top: 0pt; margin-bottom: 0pt; color: #000000; font-weight: 400; font=
+-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; =
+font-variant-numeric: normal; font-variant-east-asian: normal; text-decorat=
+ion-line: none; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial; vertical-align: baseline; white-sp=
+ace: pre-wrap; font-family: arial,helvetica,sans-serif; font-size: 13px">Do=
+n=E2=80=99t miss the chance to listen to the industry experts from Shopify =
+&amp; WhatsApp on 10th August, 4 PM onwards, sharing their secret formulas =
+about:</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"mar=
+gin-top: 0pt; margin-bottom: 0pt; padding-inline-start: 48px; list-style-ty=
+pe: disc; color: #000000; background-color: rgb(255, 255, 255); font-weight=
+: 400; font-style: normal; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-variant-numeric: normal; font-variant-east-asian: normal; t=
+ext-decoration-line: none; text-decoration-thickness: initial; text-decorat=
+ion-style: initial; text-decoration-color: initial; vertical-align: baselin=
+e; white-space: pre-wrap; line-height: 1.76087; font-family: arial,helvetic=
+a,sans-serif; font-size: 13px"><em><strong>- How to use WhatsApp to drive 4=
+X revenue from your online sales in a year</strong></em></span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"mar=
+gin-top: 0pt; margin-bottom: 0pt; padding-inline-start: 48px; list-style-ty=
+pe: disc; color: #000000; background-color: rgb(255, 255, 255); font-weight=
+: 400; font-style: normal; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-variant-numeric: normal; font-variant-east-asian: normal; t=
+ext-decoration-line: none; text-decoration-thickness: initial; text-decorat=
+ion-style: initial; text-decoration-color: initial; vertical-align: baselin=
+e; white-space: pre-wrap; line-height: 1.76087; font-family: arial,helvetic=
+a,sans-serif; font-size: 13px"><em><strong>- How to maximize conversions wi=
+th WhatsApp-Shopify integration</strong></em></span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><br></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"mar=
+gin-top: 0pt; margin-bottom: 0pt; padding-inline-start: 48px; list-style-ty=
+pe: disc; color: #000000; background-color: rgb(255, 255, 255); font-weight=
+: 400; font-style: normal; font-variant-ligatures: normal; font-variant-cap=
+s: normal; font-variant-numeric: normal; font-variant-east-asian: normal; t=
+ext-decoration-line: none; text-decoration-thickness: initial; text-decorat=
+ion-style: initial; text-decoration-color: initial; vertical-align: baselin=
+e; white-space: pre-wrap; line-height: 1.76087; font-family: arial,helvetic=
+a,sans-serif; font-size: 13px"><em><strong>- How to retain existing custome=
+rs and engage new ones using Interakt=E2=80=99s powerful WhatsApp Business =
+Platform</strong></em></span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: arial,helvetica,sans-serif; font-size: 13px">&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"lin=
+e-height: 1.76087; background-color: transparent; margin-top: 0pt; margin-b=
+ottom: 0pt; color: #000000; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-thickness: initial; text-decoration-style: initial; text-decoration-=
+color: initial; vertical-align: baseline; white-space: pre-wrap; font-famil=
+y: arial,helvetica,sans-serif; font-size: 13px">1000s of businesses like yo=
+u, aiming to make the most out of the upcoming festive season, have already=
+ registered for this event.</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: arial,helvetica,sans-serif; font-size: 13px">&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"lin=
+e-height: 1.76087; background-color: transparent; margin-top: 0pt; margin-b=
+ottom: 0pt; color: #000000; font-weight: 400; font-style: normal; font-vari=
+ant-ligatures: normal; font-variant-caps: normal; font-variant-numeric: nor=
+mal; font-variant-east-asian: normal; text-decoration-line: none; text-deco=
+ration-thickness: initial; text-decoration-style: initial; text-decoration-=
+color: initial; vertical-align: baseline; white-space: pre-wrap; font-famil=
+y: arial,helvetica,sans-serif; font-size: 13px">In these 45 minutes, you=E2=
+=80=99ll gain actionable insights that you can practice to boost your sales=
+ this festive season!&nbsp;</span></div>
+<div style=3D"font-family: inherit; text-align: inherit"><span style=3D"fon=
+t-family: arial,helvetica,sans-serif; font-size: 13px"><br>
+</span><span style=3D"line-height: 1.76087; background-color: transparent; =
+margin-top: 0pt; margin-bottom: 0pt; color: #000000; font-weight: 400; font=
+-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; =
+font-variant-numeric: normal; font-variant-east-asian: normal; text-decorat=
+ion-line: none; text-decoration-thickness: initial; text-decoration-style: =
+initial; text-decoration-color: initial; vertical-align: baseline; white-sp=
+ace: pre-wrap; font-family: arial,helvetica,sans-serif; font-size: 13px">So=
+, why wait? Join the experts at Interakt=E2=80=99s D2C Masterclass session =
+and get ready to skyrocket your sales during the festive rush!</span></div>=
+<div></div></div></td>
+      </tr>
+    </tbody>
+  </table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"=
+module" data-role=3D"module-button" data-type=3D"button" role=3D"module" st=
+yle=3D"table-layout:fixed;" width=3D"100%" data-muid=3D"08e0dd7b-08be-4bfd-=
+b927-8c3e35e92b1f">
+      <tbody>
+        <tr>
+          <td align=3D"center" bgcolor=3D"" class=3D"outer-td" style=3D"pad=
+ding:0px 0px 0px 0px;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=
+=3D"wrapper-mobile" style=3D"text-align:center;">
+              <tbody>
+                <tr>
+                <td align=3D"center" bgcolor=3D"#F8B434" class=3D"inner-td"=
+ style=3D"border-radius:6px; font-size:16px; text-align:center; background-=
+color:inherit;">
+                  <a href=3D"https://u18867331.ct.sendgrid.net/ls/click?upn=
+=3DXtSSqkA7o5sYTQ1Kkx-2Fi0joMNWdIbZhvohsQszjEtLmgyH-2Fcc-2Fh9m7sDA6EEda3TSL=
+V5hhoqNTO2TMEhBfgWbCUEj9PpNxjXxTQL59Y2htfJiv4GY9vh8SbSDGvbHrMsj7oP_RYEeg99A=
+p79leT7lYKY4eaeyUmrwHXNDIKuXmY6T8f4wF2daYuYHaCkTTnnEezjwKvfA9i5Pezpm96Pohft=
+CjL3uUgeJP-2B13RandPurmedDIMQGSyZjJWcz0JrXyyWF2jq35AOj5V2UUlm-2FBcqVeVGwtPh=
+lbrCc50ckIVRDyMuFUX9GcXO2h2Et-2FEu9HTGZ8cTZjXQAZ6SVawAIDNFTvLxmttRBQKp6TODR=
+x4lEwy2leJWgimrrnaIwxOtOUlb89Y5MegyLAmN31BMFbYYpPy-2Fu4D-2B-2Byp6RBzrnLEInp=
+XrfYKCjSU7Sg1SLmhGLhO3YLyg8MiZLgohhOTfghUnDnX1p0UozuIO8J3ZZM8nhNu1LcWTc0bEE=
+04kCKHwZHwbmgzvTeE0RWfodywDSodcM8JtdLWqSM1NaE0W2Qy5TjqEm5V3grXoZoZNX43xUjTy=
+5fPOc8-2FXf7Hfb-2Fla6rpxk0jxOr72t4-2Fho-2FCTejepMbp2WqJKjRUKrC96GsVVKEgdXqx=
+fNS7QjknGAZbRcFT1KNHz5YEcEmxEZOkz726OABIAL0Ug4gvSAtRl5ITwHEI4P7xRVFALDENeOR=
+cnV6JyYS-2FcLHs2Z-2BudloBh80LiOWt5Yxm0jJ-2FWvhfgeRtZbB-2FLyeGnRxI-2FAps4Fe2=
+5MOvWf98DUZlDsVv-2FJmX18qMP7moFViLTCHSZwMCraShgu2Z40iTRxvx7NLtOERzu33N-2FsQ=
+SIJBQDZpsZUs35ergWN-2BwcyQzjA0U5V7Fb015Pg9oYFP-2Bn-2BT8hetD3yGfhx7bwtiFzOcj=
+5m4dfdK4TWFouyF6QXvGawhCtLDjqmZvLQUj-2FkfRuXTvkAp8rnH0gLBIcyFe7TwLrX-2BQllj=
+v9KrRaPkB2-2FhqzLKGdpW-2BQvB4ZS4C6cNSJvHoN1B0stGheLX3XchiVNeLC3oBVWCMGCuIaP=
+Le-2Fbs6zBS5oIcZporILnW-2BsVnIVJ-2BiuFNIHz4oLYUEGSfRYFXR94K3PKKZWX026Z7ak7F=
+NDpxXTfUlF2hwHhhAiwQ" style=3D"background-color:#F8B434; border:1px solid #=
+333333; border-color:#333333; border-radius:6px; border-width:1px; color:#0=
+00000; display:inline-block; font-size:14px; font-weight:normal; letter-spa=
+cing:0px; line-height:normal; padding:12px 18px 12px 18px; text-align:cente=
+r; text-decoration:none; border-style:solid;" target=3D"_blank">Register No=
+w</a>
+                </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table><table class=3D"module" role=3D"module" data-type=3D"text" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"table-=
+layout: fixed;" data-muid=3D"f49721bc-a0b5-4060-bb59-14e25ee576d8" data-mc-=
+module-version=3D"2019-10-22">
+    <tbody>
+      <tr>
+        <td style=3D"padding:18px 0px 18px 0px; line-height:22px; text-alig=
+n:inherit;" height=3D"100%" valign=3D"top" bgcolor=3D"" role=3D"module-cont=
+ent"><div><div style=3D"font-family: inherit; text-align: justify"><br></di=
+v>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">Regards,</span></d=
+iv>
+<div style=3D"font-family: inherit; text-align: justify"><span style=3D"fon=
+t-size: 14px; font-family: arial, helvetica, sans-serif">Team Interakt</spa=
+n></div><div></div></div></td>
+      </tr>
+    </tbody>
+  </table><div data-role=3D"module-unsubscribe" class=3D"module" role=3D"mo=
+dule" data-type=3D"unsubscribe" style=3D"color:#444444; font-size:12px; lin=
+e-height:20px; padding:16px 16px 16px 16px; text-align:Center;" data-muid=
+=3D"4e838cf3-9892-4a6d-94d6-170e474d21e5"><div class=3D"Unsubscribe--addres=
+sLine"><p class=3D"Unsubscribe--senderName" style=3D"font-size:12px; line-h=
+eight:20px;">Team interakt</p><p style=3D"font-size:12px; line-height:20px;=
+"><span class=3D"Unsubscribe--senderAddress">Jio Haptik Technologies Pvt Lt=
+d, A-801, Cello Triumph, IB Patel Road, Goregaon East</span>, <span class=
+=3D"Unsubscribe--senderCity">Mumbai</span>, <span class=3D"Unsubscribe--sen=
+derState"></span> <span class=3D"Unsubscribe--senderZip">400063</span></p><=
+/div><p style=3D"font-size:12px; line-height:20px;"><a class=3D"Unsubscribe=
+--unsubscribeLink" href=3D"https://u18867331.ct.sendgrid.net/wf/unsubscribe=
+?upn=3DQFWB4BCTtzCIRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWL=
+UroEcf2AY-2ByQ0tFJ-2BRMLB5YwVS9ZZ5HknQYdcYohlckc8pXBKld-2BstiVvtORwiE3BuuIq=
+1c6UmIiSR2FlNJoYuu-2BctZK-2Bi3J1QOTD4xNaMQFz27A-2BDFpyWO5IdfmjxACud7-2Fb4DW=
+XhPuDd0OaXUDU98nsuH5eqtjxClci0oxBuXgZYFhy9g3LEm9dxJQHSnvt3CCMWvKEYEbbREDkkJ=
+ecaxjxU4sOgg9TgOKgfo08-2FNg6nIFvkaQ6LNtZ3yKr1KuSg2PBj8jpeC0pkInXfFku4YT2YTV=
+Yq-2FMMIe0HBw7UlIJmeHOOIQAVgdiENBStvjWEupTyZI7hUqZrHepZ4-2FA25ok1O6HNCxdbEb=
+-2BpWhZljzAFUo-2BoQ1YuehjrXFqSZ-2B3q1dLgGDJDQwo6pblofB-2BH3zKbWF57DUxm9ZfOT=
+8nSU2-2BEUSLmYpwEzuFxOyK-2BX-2BrupIGzBd1Bhk9aLwLxEagh-2BSYzpxyYNibcARLSJ1y6=
+4a8jZE4KNjb6RO6rVC3W6KRLqojN4UxGBteUUQaXjhs1T60qCVKbqweMCsuheiuIa-2BmVGRVfE=
+eJ5skOvBu0i4QQXn5MOAyrG1yn4iEO6-2B2MahGRDUEnKHihBpHUiZd2OZCXqJ66XiLXv-2BTd7=
+EyuwApLCGlroVm0mJ5mzy-2BjWTYrNQmfpGzbI24DA-2Ff0lN0nYOVx-2BSk4BGG2cZKjcktDZy=
+F6XXYdRVD1a6fbCU9bq-2BmCsuqSnf4-2BqzJe7QdImnFNLQq1A-2FV-2Bvrl8pnk9AF8UmBF11=
+4iwoHvbK6JO7aUncpME1Ve9Nf57Y50qY9-2Fw01lPyE-2Bxg6Qj2ODflYghTsnGHdUe2gpTP0oS=
+whLJgsHWSyDTi4SuYVjRsI-2BDC1i5n9GPhONG8ZxA1lni94aO-2F4clnFIAWqM5sbZRndLzM4a=
+tXZfgTPiZBL5eHqZr7D86USN-2Bv5W778Tn9sM7EgyqpPfEtMZYP-2FneQbHAyE4nCT2MWqsjf-=
+2FRQ-3D-3D" target=3D"_blank" style=3D"">Unsubscribe</a></p></div></td>
+                                      </tr>
+                                    </table>
+                                    <!--[if mso]>
+                                  </td>
+                                </tr>
+                              </table>
+                            </center>
+                            <![endif]-->
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </center>
+    <img src=3D"https://u18867331.ct.sendgrid.net/wf/open?upn=3DQFWB4BCTtzC=
+IRKos7YrrfGruvICN-2F3Wl3PHaGMh5yALqn-2B3vjsxv-2BrD52ptKWLUroEcf2AY-2ByQ0tFJ=
+-2BRMLB5YwVS9ZZ5HknQYdcYohlckc8pXBKld-2BstiVvtORwiE3BuuIq1c6UmIiSR2FlNJoYuu=
+-2BctZK-2Bi3J1QOTD4xNaMQFz27A-2BDFpyWO5IdfmjxACud7-2Fb4DWXhPuDd0OaXUDU98nsu=
+H5eqtjxClci0oxBuXgZYFhy9g3LEm9dxJQHSnvt3CCMWvKEYEbbREDkkJecaxjxU4sOgg9TgOKg=
+fo08-2FNg6nIFvkaQ6LNtZ3yKr1KuSg2PBj8jpeC0pkInXfFku4YT2YTVYq-2FMMIe0HBw7UlIJ=
+meHOOIQAVgdiENBStvjWEupTyZI7hUqZrHepZ4-2FA25ok1O6HNCxdbEb-2BpWhZljzAFUo-2Bo=
+Q1YuehjrXFqSZ-2B3q1dLgGDJDQwo6pblofB-2BH3zKbWF57DUxm9ZfOT8nSU2-2BEUSLmYpwEz=
+uFxOyK-2BX-2BrupIGzBd1Bhk9aLwLxEagh-2BSYzpxyYNibcARLSJ1y64a8jZE4KNjb6RO6rVC=
+3W6KRLqojN4UxGBteUUQaXjhs1T60qCVKbqweMCsuheiuIa-2BmVGRVfEeJ5skOvBu0i4QQXn5M=
+OAyrG1yn4iEO6-2B2MahGRDUEnKHihBpHUiZd2OZCXqJ66XiLXv-2BTd7EyuwApLCGlroVm0mJ5=
+mzy-2BjWTYrNQmfpGzbI24DA-2Ff0lN0nYOVx-2BSk4BGG2cZKjcktDZyF6XXYdRVD1a6fbCU9b=
+q-2BmCsuqSnf4-2BqzJe7QdImnFNLQq1A-2FV-2Bvrl8pnk9AF8UmBF114fLMAETawTw1IOyQFM=
+jXPm-2FzDUM4o5mc-2FmbeMY0Xjk2KIqncPd0U4rW5izNbSnxHjkFXimyQv8IcxZ5zJgbzk-2Fy=
+kwWHTv0ZPPtQ9hp3y3jyilQeYF30dCSWrjN4A82vtoLKs4IolDINWt2XhEDSKmJavjCCMWG7U6V=
+0RLNuKjh98wfba5MzOykNX6sFYsuUAO" alt=3D"" width=3D"1" height=3D"1" border=
+=3D"0" style=3D"height:1px !important;width:1px !important;border-width:0 !=
+important;margin-top:0 !important;margin-bottom:0 !important;margin-right:0=
+ !important;margin-left:0 !important;padding-top:0 !important;padding-botto=
+m:0 !important;padding-right:0 !important;padding-left:0 !important;"/></bo=
+dy>
+  </html>
+--8be4dcc1bf23135cc7b7be6c5d0c0d2c4a77ce7d2fd2c58c49392ee848ba--

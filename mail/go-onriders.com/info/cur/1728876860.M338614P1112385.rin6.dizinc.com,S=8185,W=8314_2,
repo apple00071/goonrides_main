@@ -1,0 +1,129 @@
+Return-Path: <export@promote.chinaedmexchange.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id PyebEzyRDGdB+RAAQ+45pw
+	(envelope-from <export@promote.chinaedmexchange.com>)
+	for <info@go-onriders.com>; Sun, 13 Oct 2024 23:34:20 -0400
+Return-path: <export@promote.chinaedmexchange.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 13 Oct 2024 23:34:20 -0400
+Received: from out21-3.dm.aliyun.com ([115.124.21.3]:40737)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.97.1)
+	(envelope-from <export@promote.chinaedmexchange.com>)
+	id 1t0Bqc-00000004fF6-3qp3
+	for info@go-onriders.com;
+	Sun, 13 Oct 2024 23:34:20 -0400
+X-AliDM-RcptTo: aW5mb0Bnby1vbnJpZGVycy5jb20=
+Feedback-ID: default:export@promote.chinaedmexchange.com:batch:307413
+DKIM-Signature:v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=promote.chinaedmexchange.com; s=aliyun-cn-hangzhou;
+	t=1728876814; h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=it2aCF1ITcF55EEdeEkF+aVCy7TrJDizB1Fl8QzSRcA=;
+	b=cnG333KZQQtkbAA+c1uO5ZyMtJb/sv0nGdWdRWS2z2qFhA95VzL48w7T1j02X8JCQ91oBxq/xLrFiqv+VbUj2yp8LIM00a4+MEJTHA9hQDTVliU7CSa92VZwfLjAopA0MNEVdnYDD2ZSW7McRSAdYYNLnjBJnQGftZFW4ouM1gQ=
+Received: from msgdactuatorserv-676456869b-69hbl(mailfrom:export@promote.chinaedmexchange.com fp:SMTPD_-VHcCuDLi6X cluster:AY35D)
+          by smtpdm.aliyun.com(127.0.0.1);
+          Mon, 14 Oct 2024 11:33:34 +0800
+X-EnvId: 600000121838428715
+Date: Mon, 14 Oct 2024 11:33:34 +0800 (CST)
+From: Ella <export@promote.chinaedmexchange.com>
+Reply-To: ellapintejin1@gmail.com
+To: info@go-onriders.com
+Message-ID: <28990100552000024101119376063_28990100539005424101430890717_XTransfer@promote.chinaedmexchange.com>
+Subject: Exploring Metal Parts Solutions with PTJ, info
+MIME-Version: 1.0
+Content-Type: text/html;charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+X-MagicSpam-TUUID: 3f9f8b4f-e0d1-4e20-a8bd-6bca22e86c97
+X-MagicSpam-SUUID: 45c2f658-ea20-49b1-aec2-09b3bd0a5821
+X-Spam-Status: No, score=2.7
+X-Spam-Score: 27
+X-Spam-Bar: ++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi info, It seems like you’re interested in our metal parts.
+    At PTJ, we've developed a remarkable solution that leverages our advanced
+    five-axis machining technology and ISO9001 certification to ensure the h
+   [...] 
+ Content analysis details:   (2.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [115.124.21.3 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [115.124.21.3 listed in sa-accredit.habeas.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                           [115.124.21.3 listed in sa-trusted.bondedsender.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.2 FREEMAIL_REPLYTO_END_DIGIT Reply-To freemail username ends in digit
+                             [ellapintejin1(at)gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of words
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay lines
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: NO
+
+<html><head><meta charset=3D"UTF-8" /><meta http-equiv=3D"X-UA-Compatible" =
+content=3D"IE=3Dedge" /><meta name=3D"viewport" content=3D"width=3Ddevice-w=
+idth, initial-scale=3D1.0" /><title></title></head><body><table role=3D"pre=
+sentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" style=3D"border=
+-spacing: 0;border-collapse: collapse;mso-line-height-rule: exactly;mso-mar=
+gin-bottom-alt: 0;mso-margin-top-alt: 0;mso-table-lspace: 0pt;mso-table-rsp=
+ace: 0pt;padding: 0;width: 100%;min-width: 600px;background-color: #fff;dir=
+ection: ltr;font-synthesis: none;"><tbody><tr><td><table class=3D"edm-conte=
+nt" role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+style=3D"border-spacing: 0;border-collapse: collapse;mso-line-height-rule: =
+exactly;mso-margin-bottom-alt: 0;mso-margin-top-alt: 0;mso-table-lspace: 0p=
+t;mso-table-rspace: 0pt;padding: 0;width: 600px;height: 100%;background-col=
+or: #fff;direction: ltr;font-synthesis: none;"><tbody><tr style=3D"font-fam=
+ily: Arial; padding: 0; word-break: break-word"><td valign=3D"top" style=3D=
+"border-collapse: collapse; font-family: Arial; word-break: break-word"><di=
+v id=3D'TEMPLATE_REPLACEMENT_STRING_ID'><pre style=3D'white-space: pre-wrap=
+;font-family: Arial;'> <p>Hi info,</p><p>It seems like you=E2=80=99re inter=
+ested in our <strong>metal parts</strong>. At PTJ, we've developed a remark=
+able solution that leverages our advanced five-axis machining technology an=
+d ISO9001 certification to ensure the highest precision. Here are some key =
+features of our metal parts product:</p><ul><li><strong>High Precision:</st=
+rong> Our state-of-the-art machines ensure impeccable accuracy for all hard=
+ware parts.</li><li><strong>Fast Turnaround:</strong> Introducing the world=
+=E2=80=99s first '1 minute quotation, 1 hour on the machine' for non-standa=
+rd structural parts.</li><li><strong>Efficiency Boost:</strong> Achieves a =
+50% increase in manufacturing efficiency and a 10% profit margin boost.</li=
+></ul><p>Could we arrange a call next week to discuss how Go On Riders can =
+benefit from our metal parts solutions?</p><p>Looking forward to your respo=
+nse.</p><p>Best,</p><p>Ella<br>Email: <a href=3D"https://xtrfr.com/t/1/m3jl=
+Yo?p=3D1kpU6VkVx-6KPafGTt_1kpU72q8p-6F0bsApv">ellapintejin1@gmail.com</a><b=
+r>Company: PTJ<br>Website: <a href=3D"https://xtrfr.com/t/1/m3jD1q?p=3D1kpU=
+6VkVx-6KPafGTt_1kpU72q8p-6F0bsApv">PTJ Website</a></p></pre></div></td></tr=
+></tbody></table></td></tr></tbody></table></body></html><img height=3D"1" =
+src=3D"https://xtrfr.com/t/1/m3bnys?p=3D1kpU6VkVx-6KPafGTt_1kpU72q8p-6F0bsA=
+pv" width=3D"1"><div style=3D"text-align: center; font-size: 12px"><div>=E5=
+=A6=82=E6=9E=9C=E4=BD=A0=E4=B8=8D=E6=83=B3=E5=86=8D=E6=94=B6=E5=88=B0=E6=88=
+=91=E4=BB=AC=E7=9A=84=E9=82=AE=E4=BB=B6=EF=BC=8C=E8=AF=B7=E7=82=B9=E5=87=BB=
+<a href=3D"https://unsubscribe.edmautopro.com/unsubscribe?p=3D1kpU6VkVx-6KP=
+afGTt_1kpU72q8p-6F0bsApv" style=3D"color: #faac58" target=3D"_blank" rel=3D=
+"noopener">=E3=80=8C=E8=BF=99=E9=87=8C=E9=80=80=E8=AE=A2=E3=80=8D</a></div>=
+<div>If you do not wish to receive further email messages from us, please c=
+lick<a href=3D"https://unsubscribe.edmautopro.com/unsubscribe?p=3D1kpU6VkVx=
+-6KPafGTt_1kpU72q8p-6F0bsApv" style=3D"color: #faac58" target=3D"_blank" re=
+l=3D"noopener">here</a></div></div>

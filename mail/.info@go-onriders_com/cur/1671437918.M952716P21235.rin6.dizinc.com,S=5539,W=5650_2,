@@ -1,0 +1,111 @@
+Return-Path: <pattoorikiran@gmail.com>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id oMVcOF4eoGPzUgAAQ+45pw
+	(envelope-from <pattoorikiran@gmail.com>)
+	for <info@go-onriders.com>; Mon, 19 Dec 2022 03:18:38 -0500
+Return-path: <pattoorikiran@gmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Mon, 19 Dec 2022 03:18:38 -0500
+Received: from mail-ej1-f44.google.com ([209.85.218.44]:43823)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.95)
+	(envelope-from <pattoorikiran@gmail.com>)
+	id 1p7BM6-0007MB-Bq
+	for info@go-onriders.com;
+	Mon, 19 Dec 2022 03:18:38 -0500
+Received: by mail-ej1-f44.google.com with SMTP id kw15so19549326ejc.10
+        for <info@go-onriders.com>; Mon, 19 Dec 2022 00:18:17 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=oZxNRPnhI65DVS3JMRFFzsyN0G8omdi5uY2HeDeKuWQ=;
+        b=j8v9q7b8bG7YPItOp+3RJDr28JMtAidLunsCCHIP6VXzisvkEggOD3QxoIslOZ+0mF
+         NtMXy5+1CiEdmE7Bh/feQ8RIQG9TvMvwt2ylQbCVAg2rVPa0wlmu1fAWgkgLSPhWciVi
+         OKB/yvqOonvmnT2lgNHncbG17I+p/2TH4UwiCiL7IrpamQvrRtC94tXSO/amfTrgl4ex
+         urnjXc/yFa+SW4pzYfwnMjmOrXec62IfTPutyuKN5SexTRKz/8V5gSJabdtSmHxgZ+K7
+         QJXNQOHwzYaUU5f6v2gjQgMX0eJCsdNkHSI0WuFlgmlKejee7FS40W0C+F+lzuccOEyj
+         c4fA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=oZxNRPnhI65DVS3JMRFFzsyN0G8omdi5uY2HeDeKuWQ=;
+        b=M/UfLFvh/sbLSUKCeaSChvregcLWVNKeXGK82EKX8GOWzlh671QIkPOZHrNC9BXePj
+         JYPpuYWA/P95sisW3t330BiCe7kvKHLciMa7cvrCyu00RPfEfFoicSYACAg4+D3wjjeu
+         cupWNczuXIbwCRtyXUdh5o4Ut2i2CbRimHs8izi1mszy7pNiQNiZ170wFFTOO2F/34cQ
+         sAdM/TJbvkpcwGg5PtYOWz+bNYJzJC5RYAEDuO6wN2zUxN5d/g11iGfkqtqnRpjYtxQ7
+         DswBOqkHEVJVV5+ME5cbkaqjT+roOFG9pmArKgORX+tZLx8J9JIXlrr62buPEwEubmee
+         YBsQ==
+X-Gm-Message-State: AFqh2kprYWxapXrP1qT7Lb7jvJbG2wj+IBIFZHzBgCi7vxi2PeFwKqVb
+	wsf8ndrmoOhxFQOmm7zhqC/XgNendwqroV+UsBT1h7vcCPf+fw==
+X-Google-Smtp-Source: AMrXdXvJMwHqa8RtpUbjDjOmnPWUN/oCjVJg9SonEgHxHXHfXa7DqfOy73ZSFn9YIlIO/baAk5kYU9VicgVHqKGH7gQ=
+X-Received: by 2002:a17:906:5902:b0:815:8b76:b1ba with SMTP id
+ h2-20020a170906590200b008158b76b1bamr298158ejq.717.1671437875645; Mon, 19 Dec
+ 2022 00:17:55 -0800 (PST)
+MIME-Version: 1.0
+From: Pattoori Kiran <pattoorikiran@gmail.com>
+Date: Mon, 19 Dec 2022 13:47:44 +0530
+Message-ID: <CAGDtBJNZozrq0X0EzYT+bynFzY-nDm+wY8U2WrOWOCEYZyehBQ@mail.gmail.com>
+Subject: I would like to give my bike to you to make rental business, please
+ provide the information
+To: info@go-onriders.com
+Content-Type: multipart/alternative; boundary="000000000000d78fea05f029f4f8"
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  I would like to give my bike to you to make rental business,
+    please provide the information -- Thanks & Regards, Kiran Kumar I would like
+    to give my bike to you to make rental business, please provide the information
+    
+ Content analysis details:   (-0.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/,
+                              no trust
+                             [209.85.218.44 listed in list.dnswl.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 SPF_HELO_NONE          SPF: HELO does not publish an SPF Record
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [pattoorikiran[at]gmail.com]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.218.44 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+--000000000000d78fea05f029f4f8
+Content-Type: text/plain; charset="UTF-8"
+
+I would like to give my bike to you to make rental business, please provide
+the information
+
+-- 
+Thanks & Regards,
+Kiran Kumar
+
+--000000000000d78fea05f029f4f8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">I would like to give my bike to you to make rental busines=
+s, please provide the information<br clear=3D"all"><div><br></div>-- <br><d=
+iv dir=3D"ltr" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"=
+><div dir=3D"ltr">Thanks &amp; Regards,<br>Kiran Kumar<br></div></div></div=
+>
+
+--000000000000d78fea05f029f4f8--

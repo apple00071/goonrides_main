@@ -1,0 +1,244 @@
+Return-Path: <postmaster@70cf71d247.nxcli.io>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id uG+5DwVTOGYZsx8AQ+45pw
+	(envelope-from <postmaster@70cf71d247.nxcli.io>)
+	for <info@go-onriders.com>; Sun, 05 May 2024 23:48:21 -0400
+Return-path: <postmaster@70cf71d247.nxcli.io>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 05 May 2024 23:48:21 -0400
+Received: from cloudhost-4212892.uk-south-2.nxcli.net ([165.84.218.242]:49290)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.96.2)
+	(envelope-from <postmaster@70cf71d247.nxcli.io>)
+	id 1s3pKt-008iUJ-36
+	for info@go-onriders.com;
+	Sun, 05 May 2024 23:48:21 -0400
+Received: (qmail 14696 invoked by uid 10148); 6 May 2024 03:31:56 +0100
+Date: Mon, 6 May 2024 02:18:19 +0000
+To: info@go-onriders.com
+From: =?UTF-8?B?0JzQtXTQsNCc0LBzaw==?= <2fa86590@mt.io>
+Reply-To: 2fa@mt.io
+Subject: Notice: Secure Your Funds with These Essential Tips
+Message-ID: <734dd1f1aa8cbaf2da1be4f1380c3640@mt.io>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="109941592f78b442c15d3250b629fc4ef"
+Content-Transfer-Encoding: 8bit
+X-MagicSpam-TUUID: c63d5a15-4434-45d7-8e0e-e249102c05c1
+X-MagicSpam-SUUID: fd3ac2a8-603f-423f-82fe-284c9817eb2a
+X-Spam-Status: No, score=4.1
+X-Spam-Score: 41
+X-Spam-Bar: ++++
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Activate Two-Factor Authentication body { font-family: Arial,
+    sans-serif; background-color: #f5f5f5; margin: 0; padding: 0; } .container
+    { max-width: 600px; margin: 20px auto; padding: 20px; background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 10px; } 
+ Content analysis details:   (4.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 HTML_IMAGE_ONLY_28     BODY: HTML: images with 2400-2800 bytes of
+                             words
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.1 LM_ONE_RECEIVED_NO_DKIM OS Generated with no DKIM
+  1.0 KAM_LAZY_DOMAIN_SECURITY Sending domain does not have any
+                             anti-forgery methods
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.2 LM_OS_GEN_4PARTCOM_NO_DKIM Common method by spammers, OS
+                             Generated, 4 part RDNS.
+  0.1 LM_CLOUD_OS_GEN_SUSP   Unexpected generation of email from a
+                             server.
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--109941592f78b442c15d3250b629fc4ef
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+
+
+    
+    
+    Activate Two-Factor Authentication
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #007BFF;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #ffffff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer-text {
+            color: #808080;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 300px; /* Adjust the width as needed */
+            padding-top: 30px; /* Add some space between logo and content */
+        }
+    
+
+
+
+    
+        
+        Secure Your Funds with 2FA
+        
+        Protect your account and secure your funds with an extra layer of security. Activate Two-Factor Authentication (2FA) today:
+        Activate 2FA Now
+        If you need assistance or have any questions, our support team is here to help.
+        Thank you for safeguarding your account with us.
+        © 2024 МеtаМаsk. All rights reserved. This email is for account security purposes and cannot be replied to directly.
+    
+
+
+
+
+--109941592f78b442c15d3250b629fc4ef
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activate Two-Factor Authentication</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1 {
+            color: #007BFF;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #333333;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #ffffff;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer-text {
+            color: #808080;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            width: 300px; /* Adjust the width as needed */
+            padding-top: 30px; /* Add some space between logo and content */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="logo" src="https://theme.zdassets.com/theme_assets/2313093/bad730fb4fa8145bf225c509b343cc23f951c2e9.svg" alt="МеtаМаsk Logo">
+        <h1>Secure Your Funds with 2FA</h1>
+        
+        <p>Protect your account and secure your funds with an extra layer of security. Activate Two-Factor Authentication (2FA) today:</p>
+        <a class="cta-button" href="https://idoxsoft.com/js/" target="_blank">Activate 2FA Now</a>
+        <p>If you need assistance or have any questions, our support team is here to help.</p>
+        <p>Thank you for safeguarding your account with us.</p>
+        <p class="footer-text">© 2024 МеtаМаsk. All rights reserved. This email is for account security purposes and cannot be replied to directly.</p>
+    </div>
+</body>
+
+</html>
+
+
+
+--109941592f78b442c15d3250b629fc4ef--

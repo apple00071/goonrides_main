@@ -1,0 +1,135 @@
+Return-Path: <postmaster@923d2e72bc.nxcli.io>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id GLDzEQd7BWjRwhcAQ+45pw
+	(envelope-from <postmaster@923d2e72bc.nxcli.io>)
+	for <info+spam@go-onriders.com>; Sun, 20 Apr 2025 18:53:59 -0400
+Return-path: <postmaster@923d2e72bc.nxcli.io>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 20 Apr 2025 18:53:59 -0400
+Received: from cloudhost-10309509.us-midwest-1.nxcli.net ([8.29.155.4]:61112)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.1)
+	(envelope-from <postmaster@923d2e72bc.nxcli.io>)
+	id 1u6dXz-00000006X5E-14RQ
+	for info@go-onriders.com;
+	Sun, 20 Apr 2025 18:53:59 -0400
+Comment: DomainKeys? See http://domainkeys.sourceforge.net/
+DomainKey-Signature: a=rsa-sha1; q=dns; c=nofws;
+  s=default; d=923d2e72bc.nxcli.io;
+  b=DPwcVrasUn02fXfExDXE+YYWqwXLU8E2Rrtdi0aOM/fbeeSbh9DF14/tNa9uBDrgkeDBpdmXeqmc6B4pyY7iPVWQ8dZR2EyQhbu4xJQnc9i5nFm9bH8BgdGFZMsMzI8sjaUvBVJ6uTB6VUQMWrWYsBAU9TcfrNQOaNN6wl+CU6Cjnaa0nztsP7Xji8zijGWjZ8dUaUXQo9EJW5m9jUNrBjW2rvEdKDzu+VFuU/UB1b0a4osHyX6NAn0NINuJJZw/7XXFFLvbIYjL/jPCEoiyWUEfyDwIiF2scNr9nODifDptkTHqWu9ju3mQl9oLO+IKmu0DezZtynpE/FAL1f3JAw==;
+  h=Received:Date:Message-ID:To:Subject:X-PHP-Originating-Script:From:Reply-To:Content-Type:X-Mailer-ID:X-Origin-IP:X-Message-ID:X-Origin-Time:X-Campaign-ID:List-Unsubscribe;
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed; d=923d2e72bc.nxcli.io; h=
+	date:message-id:to:subject:from:reply-to:content-type
+	:list-unsubscribe; s=default; bh=IOruXwLpD8JWLj+DrOdxqHW5u3wlv+F
+	H/2+N4+Az+Wg=; b=ZwHXrZcLL0pweXE/X1XyXAu9F0BDN7FWr4tDahdthbBlfvE
+	HJLzY+c+yFcdwkedGfperyiFqqQ91/1WxLIvLwgpXoJqFdW8ytvUvWIL+kE+X8BN
+	gYoHlxUHB8/AEpc3xizuyU956PGF3ImPOrieFWCZqdRN7eNafnpZaC/IGDjxZh+o
+	IDzsx9GCOpzZtaXJ4A/Wibbd3gDZRgHn6mEPdxcHm9awBXL99opBXQFvH7P6DaV+
+	CfEYNpKSE0tTP+UiE0put67YGKS44kk6g2dnib8kSnp42U1koKG7iKZvhgec7jRS
+	HTkuqVZt51IlDM7VbbdZSw3fllWs4Ac887fNjZw==
+Received: (qmail 8962 invoked by uid 10043); 20 Apr 2025 22:46:37 +0000
+Date: 20 Apr 2025 22:46:37 +0000
+Message-ID: <20250420224637.8961.qmail@cloudhost-10309509.us-midwest-1.nxcli.net>
+To: info@go-onriders.com
+X-PHP-Originating-Script: 10043:waz.php
+From: MetaMask Security <e9bad59fcc91e520e30b445f80ded3a1@wallet-support.net>
+Reply-To: no-reply@2fa.com
+Content-Type: text/html; charset=UTF-8
+X-Mailer-ID: 6805794d1b43b
+X-Origin-IP: 192.168.1.179
+X-Message-ID: 91ff7912ea3bcb5bc823244b15ffc831
+X-Origin-Time: 2025-04-20 22:46:37
+X-Campaign-ID: 967a29a249e6dd78
+List-Unsubscribe: <mailto:unsubscribe@2fa.com>
+X-MagicSpam-TUUID: c86ab621-cf51-4f9b-ad27-b4a53efc1eb8
+X-MagicSpam-SUUID: 34d28dd6-d6ba-4a5c-875c-328671e6d0a2
+X-Spam-Status: Yes, score=6.7
+X-Spam-Score: 67
+X-Spam-Bar: ++++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Verify Your Wallet Access We detected an update to your session
+    activity. To maintain uninterrupted access, please confirm your identity
+   below. Activating Two-Factor Authentication (2FA) helps secure your wallet
+    against unauthorized access—even if your password is known. 
+ Content analysis details:   (6.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.155.4 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.155.4 listed in sa-accredit.habeas.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: nxcli.io]
+                             [URI: wikimedia.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [8.29.155.4 listed in bl.score.senderscore.com]
+  0.8 DKIM_ADSP_NXDOMAIN     No valid author signature and domain not in DNS
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 KAM_DMARC_STATUS       Test Rule for DKIM or SPF Failure with Strict
+                             Alignment
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  0.3 FROM_LOCAL_HEX         From: localpart has long hexadecimal sequence
+  0.0 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level mail
+                             domains are different
+  0.7 HTML_IMAGE_ONLY_20     BODY: HTML: images with 1600-2000 bytes of words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.1 MIME_HEADER_CTYPE_ONLY 'Content-Type' found without required MIME
+                             headers
+  3.0 RAZOR2_CHECK           Listed in Razor2 (http://razor.sf.net/)
+  1.5 RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]
+X-Spam-Flag: YES
+Subject:  ***SPAM***  =?UTF-8?B?U2VjdXJpdHkgQWxlcnQ6IFZlcmlmeSBZb3VyIE1ldGFNYXNrIEFjY291bnQ=?=
+
+
+
+<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:20px;font-family:Arial,sans-serif;background-color:#fff;color:#333;">
+<table width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;margin:auto;border:1px solid #ddd;border-radius:6px;">
+  <tr>
+    <td style="background-color:#fff;padding:20px;text-align:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" width="60" alt="Access Logo" style="margin-bottom:20px;">
+      <h2 style="color:#f6851b;font-size:20px">Verify Your Wallet Access</h2>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding:20px;">
+      <p>We detected an update to your session activity. To maintain uninterrupted access, please confirm your identity below.</p>
+      <p>Activating Two-Factor Authentication (2FA) helps secure your wallet against unauthorized access—even if your password is known.</p>
+      <p style="text-align:center;margin:30px 0">
+        <a href="https://viptakabonus.com/nt?id=341929637896419095-2832" style="background-color:#f6851b;color:#fff;text-decoration:none;padding:12px 22px;border-radius:5px;font-weight:bold">🔒 Secure My Wallet Now</a>
+      </p>
+      <p style="text-align:center;font-size:13px;color:#777;">For your protection, this session will expire shortly.</p>
+      <p>If this wasn't initiated by you, please disregard this message.</p>
+      <p>Regards,<br>Support Team</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="background-color:#f2f2f2;text-align:center;font-size:12px;color:#888;padding:10px;border-top:1px solid #ddd;">
+      © 2025 Account Services. All rights reserved.
+    </td>
+  </tr>
+</table>
+</body>
+</html>
+<!-- Random-ID: 6805794d1b450 -->

@@ -1,0 +1,342 @@
+Return-Path: <010e0176edd39aee-035eca31-c22e-4bd4-a0d1-30ae8e077098-000000@comms.olx.in>
+Delivered-To: info@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id mHLkEC5Z+1+iPQAAQ+45pw
+	(envelope-from <010e0176edd39aee-035eca31-c22e-4bd4-a0d1-30ae8e077098-000000@comms.olx.in>)
+	for <info@go-onriders.com>; Sun, 10 Jan 2021 14:44:46 -0500
+Return-path: <010e0176edd39aee-035eca31-c22e-4bd4-a0d1-30ae8e077098-000000@comms.olx.in>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sun, 10 Jan 2021 14:44:46 -0500
+Received: from e232-54.smtp-out.ap-southeast-1.amazonses.com ([23.251.232.54]:37413)
+	by rin6.dizinc.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <010e0176edd39aee-035eca31-c22e-4bd4-a0d1-30ae8e077098-000000@comms.olx.in>)
+	id 1kygdk-0007Sb-N6
+	for info@go-onriders.com; Sun, 10 Jan 2021 14:44:46 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ury2kddgxsmulzr74q7colfiujsc47pf; d=olx.in; t=1610307836;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=/R8Qy0AQ92xa+aZh0d2Pdi4AzZYpvkzDzBYDNKBV7GE=;
+	b=QsR5+ckxNIABU/CHZc4rTfN23b8/BzSxxr5i1DPJnfrwShtUaqyWV4udIBLdlm9Q
+	Yq6gugJLa5ZIfcZ3BSjoH6TwhH+ZuO397kYyU3oCrHF7TM1Nh0VF1RP9pgLZrw7rekA
+	sGr6OaJ1OwRR20zKttBIsSCHqC3Z/fTfuG+r/zGI=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=33l4t57s6hxgsng3hsnbfahbdkoubkgb; d=amazonses.com; t=1610307836;
+	h=From:Reply-To:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=/R8Qy0AQ92xa+aZh0d2Pdi4AzZYpvkzDzBYDNKBV7GE=;
+	b=WDgGO/T6+qPI9p35Z1ZNNiHTnsty4rm7UulmzK5D3PczjRNF8I1iP2vQKxZHyCgu
+	KyIEeORBzvFHzH0WHUAeo5lyVSrjEUlaiVoKMTqbEl5ThCVv2+pq4uedHzt5kHsjvU7
+	doI/s+ePQ708VYMwxAeZz733VrE/AtLljGOE/A9Q=
+From: OLX <support@olx.in>
+Reply-To: noreply@olx.in
+To: info@go-onriders.com
+Subject: Your verification code is 5565
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_4375322_835982971.1610307836657"
+Message-ID: <010e0176edd39aee-035eca31-c22e-4bd4-a0d1-30ae8e077098-000000@ap-southeast-1.amazonses.com>
+Date: Sun, 10 Jan 2021 19:43:56 +0000
+X-SES-Outgoing: 2021.01.10-23.251.232.54
+Feedback-ID: 1.ap-southeast-1.6vOl4VKSfMlidQ7LvzKYdAbS9C83MA5w13n+VD/AHxs=:AmazonSES
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello, Your confirmation code is 5565 Thanks, 
+ Content analysis details:   (0.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: awstrack.me]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+------=_Part_4375322_835982971.1610307836657
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+Your confirmation code is 5565
+
+Thanks,
+
+OLX Team
+
+Please do not reply this email. Replies to this message are routed to an unmonitored mailbox. For more information visit our help page or contact us here.
+------=_Part_4375322_835982971.1610307836657
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+<title>Email Confirmation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<style type="text/css">
+    /* CLIENT-SPECIFIC STYLES */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+    body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* RESET STYLES */
+    body{margin:0; padding:0; color:#000;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    body{height:100% !important; margin:0; padding:0; width:100% !important;}
+
+    /* iOS BLUE LINKS */
+    .appleBody a {color:#68440a; text-decoration: none;}
+    .appleFooter a {color:#999999; text-decoration: none;}
+    
+    /* Table width fix for desktop */
+    table tr td table tr td div table {max-width: 300px !important;}
+    table tr td table tr td div table tr td table {max-width: 100% !important;}
+    table tr td table tr td div table + table {max-width: 60% !important;}
+    table tr td table tr td div table + table tr td table tr td {padding: 20px 0 0 !important;text-align: left !important;}
+
+    table tr td table tr td div table tr td table tr td {font-size: 30px !important;}
+
+    /* MOBILE STYLES */
+    @media screen and (max-width: 640px) {
+
+        /* ALLOWS FOR FLUID TABLES */
+        table tr td table tr td div table {max-width: 100% !important;}
+        table tr td table tr td div table + table {max-width: 100% !important;}
+        table tr td table tr td div table tr td table tr td {font-size: 22px !important;}
+
+        table[class="wrapper"]{
+          width:100% !important;
+        }
+
+        /* ADJUSTS LAYOUT OF LOGO IMAGE */
+        td[class="logo"]{
+          text-align: left;
+          padding: 20px 0 0 !important;
+        }
+
+        td[class="logo"] img{
+          margin:0 auto!important;
+        }
+
+        /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+        td[class="mobile-hide"]{
+          display:none;
+        }
+
+        img[class="mobile-hide"]{
+          display: none !important;
+        }
+
+        img[class="img-max"]{
+          max-width: 100% !important;
+          width: 100% !important;
+          height:auto !important;
+        }
+
+        /* FULL-WIDTH TABLES */
+        table[class="responsive-table"]{
+          width:100%!important;
+        }
+
+        /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+        td[class="padding"]{
+          padding: 10px 5% 15px 5% !important;
+        }
+
+        td[class="padding-copy"]{
+          padding: 30px 20px 0px !important;
+          /*text-align: center !important;*/
+        }
+
+        td[class="user-copy"]{
+          padding: 0px !important;
+          /*text-align: center !important;*/
+        }
+
+        td[class="padding-meta"]{
+          padding: 30px 5% 0px 5% !important;
+          /*text-align: center !important;*/
+        }
+
+        td[class="no-pad"]{
+          padding: 0 0 20px 0 !important;
+        }
+
+        td[class="no-padding"]{
+          padding: 0 !important;
+        }
+
+        td[class="section-padding"]{
+          /*padding: 0px 15px 30px 15px !important;*/
+        }
+
+        td[class="section-padding-bottom-image"]{
+          /*padding: 0px 15px 0 15px !important;*/
+        }
+
+        /* ADJUST BUTTONS ON MOBILE */
+        td[class="mobile-wrapper"]{
+            padding: 10px 5% 15px 5% !important;
+        }
+
+        table[class="mobile-button-container"]{
+            margin:0 auto;
+            width:100% !important;
+        }
+
+        a[class="mobile-button"]{
+            padding: 15px !important;
+            border: 0 !important;
+            font-size: 16px !important;
+        }
+
+    }
+</style>
+</head>
+<body style="margin: 0; padding: 0;">
+
+<!-- HEADER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#eeeeee">
+            <!-- HIDDEN PREHEADER TEXT -->
+            <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: 'Poppins', sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+                Email Confirmation
+            </div>
+        </td>
+    </tr>
+</table>
+
+<!-- ONE COLUMN SECTION -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+        <td bgcolor="#eeeeee" align="center" style="padding: 0px 15px 0px 15px;" class="section-padding">
+            <table border="0" cellpadding="0" cellspacing="0" width="570" class="responsive-table">                
+                <tr>
+                    <td bgcolor="#eeeeee" height="20"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="#eeeeee">
+                        <!-- HERO IMAGE -->
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important;">
+                            <tr>
+                                <td bgcolor="#eeeeee" width="100" align="center" style="padding: 0 0 12px;">
+                                    <a href="https://www.olx.in" target="_blank">
+                                        <img alt="OLX" src="https://apollo-ireland.akamaized.net/v1/files/pxallmf57tbs-COMMS/image;f=png" width="70" height="70" style="margin: 0 auto; display: block; font-family: 'Poppins', sans-serif; color: #ffffff; font-size: 16px;" border="0">
+                                    </a>
+                                </td>                                    
+                            </tr>
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                  <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important;">
+                                    </table>
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important;">
+                                        <tr>
+                                          <td bgcolor="#ffffff" style="padding: 30px 30px 0px; font-size: 14px; line-height: 25px; font-family: 'Poppins', sans-serif; color: #002F34; " class="padding-copy">Hello,</td>
+                                        </tr>
+                                        <tr>
+                                          <td bgcolor="#ffffff" style="padding: 10px 30px 0px; font-size: 14px; line-height: 25px; font-family: 'Poppins', sans-serif; color: #002F34;" class="padding-copy">Your confirmation code is <strong>5565</strong><br></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+                
+                <tr>
+                    <td bgcolor="#ffffff" style="">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important;">
+                            <tr>
+                                <td>
+                                    <!-- COPY -->
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="width:100% !important;">
+                                        <tr>
+                                          <td style="padding: 20px 30px 0px 30px; font-size: 14px; line-height: 25px; font-family: 'Poppins', sans-serif; color: #002F34;"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="responsive-table">
+                        
+                                          </table></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding: 20px 30px 30px 30px; font-size: 14px; line-height: 25px; font-family: 'Poppins', sans-serif; color: #002F34;">Thanks,<br>
+                                              OLX Team</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+      </td>
+    </tr>
+</table>
+
+<!-- FOOTER -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="width:100% !important;">
+    <tr>
+        <td bgcolor="#eeeeee" align="center" style="padding: 0 0 20px;">
+            <!-- DOWNLOAD APP -->
+            <table width="570" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table" style="width:100% !important;">
+                <tr>
+				<br>
+                    <td align="center">
+                        <table width="260" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tr>
+                                <td width="125">
+                                    <a href="https://play.google.com/store/apps/details?id=com.olx.southasia&hl=en_IN">
+                                        <img src="http://static01.olx-st.com/mkt/crm/gplay-badge-en.png" width="125" height="37" border="0" alt="Download the app" style="display: block; color: #002F34;  font-family: 'Poppins', sans-serif; font-size: 16px;">
+                                    </a>
+                                </td>
+                                <td width="10"></td>
+                                <td width="125">
+                                    <a href="https://itunes.apple.com/in/app/olx-local-classifieds/id913492792">
+                                        <img src="http://static01.olx-st.com/mkt/crm/appstore-badge-en.png" width="125" height="37" border="0" alt="Download the app" style="display: block; color: #002F34;  font-family: 'Poppins', sans-serif; font-size: 16px;">
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" style="padding-top: 10px;font-size: 12px; line-height: 18px; font-family: 'Poppins', sans-serif; color:#002F34;">
+                        Please do not reply this email. Replies to this message are routed to an unmonitored mailbox. <br />For more information visit our <a href="https://help.olx.in" style="color: #002F34;text-decoration:underline;">help page</a> or <a href="https://help.olx.in/hc/en-us/requests/new" style="color: #002F34;text-decoration:underline;">contact us here.</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<img alt="" src="http://r3wt6cxl.r.ap-southeast-1.awstrack.me/I0/010e0176edd39aee-035eca31-c22e-4bd4-a0d1-30ae8e077098-000000/_WgsrNy59Nm4Ba1dpRXafD9OJDo=1" style="display: none; width: 1px; height: 1px;">
+</body>
+</html>
+------=_Part_4375322_835982971.1610307836657--

@@ -1,0 +1,274 @@
+Return-Path: <Orion_Ross@hotmail.com>
+Delivered-To: info+spam@go-onriders.com
+Received: from rin6.dizinc.com
+	by rin6.dizinc.com with LMTP
+	id MPaeK3mkuWcsISAAQ+45pw
+	(envelope-from <Orion_Ross@hotmail.com>)
+	for <info+spam@go-onriders.com>; Sat, 22 Feb 2025 05:18:33 -0500
+Return-path: <Orion_Ross@hotmail.com>
+Envelope-to: info@go-onriders.com
+Delivery-date: Sat, 22 Feb 2025 05:18:33 -0500
+Received: from mail-sg2apc01olkn2059.outbound.protection.outlook.com ([40.92.53.59]:23521 helo=APC01-SG2-obe.outbound.protection.outlook.com)
+	by rin6.dizinc.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98)
+	(envelope-from <Orion_Ross@hotmail.com>)
+	id 1tlmae-00000008q1C-3gVX
+	for info@go-onriders.com;
+	Sat, 22 Feb 2025 05:18:33 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=NAjIHjCaLzaorcDebnxhGv5cyLEeqHcfUM/NKDxP2EICMNOm5/Ntln7ysmI9uRub/AD2rdwHRqW75xcn8dAj7tIiA/loJ2EZYON2OpYWPkecIdfte63bWwirmSqqEOb/hLVydrWWG/UtbhUC79N8ckMaPKfsY68qbv1z44hZqUulCoOixuTlljgzfN12AUfeP9COIYFJqjX+lOtN47/pqrqfGI1s2Z/JqiE0jW443Jy8Xny2tJKJaRQdNn1CJAMBso6eYqAtmzDST8lMVD6wEJmq8uXCEiVfWHPohcx/CcHRoD+mq/0Yb52bw9Ap/AzT0lzoFE8RB2DWgFMGeyydHg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=VnH8Tv4gQLIO+V7g47zFo0tLGvarnokl0Gna3AfN5HM=;
+ b=qS64CF/i9iTlA2IzIxZCvQqSojQWYB+zbozRkQUmftXll/7Tmax8IF316JcOC+ld7QyXo9ZHThO/8QMIX+qgMsObTYOEUqw6gXaq6+xgaHvl+l3hZV4iCUbBLoxw1yEpm9cYHS7Az+FKvj8uWy+1dFybwjQuaSfuJLK4mlGy+Wzvi3+7CRt32KvfJH2PRNTaq/4I1wEFQ0e3umkBXzEYDJvVn7ArL0kol09HFPjnMZNAylgGlK3NCLHMlTbPgbsmp3YZyRF0cRu1cbw8fxpx+lojqVhty1Hm3EtAABP49ZRLQfTctKUPYhNFv4Sr0EQ0zhvnxeW/JSNo951Mt5F5uw==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hotmail.com;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=VnH8Tv4gQLIO+V7g47zFo0tLGvarnokl0Gna3AfN5HM=;
+ b=aUuIwD3pR51+QrZzhUUV0TAtzmWEk3qWpwUsSkqo8u+gcIlIp6JaUG2R2Gotvl8XAsBWhlnofAuRhs0NZCwjVP+f5ynN3Ct4aysKu+/dX3yENYjVnGpk6N9XoOkN81uCcOi6eDctEgLuzT0CUnZd6a/42Uc2IOyN3Ho0xoJHVJ+nh9nrN+P0VB1F/KLSCFWis9RfsUgVb5xotilP2Pm0Copul/WIItb+xua6V72ffeIuudU8RyHP/3V0WmOuV0QTnGBbtwQaqsWZz/jdb9d9PsMbrUB/tw7ov9YQmuHCA0Vj2dSbg4B9uZYqzIr64HdavXd4Q7gM0FfZVTnM1TMChQ==
+Received: from TY0PR06MB5732.apcprd06.prod.outlook.com (2603:1096:400:270::13)
+ by SEZPR06MB6612.apcprd06.prod.outlook.com (2603:1096:101:187::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8466.18; Sat, 22 Feb
+ 2025 10:16:30 +0000
+Received: from TY0PR06MB5732.apcprd06.prod.outlook.com
+ ([fe80::8a66:11d7:a426:39d4]) by TY0PR06MB5732.apcprd06.prod.outlook.com
+ ([fe80::8a66:11d7:a426:39d4%4]) with mapi id 15.20.8466.016; Sat, 22 Feb 2025
+ 10:16:29 +0000
+From: Orion Ross <Orion_Ross@hotmail.com>
+Thread-Topic: Quote & packages...>?>
+Thread-Index: AQHbhRLUwTcHvI/PXkaRxhaRF18MZQ==
+Date: Sat, 22 Feb 2025 10:16:28 +0000
+Message-ID:
+ <TY0PR06MB573247985B7E79136A6E5856F8C62@TY0PR06MB5732.apcprd06.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: TY0PR06MB5732:EE_|SEZPR06MB6612:EE_
+x-ms-office365-filtering-correlation-id: ee67f758-3b1b-4a5a-da61-08dd5329f85d
+x-microsoft-antispam:
+ BCL:0;ARA:14566002|15030799003|19110799003|8060799006|8062599003|461199028|7092599003|15080799006|440099028|3412199025|13041999003|102099032;
+x-microsoft-antispam-message-info:
+ =?Windows-1252?Q?7AdA/Yy9VSaTwgN6YaM8lv80nblXTxKUAeX4xyIE9dQ+uFh8iEmlMYYg?=
+ =?Windows-1252?Q?96iItiLPE4KjKc/Eku90i399ao7Oh4zdL6vTo19CvpWFgXdh+Bz0jPPn?=
+ =?Windows-1252?Q?VMrCmwh1TeVqZPeNr0dx7+zFllnzZ4/L4mxoyu3ZojK7w3p8kzx4gKfG?=
+ =?Windows-1252?Q?f2a8tOLztqw6uUtmHHw2YW+YfLSEQkSxmUU/Ef6OHXy6wwtZ3+gXZR4b?=
+ =?Windows-1252?Q?0Qy2lDIvjYpzrhIz2RSvaq85YbVA7RmWcqccuKhlbiMb0KD5t+ls946n?=
+ =?Windows-1252?Q?UMWklpwOWCY+Do+KqEgvGVDxmtSYuXPoijvfe7h1uV/O4sJJbGUJA3Wu?=
+ =?Windows-1252?Q?1Gl6j9ROrTKas1Y5GRRpsdZK5wYQo8ts9COpN4CHTsqJX3li2ceWWxfG?=
+ =?Windows-1252?Q?v1BzGUvlE9mNeKel1cKiOebVMp6AylkdP8C1zw0Hse6q91Lqfq/hsd91?=
+ =?Windows-1252?Q?+PFoZeUlRfgZVVYOfIg/JpNh/gmY2LhBS2h+CY4Hc74j+9QPdOtvFdzk?=
+ =?Windows-1252?Q?FOjswhumBy9MtjxEqWD1x45i4FgT0ppi6nX8aJ8YNdqjo5jJuP+sbX1F?=
+ =?Windows-1252?Q?Lf6IdNIJdLW7LSAYTdXRAiamrCP9ZaYeubjtpOtiEf1x+RliW7YTMD4l?=
+ =?Windows-1252?Q?O7cHbDC9rqRDOn915q0ZnxMrK88UgMrIpjekQkiJ09vpRROYR6LHRkyi?=
+ =?Windows-1252?Q?lBVMVNm783t0wqgmpsy33NrtgStmGKS9fT4nWsXBNZZk/H7ZuXvsfa3j?=
+ =?Windows-1252?Q?ijaKi2IJGonnvcKa2zHQZisu9oRDaMuQZHTB4Qy+s/Ku3X4EBvrqyMf9?=
+ =?Windows-1252?Q?k1QWzFyh3YKdUG5x+mcUP2+WiSb/zxEMd6nTyd/2uNxfkB77MbFGCRna?=
+ =?Windows-1252?Q?r3xQX0gAvaoJD7k6iE8UtA8Tf6vxTA4c0JKMvVeGkeiMWr0tzjRPPurQ?=
+ =?Windows-1252?Q?/ZsrY9mgoyNVt/hPH+x1/1Av0zY6JTCsVnLkBM+NL2EHZU70eJLRaj1b?=
+ =?Windows-1252?Q?ycpjnRI6iR/DmNfWViHBx75dj2GvY4qKGx59hikZyj6+k6E1KekQjyYD?=
+ =?Windows-1252?Q?bvreiGaNewecZveIvnjLLG1xtqwho5Pxx++OFmpOrEAdcZ0AjtQqOy+U?=
+ =?Windows-1252?Q?X7wX8CxyH1ihoo7xr1NgMiJnSCkd4a3iiWVMM9MouFBBNrgG/HbzjzT1?=
+ =?Windows-1252?Q?KXByRtEcNjzc2+9Pzp2bK95nw2Qt4Yb6qvis+UMx9yizaHm4/cAdhA?=
+ =?Windows-1252?Q?=3D=3D?=
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?Windows-1252?Q?Au/y+V8mRMVPKhuAevapoI7WtAfn0oLRafXqmf4v6LSZIzqAjkHhupDa?=
+ =?Windows-1252?Q?phjF2faMXUtH/QIgWIkDOz9kgIYgLzKYmbYokNDbowUstBrPACuImDco?=
+ =?Windows-1252?Q?0m6hGD1Nd/MpRojQ8xwRxgo7zPYfXim7sSgpEy7INd/jEi1k74rDR2s9?=
+ =?Windows-1252?Q?6k3huB1uT+s0lR7eC7NoZV7t3vTgJC3SFifOQ6EyIfpylEydAVwNmwMO?=
+ =?Windows-1252?Q?KT52VT4aZOGODPKmim2kFU26ZJMyJLrf80Vv6ghu1H1AuueCGoSEdzF7?=
+ =?Windows-1252?Q?Xu8eDeSmKVpvA8SavsOmNJoX4JLplJvM3dSYcJKe+2YKiqf8iz5HEKpx?=
+ =?Windows-1252?Q?fLFJh2sgKtKXxrl3U226/VycFwGazhMzAMaZ6RG86+n5Ml1VtY3FgKO5?=
+ =?Windows-1252?Q?IuejMmYFREUlYJLe/qn4curBhYD2DFRc0AqF517ci+sKtC8JKdw8I1EK?=
+ =?Windows-1252?Q?BFcD9r2Vfn0Nx+Rg3dVt20VeS6k+0m9F7M0UuaEMRkMfiBK4rl06JiX3?=
+ =?Windows-1252?Q?XauyVN5ZUuLdJWBOmEqlCTNeQGV8F5VlM0dnVuFN9kOtaOYvBhMiFpLQ?=
+ =?Windows-1252?Q?UaZtzWNTzc7RFWzaYApPW+mfwA8N2lovlOUv9Tx+09HAqo3qzyFi5dcV?=
+ =?Windows-1252?Q?YoN1e7E7xhD9V5Nb5vc/lGV9aSSlb+toYDY8mDHwZmsIbx9LMbB7tH5Y?=
+ =?Windows-1252?Q?rpfEQi+rbsKB8fTkG8ihYLEZ2+B4QIN9D5DEcNI/GXGOaa4pc5tbAAoG?=
+ =?Windows-1252?Q?RqI0i20XugKtjGHKQLSZmSSJ9M9ET9FX542NE5Bqmvpyb5R9QKtA4mUH?=
+ =?Windows-1252?Q?BQe7e1Cbl/ioQx1sL64kmNxju6xU5imNLo2VLRa3G2zhIhssUlYl+Bj5?=
+ =?Windows-1252?Q?qkxUC2/QKQdKK60Mlmt9tcQkZ6ASJ5y7GreHKZ4K9mKkdTWf3IaszvpE?=
+ =?Windows-1252?Q?hsQkgSquhDft9Rqr08lwPY9iJB39KW2jnFOh6YNdSwFraL+MWul5/3FS?=
+ =?Windows-1252?Q?elm0w7Z9wYagNE55ZZW+XcZbuvLvtAiqFK2AVThxVazYNfRDuRuN2dyJ?=
+ =?Windows-1252?Q?1fAW5kocIPy5KXWiS5g3df/ahwIHawqvmfHemLR72adRNFGEk1jdkzNa?=
+ =?Windows-1252?Q?+zztu1gHCpcwGGNauxl18xp2HojIMeKQj4eZ3VTjcOdf0UXGaEXY5eST?=
+ =?Windows-1252?Q?zMM6jF0nbUcuwAbEvLIYkGQmVOtJaGpxU5GK4HKB3MI5+K93kRMCC71H?=
+ =?Windows-1252?Q?3bBJivLKSAqQEViFwWl7aRgduIHHcqJydIxdc4Z4yijuX73/UJIuAeeu?=
+ =?Windows-1252?Q?v6bA5thpXAY/AdjXL/QfeVxQIwg=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_TY0PR06MB573247985B7E79136A6E5856F8C62TY0PR06MB5732apcp_"
+MIME-Version: 1.0
+X-OriginatorOrg: sct-15-20-7719-20-msonline-outlook-8b163.templateTenant
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TY0PR06MB5732.apcprd06.prod.outlook.com
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-CrossTenant-Network-Message-Id: ee67f758-3b1b-4a5a-da61-08dd5329f85d
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 Feb 2025 10:16:28.1845
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-rms-persistedconsumerorg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SEZPR06MB6612
+X-MagicSpam-TUUID: 9b0f31e2-c546-43bc-b06c-8c47883cd47b
+X-MagicSpam-SUUID: 4763c89e-66aa-4755-bdbf-6df6188c1cf8
+X-Spam-Status: Yes, score=5.5
+X-Spam-Score: 55
+X-Spam-Bar: +++++
+X-Spam-Report: Spam detection software, running on the system "rin6.dizinc.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi I hope you’re doing great! If you allow me, I would like
+    to send you a detailed audit report of your website, including pricing, highlighting
+    key areas for improvement to significantly boost your search rankings and
+    online visi [...] 
+ Content analysis details:   (5.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                            [40.92.53.59 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.92.53.59 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [40.92.53.59 listed in sa-accredit.habeas.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 ARC_SIGNED             Message has a ARC signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+  0.0 ARC_VALID              Message has a valid ARC signature
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail provider
+                             [orion_ross(at)hotmail.com]
+  1.2 MISSING_HEADERS        Missing To: header
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  4.5 KAM_SEO2               Spammers hawking SEO
+  0.0 MALFORMED_FREEMAIL     Bad headers on message from free email service
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Quote & packages...>?>
+
+--_000_TY0PR06MB573247985B7E79136A6E5856F8C62TY0PR06MB5732apcp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hi
+
+I hope you=92re doing great!
+
+If you allow me, I would like to send you a detailed audit report of your w=
+ebsite, including pricing, highlighting key areas for improvement to signif=
+icantly boost your search rankings and online visibility.
+
+The report covers: - A breakdown of technical errors, Competitor analysis f=
+or better positioning, On-page error analysis, Traffic and ranking insights=
+, and many more!
+
+May I send you quote & packages? If interested.
+
+Warm regards,
+Orion Ross
+
+
+
+--_000_TY0PR06MB573247985B7E79136A6E5856F8C62TY0PR06MB5732apcp_
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Hi</div>
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; line-height: 12.65=
+pt; margin: 0cm 0cm 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+I hope you=92re doing great!</div>
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; line-height: 12.65=
+pt; margin: 0cm 0cm 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+If you allow me, I would like to send you a detailed audit report of your w=
+ebsite, including pricing, highlighting key areas for improvement to signif=
+icantly boost your search rankings and online visibility.</div>
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; line-height: 12.65=
+pt; margin: 0cm 0cm 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+The report covers: - A breakdown of technical errors, Competitor analysis f=
+or better positioning, On-page error analysis, Traffic and ranking insights=
+, and many more!</div>
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; line-height: 12.65=
+pt; margin: 0cm 0cm 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+May I send you quote &amp; packages? If interested.</div>
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"text-align: left; line-height: 12.65=
+pt; margin: 0cm 0cm 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos=
+_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; color: rgb=
+(0, 0, 0);">
+Warm regards,</div>
+<div class=3D"elementToProof" style=3D"margin: 0cm 0cm 0.0001pt; font-famil=
+y: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans=
+-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+Orion Ross</div>
+<div class=3D"elementToProof" style=3D"line-height: 12.65pt; margin: 0cm 0c=
+m 0.0001pt; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Ca=
+libri, Helvetica, sans-serif; font-size: 12pt; color: rgb(0, 0, 0);">
+&nbsp;</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 12pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+</body>
+</html>
+
+--_000_TY0PR06MB573247985B7E79136A6E5856F8C62TY0PR06MB5732apcp_--
